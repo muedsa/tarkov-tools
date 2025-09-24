@@ -14,7 +14,10 @@ type HideoutStationTag = HideoutStationData & { completed: boolean };
 
 const FoundInRaidItemCard = ({ data }: FoundInRaidItemCardProps) => {
   const userDataContext = useUserDataContext();
-  const [requiredCount, setRequiredCount] = useState(0);
+  const [requiredCount, setRequiredCount] = useState(
+    (data.tasks?.reduce((acc, t) => acc + t.count, 0) ?? 0) +
+      (data.hideoutStations?.reduce((acc, s) => acc + s.count, 0) ?? 0)
+  );
   const [taskItems, setTaskItems] = useState<TaskTag[]>(
     (data.tasks ?? []).map((i) => {
       return { ...i, completed: false };
@@ -77,6 +80,10 @@ const FoundInRaidItemCard = ({ data }: FoundInRaidItemCardProps) => {
       e.preventDefault();
     }
   };
+
+  if (userDataContext.userData.loading) {
+    return <div>loading...</div>;
+  }
 
   return (
     <div

@@ -111,6 +111,8 @@ export function UserDataProvider({ children }: { children: React.ReactNode }) {
           userData.completedHideoutStations = {};
         }
         dispatch({ type: "LOAD_STATE", state: userData });
+      } else {
+        dispatch({ type: "LOAD_STATE", state: initialState });
       }
     } catch (error) {
       console.error("Failed to load todos from localStorage:", error);
