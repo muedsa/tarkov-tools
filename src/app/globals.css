@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --color-black: #000;
+  --color-black-light: #1b1919;
+  --color-white: #fff;
+  --color-gunmetal: #383945;
+  --color-gunmetal-dark: #2d2d2f;
+  --color-gold-one: #c7c5b3;
+  --color-gold-two: #9a8866;
+  --color-blue-light: #0292c0;
+  --color-gray: #424242;
+  --color-gray-light : #636363;
+  --color-green: #00a700;
+  --color-green-light: #6a9a66;
+  --color-orange : #ca8a00;
+  --color-red: #cd1e2f;
+  --color-red-light: #9a6666;
+  --color-purple: #8c6edf;
+  --color-yellow: #ffe084;
+  --color-yellow-light: #E0DFD6;
+}
+
+@theme inline {
+  --color-background: var(--color-gunmetal-dark);
+  --color-foreground: var(--color-gold-two);
+  --color-black: var(--color-black);
+  --color-black-light: var(--color-black-light);
+  --color-white: var(--color-white);
+  --color-gunmetal: var(--color-gunmetal);
+  --color-gunmetal-dark: var(--color-gunmetal-dark);
+  --color-gold-one: var(--color-gold-one);
+  --color-gold-two: var(--color-gold-two);
+  --color-blue-light: var(--color-blue-light);
+  --color-gray: var(--color-gray);
+  --color-gray-light : var(--color-gray-light);
+  --color-green: var(--color-green);
+  --color-green-light: var(--color-green-light);
+  --color-orange : var(--color-orange);
+  --color-red: var(--color-red);
+  --color-red-light: var(--color-red-light);
+  --color-purple: var(--color-purple);
+  --color-yellow: var(--color-yellow);
+  --color-yellow-light: var(--color-yellow-light);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--color-gunmetal-dark);
+  color: var(--color-gold-two);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type='number'] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
