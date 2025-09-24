@@ -9,20 +9,24 @@ export type FoundInRaidItemCardProps = {
   data: FoundInRaidItemData;
 };
 
+type TaskTag = TraderTaskData & { completed: boolean };
+type HideoutStationTag = HideoutStationData & { completed: boolean };
+
 const FoundInRaidItemCard = ({ data }: FoundInRaidItemCardProps) => {
   const userDataContext = useUserDataContext();
   const [requiredCount, setRequiredCount] = useState(0);
-  const [taskItems, setTaskItems] = useState<TraderTaskData[]>(
-    data.tasks ?? []
+  const [taskItems, setTaskItems] = useState<TaskTag[]>(
+    (data.tasks ?? []).map((i) => {
+      return { ...i, completed: false };
+    })
   );
-  const [completedTaskItems, setCompletedTaskItems] = useState<
-    TraderTaskData[]
-  >([]);
   const [hideoutStationItems, setHideoutStationItems] = useState<
-    HideoutStationData[]
-  >([]);
-  const [completedHideoutStationItems, setCompletedHideoutStationItems] =
-    useState<HideoutStationData[]>(data.hideoutStations ?? []);
+    HideoutStationTag[]
+  >(
+    (data.hideoutStations ?? []).map((i) => {
+      return { ...i, completed: false };
+    })
+  );
   const [collectedCount, setCollectedCount] = useState(0);
 
   useEffect(() => {
@@ -34,36 +38,32 @@ const FoundInRaidItemCard = ({ data }: FoundInRaidItemCardProps) => {
       }
 
       let tempRequiredCount: number = 0;
-      const tempTaskItems: TraderTaskData[] = [];
-      const tempCompletedTaskItems: TraderTaskData[] = [];
+      const tempTaskItems: TaskTag[] = [];
       data.tasks?.forEach((t) => {
         if (
           userDataContext.userData.completedTasks &&
           userDataContext.userData.completedTasks.indexOf(t.id) > -1
         ) {
-          tempCompletedTaskItems.push(t);
+          tempTaskItems.push({ ...t, completed: true });
         } else {
-          tempTaskItems.push(t);
+          tempTaskItems.push({ ...t, completed: false });
           tempRequiredCount += t.count;
         }
       });
-      const tempHideoutStationItems: HideoutStationData[] = [];
-      const tempCompletedHideoutStationItems: HideoutStationData[] = [];
+      const tempHideoutStationItems: HideoutStationTag[] = [];
       data.hideoutStations?.forEach((s) => {
         const level =
           userDataContext.userData.completedHideoutStations[s.stationId] ?? 0;
-        if (level > s.level) {
-          tempCompletedHideoutStationItems.push(s);
+        if (level >= s.level) {
+          tempHideoutStationItems.push({ ...s, completed: true });
         } else {
-          tempHideoutStationItems.push(s);
+          tempHideoutStationItems.push({ ...s, completed: false });
           tempRequiredCount += s.count;
         }
       });
       setRequiredCount(tempRequiredCount);
       setTaskItems(tempTaskItems);
-      setCompletedTaskItems(tempCompletedTaskItems);
       setHideoutStationItems(tempHideoutStationItems);
-      setCompletedHideoutStationItems(tempCompletedHideoutStationItems);
     }
   }, [data, userDataContext.userData]);
 
@@ -120,51 +120,37 @@ const FoundInRaidItemCard = ({ data }: FoundInRaidItemCardProps) => {
                 imageLink={`/tarkov/images/${task.traderImageLink}`}
                 primeryText={task.name}
                 secondaryText={`${task.count}`}
-                completed={false}
+                completed={task.completed}
                 onClick={() => {
-                  userDataContext.addCompletedTask(task.id);
-                }}
-              />
-            ))}
-          {completedTaskItems.length > 0 &&
-            completedTaskItems.map((task) => (
-              <FoundInRaidItemTag
-                key={task.id}
-                imageLink={`/tarkov/images/${task.traderImageLink}`}
-                primeryText={task.name}
-                secondaryText={`${task.count}`}
-                completed={true}
-                onClick={() => {
-                  userDataContext.removeCompletedTask(task.id);
-                  //handleBlurChange();
+                  if (task.completed) {
+                    userDataContext.removeCompletedTask(task.id);
+                  } else {
+                    userDataContext.addCompletedTask(task.id);
+                  }
                 }}
               />
             ))}
           {hideoutStationItems.length > 0 &&
             hideoutStationItems.map((station) => (
               <FoundInRaidItemTag
-                key={`${station.id}-${station.level}`}
+                key={`${station.id}`}
                 imageLink={`/tarkov/images/${station.imageLink}`}
                 primeryText={`${station.name} Lv.${station.level}`}
                 secondaryText={`${station.count}`}
-                completed={false}
+                completed={station.completed}
                 onClick={() => {
-                  userDataContext.changeHideoutStationLevel(
-                    station.stationId,
-                    station.level - 1
-                  );
+                  if (station.completed) {
+                    userDataContext.changeHideoutStationLevel(
+                      station.stationId,
+                      station.level - 1
+                    );
+                  } else {
+                    userDataContext.changeHideoutStationLevel(
+                      station.stationId,
+                      station.level
+                    );
+                  }
                 }}
-              />
-            ))}
-          {completedHideoutStationItems.length > 0 &&
-            completedHideoutStationItems.map((station) => (
-              <FoundInRaidItemTag
-                key={`${station.id}-${station.level}`}
-                imageLink={`/tarkov/images/${station.imageLink}`}
-                primeryText={`${station.name} Lv.${station.level}`}
-                secondaryText={`${station.count}`}
-                completed={false}
-                onClick={() => {}}
               />
             ))}
         </div>
