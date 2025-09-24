@@ -125,7 +125,7 @@ const FoundInRaidItemCard = ({ data }: FoundInRaidItemCardProps) => {
               <FoundInRaidItemTag
                 key={task.id}
                 imageLink={`/tarkov/images/${task.traderImageLink}`}
-                primeryText={task.name}
+                primeryText={`${task.kappaRequired ? "⁽ᴷ⁾" : ""}${task.name}`}
                 secondaryText={`${task.count}`}
                 completed={task.completed}
                 onClick={() => {
