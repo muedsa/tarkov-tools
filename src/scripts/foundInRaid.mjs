@@ -116,32 +116,30 @@ function handleImage(link) {
 pveTasks.forEach(task => {
     if (task.factionName !== 'BEAR' && task.objectives) {
         // 阵营任务会重复 仅取USEC和Any
+        const mixedItemsObjectives = [];
         task.objectives.forEach(objective => {
             if (objective.__typename === 'TaskObjectiveItem' && objective.type === 'giveItem' && objective.foundInRaid) {
                 if (objective.items.length === 1 || includedMixedItemsTasks.indexOf(task.id) > -1) {
                     const taskItem = objective.items[0];
                     if (taskItem.types.includes('barter')) {
+                        // 交换用物品
                         addBarterTaskItem(taskItem, objective, task);
+                    } else {
+                        // 其他任务物品
+                        addTaskItem(taskItem, objective, task);
                     }
-                    addTaskItem(taskItem, objective, task);
                 } else {
-                    mixedItemsTasks.push({
-                        id: task.id,
-                        name: task.name,
-                        trader: task.trader.name,
-                        kappaRequired: task.kappaRequired,
-                        count: objective.count,
-                        items: objective.items.map(i => ({
-                            id: i.id,
-                            name: i.name,
-                            normalizedName: i.normalizedName,
-                            types: i.types,
-                            wikiLink: i.wikiLink,
-                        })),
-                    });
+                    mixedItemsObjectives.push(objective);
                 }
             }
         });
+        if (mixedItemsObjectives.length > 0) {
+            mixedItemsTasks.push({
+                ...task,
+                objectives: mixedItemsObjectives,
+            });
+        }
+        
     }
 });
 
