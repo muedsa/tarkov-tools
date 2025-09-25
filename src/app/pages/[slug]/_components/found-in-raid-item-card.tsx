@@ -88,8 +88,8 @@ const FoundInRaidItemCard = ({ data }: FoundInRaidItemCardProps) => {
   return (
     <div
       className={`${
-        collectedCount >= requiredCount ? "outline-green" : ""
-      } flex items-center gap-x-4 p-2 shadow-lg outline-2`}
+        collectedCount >= requiredCount ? "border-r-8 border-green" : ""
+      } flex items-center gap-x-4 p-2 shadow-lg border-2`}
     >
       <Image
         src={`/tarkov/images/${data.iconLink}`}

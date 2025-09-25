@@ -29,12 +29,13 @@ const FoundInRaidItemPage = () => {
 
   return (
     <div className="bg-gunmetal-dark p-4">
+      <div className="text-6xl text-gold-one">战局内带出物品</div>
       <input
         type="text"
         name="foundInRaidItemGridSearch"
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
-        className="w-full border-2 border-glod-two"
+        className="w-full border-2 border-glod-two text-2xl p-2 my-2"
         placeholder="输入以搜索..."
       />
       <FoundInRaidItemGrid

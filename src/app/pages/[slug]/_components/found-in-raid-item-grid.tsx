@@ -14,7 +14,7 @@ const FoundInRaidItemGrid = memo(function FoundInRaidItemGrid({
 }: FoundInRaidItemGridProps) {
   return (
     <div>
-      <div className="text-2xl">{title}</div>
+      <div className="mb-1 text-4xl">{title}</div>
       <div className="grid grid-cols-3 gap-4">
         {items
           .filter(
