@@ -39,12 +39,14 @@ const FoundInRaidItemPage = () => {
         placeholder="输入以搜索..."
       />
       <FoundInRaidItemGrid
-        title={"交易物品(藏身处建造与任务需求)"}
+        className="mt-4"
+        title="交易物品(藏身处建造与任务需求)"
         items={foundInRaidBarterItems}
         query={deferredSearchQuery}
       />
       <FoundInRaidItemGrid
-        title={"其他物品(任务需求)"}
+        className="mt-4"
+        title="其他物品(任务需求)"
         items={foundInRaidTaskItems}
         query={deferredSearchQuery}
       />

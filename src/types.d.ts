@@ -1,4 +1,4 @@
-type TraderTaskData = {
+type TraderTaskDemandData = {
   id: string;
   name: string;
   trader: string;
@@ -8,7 +8,7 @@ type TraderTaskData = {
   mixedItemsTask: boolean;
 };
 
-type HideoutStationData = {
+type HideoutStationDemandData = {
   id: string;
   stationId: string;
   name: string;
@@ -25,8 +25,8 @@ type FoundInRaidItemData = {
   types: string[];
   iconLink: string;
   wikiLink: string;
-  tasks?: TraderTaskData[];
-  hideoutStations?: HideoutStationData[];
+  tasks?: TraderTaskDemandData[];
+  hideoutStations?: HideoutStationDemandData[];
 };
 
 type UserCompletedHideoutStations = {
@@ -44,4 +44,22 @@ type UserData = {
   completedHideoutStations: UserCompletedHideoutStations;
   completedTasks: UserCompletedTasks;
   collectedItems: UserFoundInRaidItems;
+};
+
+type GiveItemTaskObjectiveItem = {
+  id: string;
+  description: string;
+  count: string;
+  items: FoundInRaidItemData[];
+};
+
+type MixedItemsTraderTaskData = {
+  id: string;
+  name: string;
+  normalizedName: string;
+  taskImageLink: string;
+  trader: string;
+  traderImageLink: string;
+  kappaRequired: boolean;
+  objectives: GiveItemTaskObjectiveItem[];
 };

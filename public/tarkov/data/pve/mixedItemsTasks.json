@@ -1,62 +1,17 @@
 [
     {
         "id": "657315ddab5a49b71f098853",
-        "tarkovDataId": null,
         "name": "新手上路",
-        "normalizedName": "first-in-line",
-        "experience": 1200,
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/First_in_Line",
-        "minPlayerLevel": 1,
-        "taskRequirements": [],
-        "traderRequirements": [],
-        "restartable": false,
-        "failConditions": [],
-        "factionName": "Any",
-        "neededKeys": [],
+        "taskImageLink": "657315ddab5a49b71f098853.webp",
+        "trader": "Therapist",
+        "traderImageLink": "54cb57776803fa99248b456e.webp",
         "kappaRequired": true,
-        "lightkeeperRequired": true,
-        "taskImageLink": "https://assets.tarkov.dev/657315ddab5a49b71f098853.webp",
-        "startRewards": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "failureOutcome": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "trader": {
-            "id": "54cb57776803fa99248b456e",
-            "name": "Therapist",
-            "normalizedName": "therapist",
-            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
-        },
-        "map": {
-            "id": "653e6760052c01c1c805532f",
-            "name": "中心区",
-            "normalizedName": "ground-zero"
-        },
+        "mixedItemsTask": true,
         "objectives": [
             {
-                "__typename": "TaskObjectiveItem",
                 "id": "65817bf31404f3565aef9fec",
-                "type": "giveItem",
                 "description": "上交任意医疗物品",
-                "maps": [],
-                "optional": false,
                 "count": 3,
-                "foundInRaid": true,
-                "dogTagLevel": 0,
-                "maxDurability": 100,
-                "minDurability": 0,
-                "zones": [],
                 "items": [
                     {
                         "id": "590c695186f7741e566b64a2",
@@ -66,7 +21,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/590c695186f7741e566b64a2-icon.webp",
+                        "iconLink": "590c695186f7741e566b64a2-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Augmentin_antibiotic_pills"
                     },
                     {
@@ -77,7 +32,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5751a89d24597722aa0e8db0-icon.webp",
+                        "iconLink": "5751a89d24597722aa0e8db0-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Golden_Star_balm"
                     },
                     {
@@ -88,7 +43,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5af0548586f7743a532b7e99-icon.webp",
+                        "iconLink": "5af0548586f7743a532b7e99-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ibuprofen_painkillers"
                     },
                     {
@@ -100,7 +55,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/544fb3f34bdc2d03748b456a-icon.webp",
+                        "iconLink": "544fb3f34bdc2d03748b456a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Morphine_injector"
                     },
                     {
@@ -111,7 +66,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/544fb37f4bdc2dee738b4567-icon.webp",
+                        "iconLink": "544fb37f4bdc2dee738b4567-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Analgin_painkillers"
                     },
                     {
@@ -122,7 +77,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5755383e24597772cb798966-icon.webp",
+                        "iconLink": "5755383e24597772cb798966-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Vaseline_balm"
                     },
                     {
@@ -133,7 +88,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/590c657e86f77412b013051d-icon.webp",
+                        "iconLink": "590c657e86f77412b013051d-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Grizzly_medical_kit"
                     },
                     {
@@ -144,7 +99,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/60098ad7c2240c0fe85c570a-icon.webp",
+                        "iconLink": "60098ad7c2240c0fe85c570a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AFAK_tactical_individual_first_aid_kit"
                     },
                     {
@@ -155,7 +110,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/590c661e86f7741e566b646a-icon.webp",
+                        "iconLink": "590c661e86f7741e566b646a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Car_first_aid_kit"
                     },
                     {
@@ -166,7 +121,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/590c678286f77426c9660122-icon.webp",
+                        "iconLink": "590c678286f77426c9660122-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/IFAK_individual_first_aid_kit"
                     },
                     {
@@ -177,7 +132,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5755356824597772cb798962-icon.webp",
+                        "iconLink": "5755356824597772cb798962-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AI-2_medkit"
                     },
                     {
@@ -188,7 +143,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/544fb45d4bdc2dee738b4568-icon.webp",
+                        "iconLink": "544fb45d4bdc2dee738b4568-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Salewa_first_aid_kit"
                     },
                     {
@@ -199,7 +154,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/544fb25a4bdc2dfb738b4567-icon.webp",
+                        "iconLink": "544fb25a4bdc2dfb738b4567-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aseptic_bandage"
                     },
                     {
@@ -210,7 +165,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5751a25924597722c463c472-icon.webp",
+                        "iconLink": "5751a25924597722c463c472-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Army_bandage"
                     },
                     {
@@ -221,7 +176,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5d02778e86f774203e7dedbe-icon.webp",
+                        "iconLink": "5d02778e86f774203e7dedbe-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CMS_surgical_kit"
                     },
                     {
@@ -232,7 +187,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5af0454c86f7746bf20992e8-icon.webp",
+                        "iconLink": "5af0454c86f7746bf20992e8-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aluminum_splint"
                     },
                     {
@@ -243,7 +198,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/60098af40accd37ef2175f27-icon.webp",
+                        "iconLink": "60098af40accd37ef2175f27-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CAT_hemostatic_tourniquet"
                     },
                     {
@@ -254,7 +209,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5e831507ea0a7c419c2f9bd9-icon.webp",
+                        "iconLink": "5e831507ea0a7c419c2f9bd9-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Esmarch_tourniquet"
                     },
                     {
@@ -265,7 +220,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5e8488fa988a8701445df1e4-icon.webp",
+                        "iconLink": "5e8488fa988a8701445df1e4-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CALOK-B_hemostatic_applicator"
                     },
                     {
@@ -276,7 +231,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/544fb3364bdc2d34748b456a-icon.webp",
+                        "iconLink": "544fb3364bdc2d34748b456a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Immobilizing_splint"
                     },
                     {
@@ -287,7 +242,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5d02797c86f774203f38e30a-icon.webp",
+                        "iconLink": "5d02797c86f774203f38e30a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Surv12_field_surgical_kit"
                     },
                     {
@@ -299,7 +254,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5ed515c8d380ab312177c0fa-icon.webp",
+                        "iconLink": "5ed515c8d380ab312177c0fa-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/3-(b-TG)_stimulant_injector"
                     },
                     {
@@ -311,7 +266,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5ed515f6915ec335206e4152-icon.webp",
+                        "iconLink": "5ed515f6915ec335206e4152-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AHF1-M_stimulant_injector"
                     },
                     {
@@ -323,7 +278,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5c10c8fd86f7743d7d706df3-icon.webp",
+                        "iconLink": "5c10c8fd86f7743d7d706df3-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Adrenaline_injector"
                     },
                     {
@@ -335,7 +290,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5ed515e03a40a50460332579-icon.webp",
+                        "iconLink": "5ed515e03a40a50460332579-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/L1_(Norepinephrine)_injector"
                     },
                     {
@@ -347,7 +302,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5ed51652f6c34d2cc26336a1-icon.webp",
+                        "iconLink": "5ed51652f6c34d2cc26336a1-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/M.U.L.E._stimulant_injector"
                     },
                     {
@@ -359,7 +314,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5ed5160a87bb8443d10680b5-icon.webp",
+                        "iconLink": "5ed5160a87bb8443d10680b5-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Meldonin_injector"
                     },
                     {
@@ -371,7 +326,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5ed5166ad380ab312177c100-icon.webp",
+                        "iconLink": "5ed5166ad380ab312177c100-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Obdolbos_cocktail_injector"
                     },
                     {
@@ -383,7 +338,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/637b60c3b7afa97bfc3d7001-icon.webp",
+                        "iconLink": "637b60c3b7afa97bfc3d7001-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Obdolbos_2_cocktail_injector"
                     },
                     {
@@ -395,7 +350,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5ed515ece452db0eb56fc028-icon.webp",
+                        "iconLink": "5ed515ece452db0eb56fc028-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/P22_(Product_22)_stimulant_injector"
                     },
                     {
@@ -407,7 +362,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/637b6179104668754b72f8f5-icon.webp",
+                        "iconLink": "637b6179104668754b72f8f5-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/PNB_(Product_16)_stimulant_injector"
                     },
                     {
@@ -419,7 +374,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/637b6251104668754b72f8f9-icon.webp",
+                        "iconLink": "637b6251104668754b72f8f9-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Perfotoran_(Blue_Blood)_stimulant_injector"
                     },
                     {
@@ -431,7 +386,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5c0e530286f7747fa1419862-icon.webp",
+                        "iconLink": "5c0e530286f7747fa1419862-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Propital_regenerative_stimulant_injector"
                     },
                     {
@@ -443,7 +398,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/637b612fb7afa97bfc3d7005-icon.webp",
+                        "iconLink": "637b612fb7afa97bfc3d7005-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ12_TGLabs_combat_stimulant_injector"
                     },
                     {
@@ -455,7 +410,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5c0e531286f7747fa54205c2-icon.webp",
+                        "iconLink": "5c0e531286f7747fa54205c2-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ1_TGLabs_combat_stimulant_injector"
                     },
                     {
@@ -467,7 +422,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5c0e531d86f7747fa23f4d42-icon.webp",
+                        "iconLink": "5c0e531d86f7747fa23f4d42-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ6_TGLabs_combat_stimulant_injector"
                     },
                     {
@@ -479,7 +434,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5fca13ca637ee0341a484f46-icon.webp",
+                        "iconLink": "5fca13ca637ee0341a484f46-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ9_TGLabs_combat_stimulant_injector"
                     },
                     {
@@ -491,7 +446,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/637b620db7afa97bfc3d7009-icon.webp",
+                        "iconLink": "637b620db7afa97bfc3d7009-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Trimadol_stimulant_injector"
                     },
                     {
@@ -503,7 +458,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5c0e533786f7747fa23f4d47-icon.webp",
+                        "iconLink": "5c0e533786f7747fa23f4d47-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Zagustin_hemostatic_drug_injector"
                     },
                     {
@@ -515,7 +470,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5c0e534186f7747fa1419867-icon.webp",
+                        "iconLink": "5c0e534186f7747fa1419867-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ETG-change_regenerative_stimulant_injector"
                     },
                     {
@@ -527,7 +482,7 @@
                             "meds",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5fca138c2a7b221b2852a5c6-icon.webp",
+                        "iconLink": "5fca138c2a7b221b2852a5c6-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/XTG-12_antidote_injector"
                     },
                     {
@@ -537,7 +492,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5c052e6986f7746b207bc3c9-icon.webp",
+                        "iconLink": "5c052e6986f7746b207bc3c9-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Portable_defibrillator"
                     },
                     {
@@ -547,7 +502,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5c0530ee86f774697952d952-icon.webp",
+                        "iconLink": "5c0530ee86f774697952d952-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LEDX_Skin_Transilluminator"
                     },
                     {
@@ -557,7 +512,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/6389c6c7dbfd5e4b95197e68-icon.webp",
+                        "iconLink": "6389c6c7dbfd5e4b95197e68-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aquapeps_water_purification_tablets"
                     },
                     {
@@ -567,7 +522,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5b4335ba86f7744d2837a264-icon.webp",
+                        "iconLink": "5b4335ba86f7744d2837a264-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Medical_bloodset"
                     },
                     {
@@ -577,7 +532,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5af0534a86f7743b6f354284-icon.webp",
+                        "iconLink": "5af0534a86f7743b6f354284-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ophthalmoscope"
                     },
                     {
@@ -587,7 +542,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/59e361e886f774176c10a2a5-icon.webp",
+                        "iconLink": "59e361e886f774176c10a2a5-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_hydrogen_peroxide"
                     },
                     {
@@ -597,7 +552,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/59e3606886f77417674759a5-icon.webp",
+                        "iconLink": "59e3606886f77417674759a5-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_saline_solution"
                     },
                     {
@@ -607,7 +562,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5d1b3a5d86f774252167ba22-icon.webp",
+                        "iconLink": "5d1b3a5d86f774252167ba22-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pile_of_meds"
                     },
                     {
@@ -617,7 +572,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5d1b3f2d86f774253763b735-icon.webp",
+                        "iconLink": "5d1b3f2d86f774253763b735-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Disposable_syringe"
                     },
                     {
@@ -627,7 +582,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/62a0a043cf4a99369e2624a5-icon.webp",
+                        "iconLink": "62a0a043cf4a99369e2624a5-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_OLOLO_Multivitamins"
                     },
                     {
@@ -637,116 +592,26 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/619cc01e0a7c3a1a2731940c-icon.webp",
+                        "iconLink": "619cc01e0a7c3a1a2731940c-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Medical_tools"
                     }
                 ]
             }
-        ],
-        "finishRewards": {
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": [],
-            "traderStanding": [
-                {
-                    "standing": 0.01,
-                    "trader": {
-                        "id": "54cb57776803fa99248b456e"
-                    }
-                }
-            ],
-            "items": [
-                {
-                    "count": 6400,
-                    "attributes": [],
-                    "item": {
-                        "id": "5449016a4bdc2d6f028b456f",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "574eb85c245977648157eec3",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 2,
-                    "attributes": [],
-                    "item": {
-                        "id": "5448fee04bdc2dbc018b4567",
-                        "containsItems": []
-                    }
-                }
-            ]
-        }
+        ]
     },
     {
         "id": "6834158f2f0e2a7eb90b62c8",
-        "tarkovDataId": null,
         "name": "Easy Money - Part 2 [PVE ZONE]",
-        "normalizedName": "easy-money-part-2-pve-zone",
-        "map": null,
-        "experience": 4200,
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Easy_Money_-_Part_2",
-        "minPlayerLevel": 3,
-        "traderRequirements": [],
-        "restartable": false,
-        "failConditions": [],
-        "factionName": "Any",
-        "neededKeys": [],
+        "taskImageLink": "6834158f2f0e2a7eb90b62c8.webp",
+        "trader": "竞技场裁判",
+        "traderImageLink": "6617beeaa9cfa777ca915b7c.webp",
         "kappaRequired": false,
-        "lightkeeperRequired": false,
-        "taskImageLink": "https://assets.tarkov.dev/6834158f2f0e2a7eb90b62c8.webp",
-        "startRewards": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "failureOutcome": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "taskRequirements": [
-            {
-                "status": [
-                    "complete"
-                ],
-                "task": {
-                    "id": "6834145ebc1f443d7603c8a7"
-                }
-            }
-        ],
-        "trader": {
-            "id": "6617beeaa9cfa777ca915b7c",
-            "name": "竞技场裁判",
-            "normalizedName": "ref",
-            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
-        },
+        "mixedItemsTask": true,
         "objectives": [
             {
-                "__typename": "TaskObjectiveItem",
                 "id": "6834158f2f0e2a7eb90b62cb",
-                "type": "giveItem",
                 "description": "Hand over the found in raid items from the Drinks category",
-                "maps": [],
-                "optional": false,
                 "count": 5,
-                "foundInRaid": true,
-                "dogTagLevel": 0,
-                "maxDurability": 100,
-                "minDurability": 0,
-                "zones": [],
                 "items": [
                     {
                         "id": "5c0fa877d174af02a012e1cf",
@@ -755,7 +620,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5c0fa877d174af02a012e1cf-icon.webp",
+                        "iconLink": "5c0fa877d174af02a012e1cf-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aquamari_water_bottle_with_filter"
                     },
                     {
@@ -765,7 +630,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/575062b524597720a31c09a1-icon.webp",
+                        "iconLink": "575062b524597720a31c09a1-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_Ice_Green_tea"
                     },
                     {
@@ -775,7 +640,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57513f07245977207e26a311-icon.webp",
+                        "iconLink": "57513f07245977207e26a311-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_apple_juice"
                     },
                     {
@@ -785,7 +650,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57513f9324597720a7128161-icon.webp",
+                        "iconLink": "57513f9324597720a7128161-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_Grand_juice"
                     },
                     {
@@ -795,7 +660,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57513fcc24597720a31c09a6-icon.webp",
+                        "iconLink": "57513fcc24597720a31c09a6-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_Vita_juice"
                     },
                     {
@@ -805,7 +670,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5751435d24597720a27126d1-icon.webp",
+                        "iconLink": "5751435d24597720a27126d1-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_Max_Energy_energy_drink"
                     },
                     {
@@ -815,7 +680,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/575146b724597720a27126d5-icon.webp",
+                        "iconLink": "575146b724597720a27126d5-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_milk"
                     },
                     {
@@ -825,7 +690,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57514643245977207f2c2d09-icon.webp",
+                        "iconLink": "57514643245977207f2c2d09-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_TarCola_soda"
                     },
                     {
@@ -835,7 +700,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5751496424597720a27126da-icon.webp",
+                        "iconLink": "5751496424597720a27126da-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_Hot_Rod_energy_drink"
                     },
                     {
@@ -845,7 +710,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/62a09f32621468534a797acb-icon.webp",
+                        "iconLink": "62a09f32621468534a797acb-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Pevko_Light_beer"
                     },
                     {
@@ -855,7 +720,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5e8f3423fd7471236e6e3b64-icon.webp",
+                        "iconLink": "5e8f3423fd7471236e6e3b64-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Norvinsky_Yadreniy_premium_kvass_(0.6L)"
                     },
                     {
@@ -866,7 +731,7 @@
                             "barter",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/60b0f93284c20f0feb453da7-icon.webp",
+                        "iconLink": "60b0f93284c20f0feb453da7-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_RatCola_soda"
                     },
                     {
@@ -876,7 +741,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/60098b1705871270cd5352a1-icon.webp",
+                        "iconLink": "60098b1705871270cd5352a1-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Emergency_Water_Ration"
                     },
                     {
@@ -886,7 +751,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5d403f9186f7743cac3f229b-icon.webp",
+                        "iconLink": "5d403f9186f7743cac3f229b-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Dan_Jackiel_whiskey"
                     },
                     {
@@ -896,7 +761,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5d1b376e86f774252519444e-icon.webp",
+                        "iconLink": "5d1b376e86f774252519444e-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Fierce_Hatchling_moonshine"
                     },
                     {
@@ -907,7 +772,7 @@
                             "barter",
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5d1b33a686f7742523398398-icon.webp",
+                        "iconLink": "5d1b33a686f7742523398398-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Canister_with_purified_water"
                     },
                     {
@@ -917,7 +782,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5d40407c86f774318526545a-icon.webp",
+                        "iconLink": "5d40407c86f774318526545a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Tarkovskaya_vodka"
                     },
                     {
@@ -927,7 +792,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/544fb62a4bdc2dfb738b4568-icon.webp",
+                        "iconLink": "544fb62a4bdc2dfb738b4568-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_Russian_Army_pineapple_juice"
                     },
                     {
@@ -937,24 +802,15 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5448fee04bdc2dbc018b4567-icon.webp",
+                        "iconLink": "5448fee04bdc2dbc018b4567-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_water_(0.6L)"
                     }
                 ]
             },
             {
-                "__typename": "TaskObjectiveItem",
                 "id": "6834158f2f0e2a7eb90b62cc",
-                "type": "giveItem",
                 "description": "Hand over the found in raid items from the Food category",
-                "maps": [],
-                "optional": false,
                 "count": 5,
-                "foundInRaid": true,
-                "dogTagLevel": 0,
-                "maxDurability": 100,
-                "minDurability": 0,
-                "zones": [],
                 "items": [
                     {
                         "id": "57505f6224597709a92585a9",
@@ -963,7 +819,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57505f6224597709a92585a9-icon.webp",
+                        "iconLink": "57505f6224597709a92585a9-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Alyonka_chocolate_bar"
                     },
                     {
@@ -973,7 +829,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57347da92459774491567cf5-icon.webp",
+                        "iconLink": "57347da92459774491567cf5-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_beef_stew_(Large)"
                     },
                     {
@@ -983,7 +839,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57347d3d245977448f7b7f61-icon.webp",
+                        "iconLink": "57347d3d245977448f7b7f61-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rye_croutons"
                     },
                     {
@@ -993,7 +849,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57347d7224597744596b4e72-icon.webp",
+                        "iconLink": "57347d7224597744596b4e72-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_beef_stew_(Small)"
                     },
                     {
@@ -1003,7 +859,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5734773724597737fd047c14-icon.webp",
+                        "iconLink": "5734773724597737fd047c14-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_condensed_milk"
                     },
                     {
@@ -1013,7 +869,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5751487e245977207e26a315-icon.webp",
+                        "iconLink": "5751487e245977207e26a315-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Emelya_rye_croutons"
                     },
                     {
@@ -1023,7 +879,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57347d9c245977448b40fa85-icon.webp",
+                        "iconLink": "57347d9c245977448b40fa85-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_herring"
                     },
                     {
@@ -1033,7 +889,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57347d5f245977448b40fa81-icon.webp",
+                        "iconLink": "57347d5f245977448b40fa81-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_humpback_salmon"
                     },
                     {
@@ -1043,7 +899,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5673de654bdc2d180f8b456d-icon.webp",
+                        "iconLink": "5673de654bdc2d180f8b456d-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_pacific_saury"
                     },
                     {
@@ -1053,7 +909,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5bc9b156d4351e00367fbce9-icon.webp",
+                        "iconLink": "5bc9b156d4351e00367fbce9-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Jar_of_DevilDog_mayo"
                     },
                     {
@@ -1063,7 +919,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/590c5f0d86f77413997acfab-icon.webp",
+                        "iconLink": "590c5f0d86f77413997acfab-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MRE_ration_pack"
                     },
                     {
@@ -1073,7 +929,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656df4fec921ad01000481a2-icon.webp",
+                        "iconLink": "656df4fec921ad01000481a2-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_instant_noodles"
                     },
                     {
@@ -1083,7 +939,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/590c5d4b86f774784e1b9c45-icon.webp",
+                        "iconLink": "590c5d4b86f774784e1b9c45-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Iskra_ration_pack"
                     },
                     {
@@ -1093,7 +949,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/635a758bfefc88a93f021b8a-icon.webp",
+                        "iconLink": "635a758bfefc88a93f021b8a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Salty_Dog_beef_sausage"
                     },
                     {
@@ -1103,7 +959,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/65815f0e647e3d7246384e14-icon.webp",
+                        "iconLink": "65815f0e647e3d7246384e14-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_Tarker_dried_meat"
                     },
                     {
@@ -1113,7 +969,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5bc9c29cd4351e003562b8a3-icon.webp",
+                        "iconLink": "5bc9c29cd4351e003562b8a3-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_sprats"
                     },
                     {
@@ -1123,7 +979,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/59e3577886f774176a362503-icon.webp",
+                        "iconLink": "59e3577886f774176a362503-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_sugar"
                     },
                     {
@@ -1133,7 +989,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57347d90245977448f7b7f65-icon.webp",
+                        "iconLink": "57347d90245977448f7b7f65-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_oat_flakes"
                     },
                     {
@@ -1143,7 +999,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57347d692459774491567cf1-icon.webp",
+                        "iconLink": "57347d692459774491567cf1-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_green_peas"
                     },
                     {
@@ -1153,7 +1009,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/544fb6cc4bdc2d34748b456e-icon.webp",
+                        "iconLink": "544fb6cc4bdc2d34748b456e-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Slickers_chocolate_bar"
                     },
                     {
@@ -1163,7 +1019,7 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57347d8724597744596b4e76-icon.webp",
+                        "iconLink": "57347d8724597744596b4e76-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_squash_spread"
                     },
                     {
@@ -1173,100 +1029,26 @@
                         "types": [
                             "provisions"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5448ff904bdc2d6f028b456e-icon.webp",
+                        "iconLink": "5448ff904bdc2d6f028b456e-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Army_crackers"
                     }
                 ]
             }
-        ],
-        "finishRewards": {
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": [],
-            "traderStanding": [
-                {
-                    "standing": 0.03,
-                    "trader": {
-                        "id": "6617beeaa9cfa777ca915b7c"
-                    }
-                }
-            ],
-            "items": [
-                {
-                    "count": 52,
-                    "attributes": [],
-                    "item": {
-                        "id": "5d235b4d86f7742e017bc88a",
-                        "containsItems": []
-                    }
-                }
-            ]
-        }
+        ]
     },
     {
         "id": "68341b407559f4e6d50bc0ce",
-        "tarkovDataId": null,
         "name": "Surprise [PVE ZONE]",
-        "normalizedName": "surprise-pve-zone",
-        "map": null,
-        "experience": 3600,
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Surprise",
-        "minPlayerLevel": 3,
-        "traderRequirements": [],
-        "restartable": false,
-        "failConditions": [],
-        "factionName": "Any",
-        "neededKeys": [],
+        "taskImageLink": "68341b407559f4e6d50bc0ce.webp",
+        "trader": "竞技场裁判",
+        "traderImageLink": "6617beeaa9cfa777ca915b7c.webp",
         "kappaRequired": false,
-        "lightkeeperRequired": false,
-        "taskImageLink": "https://assets.tarkov.dev/68341b407559f4e6d50bc0ce.webp",
-        "startRewards": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "failureOutcome": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "taskRequirements": [
-            {
-                "status": [
-                    "complete"
-                ],
-                "task": {
-                    "id": "68341a0b2f0e2a7eb90b62d4"
-                }
-            }
-        ],
-        "trader": {
-            "id": "6617beeaa9cfa777ca915b7c",
-            "name": "竞技场裁判",
-            "normalizedName": "ref",
-            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
-        },
+        "mixedItemsTask": true,
         "objectives": [
             {
-                "__typename": "TaskObjectiveItem",
                 "id": "68341b407559f4e6d50bc0d1",
-                "type": "giveItem",
                 "description": "Hand over the found in raid items: Class 4 or higher ballistic plates",
-                "maps": [],
-                "optional": false,
                 "count": 3,
-                "foundInRaid": true,
-                "dogTagLevel": 0,
-                "maxDurability": 100,
-                "minDurability": 0,
-                "zones": [],
                 "items": [
                     {
                         "id": "656f664200d62bcd2e024077",
@@ -1276,7 +1058,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656f664200d62bcd2e024077-icon.webp",
+                        "iconLink": "656f664200d62bcd2e024077-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM_ballistic_plates_(Front)"
                     },
                     {
@@ -1286,7 +1068,7 @@
                         "types": [
                             "armorPlate"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/64afdb577bb3bfe8fe03fd1d-icon.webp",
+                        "iconLink": "64afdb577bb3bfe8fe03fd1d-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ESBI_level_IV_ballistic_plate_(Side)"
                     },
                     {
@@ -1297,7 +1079,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656efaf54772930db4031ff5-icon.webp",
+                        "iconLink": "656efaf54772930db4031ff5-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4_ballistic_plates_(Back)"
                     },
                     {
@@ -1308,7 +1090,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656f611f94b480b8a500c0db-icon.webp",
+                        "iconLink": "656f611f94b480b8a500c0db-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4_ballistic_plate_(Front)"
                     },
                     {
@@ -1319,7 +1101,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/654a4a964b446df1ad03f192-icon.webp",
+                        "iconLink": "654a4a964b446df1ad03f192-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4RS_ballistic_plates_(Back)"
                     },
                     {
@@ -1330,7 +1112,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656f63c027aed95beb08f62c-icon.webp",
+                        "iconLink": "656f63c027aed95beb08f62c-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4RS_ballistic_plate_(Front)"
                     },
                     {
@@ -1341,7 +1123,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/65573fa5655447403702a816-icon.webp",
+                        "iconLink": "65573fa5655447403702a816-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_Br4_ballistic_plate"
                     },
                     {
@@ -1352,7 +1134,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656fafe3498d1b7e3e071da4-icon.webp",
+                        "iconLink": "656fafe3498d1b7e3e071da4-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/KITECO_SC-IV_SA_ballistic_plate"
                     },
                     {
@@ -1363,7 +1145,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656fa61e94b480b8a500c0e8-icon.webp",
+                        "iconLink": "656fa61e94b480b8a500c0e8-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NESCO_4400-SA-MC_ballistic_plate"
                     },
                     {
@@ -1374,7 +1156,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/64afc71497cf3a403c01ff38-icon.webp",
+                        "iconLink": "64afc71497cf3a403c01ff38-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_Br5_ballistic_plate"
                     },
                     {
@@ -1385,7 +1167,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/64afdcb83efdfea28601d041-icon.webp",
+                        "iconLink": "64afdcb83efdfea28601d041-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ESAPI_level_IV_ballistic_plate"
                     },
                     {
@@ -1395,7 +1177,7 @@
                         "types": [
                             "armorPlate"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656fad8c498d1b7e3e071da0-icon.webp",
+                        "iconLink": "656fad8c498d1b7e3e071da0-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Monoclete_level_III_PE_ballistic_plate"
                     },
                     {
@@ -1405,7 +1187,7 @@
                         "types": [
                             "armorPlate"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656fb0bd7c2d57afe200c0dc-icon.webp",
+                        "iconLink": "656fb0bd7c2d57afe200c0dc-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SPRTN_Elaphros_ballistic_plate"
                     },
                     {
@@ -1415,7 +1197,7 @@
                         "types": [
                             "armorPlate"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656fa25e94b480b8a500c0e0-icon.webp",
+                        "iconLink": "656fa25e94b480b8a500c0e0-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kiba_Arms_Titan_ballistic_plate"
                     },
                     {
@@ -1425,7 +1207,7 @@
                         "types": [
                             "armorPlate"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656fb21fa0dce000a2020f7c-icon.webp",
+                        "iconLink": "656fb21fa0dce000a2020f7c-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NewSphereTech_level_III_ballistic_plate"
                     },
                     {
@@ -1435,7 +1217,7 @@
                         "types": [
                             "armorPlate"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656f9fa0498d1b7e3e071d98-icon.webp",
+                        "iconLink": "656f9fa0498d1b7e3e071d98-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SPRTN_Omega_ballistic_plate"
                     },
                     {
@@ -1445,7 +1227,7 @@
                         "types": [
                             "armorPlate"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656fa0fb498d1b7e3e071d9c-icon.webp",
+                        "iconLink": "656fa0fb498d1b7e3e071d9c-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Global_Armor%E2%80%99s_Steel_ballistic_plate"
                     },
                     {
@@ -1456,7 +1238,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/655746010177119f4a097ff7-icon.webp",
+                        "iconLink": "655746010177119f4a097ff7-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SAPI_level_III%2B_ballistic_plate"
                     },
                     {
@@ -1467,7 +1249,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656fa53d94b480b8a500c0e4-icon.webp",
+                        "iconLink": "656fa53d94b480b8a500c0e4-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TallCom_Guardian_ballistic_plate"
                     },
                     {
@@ -1478,7 +1260,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656faf0ca0dce000a2020f77-icon.webp",
+                        "iconLink": "656faf0ca0dce000a2020f77-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GAC_4sss2_ballistic_plate"
                     },
                     {
@@ -1489,7 +1271,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656fa99800d62bcd2e024088-icon.webp",
+                        "iconLink": "656fa99800d62bcd2e024088-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cult_Termite_ballistic_plate"
                     },
                     {
@@ -1500,7 +1282,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656fa8d700d62bcd2e024084-icon.webp",
+                        "iconLink": "656fa8d700d62bcd2e024084-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cult_Locust_ballistic_plate"
                     },
                     {
@@ -1511,7 +1293,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656fa76500d62bcd2e024080-icon.webp",
+                        "iconLink": "656fa76500d62bcd2e024080-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kiba_Arms_Steel_ballistic_plate"
                     },
                     {
@@ -1522,7 +1304,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656fae5f7c2d57afe200c0d7-icon.webp",
+                        "iconLink": "656fae5f7c2d57afe200c0d7-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GAC_3s15m_ballistic_plate"
                     },
                     {
@@ -1532,7 +1314,7 @@
                         "types": [
                             "armorPlate"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/6557458f83942d705f0c4962-icon.webp",
+                        "iconLink": "6557458f83942d705f0c4962-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SSAPI_level_III%2B_ballistic_plate_(Side)"
                     },
                     {
@@ -1542,7 +1324,7 @@
                         "types": [
                             "armorPlate"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656f603f94b480b8a500c0d6-icon.webp",
+                        "iconLink": "656f603f94b480b8a500c0d6-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6B33_ballistic_plate_(Front)"
                     },
                     {
@@ -1552,7 +1334,7 @@
                         "types": [
                             "armorPlate"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/657b22485f444d6dff0c6c2f-icon.webp",
+                        "iconLink": "657b22485f444d6dff0c6c2f-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6B23-2_ballistic_plate_(Back)"
                     },
                     {
@@ -1562,7 +1344,7 @@
                         "types": [
                             "armorPlate"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/64afd81707e2cf40e903a316-icon.webp",
+                        "iconLink": "64afd81707e2cf40e903a316-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_ballistic_plate_(Side)"
                     },
                     {
@@ -1572,7 +1354,7 @@
                         "types": [
                             "armorPlate"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/654a4f8bc721968a4404ef18-icon.webp",
+                        "iconLink": "654a4f8bc721968a4404ef18-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM_ballistic_plate_(Side)"
                     },
                     {
@@ -1583,7 +1365,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/657b2797c3dbcb01d60c35ea-icon.webp",
+                        "iconLink": "657b2797c3dbcb01d60c35ea-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM_ballistic_plate_(Back)"
                     },
                     {
@@ -1594,7 +1376,7 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/657b28d25f444d6dff0c6c77-icon.webp",
+                        "iconLink": "657b28d25f444d6dff0c6c77-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM-K_ballistic_plate_(Back)"
                     },
                     {
@@ -1605,136 +1387,26 @@
                             "armorPlate",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/656f66b5c6baea13cd07e108-icon.webp",
+                        "iconLink": "656f66b5c6baea13cd07e108-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM-K_ballistic_plates_(Front)"
                     }
                 ]
             }
-        ],
-        "finishRewards": {
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": [],
-            "traderStanding": [
-                {
-                    "standing": 0.04,
-                    "trader": {
-                        "id": "6617beeaa9cfa777ca915b7c"
-                    }
-                }
-            ],
-            "items": [
-                {
-                    "count": 55,
-                    "attributes": [],
-                    "item": {
-                        "id": "5d235b4d86f7742e017bc88a",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "657bc821aab96fccee08becc",
-                        "containsItems": [
-                            {
-                                "count": 1,
-                                "item": {
-                                    "id": "5c0e874186f7745dc7616606"
-                                }
-                            },
-                            {
-                                "count": 1,
-                                "item": {
-                                    "id": "5c0e842486f77443a74d2976"
-                                }
-                            }
-                        ]
-                    }
-                }
-            ]
-        }
+        ]
     },
     {
         "id": "686403eeb4aaef121c0f0f06",
-        "tarkovDataId": null,
         "name": "Friend from Norvinsk - Part 4",
-        "normalizedName": "friend-from-norvinsk-part-4",
-        "map": null,
-        "experience": 3000,
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Friend_from_Norvinsk_-_Part_4",
-        "minPlayerLevel": 5,
-        "traderRequirements": [],
-        "restartable": false,
-        "factionName": "Any",
-        "neededKeys": [],
+        "taskImageLink": "686403eeb4aaef121c0f0f06.webp",
+        "trader": "Mechanic",
+        "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
         "kappaRequired": false,
-        "lightkeeperRequired": false,
-        "taskImageLink": "https://assets.tarkov.dev/686403eeb4aaef121c0f0f06.webp",
-        "startRewards": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "failureOutcome": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "taskRequirements": [
-            {
-                "status": [
-                    "complete"
-                ],
-                "task": {
-                    "id": "6863e09a5f4d17fd3e01feee"
-                }
-            }
-        ],
-        "failConditions": [
-            {
-                "__typename": "TaskObjectiveTaskStatus",
-                "id": "686543ad1f67f45f1d409103",
-                "type": "taskStatus",
-                "description": "",
-                "maps": [],
-                "optional": false,
-                "status": [
-                    "complete"
-                ],
-                "task": {
-                    "id": "6894bc838bbdab4ab109929c"
-                }
-            }
-        ],
-        "trader": {
-            "id": "5a7c2eca46aef81a7ca2145d",
-            "name": "Mechanic",
-            "normalizedName": "mechanic",
-            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-        },
+        "mixedItemsTask": true,
         "objectives": [
             {
-                "__typename": "TaskObjectiveItem",
                 "id": "6864044a289d4d4c5f337cf8",
-                "type": "giveItem",
                 "description": "Hand over the found in raid item: Printed circuit board or Microcontroller board",
-                "maps": [],
-                "optional": false,
                 "count": 3,
-                "foundInRaid": true,
-                "dogTagLevel": 0,
-                "maxDurability": 100,
-                "minDurability": 0,
-                "zones": [],
                 "items": [
                     {
                         "id": "590a3b0486f7743954552bdb",
@@ -1743,7 +1415,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/590a3b0486f7743954552bdb-icon.webp",
+                        "iconLink": "590a3b0486f7743954552bdb-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Printed_circuit_board"
                     },
                     {
@@ -1754,132 +1426,26 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/6389c7750ef44505c87f5996-icon.webp",
+                        "iconLink": "6389c7750ef44505c87f5996-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
                     }
                 ]
             }
-        ],
-        "finishRewards": {
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": [],
-            "traderStanding": [
-                {
-                    "standing": 0.01,
-                    "trader": {
-                        "id": "5a7c2eca46aef81a7ca2145d"
-                    }
-                }
-            ],
-            "items": [
-                {
-                    "count": 11600,
-                    "attributes": [],
-                    "item": {
-                        "id": "5449016a4bdc2d6f028b456f",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "5c06779c86f77426e00dd782",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "59e36c6f86f774176c10a2a7",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "57347b8b24597737dd42e192",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 2,
-                    "attributes": [],
-                    "item": {
-                        "id": "5e2aedd986f7746d404f3aa4",
-                        "containsItems": []
-                    }
-                }
-            ]
-        }
+        ]
     },
     {
         "id": "5a0327ba86f77456b9154236",
-        "tarkovDataId": 66,
         "name": "疗养之旅 - 3",
-        "normalizedName": "spa-tour-part-3",
-        "map": null,
-        "experience": 7600,
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spa_Tour_-_Part_3",
-        "minPlayerLevel": 12,
-        "traderRequirements": [],
-        "restartable": false,
-        "failConditions": [],
-        "factionName": "Any",
-        "neededKeys": [],
+        "taskImageLink": "5a0327ba86f77456b9154236.webp",
+        "trader": "Peacekeeper",
+        "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
         "kappaRequired": true,
-        "lightkeeperRequired": true,
-        "taskImageLink": "https://assets.tarkov.dev/5a0327ba86f77456b9154236.webp",
-        "startRewards": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "failureOutcome": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "taskRequirements": [
-            {
-                "status": [
-                    "complete"
-                ],
-                "task": {
-                    "id": "5a03173786f77451cb427172"
-                }
-            }
-        ],
-        "trader": {
-            "id": "5935c25fb3acc3127c3d8cd9",
-            "name": "Peacekeeper",
-            "normalizedName": "peacekeeper",
-            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-        },
+        "mixedItemsTask": true,
         "objectives": [
             {
-                "__typename": "TaskObjectiveItem",
                 "id": "5a03289686f7745dbc6c5063",
-                "type": "giveItem",
                 "description": "在战局中找到并上交：WD-40",
-                "maps": [],
-                "optional": false,
                 "count": 1,
-                "foundInRaid": true,
-                "dogTagLevel": 0,
-                "maxDurability": 100,
-                "minDurability": 0,
-                "zones": [],
                 "items": [
                     {
                         "id": "590c5bbd86f774785762df04",
@@ -1888,7 +1454,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/590c5bbd86f774785762df04-icon.webp",
+                        "iconLink": "590c5bbd86f774785762df04-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WD-40_(100ml)"
                     },
                     {
@@ -1898,199 +1464,26 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/590c5c9f86f77477c91c36e7-icon.webp",
+                        "iconLink": "590c5c9f86f77477c91c36e7-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WD-40_(400ml)"
                     }
                 ]
             }
-        ],
-        "finishRewards": {
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": [],
-            "traderStanding": [
-                {
-                    "standing": 0.03,
-                    "trader": {
-                        "id": "5935c25fb3acc3127c3d8cd9"
-                    }
-                }
-            ],
-            "items": [
-                {
-                    "count": 800,
-                    "attributes": [],
-                    "item": {
-                        "id": "5696686a4bdc2da3298b456a",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "5fd251c90d9c95034825edb5",
-                        "containsItems": [
-                            {
-                                "count": 1,
-                                "item": {
-                                    "id": "5fc3f2d5900b1d5091531e57"
-                                }
-                            },
-                            {
-                                "count": 1,
-                                "item": {
-                                    "id": "5a718b548dc32e000d46d262"
-                                }
-                            },
-                            {
-                                "count": 1,
-                                "item": {
-                                    "id": "5fb6567747ce63734e3fa1dc"
-                                }
-                            },
-                            {
-                                "count": 1,
-                                "item": {
-                                    "id": "5fb6564947ce63734e3fa1da"
-                                }
-                            },
-                            {
-                                "count": 1,
-                                "item": {
-                                    "id": "5fb6558ad6f0b2136f2d7eb7"
-                                }
-                            },
-                            {
-                                "count": 1,
-                                "item": {
-                                    "id": "5fbbc366ca32ed67276c1557"
-                                }
-                            },
-                            {
-                                "count": 1,
-                                "item": {
-                                    "id": "5fbbc34106bde7524f03cbe9"
-                                }
-                            },
-                            {
-                                "count": 1,
-                                "item": {
-                                    "id": "5fbb976df9986c4cff3fe5f2"
-                                }
-                            },
-                            {
-                                "count": 2,
-                                "item": {
-                                    "id": "5fce0f9b55375d18a253eff2"
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
-                    "count": 4,
-                    "attributes": [],
-                    "item": {
-                        "id": "5a7ad2e851dfba0016153692",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 5,
-                    "attributes": [],
-                    "item": {
-                        "id": "58d3db5386f77426186285a0",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 2,
-                    "attributes": [],
-                    "item": {
-                        "id": "590c2e1186f77425357b6124",
-                        "containsItems": []
-                    }
-                }
-            ]
-        }
+        ]
     },
     {
         "id": "60c0c018f7afb4354815096a",
-        "tarkovDataId": 213,
         "name": "猎人之路 - 工厂头目",
-        "normalizedName": "the-huntsman-path-factory-chief",
-        "experience": 16000,
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Factory_Chief",
-        "minPlayerLevel": 12,
-        "traderRequirements": [],
-        "restartable": false,
-        "failConditions": [],
-        "factionName": "Any",
-        "neededKeys": [],
+        "taskImageLink": "60c0c018f7afb4354815096a.webp",
+        "trader": "Jaeger",
+        "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
         "kappaRequired": true,
-        "lightkeeperRequired": false,
-        "taskImageLink": "https://assets.tarkov.dev/60c0c018f7afb4354815096a.webp",
-        "startRewards": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "failureOutcome": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "taskRequirements": [
-            {
-                "status": [
-                    "complete"
-                ],
-                "task": {
-                    "id": "5d25e2cc86f77443e47ae019"
-                }
-            },
-            {
-                "status": [
-                    "complete"
-                ],
-                "task": {
-                    "id": "5ac3477486f7741d651d6885"
-                }
-            }
-        ],
-        "trader": {
-            "id": "5c0647fdd443bc2504c2d371",
-            "name": "Jaeger",
-            "normalizedName": "jaeger",
-            "imageLink": "https://assets.tarkov.dev/5c0647fdd443bc2504c2d371.webp"
-        },
-        "map": {
-            "id": "55f2d3fd4bdc2d5f408b4567",
-            "name": "工厂",
-            "normalizedName": "factory"
-        },
+        "mixedItemsTask": true,
         "objectives": [
             {
-                "__typename": "TaskObjectiveItem",
                 "id": "60cfa5a85f9e6175514de2e3",
-                "type": "giveItem",
                 "description": "上交BOSS鸭舌帽",
-                "maps": [],
-                "optional": false,
                 "count": 1,
-                "foundInRaid": true,
-                "dogTagLevel": 0,
-                "maxDurability": 100,
-                "minDurability": 0,
-                "zones": [],
                 "items": [
                     {
                         "id": "60a7acf20c5cb24b01346648",
@@ -2099,7 +1492,7 @@
                         "types": [
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/60a7acf20c5cb24b01346648-icon.webp",
+                        "iconLink": "60a7acf20c5cb24b01346648-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BOSS_cap"
                     },
                     {
@@ -2109,100 +1502,128 @@
                         "types": [
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/675aae1c26dc64e17800fee6-icon.webp",
+                        "iconLink": "675aae1c26dc64e17800fee6-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hat_with_horns"
                     }
                 ]
             }
-        ],
-        "finishRewards": {
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": [],
-            "traderStanding": [
-                {
-                    "standing": 0.02,
-                    "trader": {
-                        "id": "5c0647fdd443bc2504c2d371"
+        ]
+    },
+    {
+        "id": "59ca29fb86f77445ab465c87",
+        "name": "惩罚者 - 5",
+        "taskImageLink": "59ca29fb86f77445ab465c87.webp",
+        "trader": "Prapor",
+        "traderImageLink": "54cb50c76803fa8b248b4571.webp",
+        "kappaRequired": true,
+        "mixedItemsTask": true,
+        "objectives": [
+            {
+                "id": "59ca29ab86f77445ab133c86",
+                "description": "上交 AK-74 系列突击步枪",
+                "count": 1,
+                "items": [
+                    {
+                        "id": "5644bd2b4bdc2d3b4c8b4572",
+                        "name": "卡拉什尼科夫 AK-74N 5.45x39 突击步枪",
+                        "normalizedName": "kalashnikov-ak-74n-545x39-assault-rifle",
+                        "types": [
+                            "gun",
+                            "wearable"
+                        ],
+                        "iconLink": "5644bd2b4bdc2d3b4c8b4572-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AK-74N_5.45x39_assault_rifle"
+                    },
+                    {
+                        "id": "5bf3e03b0db834001d2c4a9c",
+                        "name": "AK-74 5.45x39 突击步枪",
+                        "normalizedName": "kalashnikov-ak-74-545x39-assault-rifle",
+                        "types": [
+                            "gun",
+                            "wearable"
+                        ],
+                        "iconLink": "5bf3e03b0db834001d2c4a9c-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AK-74_5.45x39_assault_rifle"
+                    },
+                    {
+                        "id": "5ac4cd105acfc40016339859",
+                        "name": "AK-74M 5.45x39 突击步枪",
+                        "normalizedName": "kalashnikov-ak-74m-545x39-assault-rifle",
+                        "types": [
+                            "gun",
+                            "wearable"
+                        ],
+                        "iconLink": "5ac4cd105acfc40016339859-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AK-74M_5.45x39_assault_rifle"
+                    },
+                    {
+                        "id": "5ab8e9fcd8ce870019439434",
+                        "name": "AKS-74N 5.45x39 突击步枪",
+                        "normalizedName": "kalashnikov-aks-74n-545x39-assault-rifle",
+                        "types": [
+                            "gun",
+                            "wearable"
+                        ],
+                        "iconLink": "5ab8e9fcd8ce870019439434-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AKS-74N_5.45x39_assault_rifle"
+                    },
+                    {
+                        "id": "5bf3e0490db83400196199af",
+                        "name": "AKS-74 5.45x39 突击步枪",
+                        "normalizedName": "kalashnikov-aks-74-545x39-assault-rifle",
+                        "types": [
+                            "gun",
+                            "wearable"
+                        ],
+                        "iconLink": "5bf3e0490db83400196199af-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AKS-74_5.45x39_assault_rifle"
                     }
-                }
-            ],
-            "items": [
-                {
-                    "count": 700000,
-                    "attributes": [],
-                    "item": {
-                        "id": "5449016a4bdc2d6f028b456f",
-                        "containsItems": []
+                ]
+            },
+            {
+                "id": "59ca2cbe86f7740fe95c3e52",
+                "description": "上交手枪",
+                "count": 2,
+                "items": [
+                    {
+                        "id": "5448bd6b4bdc2dfc2f8b4569",
+                        "name": "马卡洛夫9x18PM 手枪",
+                        "normalizedName": "makarov-pm-9x18pm-pistol",
+                        "types": [
+                            "gun",
+                            "wearable"
+                        ],
+                        "iconLink": "5448bd6b4bdc2dfc2f8b4569-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Makarov_PM_9x18PM_pistol"
+                    },
+                    {
+                        "id": "579204f224597773d619e051",
+                        "name": "马卡洛夫 PM(t) 9x18PM 手枪",
+                        "normalizedName": "makarov-pm-t-9x18pm-pistol",
+                        "types": [
+                            "gun",
+                            "wearable"
+                        ],
+                        "iconLink": "579204f224597773d619e051-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Makarov_PM_(t)_9x18PM_pistol"
                     }
-                },
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "5448ba0b4bdc2d02308b456c",
-                        "containsItems": []
-                    }
-                }
-            ]
-        }
+                ]
+            }
+        ]
     },
     {
         "id": "6740a2c17e3818d5bb0648b6",
-        "tarkovDataId": null,
         "name": "半满半空",
-        "normalizedName": "half-empty",
-        "map": null,
-        "experience": 14900,
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Half-Empty",
-        "minPlayerLevel": 20,
-        "traderRequirements": [],
-        "restartable": false,
-        "failConditions": [],
-        "factionName": "Any",
-        "neededKeys": [],
+        "taskImageLink": "6740a2c17e3818d5bb0648b6.webp",
+        "trader": "Prapor",
+        "traderImageLink": "54cb50c76803fa8b248b4571.webp",
         "kappaRequired": false,
-        "lightkeeperRequired": false,
-        "taskImageLink": "https://assets.tarkov.dev/6740a2c17e3818d5bb0648b6.webp",
-        "failureOutcome": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "taskRequirements": [
-            {
-                "status": [
-                    "complete"
-                ],
-                "task": {
-                    "id": "6740a15566e6a521aa051b15"
-                }
-            }
-        ],
-        "trader": {
-            "id": "54cb50c76803fa8b248b4571",
-            "name": "Prapor",
-            "normalizedName": "prapor",
-            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
-        },
+        "mixedItemsTask": true,
         "objectives": [
             {
-                "__typename": "TaskObjectiveItem",
                 "id": "6749aa9b1badcb1e8056d769",
-                "type": "giveItem",
                 "description": "上交战局中找到的物品：军规电子元件",
-                "maps": [],
-                "optional": false,
                 "count": 5,
-                "foundInRaid": true,
-                "dogTagLevel": 0,
-                "maxDurability": 100,
-                "minDurability": 0,
-                "zones": [],
                 "items": [
                     {
                         "id": "5d0378d486f77420421a5ff4",
@@ -2211,7 +1632,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5d0378d486f77420421a5ff4-icon.webp",
+                        "iconLink": "5d0378d486f77420421a5ff4-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_power_filter"
                     },
                     {
@@ -2221,7 +1642,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5d03784a86f774203e7e0c4d-icon.webp",
+                        "iconLink": "5d03784a86f774203e7e0c4d-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_gyrotachometer"
                     },
                     {
@@ -2231,7 +1652,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5d0377ce86f774186372f689-icon.webp",
+                        "iconLink": "5d0377ce86f774186372f689-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Iridium_military_thermal_vision_module"
                     },
                     {
@@ -2241,7 +1662,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5d0375ff86f774186372f685-icon.webp",
+                        "iconLink": "5d0375ff86f774186372f685-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_cable"
                     },
                     {
@@ -2251,7 +1672,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5c052f6886f7746b1e3db148-icon.webp",
+                        "iconLink": "5c052f6886f7746b1e3db148-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_COFDM_Wireless_Signal_Transmitter"
                     },
                     {
@@ -2261,7 +1682,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5d0376a486f7747d8050965c-icon.webp",
+                        "iconLink": "5d0376a486f7747d8050965c-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_circuit_board"
                     },
                     {
@@ -2271,24 +1692,15 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5c05308086f7746b2101e90b-icon.webp",
+                        "iconLink": "5c05308086f7746b2101e90b-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Virtex_programmable_processor"
                     }
                 ]
             },
             {
-                "__typename": "TaskObjectiveItem",
                 "id": "6740a33685a62f9581c2beaf",
-                "type": "giveItem",
                 "description": "上交战局中找到的物品：电脑配件",
-                "maps": [],
-                "optional": false,
                 "count": 10,
-                "foundInRaid": true,
-                "dogTagLevel": 0,
-                "maxDurability": 100,
-                "minDurability": 0,
-                "zones": [],
                 "items": [
                     {
                         "id": "5734781f24597737e04bf32a",
@@ -2297,7 +1709,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5734781f24597737e04bf32a-icon.webp",
+                        "iconLink": "5734781f24597737e04bf32a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/DVD_drive"
                     },
                     {
@@ -2307,7 +1719,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57347c2e24597744902c94a1-icon.webp",
+                        "iconLink": "57347c2e24597744902c94a1-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Power_supply_unit"
                     },
                     {
@@ -2317,7 +1729,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57347ca924597744596b4e71-icon.webp",
+                        "iconLink": "57347ca924597744596b4e71-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Graphics_card"
                     },
                     {
@@ -2327,7 +1739,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/57347baf24597738002c6178-icon.webp",
+                        "iconLink": "57347baf24597738002c6178-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/RAM_stick"
                     },
                     {
@@ -2337,7 +1749,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/590a3b0486f7743954552bdb-icon.webp",
+                        "iconLink": "590a3b0486f7743954552bdb-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Printed_circuit_board"
                     },
                     {
@@ -2347,7 +1759,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/590a386e86f77429692b27ab-icon.webp",
+                        "iconLink": "590a386e86f77429692b27ab-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Damaged_hard_drive"
                     },
                     {
@@ -2357,7 +1769,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5734779624597737e04bf329-icon.webp",
+                        "iconLink": "5734779624597737e04bf329-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CPU_fan"
                     },
                     {
@@ -2367,7 +1779,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/573477e124597737dd42e191-icon.webp",
+                        "iconLink": "573477e124597737dd42e191-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/PC_CPU"
                     },
                     {
@@ -2377,7 +1789,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/59e36c6f86f774176c10a2a7-icon.webp",
+                        "iconLink": "59e36c6f86f774176c10a2a7-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Power_cord"
                     },
                     {
@@ -2387,7 +1799,7 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5c06779c86f77426e00dd782-icon.webp",
+                        "iconLink": "5c06779c86f77426e00dd782-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
                     },
                     {
@@ -2397,142 +1809,26 @@
                         "types": [
                             "barter"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/6389c70ca33d8c4cdf4932c6-icon.webp",
+                        "iconLink": "6389c70ca33d8c4cdf4932c6-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electronic_components"
                     }
                 ]
             }
-        ],
-        "startRewards": {
-            "traderStanding": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": [],
-            "items": [
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "66d9f1abb16d9aacf5068468",
-                        "containsItems": []
-                    }
-                }
-            ]
-        },
-        "finishRewards": {
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": [],
-            "traderStanding": [
-                {
-                    "standing": 0.02,
-                    "trader": {
-                        "id": "54cb50c76803fa8b248b4571"
-                    }
-                }
-            ],
-            "items": [
-                {
-                    "count": 123000,
-                    "attributes": [],
-                    "item": {
-                        "id": "5449016a4bdc2d6f028b456f",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 2,
-                    "attributes": [],
-                    "item": {
-                        "id": "5aa7e276e5b5b000171d0647",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 2,
-                    "attributes": [],
-                    "item": {
-                        "id": "5aa7e373e5b5b000137b76f0",
-                        "containsItems": []
-                    }
-                }
-            ]
-        }
+        ]
     },
     {
         "id": "66151401efb0539ae10875ae",
-        "tarkovDataId": null,
         "name": "涓滴效应 - 1",
-        "normalizedName": "drip-out-part-1-usec",
-        "map": null,
-        "experience": 0,
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Drip-Out_-_Part_1",
-        "minPlayerLevel": 24,
-        "traderRequirements": [],
-        "restartable": true,
-        "failConditions": [],
-        "factionName": "USEC",
-        "neededKeys": [],
+        "taskImageLink": "66151401efb0539ae10875ae.webp",
+        "trader": "Ragman",
+        "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
         "kappaRequired": false,
-        "lightkeeperRequired": false,
-        "taskImageLink": "https://assets.tarkov.dev/66151401efb0539ae10875ae.webp",
-        "startRewards": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "finishRewards": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "failureOutcome": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "taskRequirements": [
-            {
-                "status": [
-                    "active",
-                    "complete"
-                ],
-                "task": {
-                    "id": "5b478d0f86f7744d190d91b5"
-                }
-            }
-        ],
-        "trader": {
-            "id": "5ac3b934156ae10c4430e83c",
-            "name": "Ragman",
-            "normalizedName": "ragman",
-            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
-        },
+        "mixedItemsTask": true,
         "objectives": [
             {
-                "__typename": "TaskObjectiveItem",
                 "id": "66168239957ac58c30b29135",
-                "type": "giveItem",
                 "description": "上交在战局中找到的 WARTECH 品牌装备",
-                "maps": [],
-                "optional": false,
                 "count": 50,
-                "foundInRaid": true,
-                "dogTagLevel": 0,
-                "maxDurability": 100,
-                "minDurability": 0,
-                "zones": [],
                 "items": [
                     {
                         "id": "64a536392d2c4e6e970f4121",
@@ -2543,7 +1839,7 @@
                             "rig",
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/64a536392d2c4e6e970f4121-icon.webp",
+                        "iconLink": "64a536392d2c4e6e970f4121-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_TV-115_plate_carrier_(Olive_Drab)"
                     },
                     {
@@ -2554,7 +1850,7 @@
                             "backpack",
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5ca20d5986f774331e7c9602-icon.webp",
+                        "iconLink": "5ca20d5986f774331e7c9602-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_Berkut_BB-102_backpack_(A-TACS_FG)"
                     },
                     {
@@ -2566,7 +1862,7 @@
                             "rig",
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5c0e746986f7741453628fe5-icon.webp",
+                        "iconLink": "5c0e746986f7741453628fe5-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_TV-110_plate_carrier_(Coyote)"
                     },
                     {
@@ -2577,7 +1873,7 @@
                             "rig",
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5ab8dab586f77441cd04f2a2-icon.webp",
+                        "iconLink": "5ab8dab586f77441cd04f2a2-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_MK3_TV-104_chest_rig_(MultiCam)"
                     },
                     {
@@ -2588,7 +1884,7 @@
                             "rig",
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/59e7643b86f7742cbf2c109a-icon.webp",
+                        "iconLink": "59e7643b86f7742cbf2c109a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_TV-109_%2B_TV-106_chest_rig_(A-TACS_FG)"
                     }
                 ]
@@ -2597,71 +1893,17 @@
     },
     {
         "id": "6179b5eabca27a099552e052",
-        "tarkovDataId": 244,
         "name": "反抗",
-        "normalizedName": "counteraction-usec",
-        "experience": 22000,
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Counteraction",
-        "minPlayerLevel": 30,
-        "traderRequirements": [],
-        "restartable": false,
-        "failConditions": [],
-        "factionName": "USEC",
-        "neededKeys": [],
+        "taskImageLink": "6179b5eabca27a099552e052.webp",
+        "trader": "Peacekeeper",
+        "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
         "kappaRequired": false,
-        "lightkeeperRequired": false,
-        "taskImageLink": "https://assets.tarkov.dev/6179b5eabca27a099552e052.webp",
-        "startRewards": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "failureOutcome": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "taskRequirements": [
-            {
-                "status": [
-                    "complete"
-                ],
-                "task": {
-                    "id": "5a0327ba86f77456b9154236"
-                }
-            }
-        ],
-        "trader": {
-            "id": "5935c25fb3acc3127c3d8cd9",
-            "name": "Peacekeeper",
-            "normalizedName": "peacekeeper",
-            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-        },
-        "map": {
-            "id": "5704e4dad2720bb55b8b4567",
-            "name": "灯塔",
-            "normalizedName": "lighthouse"
-        },
+        "mixedItemsTask": true,
         "objectives": [
             {
-                "__typename": "TaskObjectiveItem",
                 "id": "617fc08b30ccff6c7c37fcd3",
-                "type": "giveItem",
                 "description": "上交在战局中找到的BEAR狗牌",
-                "maps": [],
-                "optional": false,
                 "count": 20,
-                "foundInRaid": true,
-                "dogTagLevel": 0,
-                "maxDurability": 100,
-                "minDurability": 0,
-                "zones": [],
                 "items": [
                     {
                         "id": "59f32bb586f774757e1e8442",
@@ -2671,7 +1913,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/59f32bb586f774757e1e8442-icon.webp",
+                        "iconLink": "59f32bb586f774757e1e8442-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -2682,7 +1924,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/6662e9cda7e0b43baa3d5f76-icon.webp",
+                        "iconLink": "6662e9cda7e0b43baa3d5f76-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -2693,7 +1935,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/6662e9aca7e0b43baa3d5f74-icon.webp",
+                        "iconLink": "6662e9aca7e0b43baa3d5f74-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -2704,7 +1946,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/684181208d035f60230f63f9-icon.webp",
+                        "iconLink": "684181208d035f60230f63f9-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -2715,7 +1957,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/684180bc51bf8645f7067bc8-icon.webp",
+                        "iconLink": "684180bc51bf8645f7067bc8-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -2726,7 +1968,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/675dcb0545b1a2d108011b2b-icon.webp",
+                        "iconLink": "675dcb0545b1a2d108011b2b-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -2737,146 +1979,26 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/675dc9d37ae1a8792107ca96-icon.webp",
+                        "iconLink": "675dc9d37ae1a8792107ca96-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     }
                 ]
             }
-        ],
-        "finishRewards": {
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": [],
-            "traderStanding": [
-                {
-                    "standing": 0.03,
-                    "trader": {
-                        "id": "5935c25fb3acc3127c3d8cd9"
-                    }
-                }
-            ],
-            "items": [
-                {
-                    "count": 2300,
-                    "attributes": [],
-                    "item": {
-                        "id": "5696686a4bdc2da3298b456a",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "5c12613b86f7743bbe2c3f76",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "590c392f86f77444754deb29",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "62a0a124de7ac81993580542",
-                        "containsItems": []
-                    }
-                }
-            ],
-            "offerUnlock": [
-                {
-                    "level": 4,
-                    "trader": {
-                        "id": "58330581ace78e27b8b10cee"
-                    },
-                    "item": {
-                        "id": "5e85a9f4add9fe03027d9bf1"
-                    }
-                }
-            ]
-        }
+        ]
     },
     {
         "id": "5d25e2e286f77444001e2e48",
-        "tarkovDataId": 164,
         "name": "猎人之路 - 脱销",
-        "normalizedName": "the-huntsman-path-sellout",
-        "experience": 20000,
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Huntsman_Path_-_Sellout",
-        "minPlayerLevel": 30,
-        "traderRequirements": [],
-        "restartable": false,
-        "failConditions": [],
-        "factionName": "Any",
-        "neededKeys": [],
+        "taskImageLink": "5d25e2e286f77444001e2e48.webp",
+        "trader": "Jaeger",
+        "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
         "kappaRequired": true,
-        "lightkeeperRequired": false,
-        "taskImageLink": "https://assets.tarkov.dev/5d25e2e286f77444001e2e48.webp",
-        "startRewards": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "failureOutcome": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "taskRequirements": [
-            {
-                "status": [
-                    "complete"
-                ],
-                "task": {
-                    "id": "5d25e2cc86f77443e47ae019"
-                }
-            },
-            {
-                "status": [
-                    "complete"
-                ],
-                "task": {
-                    "id": "5ae449c386f7744bde357697"
-                }
-            }
-        ],
-        "trader": {
-            "id": "5c0647fdd443bc2504c2d371",
-            "name": "Jaeger",
-            "normalizedName": "jaeger",
-            "imageLink": "https://assets.tarkov.dev/5c0647fdd443bc2504c2d371.webp"
-        },
-        "map": {
-            "id": "5714dbc024597771384a510d",
-            "name": "立交桥",
-            "normalizedName": "interchange"
-        },
+        "mixedItemsTask": true,
         "objectives": [
             {
-                "__typename": "TaskObjectiveItem",
                 "id": "5d271a3486f774483c7bdb12",
-                "type": "giveItem",
                 "description": "上交Killa的头盔 ",
-                "maps": [],
-                "optional": false,
                 "count": 1,
-                "foundInRaid": true,
-                "dogTagLevel": 0,
-                "maxDurability": 100,
-                "minDurability": 0,
-                "zones": [],
                 "items": [
                     {
                         "id": "5c0e874186f7745dc7616606",
@@ -2886,7 +2008,7 @@
                             "helmet",
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5c0e874186f7745dc7616606-icon.webp",
+                        "iconLink": "5c0e874186f7745dc7616606-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Maska-1SCh_bulletproof_helmet_(Killa_Edition)"
                     },
                     {
@@ -2896,151 +2018,26 @@
                         "types": [
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/6759af0f9c8a538dd70bfae6-icon.webp",
+                        "iconLink": "6759af0f9c8a538dd70bfae6-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Maska-1SCh_bulletproof_helmet_(Christmas_Edition)"
                     }
                 ]
             }
-        ],
-        "finishRewards": {
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": [],
-            "traderStanding": [
-                {
-                    "standing": 0.02,
-                    "trader": {
-                        "id": "5c0647fdd443bc2504c2d371"
-                    }
-                }
-            ],
-            "items": [
-                {
-                    "count": 150000,
-                    "attributes": [],
-                    "item": {
-                        "id": "5449016a4bdc2d6f028b456f",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "5ad7242b86f7740a6a3abd43",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "5ad7217186f7746744498875",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "5ad7247386f7747487619dc3",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 3,
-                    "attributes": [],
-                    "item": {
-                        "id": "5c12613b86f7743bbe2c3f76",
-                        "containsItems": []
-                    }
-                }
-            ],
-            "offerUnlock": [
-                {
-                    "level": 2,
-                    "trader": {
-                        "id": "54cb50c76803fa8b248b4571"
-                    },
-                    "item": {
-                        "id": "rpk166l26000000000000001"
-                    }
-                }
-            ]
-        }
+        ]
     },
     {
         "id": "6615141bfda04449120269a7",
-        "tarkovDataId": null,
         "name": "涓滴效应 - 2",
-        "normalizedName": "drip-out-part-2-usec",
-        "map": null,
-        "experience": 0,
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Drip-Out_-_Part_2",
-        "minPlayerLevel": 33,
-        "traderRequirements": [],
-        "restartable": true,
-        "failConditions": [],
-        "factionName": "USEC",
-        "neededKeys": [],
+        "taskImageLink": "6615141bfda04449120269a7.webp",
+        "trader": "Ragman",
+        "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
         "kappaRequired": false,
-        "lightkeeperRequired": false,
-        "taskImageLink": "https://assets.tarkov.dev/6615141bfda04449120269a7.webp",
-        "startRewards": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "finishRewards": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "failureOutcome": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "taskRequirements": [
-            {
-                "status": [
-                    "active",
-                    "complete"
-                ],
-                "task": {
-                    "id": "65734c186dc1e402c80dc19e"
-                }
-            }
-        ],
-        "trader": {
-            "id": "5ac3b934156ae10c4430e83c",
-            "name": "Ragman",
-            "normalizedName": "ragman",
-            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
-        },
+        "mixedItemsTask": true,
         "objectives": [
             {
-                "__typename": "TaskObjectiveItem",
                 "id": "661682aed31d408548016468",
-                "type": "giveItem",
                 "description": "上交在战局中找到的 LBT 品牌装备",
-                "maps": [],
-                "optional": false,
                 "count": 50,
-                "foundInRaid": true,
-                "dogTagLevel": 0,
-                "maxDurability": 100,
-                "minDurability": 0,
-                "zones": [],
                 "items": [
                     {
                         "id": "628baf0b967de16aab5a4f36",
@@ -3050,7 +2047,7 @@
                             "rig",
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/628baf0b967de16aab5a4f36-icon.webp",
+                        "iconLink": "628baf0b967de16aab5a4f36-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-1961A_Load_Bearing_Chest_Rig_(Goons_Edition)"
                     },
                     {
@@ -3061,7 +2058,7 @@
                             "backpack",
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/618cfae774bb2d036a049e7c-icon.webp",
+                        "iconLink": "618cfae774bb2d036a049e7c-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-1476A_3Day_Pack_(Woodland)"
                     },
                     {
@@ -3072,7 +2069,7 @@
                             "armor",
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/6038b4ca92ec1c3103795a0d-icon.webp",
+                        "iconLink": "6038b4ca92ec1c3103795a0d-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-6094A_Slick_Plate_Carrier_(Olive_Drab)"
                     },
                     {
@@ -3083,7 +2080,7 @@
                             "armor",
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/6038b4b292ec1c3103795a0b-icon.webp",
+                        "iconLink": "6038b4b292ec1c3103795a0b-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-6094A_Slick_Plate_Carrier_(Coyote_Tan)"
                     },
                     {
@@ -3094,7 +2091,7 @@
                             "backpack",
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5e9dcf5986f7746c417435b3-icon.webp",
+                        "iconLink": "5e9dcf5986f7746c417435b3-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-8005A_Day_Pack_backpack_(MultiCam_Black)"
                     },
                     {
@@ -3105,7 +2102,7 @@
                             "rig",
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5e9db13186f7742f845ee9d3-icon.webp",
+                        "iconLink": "5e9db13186f7742f845ee9d3-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-1961A_Load_Bearing_Chest_Rig_(MAS_Grey)"
                     },
                     {
@@ -3116,7 +2113,7 @@
                             "backpack",
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5e4abc6786f77406812bd572-icon.webp",
+                        "iconLink": "5e4abc6786f77406812bd572-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-2670_Slim_Field_Med_Pack_(Black)"
                     },
                     {
@@ -3127,7 +2124,7 @@
                             "armor",
                             "wearable"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/5e4abb5086f77406975c9342-icon.webp",
+                        "iconLink": "5e4abb5086f77406975c9342-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-6094A_Slick_Plate_Carrier_(Black)"
                     }
                 ]
@@ -3136,75 +2133,17 @@
     },
     {
         "id": "60e71ccb5688f6424c7bfec4",
-        "tarkovDataId": null,
         "name": "战利品",
-        "normalizedName": "trophies",
-        "map": null,
-        "experience": 137000,
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Trophies",
-        "minPlayerLevel": 55,
-        "traderRequirements": [],
-        "restartable": false,
-        "failConditions": [],
-        "factionName": "Any",
-        "neededKeys": [],
+        "taskImageLink": "60e71ccb5688f6424c7bfec4.webp",
+        "trader": "Peacekeeper",
+        "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
         "kappaRequired": false,
-        "lightkeeperRequired": false,
-        "taskImageLink": "https://assets.tarkov.dev/60e71ccb5688f6424c7bfec4.webp",
-        "startRewards": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "failureOutcome": {
-            "traderStanding": [],
-            "items": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": []
-        },
-        "taskRequirements": [
-            {
-                "status": [
-                    "complete"
-                ],
-                "task": {
-                    "id": "5d25e2cc86f77443e47ae019"
-                }
-            },
-            {
-                "status": [
-                    "complete"
-                ],
-                "task": {
-                    "id": "5a27b75b86f7742e97191958"
-                }
-            }
-        ],
-        "trader": {
-            "id": "5935c25fb3acc3127c3d8cd9",
-            "name": "Peacekeeper",
-            "normalizedName": "peacekeeper",
-            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-        },
+        "mixedItemsTask": true,
         "objectives": [
             {
-                "__typename": "TaskObjectiveItem",
                 "id": "60e8174d0367e10a450f7818",
-                "type": "giveItem",
                 "description": "在战局中找到50级以上BEAR PMC狗牌并上交",
-                "maps": [],
-                "optional": false,
                 "count": 20,
-                "foundInRaid": true,
-                "dogTagLevel": 50,
-                "maxDurability": 100,
-                "minDurability": 0,
-                "zones": [],
                 "items": [
                     {
                         "id": "59f32bb586f774757e1e8442",
@@ -3214,7 +2153,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/59f32bb586f774757e1e8442-icon.webp",
+                        "iconLink": "59f32bb586f774757e1e8442-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -3225,7 +2164,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/6662e9cda7e0b43baa3d5f76-icon.webp",
+                        "iconLink": "6662e9cda7e0b43baa3d5f76-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -3236,7 +2175,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/6662e9aca7e0b43baa3d5f74-icon.webp",
+                        "iconLink": "6662e9aca7e0b43baa3d5f74-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -3247,7 +2186,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/675dc9d37ae1a8792107ca96-icon.webp",
+                        "iconLink": "675dc9d37ae1a8792107ca96-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -3258,7 +2197,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/675dcb0545b1a2d108011b2b-icon.webp",
+                        "iconLink": "675dcb0545b1a2d108011b2b-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -3269,7 +2208,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/684181208d035f60230f63f9-icon.webp",
+                        "iconLink": "684181208d035f60230f63f9-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -3280,24 +2219,15 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/684180bc51bf8645f7067bc8-icon.webp",
+                        "iconLink": "684180bc51bf8645f7067bc8-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     }
                 ]
             },
             {
-                "__typename": "TaskObjectiveItem",
                 "id": "60e81795479eef59b01b0bdf",
-                "type": "giveItem",
                 "description": "在战局中找到50级以上USEC PMC狗牌并上交",
-                "maps": [],
-                "optional": false,
                 "count": 20,
-                "foundInRaid": true,
-                "dogTagLevel": 50,
-                "maxDurability": 100,
-                "minDurability": 0,
-                "zones": [],
                 "items": [
                     {
                         "id": "59f32c3b86f77472a31742f0",
@@ -3307,7 +2237,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/59f32c3b86f77472a31742f0-icon.webp",
+                        "iconLink": "59f32c3b86f77472a31742f0-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -3318,7 +2248,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/6662ea05f6259762c56f3189-icon.webp",
+                        "iconLink": "6662ea05f6259762c56f3189-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -3329,7 +2259,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/6662e9f37fa79a6d83730fa0-icon.webp",
+                        "iconLink": "6662e9f37fa79a6d83730fa0-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -3340,7 +2270,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/6764207f2fa5e32733055c4a-icon.webp",
+                        "iconLink": "6764207f2fa5e32733055c4a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -3351,7 +2281,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/6764202ae307804338014c1a-icon.webp",
+                        "iconLink": "6764202ae307804338014c1a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -3362,7 +2292,7 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/684180ee9b6d80d840042e8a-icon.webp",
+                        "iconLink": "684180ee9b6d80d840042e8a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     },
                     {
@@ -3373,65 +2303,11 @@
                             "barter",
                             "noFlea"
                         ],
-                        "iconLink": "https://assets.tarkov.dev/68418091b5b0c9e4c60f0e7a-icon.webp",
+                        "iconLink": "68418091b5b0c9e4c60f0e7a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     }
                 ]
             }
-        ],
-        "finishRewards": {
-            "traderStanding": [],
-            "offerUnlock": [],
-            "skillLevelReward": [],
-            "craftUnlock": [],
-            "traderUnlock": [],
-            "items": [
-                {
-                    "count": 4,
-                    "attributes": [],
-                    "item": {
-                        "id": "5aafbde786f774389d0cbc0f",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "619bdf9cc9546643a67df6f8",
-                        "containsItems": []
-                    }
-                },
-                {
-                    "count": 1,
-                    "attributes": [],
-                    "item": {
-                        "id": "5f06d6e1475d472556679d16",
-                        "containsItems": [
-                            {
-                                "count": 1,
-                                "item": {
-                                    "id": "5e81ebcd8e146c7080625e15"
-                                }
-                            },
-                            {
-                                "count": 1,
-                                "item": {
-                                    "id": "571659bb2459771fb2755a12"
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
-                    "count": 10,
-                    "attributes": [],
-                    "item": {
-                        "id": "5f0c892565703e5c461894e9",
-                        "containsItems": []
-                    }
-                }
-            ]
-        }
+        ]
     }
 ]

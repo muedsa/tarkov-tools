@@ -9,8 +9,8 @@ export type FoundInRaidItemCardProps = {
   data: FoundInRaidItemData;
 };
 
-type TaskTag = TraderTaskData & { completed: boolean };
-type HideoutStationTag = HideoutStationData & { completed: boolean };
+type TaskTag = TraderTaskDemandData & { completed: boolean };
+type HideoutStationTag = HideoutStationDemandData & { completed: boolean };
 
 const FoundInRaidItemCard = ({ data }: FoundInRaidItemCardProps) => {
   const userDataContext = useUserDataContext();
