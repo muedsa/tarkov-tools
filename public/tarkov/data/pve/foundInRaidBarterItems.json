@@ -1689,6 +1689,47 @@
         "hideoutStations": []
     },
     {
+        "id": "59f32bb586f774757e1e8442",
+        "name": "BEAR 狗牌",
+        "normalizedName": "dogtag-bear",
+        "types": [
+            "barter",
+            "noFlea"
+        ],
+        "iconLink": "59f32bb586f774757e1e8442-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag",
+        "tasks": [
+            {
+                "id": "6179b5eabca27a099552e052",
+                "name": "反抗",
+                "trader": "Peacekeeper",
+                "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
+                "kappaRequired": false,
+                "count": 20,
+                "mixedItemsTask": true
+            },
+            {
+                "id": "60e71ccb5688f6424c7bfec4",
+                "name": "战利品",
+                "trader": "Peacekeeper",
+                "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
+                "kappaRequired": false,
+                "count": 20,
+                "mixedItemsTask": true
+            },
+            {
+                "id": "61e6e5e0f5b9633f6719ed95",
+                "name": "亡羊补牢 - 信任",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": false,
+                "count": 5,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
         "id": "5c05308086f7746b2101e90b",
         "name": "Virtex可编程处理器",
         "normalizedName": "virtex-programmable-processor",
@@ -2903,6 +2944,38 @@
         "hideoutStations": []
     },
     {
+        "id": "59f32c3b86f77472a31742f0",
+        "name": "USEC 狗牌",
+        "normalizedName": "dogtag-usec",
+        "types": [
+            "barter",
+            "noFlea"
+        ],
+        "iconLink": "59f32c3b86f77472a31742f0-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag",
+        "tasks": [
+            {
+                "id": "60e71ccb5688f6424c7bfec4",
+                "name": "战利品",
+                "trader": "Peacekeeper",
+                "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
+                "kappaRequired": false,
+                "count": 20,
+                "mixedItemsTask": true
+            },
+            {
+                "id": "61e6e5e0f5b9633f6719ed95",
+                "name": "亡羊补牢 - 信任",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": false,
+                "count": 5,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
         "id": "62a0a16d0b9d3c46de5b6e97",
         "name": "军用闪存装置",
         "normalizedName": "military-flash-drive",
@@ -2933,52 +3006,6 @@
                 "count": 5
             }
         ]
-    },
-    {
-        "id": "59f32bb586f774757e1e8442",
-        "name": "BEAR 狗牌",
-        "normalizedName": "dogtag-bear",
-        "types": [
-            "barter",
-            "noFlea"
-        ],
-        "iconLink": "59f32bb586f774757e1e8442-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag",
-        "tasks": [
-            {
-                "id": "61e6e5e0f5b9633f6719ed95",
-                "name": "亡羊补牢 - 信任",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": false,
-                "count": 5,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "59f32c3b86f77472a31742f0",
-        "name": "USEC 狗牌",
-        "normalizedName": "dogtag-usec",
-        "types": [
-            "barter",
-            "noFlea"
-        ],
-        "iconLink": "59f32c3b86f77472a31742f0-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag",
-        "tasks": [
-            {
-                "id": "61e6e5e0f5b9633f6719ed95",
-                "name": "亡羊补牢 - 信任",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": false,
-                "count": 5,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
     },
     {
         "id": "655c67ab0d37ca5135388f4b",

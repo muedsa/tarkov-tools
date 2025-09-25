@@ -7,7 +7,11 @@ const projectRootDir = path.join(__dirname, "../../");
 
 // 包含混合物品任务
 const includedMixedItemsTasks = [
+  "60c0c018f7afb4354815096a", // 猎人之路 - 工厂头目
   "59ca29fb86f77445ab465c87", // 惩罚者 - 5
+  "5d25e2e286f77444001e2e48", // 猎人之路 - 脱销
+  "6179b5eabca27a099552e052", // 反抗
+  "60e71ccb5688f6424c7bfec4", // 战利品
 ];
 
 // PVE

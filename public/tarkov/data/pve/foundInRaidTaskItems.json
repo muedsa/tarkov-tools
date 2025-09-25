@@ -246,6 +246,27 @@
         ]
     },
     {
+        "id": "60a7acf20c5cb24b01346648",
+        "name": "BOSS鸭舌帽",
+        "normalizedName": "boss-cap",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "60a7acf20c5cb24b01346648-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BOSS_cap",
+        "tasks": [
+            {
+                "id": "60c0c018f7afb4354815096a",
+                "name": "猎人之路 - 工厂头目",
+                "trader": "Jaeger",
+                "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": true
+            }
+        ]
+    },
+    {
         "id": "5d08d21286f774736e7c94c3",
         "name": "Shturman 的储物箱钥匙",
         "normalizedName": "shturmans-stash-key",
@@ -823,6 +844,28 @@
                 "kappaRequired": true,
                 "count": 2,
                 "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5c0e874186f7745dc7616606",
+        "name": "Maska-1SCh 防弹头盔（Killa 版）",
+        "normalizedName": "maska-1sch-bulletproof-helmet-killa-edition",
+        "types": [
+            "helmet",
+            "wearable"
+        ],
+        "iconLink": "5c0e874186f7745dc7616606-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Maska-1SCh_bulletproof_helmet_(Killa_Edition)",
+        "tasks": [
+            {
+                "id": "5d25e2e286f77444001e2e48",
+                "name": "猎人之路 - 脱销",
+                "trader": "Jaeger",
+                "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": true
             }
         ]
     },
