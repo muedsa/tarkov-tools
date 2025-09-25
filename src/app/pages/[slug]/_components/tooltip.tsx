@@ -1,5 +1,5 @@
 import React from "react";
-import "./tooltip.css";
+import TooltipStyles from "./tooltip.module.css";
 
 // 定义提示框可能的方向
 type TooltipDirection = "top" | "bottom" | "left" | "right";
@@ -32,14 +32,14 @@ const Tooltip: React.FC<TooltipProps> = ({
   if (disabled) {
     return <>{children}</>;
   }
-
+  console.log(TooltipStyles);
   return (
     <div
-      className={`tooltip-container ${direction} ${className}`}
+      className={`${TooltipStyles["tooltip-container"]} ${TooltipStyles[direction]} ${className}`}
       role="tooltip"
     >
       {children}
-      <span className="tooltip-text" style={{ zIndex }}>
+      <span className={TooltipStyles["tooltip-text"]} style={{ zIndex }}>
         {content}
       </span>
     </div>
