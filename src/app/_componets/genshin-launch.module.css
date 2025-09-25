@@ -1,0 +1,60 @@
+.genshin-launch-bg {
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  animation-name: launch-bg;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes launch-bg {
+  0% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.genshin-launch-img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/genshin.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation-name: launch-img;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes launch-img {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
