@@ -6,6 +6,14 @@ import fs from "node:fs";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRootDir = path.join(__dirname, "../../");
 
+const args = process.argv.slice(2);
+const mode = args[0];
+if (mode !== "pve" && mode !== "pvp") {
+  throw Error(
+    `args mode only pve or regular, but get args=${JSON.stringify(args)}`
+  );
+}
+
 // 图片保存路径
 const saveDir = path.join(projectRootDir, "public/tarkov/images/");
 
@@ -43,7 +51,7 @@ async function checkAndSaveImage(imageKey) {
 const foundInRaidBarterItemsFileData = fs.readFileSync(
   path.join(
     projectRootDir,
-    "public/tarkov/data/pve/foundInRaidBarterItems.json"
+    `public/tarkov/data/${mode}/foundInRaidBarterItems.json`
   ),
   "utf-8"
 );
@@ -59,7 +67,10 @@ foundInRaidBarterItems.forEach((item) => {
 });
 
 const foundInRaidTaskItemsFileData = fs.readFileSync(
-  path.join(projectRootDir, "public/tarkov/data/pve/foundInRaidTaskItems.json"),
+  path.join(
+    projectRootDir,
+    `public/tarkov/data/${mode}/foundInRaidTaskItems.json`
+  ),
   "utf-8"
 );
 const foundInRaidTaskItems = JSON.parse(foundInRaidTaskItemsFileData);
@@ -74,9 +85,10 @@ foundInRaidTaskItems.forEach((item) => {
 });
 
 const mixedItemsTasksFileData = fs.readFileSync(
-  path.join(projectRootDir, "public/tarkov/data/pve/mixedItemsTasks.json"),
+  path.join(projectRootDir, `public/tarkov/data/${mode}/mixedItemsTasks.json`),
   "utf-8"
 );
+
 const mixedItemsTasks = JSON.parse(mixedItemsTasksFileData);
 mixedItemsTasks.forEach((task) => {
   checkAndSaveImage(task.taskImageLink);

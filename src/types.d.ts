@@ -1,3 +1,5 @@
+type GameMode = "pve" | "pvp";
+
 type TraderTaskDemandData = {
   id: string;
   name: string;

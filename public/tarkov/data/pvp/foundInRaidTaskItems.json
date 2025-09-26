@@ -1,0 +1,1527 @@
+[
+    {
+        "id": "544fb45d4bdc2dee738b4568",
+        "name": "Salewa急救包",
+        "normalizedName": "salewa-first-aid-kit",
+        "types": [
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "544fb45d4bdc2dee738b4568-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Salewa_first_aid_kit",
+        "tasks": [
+            {
+                "id": "5967733e86f774602332fc84",
+                "name": "短缺",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": true,
+                "count": 3,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "590c5d4b86f774784e1b9c45",
+        "name": "Iskra个人配给口粮",
+        "normalizedName": "iskra-ration-pack",
+        "types": [
+            "provisions"
+        ],
+        "iconLink": "590c5d4b86f774784e1b9c45-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Iskra_ration_pack",
+        "tasks": [
+            {
+                "id": "5d24b81486f77439c92d6ba8",
+                "name": "熟人",
+                "trader": "Jaeger",
+                "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
+                "kappaRequired": true,
+                "count": 3,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "656df4fec921ad01000481a2",
+        "name": "方便面",
+        "normalizedName": "pack-of-instant-noodles",
+        "types": [
+            "provisions"
+        ],
+        "iconLink": "656df4fec921ad01000481a2-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_instant_noodles",
+        "tasks": [
+            {
+                "id": "5d24b81486f77439c92d6ba8",
+                "name": "熟人",
+                "trader": "Jaeger",
+                "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
+                "kappaRequired": true,
+                "count": 2,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "57347da92459774491567cf5",
+        "name": "炖美味牛肉罐头（大）",
+        "normalizedName": "can-of-beef-stew-large",
+        "types": [
+            "provisions"
+        ],
+        "iconLink": "57347da92459774491567cf5-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_beef_stew_(Large)",
+        "tasks": [
+            {
+                "id": "5d24b81486f77439c92d6ba8",
+                "name": "熟人",
+                "trader": "Jaeger",
+                "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
+                "kappaRequired": true,
+                "count": 2,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5b3b713c5acfc4330140bd8d",
+        "name": "托卡列夫 TT-33 7.62x25 黄金手枪",
+        "normalizedName": "tt-33-762x25-tt-pistol-golden",
+        "types": [
+            "gun",
+            "wearable"
+        ],
+        "iconLink": "5b3b713c5acfc4330140bd8d-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TT-33_7.62x25_TT_pistol_(Golden)",
+        "tasks": [
+            {
+                "id": "5d25e2c386f77443e7549029",
+                "name": "猎人之路 - 物资",
+                "trader": "Jaeger",
+                "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "59e7635f86f7742cbf2c1095",
+        "name": "BNTI Module-3M 防弹背心",
+        "normalizedName": "bnti-module-3m-body-armor",
+        "types": [
+            "armor",
+            "wearable"
+        ],
+        "iconLink": "59e7635f86f7742cbf2c1095-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BNTI_Module-3M_body_armor",
+        "tasks": [
+            {
+                "id": "596b36c586f77450d6045ad2",
+                "name": "供应商",
+                "trader": "Skier",
+                "traderImageLink": "58330581ace78e27b8b10cee.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5a38e6bac4a2826c6e06d79b",
+        "name": "TOZ-106 20铅径 栓动霰弹枪",
+        "normalizedName": "toz-106-20ga-bolt-action-shotgun",
+        "types": [
+            "gun",
+            "wearable"
+        ],
+        "iconLink": "5a38e6bac4a2826c6e06d79b-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TOZ-106_20ga_bolt-action_shotgun",
+        "tasks": [
+            {
+                "id": "596b36c586f77450d6045ad2",
+                "name": "供应商",
+                "trader": "Skier",
+                "traderImageLink": "58330581ace78e27b8b10cee.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "635a758bfefc88a93f021b8a",
+        "name": "咸狗牛肉肠",
+        "normalizedName": "salty-dog-beef-sausage",
+        "types": [
+            "provisions"
+        ],
+        "iconLink": "635a758bfefc88a93f021b8a-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Salty_Dog_beef_sausage",
+        "tasks": [
+            {
+                "id": "63a88045abf76d719f42d715",
+                "name": "美味香肠",
+                "trader": "Jaeger",
+                "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "544fb3f34bdc2d03748b456a",
+        "name": "吗啡注射器",
+        "normalizedName": "morphine-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "544fb3f34bdc2d03748b456a-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Morphine_injector",
+        "tasks": [
+            {
+                "id": "5969f90786f77420d2328015",
+                "name": "止痛药",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": true,
+                "count": 4,
+                "mixedItemsTask": false
+            },
+            {
+                "id": "5a27bafb86f7741c73584017",
+                "name": "疗养之旅 - 7",
+                "trader": "Peacekeeper",
+                "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
+                "kappaRequired": true,
+                "count": 4,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "55d482194bdc2d1d4e8b456b",
+        "name": "6L31 5.45x39 60发AK-74兼容弹匣",
+        "normalizedName": "ak-74-545x39-6l31-60-round-magazine",
+        "types": [
+            "mods"
+        ],
+        "iconLink": "55d482194bdc2d1d4e8b456b-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AK-74_5.45x39_6L31_60-round_magazine",
+        "tasks": [
+            {
+                "id": "59675d6c86f7740a842fc482",
+                "name": "蛋卷冰淇淋",
+                "trader": "Prapor",
+                "traderImageLink": "54cb50c76803fa8b248b4571.webp",
+                "kappaRequired": true,
+                "count": 3,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "57347d7224597744596b4e72",
+        "name": "炖牛肉罐头",
+        "normalizedName": "can-of-beef-stew-small",
+        "types": [
+            "provisions"
+        ],
+        "iconLink": "57347d7224597744596b4e72-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_beef_stew_(Small)",
+        "tasks": [
+            {
+                "id": "596a1e6c86f7741ddc2d3206",
+                "name": "一般储备",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": true,
+                "count": 15,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "60a7acf20c5cb24b01346648",
+        "name": "BOSS鸭舌帽",
+        "normalizedName": "boss-cap",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "60a7acf20c5cb24b01346648-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BOSS_cap",
+        "tasks": [
+            {
+                "id": "60c0c018f7afb4354815096a",
+                "name": "猎人之路 - 工厂头目",
+                "trader": "Jaeger",
+                "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": true
+            }
+        ]
+    },
+    {
+        "id": "5d08d21286f774736e7c94c3",
+        "name": "Shturman 的储物箱钥匙",
+        "normalizedName": "shturmans-stash-key",
+        "types": [
+            "keys"
+        ],
+        "iconLink": "5d08d21286f774736e7c94c3-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shturman%27s_stash_key",
+        "tasks": [
+            {
+                "id": "5d25e2ee86f77443e35162ea",
+                "name": "猎人之路 - 森林管理员",
+                "trader": "Jaeger",
+                "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5c10c8fd86f7743d7d706df3",
+        "name": "肾上腺素注射器",
+        "normalizedName": "adrenaline-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5c10c8fd86f7743d7d706df3-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Adrenaline_injector",
+        "tasks": [
+            {
+                "id": "665eeca92f7aedcc900b0437",
+                "name": "口干舌燥 - 秘密配方",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": false,
+                "count": 2,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "679b992329acd1f2f60985a5",
+        "name": "Labrys 研发记录",
+        "normalizedName": "labrys-research-notes",
+        "types": [],
+        "iconLink": "679b992329acd1f2f60985a5-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Labrys_research_notes",
+        "tasks": [
+            {
+                "id": "67a0970f05d1611ed90be75d",
+                "name": "检验假说",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 5,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "59e7708286f7742cbd762753",
+        "name": "带耳罩的苏联毛帽",
+        "normalizedName": "ushanka-ear-flap-hat",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "59e7708286f7742cbd762753-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ushanka_ear_flap_hat",
+        "tasks": [
+            {
+                "id": "5ae4490786f7744ca822adcc",
+                "name": "盛装杀戮",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": true,
+                "count": 2,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5aa2b9ede5b5b000137b758b",
+        "name": "Kinda牛仔帽",
+        "normalizedName": "kinda-cowboy-hat",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "5aa2b9ede5b5b000137b758b-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kinda_cowboy_hat",
+        "tasks": [
+            {
+                "id": "5ae4490786f7744ca822adcc",
+                "name": "盛装杀戮",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": true,
+                "count": 2,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "572b7fa524597762b747ce82",
+        "name": "半面巾",
+        "normalizedName": "lower-half-mask",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "572b7fa524597762b747ce82-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lower_half-mask",
+        "tasks": [
+            {
+                "id": "59c50c8886f7745fed3193bf",
+                "name": "惩罚者 - 2",
+                "trader": "Prapor",
+                "traderImageLink": "54cb50c76803fa8b248b4571.webp",
+                "kappaRequired": true,
+                "count": 7,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "57e26fc7245977162a14b800",
+        "name": "A-2607-95x18匕首",
+        "normalizedName": "bars-a-2607-95kh18-knife",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "57e26fc7245977162a14b800-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bars_A-2607_95Kh18_knife",
+        "tasks": [
+            {
+                "id": "59ca264786f77445a80ed044",
+                "name": "惩罚者 - 4",
+                "trader": "Prapor",
+                "traderImageLink": "54cb50c76803fa8b248b4571.webp",
+                "kappaRequired": true,
+                "count": 5,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5644bd2b4bdc2d3b4c8b4572",
+        "name": "卡拉什尼科夫 AK-74N 5.45x39 突击步枪",
+        "normalizedName": "kalashnikov-ak-74n-545x39-assault-rifle",
+        "types": [
+            "gun",
+            "wearable"
+        ],
+        "iconLink": "5644bd2b4bdc2d3b4c8b4572-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AK-74N_5.45x39_assault_rifle",
+        "tasks": [
+            {
+                "id": "59ca29fb86f77445ab465c87",
+                "name": "惩罚者 - 5",
+                "trader": "Prapor",
+                "traderImageLink": "54cb50c76803fa8b248b4571.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": true
+            }
+        ]
+    },
+    {
+        "id": "5447a9cd4bdc2dbd208b4567",
+        "name": "柯尔特 M4A1 5.56x45 卡宾枪",
+        "normalizedName": "colt-m4a1-556x45-assault-rifle",
+        "types": [
+            "gun",
+            "wearable"
+        ],
+        "iconLink": "5447a9cd4bdc2dbd208b4567-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Colt_M4A1_5.56x45_assault_rifle",
+        "tasks": [
+            {
+                "id": "59ca29fb86f77445ab465c87",
+                "name": "惩罚者 - 5",
+                "trader": "Prapor",
+                "traderImageLink": "54cb50c76803fa8b248b4571.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            },
+            {
+                "id": "61e6e621bfeab00251576265",
+                "name": "亡羊补牢 - 收藏",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": false,
+                "count": 2,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5448bd6b4bdc2dfc2f8b4569",
+        "name": "马卡洛夫9x18PM 手枪",
+        "normalizedName": "makarov-pm-9x18pm-pistol",
+        "types": [
+            "gun",
+            "wearable"
+        ],
+        "iconLink": "5448bd6b4bdc2dfc2f8b4569-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Makarov_PM_9x18PM_pistol",
+        "tasks": [
+            {
+                "id": "59ca29fb86f77445ab465c87",
+                "name": "惩罚者 - 5",
+                "trader": "Prapor",
+                "traderImageLink": "54cb50c76803fa8b248b4571.webp",
+                "kappaRequired": true,
+                "count": 2,
+                "mixedItemsTask": true
+            }
+        ]
+    },
+    {
+        "id": "5ed51652f6c34d2cc26336a1",
+        "name": "M.U.L.E. 兴奋剂",
+        "normalizedName": "mule-stimulant-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5ed51652f6c34d2cc26336a1-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/M.U.L.E._stimulant_injector",
+        "tasks": [
+            {
+                "id": "5edac020218d181e29451446",
+                "name": "样品",
+                "trader": "Peacekeeper",
+                "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5ed5166ad380ab312177c100",
+        "name": "Obdolbos 鸡尾酒兴奋剂注射器",
+        "normalizedName": "obdolbos-cocktail-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5ed5166ad380ab312177c100-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Obdolbos_cocktail_injector",
+        "tasks": [
+            {
+                "id": "5edac020218d181e29451446",
+                "name": "样品",
+                "trader": "Peacekeeper",
+                "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5ed5160a87bb8443d10680b5",
+        "name": "Meldonin 注射器",
+        "normalizedName": "meldonin-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5ed5160a87bb8443d10680b5-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Meldonin_injector",
+        "tasks": [
+            {
+                "id": "5edac020218d181e29451446",
+                "name": "样品",
+                "trader": "Peacekeeper",
+                "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5ed515f6915ec335206e4152",
+        "name": "AHF1-M 兴奋剂注射器",
+        "normalizedName": "ahf1-m-stimulant-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5ed515f6915ec335206e4152-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AHF1-M_stimulant_injector",
+        "tasks": [
+            {
+                "id": "5edac020218d181e29451446",
+                "name": "样品",
+                "trader": "Peacekeeper",
+                "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            },
+            {
+                "id": "5edac34d0bb72a50635c2bfa",
+                "name": "同事 - 3",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5ed515ece452db0eb56fc028",
+        "name": "P22 (22 号化合物) 兴奋剂注射器",
+        "normalizedName": "p22-product-22-stimulant-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5ed515ece452db0eb56fc028-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/P22_(Product_22)_stimulant_injector",
+        "tasks": [
+            {
+                "id": "5edac020218d181e29451446",
+                "name": "样品",
+                "trader": "Peacekeeper",
+                "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5ed515e03a40a50460332579",
+        "name": "L1（去甲肾上腺素）",
+        "normalizedName": "l1-norepinephrine-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5ed515e03a40a50460332579-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/L1_(Norepinephrine)_injector",
+        "tasks": [
+            {
+                "id": "5edac020218d181e29451446",
+                "name": "样品",
+                "trader": "Peacekeeper",
+                "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5ed515c8d380ab312177c0fa",
+        "name": "3-(b-TG) 兴奋剂注射器",
+        "normalizedName": "3-b-tg-stimulant-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5ed515c8d380ab312177c0fa-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/3-(b-TG)_stimulant_injector",
+        "tasks": [
+            {
+                "id": "5edac020218d181e29451446",
+                "name": "样品",
+                "trader": "Peacekeeper",
+                "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            },
+            {
+                "id": "5edac34d0bb72a50635c2bfa",
+                "name": "同事 - 3",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "59e7715586f7742ee5789605",
+        "name": "防毒面罩",
+        "normalizedName": "respirator",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "59e7715586f7742ee5789605-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Respirator",
+        "tasks": [
+            {
+                "id": "5b478ff486f7744d184ecbbf",
+                "name": "维他命 - 2",
+                "trader": "Skier",
+                "traderImageLink": "58330581ace78e27b8b10cee.webp",
+                "kappaRequired": true,
+                "count": 4,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5c94bbff86f7747ee735c08f",
+        "name": "TerraGroup实验室访问钥匙卡",
+        "normalizedName": "terragroup-labs-access-keycard",
+        "types": [
+            "keys"
+        ],
+        "iconLink": "5c94bbff86f7747ee735c08f-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TerraGroup_Labs_access_keycard",
+        "tasks": [
+            {
+                "id": "5edac34d0bb72a50635c2bfa",
+                "name": "同事 - 3",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": true,
+                "count": 10,
+                "mixedItemsTask": false
+            },
+            {
+                "id": "5d25e4b786f77408251c4bfc",
+                "name": "鱼塘",
+                "trader": "Jaeger",
+                "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
+                "kappaRequired": true,
+                "count": 2,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "6540d2162ae6d96b540afcaf",
+        "name": "PR-Taran警棍",
+        "normalizedName": "pr-taran-police-baton",
+        "types": [],
+        "iconLink": "6540d2162ae6d96b540afcaf-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/PR-Taran_police_baton",
+        "tasks": [
+            {
+                "id": "6578eb36e5020875d64645cd",
+                "name": "猎人之路 - 坏警察",
+                "trader": "Jaeger",
+                "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5ab8f20c86f7745cdb629fb2",
+        "name": "带眼洞滑雪头套",
+        "normalizedName": "ski-hat-with-holes-for-eyes",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "5ab8f20c86f7745cdb629fb2-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ski_hat_with_holes_for_eyes",
+        "tasks": [
+            {
+                "id": "5ae4495086f77443c122bc40",
+                "name": "临行密密缝 - 1",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "59e763f286f7742ee57895da",
+        "name": "Pilgrim旅行包",
+        "normalizedName": "pilgrim-tourist-backpack",
+        "types": [
+            "backpack",
+            "noFlea",
+            "wearable"
+        ],
+        "iconLink": "59e763f286f7742ee57895da-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pilgrim_tourist_backpack",
+        "tasks": [
+            {
+                "id": "5ae4495086f77443c122bc40",
+                "name": "临行密密缝 - 1",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5d02778e86f774203e7dedbe",
+        "name": "CMS手术包",
+        "normalizedName": "cms-surgical-kit",
+        "types": [
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5d02778e86f774203e7dedbe-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CMS_surgical_kit",
+        "tasks": [
+            {
+                "id": "5d25e46e86f77409453bce7c",
+                "name": "救护车",
+                "trader": "Jaeger",
+                "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
+                "kappaRequired": true,
+                "count": 2,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "59e7643b86f7742cbf2c109a",
+        "name": "WARTECH TV-109 + TV-106 胸挂（A-TACS 橄榄绿迷彩）",
+        "normalizedName": "wartech-tv-109-tv-106-chest-rig-a-tacs-fg",
+        "types": [
+            "rig",
+            "wearable"
+        ],
+        "iconLink": "59e7643b86f7742cbf2c109a-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_TV-109_%2B_TV-106_chest_rig_(A-TACS_FG)",
+        "tasks": [
+            {
+                "id": "5ae4497b86f7744cf402ed00",
+                "name": "临行密密缝 - 4",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": true,
+                "count": 2,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5648a69d4bdc2ded0b8b457b",
+        "name": "BlackRock胸挂",
+        "normalizedName": "blackrock-chest-rig-gray",
+        "types": [
+            "rig",
+            "wearable"
+        ],
+        "iconLink": "5648a69d4bdc2ded0b8b457b-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BlackRock_chest_rig_(Gray)",
+        "tasks": [
+            {
+                "id": "5ae4497b86f7744cf402ed00",
+                "name": "临行密密缝 - 4",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": true,
+                "count": 2,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5c0e874186f7745dc7616606",
+        "name": "Maska-1SCh 防弹头盔（Killa 版）",
+        "normalizedName": "maska-1sch-bulletproof-helmet-killa-edition",
+        "types": [
+            "helmet",
+            "wearable"
+        ],
+        "iconLink": "5c0e874186f7745dc7616606-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Maska-1SCh_bulletproof_helmet_(Killa_Edition)",
+        "tasks": [
+            {
+                "id": "5d25e2e286f77444001e2e48",
+                "name": "猎人之路 - 脱销",
+                "trader": "Jaeger",
+                "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": true
+            }
+        ]
+    },
+    {
+        "id": "5c0e531286f7747fa54205c2",
+        "name": "SJ1 TGLabs战斗兴奋剂注射器",
+        "normalizedName": "sj1-tglabs-combat-stimulant-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5c0e531286f7747fa54205c2-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ1_TGLabs_combat_stimulant_injector",
+        "tasks": [
+            {
+                "id": "625d7001c4874104f230c0c5",
+                "name": "试探 - 3",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 15,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5c0e531d86f7747fa23f4d42",
+        "name": "SJ6 TGLabs战斗兴奋剂注射器",
+        "normalizedName": "sj6-tglabs-combat-stimulant-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5c0e531d86f7747fa23f4d42-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ6_TGLabs_combat_stimulant_injector",
+        "tasks": [
+            {
+                "id": "625d7001c4874104f230c0c5",
+                "name": "试探 - 3",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 5,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5fca13ca637ee0341a484f46",
+        "name": "SJ9 TGLabs战斗兴奋剂注射器",
+        "normalizedName": "sj9-tglabs-combat-stimulant-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5fca13ca637ee0341a484f46-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ9_TGLabs_combat_stimulant_injector",
+        "tasks": [
+            {
+                "id": "625d7001c4874104f230c0c5",
+                "name": "试探 - 3",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5c46fbd72e2216398b5a8c9c",
+        "name": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+        "normalizedName": "svds-762x54r-sniper-rifle",
+        "types": [
+            "gun",
+            "wearable"
+        ],
+        "iconLink": "5c46fbd72e2216398b5a8c9c-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SVDS_7.62x54R_sniper_rifle",
+        "tasks": [
+            {
+                "id": "6261482fa4eb80027c4f2e11",
+                "name": "破镜重圆 - 装备",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 4,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5e997f0b86f7741ac73993e2",
+        "name": "Sanitar 包",
+        "normalizedName": "sanitars-bag",
+        "types": [
+            "backpack",
+            "wearable"
+        ],
+        "iconLink": "5e997f0b86f7741ac73993e2-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sanitar%27s_bag",
+        "tasks": [
+            {
+                "id": "666314a1920800278d0f6746",
+                "name": "特殊提议",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "609e860ebd219504d8507525",
+        "name": "Crye Precision AVS 插板胸挂（Tagilla 版）",
+        "normalizedName": "crye-precision-avs-plate-carrier-tagilla-edition",
+        "types": [
+            "armor",
+            "rig",
+            "wearable"
+        ],
+        "iconLink": "609e860ebd219504d8507525-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Crye_Precision_AVS_plate_carrier_(Tagilla_Edition)",
+        "tasks": [
+            {
+                "id": "666314a1920800278d0f6746",
+                "name": "特殊提议",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "628baf0b967de16aab5a4f36",
+        "name": "LBT-1961A Load Bearing胸挂 (Goons特别版)",
+        "normalizedName": "lbt-1961a-load-bearing-chest-rig-goons-edition",
+        "types": [
+            "rig",
+            "wearable"
+        ],
+        "iconLink": "628baf0b967de16aab5a4f36-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-1961A_Load_Bearing_Chest_Rig_(Goons_Edition)",
+        "tasks": [
+            {
+                "id": "666314a1920800278d0f6746",
+                "name": "特殊提议",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "628bc7fb408e2b2e9c0801b1",
+        "name": "Mystery Ranch NICE COMM 3 BVS 稳固系统（黄褐色）",
+        "normalizedName": "mystery-ranch-nice-comm-3-bvs-frame-system-coyote",
+        "types": [
+            "backpack",
+            "wearable"
+        ],
+        "iconLink": "628bc7fb408e2b2e9c0801b1-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mystery_Ranch_NICE_COMM_3_BVS_frame_system_(Coyote)",
+        "tasks": [
+            {
+                "id": "666314a1920800278d0f6746",
+                "name": "特殊提议",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "628b9c7d45122232a872358f",
+        "name": "Crye Precision CPC 插板胸挂（Goons 特别版）",
+        "normalizedName": "crye-precision-cpc-plate-carrier-goons-edition",
+        "types": [
+            "armor",
+            "rig",
+            "wearable"
+        ],
+        "iconLink": "628b9c7d45122232a872358f-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Crye_Precision_CPC_plate_carrier_(Goons_Edition)",
+        "tasks": [
+            {
+                "id": "666314a1920800278d0f6746",
+                "name": "特殊提议",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5bc9c1e2d4351e00367fbcf0",
+        "name": "古董斧头",
+        "normalizedName": "antique-axe",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "5bc9c1e2d4351e00367fbcf0-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Antique_axe",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5bc9b156d4351e00367fbce9",
+        "name": "DevilDog蛋黄酱",
+        "normalizedName": "jar-of-devildog-mayo",
+        "types": [
+            "provisions"
+        ],
+        "iconLink": "5bc9b156d4351e00367fbce9-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Jar_of_DevilDog_mayo",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5bc9c29cd4351e003562b8a3",
+        "name": "西鲱鱼罐头",
+        "normalizedName": "can-of-sprats",
+        "types": [
+            "provisions"
+        ],
+        "iconLink": "5bc9c29cd4351e003562b8a3-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_sprats",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5bd073a586f7747e6f135799",
+        "name": "假胡子",
+        "normalizedName": "fake-mustache",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "5bd073a586f7747e6f135799-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fake_mustache",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5bd073c986f7747f627e796c",
+        "name": "Kotton无檐小便帽",
+        "normalizedName": "kotton-beanie",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "5bd073c986f7747f627e796c-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kotton_beanie",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5e54f79686f7744022011103",
+        "name": "Pestily 瘟疫面具",
+        "normalizedName": "pestily-plague-mask",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "5e54f79686f7744022011103-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pestily_plague_mask",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5e54f76986f7740366043752",
+        "name": "Shroud 半面巾",
+        "normalizedName": "shroud-half-mask",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "5e54f76986f7740366043752-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shroud_half-mask",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "60b0f988c4449e4cb624c1da",
+        "name": "Evasion臂带",
+        "normalizedName": "armband-evasion",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "60b0f988c4449e4cb624c1da-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Armband_(Evasion)",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5fd8d28367cb5e077335170f",
+        "name": "Smoke巴拉克拉瓦头套",
+        "normalizedName": "smoke-balaclava",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "5fd8d28367cb5e077335170f-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Smoke_balaclava",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "60b0f6c058e0b0481a09ad11",
+        "name": "WZ钱包",
+        "normalizedName": "wz-wallet",
+        "types": [
+            "container"
+        ],
+        "iconLink": "60b0f6c058e0b0481a09ad11-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WZ_Wallet",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "62a09ec84f842e1bd12da3f2",
+        "name": "Missam叉车钥匙",
+        "normalizedName": "missam-forklift-key",
+        "types": [
+            "keys"
+        ],
+        "iconLink": "62a09ec84f842e1bd12da3f2-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Missam_forklift_key",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "62a09e410b9d3c46de5b6e78",
+        "name": "JohnB \"Liquid DNB\"墨镜",
+        "normalizedName": "johnb-liquid-dnb-glasses",
+        "types": [
+            "glasses",
+            "wearable"
+        ],
+        "iconLink": "62a09e410b9d3c46de5b6e78-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/JohnB_Liquid_DNB_glasses",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "62a09dd4621468534a797ac7",
+        "name": "Baddie的红胡子",
+        "normalizedName": "baddies-red-beard",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "62a09dd4621468534a797ac7-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Baddie%27s_red_beard",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "62a09d79de7ac81993580530",
+        "name": "DRD防弹衣",
+        "normalizedName": "drd-body-armor",
+        "types": [
+            "armor",
+            "wearable"
+        ],
+        "iconLink": "62a09d79de7ac81993580530-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/DRD_body_armor",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "62a09d3bcf4a99369e262447",
+        "name": "Gingy钥匙串",
+        "normalizedName": "gingy-keychain",
+        "types": [
+            "container"
+        ],
+        "iconLink": "62a09d3bcf4a99369e262447-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gingy_keychain",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "62a09e08de7ac81993580532",
+        "name": "Glorious E轻型防弹面具",
+        "normalizedName": "glorious-e-lightweight-armored-mask",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "62a09e08de7ac81993580532-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Glorious_E_lightweight_armored_mask",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5fc64ea372b0dd78d51159dc",
+        "name": "邪教徒之刃",
+        "normalizedName": "cultist-knife",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "5fc64ea372b0dd78d51159dc-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cultist_knife",
+        "tasks": [
+            {
+                "id": "60e71c11d54b755a3b53eb65",
+                "name": "夜间扫荡",
+                "trader": "Skier",
+                "traderImageLink": "58330581ace78e27b8b10cee.webp",
+                "kappaRequired": false,
+                "count": 12,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5d40407c86f774318526545a",
+        "name": "Tarkovskaya瓶装伏特加",
+        "normalizedName": "bottle-of-tarkovskaya-vodka",
+        "types": [
+            "provisions"
+        ],
+        "iconLink": "5d40407c86f774318526545a-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Tarkovskaya_vodka",
+        "tasks": [
+            {
+                "id": "60e71dc67fcf9c556f325056",
+                "name": "酒瘾",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": false,
+                "count": 10,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5d403f9186f7743cac3f229b",
+        "name": "Dan Jackiel瓶装威士忌",
+        "normalizedName": "bottle-of-dan-jackiel-whiskey",
+        "types": [
+            "provisions"
+        ],
+        "iconLink": "5d403f9186f7743cac3f229b-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Dan_Jackiel_whiskey",
+        "tasks": [
+            {
+                "id": "60e71dc67fcf9c556f325056",
+                "name": "酒瘾",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": false,
+                "count": 10,
+                "mixedItemsTask": false
+            },
+            {
+                "id": "61e6e615eea2935bc018a2c5",
+                "name": "亡羊补牢 - 酒保",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "62a09f32621468534a797acb",
+        "name": "瓶装 Pevko 淡啤酒",
+        "normalizedName": "bottle-of-pevko-light-beer",
+        "types": [
+            "provisions"
+        ],
+        "iconLink": "62a09f32621468534a797acb-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Pevko_Light_beer",
+        "tasks": [
+            {
+                "id": "60e71dc67fcf9c556f325056",
+                "name": "酒瘾",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": false,
+                "count": 20,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "57514643245977207f2c2d09",
+        "name": "塔可乐",
+        "normalizedName": "can-of-tarcola-soda",
+        "types": [
+            "provisions"
+        ],
+        "iconLink": "57514643245977207f2c2d09-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_TarCola_soda",
+        "tasks": [
+            {
+                "id": "61e6e615eea2935bc018a2c5",
+                "name": "亡羊补牢 - 酒保",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": false,
+                "count": 3,
+                "mixedItemsTask": false
+            }
+        ]
+    }
+]

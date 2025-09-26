@@ -7,23 +7,28 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "script:foundInRaid": "node src/scripts/foundInRaid.mjs",
-    "script:imageDownloader": "node src/scripts/imageDownloader.mjs"
+    "script:fetchDataPve": "node src/scripts/fetchData.mjs pve",
+    "script:foundInRaidPve": "node src/scripts/foundInRaid.mjs pve",
+    "script:imageDownloaderPve": "node src/scripts/imageDownloader.mjs pve",
+    "script:fetchDataPvp": "node src/scripts/fetchData.mjs pvp",
+    "script:foundInRaidPvp": "node src/scripts/foundInRaid.mjs pvp",
+    "script:imageDownloaderPvp": "node src/scripts/imageDownloader.mjs pvp"
   },
   "dependencies": {
+    "next": "15.5.3",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.5.3"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.3",
-    "@eslint/eslintrc": "^3"
+    "graphql-request": "^7.2.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }

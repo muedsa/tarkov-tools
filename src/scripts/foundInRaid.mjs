@@ -5,6 +5,14 @@ import path from "node:path";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRootDir = path.join(__dirname, "../../");
 
+const args = process.argv.slice(2);
+const mode = args[0];
+if (mode !== "pve" && mode !== "pvp") {
+  throw Error(
+    `args mode only pve or regular, but get args=${JSON.stringify(args)}`
+  );
+}
+
 // 包含混合物品任务
 const includedMixedItemsTasks = [
   "60c0c018f7afb4354815096a", // 猎人之路 - 工厂头目
@@ -14,20 +22,17 @@ const includedMixedItemsTasks = [
   "60e71ccb5688f6424c7bfec4", // 战利品
 ];
 
-// PVE
-
 // 藏身处与任务
-const pveTasksFileData = fs.readFileSync(
-  path.join(projectRootDir, "public/tarkov/data/pve/tasks.json"),
+const tasksFileData = fs.readFileSync(
+  path.join(projectRootDir, `public/tarkov/data/${mode}/tasks.json`),
   "utf-8"
 );
-const pveTasks = JSON.parse(pveTasksFileData).data.tasks;
-const pveHideoutStationsFileData = fs.readFileSync(
-  path.join(projectRootDir, "public/tarkov/data/pve/hideoutStations.json"),
+const tasks = JSON.parse(tasksFileData).tasks;
+const hideoutStationsFileData = fs.readFileSync(
+  path.join(projectRootDir, `public/tarkov/data/${mode}/hideoutStations.json`),
   "utf-8"
 );
-const pveHideoutStations = JSON.parse(pveHideoutStationsFileData).data
-  .hideoutStations;
+const hideoutStations = JSON.parse(hideoutStationsFileData).hideoutStations;
 
 // 物品
 const taskItems = [];
@@ -155,7 +160,7 @@ function handleImage(link) {
 }
 
 // 任务物品
-pveTasks.forEach((task) => {
+tasks.forEach((task) => {
   if (task.factionName !== "BEAR" && task.objectives) {
     // 阵营任务会重复 仅取USEC和Any
     const mixedItemsObjectives = [];
@@ -190,7 +195,7 @@ pveTasks.forEach((task) => {
 });
 
 // 藏身处建造物品
-pveHideoutStations.forEach((station) => {
+hideoutStations.forEach((station) => {
   station.levels.forEach((level) => {
     if (level.itemRequirements) {
       level.itemRequirements.forEach((req) => {
@@ -206,22 +211,35 @@ pveHideoutStations.forEach((station) => {
   });
 });
 
-// 保存结果
+const barterItemsFilePath = path.join(
+  projectRootDir,
+  `public/tarkov/data/${mode}/foundInRaidBarterItems.json`
+);
+fs.mkdirSync(path.dirname(barterItemsFilePath), { recursive: true });
 fs.writeFileSync(
-  path.join(
-    projectRootDir,
-    "public/tarkov/data/pve/foundInRaidBarterItems.json"
-  ),
+  barterItemsFilePath,
   JSON.stringify(barterItems, null, 4),
   "utf-8"
 );
+
+const taskItemsFilePath = path.join(
+  projectRootDir,
+  `public/tarkov/data/${mode}/foundInRaidTaskItems.json`
+);
+fs.mkdirSync(path.dirname(taskItemsFilePath), { recursive: true });
 fs.writeFileSync(
-  path.join(projectRootDir, "public/tarkov/data/pve/foundInRaidTaskItems.json"),
+  taskItemsFilePath,
   JSON.stringify(taskItems, null, 4),
   "utf-8"
 );
+
+const mixedItemsTasksFilePath = path.join(
+  projectRootDir,
+  `public/tarkov/data/${mode}/mixedItemsTasks.json`
+);
+fs.mkdirSync(path.dirname(mixedItemsTasksFilePath), { recursive: true });
 fs.writeFileSync(
-  path.join(projectRootDir, "public/tarkov/data/pve/mixedItemsTasks.json"),
+  mixedItemsTasksFilePath,
   JSON.stringify(mixedItemsTasks, null, 4),
   "utf-8"
 );
