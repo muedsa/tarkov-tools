@@ -70,22 +70,6 @@ export default function MapsPage() {
           </li>
           <li>
             <a
-              href="/tarkov/images/maps/reserve-tunnels-3d.png"
-              target="_blank"
-            >
-              储备站-地下通道 3D
-            </a>
-          </li>
-          <li>
-            <a
-              href="/tarkov/images/maps/reserve-tunnels-3d.png"
-              target="_blank"
-            >
-              储备站-地下通道 3D
-            </a>
-          </li>
-          <li>
-            <a
               href="/tarkov/images/maps/lighthouse-vert-3d.png"
               target="_blank"
             >
