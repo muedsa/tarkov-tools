@@ -12,7 +12,7 @@ export default async function PageLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ gameMode: GameMode; slug: string }>;
+  params: Promise<{ gameMode: string; slug: string }>;
 }) {
   const { gameMode } = await params;
   if (gameMode !== "pve" && gameMode !== "pvp") {
