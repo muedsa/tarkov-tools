@@ -4,6 +4,29 @@ import { createContext, useContext, useReducer, useEffect } from "react";
 
 const USER_DATA_LOCAL_STORAGE_KEY = "USER_DATA";
 
+export function getLocalUserData(): UserData {
+  const userDataStr = localStorage.getItem(USER_DATA_LOCAL_STORAGE_KEY);
+  if (userDataStr) {
+    const userData: UserData = JSON.parse(userDataStr);
+    if (!userData.collectedItems) {
+      userData.collectedItems = {};
+    }
+    if (!userData.completedTasks) {
+      userData.completedTasks = [];
+    }
+    if (!userData.completedHideoutStations) {
+      userData.completedHideoutStations = {};
+    }
+    return userData;
+  } else {
+    return initialState;
+  }
+}
+
+function storeLocalUserData(userData: UserData) {
+  localStorage.setItem(USER_DATA_LOCAL_STORAGE_KEY, JSON.stringify(userData));
+}
+
 // 定义初始状态
 const initialState: UserData = {
   loading: true,
@@ -44,7 +67,7 @@ const UserDataContext = createContext<UserDataContextValue | undefined>(
 function userDataReducer(state: UserData, action: UserDataAction) {
   if (action.type === "CHANGE_HIDEOUT_STATION_LEVEL") {
     state.completedHideoutStations[action.id] = action.count;
-    localStorage.setItem(USER_DATA_LOCAL_STORAGE_KEY, JSON.stringify(state));
+    storeLocalUserData(state);
     return {
       ...state,
       completedHideoutStations: { ...state.completedHideoutStations },
@@ -55,7 +78,7 @@ function userDataReducer(state: UserData, action: UserDataAction) {
       return { ...state };
     } else {
       state.completedTasks.push(action.id);
-      localStorage.setItem(USER_DATA_LOCAL_STORAGE_KEY, JSON.stringify(state));
+      storeLocalUserData(state);
       return {
         ...state,
         completedTasks: [...state.completedTasks],
@@ -65,7 +88,7 @@ function userDataReducer(state: UserData, action: UserDataAction) {
     const index = state.completedTasks.indexOf(action.id);
     if (index > -1) {
       state.completedTasks.splice(index);
-      localStorage.setItem(USER_DATA_LOCAL_STORAGE_KEY, JSON.stringify(state));
+      storeLocalUserData(state);
       return {
         ...state,
         completedTasks: [...state.completedTasks],
@@ -75,7 +98,7 @@ function userDataReducer(state: UserData, action: UserDataAction) {
     }
   } else if (action.type === "CHNAGE_COLLECTED_ITEM") {
     state.collectedItems[action.id] = action.count;
-    localStorage.setItem(USER_DATA_LOCAL_STORAGE_KEY, JSON.stringify(state));
+    storeLocalUserData(state);
     return {
       ...state,
       collectedItems: { ...state.collectedItems },
@@ -98,22 +121,7 @@ export function UserDataProvider({ children }: { children: React.ReactNode }) {
   // 从localStorage加载数据
   useEffect(() => {
     try {
-      const userDataStr = localStorage.getItem(USER_DATA_LOCAL_STORAGE_KEY);
-      if (userDataStr) {
-        const userData: UserData = JSON.parse(userDataStr);
-        if (!userData.collectedItems) {
-          userData.collectedItems = {};
-        }
-        if (!userData.completedTasks) {
-          userData.completedTasks = [];
-        }
-        if (!userData.completedHideoutStations) {
-          userData.completedHideoutStations = {};
-        }
-        dispatch({ type: "LOAD_STATE", state: userData });
-      } else {
-        dispatch({ type: "LOAD_STATE", state: initialState });
-      }
+      dispatch({ type: "LOAD_STATE", state: getLocalUserData() });
     } catch (error) {
       console.error("Failed to load todos from localStorage:", error);
     }
@@ -122,7 +130,7 @@ export function UserDataProvider({ children }: { children: React.ReactNode }) {
   // 保存到localStorage
   // useEffect(() => {
   //   try {
-  //     localStorage.setItem(USER_DATA_LOCAL_STORAGE_KEY, JSON.stringify(state));
+  //     storeLocalUserData(state);
   //   } catch (error) {
   //     console.error("Failed to save todos to localStorage:", error);
   //   }

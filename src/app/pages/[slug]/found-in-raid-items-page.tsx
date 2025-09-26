@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useDeferredValue } from "react";
 import FoundInRaidItemGrid from "./_components/found-in-raid-item-grid";
+import { getLocalUserData } from "./_components/user-data-context";
+import { sortFoundInRadItems } from "./_components/utils";
 
 const FoundInRaidItemPage = () => {
   const [foundInRaidBarterItems, setFoundInRaidBarterItems] = useState<
@@ -12,14 +14,19 @@ const FoundInRaidItemPage = () => {
   >([]);
 
   useEffect(() => {
+    const userData = getLocalUserData();
     fetch("/tarkov/data/pve/foundInRaidBarterItems.json")
       .then((response) => response.json())
-      .then((data) => setFoundInRaidBarterItems(data))
+      .then((data) => {
+        setFoundInRaidBarterItems(sortFoundInRadItems(data, userData));
+      })
       .catch((error) => console.error("Error fetching barter items:", error));
 
     fetch("/tarkov/data/pve/foundInRaidTaskItems.json")
       .then((response) => response.json())
-      .then((data) => setFoundInRaidTaskItems(data))
+      .then((data) =>
+        setFoundInRaidTaskItems(sortFoundInRadItems(data, userData))
+      )
       .catch((error) => console.error("Error fetching task items:", error));
   }, []);
 
