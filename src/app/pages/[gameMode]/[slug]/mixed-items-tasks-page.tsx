@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import TaskCard from "../_components/task-card";
+import TaskCard from "./_components/task-card";
 
 const MixedItemsTasksPage = ({ gameMode }: { gameMode: GameMode }) => {
   const [tasks, setTasks] = useState<MixedItemsTraderTaskData[]>([]);

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { UserDataProvider } from "../_components/user-data-context";
+import { UserDataProvider } from "./_components/user-data-context";
 import { notFound } from "next/navigation";
 
 export const metadata: Metadata = {

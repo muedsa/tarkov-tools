@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, useEffect, useDeferredValue } from "react";
-import FoundInRaidItemGrid from "../_components/found-in-raid-item-grid";
-import { getLocalUserData } from "../_components/user-data-context";
-import { sortFoundInRadItems } from "../_components/utils";
+import FoundInRaidItemGrid from "./_components/found-in-raid-item-grid";
+import { getLocalUserData } from "./_components/user-data-context";
+import { sortFoundInRadItems } from "./_components/utils";
 
 const FoundInRaidItemPage = ({ gameMode }: { gameMode: GameMode }) => {
   const [foundInRaidBarterItems, setFoundInRaidBarterItems] = useState<
