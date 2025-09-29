@@ -95,11 +95,6 @@ export default function MapsPage() {
             </a>
           </li>
           <li>
-            <a href="/tarkov/images/maps/labyrinth-3d.png" target="_blank">
-              迷宫 3D
-            </a>
-          </li>
-          <li>
             <a href="/tarkov/images/maps/labs.png" target="_blank">
               实验室
             </a>
