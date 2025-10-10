@@ -628,8 +628,7 @@
                         "name": "微控制器电路板",
                         "normalizedName": "microcontroller-board",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "6389c7750ef44505c87f5996-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
@@ -1477,8 +1476,7 @@
                         "name": "Korund-VM防弹插板（前部）",
                         "normalizedName": "korund-vm-ballistic-plates-front",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "656f664200d62bcd2e024077-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM_ballistic_plates_(Front)"
@@ -1498,8 +1496,7 @@
                         "name": "Granit 4防弹插板（背部）",
                         "normalizedName": "granit-4-ballistic-plates-back",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "656efaf54772930db4031ff5-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4_ballistic_plates_(Back)"
@@ -1509,8 +1506,7 @@
                         "name": "Granit 4防弹插板（前部）",
                         "normalizedName": "granit-4-ballistic-plate-front",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "656f611f94b480b8a500c0db-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4_ballistic_plate_(Front)"
@@ -1520,8 +1516,7 @@
                         "name": "Granit 4RS防弹插板（背部）",
                         "normalizedName": "granit-4rs-ballistic-plates-back",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "654a4a964b446df1ad03f192-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4RS_ballistic_plates_(Back)"
@@ -1531,8 +1526,7 @@
                         "name": "Granit 4RS防弹插板（前部）",
                         "normalizedName": "granit-4rs-ballistic-plate-front",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "656f63c027aed95beb08f62c-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4RS_ballistic_plate_(Front)"
@@ -1542,8 +1536,7 @@
                         "name": "Granit Br4防弹插板",
                         "normalizedName": "granit-br4-ballistic-plate",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "65573fa5655447403702a816-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_Br4_ballistic_plate"
@@ -1553,8 +1546,7 @@
                         "name": "KITECO SC-IV SA防弹插板",
                         "normalizedName": "kiteco-sc-iv-sa-ballistic-plate",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "656fafe3498d1b7e3e071da4-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/KITECO_SC-IV_SA_ballistic_plate"
@@ -1564,8 +1556,7 @@
                         "name": "NESCO 4400-SA-MC防弹插板",
                         "normalizedName": "nesco-4400-sa-mc-ballistic-plate",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "656fa61e94b480b8a500c0e8-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NESCO_4400-SA-MC_ballistic_plate"
@@ -1575,8 +1566,7 @@
                         "name": "Granit Br5防弹插板",
                         "normalizedName": "granit-br5-ballistic-plate",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "64afc71497cf3a403c01ff38-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_Br5_ballistic_plate"
@@ -1586,8 +1576,7 @@
                         "name": "ESAPI IV 级防弹插板",
                         "normalizedName": "esapi-level-iv-ballistic-plate",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "64afdcb83efdfea28601d041-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ESAPI_level_IV_ballistic_plate"
@@ -1657,8 +1646,7 @@
                         "name": "SAPI三级+防弹插板",
                         "normalizedName": "sapi-level-iii-ballistic-plate",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "655746010177119f4a097ff7-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SAPI_level_III%2B_ballistic_plate"
@@ -1668,8 +1656,7 @@
                         "name": "TallCom Guardian防弹插板",
                         "normalizedName": "tallcom-guardian-ballistic-plate",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "656fa53d94b480b8a500c0e4-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TallCom_Guardian_ballistic_plate"
@@ -1679,8 +1666,7 @@
                         "name": "GAC 4sss2防弹插板",
                         "normalizedName": "gac-4sss2-ballistic-plate",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "656faf0ca0dce000a2020f77-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GAC_4sss2_ballistic_plate"
@@ -1690,8 +1676,7 @@
                         "name": "Cult Termite防弹插板",
                         "normalizedName": "cult-termite-ballistic-plate",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "656fa99800d62bcd2e024088-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cult_Termite_ballistic_plate"
@@ -1701,8 +1686,7 @@
                         "name": "Cult Locust防弹插板",
                         "normalizedName": "cult-locust-ballistic-plate",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "656fa8d700d62bcd2e024084-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cult_Locust_ballistic_plate"
@@ -1712,8 +1696,7 @@
                         "name": "Kiba Arms Steel防弹插板",
                         "normalizedName": "kiba-arms-steel-ballistic-plate",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "656fa76500d62bcd2e024080-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kiba_Arms_Steel_ballistic_plate"
@@ -1723,8 +1706,7 @@
                         "name": "GAC 3s15m防弹插板",
                         "normalizedName": "gac-3s15m-ballistic-plate",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "656fae5f7c2d57afe200c0d7-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GAC_3s15m_ballistic_plate"
@@ -1784,8 +1766,7 @@
                         "name": "Korund-VM防弹插板（背部）",
                         "normalizedName": "korund-vm-ballistic-plate-back",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "657b2797c3dbcb01d60c35ea-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM_ballistic_plate_(Back)"
@@ -1795,8 +1776,7 @@
                         "name": "Korund-VM-K防弹插板（背部）",
                         "normalizedName": "korund-vm-k-ballistic-plate-back",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "657b28d25f444d6dff0c6c77-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM-K_ballistic_plate_(Back)"
@@ -1806,8 +1786,7 @@
                         "name": "Korund-VM-K防弹插板（前部）",
                         "normalizedName": "korund-vm-k-ballistic-plates-front",
                         "types": [
-                            "armorPlate",
-                            "noFlea"
+                            "armorPlate"
                         ],
                         "iconLink": "656f66b5c6baea13cd07e108-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM-K_ballistic_plates_(Front)"
@@ -1910,8 +1889,7 @@
                         "name": "BEAR 狗牌",
                         "normalizedName": "dogtag-bear",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "59f32bb586f774757e1e8442-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
@@ -1921,8 +1899,7 @@
                         "name": "BEAR 狗牌",
                         "normalizedName": "dogtag-bear-2",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "6662e9cda7e0b43baa3d5f76-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
@@ -1932,8 +1909,7 @@
                         "name": "BEAR 狗牌",
                         "normalizedName": "dogtag-bear-1",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "6662e9aca7e0b43baa3d5f74-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
@@ -1965,8 +1941,7 @@
                         "name": "BEAR 狗牌",
                         "normalizedName": "dogtag-bear-4",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "675dcb0545b1a2d108011b2b-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
@@ -1976,8 +1951,7 @@
                         "name": "BEAR 狗牌",
                         "normalizedName": "dogtag-bear-3",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "675dc9d37ae1a8792107ca96-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
@@ -2150,8 +2124,7 @@
                         "name": "BEAR 狗牌",
                         "normalizedName": "dogtag-bear",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "59f32bb586f774757e1e8442-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
@@ -2161,8 +2134,7 @@
                         "name": "BEAR 狗牌",
                         "normalizedName": "dogtag-bear-2",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "6662e9cda7e0b43baa3d5f76-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
@@ -2172,8 +2144,7 @@
                         "name": "BEAR 狗牌",
                         "normalizedName": "dogtag-bear-1",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "6662e9aca7e0b43baa3d5f74-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
@@ -2183,8 +2154,7 @@
                         "name": "BEAR 狗牌",
                         "normalizedName": "dogtag-bear-3",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "675dc9d37ae1a8792107ca96-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
@@ -2194,8 +2164,7 @@
                         "name": "BEAR 狗牌",
                         "normalizedName": "dogtag-bear-4",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "675dcb0545b1a2d108011b2b-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
@@ -2234,8 +2203,7 @@
                         "name": "USEC 狗牌",
                         "normalizedName": "dogtag-usec",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "59f32c3b86f77472a31742f0-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
@@ -2245,8 +2213,7 @@
                         "name": "USEC 狗牌",
                         "normalizedName": "dogtag-usec-2",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "6662ea05f6259762c56f3189-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
@@ -2256,8 +2223,7 @@
                         "name": "USEC 狗牌",
                         "normalizedName": "dogtag-usec-1",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "6662e9f37fa79a6d83730fa0-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
@@ -2267,8 +2233,7 @@
                         "name": "USEC 狗牌",
                         "normalizedName": "dogtag-usec-4",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "6764207f2fa5e32733055c4a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
@@ -2278,8 +2243,7 @@
                         "name": "USEC 狗牌",
                         "normalizedName": "dogtag-usec-3",
                         "types": [
-                            "barter",
-                            "noFlea"
+                            "barter"
                         ],
                         "iconLink": "6764202ae307804338014c1a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"

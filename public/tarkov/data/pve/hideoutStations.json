@@ -3257,8 +3257,7 @@
                                 "normalizedName": "lucky-scav-junk-box",
                                 "types": [
                                     "container",
-                                    "markedOnly",
-                                    "noFlea"
+                                    "markedOnly"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5b7c710788a4506dec015957-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lucky_Scav_Junk_box"
@@ -4136,8 +4135,7 @@
                                 "name": "直流变压器",
                                 "normalizedName": "advanced-current-converter",
                                 "types": [
-                                    "barter",
-                                    "noFlea"
+                                    "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/6389c85357baa773a825b356-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Advanced_current_converter"
@@ -6462,8 +6460,7 @@
                                 "name": "GPS信号放大单元",
                                 "normalizedName": "far-forward-gps-signal-amplifier-unit",
                                 "types": [
-                                    "barter",
-                                    "noFlea"
+                                    "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/6389c7f115805221fb410466-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Far-forward_GPS_Signal_Amplifier_Unit"
