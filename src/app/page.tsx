@@ -1,5 +1,5 @@
 import Link from "next/link";
-import GenshinLaunch from "./_componets/genshin-launch";
+import GenshinLaunch from "./_components/genshin-launch";
 
 export default function Home() {
   return (
@@ -33,6 +33,11 @@ export default function Home() {
             <li className="tracking-[-.01em]">
               <Link href="/maps" target="_blank">
                 地图
+              </Link>
+            </li>
+            <li className="tracking-[-.01em]">
+              <Link href="/tasks" target="_blank">
+                任务
               </Link>
             </li>
           </ol>

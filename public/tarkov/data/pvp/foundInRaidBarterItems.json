@@ -2151,478 +2151,6 @@
         "hideoutStations": []
     },
     {
-        "id": "655c652d60d0ac437100fed7",
-        "name": "BEAR干员小人",
-        "normalizedName": "bear-operative-figurine",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "655c652d60d0ac437100fed7-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BEAR_operative_figurine",
-        "tasks": [
-            {
-                "id": "6761ff17cdc36bd66102e9d0",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6848100b00afffa81f09e365",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "68481881f43abfdda2058369",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "655c66e40b2de553b618d4b8",
-        "name": "Mutkevich政客小人",
-        "normalizedName": "politician-mutkevich-figurine",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "655c66e40b2de553b618d4b8-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Politician_Mutkevich_figurine",
-        "tasks": [
-            {
-                "id": "6761ff17cdc36bd66102e9d0",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6848100b00afffa81f09e365",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "68481881f43abfdda2058369",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6663148ed7f171c4c20226c1",
-                "name": "小本生意 - 1",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "66572c82ad599021091c6118",
-        "name": "Killa 小人",
-        "normalizedName": "killa-figurine",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "66572c82ad599021091c6118-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Killa_figurine",
-        "tasks": [
-            {
-                "id": "6761ff17cdc36bd66102e9d0",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6848100b00afffa81f09e365",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "68481881f43abfdda2058369",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6663148ed7f171c4c20226c1",
-                "name": "小本生意 - 1",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "66572be36a723f7f005a066e",
-        "name": "Reshala 小人",
-        "normalizedName": "reshala-figurine",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "66572be36a723f7f005a066e-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reshala_figurine",
-        "tasks": [
-            {
-                "id": "6761ff17cdc36bd66102e9d0",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6848100b00afffa81f09e365",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "68481881f43abfdda2058369",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6663148ed7f171c4c20226c1",
-                "name": "小本生意 - 1",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "655c67782a1356436041c9c5",
-        "name": "Ryzhy小人",
-        "normalizedName": "ryzhy-figurine",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "655c67782a1356436041c9c5-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ryzhy_figurine",
-        "tasks": [
-            {
-                "id": "6761ff17cdc36bd66102e9d0",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6848100b00afffa81f09e365",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "68481881f43abfdda2058369",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6663148ed7f171c4c20226c1",
-                "name": "小本生意 - 1",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "655c673673a43e23e857aebd",
-        "name": "Scav小人",
-        "normalizedName": "scav-figurine",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "655c673673a43e23e857aebd-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Scav_figurine",
-        "tasks": [
-            {
-                "id": "6761ff17cdc36bd66102e9d0",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6848100b00afffa81f09e365",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "68481881f43abfdda2058369",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6663148ed7f171c4c20226c1",
-                "name": "小本生意 - 1",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "66572cbdad599021091c611a",
-        "name": "Tagilla 小人",
-        "normalizedName": "tagilla-figurine",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "66572cbdad599021091c611a-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tagilla_figurine",
-        "tasks": [
-            {
-                "id": "6761ff17cdc36bd66102e9d0",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6848100b00afffa81f09e365",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "68481881f43abfdda2058369",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6663148ed7f171c4c20226c1",
-                "name": "小本生意 - 1",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "655c663a6689c676ce57af85",
-        "name": "USEC干员小人",
-        "normalizedName": "usec-operative-figurine",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "655c663a6689c676ce57af85-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/USEC_operative_figurine",
-        "tasks": [
-            {
-                "id": "6761ff17cdc36bd66102e9d0",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6848100b00afffa81f09e365",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "68481881f43abfdda2058369",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "655c669103999d3c810c025b",
-        "name": "邪教徒小人",
-        "normalizedName": "cultist-figurine",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "655c669103999d3c810c025b-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cultist_figurine",
-        "tasks": [
-            {
-                "id": "6761ff17cdc36bd66102e9d0",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6848100b00afffa81f09e365",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "68481881f43abfdda2058369",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6663148ed7f171c4c20226c1",
-                "name": "小本生意 - 1",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "66572b8d80b1cd4b6a67847f",
-        "name": "Den 小人",
-        "normalizedName": "den-figurine",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "66572b8d80b1cd4b6a67847f-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Den_figurine",
-        "tasks": [
-            {
-                "id": "6761ff17cdc36bd66102e9d0",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6848100b00afffa81f09e365",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "68481881f43abfdda2058369",
-                "name": "新起点",
-                "trader": "Ragman",
-                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "6663148ed7f171c4c20226c1",
-                "name": "小本生意 - 1",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
         "id": "59f32c3b86f77472a31742f0",
         "name": "USEC 狗牌",
         "normalizedName": "dogtag-usec",
@@ -2684,6 +2212,182 @@
         ],
         "iconLink": "655c67ab0d37ca5135388f4b-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ded_Moroz_figurine",
+        "tasks": [
+            {
+                "id": "6663148ed7f171c4c20226c1",
+                "name": "小本生意 - 1",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "655c66e40b2de553b618d4b8",
+        "name": "Mutkevich政客小人",
+        "normalizedName": "politician-mutkevich-figurine",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "655c66e40b2de553b618d4b8-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Politician_Mutkevich_figurine",
+        "tasks": [
+            {
+                "id": "6663148ed7f171c4c20226c1",
+                "name": "小本生意 - 1",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "66572c82ad599021091c6118",
+        "name": "Killa 小人",
+        "normalizedName": "killa-figurine",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "66572c82ad599021091c6118-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Killa_figurine",
+        "tasks": [
+            {
+                "id": "6663148ed7f171c4c20226c1",
+                "name": "小本生意 - 1",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "66572be36a723f7f005a066e",
+        "name": "Reshala 小人",
+        "normalizedName": "reshala-figurine",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "66572be36a723f7f005a066e-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reshala_figurine",
+        "tasks": [
+            {
+                "id": "6663148ed7f171c4c20226c1",
+                "name": "小本生意 - 1",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "655c67782a1356436041c9c5",
+        "name": "Ryzhy小人",
+        "normalizedName": "ryzhy-figurine",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "655c67782a1356436041c9c5-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ryzhy_figurine",
+        "tasks": [
+            {
+                "id": "6663148ed7f171c4c20226c1",
+                "name": "小本生意 - 1",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "655c673673a43e23e857aebd",
+        "name": "Scav小人",
+        "normalizedName": "scav-figurine",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "655c673673a43e23e857aebd-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Scav_figurine",
+        "tasks": [
+            {
+                "id": "6663148ed7f171c4c20226c1",
+                "name": "小本生意 - 1",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "66572cbdad599021091c611a",
+        "name": "Tagilla 小人",
+        "normalizedName": "tagilla-figurine",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "66572cbdad599021091c611a-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tagilla_figurine",
+        "tasks": [
+            {
+                "id": "6663148ed7f171c4c20226c1",
+                "name": "小本生意 - 1",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "655c669103999d3c810c025b",
+        "name": "邪教徒小人",
+        "normalizedName": "cultist-figurine",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "655c669103999d3c810c025b-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cultist_figurine",
+        "tasks": [
+            {
+                "id": "6663148ed7f171c4c20226c1",
+                "name": "小本生意 - 1",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "66572b8d80b1cd4b6a67847f",
+        "name": "Den 小人",
+        "normalizedName": "den-figurine",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "66572b8d80b1cd4b6a67847f-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Den_figurine",
         "tasks": [
             {
                 "id": "6663148ed7f171c4c20226c1",

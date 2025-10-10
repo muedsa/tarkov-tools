@@ -34,17 +34,42 @@ function downloadImage(url, dest) {
       })
       .on("error", (err) => {
         fs.unlink(dest, () => reject(err));
+        console.log(err);
       });
   });
 }
 
 // 检查图片是否存在，若不存在则下载
 async function checkAndSaveImage(imageKey) {
-  const imageUrl = `https://assets.tarkov.dev/${imageKey}`;
+  if (!!!imageKey) return;
+  let imageUrl = `https://assets.tarkov.dev/${imageKey}`;
+  if (imageKey.startsWith("https://assets.tarkov.dev/")) {
+    imageUrl = imageKey;
+    imageKey = imageKey.replace("https://assets.tarkov.dev/", "");
+  }
   const filePath = path.join(saveDir, imageKey);
   if (!fs.existsSync(filePath)) {
+    console.log(`Downloaded: ${imageUrl} to ${filePath}`);
     await downloadImage(imageUrl, filePath);
-    console.log(`Downloaded: ${imageKey}`);
+  }
+}
+
+const tasksFileData = fs.readFileSync(
+  path.join(projectRootDir, `public/tarkov/data/${mode}/tasks.json`),
+  "utf-8"
+);
+const { tasks } = JSON.parse(tasksFileData);
+for await (const task of tasks) {
+  await checkAndSaveImage(task.taskImageLink);
+  await checkAndSaveImage(task.trader.imageLink);
+  if (task.objectives) {
+    for await (const objective of task.objectives) {
+      if (objective.items) {
+        for await (const item of objective.items) {
+          if (item.iconLink) await checkAndSaveImage(item.iconLink);
+        }
+      }
+    }
   }
 }
 
@@ -56,15 +81,19 @@ const foundInRaidBarterItemsFileData = fs.readFileSync(
   "utf-8"
 );
 const foundInRaidBarterItems = JSON.parse(foundInRaidBarterItemsFileData);
-foundInRaidBarterItems.forEach((item) => {
-  checkAndSaveImage(item.iconLink);
-  item.tasks?.forEach((task) => {
-    checkAndSaveImage(task.traderImageLink);
-  });
-  item.hideoutStations?.forEach((station) => {
-    checkAndSaveImage(station.imageLink);
-  });
-});
+for await (const item of foundInRaidBarterItems) {
+  await checkAndSaveImage(item.iconLink);
+  if (item.tasks) {
+    for await (const task of item.tasks) {
+      await checkAndSaveImage(task.traderImageLink);
+    }
+  }
+  if (item.hideoutStations) {
+    for await (const station of item.hideoutStations) {
+      await checkAndSaveImage(station.imageLink);
+    }
+  }
+}
 
 const foundInRaidTaskItemsFileData = fs.readFileSync(
   path.join(
@@ -74,28 +103,35 @@ const foundInRaidTaskItemsFileData = fs.readFileSync(
   "utf-8"
 );
 const foundInRaidTaskItems = JSON.parse(foundInRaidTaskItemsFileData);
-foundInRaidTaskItems.forEach((item) => {
-  checkAndSaveImage(item.iconLink);
-  item.tasks?.forEach((task) => {
-    checkAndSaveImage(task.traderImageLink);
-  });
-  item.hideoutStations?.forEach((station) => {
-    checkAndSaveImage(station.imageLink);
-  });
-});
+for await (const item of foundInRaidTaskItems) {
+  await checkAndSaveImage(item.iconLink);
+  if (item.tasks) {
+    for await (const task of item.tasks) {
+      await checkAndSaveImage(task.traderImageLink);
+    }
+  }
+  if (item.hideoutStations) {
+    for await (const station of item.hideoutStations) {
+      await checkAndSaveImage(station.imageLink);
+    }
+  }
+}
 
 const mixedItemsTasksFileData = fs.readFileSync(
   path.join(projectRootDir, `public/tarkov/data/${mode}/mixedItemsTasks.json`),
   "utf-8"
 );
-
 const mixedItemsTasks = JSON.parse(mixedItemsTasksFileData);
-mixedItemsTasks.forEach((task) => {
-  checkAndSaveImage(task.taskImageLink);
-  checkAndSaveImage(task.traderImageLink);
-  task.objectives.forEach((objective) => {
-    objective.items.forEach((item) => {
-      checkAndSaveImage(item.iconLink);
-    });
-  });
-});
+for await (const task of mixedItemsTasks) {
+  await checkAndSaveImage(task.taskImageLink);
+  await checkAndSaveImage(task.traderImageLink);
+  if (task.objectives) {
+    for await (const objective of task.objectives) {
+      if (objective.items) {
+        for await (const item of objective.items) {
+          await checkAndSaveImage(item.iconLink);
+        }
+      }
+    }
+  }
+}

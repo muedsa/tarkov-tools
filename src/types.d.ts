@@ -65,3 +65,21 @@ type MixedItemsTraderTaskData = {
   kappaRequired: boolean;
   objectives: GiveItemTaskObjectiveItem[];
 };
+
+type TarkovTrader = {
+  id: string;
+  name: string;
+  normalizedName: string;
+  imageLink: string;
+};
+
+type TarkovTraderTask = {
+  id: string;
+  name: string;
+  normalizedName: string;
+  experience: number;
+  wikiLink: string;
+  minPlayerLevel: number;
+  factionName: string;
+  trader: TarkovTrader;
+};

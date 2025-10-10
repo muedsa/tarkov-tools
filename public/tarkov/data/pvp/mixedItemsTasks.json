@@ -600,6 +600,781 @@
         ]
     },
     {
+        "id": "6834158f2f0e2a7eb90b62c8",
+        "name": "Easy Money - Part 2 [PVE ZONE]",
+        "taskImageLink": "6834158f2f0e2a7eb90b62c8.webp",
+        "trader": "竞技场裁判",
+        "traderImageLink": "6617beeaa9cfa777ca915b7c.webp",
+        "kappaRequired": false,
+        "mixedItemsTask": true,
+        "objectives": [
+            {
+                "id": "6834158f2f0e2a7eb90b62cb",
+                "description": "Hand over the found in raid items from the Drinks category",
+                "count": 5,
+                "items": [
+                    {
+                        "id": "5c0fa877d174af02a012e1cf",
+                        "name": "Aquamari带滤嘴水瓶",
+                        "normalizedName": "aquamari-water-bottle-with-filter",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "5c0fa877d174af02a012e1cf-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aquamari_water_bottle_with_filter"
+                    },
+                    {
+                        "id": "575062b524597720a31c09a1",
+                        "name": "冰绿茶",
+                        "normalizedName": "can-of-ice-green-tea",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "575062b524597720a31c09a1-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_Ice_Green_tea"
+                    },
+                    {
+                        "id": "57513f07245977207e26a311",
+                        "name": "苹果汁",
+                        "normalizedName": "pack-of-apple-juice",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "57513f07245977207e26a311-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_apple_juice"
+                    },
+                    {
+                        "id": "57513f9324597720a7128161",
+                        "name": "西柚汁",
+                        "normalizedName": "pack-of-grand-juice",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "57513f9324597720a7128161-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_Grand_juice"
+                    },
+                    {
+                        "id": "57513fcc24597720a31c09a6",
+                        "name": "Vita果汁",
+                        "normalizedName": "pack-of-vita-juice",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "57513fcc24597720a31c09a6-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_Vita_juice"
+                    },
+                    {
+                        "id": "5751435d24597720a27126d1",
+                        "name": "Max Energy能量饮料",
+                        "normalizedName": "can-of-max-energy-energy-drink",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "5751435d24597720a27126d1-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_Max_Energy_energy_drink"
+                    },
+                    {
+                        "id": "575146b724597720a27126d5",
+                        "name": "一盒牛奶",
+                        "normalizedName": "pack-of-milk",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "575146b724597720a27126d5-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_milk"
+                    },
+                    {
+                        "id": "57514643245977207f2c2d09",
+                        "name": "塔可乐",
+                        "normalizedName": "can-of-tarcola-soda",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "57514643245977207f2c2d09-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_TarCola_soda"
+                    },
+                    {
+                        "id": "5751496424597720a27126da",
+                        "name": "热棒",
+                        "normalizedName": "can-of-hot-rod-energy-drink",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "5751496424597720a27126da-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_Hot_Rod_energy_drink"
+                    },
+                    {
+                        "id": "62a09f32621468534a797acb",
+                        "name": "瓶装 Pevko 淡啤酒",
+                        "normalizedName": "bottle-of-pevko-light-beer",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "62a09f32621468534a797acb-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Pevko_Light_beer"
+                    },
+                    {
+                        "id": "5e8f3423fd7471236e6e3b64",
+                        "name": "“诺文斯基核动力”金牌格瓦斯600毫升装",
+                        "normalizedName": "bottle-of-norvinsky-yadreniy-premium-kvass-06l",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "5e8f3423fd7471236e6e3b64-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Norvinsky_Yadreniy_premium_kvass_(0.6L)"
+                    },
+                    {
+                        "id": "60b0f93284c20f0feb453da7",
+                        "name": "罐装六可乐",
+                        "normalizedName": "can-of-ratcola-soda",
+                        "types": [
+                            "barter",
+                            "provisions"
+                        ],
+                        "iconLink": "60b0f93284c20f0feb453da7-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_RatCola_soda"
+                    },
+                    {
+                        "id": "60098b1705871270cd5352a1",
+                        "name": "应急用水",
+                        "normalizedName": "emergency-water-ration",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "60098b1705871270cd5352a1-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Emergency_Water_Ration"
+                    },
+                    {
+                        "id": "5d403f9186f7743cac3f229b",
+                        "name": "Dan Jackiel瓶装威士忌",
+                        "normalizedName": "bottle-of-dan-jackiel-whiskey",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "5d403f9186f7743cac3f229b-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Dan_Jackiel_whiskey"
+                    },
+                    {
+                        "id": "5d1b376e86f774252519444e",
+                        "name": "“凶狠跑刀崽”私酒",
+                        "normalizedName": "bottle-of-fierce-hatchling-moonshine",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "5d1b376e86f774252519444e-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Fierce_Hatchling_moonshine"
+                    },
+                    {
+                        "id": "5d1b33a686f7742523398398",
+                        "name": "纯净水",
+                        "normalizedName": "canister-with-purified-water",
+                        "types": [
+                            "barter",
+                            "provisions"
+                        ],
+                        "iconLink": "5d1b33a686f7742523398398-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Canister_with_purified_water"
+                    },
+                    {
+                        "id": "5d40407c86f774318526545a",
+                        "name": "Tarkovskaya瓶装伏特加",
+                        "normalizedName": "bottle-of-tarkovskaya-vodka",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "5d40407c86f774318526545a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Tarkovskaya_vodka"
+                    },
+                    {
+                        "id": "544fb62a4bdc2dfb738b4568",
+                        "name": "Russian Army菠萝汁",
+                        "normalizedName": "pack-of-russian-army-pineapple-juice",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "544fb62a4bdc2dfb738b4568-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_Russian_Army_pineapple_juice"
+                    },
+                    {
+                        "id": "5448fee04bdc2dbc018b4567",
+                        "name": "0.6升瓶装水",
+                        "normalizedName": "bottle-of-water-06l",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "5448fee04bdc2dbc018b4567-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_water_(0.6L)"
+                    }
+                ]
+            },
+            {
+                "id": "6834158f2f0e2a7eb90b62cc",
+                "description": "Hand over the found in raid items from the Food category",
+                "count": 5,
+                "items": [
+                    {
+                        "id": "57505f6224597709a92585a9",
+                        "name": "Alyonka 巧克力",
+                        "normalizedName": "alyonka-chocolate-bar",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "57505f6224597709a92585a9-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Alyonka_chocolate_bar"
+                    },
+                    {
+                        "id": "57347da92459774491567cf5",
+                        "name": "炖美味牛肉罐头（大）",
+                        "normalizedName": "can-of-beef-stew-large",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "57347da92459774491567cf5-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_beef_stew_(Large)"
+                    },
+                    {
+                        "id": "57347d3d245977448f7b7f61",
+                        "name": "黑麦面包块",
+                        "normalizedName": "rye-croutons",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "57347d3d245977448f7b7f61-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rye_croutons"
+                    },
+                    {
+                        "id": "57347d7224597744596b4e72",
+                        "name": "炖牛肉罐头",
+                        "normalizedName": "can-of-beef-stew-small",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "57347d7224597744596b4e72-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_beef_stew_(Small)"
+                    },
+                    {
+                        "id": "5734773724597737fd047c14",
+                        "name": "炼乳罐头",
+                        "normalizedName": "can-of-condensed-milk",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "5734773724597737fd047c14-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_condensed_milk"
+                    },
+                    {
+                        "id": "5751487e245977207e26a315",
+                        "name": "Emelya黑麦面包块",
+                        "normalizedName": "emelya-rye-croutons",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "5751487e245977207e26a315-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Emelya_rye_croutons"
+                    },
+                    {
+                        "id": "57347d9c245977448b40fa85",
+                        "name": "鲱鱼罐头",
+                        "normalizedName": "can-of-herring",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "57347d9c245977448b40fa85-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_herring"
+                    },
+                    {
+                        "id": "57347d5f245977448b40fa81",
+                        "name": "Humpback鲑鱼罐头",
+                        "normalizedName": "can-of-humpback-salmon",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "57347d5f245977448b40fa81-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_humpback_salmon"
+                    },
+                    {
+                        "id": "5673de654bdc2d180f8b456d",
+                        "name": "太平洋秋刀鱼罐头",
+                        "normalizedName": "can-of-pacific-saury",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "5673de654bdc2d180f8b456d-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_pacific_saury"
+                    },
+                    {
+                        "id": "5bc9b156d4351e00367fbce9",
+                        "name": "DevilDog蛋黄酱",
+                        "normalizedName": "jar-of-devildog-mayo",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "5bc9b156d4351e00367fbce9-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Jar_of_DevilDog_mayo"
+                    },
+                    {
+                        "id": "590c5f0d86f77413997acfab",
+                        "name": "MRE个人即食口粮",
+                        "normalizedName": "mre-ration-pack",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "590c5f0d86f77413997acfab-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MRE_ration_pack"
+                    },
+                    {
+                        "id": "656df4fec921ad01000481a2",
+                        "name": "方便面",
+                        "normalizedName": "pack-of-instant-noodles",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "656df4fec921ad01000481a2-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_instant_noodles"
+                    },
+                    {
+                        "id": "590c5d4b86f774784e1b9c45",
+                        "name": "Iskra个人配给口粮",
+                        "normalizedName": "iskra-ration-pack",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "590c5d4b86f774784e1b9c45-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Iskra_ration_pack"
+                    },
+                    {
+                        "id": "635a758bfefc88a93f021b8a",
+                        "name": "咸狗牛肉肠",
+                        "normalizedName": "salty-dog-beef-sausage",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "635a758bfefc88a93f021b8a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Salty_Dog_beef_sausage"
+                    },
+                    {
+                        "id": "65815f0e647e3d7246384e14",
+                        "name": "塔克肉干",
+                        "normalizedName": "pack-of-tarker-dried-meat",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "65815f0e647e3d7246384e14-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_Tarker_dried_meat"
+                    },
+                    {
+                        "id": "5bc9c29cd4351e003562b8a3",
+                        "name": "西鲱鱼罐头",
+                        "normalizedName": "can-of-sprats",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "5bc9c29cd4351e003562b8a3-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_sprats"
+                    },
+                    {
+                        "id": "59e3577886f774176a362503",
+                        "name": "一包糖",
+                        "normalizedName": "pack-of-sugar",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "59e3577886f774176a362503-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_sugar"
+                    },
+                    {
+                        "id": "57347d90245977448f7b7f65",
+                        "name": "一盒燕麦片",
+                        "normalizedName": "pack-of-oat-flakes",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "57347d90245977448f7b7f65-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_oat_flakes"
+                    },
+                    {
+                        "id": "57347d692459774491567cf1",
+                        "name": "豌豆罐头",
+                        "normalizedName": "can-of-green-peas",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "57347d692459774491567cf1-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_green_peas"
+                    },
+                    {
+                        "id": "544fb6cc4bdc2d34748b456e",
+                        "name": "士腻架能量棒",
+                        "normalizedName": "slickers-chocolate-bar",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "544fb6cc4bdc2d34748b456e-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Slickers_chocolate_bar"
+                    },
+                    {
+                        "id": "57347d8724597744596b4e76",
+                        "name": "罐装蔬菜泥",
+                        "normalizedName": "can-of-squash-spread",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "57347d8724597744596b4e76-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_squash_spread"
+                    },
+                    {
+                        "id": "5448ff904bdc2d6f028b456e",
+                        "name": "军用饼干",
+                        "normalizedName": "army-crackers",
+                        "types": [
+                            "provisions"
+                        ],
+                        "iconLink": "5448ff904bdc2d6f028b456e-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Army_crackers"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "68341b407559f4e6d50bc0ce",
+        "name": "Surprise [PVE ZONE]",
+        "taskImageLink": "68341b407559f4e6d50bc0ce.webp",
+        "trader": "竞技场裁判",
+        "traderImageLink": "6617beeaa9cfa777ca915b7c.webp",
+        "kappaRequired": false,
+        "mixedItemsTask": true,
+        "objectives": [
+            {
+                "id": "68341b407559f4e6d50bc0d1",
+                "description": "Hand over the found in raid items: Class 4 or higher ballistic plates",
+                "count": 3,
+                "items": [
+                    {
+                        "id": "656f664200d62bcd2e024077",
+                        "name": "Korund-VM防弹插板（前部）",
+                        "normalizedName": "korund-vm-ballistic-plates-front",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656f664200d62bcd2e024077-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM_ballistic_plates_(Front)"
+                    },
+                    {
+                        "id": "64afdb577bb3bfe8fe03fd1d",
+                        "name": "ESBI IV 级防弹插板（侧边）",
+                        "normalizedName": "esbi-level-iv-ballistic-plate-side",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "64afdb577bb3bfe8fe03fd1d-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ESBI_level_IV_ballistic_plate_(Side)"
+                    },
+                    {
+                        "id": "656efaf54772930db4031ff5",
+                        "name": "Granit 4防弹插板（背部）",
+                        "normalizedName": "granit-4-ballistic-plates-back",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656efaf54772930db4031ff5-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4_ballistic_plates_(Back)"
+                    },
+                    {
+                        "id": "656f611f94b480b8a500c0db",
+                        "name": "Granit 4防弹插板（前部）",
+                        "normalizedName": "granit-4-ballistic-plate-front",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656f611f94b480b8a500c0db-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4_ballistic_plate_(Front)"
+                    },
+                    {
+                        "id": "654a4a964b446df1ad03f192",
+                        "name": "Granit 4RS防弹插板（背部）",
+                        "normalizedName": "granit-4rs-ballistic-plates-back",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "654a4a964b446df1ad03f192-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4RS_ballistic_plates_(Back)"
+                    },
+                    {
+                        "id": "656f63c027aed95beb08f62c",
+                        "name": "Granit 4RS防弹插板（前部）",
+                        "normalizedName": "granit-4rs-ballistic-plate-front",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656f63c027aed95beb08f62c-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4RS_ballistic_plate_(Front)"
+                    },
+                    {
+                        "id": "65573fa5655447403702a816",
+                        "name": "Granit Br4防弹插板",
+                        "normalizedName": "granit-br4-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "65573fa5655447403702a816-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_Br4_ballistic_plate"
+                    },
+                    {
+                        "id": "656fafe3498d1b7e3e071da4",
+                        "name": "KITECO SC-IV SA防弹插板",
+                        "normalizedName": "kiteco-sc-iv-sa-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656fafe3498d1b7e3e071da4-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/KITECO_SC-IV_SA_ballistic_plate"
+                    },
+                    {
+                        "id": "656fa61e94b480b8a500c0e8",
+                        "name": "NESCO 4400-SA-MC防弹插板",
+                        "normalizedName": "nesco-4400-sa-mc-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656fa61e94b480b8a500c0e8-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NESCO_4400-SA-MC_ballistic_plate"
+                    },
+                    {
+                        "id": "64afc71497cf3a403c01ff38",
+                        "name": "Granit Br5防弹插板",
+                        "normalizedName": "granit-br5-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "64afc71497cf3a403c01ff38-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_Br5_ballistic_plate"
+                    },
+                    {
+                        "id": "64afdcb83efdfea28601d041",
+                        "name": "ESAPI IV 级防弹插板",
+                        "normalizedName": "esapi-level-iv-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "64afdcb83efdfea28601d041-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ESAPI_level_IV_ballistic_plate"
+                    },
+                    {
+                        "id": "656fad8c498d1b7e3e071da0",
+                        "name": "Monoclete三级PE防弹插板",
+                        "normalizedName": "monoclete-level-iii-pe-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656fad8c498d1b7e3e071da0-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Monoclete_level_III_PE_ballistic_plate"
+                    },
+                    {
+                        "id": "656fb0bd7c2d57afe200c0dc",
+                        "name": "SPRTN Elaphros防弹插板",
+                        "normalizedName": "sprtn-elaphros-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656fb0bd7c2d57afe200c0dc-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SPRTN_Elaphros_ballistic_plate"
+                    },
+                    {
+                        "id": "656fa25e94b480b8a500c0e0",
+                        "name": "Kiba Arms Titan防弹插板",
+                        "normalizedName": "kiba-arms-titan-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656fa25e94b480b8a500c0e0-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kiba_Arms_Titan_ballistic_plate"
+                    },
+                    {
+                        "id": "656fb21fa0dce000a2020f7c",
+                        "name": "NewSphereTech三级防弹插板",
+                        "normalizedName": "newspheretech-level-iii-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656fb21fa0dce000a2020f7c-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NewSphereTech_level_III_ballistic_plate"
+                    },
+                    {
+                        "id": "656f9fa0498d1b7e3e071d98",
+                        "name": "SPRTN Omega防弹插板",
+                        "normalizedName": "sprtn-omega-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656f9fa0498d1b7e3e071d98-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SPRTN_Omega_ballistic_plate"
+                    },
+                    {
+                        "id": "656fa0fb498d1b7e3e071d9c",
+                        "name": "Global Armor’s Steel防弹插板",
+                        "normalizedName": "global-armors-steel-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656fa0fb498d1b7e3e071d9c-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Global_Armor%E2%80%99s_Steel_ballistic_plate"
+                    },
+                    {
+                        "id": "655746010177119f4a097ff7",
+                        "name": "SAPI三级+防弹插板",
+                        "normalizedName": "sapi-level-iii-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "655746010177119f4a097ff7-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SAPI_level_III%2B_ballistic_plate"
+                    },
+                    {
+                        "id": "656fa53d94b480b8a500c0e4",
+                        "name": "TallCom Guardian防弹插板",
+                        "normalizedName": "tallcom-guardian-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656fa53d94b480b8a500c0e4-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TallCom_Guardian_ballistic_plate"
+                    },
+                    {
+                        "id": "656faf0ca0dce000a2020f77",
+                        "name": "GAC 4sss2防弹插板",
+                        "normalizedName": "gac-4sss2-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656faf0ca0dce000a2020f77-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GAC_4sss2_ballistic_plate"
+                    },
+                    {
+                        "id": "656fa99800d62bcd2e024088",
+                        "name": "Cult Termite防弹插板",
+                        "normalizedName": "cult-termite-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656fa99800d62bcd2e024088-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cult_Termite_ballistic_plate"
+                    },
+                    {
+                        "id": "656fa8d700d62bcd2e024084",
+                        "name": "Cult Locust防弹插板",
+                        "normalizedName": "cult-locust-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656fa8d700d62bcd2e024084-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cult_Locust_ballistic_plate"
+                    },
+                    {
+                        "id": "656fa76500d62bcd2e024080",
+                        "name": "Kiba Arms Steel防弹插板",
+                        "normalizedName": "kiba-arms-steel-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656fa76500d62bcd2e024080-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kiba_Arms_Steel_ballistic_plate"
+                    },
+                    {
+                        "id": "656fae5f7c2d57afe200c0d7",
+                        "name": "GAC 3s15m防弹插板",
+                        "normalizedName": "gac-3s15m-ballistic-plate",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656fae5f7c2d57afe200c0d7-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GAC_3s15m_ballistic_plate"
+                    },
+                    {
+                        "id": "6557458f83942d705f0c4962",
+                        "name": "SSAPI level III+ 防弹插板（侧边）",
+                        "normalizedName": "ssapi-level-iii-ballistic-plate-side",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "6557458f83942d705f0c4962-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SSAPI_level_III%2B_ballistic_plate_(Side)"
+                    },
+                    {
+                        "id": "656f603f94b480b8a500c0d6",
+                        "name": "6B33防弹插板（前部）",
+                        "normalizedName": "6b33-ballistic-plate-front",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656f603f94b480b8a500c0d6-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6B33_ballistic_plate_(Front)"
+                    },
+                    {
+                        "id": "657b22485f444d6dff0c6c2f",
+                        "name": "6B23-2防弹插板（黑色）",
+                        "normalizedName": "6b23-2-ballistic-plate-back",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "657b22485f444d6dff0c6c2f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6B23-2_ballistic_plate_(Back)"
+                    },
+                    {
+                        "id": "64afd81707e2cf40e903a316",
+                        "name": "Granit 防弹插板（侧边）",
+                        "normalizedName": "granit-ballistic-plate-side",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "64afd81707e2cf40e903a316-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_ballistic_plate_(Side)"
+                    },
+                    {
+                        "id": "654a4f8bc721968a4404ef18",
+                        "name": "Korund-VM防弹插板（侧边）",
+                        "normalizedName": "korund-vm-ballistic-plate-side",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "654a4f8bc721968a4404ef18-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM_ballistic_plate_(Side)"
+                    },
+                    {
+                        "id": "657b2797c3dbcb01d60c35ea",
+                        "name": "Korund-VM防弹插板（背部）",
+                        "normalizedName": "korund-vm-ballistic-plate-back",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "657b2797c3dbcb01d60c35ea-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM_ballistic_plate_(Back)"
+                    },
+                    {
+                        "id": "657b28d25f444d6dff0c6c77",
+                        "name": "Korund-VM-K防弹插板（背部）",
+                        "normalizedName": "korund-vm-k-ballistic-plate-back",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "657b28d25f444d6dff0c6c77-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM-K_ballistic_plate_(Back)"
+                    },
+                    {
+                        "id": "656f66b5c6baea13cd07e108",
+                        "name": "Korund-VM-K防弹插板（前部）",
+                        "normalizedName": "korund-vm-k-ballistic-plates-front",
+                        "types": [
+                            "armorPlate"
+                        ],
+                        "iconLink": "656f66b5c6baea13cd07e108-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM-K_ballistic_plates_(Front)"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "686403eeb4aaef121c0f0f06",
         "name": "Friend from Norvinsk - Part 4",
         "taskImageLink": "686403eeb4aaef121c0f0f06.webp",
@@ -1015,781 +1790,6 @@
                         ],
                         "iconLink": "6389c70ca33d8c4cdf4932c6-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electronic_components"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "66058cb5ae4719735349b9e8",
-        "name": "赚点快钱 - 2 [PVP ZONE]",
-        "taskImageLink": "66058cb5ae4719735349b9e8.webp",
-        "trader": "竞技场裁判",
-        "traderImageLink": "6617beeaa9cfa777ca915b7c.webp",
-        "kappaRequired": false,
-        "mixedItemsTask": true,
-        "objectives": [
-            {
-                "id": "6606bd2aa49db36b69b6dbf9",
-                "description": "上交战局中找到的物品：饮料",
-                "count": 5,
-                "items": [
-                    {
-                        "id": "5c0fa877d174af02a012e1cf",
-                        "name": "Aquamari带滤嘴水瓶",
-                        "normalizedName": "aquamari-water-bottle-with-filter",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "5c0fa877d174af02a012e1cf-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aquamari_water_bottle_with_filter"
-                    },
-                    {
-                        "id": "575062b524597720a31c09a1",
-                        "name": "冰绿茶",
-                        "normalizedName": "can-of-ice-green-tea",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "575062b524597720a31c09a1-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_Ice_Green_tea"
-                    },
-                    {
-                        "id": "57513f07245977207e26a311",
-                        "name": "苹果汁",
-                        "normalizedName": "pack-of-apple-juice",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "57513f07245977207e26a311-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_apple_juice"
-                    },
-                    {
-                        "id": "57513f9324597720a7128161",
-                        "name": "西柚汁",
-                        "normalizedName": "pack-of-grand-juice",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "57513f9324597720a7128161-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_Grand_juice"
-                    },
-                    {
-                        "id": "57513fcc24597720a31c09a6",
-                        "name": "Vita果汁",
-                        "normalizedName": "pack-of-vita-juice",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "57513fcc24597720a31c09a6-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_Vita_juice"
-                    },
-                    {
-                        "id": "5751435d24597720a27126d1",
-                        "name": "Max Energy能量饮料",
-                        "normalizedName": "can-of-max-energy-energy-drink",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "5751435d24597720a27126d1-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_Max_Energy_energy_drink"
-                    },
-                    {
-                        "id": "575146b724597720a27126d5",
-                        "name": "一盒牛奶",
-                        "normalizedName": "pack-of-milk",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "575146b724597720a27126d5-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_milk"
-                    },
-                    {
-                        "id": "57514643245977207f2c2d09",
-                        "name": "塔可乐",
-                        "normalizedName": "can-of-tarcola-soda",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "57514643245977207f2c2d09-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_TarCola_soda"
-                    },
-                    {
-                        "id": "5751496424597720a27126da",
-                        "name": "热棒",
-                        "normalizedName": "can-of-hot-rod-energy-drink",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "5751496424597720a27126da-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_Hot_Rod_energy_drink"
-                    },
-                    {
-                        "id": "62a09f32621468534a797acb",
-                        "name": "瓶装 Pevko 淡啤酒",
-                        "normalizedName": "bottle-of-pevko-light-beer",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "62a09f32621468534a797acb-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Pevko_Light_beer"
-                    },
-                    {
-                        "id": "5e8f3423fd7471236e6e3b64",
-                        "name": "“诺文斯基核动力”金牌格瓦斯600毫升装",
-                        "normalizedName": "bottle-of-norvinsky-yadreniy-premium-kvass-06l",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "5e8f3423fd7471236e6e3b64-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Norvinsky_Yadreniy_premium_kvass_(0.6L)"
-                    },
-                    {
-                        "id": "60b0f93284c20f0feb453da7",
-                        "name": "罐装六可乐",
-                        "normalizedName": "can-of-ratcola-soda",
-                        "types": [
-                            "barter",
-                            "provisions"
-                        ],
-                        "iconLink": "60b0f93284c20f0feb453da7-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_RatCola_soda"
-                    },
-                    {
-                        "id": "60098b1705871270cd5352a1",
-                        "name": "应急用水",
-                        "normalizedName": "emergency-water-ration",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "60098b1705871270cd5352a1-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Emergency_Water_Ration"
-                    },
-                    {
-                        "id": "5d403f9186f7743cac3f229b",
-                        "name": "Dan Jackiel瓶装威士忌",
-                        "normalizedName": "bottle-of-dan-jackiel-whiskey",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "5d403f9186f7743cac3f229b-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Dan_Jackiel_whiskey"
-                    },
-                    {
-                        "id": "5d1b376e86f774252519444e",
-                        "name": "“凶狠跑刀崽”私酒",
-                        "normalizedName": "bottle-of-fierce-hatchling-moonshine",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "5d1b376e86f774252519444e-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Fierce_Hatchling_moonshine"
-                    },
-                    {
-                        "id": "5d1b33a686f7742523398398",
-                        "name": "纯净水",
-                        "normalizedName": "canister-with-purified-water",
-                        "types": [
-                            "barter",
-                            "provisions"
-                        ],
-                        "iconLink": "5d1b33a686f7742523398398-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Canister_with_purified_water"
-                    },
-                    {
-                        "id": "5d40407c86f774318526545a",
-                        "name": "Tarkovskaya瓶装伏特加",
-                        "normalizedName": "bottle-of-tarkovskaya-vodka",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "5d40407c86f774318526545a-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Tarkovskaya_vodka"
-                    },
-                    {
-                        "id": "544fb62a4bdc2dfb738b4568",
-                        "name": "Russian Army菠萝汁",
-                        "normalizedName": "pack-of-russian-army-pineapple-juice",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "544fb62a4bdc2dfb738b4568-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_Russian_Army_pineapple_juice"
-                    },
-                    {
-                        "id": "5448fee04bdc2dbc018b4567",
-                        "name": "0.6升瓶装水",
-                        "normalizedName": "bottle-of-water-06l",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "5448fee04bdc2dbc018b4567-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_water_(0.6L)"
-                    }
-                ]
-            },
-            {
-                "id": "6606bd6768f8018fffebd998",
-                "description": "上交战局中找到的物品：食物",
-                "count": 5,
-                "items": [
-                    {
-                        "id": "57505f6224597709a92585a9",
-                        "name": "Alyonka 巧克力",
-                        "normalizedName": "alyonka-chocolate-bar",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "57505f6224597709a92585a9-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Alyonka_chocolate_bar"
-                    },
-                    {
-                        "id": "57347da92459774491567cf5",
-                        "name": "炖美味牛肉罐头（大）",
-                        "normalizedName": "can-of-beef-stew-large",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "57347da92459774491567cf5-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_beef_stew_(Large)"
-                    },
-                    {
-                        "id": "57347d3d245977448f7b7f61",
-                        "name": "黑麦面包块",
-                        "normalizedName": "rye-croutons",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "57347d3d245977448f7b7f61-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rye_croutons"
-                    },
-                    {
-                        "id": "57347d7224597744596b4e72",
-                        "name": "炖牛肉罐头",
-                        "normalizedName": "can-of-beef-stew-small",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "57347d7224597744596b4e72-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_beef_stew_(Small)"
-                    },
-                    {
-                        "id": "5734773724597737fd047c14",
-                        "name": "炼乳罐头",
-                        "normalizedName": "can-of-condensed-milk",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "5734773724597737fd047c14-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_condensed_milk"
-                    },
-                    {
-                        "id": "5751487e245977207e26a315",
-                        "name": "Emelya黑麦面包块",
-                        "normalizedName": "emelya-rye-croutons",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "5751487e245977207e26a315-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Emelya_rye_croutons"
-                    },
-                    {
-                        "id": "57347d9c245977448b40fa85",
-                        "name": "鲱鱼罐头",
-                        "normalizedName": "can-of-herring",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "57347d9c245977448b40fa85-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_herring"
-                    },
-                    {
-                        "id": "57347d5f245977448b40fa81",
-                        "name": "Humpback鲑鱼罐头",
-                        "normalizedName": "can-of-humpback-salmon",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "57347d5f245977448b40fa81-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_humpback_salmon"
-                    },
-                    {
-                        "id": "5673de654bdc2d180f8b456d",
-                        "name": "太平洋秋刀鱼罐头",
-                        "normalizedName": "can-of-pacific-saury",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "5673de654bdc2d180f8b456d-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_pacific_saury"
-                    },
-                    {
-                        "id": "5bc9b156d4351e00367fbce9",
-                        "name": "DevilDog蛋黄酱",
-                        "normalizedName": "jar-of-devildog-mayo",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "5bc9b156d4351e00367fbce9-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Jar_of_DevilDog_mayo"
-                    },
-                    {
-                        "id": "590c5f0d86f77413997acfab",
-                        "name": "MRE个人即食口粮",
-                        "normalizedName": "mre-ration-pack",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "590c5f0d86f77413997acfab-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MRE_ration_pack"
-                    },
-                    {
-                        "id": "656df4fec921ad01000481a2",
-                        "name": "方便面",
-                        "normalizedName": "pack-of-instant-noodles",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "656df4fec921ad01000481a2-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_instant_noodles"
-                    },
-                    {
-                        "id": "590c5d4b86f774784e1b9c45",
-                        "name": "Iskra个人配给口粮",
-                        "normalizedName": "iskra-ration-pack",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "590c5d4b86f774784e1b9c45-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Iskra_ration_pack"
-                    },
-                    {
-                        "id": "635a758bfefc88a93f021b8a",
-                        "name": "咸狗牛肉肠",
-                        "normalizedName": "salty-dog-beef-sausage",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "635a758bfefc88a93f021b8a-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Salty_Dog_beef_sausage"
-                    },
-                    {
-                        "id": "65815f0e647e3d7246384e14",
-                        "name": "塔克肉干",
-                        "normalizedName": "pack-of-tarker-dried-meat",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "65815f0e647e3d7246384e14-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_Tarker_dried_meat"
-                    },
-                    {
-                        "id": "5bc9c29cd4351e003562b8a3",
-                        "name": "西鲱鱼罐头",
-                        "normalizedName": "can-of-sprats",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "5bc9c29cd4351e003562b8a3-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_sprats"
-                    },
-                    {
-                        "id": "59e3577886f774176a362503",
-                        "name": "一包糖",
-                        "normalizedName": "pack-of-sugar",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "59e3577886f774176a362503-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_sugar"
-                    },
-                    {
-                        "id": "57347d90245977448f7b7f65",
-                        "name": "一盒燕麦片",
-                        "normalizedName": "pack-of-oat-flakes",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "57347d90245977448f7b7f65-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_oat_flakes"
-                    },
-                    {
-                        "id": "57347d692459774491567cf1",
-                        "name": "豌豆罐头",
-                        "normalizedName": "can-of-green-peas",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "57347d692459774491567cf1-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_green_peas"
-                    },
-                    {
-                        "id": "544fb6cc4bdc2d34748b456e",
-                        "name": "士腻架能量棒",
-                        "normalizedName": "slickers-chocolate-bar",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "544fb6cc4bdc2d34748b456e-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Slickers_chocolate_bar"
-                    },
-                    {
-                        "id": "57347d8724597744596b4e76",
-                        "name": "罐装蔬菜泥",
-                        "normalizedName": "can-of-squash-spread",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "57347d8724597744596b4e76-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_squash_spread"
-                    },
-                    {
-                        "id": "5448ff904bdc2d6f028b456e",
-                        "name": "军用饼干",
-                        "normalizedName": "army-crackers",
-                        "types": [
-                            "provisions"
-                        ],
-                        "iconLink": "5448ff904bdc2d6f028b456e-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Army_crackers"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "66058cbb06ef1d50a60c1f46",
-        "name": "惊喜 [PVP ZONE]",
-        "taskImageLink": "66058cbb06ef1d50a60c1f46.webp",
-        "trader": "竞技场裁判",
-        "traderImageLink": "6617beeaa9cfa777ca915b7c.webp",
-        "kappaRequired": false,
-        "mixedItemsTask": true,
-        "objectives": [
-            {
-                "id": "6606d08b4e2e27ca2d80085e",
-                "description": "上交战局中找到的物品：四级及以上装甲板",
-                "count": 3,
-                "items": [
-                    {
-                        "id": "656f664200d62bcd2e024077",
-                        "name": "Korund-VM防弹插板（前部）",
-                        "normalizedName": "korund-vm-ballistic-plates-front",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656f664200d62bcd2e024077-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM_ballistic_plates_(Front)"
-                    },
-                    {
-                        "id": "64afdb577bb3bfe8fe03fd1d",
-                        "name": "ESBI IV 级防弹插板（侧边）",
-                        "normalizedName": "esbi-level-iv-ballistic-plate-side",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "64afdb577bb3bfe8fe03fd1d-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ESBI_level_IV_ballistic_plate_(Side)"
-                    },
-                    {
-                        "id": "656efaf54772930db4031ff5",
-                        "name": "Granit 4防弹插板（背部）",
-                        "normalizedName": "granit-4-ballistic-plates-back",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656efaf54772930db4031ff5-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4_ballistic_plates_(Back)"
-                    },
-                    {
-                        "id": "656f611f94b480b8a500c0db",
-                        "name": "Granit 4防弹插板（前部）",
-                        "normalizedName": "granit-4-ballistic-plate-front",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656f611f94b480b8a500c0db-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4_ballistic_plate_(Front)"
-                    },
-                    {
-                        "id": "654a4a964b446df1ad03f192",
-                        "name": "Granit 4RS防弹插板（背部）",
-                        "normalizedName": "granit-4rs-ballistic-plates-back",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "654a4a964b446df1ad03f192-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4RS_ballistic_plates_(Back)"
-                    },
-                    {
-                        "id": "656f63c027aed95beb08f62c",
-                        "name": "Granit 4RS防弹插板（前部）",
-                        "normalizedName": "granit-4rs-ballistic-plate-front",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656f63c027aed95beb08f62c-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4RS_ballistic_plate_(Front)"
-                    },
-                    {
-                        "id": "65573fa5655447403702a816",
-                        "name": "Granit Br4防弹插板",
-                        "normalizedName": "granit-br4-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "65573fa5655447403702a816-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_Br4_ballistic_plate"
-                    },
-                    {
-                        "id": "656fafe3498d1b7e3e071da4",
-                        "name": "KITECO SC-IV SA防弹插板",
-                        "normalizedName": "kiteco-sc-iv-sa-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656fafe3498d1b7e3e071da4-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/KITECO_SC-IV_SA_ballistic_plate"
-                    },
-                    {
-                        "id": "656fa61e94b480b8a500c0e8",
-                        "name": "NESCO 4400-SA-MC防弹插板",
-                        "normalizedName": "nesco-4400-sa-mc-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656fa61e94b480b8a500c0e8-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NESCO_4400-SA-MC_ballistic_plate"
-                    },
-                    {
-                        "id": "64afc71497cf3a403c01ff38",
-                        "name": "Granit Br5防弹插板",
-                        "normalizedName": "granit-br5-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "64afc71497cf3a403c01ff38-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_Br5_ballistic_plate"
-                    },
-                    {
-                        "id": "64afdcb83efdfea28601d041",
-                        "name": "ESAPI IV 级防弹插板",
-                        "normalizedName": "esapi-level-iv-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "64afdcb83efdfea28601d041-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ESAPI_level_IV_ballistic_plate"
-                    },
-                    {
-                        "id": "656fad8c498d1b7e3e071da0",
-                        "name": "Monoclete三级PE防弹插板",
-                        "normalizedName": "monoclete-level-iii-pe-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656fad8c498d1b7e3e071da0-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Monoclete_level_III_PE_ballistic_plate"
-                    },
-                    {
-                        "id": "656fb0bd7c2d57afe200c0dc",
-                        "name": "SPRTN Elaphros防弹插板",
-                        "normalizedName": "sprtn-elaphros-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656fb0bd7c2d57afe200c0dc-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SPRTN_Elaphros_ballistic_plate"
-                    },
-                    {
-                        "id": "656fa25e94b480b8a500c0e0",
-                        "name": "Kiba Arms Titan防弹插板",
-                        "normalizedName": "kiba-arms-titan-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656fa25e94b480b8a500c0e0-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kiba_Arms_Titan_ballistic_plate"
-                    },
-                    {
-                        "id": "656fb21fa0dce000a2020f7c",
-                        "name": "NewSphereTech三级防弹插板",
-                        "normalizedName": "newspheretech-level-iii-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656fb21fa0dce000a2020f7c-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NewSphereTech_level_III_ballistic_plate"
-                    },
-                    {
-                        "id": "656f9fa0498d1b7e3e071d98",
-                        "name": "SPRTN Omega防弹插板",
-                        "normalizedName": "sprtn-omega-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656f9fa0498d1b7e3e071d98-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SPRTN_Omega_ballistic_plate"
-                    },
-                    {
-                        "id": "656fa0fb498d1b7e3e071d9c",
-                        "name": "Global Armor’s Steel防弹插板",
-                        "normalizedName": "global-armors-steel-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656fa0fb498d1b7e3e071d9c-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Global_Armor%E2%80%99s_Steel_ballistic_plate"
-                    },
-                    {
-                        "id": "655746010177119f4a097ff7",
-                        "name": "SAPI三级+防弹插板",
-                        "normalizedName": "sapi-level-iii-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "655746010177119f4a097ff7-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SAPI_level_III%2B_ballistic_plate"
-                    },
-                    {
-                        "id": "656fa53d94b480b8a500c0e4",
-                        "name": "TallCom Guardian防弹插板",
-                        "normalizedName": "tallcom-guardian-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656fa53d94b480b8a500c0e4-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TallCom_Guardian_ballistic_plate"
-                    },
-                    {
-                        "id": "656faf0ca0dce000a2020f77",
-                        "name": "GAC 4sss2防弹插板",
-                        "normalizedName": "gac-4sss2-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656faf0ca0dce000a2020f77-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GAC_4sss2_ballistic_plate"
-                    },
-                    {
-                        "id": "656fa99800d62bcd2e024088",
-                        "name": "Cult Termite防弹插板",
-                        "normalizedName": "cult-termite-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656fa99800d62bcd2e024088-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cult_Termite_ballistic_plate"
-                    },
-                    {
-                        "id": "656fa8d700d62bcd2e024084",
-                        "name": "Cult Locust防弹插板",
-                        "normalizedName": "cult-locust-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656fa8d700d62bcd2e024084-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cult_Locust_ballistic_plate"
-                    },
-                    {
-                        "id": "656fa76500d62bcd2e024080",
-                        "name": "Kiba Arms Steel防弹插板",
-                        "normalizedName": "kiba-arms-steel-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656fa76500d62bcd2e024080-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kiba_Arms_Steel_ballistic_plate"
-                    },
-                    {
-                        "id": "656fae5f7c2d57afe200c0d7",
-                        "name": "GAC 3s15m防弹插板",
-                        "normalizedName": "gac-3s15m-ballistic-plate",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656fae5f7c2d57afe200c0d7-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GAC_3s15m_ballistic_plate"
-                    },
-                    {
-                        "id": "6557458f83942d705f0c4962",
-                        "name": "SSAPI level III+ 防弹插板（侧边）",
-                        "normalizedName": "ssapi-level-iii-ballistic-plate-side",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "6557458f83942d705f0c4962-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SSAPI_level_III%2B_ballistic_plate_(Side)"
-                    },
-                    {
-                        "id": "656f603f94b480b8a500c0d6",
-                        "name": "6B33防弹插板（前部）",
-                        "normalizedName": "6b33-ballistic-plate-front",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656f603f94b480b8a500c0d6-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6B33_ballistic_plate_(Front)"
-                    },
-                    {
-                        "id": "657b22485f444d6dff0c6c2f",
-                        "name": "6B23-2防弹插板（黑色）",
-                        "normalizedName": "6b23-2-ballistic-plate-back",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "657b22485f444d6dff0c6c2f-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6B23-2_ballistic_plate_(Back)"
-                    },
-                    {
-                        "id": "64afd81707e2cf40e903a316",
-                        "name": "Granit 防弹插板（侧边）",
-                        "normalizedName": "granit-ballistic-plate-side",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "64afd81707e2cf40e903a316-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_ballistic_plate_(Side)"
-                    },
-                    {
-                        "id": "654a4f8bc721968a4404ef18",
-                        "name": "Korund-VM防弹插板（侧边）",
-                        "normalizedName": "korund-vm-ballistic-plate-side",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "654a4f8bc721968a4404ef18-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM_ballistic_plate_(Side)"
-                    },
-                    {
-                        "id": "657b2797c3dbcb01d60c35ea",
-                        "name": "Korund-VM防弹插板（背部）",
-                        "normalizedName": "korund-vm-ballistic-plate-back",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "657b2797c3dbcb01d60c35ea-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM_ballistic_plate_(Back)"
-                    },
-                    {
-                        "id": "657b28d25f444d6dff0c6c77",
-                        "name": "Korund-VM-K防弹插板（背部）",
-                        "normalizedName": "korund-vm-k-ballistic-plate-back",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "657b28d25f444d6dff0c6c77-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM-K_ballistic_plate_(Back)"
-                    },
-                    {
-                        "id": "656f66b5c6baea13cd07e108",
-                        "name": "Korund-VM-K防弹插板（前部）",
-                        "normalizedName": "korund-vm-k-ballistic-plates-front",
-                        "types": [
-                            "armorPlate"
-                        ],
-                        "iconLink": "656f66b5c6baea13cd07e108-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM-K_ballistic_plates_(Front)"
                     }
                 ]
             }

@@ -1,0 +1,22 @@
+import { notFound } from "next/navigation";
+import TasksData from "@/../public/tarkov/data/pvp/tasks.json";
+import TaskPage from "./_components/task-page";
+
+export default async function TaskPostPage({
+  params,
+}: {
+  params: Promise<{ task: string }>;
+}) {
+  const { task } = await params;
+
+  const { tasks } = TasksData as { tasks: TarkovTraderTask[] };
+  const taskList = tasks.filter((t) => t.factionName !== "BEAR");
+
+  const taskData = taskList.find((t) => t.normalizedName === task);
+
+  if (!!!taskData) {
+    return notFound();
+  }
+
+  return TaskPage(taskData);
+}
