@@ -1,6 +1,9 @@
+import dynamic from "next/dynamic";
 import { notFound } from "next/navigation";
 import TasksData from "@/../public/tarkov/data/pvp/tasks.json";
 import TaskPage from "./_components/task-page";
+
+const NotFoundGuideComponent = () => <></>;
 
 export default async function TaskPostPage({
   params,
@@ -18,5 +21,13 @@ export default async function TaskPostPage({
     return notFound();
   }
 
-  return TaskPage(taskData);
+  const GuideComponent = dynamic(() =>
+    import(`./${task}.mdx`).catch(() => NotFoundGuideComponent)
+  );
+
+  return (
+    <TaskPage task={taskData}>
+      <GuideComponent />
+    </TaskPage>
+  );
 }
