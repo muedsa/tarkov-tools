@@ -217,6 +217,11 @@ type TarkovTaskObjective =
   | TarkovTaskObjectiveTraderStanding
   | TarkovTaskObjectiveUseItem;
 
+type TarkovTaskKey = {
+  keys: TarkovItem[];
+  map: TarkovMap;
+};
+
 type TarkovTraderTask = {
   id: string;
   name: string;
@@ -225,6 +230,7 @@ type TarkovTraderTask = {
   wikiLink: string;
   minPlayerLevel: number;
   factionName: string;
+  neededKeys: TarkovTaskKey[];
   kappaRequired: boolean;
   lightkeeperRequired: boolean;
   taskImageLink: string;

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Tooltip from "@/app/_components/tooltip";
 import { handleTarkovDevImageLink } from "@/uitls/image-util";
 import Link from "next/link";
+import TaskItemImage from "./task-item-image";
 
 const taskObjectiveItemTypeName: Record<string, string> = {
   findItem: "搜寻",
@@ -66,14 +66,7 @@ export default function TaskObjective({
             </div>
             <div className="flex flex-wrap">
               {objective.items.map((item) => (
-                <Tooltip key={item.id} content={item.name}>
-                  <Image
-                    src={handleTarkovDevImageLink(item.iconLink)}
-                    alt={item.name}
-                    width={64}
-                    height={64}
-                  />
-                </Tooltip>
+                <TaskItemImage key={item.id} item={item} />
               ))}
             </div>
           </div>
@@ -82,33 +75,12 @@ export default function TaskObjective({
           <div>
             <div className="text-white">使用下面物品标记:</div>
             <div>
-              {" "}
-              <Tooltip
-                key={objective.markerItem.id}
-                content={objective.markerItem.name}
-              >
-                <Image
-                  src={handleTarkovDevImageLink(objective.markerItem.iconLink)}
-                  alt={objective.markerItem.name}
-                  width={64}
-                  height={64}
-                />
-              </Tooltip>
+              <TaskItemImage item={objective.markerItem} />
             </div>
           </div>
         )}
         {objective.__typename === "TaskObjectiveQuestItem" && (
-          <Tooltip
-            key={objective.questItem.id}
-            content={objective.questItem.name}
-          >
-            <Image
-              src={handleTarkovDevImageLink(objective.questItem.iconLink)}
-              alt={objective.questItem.name}
-              width={64}
-              height={64}
-            />
-          </Tooltip>
+          <TaskItemImage item={objective.questItem} />
         )}
         {objective.__typename === "TaskObjectiveShoot" && (
           <div>
@@ -168,14 +140,7 @@ export default function TaskObjective({
               </div>
               <div className="flex flex-wrap">
                 {objective.useAny.map((item) => (
-                  <Tooltip key={item.id} content={item.name}>
-                    <Image
-                      src={handleTarkovDevImageLink(item.iconLink)}
-                      alt={item.name}
-                      width={64}
-                      height={64}
-                    />
-                  </Tooltip>
+                  <TaskItemImage key={item.id} item={item} />
                 ))}
               </div>
             </div>

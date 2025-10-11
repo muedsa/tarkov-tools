@@ -32,7 +32,6 @@ const Tooltip: React.FC<TooltipProps> = ({
   if (disabled) {
     return <>{children}</>;
   }
-  console.log(TooltipStyles);
   return (
     <div
       className={`${TooltipStyles["tooltip-container"]} ${TooltipStyles[direction]} ${className}`}

@@ -109,9 +109,20 @@ const taskQuery = gql`
       neededKeys {
         keys {
           id
+          name
+          normalizedName
+          shortName
+          description
+          types
+          width
+          height
+          iconLink
+          wikiLink
         }
         map {
           id
+          name
+          normalizedName
         }
       }
       kappaRequired
