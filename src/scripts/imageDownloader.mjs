@@ -72,6 +72,11 @@ for await (const task of tasks) {
       if (objective.questItem?.iconLink) {
         await checkAndSaveImage(objective.questItem.iconLink);
       }
+      if (objective.useAny) {
+        for await (const item of objective.useAny) {
+          if (item.iconLink) await checkAndSaveImage(item.iconLink);
+        }
+      }
     }
   }
 }

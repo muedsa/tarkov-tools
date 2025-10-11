@@ -116,8 +116,17 @@ interface TarkovTaskObjectiveBuildItem extends TarkovTaskObjectiveBasic {
   __typename: "TaskObjectiveBuildItem";
   count: number;
 }
+
 interface TarkovTaskObjectiveExperience extends TarkovTaskObjectiveBasic {
   __typename: "TaskObjectiveExperience";
+  healthEffect: {
+    bodyParts: string[];
+    effects: string[];
+    time: {
+      compareMethod: string;
+      value: number;
+    };
+  };
 }
 
 interface TarkovTaskObjectiveExtract extends TarkovTaskObjectiveBasic {
@@ -134,7 +143,7 @@ interface TarkovTaskObjectiveItem extends TarkovTaskObjectiveBasic {
 
 interface TarkovTaskObjectiveMark extends TarkovTaskObjectiveBasic {
   __typename: "TaskObjectiveMark";
-  markItem: TarkovItem;
+  markerItem: TarkovItem;
 }
 
 interface TarkovTaskPlayerLevel extends TarkovTaskObjectiveBasic {
@@ -164,26 +173,30 @@ interface TarkovTaskSkill extends TarkovTaskObjectiveBasic {
 
 interface TarkovTaskObjectiveTaskStatus extends TarkovTaskObjectiveBasic {
   __typename: "TaskObjectiveTaskStatus";
-  task: { id: string };
+  task: {
+    id: string;
+    name: string;
+    normalizedName: string;
+  };
   status: string[];
 }
 
 interface TarkovTaskObjectiveTraderLevel extends TarkovTaskObjectiveBasic {
   __typename: "TaskObjectiveTraderLevel";
-  trader: { id: string };
+  trader: TarkovTrader;
   level: number;
 }
 
 interface TarkovTaskObjectiveTraderStanding extends TarkovTaskObjectiveBasic {
   __typename: "TaskObjectiveTraderStanding";
-  trader: { id: string };
+  trader: TarkovTrader;
   compareMethod: string;
   value: number;
 }
 
 interface TarkovTaskObjectiveUseItem extends TarkovTaskObjectiveBasic {
   __typename: "TaskObjectiveUseItem";
-  useAny: { id: string }[];
+  useAny: TarkovItem[];
   compareMethod: string;
   count: number;
 }

@@ -365,18 +365,26 @@ const taskQuery = gql`
     ... on TaskObjectiveTaskStatus {
       task {
         id
+        name
+        normalizedName
       }
       status
     }
     ... on TaskObjectiveTraderLevel {
       trader {
         id
+        name
+        normalizedName
+        imageLink
       }
       level
     }
     ... on TaskObjectiveTraderStanding {
       trader {
         id
+        name
+        normalizedName
+        imageLink
       }
       compareMethod
       value
@@ -384,6 +392,15 @@ const taskQuery = gql`
     ... on TaskObjectiveUseItem {
       useAny {
         id
+        name
+        normalizedName
+        shortName
+        description
+        types
+        width
+        height
+        iconLink
+        wikiLink
       }
       compareMethod
       count
@@ -412,6 +429,9 @@ const taskQuery = gql`
     traderStanding {
       trader {
         id
+        name
+        normalizedName
+        imageLink
       }
       standing
     }
