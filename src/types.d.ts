@@ -73,6 +73,12 @@ type TarkovTrader = {
   imageLink: string;
 };
 
+type TarkovMap = {
+  id: string;
+  name: string;
+  normalizedName: string;
+};
+
 type TarkovTraderTask = {
   id: string;
   name: string;
@@ -81,5 +87,8 @@ type TarkovTraderTask = {
   wikiLink: string;
   minPlayerLevel: number;
   factionName: string;
+  kappaRequired: boolean;
+  lightkeeperRequired: boolean;
   trader: TarkovTrader;
+  map: TarkovMap?;
 };
