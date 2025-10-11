@@ -1,0 +1,7 @@
+.task-guide blockquote {
+  border-left: 0.5rem solid var(--color-gold-two) !important;
+  padding: 0.5rem;
+  background-color: color-mix(in oklab, var(--color-gray-950) 20%, transparent);
+  font-style: italic;
+  color: var(--color-gold-one);
+}

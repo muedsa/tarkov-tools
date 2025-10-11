@@ -2,6 +2,7 @@ import { handleTarkovDevImageLink } from "@/uitls/image-util";
 import Image from "next/image";
 import TaskKey from "./task-key";
 import TaskObjective from "./task-objective";
+import TaskGuide from "./task-guide";
 
 const TaskPage = ({
   task,
@@ -77,10 +78,7 @@ const TaskPage = ({
           <TaskObjective key={objective.id} objective={objective} />
         ))}
       </div>
-      <div className="border-2 mt-4">
-        <div className="text-3xl p-2 bg-gray-950/40">任务攻略</div>
-        <div className="p-2 task-guides">{children}</div>
-      </div>
+      <TaskGuide>{children}</TaskGuide>
       <details className="mt-2">
         <summary>数据</summary>
         <pre className="p-2">{JSON.stringify(task, null, 4)}</pre>
