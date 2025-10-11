@@ -19,7 +19,8 @@ export default function TaskObjective({
       <div className="text-gold-one">
         ● {objective.description}
         {(objective.__typename === "TaskObjectiveItem" ||
-          objective.__typename === "TaskObjectiveShoot") &&
+          objective.__typename === "TaskObjectiveShoot" ||
+          objective.__typename === "TaskObjectiveUseItem") &&
           ` - 0 / ${objective.count}`}
       </div>
       <div className="p-2 bg-gray-950/30">
