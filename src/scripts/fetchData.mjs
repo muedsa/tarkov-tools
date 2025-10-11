@@ -35,7 +35,11 @@ const hideoutStationsQuery = gql`
             id
             name
             normalizedName
+            shortName
+            description
             types
+            width
+            height
             iconLink
             wikiLink
           }
@@ -185,7 +189,11 @@ const taskQuery = gql`
         id
         name
         normalizedName
+        shortName
+        description
         types
+        width
+        height
         iconLink
         wikiLink
       }
@@ -216,6 +224,15 @@ const taskQuery = gql`
     ... on TaskObjectiveMark {
       markerItem {
         id
+        name
+        normalizedName
+        shortName
+        description
+        types
+        width
+        height
+        iconLink
+        wikiLink
       }
       zones {
         id
@@ -243,13 +260,12 @@ const taskQuery = gql`
       questItem {
         id
         name
+        normalizedName
         shortName
+        description
         width
         height
         iconLink
-        image512pxLink
-        baseImageLink
-        image8xLink
       }
       possibleLocations {
         map {

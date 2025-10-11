@@ -79,6 +79,131 @@ type TarkovMap = {
   normalizedName: string;
 };
 
+type TarkovItem = {
+  id: string;
+  name: string;
+  normalizedName: string;
+  shortName: string;
+  types: string[];
+  width: number;
+  height: number;
+  iconLink: string;
+  wikiLink: string;
+};
+
+type TarkovQuestItem = {
+  id: string;
+  name: string;
+  normalizedName: string;
+  shortName: string;
+  types: string[];
+  width: number;
+  height: number;
+  iconLink: string;
+  wikiLink: string;
+};
+
+interface TarkovTaskObjectiveBasic {
+  __typename: "TaskObjectiveBasic";
+  id: string;
+  type: string;
+  description: string;
+  optional: false;
+  maps: { id: string; name: string }[];
+}
+
+interface TarkovTaskObjectiveBuildItem extends TarkovTaskObjectiveBasic {
+  __typename: "TaskObjectiveBuildItem";
+  count: number;
+}
+interface TarkovTaskObjectiveExperience extends TarkovTaskObjectiveBasic {
+  __typename: "TaskObjectiveExperience";
+}
+
+interface TarkovTaskObjectiveExtract extends TarkovTaskObjectiveBasic {
+  __typename: "TaskObjectiveExtract";
+  count: number;
+}
+
+interface TarkovTaskObjectiveItem extends TarkovTaskObjectiveBasic {
+  __typename: "TaskObjectiveItem";
+  count: number;
+  foundInRaid: boolean;
+  items: TarkovItem[];
+}
+
+interface TarkovTaskObjectiveMark extends TarkovTaskObjectiveBasic {
+  __typename: "TaskObjectiveMark";
+  markItem: TarkovItem;
+}
+
+interface TarkovTaskPlayerLevel extends TarkovTaskObjectiveBasic {
+  __typename: "TaskObjectivePlayerLevel";
+  playerLevel: number;
+}
+
+interface TarkovTaskObjectiveQuestItem extends TarkovTaskObjectiveBasic {
+  __typename: "TaskObjectiveQuestItem";
+  count: number;
+  questItem: TarkovQuestItem;
+}
+
+interface TarkovTaskObjectiveShoot extends TarkovTaskObjectiveBasic {
+  __typename: "TaskObjectiveShoot";
+  count: number;
+  targetNames: string[];
+}
+
+interface TarkovTaskSkill extends TarkovTaskObjectiveBasic {
+  __typename: "TaskObjectiveSkill";
+  skillLevel: {
+    name: string;
+    level: number;
+  };
+}
+
+interface TarkovTaskObjectiveTaskStatus extends TarkovTaskObjectiveBasic {
+  __typename: "TaskObjectiveTaskStatus";
+  task: { id: string };
+  status: string[];
+}
+
+interface TarkovTaskObjectiveTraderLevel extends TarkovTaskObjectiveBasic {
+  __typename: "TaskObjectiveTraderLevel";
+  trader: { id: string };
+  level: number;
+}
+
+interface TarkovTaskObjectiveTraderStanding extends TarkovTaskObjectiveBasic {
+  __typename: "TaskObjectiveTraderStanding";
+  trader: { id: string };
+  compareMethod: string;
+  value: number;
+}
+
+interface TarkovTaskObjectiveUseItem extends TarkovTaskObjectiveBasic {
+  __typename: "TaskObjectiveUseItem";
+  useAny: { id: string }[];
+  compareMethod: string;
+  count: number;
+}
+
+type TarkovTaskObjective =
+  | TarkovTaskObjectiveBasic
+  | TarkovTaskObjectiveBuildItem
+  | TarkovTaskObjectiveExperience
+  | TarkovTaskObjectiveExtract
+  | TarkovTaskObjectiveItem
+  | TarkovTaskObjectiveMark
+  | TarkovTaskPlayerLevel
+  | TarkovTaskObjectiveQuestItem
+  | TarkovTaskObjectiveShoot
+  | TarkovTaskSkill
+  | TarkovTaskObjectiveTaskStatus
+  | TarkovTaskObjectiveTraderLevel
+  | TarkovTaskObjectiveTraderStanding
+  | TarkovTaskObjectiveUseItem;
+
 type TarkovTraderTask = {
   id: string;
   name: string;
@@ -89,6 +214,8 @@ type TarkovTraderTask = {
   factionName: string;
   kappaRequired: boolean;
   lightkeeperRequired: boolean;
+  taskImageLink: string;
   trader: TarkovTrader;
   map: TarkovMap?;
+  objectives: TarkovTaskObjective[];
 };

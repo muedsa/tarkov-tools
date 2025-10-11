@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Tooltip from "./tooltip";
+import Tooltip from "@/app/_components/tooltip";
 
 const TaskObjectiveItem = ({ data }: { data: GiveItemTaskObjectiveItem }) => {
   return (
@@ -8,7 +8,9 @@ const TaskObjectiveItem = ({ data }: { data: GiveItemTaskObjectiveItem }) => {
         ● {data.description} - 0 / {data.count}
       </div>
       <div className="m-2 p-2 bg-gray-950/40">
-        <div className="text-white">其中任何一个:</div>
+        {data.items.length > 1 && (
+          <div className="text-white">其中任何一个:</div>
+        )}
         <div className="flex flex-wrap">
           {data.items.map((item) => (
             <Tooltip key={item.id} content={item.name}>
