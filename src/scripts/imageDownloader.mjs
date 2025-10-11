@@ -10,7 +10,7 @@ const args = process.argv.slice(2);
 const mode = args[0];
 if (mode !== "pve" && mode !== "pvp") {
   throw Error(
-    `args mode only pve or regular, but get args=${JSON.stringify(args)}`
+    `args mode only pve or regular, but get args=${JSON.stringify(args)}`,
   );
 }
 
@@ -56,7 +56,7 @@ async function checkAndSaveImage(imageKey) {
 
 const tasksFileData = fs.readFileSync(
   path.join(projectRootDir, `public/tarkov/data/${mode}/tasks.json`),
-  "utf-8"
+  "utf-8",
 );
 const { tasks } = JSON.parse(tasksFileData);
 for await (const task of tasks) {
@@ -76,9 +76,9 @@ for await (const task of tasks) {
 const foundInRaidBarterItemsFileData = fs.readFileSync(
   path.join(
     projectRootDir,
-    `public/tarkov/data/${mode}/foundInRaidBarterItems.json`
+    `public/tarkov/data/${mode}/foundInRaidBarterItems.json`,
   ),
-  "utf-8"
+  "utf-8",
 );
 const foundInRaidBarterItems = JSON.parse(foundInRaidBarterItemsFileData);
 for await (const item of foundInRaidBarterItems) {
@@ -98,9 +98,9 @@ for await (const item of foundInRaidBarterItems) {
 const foundInRaidTaskItemsFileData = fs.readFileSync(
   path.join(
     projectRootDir,
-    `public/tarkov/data/${mode}/foundInRaidTaskItems.json`
+    `public/tarkov/data/${mode}/foundInRaidTaskItems.json`,
   ),
-  "utf-8"
+  "utf-8",
 );
 const foundInRaidTaskItems = JSON.parse(foundInRaidTaskItemsFileData);
 for await (const item of foundInRaidTaskItems) {
@@ -119,7 +119,7 @@ for await (const item of foundInRaidTaskItems) {
 
 const mixedItemsTasksFileData = fs.readFileSync(
   path.join(projectRootDir, `public/tarkov/data/${mode}/mixedItemsTasks.json`),
-  "utf-8"
+  "utf-8",
 );
 const mixedItemsTasks = JSON.parse(mixedItemsTasksFileData);
 for await (const task of mixedItemsTasks) {

@@ -16,19 +16,19 @@ const FoundInRaidItemCard = ({ data }: FoundInRaidItemCardProps) => {
   const userDataContext = useUserDataContext();
   const [requiredCount, setRequiredCount] = useState(
     (data.tasks?.reduce((acc, t) => acc + t.count, 0) ?? 0) +
-      (data.hideoutStations?.reduce((acc, s) => acc + s.count, 0) ?? 0)
+      (data.hideoutStations?.reduce((acc, s) => acc + s.count, 0) ?? 0),
   );
   const [taskItems, setTaskItems] = useState<TaskTag[]>(
     (data.tasks ?? []).map((i) => {
       return { ...i, completed: false };
-    })
+    }),
   );
   const [hideoutStationItems, setHideoutStationItems] = useState<
     HideoutStationTag[]
   >(
     (data.hideoutStations ?? []).map((i) => {
       return { ...i, completed: false };
-    })
+    }),
   );
   const [collectedCount, setCollectedCount] = useState(0);
 
@@ -149,12 +149,12 @@ const FoundInRaidItemCard = ({ data }: FoundInRaidItemCardProps) => {
                   if (station.completed) {
                     userDataContext.changeHideoutStationLevel(
                       station.stationId,
-                      station.level - 1
+                      station.level - 1,
                     );
                   } else {
                     userDataContext.changeHideoutStationLevel(
                       station.stationId,
-                      station.level
+                      station.level,
                     );
                   }
                 }}

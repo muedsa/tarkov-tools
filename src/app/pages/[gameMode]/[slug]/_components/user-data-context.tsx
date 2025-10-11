@@ -6,7 +6,7 @@ const USER_DATA_LOCAL_STORAGE_KEY = "USER_DATA";
 
 export function getLocalUserData(gameMode: GameMode): UserData {
   const userDataStr = localStorage.getItem(
-    `${USER_DATA_LOCAL_STORAGE_KEY}_${gameMode}`
+    `${USER_DATA_LOCAL_STORAGE_KEY}_${gameMode}`,
   );
   if (userDataStr) {
     const userData: UserData = JSON.parse(userDataStr);
@@ -28,7 +28,7 @@ export function getLocalUserData(gameMode: GameMode): UserData {
 function storeLocalUserData(userData: UserData, gameMode: GameMode) {
   localStorage.setItem(
     `${USER_DATA_LOCAL_STORAGE_KEY}_${gameMode}`,
-    JSON.stringify(userData)
+    JSON.stringify(userData),
   );
 }
 
@@ -68,7 +68,7 @@ interface UserDataContextValue {
 
 // 创建Context
 const UserDataContext = createContext<UserDataContextValue | undefined>(
-  undefined
+  undefined,
 );
 
 // 定义reducer函数

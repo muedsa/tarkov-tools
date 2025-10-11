@@ -7,6 +7,7 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
+    "prettier": "npx prettier . --write",
     "script:fetchDataPve": "node src/scripts/fetchData.mjs pve",
     "script:foundInRaidPve": "node src/scripts/foundInRaid.mjs pve",
     "script:imageDownloaderPve": "node src/scripts/imageDownloader.mjs pve",
@@ -31,6 +32,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.5.3",
     "graphql-request": "^7.2.0",
+    "prettier": "3.6.2",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

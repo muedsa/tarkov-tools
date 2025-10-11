@@ -10,7 +10,7 @@ export type FoundInRaidItemTagProps = {
 };
 
 const FoundInRaidItemTag = memo(function FoundInRaidItemTag(
-  props: FoundInRaidItemTagProps
+  props: FoundInRaidItemTagProps,
 ) {
   return (
     <div

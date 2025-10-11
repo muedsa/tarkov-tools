@@ -10,7 +10,7 @@ const args = process.argv.slice(2);
 const mode = args[0];
 if (mode !== "pve" && mode !== "pvp") {
   throw Error(
-    `args mode only pve or regular, but get args=${JSON.stringify(args)}`
+    `args mode only pve or regular, but get args=${JSON.stringify(args)}`,
   );
 }
 
@@ -450,7 +450,7 @@ const taskQuery = gql`
 request("https://api.tarkov.dev/graphql", hideoutStationsQuery).then((data) => {
   const filePath = path.join(
     projectRootDir,
-    `public/tarkov/data/${mode}/hideoutStations.json`
+    `public/tarkov/data/${mode}/hideoutStations.json`,
   );
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, JSON.stringify(data, null, 4), "utf-8");
@@ -459,7 +459,7 @@ request("https://api.tarkov.dev/graphql", hideoutStationsQuery).then((data) => {
 request("https://api.tarkov.dev/graphql", taskQuery).then((data) => {
   const filePath = path.join(
     projectRootDir,
-    `public/tarkov/data/${mode}/tasks.json`
+    `public/tarkov/data/${mode}/tasks.json`,
   );
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, JSON.stringify(data, null, 4), "utf-8");

@@ -25,7 +25,7 @@ const FoundInRaidItemPage = ({ gameMode }: { gameMode: GameMode }) => {
     fetch(`/tarkov/data/${gameMode}/foundInRaidTaskItems.json`)
       .then((response) => response.json())
       .then((data) =>
-        setFoundInRaidTaskItems(sortFoundInRadItems(data, userData))
+        setFoundInRaidTaskItems(sortFoundInRadItems(data, userData)),
       )
       .catch((error) => console.error("Error fetching task items:", error));
   }, [gameMode]);

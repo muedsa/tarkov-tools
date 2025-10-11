@@ -8,7 +8,7 @@ export default async function PostPage({
 }) {
   const { gameMode, slug } = await params;
   const DynamicPostPage = dynamic<{ gameMode: GameMode }>(() =>
-    import(`./${slug}.tsx`).catch(() => notFound())
+    import(`./${slug}.tsx`).catch(() => notFound()),
   );
   return <DynamicPostPage gameMode={gameMode} />;
 }

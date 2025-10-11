@@ -9,7 +9,7 @@ const args = process.argv.slice(2);
 const mode = args[0];
 if (mode !== "pve" && mode !== "pvp") {
   throw Error(
-    `args mode only pve or regular, but get args=${JSON.stringify(args)}`
+    `args mode only pve or regular, but get args=${JSON.stringify(args)}`,
   );
 }
 
@@ -25,12 +25,12 @@ const includedMixedItemsTasks = [
 // 藏身处与任务
 const tasksFileData = fs.readFileSync(
   path.join(projectRootDir, `public/tarkov/data/${mode}/tasks.json`),
-  "utf-8"
+  "utf-8",
 );
 const tasks = JSON.parse(tasksFileData).tasks;
 const hideoutStationsFileData = fs.readFileSync(
   path.join(projectRootDir, `public/tarkov/data/${mode}/hideoutStations.json`),
-  "utf-8"
+  "utf-8",
 );
 const hideoutStations = JSON.parse(hideoutStationsFileData).hideoutStations;
 
@@ -201,7 +201,7 @@ hideoutStations.forEach((station) => {
       level.itemRequirements.forEach((req) => {
         const foundInRaid =
           req.attributes.findIndex(
-            (attr) => attr.name === "foundInRaid" && attr.value === "true"
+            (attr) => attr.name === "foundInRaid" && attr.value === "true",
           ) > -1;
         if (foundInRaid) {
           addBarterHideoutItem(req, station, level);
@@ -213,33 +213,33 @@ hideoutStations.forEach((station) => {
 
 const barterItemsFilePath = path.join(
   projectRootDir,
-  `public/tarkov/data/${mode}/foundInRaidBarterItems.json`
+  `public/tarkov/data/${mode}/foundInRaidBarterItems.json`,
 );
 fs.mkdirSync(path.dirname(barterItemsFilePath), { recursive: true });
 fs.writeFileSync(
   barterItemsFilePath,
   JSON.stringify(barterItems, null, 4),
-  "utf-8"
+  "utf-8",
 );
 
 const taskItemsFilePath = path.join(
   projectRootDir,
-  `public/tarkov/data/${mode}/foundInRaidTaskItems.json`
+  `public/tarkov/data/${mode}/foundInRaidTaskItems.json`,
 );
 fs.mkdirSync(path.dirname(taskItemsFilePath), { recursive: true });
 fs.writeFileSync(
   taskItemsFilePath,
   JSON.stringify(taskItems, null, 4),
-  "utf-8"
+  "utf-8",
 );
 
 const mixedItemsTasksFilePath = path.join(
   projectRootDir,
-  `public/tarkov/data/${mode}/mixedItemsTasks.json`
+  `public/tarkov/data/${mode}/mixedItemsTasks.json`,
 );
 fs.mkdirSync(path.dirname(mixedItemsTasksFilePath), { recursive: true });
 fs.writeFileSync(
   mixedItemsTasksFilePath,
   JSON.stringify(mixedItemsTasks, null, 4),
-  "utf-8"
+  "utf-8",
 );

@@ -1,7 +1,7 @@
 const getUserFoundInRadItemRequiredCount = (
   item: FoundInRaidItemData,
   completedTasks: UserCompletedTasks,
-  completedHideoutStations: UserCompletedHideoutStations
+  completedHideoutStations: UserCompletedHideoutStations,
 ) => {
   const tasksCount =
     item.tasks?.reduce((acc, task) => {
@@ -17,7 +17,7 @@ const getUserFoundInRadItemRequiredCount = (
 
 export const sortFoundInRadItems = (
   items: FoundInRaidItemData[],
-  userData: UserData
+  userData: UserData,
 ) =>
   items.sort((a, b) => {
     const aUserCount = userData.collectedItems[a.id] ?? 0;
@@ -25,12 +25,12 @@ export const sortFoundInRadItems = (
     const aUserRequiredCount = getUserFoundInRadItemRequiredCount(
       a,
       userData.completedTasks,
-      userData.completedHideoutStations
+      userData.completedHideoutStations,
     );
     const bUserRequiredCount = getUserFoundInRadItemRequiredCount(
       b,
       userData.completedTasks,
-      userData.completedHideoutStations
+      userData.completedHideoutStations,
     );
     const aCompleted = aUserCount >= aUserRequiredCount;
     const bCompleted = bUserCount >= bUserRequiredCount;

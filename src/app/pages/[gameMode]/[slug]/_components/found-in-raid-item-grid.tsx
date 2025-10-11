@@ -23,7 +23,7 @@ const FoundInRaidItemGrid = memo(function FoundInRaidItemGrid({
             (i) =>
               !query ||
               i.name.indexOf(query) > -1 ||
-              i.normalizedName.indexOf(query) > -1
+              i.normalizedName.indexOf(query) > -1,
           )
           .map((item) => (
             <FoundInRaidItemCard

@@ -20,16 +20,19 @@ const traders = [
 export default function TraderTaskPage() {
   const { tasks } = TasksData as { tasks: TarkovTraderTask[] };
   const taskList = tasks.filter((t) => t.factionName !== "BEAR");
-  const traderTasksMap = taskList.reduce((groups, task) => {
-    if (!groups[task.trader.normalizedName]) {
-      groups[task.trader.normalizedName] = {
-        trader: task.trader,
-        tasks: [],
-      };
-    }
-    groups[task.trader.normalizedName].tasks.push(task);
-    return groups;
-  }, {} as Record<string, { trader: TarkovTrader; tasks: TarkovTraderTask[] }>);
+  const traderTasksMap = taskList.reduce(
+    (groups, task) => {
+      if (!groups[task.trader.normalizedName]) {
+        groups[task.trader.normalizedName] = {
+          trader: task.trader,
+          tasks: [],
+        };
+      }
+      groups[task.trader.normalizedName].tasks.push(task);
+      return groups;
+    },
+    {} as Record<string, { trader: TarkovTrader; tasks: TarkovTraderTask[] }>,
+  );
 
   return (
     <div className="grid grid-cols-6 gap-4 p-2">

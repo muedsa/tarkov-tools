@@ -10,15 +10,15 @@
   --color-gold-two: #9a8866;
   --color-blue-light: #0292c0;
   --color-gray: #424242;
-  --color-gray-light : #636363;
+  --color-gray-light: #636363;
   --color-green: #00a700;
   --color-green-light: #6a9a66;
-  --color-orange : #ca8a00;
+  --color-orange: #ca8a00;
   --color-red: #cd1e2f;
   --color-red-light: #9a6666;
   --color-purple: #8c6edf;
   --color-yellow: #ffe084;
-  --color-yellow-light: #E0DFD6;
+  --color-yellow-light: #e0dfd6;
 }
 
 @theme inline {
@@ -33,10 +33,10 @@
   --color-gold-two: var(--color-gold-two);
   --color-blue-light: var(--color-blue-light);
   --color-gray: var(--color-gray);
-  --color-gray-light : var(--color-gray-light);
+  --color-gray-light: var(--color-gray-light);
   --color-green: var(--color-green);
   --color-green-light: var(--color-green-light);
-  --color-orange : var(--color-orange);
+  --color-orange: var(--color-orange);
   --color-red: var(--color-red);
   --color-red-light: var(--color-red-light);
   --color-purple: var(--color-purple);
@@ -57,7 +57,7 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
-input[type='number'] {
+input[type="number"] {
   appearance: textfield;
   -moz-appearance: textfield;
 }
