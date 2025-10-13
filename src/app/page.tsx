@@ -16,7 +16,7 @@ export default function Home() {
               </Link>
             </li>
             <li className="tracking-[-.01em]">
-              <Link href="/page/pvp/mixed-items-tasks-page" target="_blank">
+              <Link href="/pages/pvp/mixed-items-tasks-page" target="_blank">
                 其他需求物品任务 PVP
               </Link>
             </li>
