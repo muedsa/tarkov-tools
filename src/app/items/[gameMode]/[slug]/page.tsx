@@ -5,6 +5,8 @@ type ItemsPageProps = {
   params: Promise<{ gameMode: GameMode; slug: string }>;
 };
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   return [
     {

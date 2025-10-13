@@ -11,6 +11,8 @@ type TaskPostPageProps = {
   params: Promise<{ task: string }>;
 };
 
+export const dynamicParams = false;
+
 export async function generateStaticParams() {
   const taskList = getTaskList();
 
