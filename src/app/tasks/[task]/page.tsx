@@ -22,7 +22,9 @@ export default async function TaskPostPage({
   }
 
   const GuideComponent = dynamic(() =>
-    import(`./${task}.mdx`).catch(() => NotFoundGuideComponent),
+    import(`./${task}.mdx`).catch(() =>
+      import(`./not-found-task-guide.mdx`).catch(() => NotFoundGuideComponent),
+    ),
   );
 
   return (
