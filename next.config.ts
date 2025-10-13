@@ -5,6 +5,7 @@ const configWithMdx = withMDX();
 
 const nextConfig: NextConfig = {
   /* config options here */
+  output: "export",
 };
 
 export default configWithMdx(nextConfig);
