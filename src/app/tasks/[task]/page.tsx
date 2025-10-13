@@ -1,21 +1,41 @@
 import dynamic from "next/dynamic";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import TasksData from "@/../public/tarkov/data/pvp/tasks.json";
+import { getTask } from "@/uitls/task";
 import TaskPage from "./_components/task-page";
+import { handleTarkovDevImageLink } from "@/uitls/image-util";
 
 const NotFoundGuideComponent = () => <></>;
 
-export default async function TaskPostPage({
-  params,
-}: {
+type TaskPostPageProps = {
   params: Promise<{ task: string }>;
-}) {
+};
+
+export async function generateMetadata({
+  params,
+}: TaskPostPageProps): Promise<Metadata> {
+  const { task } = await params;
+  const taskData = getTask(task);
+  if (!!!taskData) {
+    return {};
+  }
+  return {
+    title: taskData.name,
+    description: `${taskData.name} | 逃落塔科夫任务攻略`,
+    openGraph: {
+      images: [
+        {
+          url: handleTarkovDevImageLink(taskData.taskImageLink),
+        },
+      ],
+    },
+  };
+}
+
+export default async function TaskPostPage({ params }: TaskPostPageProps) {
   const { task } = await params;
 
-  const { tasks } = TasksData as { tasks: TarkovTraderTask[] };
-  const taskList = tasks.filter((t) => t.factionName !== "BEAR");
-
-  const taskData = taskList.find((t) => t.normalizedName === task);
+  const taskData = getTask(task);
 
   if (!!!taskData) {
     return notFound();

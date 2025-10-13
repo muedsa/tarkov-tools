@@ -14,8 +14,28 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tarkov Tools",
-  description: "Escape from Tarkov tools and guides",
+  title: {
+    default: "逃离塔科夫工具 | Tarkov Tools",
+    template: "%s | 逃离塔科夫工具 | Tarkov Tools",
+  },
+  description:
+    "逃离塔科夫工具与任务攻略。Escape from Tarkov tools and task guides",
+  keywords: ["逃离塔科夫", "塔科夫", "escape from tarkov", "tarkov"],
+  applicationName: "逃离塔科夫工具 | Tarkov Tools",
+  authors: { url: "https://github.com/muedsa/tarkov-tools", name: "MUEDSA" },
+  openGraph: {
+    type: "website",
+    url: "https://tarkov.muedsa.com",
+    title: "逃离塔科夫工具 | Tarkov Tools",
+    description:
+      "逃离塔科夫工具与任务攻略。Escape from Tarkov tools and task guides",
+    siteName: "逃离塔科夫工具 | Tarkov Tools",
+    images: [
+      {
+        url: "https://tarkov.muedsa.com/tarkov/images/600302d73b897b11364cd161.webp",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

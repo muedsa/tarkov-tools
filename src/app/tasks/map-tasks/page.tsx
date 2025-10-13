@@ -1,10 +1,14 @@
-import TasksData from "@/../public/tarkov/data/pvp/tasks.json";
+import type { Metadata } from "next";
 import Link from "next/link";
+import { getTaskList } from "@/uitls/task";
 import TaskListComponent from "@/app/tasks/_components/task-list";
 
+export const metadata: Metadata = {
+  title: "地图任务",
+};
+
 const MapTaskPage = () => {
-  const { tasks } = TasksData as { tasks: TarkovTraderTask[] };
-  const taskList = tasks.filter((t) => t.factionName !== "BEAR");
+  const taskList = getTaskList();
   const mapTasksMap = taskList.reduce(
     (groups, task) => {
       const key = task.map?.normalizedName ?? "any";

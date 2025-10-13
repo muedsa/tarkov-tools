@@ -1,8 +1,13 @@
-import TasksData from "@/../public/tarkov/data/pvp/tasks.json";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { getTaskList } from "@/uitls/task";
 import { handleTarkovDevImageLink } from "@/uitls/image-util";
 import TaskListComponent from "./_components/task-list";
+
+export const metadata: Metadata = {
+  title: "商人任务",
+};
 
 const traders = [
   "prapor",
@@ -19,8 +24,7 @@ const traders = [
 ];
 
 export default function TraderTaskPage() {
-  const { tasks } = TasksData as { tasks: TarkovTraderTask[] };
-  const taskList = tasks.filter((t) => t.factionName !== "BEAR");
+  const taskList = getTaskList();
   const traderTasksMap = taskList.reduce(
     (groups, task) => {
       if (!groups[task.trader.normalizedName]) {

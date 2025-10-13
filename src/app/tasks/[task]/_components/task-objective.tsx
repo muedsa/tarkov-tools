@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { handleTarkovDevImageLink } from "@/uitls/image-util";
 import Link from "next/link";
 import TaskItemImage from "./task-item-image";
 

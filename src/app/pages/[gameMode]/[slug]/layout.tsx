@@ -3,8 +3,7 @@ import { UserDataProvider } from "./_components/user-data-context";
 import { notFound } from "next/navigation";
 
 export const metadata: Metadata = {
-  title: "Tarkov Tools",
-  description: "Escape from Tarkov tools and guides",
+  title: "物品收集工具",
 };
 
 export default async function PageLayout({
