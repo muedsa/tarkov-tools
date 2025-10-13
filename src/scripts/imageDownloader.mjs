@@ -62,6 +62,15 @@ const { tasks } = JSON.parse(tasksFileData);
 for await (const task of tasks) {
   await checkAndSaveImage(task.taskImageLink);
   await checkAndSaveImage(task.trader.imageLink);
+  if (task.neededKeys) {
+    for await (const neededKey of task.neededKeys) {
+      if (neededKey.keys) {
+        for await (const key of neededKey.keys) {
+          await checkAndSaveImage(key.iconLink);
+        }
+      }
+    }
+  }
   if (task.objectives) {
     for await (const objective of task.objectives) {
       if (objective.items) {
