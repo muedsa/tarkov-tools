@@ -11,22 +11,22 @@ export default function Home() {
           <p>Buiding...</p>
           <ol className="mt-2 list-inside list-disc text-sm/6 text-left">
             <li className="tracking-[-.01em]">
-              <Link href="/pages/pvp/found-in-raid-items-page" target="_blank">
+              <Link href="/items/pvp/found-in-raid-items-page" target="_blank">
                 战局内带出物品 PVP
               </Link>
             </li>
             <li className="tracking-[-.01em]">
-              <Link href="/pages/pvp/mixed-items-tasks-page" target="_blank">
+              <Link href="/items/pvp/mixed-items-tasks-page" target="_blank">
                 其他需求物品任务 PVP
               </Link>
             </li>
             <li className="tracking-[-.01em]">
-              <Link href="/pages/pve/found-in-raid-items-page" target="_blank">
+              <Link href="/items/pve/found-in-raid-items-page" target="_blank">
                 战局内带出物品 PVE
               </Link>
             </li>
             <li className="tracking-[-.01em]">
-              <Link href="/pages/pve/mixed-items-tasks-page" target="_blank">
+              <Link href="/items/pve/mixed-items-tasks-page" target="_blank">
                 其他需求物品任务 PVE
               </Link>
             </li>

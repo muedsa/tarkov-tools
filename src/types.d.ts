@@ -230,7 +230,7 @@ type TarkovTraderTask = {
   wikiLink: string;
   minPlayerLevel: number;
   factionName: string;
-  neededKeys: TarkovTaskKey[];
+  neededKeys: TarkovTaskKey[]?;
   kappaRequired: boolean;
   lightkeeperRequired: boolean;
   taskImageLink: string;

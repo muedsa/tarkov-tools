@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tarkov.muedsa.com"),
   title: {
     default: "逃离塔科夫工具 | Tarkov Tools",
     template: "%s | 逃离塔科夫工具 | Tarkov Tools",
@@ -32,7 +33,7 @@ export const metadata: Metadata = {
     siteName: "逃离塔科夫工具 | Tarkov Tools",
     images: [
       {
-        url: "https://tarkov.muedsa.com/tarkov/images/600302d73b897b11364cd161.webp",
+        url: "/tarkov/images/600302d73b897b11364cd161.webp",
       },
     ],
   },

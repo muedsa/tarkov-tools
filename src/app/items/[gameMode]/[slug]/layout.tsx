@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "物品收集工具",
 };
 
-export default async function PageLayout({
+export default async function ItemsPageLayout({
   children,
   params,
 }: {

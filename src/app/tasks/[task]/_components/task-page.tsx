@@ -64,10 +64,10 @@ const TaskPage = ({
           ></Image>
         </div>
       </div>
-      {task.neededKeys.length > 0 && (
+      {(task.neededKeys?.length ?? 0) > 0 && (
         <div className="border-2 mt-4">
           <div className="text-3xl p-2 bg-gray-950/40">需要钥匙</div>
-          {task.neededKeys.map((taskKey) => (
+          {task.neededKeys?.map((taskKey) => (
             <TaskKey key={taskKey.map.normalizedName} taskKey={taskKey} />
           ))}
         </div>

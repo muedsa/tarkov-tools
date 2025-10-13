@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getTask } from "@/uitls/task";
+import { getTask, getTaskList } from "@/uitls/task";
 import TaskPage from "./_components/task-page";
 import { handleTarkovDevImageLink } from "@/uitls/image-util";
 
@@ -10,6 +10,14 @@ const NotFoundGuideComponent = () => <></>;
 type TaskPostPageProps = {
   params: Promise<{ task: string }>;
 };
+
+export async function generateStaticParams() {
+  const taskList = getTaskList();
+
+  return taskList.map((task) => ({
+    task: task.normalizedName,
+  }));
+}
 
 export async function generateMetadata({
   params,
