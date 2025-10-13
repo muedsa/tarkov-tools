@@ -7,14 +7,16 @@ export const metadata: Metadata = {
   title: "地图任务",
 };
 
+const anyMap = { id: "any", name: "多个地点", normalizedName: "any" };
+
 const MapTaskPage = () => {
   const taskList = getTaskList();
   const mapTasksMap = taskList.reduce(
     (groups, task) => {
-      const key = task.map?.normalizedName ?? "any";
+      const key = task.map?.normalizedName ?? anyMap.normalizedName;
       if (!groups[key]) {
         groups[key] = {
-          map: task.map ?? { id: "any", name: "任意", normalizedName: "any" },
+          map: task.map ?? anyMap,
           tasks: [],
         };
       }
@@ -24,6 +26,13 @@ const MapTaskPage = () => {
     {} as Record<string, { map: TarkovMap; tasks: TarkovTraderTask[] }>,
   );
 
+  const maps = Object.keys(mapTasksMap);
+  const index = maps.indexOf(anyMap.normalizedName);
+  if (index > -1) {
+    maps.splice(index, 1);
+    maps.push(anyMap.normalizedName);
+  }
+  console.log(maps);
   return (
     <div className="p-2">
       <div className="flex gap-2 text-5xl my-2">
@@ -33,9 +42,8 @@ const MapTaskPage = () => {
         <div className="outline-2 p-2">地图任务</div>
       </div>
       <div className="grid grid-cols-6 gap-4">
-        {Object.keys(mapTasksMap).map((key) => {
+        {maps.map((key) => {
           const { map, tasks } = mapTasksMap[key];
-
           return (
             <div className="outline-2 p-2" key={key}>
               <div className="flex items-center">
