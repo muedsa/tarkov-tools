@@ -32,7 +32,6 @@ const MapTaskPage = () => {
     maps.splice(index, 1);
     maps.push(anyMap.normalizedName);
   }
-  console.log(maps);
   return (
     <div className="p-2">
       <div className="flex gap-2 text-5xl my-2">
