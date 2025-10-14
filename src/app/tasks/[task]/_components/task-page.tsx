@@ -51,8 +51,18 @@ const TaskPage = ({
             地图:{" "}
             <span className="text-gold-one">{task.map?.name ?? "任意"}</span>
           </div>
-          <div className="text-xl p-2">
-            商人: <span className="text-gold-one">{task.trader.name}</span>
+          <div className="flex gap-2">
+            <div className="text-xl p-2">
+              商人: <span className="text-gold-one">{task.trader.name}</span>
+            </div>
+            <div className="size-[44px]">
+              <Image
+                width={44}
+                height={44}
+                alt={task.trader.name}
+                src={handleTarkovDevImageLink(task.trader.imageLink)}
+              ></Image>
+            </div>
           </div>
         </div>
         <div className="w-[314] h-[177]">
