@@ -12,6 +12,7 @@ export default function TaskListComponent({
           <Link href={`/tasks/${t.normalizedName}`} target="_blank">
             {t.name}
             {t.kappaRequired ? " ⁽ᴷ⁾" : ""}
+            {t.factionName != "Any" ? ` (${t.factionName})` : ""}
           </Link>
         </li>
       ))}
