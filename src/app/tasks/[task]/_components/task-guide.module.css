@@ -11,9 +11,17 @@
   line-height: var(--text-2xl--line-height); /* calc(2 / 1.5) */
 }
 
+.task-guide * + h1 {
+  margin-top: var(--text-2xl); /* 1.5rem (24px) */
+}
+
 .task-guide h2 {
   font-size: var(--text-xl); /* 1.25rem (20px) */
   line-height: var(--text-xl--line-height); /* calc(1.75 / 1.25) */
+}
+
+.task-guide * + h2 {
+  margin-top: var(--text-xl); /* 1.25rem (20px) */
 }
 
 .task-guide h3 {
@@ -21,9 +29,17 @@
   line-height: var(--text-lg--line-height); /* calc(1.75 / 1.125) */
 }
 
+.task-guide * + h3 {
+  margin-top: var(--text-lg); /* 1.125rem (18px) */
+}
+
 .task-guide h4 {
   font-size: var(--text-base); /* 1rem (16px) */
   line-height: var(--text-base--line-height); /* calc(1.5 / 1) */
+}
+
+.task-guide * + h4 {
+  margin-top: var(--text-base); /* 1rem (16px) */
 }
 
 .task-guide h5 {
@@ -31,7 +47,15 @@
   line-height: var(--text-sm--line-height); /* calc(1.25 / 0.875) */
 }
 
+.task-guide * + h5 {
+  margin-top: var(--text-sm); /* 0.875rem (14px) */
+}
+
 .task-guide h6 {
   font-size: var(--text-xs); /* 0.75rem (12px) */
   line-height: var(--text-xs--line-height); /* calc(1 / 0.75) */
+}
+
+.task-guide * + h6 {
+  margin-top: var(--text-xs); /* 0.75rem (12px) */
 }
