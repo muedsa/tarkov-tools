@@ -40,6 +40,12 @@ export default function Home() {
                 任务
               </Link>
             </li>
+            <hr></hr>
+            <li className="tracking-[-.01em]">
+              <Link href="/about" target="_blank">
+                About
+              </Link>
+            </li>
           </ol>
         </main>
       </div>
