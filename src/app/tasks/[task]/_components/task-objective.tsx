@@ -15,7 +15,7 @@ export default function TaskObjective({
   return (
     <div className="p-2">
       <div className="text-gold-one">
-        ● {objective.optional ? "[可选] " : ""}
+        {objective.optional ? "○ [可选] " : "● "}
         {objective.description}
         {(objective.__typename === "TaskObjectiveItem" ||
           objective.__typename === "TaskObjectiveShoot" ||
