@@ -59,3 +59,7 @@
 .task-guide * + h6 {
   margin-top: var(--text-xs); /* 0.75rem (12px) */
 }
+
+.task-guide * + blockquote {
+  margin-top: var(--text-xs); /* 0.75rem (12px) */
+}
