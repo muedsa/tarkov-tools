@@ -163,9 +163,27 @@ const taskQuery = gql`
     ... on TaskObjectiveBuildItem {
       item {
         id
+        name
+        normalizedName
+        shortName
+        description
+        types
+        width
+        height
+        iconLink
+        wikiLink
       }
       containsAll {
         id
+        name
+        normalizedName
+        shortName
+        description
+        types
+        width
+        height
+        iconLink
+        wikiLink
       }
       containsCategory {
         id

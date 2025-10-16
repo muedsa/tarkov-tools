@@ -86,6 +86,14 @@ for await (const task of tasks) {
           if (item.iconLink) await checkAndSaveImage(item.iconLink);
         }
       }
+      if (objective.item?.iconLink) {
+        await checkAndSaveImage(objective.item.iconLink);
+      }
+      if (objective.containsAll) {
+        for await (const item of objective.containsAll) {
+          if (item.iconLink) await checkAndSaveImage(item.iconLink);
+        }
+      }
     }
   }
 }

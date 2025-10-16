@@ -103,6 +103,21 @@ type TarkovQuestItem = {
   wikiLink: string;
 };
 
+type TarkovAttributeThreshold = {
+  name: string;
+  requirement: {
+    compareMethod: string;
+    value: number;
+  };
+};
+
+type TarkovItemCategory = {
+  id: string;
+  name: string;
+  normalizedName: string;
+  imageLink: string;
+};
+
 interface TarkovTaskObjectiveBasic {
   __typename: "TaskObjectiveBasic";
   id: string;
@@ -115,6 +130,10 @@ interface TarkovTaskObjectiveBasic {
 interface TarkovTaskObjectiveBuildItem extends TarkovTaskObjectiveBasic {
   __typename: "TaskObjectiveBuildItem";
   count: number;
+  item: TarkovItem;
+  containsAll: TarkovItem[];
+  containsCategory: TarkovItemCategory[];
+  attributes: TarkovAttributeThreshold[];
 }
 
 interface TarkovTaskObjectiveExperience extends TarkovTaskObjectiveBasic {

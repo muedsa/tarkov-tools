@@ -44,8 +44,45 @@ export default function TaskObjective({
           )}
           {objective.__typename === "TaskObjectiveBuildItem" && (
             <div>
-              <span className="text-white">构建物品</span>{" "}
-              {objective.count > 1 && `X${objective.count}`}
+              <div className="text-white">
+                构建物品 {objective.count > 1 && `X${objective.count}`}
+              </div>
+              <div>
+                <TaskItemImage item={objective.item} />
+              </div>
+              {(objective.containsAll.length > 0 ||
+                objective.containsCategory.length > 0) && (
+                <div>
+                  <div className="text-white">必须包含:</div>
+                  {objective.containsAll.length > 0 && (
+                    <div className="flex flex-wrap">
+                      {objective.containsAll.map((item) => (
+                        <TaskItemImage key={item.id} item={item} />
+                      ))}
+                    </div>
+                  )}
+                  {objective.containsCategory.length > 0 && (
+                    <ul>
+                      {objective.containsCategory.map((category) => (
+                        <li key={category.normalizedName}>{category.name}</li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              )}
+              {objective.attributes.length > 0 && (
+                <div>
+                  <div className="text-white">属性要求:</div>
+                  <ul>
+                    {objective.attributes.map((attr) => (
+                      <li key={attr.name}>
+                        {attr.name} {attr.requirement.compareMethod}{" "}
+                        {attr.requirement.value}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
             </div>
           )}
           {objective.__typename === "TaskObjectiveExperience" && (
