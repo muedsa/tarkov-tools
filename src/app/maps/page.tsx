@@ -16,6 +16,11 @@ export default function MapsPage() {
             </a>
           </li>
           <li>
+            <a href="/tarkov/images/maps/ground-zero-2d.png" target="_blank">
+              中心区 2D
+            </a>
+          </li>
+          <li>
             <a href="/tarkov/images/maps/customs-3d.jpg" target="_blank">
               海关 3D
             </a>
