@@ -3,6 +3,8 @@ import Image from "next/image";
 import TaskKey from "./task-key";
 import TaskObjective from "./task-objective";
 import TaskGuide from "./task-guide";
+import Link from "next/link";
+import Tooltip from "@/app/_components/tooltip";
 
 const TaskPage = ({
   task,
@@ -21,31 +23,38 @@ const TaskPage = ({
             </span>
             <span className="text-4xl">{task.name}</span>
             {task.kappaRequired && (
-              <svg
-                className="inline size-[1.25em]"
-                viewBox="0 0 24 24"
-                role="img"
-                preserveAspectRatio="xMidYMid slice"
-              >
-                <path
-                  d="M10,2H14A2,2 0 0,1 16,4V6H20A2,2 0 0,1 22,8V19A2,2 0 0,1 20,21H4C2.89,21 2,20.1 2,19V8C2,6.89 2.89,6 4,6H8V4C8,2.89 8.89,2 10,2M14,6V4H10V6H14Z"
-                  fill="currentcolor"
-                ></path>
-              </svg>
+              <Tooltip content="Kappa保险箱任务">
+                <svg
+                  className="inline size-[1.25em]"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  preserveAspectRatio="xMidYMid slice"
+                >
+                  <path
+                    d="M10,2H14A2,2 0 0,1 16,4V6H20A2,2 0 0,1 22,8V19A2,2 0 0,1 20,21H4C2.89,21 2,20.1 2,19V8C2,6.89 2.89,6 4,6H8V4C8,2.89 8.89,2 10,2M14,6V4H10V6H14Z"
+                    fill="currentcolor"
+                  ></path>
+                </svg>
+              </Tooltip>
             )}
             {task.lightkeeperRequired && (
-              <svg
-                className="inline size-[1.25em]"
-                viewBox="0 0 24 24"
-                role="img"
-                preserveAspectRatio="xMidYMid slice"
-              >
-                <path
-                  d="M8,10V8H9V4H8V3L12,1L16,3V4H15V8H16V10H14.74L8.44,13.64L9,10H8M13,8V4H11V8H13M7,23L7.04,22.76L16.15,17.5L16.67,20.88L13,23H7M8.05,16.17L15.31,12L15.83,15.37L7.43,20.22L8.05,16.17Z"
-                  fill="currentcolor"
-                ></path>
-              </svg>
+              <Tooltip content="Lightkeeper前置任务">
+                <svg
+                  className="inline size-[1.25em]"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  preserveAspectRatio="xMidYMid slice"
+                >
+                  <path
+                    d="M8,10V8H9V4H8V3L12,1L16,3V4H15V8H16V10H14.74L8.44,13.64L9,10H8M13,8V4H11V8H13M7,23L7.04,22.76L16.15,17.5L16.67,20.88L13,23H7M8.05,16.17L15.31,12L15.83,15.37L7.43,20.22L8.05,16.17Z"
+                    fill="currentcolor"
+                  ></path>
+                </svg>
+              </Tooltip>
             )}
+            <Link href={task.wikiLink} className="underline" target="_blank">
+              WIKI
+            </Link>
           </div>
           <div className="text-xl p-2">
             地图:{" "}
