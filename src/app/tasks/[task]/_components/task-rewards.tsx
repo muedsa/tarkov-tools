@@ -1,4 +1,5 @@
 import TaskItemImage from "./task-item-image";
+import Achievement from "./achievement";
 import HideoutCustomization from "./hideout-customization";
 
 export default function TaskRewards({
@@ -35,7 +36,7 @@ export default function TaskRewards({
             {rewards.items.map((containedItem) => (
               <div key={containedItem.item.id}>
                 <TaskItemImage item={containedItem.item} />
-                <div className="text-gold-one text-xs text-right text-nowrap text-clip">
+                <div className="text-gold-one text-xs text-center text-nowrap text-clip">
                   X{containedItem.count}
                 </div>
               </div>
@@ -46,7 +47,7 @@ export default function TaskRewards({
       {rewards.offerUnlock.length > 0 && (
         <div className="mt-2">
           <div className="text-gold-one">● 解锁物品购买:</div>
-          <div className="p-2 bg-gray-950/30">
+          <div className="ml-2 p-2 bg-gray-950/30">
             {rewards.offerUnlock.map((offer) => (
               <div key={offer.id}>
                 <div className="text-white">
@@ -69,7 +70,7 @@ export default function TaskRewards({
                 <div className="text-white">
                   {craft.station.name} Lv.{craft.level} :
                 </div>
-                <div className="ml-2 flex">
+                <div className="ml-2 flex flex-wrap">
                   {craft.rewardItems.map((c) => (
                     <TaskItemImage key={c.item.id} item={c.item} />
                   ))}
@@ -103,25 +104,23 @@ export default function TaskRewards({
       {rewards.achievement.length > 0 && (
         <div className="mt-2">
           <div className="text-gold-one">● 解锁成就:</div>
-          <div className="p-2 bg-gray-950/30 text-white">
-            {rewards.achievement
-              .map((achievement) => achievement.name)
-              .join("、")}
+          <div className="p-2 bg-gray-950/30 flex flex-wrap gap-1">
+            {rewards.achievement.map((achievement) => (
+              <Achievement key={achievement.id} item={achievement} />
+            ))}
           </div>
         </div>
       )}
       {rewards.customization.length > 0 && (
         <div className="mt-2">
           <div className="text-gold-one">● 解锁藏身处自定义:</div>
-          <div className="p-2 bg-gray-950/30 text-white">
-            <div className="ml-2 flex flex-wrap">
-              {rewards.customization.map((customization) => (
-                <HideoutCustomization
-                  key={customization.id}
-                  item={customization}
-                />
-              ))}
-            </div>
+          <div className="p-2 bg-gray-950/30 flex flex-wrap">
+            {rewards.customization.map((customization) => (
+              <HideoutCustomization
+                key={customization.id}
+                item={customization}
+              />
+            ))}
           </div>
         </div>
       )}
