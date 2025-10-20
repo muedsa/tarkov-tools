@@ -5,6 +5,7 @@ const taskObjectiveItemTypeName: Record<string, string> = {
   findItem: "搜寻",
   giveItem: "上交",
   plantItem: "放置",
+  sellItem: "出售",
 };
 
 export default function TaskObjective({
