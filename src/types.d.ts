@@ -124,7 +124,7 @@ interface TarkovTaskObjectiveBasic {
   type: string;
   description: string;
   optional: false;
-  maps: { id: string; name: string }[];
+  maps: TarkovMap[];
 }
 
 interface TarkovTaskObjectiveBuildItem extends TarkovTaskObjectiveBasic {

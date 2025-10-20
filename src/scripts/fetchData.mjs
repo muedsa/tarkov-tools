@@ -138,6 +138,7 @@ const taskQuery = gql`
     maps {
       id
       name
+      normalizedName
     }
     optional
     ... on TaskObjectiveBasic {
