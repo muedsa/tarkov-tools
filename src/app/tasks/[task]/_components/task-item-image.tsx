@@ -1,10 +1,21 @@
 import Tooltip from "@/app/_components/tooltip";
 import { handleTarkovDevImageLink } from "@/uitls/image-util";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function TaskItemImage({ item }: { item: TarkovItem }) {
   return (
-    <Tooltip key={item.id} content={item.name}>
+    <Tooltip
+      key={item.id}
+      content={
+        <div>
+          {item.name} -{" "}
+          <Link href={item.wikiLink} className="underline" target="_blank">
+            WIKI
+          </Link>
+        </div>
+      }
+    >
       <div className="size-[64]">
         <div className="text-white text-xs absolute top-1 right-1 text-right text-shadow-lg text-nowrap text-clip">
           {item.shortName}
