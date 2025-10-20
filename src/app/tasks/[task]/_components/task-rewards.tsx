@@ -83,7 +83,7 @@ export default function TaskRewards({
       )}
       {rewards.skillLevelReward.length > 0 && (
         <div className="mt-2">
-          <div className="text-gold-one">● 解锁物品制作:</div>
+          <div className="text-gold-one">● 技能等级:</div>
           <div className="p-2 bg-gray-950/30">
             {rewards.skillLevelReward.map((skillLevelReward) => (
               <div key={skillLevelReward.name}>
