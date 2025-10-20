@@ -106,25 +106,6 @@ const taskQuery = gql`
         ...taskRewardFragment
       }
       factionName
-      neededKeys {
-        keys {
-          id
-          name
-          normalizedName
-          shortName
-          description
-          types
-          width
-          height
-          iconLink
-          wikiLink
-        }
-        map {
-          id
-          name
-          normalizedName
-        }
-      }
       kappaRequired
       lightkeeperRequired
       taskImageLink
@@ -159,6 +140,17 @@ const taskQuery = gql`
         }
         top
         bottom
+      }
+      requiredKeys {
+        id
+        name
+        normalizedName
+        shortName
+        width
+        height
+        types
+        iconLink
+        wikiLink
       }
     }
     ... on TaskObjectiveBuildItem {
@@ -213,6 +205,17 @@ const taskQuery = gql`
       exitStatus
       exitName
       count
+      requiredKeys {
+        id
+        name
+        normalizedName
+        shortName
+        width
+        height
+        types
+        iconLink
+        wikiLink
+      }
     }
     ... on TaskObjectiveItem {
       items {
@@ -250,6 +253,17 @@ const taskQuery = gql`
         top
         bottom
       }
+      requiredKeys {
+        id
+        name
+        normalizedName
+        shortName
+        width
+        height
+        types
+        iconLink
+        wikiLink
+      }
     }
     ... on TaskObjectiveMark {
       markerItem {
@@ -281,6 +295,17 @@ const taskQuery = gql`
         }
         top
         bottom
+      }
+      requiredKeys {
+        id
+        name
+        normalizedName
+        shortName
+        width
+        height
+        types
+        iconLink
+        wikiLink
       }
     }
     ... on TaskObjectivePlayerLevel {
@@ -326,6 +351,17 @@ const taskQuery = gql`
         bottom
       }
       count
+      requiredKeys {
+        id
+        name
+        normalizedName
+        shortName
+        width
+        height
+        types
+        iconLink
+        wikiLink
+      }
     }
     ... on TaskObjectiveShoot {
       targetNames

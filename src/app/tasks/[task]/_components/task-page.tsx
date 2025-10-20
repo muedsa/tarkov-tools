@@ -1,6 +1,5 @@
 import { handleTarkovDevImageLink } from "@/uitls/image-util";
 import Image from "next/image";
-import TaskKey from "./task-key";
 import TaskObjective from "./task-objective";
 import TaskGuide from "./task-guide";
 import Link from "next/link";
@@ -52,9 +51,11 @@ const TaskPage = ({
                 </svg>
               </Tooltip>
             )}
-            <Link href={task.wikiLink} className="underline" target="_blank">
-              WIKI
-            </Link>
+            {task.wikiLink && (
+              <Link href={task.wikiLink} className="underline" target="_blank">
+                WIKI
+              </Link>
+            )}
           </div>
           <div className="text-xl p-2">
             地图:{" "}
@@ -83,14 +84,6 @@ const TaskPage = ({
           ></Image>
         </div>
       </div>
-      {(task.neededKeys?.length ?? 0) > 0 && (
-        <div className="border-2 mt-4">
-          <div className="text-3xl p-2 bg-gray-950/40">需要钥匙</div>
-          {task.neededKeys?.map((taskKey) => (
-            <TaskKey key={taskKey.map.normalizedName} taskKey={taskKey} />
-          ))}
-        </div>
-      )}
       <div className="border-2 mt-4">
         <div className="text-3xl p-2 bg-gray-950/40">任务目标</div>
         {task.objectives.map((objective) => (

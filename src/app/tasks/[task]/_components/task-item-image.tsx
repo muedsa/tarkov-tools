@@ -9,10 +9,16 @@ export default function TaskItemImage({ item }: { item: TarkovItem }) {
       key={item.id}
       content={
         <div>
-          {item.name} -{" "}
-          <Link href={item.wikiLink} className="underline" target="_blank">
-            WIKI
-          </Link>
+          {item.name}
+          {item.wikiLink && (
+            <>
+              {" "}
+              -{" "}
+              <Link href={item.wikiLink} className="underline" target="_blank">
+                WIKI
+              </Link>
+            </>
+          )}
         </div>
       }
     >

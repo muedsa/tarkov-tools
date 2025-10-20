@@ -42,38 +42,52 @@ export default function TaskObjective({
               {objective.maps.map((m) => m.name).join("、")}
             </div>
           )}
+          {objective.requiredKeys && objective.requiredKeys.length > 0 && (
+            <div>
+              <div className="text-white">需要钥匙:</div>
+              <div className="ml-2 flex flex-wrap">
+                {objective.requiredKeys
+                  .flatMap((keys) => keys)
+                  .map((item) => (
+                    <TaskItemImage key={item.id} item={item} />
+                  ))}
+              </div>
+            </div>
+          )}
           {objective.__typename === "TaskObjectiveBuildItem" && (
             <div>
               <div className="text-white">
                 构建物品 {objective.count > 1 && `X${objective.count}`}
               </div>
-              <div>
-                <TaskItemImage item={objective.item} />
+              <div className="ml-2">
+                <div>
+                  <TaskItemImage item={objective.item} />
+                </div>
               </div>
               {(objective.containsAll.length > 0 ||
                 objective.containsCategory.length > 0) && (
-                <div>
+                <>
                   <div className="text-white">必须包含:</div>
                   {objective.containsAll.length > 0 && (
-                    <div className="flex flex-wrap">
+                    <div className="ml-2 flex flex-wrap">
                       {objective.containsAll.map((item) => (
                         <TaskItemImage key={item.id} item={item} />
                       ))}
                     </div>
                   )}
                   {objective.containsCategory.length > 0 && (
-                    <ul>
+                    <ul className="ml-2">
                       {objective.containsCategory.map((category) => (
                         <li key={category.normalizedName}>{category.name}</li>
                       ))}
                     </ul>
                   )}
-                </div>
+                </>
               )}
               {objective.attributes.length > 0 && (
                 <div>
                   <div className="text-white">属性要求:</div>
-                  <ul>
+                  <ul className="ml-2">
                     {objective.attributes.map((attr) => (
                       <li key={attr.name}>
                         {attr.name} {attr.requirement.compareMethod}{" "}
@@ -113,7 +127,7 @@ export default function TaskObjective({
                 {taskObjectiveItemTypeName[objective.type] ?? objective.type}
                 {objective.items.length > 1 && "(其中任何一个)"}:
               </div>
-              <div className="flex flex-wrap">
+              <div className="ml-2 flex flex-wrap">
                 {objective.items.map((item) => (
                   <TaskItemImage key={item.id} item={item} />
                 ))}
@@ -123,13 +137,18 @@ export default function TaskObjective({
           {objective.__typename === "TaskObjectiveMark" && (
             <div>
               <div className="text-white">使用下面物品标记:</div>
-              <div>
+              <div className="ml-2">
                 <TaskItemImage item={objective.markerItem} />
               </div>
             </div>
           )}
           {objective.__typename === "TaskObjectiveQuestItem" && (
-            <TaskItemImage item={objective.questItem} />
+            <div>
+              <div className="text-white">任务物品:</div>
+              <div className="ml-2">
+                <TaskItemImage item={objective.questItem} />
+              </div>
+            </div>
           )}
           {objective.__typename === "TaskObjectiveShoot" && (
             <div>
@@ -189,7 +208,7 @@ export default function TaskObjective({
                 <div className="text-white">
                   使用{objective.useAny.length > 1 && "(其中任何一个)"}:
                 </div>
-                <div className="flex flex-wrap">
+                <div className="ml-2 flex flex-wrap">
                   {objective.useAny.map((item) => (
                     <TaskItemImage key={item.id} item={item} />
                   ))}

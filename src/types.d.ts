@@ -26,7 +26,7 @@ type FoundInRaidItemData = {
   normalizedName: string;
   types: string[];
   iconLink: string;
-  wikiLink: string;
+  wikiLink: string?;
   tasks?: TraderTaskDemandData[];
   hideoutStations?: HideoutStationDemandData[];
 };
@@ -88,7 +88,7 @@ type TarkovItem = {
   width: number;
   height: number;
   iconLink: string;
-  wikiLink: string;
+  wikiLink: string?;
 };
 
 type TarkovQuestItem = {
@@ -100,7 +100,7 @@ type TarkovQuestItem = {
   width: number;
   height: number;
   iconLink: string;
-  wikiLink: string;
+  wikiLink: string?;
 };
 
 type TarkovAttributeThreshold = {
@@ -125,6 +125,7 @@ interface TarkovTaskObjectiveBasic {
   description: string;
   optional: false;
   maps: TarkovMap[];
+  requiredKeys: TarkovItem[][]?;
 }
 
 interface TarkovTaskObjectiveBuildItem extends TarkovTaskObjectiveBasic {
@@ -236,20 +237,14 @@ type TarkovTaskObjective =
   | TarkovTaskObjectiveTraderStanding
   | TarkovTaskObjectiveUseItem;
 
-type TarkovTaskKey = {
-  keys: TarkovItem[];
-  map: TarkovMap;
-};
-
 type TarkovTraderTask = {
   id: string;
   name: string;
   normalizedName: string;
   experience: number;
-  wikiLink: string;
+  wikiLink: string?;
   minPlayerLevel: number;
   factionName: string;
-  neededKeys: TarkovTaskKey[]?;
   kappaRequired: boolean;
   lightkeeperRequired: boolean;
   taskImageLink: string;
