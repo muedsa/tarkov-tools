@@ -504,37 +504,58 @@ const taskQuery = gql`
     items {
       item {
         id
-        containsItems {
-          item {
-            id
-          }
-          count
-        }
+        name
+        normalizedName
+        shortName
+        width
+        height
+        types
+        iconLink
+        wikiLink
       }
       count
-      attributes {
-        name
-        value
-      }
     }
     offerUnlock {
+      id
       trader {
         id
+        name
+        normalizedName
+        imageLink
       }
       level
       item {
         id
+        name
+        normalizedName
+        shortName
+        width
+        height
+        types
+        iconLink
+        wikiLink
       }
     }
     craftUnlock {
       id
       station {
         id
+        name
+        normalizedName
+        imageLink
       }
       level
       rewardItems {
         item {
           id
+          name
+          normalizedName
+          shortName
+          width
+          height
+          types
+          iconLink
+          wikiLink
         }
         count
       }
@@ -545,6 +566,26 @@ const taskQuery = gql`
     }
     traderUnlock {
       id
+      name
+      normalizedName
+      imageLink
+    }
+    achievement {
+      id
+      name
+      description
+      imageLink
+      side
+      normalizedSide
+      rarity
+      normalizedRarity
+    }
+    customization {
+      id
+      name
+      customizationType
+      customizationTypeName
+      imageLink
     }
   }
 `;

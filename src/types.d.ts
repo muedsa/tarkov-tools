@@ -237,6 +237,72 @@ type TarkovTaskObjective =
   | TarkovTaskObjectiveTraderStanding
   | TarkovTaskObjectiveUseItem;
 
+type TarkovTraderStanding = {
+  trader: TarkovTrader;
+  standing: number;
+};
+
+type TarkovContainedItem = {
+  item: TarkovItem;
+  count: number;
+};
+
+type TarkovOfferUnlock = {
+  id: string;
+  trader: TarkovTrader;
+  level: number;
+  item: TarkovItem;
+};
+
+type TarkovHideoutStation = {
+  id: string;
+  name: string;
+  normalizedName: string;
+  imageLink: string;
+};
+
+type TarkovCraftUnlock = {
+  id: string;
+  station: TarkovHideoutStation;
+  level: number;
+  rewardItems: TarkovContainedItem[];
+};
+
+type TarkovSkillLevel = {
+  name: string;
+  level: number;
+};
+
+type TarkovAchievement = {
+  id: string;
+  name: string;
+  description: string;
+  imageLink: string;
+  side: string;
+  normalizedSide: string;
+  rarity: string;
+  normalizedRarity: string;
+};
+
+type TarkovCustomizationItem = {
+  id: string;
+  name: string;
+  customizationType: string;
+  customizationTypeName: string;
+  imageLink: string;
+};
+
+type TarkovTaskRewards = {
+  traderStanding: TarkovTraderStanding[];
+  items: TarkovContainedItem[];
+  offerUnlock: TarkovOfferUnlock[];
+  craftUnlock: TarkovCraftUnlock[];
+  skillLevelReward: TarkovSkillLevel[];
+  traderUnlock: TardkovTrader[];
+  achievement: TarkovAchievement[];
+  customization: TarkovCustomizationItem[];
+};
+
 type TarkovTraderTask = {
   id: string;
   name: string;
@@ -251,4 +317,6 @@ type TarkovTraderTask = {
   trader: TarkovTrader;
   map: TarkovMap?;
   objectives: TarkovTaskObjective[];
+  startRewards: TarkovTaskRewards;
+  finishRewards: TarkovTaskRewards;
 };

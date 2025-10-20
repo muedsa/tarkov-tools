@@ -74,7 +74,6 @@ const getTaskMapData = cache(() => {
 
 const MapTaskPage = () => {
   const { maps, mapTasks } = getTaskMapData();
-  console.log(maps);
   return (
     <div className="p-2">
       <div className="flex gap-2 text-5xl my-2">

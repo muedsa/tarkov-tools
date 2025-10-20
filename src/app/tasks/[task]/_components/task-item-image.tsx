@@ -22,8 +22,8 @@ export default function TaskItemImage({ item }: { item: TarkovItem }) {
         </div>
       }
     >
-      <div className="size-[64]">
-        <div className="text-white text-xs absolute top-1 right-1 text-right text-shadow-lg text-nowrap text-clip">
+      <div className="size-[64px]">
+        <div className="w-[56px] overflow-clip text-white text-xs absolute top-1 right-1 text-right text-shadow-lg text-nowrap text-clip">
           {item.shortName}
         </div>
         <Image

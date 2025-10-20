@@ -62,20 +62,19 @@ const { tasks } = JSON.parse(tasksFileData);
 for await (const task of tasks) {
   await checkAndSaveImage(task.taskImageLink);
   await checkAndSaveImage(task.trader.imageLink);
-  if (task.neededKeys) {
-    for await (const neededKey of task.neededKeys) {
-      if (neededKey.keys) {
-        for await (const key of neededKey.keys) {
-          await checkAndSaveImage(key.iconLink);
-        }
-      }
-    }
-  }
   if (task.objectives) {
     for await (const objective of task.objectives) {
       if (objective.items) {
         for await (const item of objective.items) {
           if (item.iconLink) await checkAndSaveImage(item.iconLink);
+        }
+      }
+      if (objective.requiredKeys) {
+        for await (const keys of objective.requiredKeys) {
+          for await (const item of keys) {
+            if (item.iconLink) await checkAndSaveImage(item.iconLink);
+            await checkAndSaveImage(item.iconLink);
+          }
         }
       }
       if (objective.questItem?.iconLink) {
@@ -92,6 +91,88 @@ for await (const task of tasks) {
       if (objective.containsAll) {
         for await (const item of objective.containsAll) {
           if (item.iconLink) await checkAndSaveImage(item.iconLink);
+        }
+      }
+    }
+  }
+  if (task.startRewards) {
+    if (task.startRewards.items) {
+      for await (const containedItem of task.startRewards.items) {
+        if (containedItem.item.iconLink) {
+          await checkAndSaveImage(containedItem.item.iconLink);
+        }
+      }
+    }
+    if (task.startRewards.offerUnlock) {
+      for await (const offerUnlock of task.startRewards.offerUnlock) {
+        if (offerUnlock.item.iconLink) {
+          await checkAndSaveImage(offerUnlock.item.iconLink);
+        }
+      }
+    }
+    if (task.startRewards.craftUnlock) {
+      for await (const craftUnlock of task.startRewards.craftUnlock) {
+        if (craftUnlock.rewardItems) {
+          for await (const rewardItem of craftUnlock.rewardItems) {
+            if (rewardItem.item.iconLink) {
+              await checkAndSaveImage(rewardItem.item.iconLink);
+            }
+          }
+        }
+      }
+    }
+    if (task.startRewards.achievement) {
+      for await (const achievement of task.startRewards.achievement) {
+        if (achievement.imageLink) {
+          await checkAndSaveImage(achievement.imageLink);
+        }
+      }
+    }
+    if (task.startRewards.customization) {
+      for await (const customization of task.startRewards.customization) {
+        if (customization.imageLink) {
+          await checkAndSaveImage(customization.imageLink);
+        }
+      }
+    }
+  }
+  if (task.finishRewards) {
+    if (task.finishRewards.items) {
+      for await (const containedItem of task.finishRewards.items) {
+        if (containedItem.item.iconLink) {
+          await checkAndSaveImage(containedItem.item.iconLink);
+        }
+      }
+    }
+    if (task.finishRewards.offerUnlock) {
+      for await (const offerUnlock of task.finishRewards.offerUnlock) {
+        if (offerUnlock.item.iconLink) {
+          await checkAndSaveImage(offerUnlock.item.iconLink);
+        }
+      }
+    }
+    if (task.finishRewards.craftUnlock) {
+      for await (const craftUnlock of task.finishRewards.craftUnlock) {
+        if (craftUnlock.rewardItems) {
+          for await (const rewardItem of craftUnlock.rewardItems) {
+            if (rewardItem.item.iconLink) {
+              await checkAndSaveImage(rewardItem.item.iconLink);
+            }
+          }
+        }
+      }
+    }
+    if (task.finishRewards.achievement) {
+      for await (const achievement of task.finishRewards.achievement) {
+        if (achievement.imageLink) {
+          await checkAndSaveImage(achievement.imageLink);
+        }
+      }
+    }
+    if (task.finishRewards.customization) {
+      for await (const customization of task.finishRewards.customization) {
+        if (customization.imageLink) {
+          await checkAndSaveImage(customization.imageLink);
         }
       }
     }

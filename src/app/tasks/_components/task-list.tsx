@@ -1,4 +1,19 @@
+import path from "path";
+import { fileURLToPath } from "url";
+import { accessSync } from "fs";
 import Link from "next/link";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+const existMdxFile = (task: string) => {
+  const mdxFilePath = path.resolve(__dirname, `../[task]/${task}.mdx`);
+  try {
+    accessSync(mdxFilePath);
+    return true;
+  } catch {
+    return false;
+  }
+};
 
 export default function TaskListComponent({
   tasks,
@@ -9,7 +24,11 @@ export default function TaskListComponent({
     <ul className="list-disc list-inside mt-2 ml-2">
       {tasks.map((t) => (
         <li key={t.normalizedName}>
-          <Link href={`/tasks/${t.normalizedName}`} target="_blank">
+          <Link
+            href={`/tasks/${t.normalizedName}`}
+            target="_blank"
+            className={existMdxFile(t.normalizedName) ? "underline" : ""}
+          >
             {t.name}
             {t.kappaRequired ? " ⁽ᴷ⁾" : ""}
             {t.factionName != "Any" ? ` (${t.factionName})` : ""}

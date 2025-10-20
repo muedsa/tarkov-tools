@@ -98,9 +98,13 @@ const FoundInRaidItemCard = ({ data }: FoundInRaidItemCardProps) => {
         height={64}
       />
       <div className="grow">
-        <a className="text-lg w-full" href={data.wikiLink} target="_blank">
-          {data.name}
-        </a>
+        {data.wikiLink ? (
+          <a className="text-lg w-full" href={data.wikiLink} target="_blank">
+            {data.name}
+          </a>
+        ) : (
+          <span className="text-lg w-full">{data.name}</span>
+        )}
         <div>
           <input
             className={`${

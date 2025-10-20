@@ -4,6 +4,7 @@ import TaskObjective from "./task-objective";
 import TaskGuide from "./task-guide";
 import Link from "next/link";
 import Tooltip from "@/app/_components/tooltip";
+import TaskRewards from "./task-rewards";
 
 const TaskPage = ({
   task,
@@ -89,6 +90,26 @@ const TaskPage = ({
         {task.objectives.map((objective) => (
           <TaskObjective key={objective.id} objective={objective} />
         ))}
+      </div>
+      {(task.startRewards.traderStanding.length > 0 ||
+        task.startRewards.items.length > 0 ||
+        task.startRewards.offerUnlock.length > 0 ||
+        task.startRewards.craftUnlock.length > 0 ||
+        task.startRewards.skillLevelReward.length > 0 ||
+        task.startRewards.traderUnlock.length > 0 ||
+        task.startRewards.achievement.length > 0 ||
+        task.startRewards.customization.length > 0) && (
+        <div className="border-2 mt-4">
+          <div className="text-3xl p-2 bg-gray-950/40">任务初始奖励</div>
+          <TaskRewards experience={0} rewards={task.startRewards} />
+        </div>
+      )}
+      <div className="border-2 mt-4">
+        <div className="text-3xl p-2 bg-gray-950/40">任务奖励</div>
+        <TaskRewards
+          experience={task.experience}
+          rewards={task.finishRewards}
+        />
       </div>
       <TaskGuide>{children}</TaskGuide>
       <details className="mt-2">
