@@ -18,11 +18,12 @@ export default function TaskRewards({
       )}
       {rewards.traderStanding.length > 0 && (
         <div className={experience > 0 ? "mt-2" : ""}>
-          <div className="text-gold-one">● 交易商声望奖励:</div>
+          <div className="text-gold-one">● 交易商声望 :</div>
           <div className="p-2 bg-gray-950/30">
             {rewards.traderStanding.map((standing) => (
               <div key={standing.trader.id}>
-                <span className="text-white">{standing.trader.name}</span> +
+                <span className="text-white">{standing.trader.name}</span>{" "}
+                {standing.standing >= 0 ? "+" : ""}
                 {standing.standing}
               </div>
             ))}

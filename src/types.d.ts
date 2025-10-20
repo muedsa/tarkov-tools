@@ -319,4 +319,5 @@ type TarkovTraderTask = {
   objectives: TarkovTaskObjective[];
   startRewards: TarkovTaskRewards;
   finishRewards: TarkovTaskRewards;
+  failureOutcome: TarkovTaskRewards;
 };

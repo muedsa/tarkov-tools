@@ -100,7 +100,7 @@ const TaskPage = ({
         task.startRewards.achievement.length > 0 ||
         task.startRewards.customization.length > 0) && (
         <div className="border-2 mt-4">
-          <div className="text-3xl p-2 bg-gray-950/40">任务初始奖励</div>
+          <div className="text-3xl p-2 bg-gray-950/40">初始装备</div>
           <TaskRewards experience={0} rewards={task.startRewards} />
         </div>
       )}
@@ -111,6 +111,19 @@ const TaskPage = ({
           rewards={task.finishRewards}
         />
       </div>
+      {(task.failureOutcome.traderStanding.length > 0 ||
+        task.failureOutcome.items.length > 0 ||
+        task.failureOutcome.offerUnlock.length > 0 ||
+        task.failureOutcome.craftUnlock.length > 0 ||
+        task.failureOutcome.skillLevelReward.length > 0 ||
+        task.failureOutcome.traderUnlock.length > 0 ||
+        task.failureOutcome.achievement.length > 0 ||
+        task.failureOutcome.customization.length > 0) && (
+        <div className="border-2 mt-4">
+          <div className="text-3xl p-2 bg-gray-950/40">失败惩罚</div>
+          <TaskRewards experience={0} rewards={task.failureOutcome} />
+        </div>
+      )}
       <TaskGuide>{children}</TaskGuide>
       <details className="mt-2">
         <summary>数据</summary>
