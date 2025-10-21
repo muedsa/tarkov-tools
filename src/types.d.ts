@@ -73,6 +73,14 @@ type TarkovTrader = {
   imageLink: string;
 };
 
+interface TardkovTaskBasic {
+  id: string;
+  name: string;
+  normalizedName: string;
+  taskImageLink: string;
+  trader: TarkovTrader;
+}
+
 type TarkovMap = {
   id: string;
   name: string;
@@ -191,14 +199,10 @@ interface TarkovTaskSkill extends TarkovTaskObjectiveBasic {
   };
 }
 
-interface TarkovTaskObjectiveTaskStatus extends TarkovTaskObjectiveBasic {
+interface TarkovTaskObjectiveTaskStatus
+  extends TarkovTaskObjectiveBasic,
+    TarkovTaskStatusRequirement {
   __typename: "TaskObjectiveTaskStatus";
-  task: {
-    id: string;
-    name: string;
-    normalizedName: string;
-  };
-  status: string[];
 }
 
 interface TarkovTaskObjectiveTraderLevel extends TarkovTaskObjectiveBasic {
@@ -303,21 +307,22 @@ type TarkovTaskRewards = {
   customization: TarkovCustomizationItem[];
 };
 
-type TarkovTraderTask = {
-  id: string;
-  name: string;
-  normalizedName: string;
+type TarkovTaskStatusRequirement = {
+  task: TardkovTaskBasic;
+  status: string[];
+};
+
+interface TarkovTraderTask extends TardkovTaskBasic {
   experience: number;
   wikiLink: string?;
   minPlayerLevel: number;
   factionName: string;
   kappaRequired: boolean;
   lightkeeperRequired: boolean;
-  taskImageLink: string;
-  trader: TarkovTrader;
   map: TarkovMap?;
   objectives: TarkovTaskObjective[];
   startRewards: TarkovTaskRewards;
   finishRewards: TarkovTaskRewards;
   failureOutcome: TarkovTaskRewards;
-};
+  taskRequirements: TarkovTaskStatusRequirement[];
+}

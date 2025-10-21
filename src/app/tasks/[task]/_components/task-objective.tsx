@@ -1,12 +1,6 @@
 import Link from "next/link";
 import TaskItemImage from "./task-item-image";
-
-const taskObjectiveItemTypeName: Record<string, string> = {
-  findItem: "搜寻",
-  giveItem: "上交",
-  plantItem: "放置",
-  sellItem: "出售",
-};
+import { getTaskObjectiveItemTypeName } from "@/uitls/task";
 
 export default function TaskObjective({
   objective,
@@ -125,7 +119,7 @@ export default function TaskObjective({
           {objective.__typename === "TaskObjectiveItem" && (
             <div>
               <div className="text-white">
-                {taskObjectiveItemTypeName[objective.type] ?? objective.type}
+                {getTaskObjectiveItemTypeName(objective.type)}
                 {objective.items.length > 1 && "(其中任何一个)"}:
               </div>
               <div className="ml-2 flex flex-wrap">

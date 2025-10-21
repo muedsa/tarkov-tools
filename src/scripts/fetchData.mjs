@@ -77,6 +77,15 @@ const taskQuery = gql`
       taskRequirements {
         task {
           id
+          name
+          normalizedName
+          taskImageLink
+          trader {
+            id
+            name
+            normalizedName
+            imageLink
+          }
         }
         status
       }
@@ -433,6 +442,13 @@ const taskQuery = gql`
         id
         name
         normalizedName
+        taskImageLink
+        trader {
+          id
+          name
+          normalizedName
+          imageLink
+        }
       }
       status
     }

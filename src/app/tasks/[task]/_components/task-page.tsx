@@ -5,6 +5,7 @@ import TaskGuide from "./task-guide";
 import Link from "next/link";
 import Tooltip from "@/app/_components/tooltip";
 import TaskRewards from "./task-rewards";
+import { getTaskStatusName, getTaskStatusTextCss } from "@/uitls/task";
 
 const TaskPage = ({
   task,
@@ -15,7 +16,7 @@ const TaskPage = ({
 }) => {
   return (
     <div className="p-2">
-      <div className="flex border-2 mt-2">
+      <div className="flex flex-col-reverse md:flex-row border-2 mt-2">
         <div className="grow">
           <div className="flex gap-2 items-center p-2 bg-gray-950/40">
             <span className="border-1 rounded-lg p-1 text-base text-gold-one">
@@ -58,33 +59,62 @@ const TaskPage = ({
               </Link>
             )}
           </div>
-          <div className="text-xl p-2">
-            地图:{" "}
-            <span className="text-gold-one">{task.map?.name ?? "任意"}</span>
-          </div>
-          <div className="flex gap-2">
+          <div className="md:grid grid-rows-2 grid-flow-col">
             <div className="text-xl p-2">
-              商人: <span className="text-gold-one">{task.trader.name}</span>
+              地图:{" "}
+              <span className="text-gold-one">{task.map?.name ?? "任意"}</span>
             </div>
-            <div className="size-[44px]">
-              <Image
-                width={44}
-                height={44}
-                alt={task.trader.name}
-                src={handleTarkovDevImageLink(task.trader.imageLink)}
-              ></Image>
+            <div className="flex gap-2">
+              <div className="text-xl p-2">
+                商人: <span className="text-gold-one">{task.trader.name}</span>
+              </div>
+              <div className="size-[44px]">
+                <Image
+                  width={44}
+                  height={44}
+                  alt={task.trader.name}
+                  src={handleTarkovDevImageLink(task.trader.imageLink)}
+                ></Image>
+              </div>
+            </div>
+            <div className="text-xl p-2">
+              需求等级:{" "}
+              <span className="text-gold-one">Lv.{task.minPlayerLevel}</span>
             </div>
           </div>
         </div>
-        <div className="w-[314] h-[177]">
+        <div>
           <Image
             width={314}
             height={177}
+            object-fit="object-fit"
             alt={task.name}
             src={handleTarkovDevImageLink(task.taskImageLink)}
+            layout="responsive"
           ></Image>
         </div>
       </div>
+      {task.taskRequirements.length > 0 && (
+        <div className="border-2 mt-4">
+          <div className="text-3xl p-2 bg-gray-950/40">前置任务</div>
+          <div className="p-2">
+            {task.taskRequirements.map((tr) => (
+              <Link
+                key={tr.task.id}
+                href={`/tasks/${tr.task.normalizedName}`}
+                className="text-gold-one flex gap-1"
+              >
+                ● {tr.task.name} -{" "}
+                {tr.status.map((s) => (
+                  <span key={s} className={getTaskStatusTextCss(s)}>
+                    {getTaskStatusName(s)}
+                  </span>
+                ))}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
       <div className="border-2 mt-4">
         <div className="text-3xl p-2 bg-gray-950/40">任务目标</div>
         {task.objectives.map((objective) => (
