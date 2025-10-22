@@ -1,6 +1,6 @@
 # Tarkov tools
 
-一个[逃落塔科夫](https://www.escapefromtarkov.com/)游戏工具。
+一个[逃离塔科夫](https://www.escapefromtarkov.com/)游戏工具。
 
 ## 功能
 
