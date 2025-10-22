@@ -321,6 +321,7 @@ interface TarkovTraderTask extends TardkovTaskBasic {
   lightkeeperRequired: boolean;
   map: TarkovMap?;
   objectives: TarkovTaskObjective[];
+  failConditions: TarkovTaskObjective[];
   startRewards: TarkovTaskRewards;
   finishRewards: TarkovTaskRewards;
   failureOutcome: TarkovTaskRewards;

@@ -15,6 +15,9 @@ const taskStatusList = new Set();
 
 const taskObjectiveItemTypeList = new Set();
 
+const possibleFailureTaskList = new Set();
+const failConditionTypeNameList = new Set();
+
 for (const task of tasks) {
   if (task.taskRequirements) {
     task.taskRequirements.forEach((tr) => {
@@ -36,8 +39,19 @@ for (const task of tasks) {
       }
     });
   }
+
+  if (task.failConditions && task.failConditions.length > 0) {
+    possibleFailureTaskList.add(task.normalizedName);
+    task.failConditions.forEach((o) => {
+      failConditionTypeNameList.add(o.__typename);
+    });
+  }
 }
 
 console.log(taskStatusList);
 
 console.log(taskObjectiveItemTypeList);
+
+console.log(possibleFailureTaskList);
+
+console.log(failConditionTypeNameList);

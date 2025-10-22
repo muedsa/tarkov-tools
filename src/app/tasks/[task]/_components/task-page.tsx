@@ -121,6 +121,14 @@ const TaskPage = ({
           <TaskObjective key={objective.id} objective={objective} />
         ))}
       </div>
+      {task.failConditions.length > 0 && (
+        <div className="border-2 mt-4">
+          <div className="text-3xl p-2 bg-gray-950/40">失败条件</div>
+          {task.failConditions.map((objective) => (
+            <TaskObjective key={objective.id} objective={objective} />
+          ))}
+        </div>
+      )}
       {(task.startRewards.traderStanding.length > 0 ||
         task.startRewards.items.length > 0 ||
         task.startRewards.offerUnlock.length > 0 ||
