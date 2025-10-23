@@ -90,7 +90,7 @@ const TaskPage = ({
             object-fit="object-fit"
             alt={task.name}
             src={handleTarkovDevImageLink(task.taskImageLink)}
-            layout="responsive"
+            className="w-full h-auto"
           ></Image>
         </div>
       </div>
