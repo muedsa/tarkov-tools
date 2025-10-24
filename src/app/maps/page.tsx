@@ -36,13 +36,13 @@ export default function MapsPage() {
             </a>
           </li>
           <li>
-            <a href="/tarkov/images/maps/interchange-3d.png" target="_blank">
+            <a href="/tarkov/images/maps/interchange-3d.jpg" target="_blank">
               立交桥 3D
             </a>
           </li>
           <li>
             <a
-              href="/tarkov/images/maps/interchange-ultra-3d.jpg"
+              href="/tarkov/images/maps/interchange-ultra-3d.png"
               target="_blank"
             >
               立交桥-商场 3D
