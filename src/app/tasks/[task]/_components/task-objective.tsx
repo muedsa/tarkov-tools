@@ -29,7 +29,8 @@ export default function TaskObjective({
         objective.__typename === "TaskObjectiveTraderLevel" ||
         objective.__typename === "TaskObjectiveTraderStanding" ||
         objective.__typename === "TaskObjectiveUseItem" ||
-        objective.maps.length > 0) && (
+        objective.maps.length > 0 ||
+        (objective.requiredKeys?.length ?? 0) > 0) && (
         <div className="p-2 bg-gray-950/30">
           {objective.maps.length > 0 && (
             <div>
