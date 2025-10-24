@@ -146,10 +146,66 @@ export default function TaskObjective({
             </div>
           )}
           {objective.__typename === "TaskObjectiveShoot" && (
-            <div>
-              <span className="text-white">目标:</span>{" "}
-              {objective.targetNames.join("、")}
-            </div>
+            <>
+              <div>
+                <span className="text-white">目标:</span>{" "}
+                {objective.targetNames.join("、")}
+              </div>
+              {objective.usingWeapon.length > 0 && (
+                <div>
+                  <div className="text-white">使用下面任意一把武器:</div>
+                  <div className="ml-2 flex flex-wrap gap-2">
+                    {objective.usingWeapon.map((item) => (
+                      <TaskItemImage key={item.id} item={item} />
+                    ))}
+                  </div>
+                </div>
+              )}
+              {objective.usingWeaponMods.length > 0 && (
+                <div>
+                  <div className="text-white">使用下面任意武器配件组合:</div>
+                  <div className="ml-2 flex flex-wrap gap-2">
+                    {objective.usingWeaponMods.map((itemCollect) => (
+                      <div
+                        key={itemCollect.map((item) => item.id).join("-")}
+                        className="flex flex-wrap border"
+                      >
+                        {itemCollect.map((item) => (
+                          <TaskItemImage key={item.id} item={item} />
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {objective.wearing.length > 0 && (
+                <div>
+                  <div className="text-white">穿戴下面任意一组装备:</div>
+                  <div className="ml-2 flex flex-wrap gap-2">
+                    {objective.wearing.map((itemCollect) => (
+                      <div
+                        key={itemCollect.map((item) => item.id).join("-")}
+                        className="flex flex-wrap border"
+                      >
+                        {itemCollect.map((item) => (
+                          <TaskItemImage key={item.id} item={item} />
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+              {objective.notWearing.length > 0 && (
+                <div>
+                  <div className="text-white">不能穿戴下面任何装备:</div>
+                  <div className="ml-2 flex flex-wrap gap-2">
+                    {objective.notWearing.map((item) => (
+                      <TaskItemImage key={item.id} item={item} />
+                    ))}
+                  </div>
+                </div>
+              )}
+            </>
           )}
           {objective.__typename === "TaskObjectiveSkill" && (
             <div>

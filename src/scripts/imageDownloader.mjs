@@ -93,6 +93,30 @@ for await (const task of tasks) {
           if (item.iconLink) await checkAndSaveImage(item.iconLink);
         }
       }
+      if (objective.usingWeapon) {
+        for await (const item of objective.usingWeapon) {
+          if (item.iconLink) await checkAndSaveImage(item.iconLink);
+        }
+      }
+      if (objective.usingWeaponMods) {
+        for await (const itemList of objective.usingWeaponMods) {
+          for await (const item of itemList) {
+            if (item.iconLink) await checkAndSaveImage(item.iconLink);
+          }
+        }
+      }
+      if (objective.wearing) {
+        for await (const itemList of objective.wearing) {
+          for await (const item of itemList) {
+            if (item.iconLink) await checkAndSaveImage(item.iconLink);
+          }
+        }
+      }
+      if (objective.notWearing) {
+        for await (const item of objective.notWearing) {
+          if (item.iconLink) await checkAndSaveImage(item.iconLink);
+        }
+      }
     }
   }
   if (task.startRewards) {

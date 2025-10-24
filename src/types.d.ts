@@ -189,6 +189,10 @@ interface TarkovTaskObjectiveShoot extends TarkovTaskObjectiveBasic {
   __typename: "TaskObjectiveShoot";
   count: number;
   targetNames: string[];
+  usingWeapon: TarkovItem[];
+  usingWeaponMods: TarkovItem[][];
+  wearing: TarkovItem[][];
+  notWearing: TarkovItem[];
 }
 
 interface TarkovTaskSkill extends TarkovTaskObjectiveBasic {

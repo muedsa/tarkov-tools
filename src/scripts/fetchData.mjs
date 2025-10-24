@@ -382,15 +382,47 @@ const taskQuery = gql`
       timeUntilHour
       usingWeapon {
         id
+        name
+        normalizedName
+        shortName
+        width
+        height
+        types
+        iconLink
+        wikiLink
       }
       usingWeaponMods {
         id
+        name
+        normalizedName
+        shortName
+        width
+        height
+        types
+        iconLink
+        wikiLink
       }
       wearing {
         id
+        name
+        normalizedName
+        shortName
+        width
+        height
+        types
+        iconLink
+        wikiLink
       }
       notWearing {
         id
+        name
+        normalizedName
+        shortName
+        width
+        height
+        types
+        iconLink
+        wikiLink
       }
       distance {
         compareMethod
