@@ -14,7 +14,7 @@ export default function HideoutStation({
       <div className="flex flex-col gap-2 border-y-2 divide-y-2 divide-dashed">
         {hideoutStation.levels.map((level) => (
           <div key={level.level} className="p-2">
-            <div>
+            <div className="text-2xl">
               {hideoutStation.name} Lv.{level.level}
             </div>
             {level.stationLevelRequirements.length > 0 && (
