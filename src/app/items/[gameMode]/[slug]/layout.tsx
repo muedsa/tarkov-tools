@@ -1,10 +1,5 @@
-import type { Metadata } from "next";
 import { UserDataProvider } from "./_components/user-data-context";
 import { notFound } from "next/navigation";
-
-export const metadata: Metadata = {
-  title: "物品收集工具",
-};
 
 export default async function ItemsPageLayout({
   children,

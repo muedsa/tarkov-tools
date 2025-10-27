@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 type ItemsPageProps = {
@@ -34,6 +35,23 @@ export async function generateStaticParams() {
       slug: "hideout-stations-page",
     },
   ];
+}
+
+const titles: Record<string, string> = {
+  "found-in-raid-items-page": "战局内带出物品",
+  "mixed-items-tasks-page": "其他需求物品任务",
+  "hideout-stations-page": "藏身处",
+};
+
+export async function generateMetadata({
+  params,
+}: ItemsPageProps): Promise<Metadata> {
+  const { gameMode, slug } = await params;
+  const title = `${titles[slug] ?? "物品收集工具"} ${gameMode.toUpperCase()}`;
+  return {
+    title: title,
+    description: `${title} | 逃落塔科夫任务攻略`,
+  };
 }
 
 export default async function ItemsPage({ params }: ItemsPageProps) {
