@@ -156,7 +156,10 @@ export default function TaskObjective({
               </div>
               {objective.usingWeapon.length > 0 && (
                 <div>
-                  <div className="text-white">使用下面任意一把武器:</div>
+                  <div className="text-white">
+                    使用下面{objective.usingWeapon.length > 1 ? "任意一把" : ""}
+                    武器:
+                  </div>
                   <div className="ml-2 flex flex-wrap gap-2">
                     {objective.usingWeapon.map((item) => (
                       <TarkovItem key={item.id} item={item} />
@@ -166,7 +169,11 @@ export default function TaskObjective({
               )}
               {objective.usingWeaponMods.length > 0 && (
                 <div>
-                  <div className="text-white">使用下面任意武器配件组合:</div>
+                  <div className="text-white">
+                    使用下面
+                    {objective.usingWeapon.length > 1 ? "任意一组" : ""}
+                    武器配件组合:
+                  </div>
                   <div className="ml-2 flex flex-wrap gap-2">
                     {objective.usingWeaponMods.map((itemCollect) => (
                       <div
@@ -183,7 +190,11 @@ export default function TaskObjective({
               )}
               {objective.wearing.length > 0 && (
                 <div>
-                  <div className="text-white">穿戴下面任意一组装备:</div>
+                  <div className="text-white">
+                    穿戴下面
+                    {objective.wearing.length > 1 ? "任意一组" : ""}
+                    装备组合:
+                  </div>
                   <div className="ml-2 flex flex-wrap gap-2">
                     {objective.wearing.map((itemCollect) => (
                       <div
