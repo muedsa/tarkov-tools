@@ -7,7 +7,7 @@ export default function AboutPage() {
       <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
         <main className="flex flex-col row-start-2 items-center">
           <div className="text-5xl">Tarkov Tools</div>
-          <div>这是一个逃落塔科夫游戏工具站。</div>
+          <div>这是一个逃离塔科夫游戏工具站。</div>
           <div>正在建设中......</div>
           <div>
             <Link href="https://github.com/muedsa/tarkov-tools" target="_blank">

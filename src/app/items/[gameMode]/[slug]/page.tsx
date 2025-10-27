@@ -50,7 +50,7 @@ export async function generateMetadata({
   const title = `${titles[slug] ?? "物品收集工具"} ${gameMode.toUpperCase()}`;
   return {
     title: title,
-    description: `${title} | 逃落塔科夫任务攻略`,
+    description: `${title} | 逃离塔科夫任务攻略`,
   };
 }
 

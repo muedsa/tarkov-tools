@@ -31,7 +31,7 @@ export async function generateMetadata({
   }
   return {
     title: taskData.name,
-    description: `${taskData.name} | 逃落塔科夫任务攻略`,
+    description: `${taskData.name} | 逃离塔科夫任务攻略`,
     openGraph: {
       images: [
         {
