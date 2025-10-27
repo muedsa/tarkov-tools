@@ -1,5 +1,5 @@
 import Link from "next/link";
-import TaskItemImage from "./task-item-image";
+import TarkovItem from "@/app/_components/tarkov-item";
 import { getTaskObjectiveItemTypeName } from "@/uitls/task";
 
 export default function TaskObjective({
@@ -45,7 +45,7 @@ export default function TaskObjective({
                 {objective.requiredKeys
                   .flatMap((keys) => keys)
                   .map((item) => (
-                    <TaskItemImage key={item.id} item={item} />
+                    <TarkovItem key={item.id} item={item} />
                   ))}
               </div>
             </div>
@@ -57,7 +57,7 @@ export default function TaskObjective({
               </div>
               <div className="ml-2">
                 <div>
-                  <TaskItemImage item={objective.item} />
+                  <TarkovItem item={objective.item} />
                 </div>
               </div>
               {(objective.containsAll.length > 0 ||
@@ -67,7 +67,7 @@ export default function TaskObjective({
                   {objective.containsAll.length > 0 && (
                     <div className="ml-2 flex flex-wrap">
                       {objective.containsAll.map((item) => (
-                        <TaskItemImage key={item.id} item={item} />
+                        <TarkovItem key={item.id} item={item} />
                       ))}
                     </div>
                   )}
@@ -125,7 +125,7 @@ export default function TaskObjective({
               </div>
               <div className="ml-2 flex flex-wrap">
                 {objective.items.map((item) => (
-                  <TaskItemImage key={item.id} item={item} />
+                  <TarkovItem key={item.id} item={item} />
                 ))}
               </div>
             </div>
@@ -134,7 +134,7 @@ export default function TaskObjective({
             <div>
               <div className="text-white">使用下面物品标记:</div>
               <div className="ml-2">
-                <TaskItemImage item={objective.markerItem} />
+                <TarkovItem item={objective.markerItem} />
               </div>
             </div>
           )}
@@ -142,7 +142,9 @@ export default function TaskObjective({
             <div>
               <div className="text-white">任务物品:</div>
               <div className="ml-2">
-                <TaskItemImage item={objective.questItem} />
+                <TarkovItem
+                  item={{ ...objective.questItem, types: [], wikiLink: "" }}
+                />
               </div>
             </div>
           )}
@@ -157,7 +159,7 @@ export default function TaskObjective({
                   <div className="text-white">使用下面任意一把武器:</div>
                   <div className="ml-2 flex flex-wrap gap-2">
                     {objective.usingWeapon.map((item) => (
-                      <TaskItemImage key={item.id} item={item} />
+                      <TarkovItem key={item.id} item={item} />
                     ))}
                   </div>
                 </div>
@@ -172,7 +174,7 @@ export default function TaskObjective({
                         className="flex flex-wrap border"
                       >
                         {itemCollect.map((item) => (
-                          <TaskItemImage key={item.id} item={item} />
+                          <TarkovItem key={item.id} item={item} />
                         ))}
                       </div>
                     ))}
@@ -189,7 +191,7 @@ export default function TaskObjective({
                         className="flex flex-wrap border"
                       >
                         {itemCollect.map((item) => (
-                          <TaskItemImage key={item.id} item={item} />
+                          <TarkovItem key={item.id} item={item} />
                         ))}
                       </div>
                     ))}
@@ -201,7 +203,7 @@ export default function TaskObjective({
                   <div className="text-white">不能穿戴下面任何装备:</div>
                   <div className="ml-2 flex flex-wrap gap-2">
                     {objective.notWearing.map((item) => (
-                      <TaskItemImage key={item.id} item={item} />
+                      <TarkovItem key={item.id} item={item} />
                     ))}
                   </div>
                 </div>
@@ -262,7 +264,7 @@ export default function TaskObjective({
                 </div>
                 <div className="ml-2 flex flex-wrap">
                   {objective.useAny.map((item) => (
-                    <TaskItemImage key={item.id} item={item} />
+                    <TarkovItem key={item.id} item={item} />
                   ))}
                 </div>
               </div>

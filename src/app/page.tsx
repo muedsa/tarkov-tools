@@ -21,6 +21,11 @@ export default function Home() {
               </Link>
             </li>
             <li className="tracking-[-.01em]">
+              <Link href="/items/pvp/hideout-stations-page" target="_blank">
+                藏身处 PVP
+              </Link>
+            </li>
+            <li className="tracking-[-.01em]">
               <Link href="/items/pve/found-in-raid-items-page" target="_blank">
                 战局内带出物品 PVE
               </Link>
@@ -28,6 +33,11 @@ export default function Home() {
             <li className="tracking-[-.01em]">
               <Link href="/items/pve/mixed-items-tasks-page" target="_blank">
                 其他需求物品任务 PVE
+              </Link>
+            </li>
+            <li className="tracking-[-.01em]">
+              <Link href="/items/pve/hideout-stations-page" target="_blank">
+                藏身处 PVE
               </Link>
             </li>
             <li className="tracking-[-.01em]">

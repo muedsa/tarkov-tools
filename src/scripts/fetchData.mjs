@@ -30,23 +30,119 @@ const hideoutStationsQuery = gql`
         id
         level
         itemRequirements {
-          quantity
+          id
           item {
             id
             name
             normalizedName
             shortName
-            description
-            types
             width
             height
+            types
             iconLink
             wikiLink
           }
           attributes {
+            type
             name
             value
           }
+          quantity
+          count
+        }
+        stationLevelRequirements {
+          id
+          station {
+            id
+            name
+            normalizedName
+            imageLink
+          }
+          level
+        }
+        traderRequirements {
+          id
+          trader {
+            id
+            name
+            normalizedName
+            imageLink
+          }
+          requirementType
+          compareMethod
+          value
+        }
+      }
+      crafts {
+        id
+        station {
+          id
+          name
+          normalizedName
+          imageLink
+        }
+        level
+        taskUnlock {
+          id
+          name
+          normalizedName
+          taskImageLink 
+          trader {
+            id
+            name
+            normalizedName
+            imageLink
+          }
+        }
+        duration
+        requiredQuestItems {
+          id
+          name
+          normalizedName
+          shortName
+          width
+          height
+          iconLink
+        }
+        requiredItems {
+          item {
+            id
+            name
+            normalizedName
+            shortName
+            width
+            height
+            types
+            iconLink
+            wikiLink
+          }
+          count
+          quantity
+          attributes {
+            type
+            name
+            value
+          }
+        }
+        rewardItems {
+          item {
+            id
+            name
+            normalizedName
+            shortName
+            width
+            height
+            types
+            iconLink
+            wikiLink
+          }
+          attributes {
+            type
+            name
+            value
+          }
+          quantity
+          count
         }
       }
     }
@@ -561,7 +657,13 @@ const taskQuery = gql`
         iconLink
         wikiLink
       }
+      attributes {
+        type
+        name
+        value
+      }
       count
+      quantity
     }
     offerUnlock {
       id
@@ -605,7 +707,13 @@ const taskQuery = gql`
           iconLink
           wikiLink
         }
+        attributes {
+          type
+          name
+          value
+        }
         count
+        quantity
       }
     }
     skillLevelReward {

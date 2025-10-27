@@ -1,4 +1,4 @@
-import TaskItemImage from "./task-item-image";
+import TarkovItem from "@/app/_components/tarkov-item";
 import Achievement from "./achievement";
 import HideoutCustomization from "./hideout-customization";
 
@@ -36,7 +36,7 @@ export default function TaskRewards({
           <div className="p-2 bg-gray-950/30 flex flex-wrap gap-2">
             {rewards.items.map((containedItem) => (
               <div key={containedItem.item.id}>
-                <TaskItemImage item={containedItem.item} />
+                <TarkovItem item={containedItem.item} />
                 <div className="text-gold-one text-xs text-center text-nowrap text-clip">
                   X{containedItem.count}
                 </div>
@@ -55,7 +55,7 @@ export default function TaskRewards({
                   {offer.trader.name} Lv.{offer.level} :
                 </div>
                 <div className="ml-2">
-                  <TaskItemImage item={offer.item} />
+                  <TarkovItem item={offer.item} />
                 </div>
               </div>
             ))}
@@ -73,7 +73,7 @@ export default function TaskRewards({
                 </div>
                 <div className="ml-2 flex flex-wrap">
                   {craft.rewardItems.map((c) => (
-                    <TaskItemImage key={c.item.id} item={c.item} />
+                    <TarkovItem key={c.item.id} item={c.item} />
                   ))}
                 </div>
               </div>

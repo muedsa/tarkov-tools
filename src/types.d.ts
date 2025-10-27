@@ -73,7 +73,7 @@ type TarkovTrader = {
   imageLink: string;
 };
 
-interface TardkovTaskBasic {
+interface TarkovTaskBasic {
   id: string;
   name: string;
   normalizedName: string;
@@ -104,11 +104,10 @@ type TarkovQuestItem = {
   name: string;
   normalizedName: string;
   shortName: string;
-  types: string[];
+  description: string;
   width: number;
   height: number;
   iconLink: string;
-  wikiLink: string?;
 };
 
 type TarkovAttributeThreshold = {
@@ -253,6 +252,8 @@ type TarkovTraderStanding = {
 type TarkovContainedItem = {
   item: TarkovItem;
   count: number;
+  quantity: number;
+  attributes: TarkovItemAttribute;
 };
 
 type TarkovOfferUnlock = {
@@ -262,16 +263,9 @@ type TarkovOfferUnlock = {
   item: TarkovItem;
 };
 
-type TarkovHideoutStation = {
-  id: string;
-  name: string;
-  normalizedName: string;
-  imageLink: string;
-};
-
 type TarkovCraftUnlock = {
   id: string;
-  station: TarkovHideoutStation;
+  station: TarkovHideoutStationBasic;
   level: number;
   rewardItems: TarkovContainedItem[];
 };
@@ -306,17 +300,17 @@ type TarkovTaskRewards = {
   offerUnlock: TarkovOfferUnlock[];
   craftUnlock: TarkovCraftUnlock[];
   skillLevelReward: TarkovSkillLevel[];
-  traderUnlock: TardkovTrader[];
+  traderUnlock: TarkovTrader[];
   achievement: TarkovAchievement[];
   customization: TarkovCustomizationItem[];
 };
 
 type TarkovTaskStatusRequirement = {
-  task: TardkovTaskBasic;
+  task: TarkovTaskBasic;
   status: string[];
 };
 
-interface TarkovTraderTask extends TardkovTaskBasic {
+interface TarkovTraderTask extends TarkovTaskBasic {
   experience: number;
   wikiLink: string?;
   minPlayerLevel: number;
@@ -331,3 +325,62 @@ interface TarkovTraderTask extends TardkovTaskBasic {
   failureOutcome: TarkovTaskRewards;
   taskRequirements: TarkovTaskStatusRequirement[];
 }
+
+interface TarkovHideoutStationBasic {
+  id: string;
+  name: string;
+  normalizedName: string;
+  imageLink: string;
+}
+
+interface TarkovHideoutStation extends TarkovHideoutStationBasic {
+  levels: TarkovHideoutStationLevel[];
+  crafts: TarkovCraft[];
+}
+
+type TarkovHideoutStationLevel = {
+  id: string;
+  level: number;
+  itemRequirements: TarkovRequirementItem[];
+  stationLevelRequirements: TarkovRequirementHideoutStationLevel[];
+  traderRequirements: TarkovRequirementTrader[];
+};
+
+type TarkovRequirementItem = {
+  id: string;
+  item: TarkovItem;
+  attributes: TarkovItemAttribute[];
+  quantity: number;
+  count: number;
+};
+
+type TarkovItemAttribute = {
+  type: string;
+  name: string;
+  value: string;
+};
+
+type TarkovRequirementHideoutStationLevel = {
+  id: string;
+  station: TarkovHideoutStationBasic;
+  level: string;
+};
+
+type TarkovRequirementTrader = {
+  id: string;
+  trader: TarkovTrader;
+  requirementType: string;
+  compareMethod: string;
+  value: number;
+};
+
+type TarkovCraft = {
+  id: string;
+  station: TarkovHideoutStationBasic;
+  level: number;
+  taskUnlock: TarkovTaskBasic?;
+  duration: number;
+  requiredQuestItems: TarkovQuestItem[];
+  requiredItems: TarkovContainedItem[];
+  rewardItems: TarkovContainedItem[];
+};

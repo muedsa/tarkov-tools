@@ -18,12 +18,20 @@ export async function generateStaticParams() {
       slug: "mixed-items-tasks-page",
     },
     {
+      gameMode: "pvp",
+      slug: "hideout-stations-page",
+    },
+    {
       gameMode: "pve",
       slug: "found-in-raid-items-page",
     },
     {
       gameMode: "pve",
       slug: "mixed-items-tasks-page",
+    },
+    {
+      gameMode: "pve",
+      slug: "hideout-stations-page",
     },
   ];
 }

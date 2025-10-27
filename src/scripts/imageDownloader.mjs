@@ -203,6 +203,33 @@ for await (const task of tasks) {
   }
 }
 
+const hideoutStationsFileData = fs.readFileSync(
+  path.join(projectRootDir, `public/tarkov/data/${mode}/hideoutStations.json`),
+  "utf-8",
+);
+const { hideoutStations } = JSON.parse(hideoutStationsFileData);
+
+for await (const station of hideoutStations) {
+  await checkAndSaveImage(station.imageLink);
+
+  for await (const level of station.levels) {
+    for await (const itemRequirement of level.itemRequirements) {
+      await checkAndSaveImage(itemRequirement.item.iconLink);
+    }
+  }
+  for await (const craft of station.crafts) {
+    for await (const questItem of craft.requiredQuestItems) {
+      await checkAndSaveImage(questItem.iconLink);
+    }
+    for await (const containedItem of craft.requiredItems) {
+      await checkAndSaveImage(containedItem.item.iconLink);
+    }
+    for await (const containedItem of craft.rewardItems) {
+      await checkAndSaveImage(containedItem.item.iconLink);
+    }
+  }
+}
+
 const foundInRaidBarterItemsFileData = fs.readFileSync(
   path.join(
     projectRootDir,
