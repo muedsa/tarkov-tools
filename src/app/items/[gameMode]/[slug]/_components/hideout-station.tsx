@@ -1,4 +1,5 @@
 import TarkovItem from "@/app/_components/tarkov-item";
+import Tooltip from "@/app/_components/tooltip";
 import { handleTarkovDevImageLink } from "@/uitls/image-util";
 import Image from "next/image";
 import Link from "next/link";
@@ -24,14 +25,16 @@ export default function HideoutStation({
                   {level.stationLevelRequirements.map(
                     (stationLevelRequirement) => (
                       <div key={stationLevelRequirement.id}>
-                        <Image
-                          width={64}
-                          height={64}
-                          alt={stationLevelRequirement.station.name}
-                          src={handleTarkovDevImageLink(
-                            stationLevelRequirement.station.imageLink,
-                          )}
-                        ></Image>
+                        <Tooltip content={stationLevelRequirement.station.name}>
+                          <Image
+                            width={64}
+                            height={64}
+                            alt={stationLevelRequirement.station.name}
+                            src={handleTarkovDevImageLink(
+                              stationLevelRequirement.station.imageLink,
+                            )}
+                          ></Image>
+                        </Tooltip>
                         <div className="text-gold-one text-xs text-center text-nowrap text-clip">
                           Lv. {stationLevelRequirement.level}
                         </div>
