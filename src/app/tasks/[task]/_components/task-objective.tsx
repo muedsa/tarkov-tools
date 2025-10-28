@@ -171,7 +171,7 @@ export default function TaskObjective({
                 <div>
                   <div className="text-white">
                     使用下面
-                    {objective.usingWeapon.length > 1 ? "任意一组" : ""}
+                    {objective.usingWeaponMods.length > 1 ? "任意一组" : ""}
                     武器配件组合:
                   </div>
                   <div className="ml-2 flex flex-wrap gap-2">
