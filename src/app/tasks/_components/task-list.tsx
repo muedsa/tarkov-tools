@@ -1,18 +1,12 @@
 import path from "path";
-import { fileURLToPath } from "url";
-import { accessSync } from "fs";
+import { existsSync } from "fs";
 import Link from "next/link";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const __mdxDir = path.resolve(process.cwd(), "src", "app", "tasks", "[task]");
 
 const existMdxFile = (task: string) => {
-  const mdxFilePath = path.resolve(__dirname, `../[task]/${task}.mdx`);
-  try {
-    accessSync(mdxFilePath);
-    return true;
-  } catch {
-    return false;
-  }
+  const mdxFilePath = path.resolve(__mdxDir, `${task}.mdx`);
+  return existsSync(mdxFilePath);
 };
 
 export default function TaskListComponent({
