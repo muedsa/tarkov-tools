@@ -35,7 +35,6 @@ export default function TaskObjective({
     <div className="p-2">
       <div className="text-gold-one">
         {objective.optional ? "○ [可选] " : "● "}
-        {objective.description}
         <ObjectiveDescription objective={objective} />
         {(objective.__typename === "TaskObjectiveItem" ||
           objective.__typename === "TaskObjectiveShoot" ||
