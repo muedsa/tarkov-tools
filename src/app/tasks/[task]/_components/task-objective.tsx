@@ -1,6 +1,30 @@
 import Link from "next/link";
 import TarkovItem from "@/app/_components/tarkov-item";
-import { getTaskObjectiveItemTypeName } from "@/uitls/task";
+import {
+  getTaskObjectiveItemTypeName,
+  getTaskStatusName,
+  getTaskStatusTextCss,
+} from "@/uitls/task";
+
+function ObjectiveDescription({
+  objective,
+}: {
+  objective: TarkovTaskObjective;
+}) {
+  if (
+    !!!objective.description &&
+    objective.__typename === "TaskObjectiveTaskStatus"
+  ) {
+    return (
+      <>
+        任务“{objective.task.name}”
+        {objective.status.map((s) => getTaskStatusName(s)).join("、")}
+      </>
+    );
+  } else {
+    return <>{objective.description}</>;
+  }
+}
 
 export default function TaskObjective({
   objective,
@@ -12,6 +36,7 @@ export default function TaskObjective({
       <div className="text-gold-one">
         {objective.optional ? "○ [可选] " : "● "}
         {objective.description}
+        <ObjectiveDescription objective={objective} />
         {(objective.__typename === "TaskObjectiveItem" ||
           objective.__typename === "TaskObjectiveShoot" ||
           objective.__typename === "TaskObjectiveUseItem") &&
@@ -240,7 +265,11 @@ export default function TaskObjective({
               </div>
               <div>
                 <span className="text-white">任务状态:</span>{" "}
-                {objective.status.join("、")}
+                {objective.status.map((s) => (
+                  <span key={s} className={getTaskStatusTextCss(s)}>
+                    {getTaskStatusName(s)}
+                  </span>
+                ))}
               </div>
             </>
           )}
