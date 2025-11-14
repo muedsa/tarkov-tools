@@ -3235,6 +3235,111 @@
                 "traderUnlock": [],
                 "achievement": []
             },
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveBuildItem",
+                    "id": "5accd5e386f77463027e9397",
+                    "type": "buildWeapon",
+                    "description": "按照要求改装MP-133",
+                    "maps": [],
+                    "optional": false,
+                    "containsAll": [],
+                    "attributes": [
+                        {
+                            "name": "accuracy",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "durability",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 60
+                            }
+                        },
+                        {
+                            "name": "effectiveDistance",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "ergonomics",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 47
+                            }
+                        },
+                        {
+                            "name": "height",
+                            "requirement": {
+                                "compareMethod": "<=",
+                                "value": 1
+                            }
+                        },
+                        {
+                            "name": "magazineCapacity",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 5
+                            }
+                        },
+                        {
+                            "name": "muzzleVelocity",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "recoil",
+                            "requirement": {
+                                "compareMethod": "<=",
+                                "value": 850
+                            }
+                        },
+                        {
+                            "name": "weight",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "width",
+                            "requirement": {
+                                "compareMethod": "<=",
+                                "value": 4
+                            }
+                        }
+                    ],
+                    "item": {
+                        "id": "54491c4f4bdc2db1078b4568",
+                        "name": "MP-133 12铅径 霰弹枪",
+                        "normalizedName": "mp-133-12ga-pump-action-shotgun",
+                        "shortName": "MP-133",
+                        "description": "IzhMekh生产的多发滑膛MP-133泵动式霰弹枪是一款可靠并且实用的狩猎和自卫武器，有同类霰弹枪中少见的经典空仓挂机功能。",
+                        "types": [
+                            "gun",
+                            "wearable"
+                        ],
+                        "width": 3,
+                        "height": 1,
+                        "iconLink": "https://assets.tarkov.dev/54491c4f4bdc2db1078b4568-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-133_12ga_pump-action_shotgun"
+                    },
+                    "containsCategory": [
+                        {
+                            "id": "55818b164bdc2ddc698b456c",
+                            "name": "组合式战术设备",
+                            "normalizedName": "comb-tact-device"
+                        }
+                    ]
+                }
+            ],
             "finishRewards": {
                 "skillLevelReward": [],
                 "customization": [],
@@ -3370,111 +3475,6 @@
                             "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
                         }
                     }
-                }
-            ],
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveBuildItem",
-                    "id": "5accd5e386f77463027e9397",
-                    "type": "buildWeapon",
-                    "description": "按照要求改装MP-133",
-                    "maps": [],
-                    "optional": false,
-                    "containsAll": [],
-                    "attributes": [
-                        {
-                            "name": "accuracy",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "durability",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 60
-                            }
-                        },
-                        {
-                            "name": "effectiveDistance",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "ergonomics",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 47
-                            }
-                        },
-                        {
-                            "name": "height",
-                            "requirement": {
-                                "compareMethod": "<=",
-                                "value": 1
-                            }
-                        },
-                        {
-                            "name": "magazineCapacity",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 5
-                            }
-                        },
-                        {
-                            "name": "muzzleVelocity",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "recoil",
-                            "requirement": {
-                                "compareMethod": "<=",
-                                "value": 850
-                            }
-                        },
-                        {
-                            "name": "weight",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "width",
-                            "requirement": {
-                                "compareMethod": "<=",
-                                "value": 4
-                            }
-                        }
-                    ],
-                    "item": {
-                        "id": "54491c4f4bdc2db1078b4568",
-                        "name": "MP-133 12铅径 霰弹枪",
-                        "normalizedName": "mp-133-12ga-pump-action-shotgun",
-                        "shortName": "MP-133",
-                        "description": "IzhMekh生产的多发滑膛MP-133泵动式霰弹枪是一款可靠并且实用的狩猎和自卫武器，有同类霰弹枪中少见的经典空仓挂机功能。",
-                        "types": [
-                            "gun",
-                            "wearable"
-                        ],
-                        "width": 3,
-                        "height": 1,
-                        "iconLink": "https://assets.tarkov.dev/54491c4f4bdc2db1078b4568-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-133_12ga_pump-action_shotgun"
-                    },
-                    "containsCategory": [
-                        {
-                            "id": "55818b164bdc2ddc698b456c",
-                            "name": "组合式战术设备",
-                            "normalizedName": "comb-tact-device"
-                        }
-                    ]
                 }
             ]
         },
@@ -17522,6 +17522,11 @@
                             "id": "5714dc692459777137212e12",
                             "name": "塔科夫街区",
                             "normalizedName": "streets-of-tarkov"
+                        },
+                        {
+                            "id": "65b8d6f5cdde2479cb2a3125",
+                            "name": "中心区 21+",
+                            "normalizedName": "ground-zero-21"
                         }
                     ]
                 }
@@ -23815,100 +23820,6 @@
                 "traderUnlock": [],
                 "achievement": []
             },
-            "finishRewards": {
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "customization": [],
-                "craftUnlock": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.01,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 12300,
-                        "quantity": 12300,
-                        "item": {
-                            "id": "5449016a4bdc2d6f028b456f",
-                            "name": "卢布",
-                            "normalizedName": "roubles",
-                            "shortName": "卢布",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 3,
-                        "quantity": 3,
-                        "item": {
-                            "id": "5e2aedd986f7746d404f3aa4",
-                            "name": "GreenBat锂电池",
-                            "normalizedName": "greenbat-lithium-battery",
-                            "shortName": "GreenBat ",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5e2aedd986f7746d404f3aa4-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GreenBat_lithium_battery"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 2,
-                        "quantity": 2,
-                        "item": {
-                            "id": "590a3c0a86f774385a33c450",
-                            "name": "火花塞",
-                            "normalizedName": "spark-plug",
-                            "shortName": "火花塞",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/590a3c0a86f774385a33c450-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spark_plug"
-                        }
-                    }
-                ]
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "686404d348e7bb4146002cac",
-                        "name": "Friend from Norvinsk - Part 5",
-                        "normalizedName": "friend-from-norvinsk-part-5",
-                        "taskImageLink": "https://assets.tarkov.dev/686404d348e7bb4146002cac.webp",
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                }
-            ],
             "objectives": [
                 {
                     "__typename": "TaskObjectiveBuildItem",
@@ -24011,6 +23922,100 @@
                             "normalizedName": "silencer"
                         }
                     ]
+                }
+            ],
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.01,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 12300,
+                        "quantity": 12300,
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 3,
+                        "quantity": 3,
+                        "item": {
+                            "id": "5e2aedd986f7746d404f3aa4",
+                            "name": "GreenBat锂电池",
+                            "normalizedName": "greenbat-lithium-battery",
+                            "shortName": "GreenBat ",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5e2aedd986f7746d404f3aa4-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GreenBat_lithium_battery"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 2,
+                        "quantity": 2,
+                        "item": {
+                            "id": "590a3c0a86f774385a33c450",
+                            "name": "火花塞",
+                            "normalizedName": "spark-plug",
+                            "shortName": "火花塞",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/590a3c0a86f774385a33c450-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spark_plug"
+                        }
+                    }
+                ]
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "686404d348e7bb4146002cac",
+                        "name": "Friend from Norvinsk - Part 5",
+                        "normalizedName": "friend-from-norvinsk-part-5",
+                        "taskImageLink": "https://assets.tarkov.dev/686404d348e7bb4146002cac.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
                 }
             ]
         },
@@ -26331,6 +26336,116 @@
                 "traderUnlock": [],
                 "achievement": []
             },
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveBuildItem",
+                    "id": "5accde3686f7740cea1b7ec2",
+                    "type": "buildWeapon",
+                    "description": "按照要求改装MP5",
+                    "maps": [],
+                    "optional": false,
+                    "containsAll": [],
+                    "attributes": [
+                        {
+                            "name": "accuracy",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "durability",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 60
+                            }
+                        },
+                        {
+                            "name": "effectiveDistance",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 200
+                            }
+                        },
+                        {
+                            "name": "ergonomics",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 45
+                            }
+                        },
+                        {
+                            "name": "height",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "magazineCapacity",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 50
+                            }
+                        },
+                        {
+                            "name": "muzzleVelocity",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "recoil",
+                            "requirement": {
+                                "compareMethod": "<=",
+                                "value": 210
+                            }
+                        },
+                        {
+                            "name": "weight",
+                            "requirement": {
+                                "compareMethod": "<=",
+                                "value": 4
+                            }
+                        },
+                        {
+                            "name": "width",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        }
+                    ],
+                    "item": {
+                        "id": "5926bb2186f7744b1c6c6e60",
+                        "name": "HK MP5N 9x19 冲锋枪（海军型）",
+                        "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst",
+                        "shortName": "MP5",
+                        "description": "HK MP5微型冲锋枪的海军3连点版，特点是可在自动3连发后停止射击。作为一款广受好评的微型冲锋枪，起初主要被GSG9和世界各国类似部队使用，后因频繁出现在影视和游戏中而名声大噪。",
+                        "types": [
+                            "gun",
+                            "wearable"
+                        ],
+                        "width": 1,
+                        "height": 1,
+                        "iconLink": "https://assets.tarkov.dev/5926bb2186f7744b1c6c6e60-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/HK_MP5_9x19_submachine_gun_(Navy_3_Round_Burst)"
+                    },
+                    "containsCategory": [
+                        {
+                            "id": "550aa4cd4bdc2dd8348b456c",
+                            "name": "消音器",
+                            "normalizedName": "silencer"
+                        },
+                        {
+                            "id": "55818b164bdc2ddc698b456c",
+                            "name": "组合式战术设备",
+                            "normalizedName": "comb-tact-device"
+                        }
+                    ]
+                }
+            ],
             "finishRewards": {
                 "skillLevelReward": [],
                 "customization": [],
@@ -26447,116 +26562,6 @@
                             "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
                         }
                     }
-                }
-            ],
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveBuildItem",
-                    "id": "5accde3686f7740cea1b7ec2",
-                    "type": "buildWeapon",
-                    "description": "按照要求改装MP5",
-                    "maps": [],
-                    "optional": false,
-                    "containsAll": [],
-                    "attributes": [
-                        {
-                            "name": "accuracy",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "durability",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 60
-                            }
-                        },
-                        {
-                            "name": "effectiveDistance",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 200
-                            }
-                        },
-                        {
-                            "name": "ergonomics",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 45
-                            }
-                        },
-                        {
-                            "name": "height",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "magazineCapacity",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 50
-                            }
-                        },
-                        {
-                            "name": "muzzleVelocity",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "recoil",
-                            "requirement": {
-                                "compareMethod": "<=",
-                                "value": 210
-                            }
-                        },
-                        {
-                            "name": "weight",
-                            "requirement": {
-                                "compareMethod": "<=",
-                                "value": 4
-                            }
-                        },
-                        {
-                            "name": "width",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        }
-                    ],
-                    "item": {
-                        "id": "5926bb2186f7744b1c6c6e60",
-                        "name": "HK MP5N 9x19 冲锋枪（海军型）",
-                        "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst",
-                        "shortName": "MP5",
-                        "description": "HK MP5微型冲锋枪的海军3连点版，特点是可在自动3连发后停止射击。作为一款广受好评的微型冲锋枪，起初主要被GSG9和世界各国类似部队使用，后因频繁出现在影视和游戏中而名声大噪。",
-                        "types": [
-                            "gun",
-                            "wearable"
-                        ],
-                        "width": 1,
-                        "height": 1,
-                        "iconLink": "https://assets.tarkov.dev/5926bb2186f7744b1c6c6e60-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/HK_MP5_9x19_submachine_gun_(Navy_3_Round_Burst)"
-                    },
-                    "containsCategory": [
-                        {
-                            "id": "550aa4cd4bdc2dd8348b456c",
-                            "name": "消音器",
-                            "normalizedName": "silencer"
-                        },
-                        {
-                            "id": "55818b164bdc2ddc698b456c",
-                            "name": "组合式战术设备",
-                            "normalizedName": "comb-tact-device"
-                        }
-                    ]
                 }
             ]
         },
@@ -29373,6 +29378,111 @@
                 "traderUnlock": [],
                 "achievement": []
             },
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveBuildItem",
+                    "id": "63987404e5163c24b3029356",
+                    "type": "buildWeapon",
+                    "description": "按照要求改装OP-SKS",
+                    "maps": [],
+                    "optional": false,
+                    "containsAll": [],
+                    "attributes": [
+                        {
+                            "name": "accuracy",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "durability",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 60
+                            }
+                        },
+                        {
+                            "name": "effectiveDistance",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 600
+                            }
+                        },
+                        {
+                            "name": "ergonomics",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 35
+                            }
+                        },
+                        {
+                            "name": "height",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "magazineCapacity",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 20
+                            }
+                        },
+                        {
+                            "name": "muzzleVelocity",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "recoil",
+                            "requirement": {
+                                "compareMethod": "<=",
+                                "value": 350
+                            }
+                        },
+                        {
+                            "name": "weight",
+                            "requirement": {
+                                "compareMethod": "<=",
+                                "value": 6
+                            }
+                        },
+                        {
+                            "name": "width",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        }
+                    ],
+                    "item": {
+                        "id": "587e02ff24597743df3deaeb",
+                        "name": "西蒙诺夫 OP-SKS 7.62x39 卡宾枪",
+                        "normalizedName": "molot-arms-simonov-op-sks-762x39-carbine",
+                        "shortName": "OP-SKS",
+                        "description": "Molot OP-SKS卡宾枪设计用于装填7.62×39这一最流行的弹药，重量和尺寸使卡宾枪符合人体工程学，适合任何年龄和身高的射手。\n它已经被用于各种传统的俄罗斯狩猎超过50年。对非洲、东南亚、中美洲、中东的食肉动物进行过测试。",
+                        "types": [
+                            "gun",
+                            "wearable"
+                        ],
+                        "width": 2,
+                        "height": 1,
+                        "iconLink": "https://assets.tarkov.dev/587e02ff24597743df3deaeb-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Molot_Arms_Simonov_OP-SKS_7.62x39_carbine"
+                    },
+                    "containsCategory": [
+                        {
+                            "id": "550aa4cd4bdc2dd8348b456c",
+                            "name": "消音器",
+                            "normalizedName": "silencer"
+                        }
+                    ]
+                }
+            ],
             "finishRewards": {
                 "skillLevelReward": [],
                 "customization": [],
@@ -29547,111 +29657,6 @@
                             "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
                         }
                     }
-                }
-            ],
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveBuildItem",
-                    "id": "63987404e5163c24b3029356",
-                    "type": "buildWeapon",
-                    "description": "按照要求改装OP-SKS",
-                    "maps": [],
-                    "optional": false,
-                    "containsAll": [],
-                    "attributes": [
-                        {
-                            "name": "accuracy",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "durability",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 60
-                            }
-                        },
-                        {
-                            "name": "effectiveDistance",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 600
-                            }
-                        },
-                        {
-                            "name": "ergonomics",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 35
-                            }
-                        },
-                        {
-                            "name": "height",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "magazineCapacity",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 20
-                            }
-                        },
-                        {
-                            "name": "muzzleVelocity",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "recoil",
-                            "requirement": {
-                                "compareMethod": "<=",
-                                "value": 350
-                            }
-                        },
-                        {
-                            "name": "weight",
-                            "requirement": {
-                                "compareMethod": "<=",
-                                "value": 6
-                            }
-                        },
-                        {
-                            "name": "width",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        }
-                    ],
-                    "item": {
-                        "id": "587e02ff24597743df3deaeb",
-                        "name": "西蒙诺夫 OP-SKS 7.62x39 卡宾枪",
-                        "normalizedName": "molot-arms-simonov-op-sks-762x39-carbine",
-                        "shortName": "OP-SKS",
-                        "description": "Molot OP-SKS卡宾枪设计用于装填7.62×39这一最流行的弹药，重量和尺寸使卡宾枪符合人体工程学，适合任何年龄和身高的射手。\n它已经被用于各种传统的俄罗斯狩猎超过50年。对非洲、东南亚、中美洲、中东的食肉动物进行过测试。",
-                        "types": [
-                            "gun",
-                            "wearable"
-                        ],
-                        "width": 2,
-                        "height": 1,
-                        "iconLink": "https://assets.tarkov.dev/587e02ff24597743df3deaeb-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Molot_Arms_Simonov_OP-SKS_7.62x39_carbine"
-                    },
-                    "containsCategory": [
-                        {
-                            "id": "550aa4cd4bdc2dd8348b456c",
-                            "name": "消音器",
-                            "normalizedName": "silencer"
-                        }
-                    ]
                 }
             ]
         },
@@ -31717,108 +31722,6 @@
                 "traderUnlock": [],
                 "achievement": []
             },
-            "finishRewards": {
-                "skillLevelReward": [],
-                "customization": [],
-                "craftUnlock": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.01,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 300,
-                        "quantity": 300,
-                        "item": {
-                            "id": "5696686a4bdc2da3298b456a",
-                            "name": "美元",
-                            "normalizedName": "dollars",
-                            "shortName": "美元",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 3,
-                        "quantity": 3,
-                        "item": {
-                            "id": "5d1c819a86f774771b0acd6c",
-                            "name": "武器零件",
-                            "normalizedName": "weapon-parts",
-                            "shortName": "武器零件",
-                            "width": 2,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
-                        }
-                    }
-                ],
-                "offerUnlock": [
-                    {
-                        "id": "63a19b5efcae11642e50f9b5",
-                        "level": 1,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        },
-                        "item": {
-                            "id": "5aafbde786f774389d0cbc0f",
-                            "name": "弹药箱",
-                            "normalizedName": "ammunition-case",
-                            "shortName": "弹药箱",
-                            "width": 2,
-                            "height": 2,
-                            "types": [
-                                "barter",
-                                "container",
-                                "markedOnly"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5aafbde786f774389d0cbc0f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ammunition_case"
-                        }
-                    }
-                ]
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "639872f9decada40426d3447",
-                        "name": "枪匠 - 4",
-                        "normalizedName": "gunsmith-part-4",
-                        "taskImageLink": "https://assets.tarkov.dev/639872f9decada40426d3447.webp",
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                }
-            ],
             "objectives": [
                 {
                     "__typename": "TaskObjectiveBuildItem",
@@ -31942,6 +31845,108 @@
                             "normalizedName": "foregrip"
                         }
                     ]
+                }
+            ],
+            "finishRewards": {
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.01,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 300,
+                        "quantity": 300,
+                        "item": {
+                            "id": "5696686a4bdc2da3298b456a",
+                            "name": "美元",
+                            "normalizedName": "dollars",
+                            "shortName": "美元",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 3,
+                        "quantity": 3,
+                        "item": {
+                            "id": "5d1c819a86f774771b0acd6c",
+                            "name": "武器零件",
+                            "normalizedName": "weapon-parts",
+                            "shortName": "武器零件",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "63a19b5efcae11642e50f9b5",
+                        "level": 1,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        },
+                        "item": {
+                            "id": "5aafbde786f774389d0cbc0f",
+                            "name": "弹药箱",
+                            "normalizedName": "ammunition-case",
+                            "shortName": "弹药箱",
+                            "width": 2,
+                            "height": 2,
+                            "types": [
+                                "barter",
+                                "container",
+                                "markedOnly"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5aafbde786f774389d0cbc0f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ammunition_case"
+                        }
+                    }
+                ]
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "639872f9decada40426d3447",
+                        "name": "枪匠 - 4",
+                        "normalizedName": "gunsmith-part-4",
+                        "taskImageLink": "https://assets.tarkov.dev/639872f9decada40426d3447.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
                 }
             ]
         },
@@ -40780,16 +40785,16 @@
                         "count": 2,
                         "quantity": 2,
                         "item": {
-                            "id": "62874ff7a4a8431af4739d25",
-                            "name": "柯尔特 M45A1 .45 ACP 手枪 Mew-mew",
-                            "normalizedName": "colt-m45a1-45-acp-pistol-mew-mew",
-                            "shortName": "M45A1 Mew-mew",
+                            "id": "5f6762e964af6a2aa319deeb",
+                            "name": "柯尔特 M45A1 .45 ACP 手枪 默认",
+                            "normalizedName": "colt-m45a1-45-acp-pistol-default",
+                            "shortName": "M45A1 默认",
                             "width": 2,
                             "height": 1,
                             "types": [
                                 "preset"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/62874ff7a4a8431af4739d25-icon.webp",
+                            "iconLink": "https://assets.tarkov.dev/5f6762e964af6a2aa319deeb-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Colt_M45A1_.45_ACP_pistol"
                         }
                     },
@@ -49405,6 +49410,140 @@
                 "traderUnlock": [],
                 "achievement": []
             },
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveBuildItem",
+                    "id": "5ae3550b86f7741cf44fc799",
+                    "type": "buildWeapon",
+                    "description": "按照要求改装AKM",
+                    "maps": [],
+                    "optional": false,
+                    "attributes": [
+                        {
+                            "name": "accuracy",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "durability",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 60
+                            }
+                        },
+                        {
+                            "name": "effectiveDistance",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 800
+                            }
+                        },
+                        {
+                            "name": "ergonomics",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 40
+                            }
+                        },
+                        {
+                            "name": "height",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "magazineCapacity",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "muzzleVelocity",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "recoil",
+                            "requirement": {
+                                "compareMethod": "<=",
+                                "value": 400
+                            }
+                        },
+                        {
+                            "name": "weight",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "width",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        }
+                    ],
+                    "item": {
+                        "id": "59d6088586f774275f37482f",
+                        "name": "AKM 7.62×39 突击步枪",
+                        "normalizedName": "kalashnikov-akm-762x39-assault-rifle",
+                        "shortName": "AKM",
+                        "description": "AKM（即俄语“卡拉什尼科夫自动步枪改进型”的缩写）7.62x39 毫米突击步枪于 1959 年装备苏军，替换地面部队装备的早期型号 AK 步枪。改进型号与早期 AK 的主要区别在于提升精度、降低整体重量；换装新款枪托、扳机与阻铁组件；加装全新膛口防跳装置。系列升级有效提升了 AKM 的作战效能。",
+                        "types": [
+                            "gun",
+                            "wearable"
+                        ],
+                        "width": 4,
+                        "height": 1,
+                        "iconLink": "https://assets.tarkov.dev/59d6088586f774275f37482f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AKM_7.62x39_assault_rifle"
+                    },
+                    "containsAll": [
+                        {
+                            "id": "59f8a37386f7747af3328f06",
+                            "name": "Fortis Shift战术握把",
+                            "normalizedName": "fortis-shift-tactical-foregrip",
+                            "shortName": "Shift",
+                            "description": "Shift垂直握把将形状与功能结合了起来。其混合式的设计不论是作为标准前握把，还是使用拇指在上的技巧时充当舒适的靠手都能发挥作用。这个握把能让使用者操作起来充满自信，同时其符合人体习惯的设计能够让作战人员在任何时刻都能轻松自如的使用步枪。",
+                            "types": [
+                                "mods"
+                            ],
+                            "width": 1,
+                            "height": 1,
+                            "iconLink": "https://assets.tarkov.dev/59f8a37386f7747af3328f06-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fortis_Shift_tactical_foregrip"
+                        },
+                        {
+                            "id": "59d6272486f77466146386ff",
+                            "name": "Pmag 30 AK/AKM GEN M3 7.62x39 30发AK兼容弹匣",
+                            "normalizedName": "ak-762x39-magpul-pmag-30-gen-m3-30-round-magazine",
+                            "shortName": "GEN M3",
+                            "description": "Magpul 为 7.62x39 口径 AK 系列以及兼容武器系统而设计的 PMag GEN M3 弹匣，30 发容量。可装填 .366 TKM 弹药用于对应的民用武器，只是不要弄混弹药了。",
+                            "types": [
+                                "mods"
+                            ],
+                            "width": 1,
+                            "height": 2,
+                            "iconLink": "https://assets.tarkov.dev/59d6272486f77466146386ff-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AK_7.62x39_Magpul_PMAG_30_GEN_M3_30-round_magazine"
+                        }
+                    ],
+                    "containsCategory": [
+                        {
+                            "id": "550aa4cd4bdc2dd8348b456c",
+                            "name": "消音器",
+                            "normalizedName": "silencer"
+                        }
+                    ]
+                }
+            ],
             "finishRewards": {
                 "skillLevelReward": [],
                 "customization": [],
@@ -49539,140 +49678,6 @@
                             "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
                         }
                     }
-                }
-            ],
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveBuildItem",
-                    "id": "5ae3550b86f7741cf44fc799",
-                    "type": "buildWeapon",
-                    "description": "按照要求改装AKM",
-                    "maps": [],
-                    "optional": false,
-                    "attributes": [
-                        {
-                            "name": "accuracy",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "durability",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 60
-                            }
-                        },
-                        {
-                            "name": "effectiveDistance",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 800
-                            }
-                        },
-                        {
-                            "name": "ergonomics",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 40
-                            }
-                        },
-                        {
-                            "name": "height",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "magazineCapacity",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "muzzleVelocity",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "recoil",
-                            "requirement": {
-                                "compareMethod": "<=",
-                                "value": 400
-                            }
-                        },
-                        {
-                            "name": "weight",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "width",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        }
-                    ],
-                    "item": {
-                        "id": "59d6088586f774275f37482f",
-                        "name": "AKM 7.62×39 突击步枪",
-                        "normalizedName": "kalashnikov-akm-762x39-assault-rifle",
-                        "shortName": "AKM",
-                        "description": "AKM（即俄语“卡拉什尼科夫自动步枪改进型”的缩写）7.62x39 毫米突击步枪于 1959 年装备苏军，替换地面部队装备的早期型号 AK 步枪。改进型号与早期 AK 的主要区别在于提升精度、降低整体重量；换装新款枪托、扳机与阻铁组件；加装全新膛口防跳装置。系列升级有效提升了 AKM 的作战效能。",
-                        "types": [
-                            "gun",
-                            "wearable"
-                        ],
-                        "width": 4,
-                        "height": 1,
-                        "iconLink": "https://assets.tarkov.dev/59d6088586f774275f37482f-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AKM_7.62x39_assault_rifle"
-                    },
-                    "containsAll": [
-                        {
-                            "id": "59f8a37386f7747af3328f06",
-                            "name": "Fortis Shift战术握把",
-                            "normalizedName": "fortis-shift-tactical-foregrip",
-                            "shortName": "Shift",
-                            "description": "Shift垂直握把将形状与功能结合了起来。其混合式的设计不论是作为标准前握把，还是使用拇指在上的技巧时充当舒适的靠手都能发挥作用。这个握把能让使用者操作起来充满自信，同时其符合人体习惯的设计能够让作战人员在任何时刻都能轻松自如的使用步枪。",
-                            "types": [
-                                "mods"
-                            ],
-                            "width": 1,
-                            "height": 1,
-                            "iconLink": "https://assets.tarkov.dev/59f8a37386f7747af3328f06-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fortis_Shift_tactical_foregrip"
-                        },
-                        {
-                            "id": "59d6272486f77466146386ff",
-                            "name": "Pmag 30 AK/AKM GEN M3 7.62x39 30发AK兼容弹匣",
-                            "normalizedName": "ak-762x39-magpul-pmag-30-gen-m3-30-round-magazine",
-                            "shortName": "GEN M3",
-                            "description": "Magpul 为 7.62x39 口径 AK 系列以及兼容武器系统而设计的 PMag GEN M3 弹匣，30 发容量。可装填 .366 TKM 弹药用于对应的民用武器，只是不要弄混弹药了。",
-                            "types": [
-                                "mods"
-                            ],
-                            "width": 1,
-                            "height": 2,
-                            "iconLink": "https://assets.tarkov.dev/59d6272486f77466146386ff-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AK_7.62x39_Magpul_PMAG_30_GEN_M3_30-round_magazine"
-                        }
-                    ],
-                    "containsCategory": [
-                        {
-                            "id": "550aa4cd4bdc2dd8348b456c",
-                            "name": "消音器",
-                            "normalizedName": "silencer"
-                        }
-                    ]
                 }
             ]
         },
@@ -58919,6 +58924,111 @@
                 "traderUnlock": [],
                 "achievement": []
             },
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveBuildItem",
+                    "id": "5accdfdb86f77412265cbfc9",
+                    "type": "buildWeapon",
+                    "description": "按照要求改装M4A1",
+                    "maps": [],
+                    "optional": false,
+                    "containsAll": [],
+                    "attributes": [
+                        {
+                            "name": "accuracy",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "durability",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 60
+                            }
+                        },
+                        {
+                            "name": "effectiveDistance",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 800
+                            }
+                        },
+                        {
+                            "name": "ergonomics",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 47
+                            }
+                        },
+                        {
+                            "name": "height",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "magazineCapacity",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 60
+                            }
+                        },
+                        {
+                            "name": "muzzleVelocity",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "recoil",
+                            "requirement": {
+                                "compareMethod": "<=",
+                                "value": 300
+                            }
+                        },
+                        {
+                            "name": "weight",
+                            "requirement": {
+                                "compareMethod": "<=",
+                                "value": 3.8
+                            }
+                        },
+                        {
+                            "name": "width",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        }
+                    ],
+                    "item": {
+                        "id": "5447a9cd4bdc2dbd208b4567",
+                        "name": "柯尔特 M4A1 5.56x45 卡宾枪",
+                        "normalizedName": "colt-m4a1-556x45-assault-rifle",
+                        "shortName": "M4A1",
+                        "description": "柯尔特M4A1是美国基于AR-15平台进行设计，使用5.56x45 NATO弹的突击步枪（卡宾枪）。最初它的主要目标群体是载具乘员和火力小组，他们需要比标准全尺寸步枪更轻更紧凑的武器。不过US SOCOM（美国特种作战司令部）很快就决定让所有下属部队装备M4A1，随后M4A1成为美国陆军和海军陆战队的制式武器。",
+                        "types": [
+                            "gun",
+                            "wearable"
+                        ],
+                        "width": 1,
+                        "height": 1,
+                        "iconLink": "https://assets.tarkov.dev/5447a9cd4bdc2dbd208b4567-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Colt_M4A1_5.56x45_assault_rifle"
+                    },
+                    "containsCategory": [
+                        {
+                            "id": "550aa4cd4bdc2dd8348b456c",
+                            "name": "消音器",
+                            "normalizedName": "silencer"
+                        }
+                    ]
+                }
+            ],
             "finishRewards": {
                 "skillLevelReward": [],
                 "customization": [],
@@ -59035,111 +59145,6 @@
                             "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
                         }
                     }
-                }
-            ],
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveBuildItem",
-                    "id": "5accdfdb86f77412265cbfc9",
-                    "type": "buildWeapon",
-                    "description": "按照要求改装M4A1",
-                    "maps": [],
-                    "optional": false,
-                    "containsAll": [],
-                    "attributes": [
-                        {
-                            "name": "accuracy",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "durability",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 60
-                            }
-                        },
-                        {
-                            "name": "effectiveDistance",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 800
-                            }
-                        },
-                        {
-                            "name": "ergonomics",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 47
-                            }
-                        },
-                        {
-                            "name": "height",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "magazineCapacity",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 60
-                            }
-                        },
-                        {
-                            "name": "muzzleVelocity",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "recoil",
-                            "requirement": {
-                                "compareMethod": "<=",
-                                "value": 300
-                            }
-                        },
-                        {
-                            "name": "weight",
-                            "requirement": {
-                                "compareMethod": "<=",
-                                "value": 3.8
-                            }
-                        },
-                        {
-                            "name": "width",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        }
-                    ],
-                    "item": {
-                        "id": "5447a9cd4bdc2dbd208b4567",
-                        "name": "柯尔特 M4A1 5.56x45 卡宾枪",
-                        "normalizedName": "colt-m4a1-556x45-assault-rifle",
-                        "shortName": "M4A1",
-                        "description": "柯尔特M4A1是美国基于AR-15平台进行设计，使用5.56x45 NATO弹的突击步枪（卡宾枪）。最初它的主要目标群体是载具乘员和火力小组，他们需要比标准全尺寸步枪更轻更紧凑的武器。不过US SOCOM（美国特种作战司令部）很快就决定让所有下属部队装备M4A1，随后M4A1成为美国陆军和海军陆战队的制式武器。",
-                        "types": [
-                            "gun",
-                            "wearable"
-                        ],
-                        "width": 1,
-                        "height": 1,
-                        "iconLink": "https://assets.tarkov.dev/5447a9cd4bdc2dbd208b4567-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Colt_M4A1_5.56x45_assault_rifle"
-                    },
-                    "containsCategory": [
-                        {
-                            "id": "550aa4cd4bdc2dd8348b456c",
-                            "name": "消音器",
-                            "normalizedName": "silencer"
-                        }
-                    ]
                 }
             ]
         },
@@ -69510,88 +69515,6 @@
                 "traderUnlock": [],
                 "achievement": []
             },
-            "finishRewards": {
-                "skillLevelReward": [],
-                "customization": [],
-                "craftUnlock": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.04,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 155000,
-                        "quantity": 155000,
-                        "item": {
-                            "id": "5449016a4bdc2d6f028b456f",
-                            "name": "卢布",
-                            "normalizedName": "roubles",
-                            "shortName": "卢布",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
-                        }
-                    }
-                ],
-                "offerUnlock": [
-                    {
-                        "id": "676d5b242401767e2bd05b3d",
-                        "level": 2,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        },
-                        "item": {
-                            "id": "67600929bd0a0549d70993f6",
-                            "name": "防弹插板箱",
-                            "normalizedName": "ballistic-plate-case",
-                            "shortName": "插板",
-                            "width": 4,
-                            "height": 2,
-                            "types": [
-                                "container"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/67600929bd0a0549d70993f6-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ballistic_plate_case"
-                        }
-                    }
-                ]
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5ac244eb86f7741356335af1",
-                        "name": "枪匠 - 7",
-                        "normalizedName": "gunsmith-part-7",
-                        "taskImageLink": "https://assets.tarkov.dev/5ac244eb86f7741356335af1.webp",
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                }
-            ],
             "objectives": [
                 {
                     "__typename": "TaskObjectiveBuildItem",
@@ -70105,6 +70028,88 @@
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Glock_9x19_Magpul_PMAG_GL9_21-round_magazine"
                         }
                     ]
+                }
+            ],
+            "finishRewards": {
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.04,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 155000,
+                        "quantity": 155000,
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "676d5b242401767e2bd05b3d",
+                        "level": 2,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        },
+                        "item": {
+                            "id": "67600929bd0a0549d70993f6",
+                            "name": "防弹插板箱",
+                            "normalizedName": "ballistic-plate-case",
+                            "shortName": "插板",
+                            "width": 4,
+                            "height": 2,
+                            "types": [
+                                "container"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/67600929bd0a0549d70993f6-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ballistic_plate_case"
+                        }
+                    }
+                ]
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5ac244eb86f7741356335af1",
+                        "name": "枪匠 - 7",
+                        "normalizedName": "gunsmith-part-7",
+                        "taskImageLink": "https://assets.tarkov.dev/5ac244eb86f7741356335af1.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
                 }
             ]
         },
@@ -79225,129 +79230,6 @@
                 "traderUnlock": [],
                 "achievement": []
             },
-            "finishRewards": {
-                "skillLevelReward": [],
-                "customization": [],
-                "craftUnlock": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.02,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 300,
-                        "quantity": 300,
-                        "item": {
-                            "id": "569668774bdc2da2298b4568",
-                            "name": "欧元",
-                            "normalizedName": "euros",
-                            "shortName": "欧元",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/569668774bdc2da2298b4568-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Euros"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 2,
-                        "quantity": 2,
-                        "item": {
-                            "id": "5d6fc87386f77449db3db94e",
-                            "name": "“Hawk”火药",
-                            "normalizedName": "gunpowder-hawk",
-                            "shortName": "火药",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5d6fc87386f77449db3db94e-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunpowder_%22Hawk%22"
-                        }
-                    }
-                ],
-                "offerUnlock": [
-                    {
-                        "id": "63a19bebfcae11642e50f9b9",
-                        "level": 3,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        },
-                        "item": {
-                            "id": "5af08cc686f77424a61595f2",
-                            "name": "柯尔特 M4A1 5.56x45 卡宾枪 SOPMOD I",
-                            "normalizedName": "colt-m4a1-556x45-assault-rifle-sopmod-i",
-                            "shortName": "M4A1 SOPMOD I",
-                            "width": 5,
-                            "height": 2,
-                            "types": [
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5af08cc686f77424a61595f2-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Colt_M4A1_5.56x45_assault_rifle"
-                        }
-                    },
-                    {
-                        "id": "63a19bf52c2d4f2e4807808f",
-                        "level": 3,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        },
-                        "item": {
-                            "id": "5cc86832d7f00c000d3a6e6c",
-                            "name": "5.7x28毫米 R37.F",
-                            "normalizedName": "57x28mm-r37f",
-                            "shortName": "R37.F",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "ammo"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5cc86832d7f00c000d3a6e6c-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.7x28mm_R37.F"
-                        }
-                    }
-                ]
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5ae3277186f7745973054106",
-                        "name": "枪匠 - 8",
-                        "normalizedName": "gunsmith-part-8",
-                        "taskImageLink": "https://assets.tarkov.dev/5ae3277186f7745973054106.webp",
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                }
-            ],
             "objectives": [
                 {
                     "__typename": "TaskObjectiveBuildItem",
@@ -79481,6 +79363,129 @@
                             "normalizedName": "comb-tact-device"
                         }
                     ]
+                }
+            ],
+            "finishRewards": {
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.02,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 300,
+                        "quantity": 300,
+                        "item": {
+                            "id": "569668774bdc2da2298b4568",
+                            "name": "欧元",
+                            "normalizedName": "euros",
+                            "shortName": "欧元",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/569668774bdc2da2298b4568-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Euros"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 2,
+                        "quantity": 2,
+                        "item": {
+                            "id": "5d6fc87386f77449db3db94e",
+                            "name": "“Hawk”火药",
+                            "normalizedName": "gunpowder-hawk",
+                            "shortName": "火药",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d6fc87386f77449db3db94e-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gunpowder_%22Hawk%22"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "63a19bebfcae11642e50f9b9",
+                        "level": 3,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        },
+                        "item": {
+                            "id": "5af08cc686f77424a61595f2",
+                            "name": "柯尔特 M4A1 5.56x45 卡宾枪 SOPMOD I",
+                            "normalizedName": "colt-m4a1-556x45-assault-rifle-sopmod-i",
+                            "shortName": "M4A1 SOPMOD I",
+                            "width": 5,
+                            "height": 2,
+                            "types": [
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5af08cc686f77424a61595f2-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Colt_M4A1_5.56x45_assault_rifle"
+                        }
+                    },
+                    {
+                        "id": "63a19bf52c2d4f2e4807808f",
+                        "level": 3,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        },
+                        "item": {
+                            "id": "5cc86832d7f00c000d3a6e6c",
+                            "name": "5.7x28毫米 R37.F",
+                            "normalizedName": "57x28mm-r37f",
+                            "shortName": "R37.F",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "ammo"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5cc86832d7f00c000d3a6e6c-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.7x28mm_R37.F"
+                        }
+                    }
+                ]
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5ae3277186f7745973054106",
+                        "name": "枪匠 - 8",
+                        "normalizedName": "gunsmith-part-8",
+                        "taskImageLink": "https://assets.tarkov.dev/5ae3277186f7745973054106.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
                 }
             ]
         },
@@ -84771,108 +84776,6 @@
                 "traderUnlock": [],
                 "achievement": []
             },
-            "finishRewards": {
-                "skillLevelReward": [],
-                "customization": [],
-                "craftUnlock": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.02,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 5,
-                        "quantity": 5,
-                        "item": {
-                            "id": "5c06779c86f77426e00dd782",
-                            "name": "电线",
-                            "normalizedName": "bundle-of-wires",
-                            "shortName": "电线",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5c06779c86f77426e00dd782-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 2,
-                        "quantity": 2,
-                        "item": {
-                            "id": "61bf7b6302b3924be92fa8c3",
-                            "name": "金属零件",
-                            "normalizedName": "metal-spare-parts",
-                            "shortName": "金属零件",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/61bf7b6302b3924be92fa8c3-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
-                        }
-                    }
-                ],
-                "offerUnlock": [
-                    {
-                        "id": "63a19c1ed6d4651e53602aeb",
-                        "level": 2,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        },
-                        "item": {
-                            "id": "5aafbde786f774389d0cbc0f",
-                            "name": "弹药箱",
-                            "normalizedName": "ammunition-case",
-                            "shortName": "弹药箱",
-                            "width": 2,
-                            "height": 2,
-                            "types": [
-                                "barter",
-                                "container",
-                                "markedOnly"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5aafbde786f774389d0cbc0f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ammunition_case"
-                        }
-                    }
-                ]
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "639872fa9b4fb827b200d8e5",
-                        "name": "枪匠 - 9",
-                        "normalizedName": "gunsmith-part-9",
-                        "taskImageLink": "https://assets.tarkov.dev/639872fa9b4fb827b200d8e5.webp",
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                }
-            ],
             "objectives": [
                 {
                     "__typename": "TaskObjectiveBuildItem",
@@ -84976,6 +84879,108 @@
                             "normalizedName": "silencer"
                         }
                     ]
+                }
+            ],
+            "finishRewards": {
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.02,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 5,
+                        "quantity": 5,
+                        "item": {
+                            "id": "5c06779c86f77426e00dd782",
+                            "name": "电线",
+                            "normalizedName": "bundle-of-wires",
+                            "shortName": "电线",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5c06779c86f77426e00dd782-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 2,
+                        "quantity": 2,
+                        "item": {
+                            "id": "61bf7b6302b3924be92fa8c3",
+                            "name": "金属零件",
+                            "normalizedName": "metal-spare-parts",
+                            "shortName": "金属零件",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/61bf7b6302b3924be92fa8c3-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "63a19c1ed6d4651e53602aeb",
+                        "level": 2,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        },
+                        "item": {
+                            "id": "5aafbde786f774389d0cbc0f",
+                            "name": "弹药箱",
+                            "normalizedName": "ammunition-case",
+                            "shortName": "弹药箱",
+                            "width": 2,
+                            "height": 2,
+                            "types": [
+                                "barter",
+                                "container",
+                                "markedOnly"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5aafbde786f774389d0cbc0f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ammunition_case"
+                        }
+                    }
+                ]
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "639872fa9b4fb827b200d8e5",
+                        "name": "枪匠 - 9",
+                        "normalizedName": "gunsmith-part-9",
+                        "taskImageLink": "https://assets.tarkov.dev/639872fa9b4fb827b200d8e5.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
                 }
             ]
         },
@@ -294343,130 +294348,6 @@
                 "traderUnlock": [],
                 "achievement": []
             },
-            "finishRewards": {
-                "skillLevelReward": [],
-                "customization": [],
-                "craftUnlock": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.02,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 500,
-                        "quantity": 500,
-                        "item": {
-                            "id": "5696686a4bdc2da3298b456a",
-                            "name": "美元",
-                            "normalizedName": "dollars",
-                            "shortName": "美元",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "55d6190f4bdc2d87028b4567",
-                            "name": "Surefire SOCOM556-MINI MONSTER 5.56x45消音器",
-                            "normalizedName": "surefire-socom556-mini-monster-556x45-sound-suppressor",
-                            "shortName": "M MONSTER",
-                            "width": 2,
-                            "height": 1,
-                            "types": [
-                                "mods",
-                                "suppressor"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/55d6190f4bdc2d87028b4567-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SureFire_SOCOM556-MINI_MONSTER_5.56x45_sound_suppressor"
-                        }
-                    }
-                ],
-                "offerUnlock": [
-                    {
-                        "id": "63a19c7e5032c67f050dd95d",
-                        "level": 2,
-                        "trader": {
-                            "id": "6617beeaa9cfa777ca915b7c",
-                            "name": "竞技场裁判",
-                            "normalizedName": "ref",
-                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
-                        },
-                        "item": {
-                            "id": "5dd800eae49222636663133b",
-                            "name": "柯尔特 M4A1 5.56x45 卡宾枪 SAI",
-                            "normalizedName": "colt-m4a1-556x45-assault-rifle-sai",
-                            "shortName": "M4A1 SAI",
-                            "width": 4,
-                            "height": 2,
-                            "types": [
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5dd800eae49222636663133b-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Colt_M4A1_5.56x45_assault_rifle"
-                        }
-                    },
-                    {
-                        "id": "66c46c37f7ca8a539f08613a1",
-                        "level": 2,
-                        "trader": {
-                            "id": "6617beeaa9cfa777ca915b7c",
-                            "name": "竞技场裁判",
-                            "normalizedName": "ref",
-                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
-                        },
-                        "item": {
-                            "id": "5dd800eae49222636663133b",
-                            "name": "柯尔特 M4A1 5.56x45 卡宾枪 SAI",
-                            "normalizedName": "colt-m4a1-556x45-assault-rifle-sai",
-                            "shortName": "M4A1 SAI",
-                            "width": 4,
-                            "height": 2,
-                            "types": [
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5dd800eae49222636663133b-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Colt_M4A1_5.56x45_assault_rifle"
-                        }
-                    }
-                ]
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5ae327c886f7745c7b3f2f3f",
-                        "name": "枪匠 - 10",
-                        "normalizedName": "gunsmith-part-10",
-                        "taskImageLink": "https://assets.tarkov.dev/5ae327c886f7745c7b3f2f3f.webp",
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                }
-            ],
             "objectives": [
                 {
                     "__typename": "TaskObjectiveBuildItem",
@@ -294599,6 +294480,130 @@
                             "normalizedName": "silencer"
                         }
                     ]
+                }
+            ],
+            "finishRewards": {
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.02,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 500,
+                        "quantity": 500,
+                        "item": {
+                            "id": "5696686a4bdc2da3298b456a",
+                            "name": "美元",
+                            "normalizedName": "dollars",
+                            "shortName": "美元",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "55d6190f4bdc2d87028b4567",
+                            "name": "Surefire SOCOM556-MINI MONSTER 5.56x45消音器",
+                            "normalizedName": "surefire-socom556-mini-monster-556x45-sound-suppressor",
+                            "shortName": "M MONSTER",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "mods",
+                                "suppressor"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/55d6190f4bdc2d87028b4567-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SureFire_SOCOM556-MINI_MONSTER_5.56x45_sound_suppressor"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "63a19c7e5032c67f050dd95d",
+                        "level": 2,
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        },
+                        "item": {
+                            "id": "5dd800eae49222636663133b",
+                            "name": "柯尔特 M4A1 5.56x45 卡宾枪 SAI",
+                            "normalizedName": "colt-m4a1-556x45-assault-rifle-sai",
+                            "shortName": "M4A1 SAI",
+                            "width": 4,
+                            "height": 2,
+                            "types": [
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5dd800eae49222636663133b-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Colt_M4A1_5.56x45_assault_rifle"
+                        }
+                    },
+                    {
+                        "id": "66c46c37f7ca8a539f08613a1",
+                        "level": 2,
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        },
+                        "item": {
+                            "id": "5dd800eae49222636663133b",
+                            "name": "柯尔特 M4A1 5.56x45 卡宾枪 SAI",
+                            "normalizedName": "colt-m4a1-556x45-assault-rifle-sai",
+                            "shortName": "M4A1 SAI",
+                            "width": 4,
+                            "height": 2,
+                            "types": [
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5dd800eae49222636663133b-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Colt_M4A1_5.56x45_assault_rifle"
+                        }
+                    }
+                ]
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5ae327c886f7745c7b3f2f3f",
+                        "name": "枪匠 - 10",
+                        "normalizedName": "gunsmith-part-10",
+                        "taskImageLink": "https://assets.tarkov.dev/5ae327c886f7745c7b3f2f3f.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
                 }
             ]
         },
@@ -304828,6 +304833,111 @@
                 "traderUnlock": [],
                 "achievement": []
             },
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveBuildItem",
+                    "id": "5acce11786f77411ed6fa6eb",
+                    "type": "buildWeapon",
+                    "description": "按照要求改装R11 RSASS",
+                    "maps": [],
+                    "optional": false,
+                    "containsAll": [],
+                    "attributes": [
+                        {
+                            "name": "accuracy",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "durability",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 60
+                            }
+                        },
+                        {
+                            "name": "effectiveDistance",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 1500
+                            }
+                        },
+                        {
+                            "name": "ergonomics",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 26
+                            }
+                        },
+                        {
+                            "name": "height",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "magazineCapacity",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "muzzleVelocity",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "recoil",
+                            "requirement": {
+                                "compareMethod": "<=",
+                                "value": 300
+                            }
+                        },
+                        {
+                            "name": "weight",
+                            "requirement": {
+                                "compareMethod": "<=",
+                                "value": 6.7
+                            }
+                        },
+                        {
+                            "name": "width",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        }
+                    ],
+                    "item": {
+                        "id": "5a367e5dc4a282000e49738f",
+                        "name": "雷明顿 R11 RSASS 7.62x51 精确射手步枪",
+                        "normalizedName": "remington-r11-rsass-762x51-marksman-rifle",
+                        "shortName": "RSASS",
+                        "description": "雷明顿半自动狙击系统是Remington Arms公司和JP Enterprises公司共同开发的一支火力强大的精确狙击步枪。这支武器可以在800米以上的距离上打出小于1MOA的精度，同时作为一支半自动步枪还能获得一些战术上的优势。",
+                        "types": [
+                            "gun",
+                            "wearable"
+                        ],
+                        "width": 1,
+                        "height": 1,
+                        "iconLink": "https://assets.tarkov.dev/5a367e5dc4a282000e49738f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Remington_R11_RSASS_7.62x51_marksman_rifle"
+                    },
+                    "containsCategory": [
+                        {
+                            "id": "550aa4cd4bdc2dd8348b456c",
+                            "name": "消音器",
+                            "normalizedName": "silencer"
+                        }
+                    ]
+                }
+            ],
             "finishRewards": {
                 "skillLevelReward": [],
                 "customization": [],
@@ -304945,111 +305055,6 @@
                             "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
                         }
                     }
-                }
-            ],
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveBuildItem",
-                    "id": "5acce11786f77411ed6fa6eb",
-                    "type": "buildWeapon",
-                    "description": "按照要求改装R11 RSASS",
-                    "maps": [],
-                    "optional": false,
-                    "containsAll": [],
-                    "attributes": [
-                        {
-                            "name": "accuracy",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "durability",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 60
-                            }
-                        },
-                        {
-                            "name": "effectiveDistance",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 1500
-                            }
-                        },
-                        {
-                            "name": "ergonomics",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 26
-                            }
-                        },
-                        {
-                            "name": "height",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "magazineCapacity",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "muzzleVelocity",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "recoil",
-                            "requirement": {
-                                "compareMethod": "<=",
-                                "value": 300
-                            }
-                        },
-                        {
-                            "name": "weight",
-                            "requirement": {
-                                "compareMethod": "<=",
-                                "value": 6.7
-                            }
-                        },
-                        {
-                            "name": "width",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        }
-                    ],
-                    "item": {
-                        "id": "5a367e5dc4a282000e49738f",
-                        "name": "雷明顿 R11 RSASS 7.62x51 精确射手步枪",
-                        "normalizedName": "remington-r11-rsass-762x51-marksman-rifle",
-                        "shortName": "RSASS",
-                        "description": "雷明顿半自动狙击系统是Remington Arms公司和JP Enterprises公司共同开发的一支火力强大的精确狙击步枪。这支武器可以在800米以上的距离上打出小于1MOA的精度，同时作为一支半自动步枪还能获得一些战术上的优势。",
-                        "types": [
-                            "gun",
-                            "wearable"
-                        ],
-                        "width": 1,
-                        "height": 1,
-                        "iconLink": "https://assets.tarkov.dev/5a367e5dc4a282000e49738f-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Remington_R11_RSASS_7.62x51_marksman_rifle"
-                    },
-                    "containsCategory": [
-                        {
-                            "id": "550aa4cd4bdc2dd8348b456c",
-                            "name": "消音器",
-                            "normalizedName": "silencer"
-                        }
-                    ]
                 }
             ]
         },
@@ -319925,6 +319930,111 @@
                 "traderUnlock": [],
                 "achievement": []
             },
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveBuildItem",
+                    "id": "5acce08b86f7745f8521fa64",
+                    "type": "buildWeapon",
+                    "description": "按照要求改装DVL-10",
+                    "maps": [],
+                    "optional": false,
+                    "containsAll": [],
+                    "attributes": [
+                        {
+                            "name": "accuracy",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "durability",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 60
+                            }
+                        },
+                        {
+                            "name": "effectiveDistance",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 2000
+                            }
+                        },
+                        {
+                            "name": "ergonomics",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 40
+                            }
+                        },
+                        {
+                            "name": "height",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "magazineCapacity",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "muzzleVelocity",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        },
+                        {
+                            "name": "recoil",
+                            "requirement": {
+                                "compareMethod": "<=",
+                                "value": 450
+                            }
+                        },
+                        {
+                            "name": "weight",
+                            "requirement": {
+                                "compareMethod": "<=",
+                                "value": 6.7
+                            }
+                        },
+                        {
+                            "name": "width",
+                            "requirement": {
+                                "compareMethod": ">=",
+                                "value": 0
+                            }
+                        }
+                    ],
+                    "item": {
+                        "id": "588892092459774ac91d4b11",
+                        "name": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+                        "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle",
+                        "shortName": "DVL-10",
+                        "description": "DVL-10是一款集轻便，紧凑和消音于一体的步枪。使用具有优异精度和射程，以满足特勤和作战任务需要的军用亚音速子弹。配备有标准Lobaev可折叠枪托和Lobaev Hummer Barrels不锈钢竞赛级枪管。",
+                        "types": [
+                            "gun",
+                            "wearable"
+                        ],
+                        "width": 2,
+                        "height": 1,
+                        "iconLink": "https://assets.tarkov.dev/588892092459774ac91d4b11-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lobaev_Arms_DVL-10_7.62x51_bolt-action_sniper_rifle"
+                    },
+                    "containsCategory": [
+                        {
+                            "id": "55818b164bdc2ddc698b456c",
+                            "name": "组合式战术设备",
+                            "normalizedName": "comb-tact-device"
+                        }
+                    ]
+                }
+            ],
             "finishRewards": {
                 "skillLevelReward": [],
                 "customization": [],
@@ -320059,111 +320169,6 @@
                             "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
                         }
                     }
-                }
-            ],
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveBuildItem",
-                    "id": "5acce08b86f7745f8521fa64",
-                    "type": "buildWeapon",
-                    "description": "按照要求改装DVL-10",
-                    "maps": [],
-                    "optional": false,
-                    "containsAll": [],
-                    "attributes": [
-                        {
-                            "name": "accuracy",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "durability",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 60
-                            }
-                        },
-                        {
-                            "name": "effectiveDistance",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 2000
-                            }
-                        },
-                        {
-                            "name": "ergonomics",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 40
-                            }
-                        },
-                        {
-                            "name": "height",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "magazineCapacity",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "muzzleVelocity",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        },
-                        {
-                            "name": "recoil",
-                            "requirement": {
-                                "compareMethod": "<=",
-                                "value": 450
-                            }
-                        },
-                        {
-                            "name": "weight",
-                            "requirement": {
-                                "compareMethod": "<=",
-                                "value": 6.7
-                            }
-                        },
-                        {
-                            "name": "width",
-                            "requirement": {
-                                "compareMethod": ">=",
-                                "value": 0
-                            }
-                        }
-                    ],
-                    "item": {
-                        "id": "588892092459774ac91d4b11",
-                        "name": "DVL-10 “破坏者” 7.62x51 狙击步枪",
-                        "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle",
-                        "shortName": "DVL-10",
-                        "description": "DVL-10是一款集轻便，紧凑和消音于一体的步枪。使用具有优异精度和射程，以满足特勤和作战任务需要的军用亚音速子弹。配备有标准Lobaev可折叠枪托和Lobaev Hummer Barrels不锈钢竞赛级枪管。",
-                        "types": [
-                            "gun",
-                            "wearable"
-                        ],
-                        "width": 2,
-                        "height": 1,
-                        "iconLink": "https://assets.tarkov.dev/588892092459774ac91d4b11-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lobaev_Arms_DVL-10_7.62x51_bolt-action_sniper_rifle"
-                    },
-                    "containsCategory": [
-                        {
-                            "id": "55818b164bdc2ddc698b456c",
-                            "name": "组合式战术设备",
-                            "normalizedName": "comb-tact-device"
-                        }
-                    ]
                 }
             ]
         },
@@ -339685,6 +339690,11 @@
                             "normalizedName": "woods"
                         },
                         {
+                            "id": "65b8d6f5cdde2479cb2a3125",
+                            "name": "中心区 21+",
+                            "normalizedName": "ground-zero-21"
+                        },
+                        {
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
@@ -340513,6 +340523,21 @@
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ]
                 },
@@ -340547,6 +340572,21 @@
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ]
                 },
@@ -340581,6 +340621,21 @@
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ]
                 }
@@ -341063,125 +341118,6 @@
                 "traderUnlock": [],
                 "achievement": []
             },
-            "finishRewards": {
-                "skillLevelReward": [],
-                "customization": [],
-                "craftUnlock": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.03,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 75000,
-                        "quantity": 75000,
-                        "item": {
-                            "id": "5449016a4bdc2d6f028b456f",
-                            "name": "卢布",
-                            "normalizedName": "roubles",
-                            "shortName": "卢布",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "60391afc25aff57af81f7085",
-                            "name": "棘轮扳手",
-                            "normalizedName": "ratchet-wrench",
-                            "shortName": "棘轮",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/60391afc25aff57af81f7085-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ratchet_wrench"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "619cbfeb6b8a1b37a54eebfa",
-                            "name": "Bulbex剪线器",
-                            "normalizedName": "bulbex-cable-cutter",
-                            "shortName": "Bulbex",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/619cbfeb6b8a1b37a54eebfa-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bulbex_cable_cutter"
-                        }
-                    }
-                ],
-                "offerUnlock": [
-                    {
-                        "id": "63a19d374ebcff1c995dc33d",
-                        "level": 4,
-                        "trader": {
-                            "id": "58330581ace78e27b8b10cee",
-                            "name": "Skier",
-                            "normalizedName": "skier",
-                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
-                        },
-                        "item": {
-                            "id": "6087e663132d4d12c81fd96b",
-                            "name": "AK Custom Arms AGS-74 PRO + Sniper Kit手枪式握把",
-                            "normalizedName": "ak-custom-arms-ags-74-pro-sniper-kit-pistol-grip",
-                            "shortName": "AGS-74",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "mods",
-                                "pistolGrip"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/6087e663132d4d12c81fd96b-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AK_Custom_Arms_AGS-74_PRO_%2B_Sniper_Kit_pistol_grip"
-                        }
-                    }
-                ]
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5b477b6f86f7747290681823",
-                        "name": "枪匠 - 18",
-                        "normalizedName": "gunsmith-part-18",
-                        "taskImageLink": "https://assets.tarkov.dev/5b477b6f86f7747290681823.webp",
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                }
-            ],
             "objectives": [
                 {
                     "__typename": "TaskObjectiveBuildItem",
@@ -341343,6 +341279,125 @@
                             "normalizedName": "silencer"
                         }
                     ]
+                }
+            ],
+            "finishRewards": {
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.03,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 75000,
+                        "quantity": 75000,
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "60391afc25aff57af81f7085",
+                            "name": "棘轮扳手",
+                            "normalizedName": "ratchet-wrench",
+                            "shortName": "棘轮",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/60391afc25aff57af81f7085-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ratchet_wrench"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "619cbfeb6b8a1b37a54eebfa",
+                            "name": "Bulbex剪线器",
+                            "normalizedName": "bulbex-cable-cutter",
+                            "shortName": "Bulbex",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/619cbfeb6b8a1b37a54eebfa-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bulbex_cable_cutter"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "63a19d374ebcff1c995dc33d",
+                        "level": 4,
+                        "trader": {
+                            "id": "58330581ace78e27b8b10cee",
+                            "name": "Skier",
+                            "normalizedName": "skier",
+                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
+                        },
+                        "item": {
+                            "id": "6087e663132d4d12c81fd96b",
+                            "name": "AK Custom Arms AGS-74 PRO + Sniper Kit手枪式握把",
+                            "normalizedName": "ak-custom-arms-ags-74-pro-sniper-kit-pistol-grip",
+                            "shortName": "AGS-74",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "mods",
+                                "pistolGrip"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6087e663132d4d12c81fd96b-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AK_Custom_Arms_AGS-74_PRO_%2B_Sniper_Kit_pistol_grip"
+                        }
+                    }
+                ]
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5b477b6f86f7747290681823",
+                        "name": "枪匠 - 18",
+                        "normalizedName": "gunsmith-part-18",
+                        "taskImageLink": "https://assets.tarkov.dev/5b477b6f86f7747290681823.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
                 }
             ]
         },
@@ -341729,131 +341784,6 @@
                 "traderUnlock": [],
                 "achievement": []
             },
-            "finishRewards": {
-                "skillLevelReward": [],
-                "customization": [],
-                "craftUnlock": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.03,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "567143bf4bdc2d1a0f8b4567",
-                            "name": "手枪收纳箱",
-                            "normalizedName": "pistol-case",
-                            "shortName": "箱子",
-                            "width": 2,
-                            "height": 2,
-                            "types": [
-                                "container",
-                                "markedOnly"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/567143bf4bdc2d1a0f8b4567-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pistol_case"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 3,
-                        "quantity": 3,
-                        "item": {
-                            "id": "648984e3f09d032aa9399d53",
-                            "name": "7.62x51mm M993弹药包（20发装）",
-                            "normalizedName": "762x51mm-m993-ammo-pack-20-pcs",
-                            "shortName": "M993",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "ammoBox"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/648984e3f09d032aa9399d53-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M993_ammo_pack_(20_pcs)"
-                        }
-                    }
-                ],
-                "offerUnlock": [
-                    {
-                        "id": "63a19d79f194393ecf632f8d",
-                        "level": 4,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        },
-                        "item": {
-                            "id": "5d025cc1d7ad1a53845279ef",
-                            "name": "HK Ergo PSG-1 样式 AR-15 兼容系统手枪式握把",
-                            "normalizedName": "ar-15-hk-ergo-psg-1-style-pistol-grip",
-                            "shortName": "Ergo",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "mods",
-                                "pistolGrip"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5d025cc1d7ad1a53845279ef-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AR-15_HK_Ergo_PSG-1_style_pistol_grip"
-                        }
-                    },
-                    {
-                        "id": "63a19d815032c67f050dd964",
-                        "level": 4,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        },
-                        "item": {
-                            "id": "5c793fb92e221644f31bfb64",
-                            "name": "Strike Industries 先进机匣延长缓冲管",
-                            "normalizedName": "ar-15-strike-industries-advanced-receiver-extension-buffer-tube",
-                            "shortName": "ARE",
-                            "width": 2,
-                            "height": 1,
-                            "types": [
-                                "mods"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5c793fb92e221644f31bfb64-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AR-15_Strike_Industries_Advanced_Receiver_Extension_buffer_tube"
-                        }
-                    }
-                ]
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5b477f7686f7744d1b23c4d2",
-                        "name": "枪匠 - 20",
-                        "normalizedName": "gunsmith-part-20",
-                        "taskImageLink": "https://assets.tarkov.dev/5b477f7686f7744d1b23c4d2.webp",
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                }
-            ],
             "objectives": [
                 {
                     "__typename": "TaskObjectiveBuildItem",
@@ -342127,6 +342057,131 @@
                             "normalizedName": "comb-tact-device"
                         }
                     ]
+                }
+            ],
+            "finishRewards": {
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.03,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "567143bf4bdc2d1a0f8b4567",
+                            "name": "手枪收纳箱",
+                            "normalizedName": "pistol-case",
+                            "shortName": "箱子",
+                            "width": 2,
+                            "height": 2,
+                            "types": [
+                                "container",
+                                "markedOnly"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/567143bf4bdc2d1a0f8b4567-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pistol_case"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 3,
+                        "quantity": 3,
+                        "item": {
+                            "id": "648984e3f09d032aa9399d53",
+                            "name": "7.62x51mm M993弹药包（20发装）",
+                            "normalizedName": "762x51mm-m993-ammo-pack-20-pcs",
+                            "shortName": "M993",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "ammoBox"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/648984e3f09d032aa9399d53-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M993_ammo_pack_(20_pcs)"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "63a19d79f194393ecf632f8d",
+                        "level": 4,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        },
+                        "item": {
+                            "id": "5d025cc1d7ad1a53845279ef",
+                            "name": "HK Ergo PSG-1 样式 AR-15 兼容系统手枪式握把",
+                            "normalizedName": "ar-15-hk-ergo-psg-1-style-pistol-grip",
+                            "shortName": "Ergo",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "mods",
+                                "pistolGrip"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d025cc1d7ad1a53845279ef-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AR-15_HK_Ergo_PSG-1_style_pistol_grip"
+                        }
+                    },
+                    {
+                        "id": "63a19d815032c67f050dd964",
+                        "level": 4,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        },
+                        "item": {
+                            "id": "5c793fb92e221644f31bfb64",
+                            "name": "Strike Industries 先进机匣延长缓冲管",
+                            "normalizedName": "ar-15-strike-industries-advanced-receiver-extension-buffer-tube",
+                            "shortName": "ARE",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "mods"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5c793fb92e221644f31bfb64-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AR-15_Strike_Industries_Advanced_Receiver_Extension_buffer_tube"
+                        }
+                    }
+                ]
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5b477f7686f7744d1b23c4d2",
+                        "name": "枪匠 - 20",
+                        "normalizedName": "gunsmith-part-20",
+                        "taskImageLink": "https://assets.tarkov.dev/5b477f7686f7744d1b23c4d2.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
                 }
             ]
         },
@@ -343170,141 +343225,6 @@
                 "traderUnlock": [],
                 "achievement": []
             },
-            "finishRewards": {
-                "skillLevelReward": [],
-                "customization": [],
-                "craftUnlock": [],
-                "traderUnlock": [],
-                "achievement": [
-                    {
-                        "id": "664f23e44702fd5db50ee732",
-                        "name": "集大成者",
-                        "description": "完成枪匠任务线",
-                        "imageLink": "https://assets.tarkov.dev/achievement-664f23e44702fd5db50ee732-icon.webp",
-                        "side": "所有",
-                        "normalizedSide": "all",
-                        "rarity": "罕见",
-                        "normalizedRarity": "rare"
-                    }
-                ],
-                "traderStanding": [
-                    {
-                        "standing": 0.04,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 5,
-                        "quantity": 5,
-                        "item": {
-                            "id": "59faff1d86f7746c51718c9c",
-                            "name": "实体比特币",
-                            "normalizedName": "physical-bitcoin",
-                            "shortName": "0.2BTC",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/59faff1d86f7746c51718c9c-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Physical_Bitcoin"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "59fb023c86f7746d0d4b423c",
-                            "name": "武器箱",
-                            "normalizedName": "weapon-case",
-                            "shortName": "武器箱",
-                            "width": 5,
-                            "height": 2,
-                            "types": [
-                                "container",
-                                "markedOnly"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/59fb023c86f7746d0d4b423c-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_case"
-                        }
-                    }
-                ],
-                "offerUnlock": [
-                    {
-                        "id": "64f980a2d551582624581e57",
-                        "level": 4,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        },
-                        "item": {
-                            "id": "5c1d0f4986f7744bb01837fa",
-                            "name": "实验室钥匙卡·黑",
-                            "normalizedName": "terragroup-labs-keycard-black",
-                            "shortName": "黑卡",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "keys"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5c1d0f4986f7744bb01837fa-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TerraGroup_Labs_keycard_(Black)"
-                        }
-                    },
-                    {
-                        "id": "66b87066e949465471126b26",
-                        "level": 4,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        },
-                        "item": {
-                            "id": "64cbdff43ccb85468628d5fc",
-                            "name": "PKM 7.62x54R机枪 默认",
-                            "normalizedName": "kalashnikov-pkm-762x54r-machine-gun-default",
-                            "shortName": "PKM 默认",
-                            "width": 6,
-                            "height": 3,
-                            "types": [
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/64cbdff43ccb85468628d5fc-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_PKM_7.62x54R_machine_gun"
-                        }
-                    }
-                ]
-            },
-            "taskRequirements": [
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "64f83bcdde58fc437700d8fa",
-                        "name": "枪匠 - 24",
-                        "normalizedName": "gunsmith-part-24",
-                        "taskImageLink": "https://assets.tarkov.dev/64f83bcdde58fc437700d8fa.webp",
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    }
-                }
-            ],
             "objectives": [
                 {
                     "__typename": "TaskObjectiveBuildItem",
@@ -343478,6 +343398,141 @@
                             "normalizedName": "comb-tact-device"
                         }
                     ]
+                }
+            ],
+            "finishRewards": {
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [
+                    {
+                        "id": "664f23e44702fd5db50ee732",
+                        "name": "集大成者",
+                        "description": "完成枪匠任务线",
+                        "imageLink": "https://assets.tarkov.dev/achievement-664f23e44702fd5db50ee732-icon.webp",
+                        "side": "所有",
+                        "normalizedSide": "all",
+                        "rarity": "罕见",
+                        "normalizedRarity": "rare"
+                    }
+                ],
+                "traderStanding": [
+                    {
+                        "standing": 0.04,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 5,
+                        "quantity": 5,
+                        "item": {
+                            "id": "59faff1d86f7746c51718c9c",
+                            "name": "实体比特币",
+                            "normalizedName": "physical-bitcoin",
+                            "shortName": "0.2BTC",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/59faff1d86f7746c51718c9c-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Physical_Bitcoin"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "59fb023c86f7746d0d4b423c",
+                            "name": "武器箱",
+                            "normalizedName": "weapon-case",
+                            "shortName": "武器箱",
+                            "width": 5,
+                            "height": 2,
+                            "types": [
+                                "container",
+                                "markedOnly"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/59fb023c86f7746d0d4b423c-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_case"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "64f980a2d551582624581e57",
+                        "level": 4,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        },
+                        "item": {
+                            "id": "5c1d0f4986f7744bb01837fa",
+                            "name": "实验室钥匙卡·黑",
+                            "normalizedName": "terragroup-labs-keycard-black",
+                            "shortName": "黑卡",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "keys"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5c1d0f4986f7744bb01837fa-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TerraGroup_Labs_keycard_(Black)"
+                        }
+                    },
+                    {
+                        "id": "66b87066e949465471126b26",
+                        "level": 4,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        },
+                        "item": {
+                            "id": "64cbdff43ccb85468628d5fc",
+                            "name": "PKM 7.62x54R机枪 默认",
+                            "normalizedName": "kalashnikov-pkm-762x54r-machine-gun-default",
+                            "shortName": "PKM 默认",
+                            "width": 6,
+                            "height": 3,
+                            "types": [
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/64cbdff43ccb85468628d5fc-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_PKM_7.62x54R_machine_gun"
+                        }
+                    }
+                ]
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "64f83bcdde58fc437700d8fa",
+                        "name": "枪匠 - 24",
+                        "normalizedName": "gunsmith-part-24",
+                        "taskImageLink": "https://assets.tarkov.dev/64f83bcdde58fc437700d8fa.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
                 }
             ]
         },
@@ -362240,6 +362295,11 @@
                             "normalizedName": "woods"
                         },
                         {
+                            "id": "65b8d6f5cdde2479cb2a3125",
+                            "name": "中心区 21+",
+                            "normalizedName": "ground-zero-21"
+                        },
+                        {
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
@@ -362313,14 +362373,19 @@
                             "normalizedName": "lighthouse"
                         },
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
                         },
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "65b8d6f5cdde2479cb2a3125",
+                            "name": "中心区 21+",
+                            "normalizedName": "ground-zero-21"
                         },
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
