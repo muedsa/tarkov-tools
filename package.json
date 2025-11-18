@@ -33,7 +33,7 @@
     "@types/react-dom": "19.2.2",
     "eslint": "^9",
     "eslint-config-next": "16.0.3",
-    "graphql-request": "^7.3.3",
+    "graphql-request": "^7.3.4",
     "prettier": "3.6.2",
     "tailwindcss": "^4",
     "typescript": "^5"
