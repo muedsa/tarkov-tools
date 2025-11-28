@@ -87,13 +87,13 @@
     {
         "id": "5b3b713c5acfc4330140bd8d",
         "name": "托卡列夫 TT-33 7.62x25 黄金手枪",
-        "normalizedName": "tt-33-762x25-tt-pistol-golden",
+        "normalizedName": "tokarev-tt-33-762x25-tt-pistol-golden",
         "types": [
             "gun",
             "wearable"
         ],
         "iconLink": "5b3b713c5acfc4330140bd8d-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TT-33_7.62x25_TT_pistol_(Golden)",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tokarev_TT-33_7.62x25_TT_pistol_(Golden)",
         "tasks": [
             {
                 "id": "5d25e2c386f77443e7549029",
@@ -764,6 +764,7 @@
         "normalizedName": "pilgrim-tourist-backpack",
         "types": [
             "backpack",
+            "noFlea",
             "wearable"
         ],
         "iconLink": "59e763f286f7742ee57895da-icon.webp",

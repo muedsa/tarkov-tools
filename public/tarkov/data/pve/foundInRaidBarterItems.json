@@ -192,7 +192,26 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d473c1e081959000e530190-2",
+                "stationId": "5d473c1e081959000e530190",
+                "name": "通风",
+                "normalizedName": "vents",
+                "imageLink": "station-vents.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "5d473c1e081959000e530190-3",
+                "stationId": "5d473c1e081959000e530190",
+                "name": "通风",
+                "normalizedName": "vents",
+                "imageLink": "station-vents.png",
+                "level": 3,
+                "count": 4
+            }
+        ]
     },
     {
         "id": "590a3c0a86f774385a33c450",
@@ -311,7 +330,17 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d484fd1654e76006732bf2e-2",
+                "stationId": "5d484fd1654e76006732bf2e",
+                "name": "营养部",
+                "normalizedName": "nutrition-unit",
+                "imageLink": "station-nutrition-unit.png",
+                "level": 2,
+                "count": 2
+            }
+        ]
     },
     {
         "id": "59fafb5d86f774067a6f2084",
@@ -417,7 +446,17 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d494a445b56502f18c98a10-2",
+                "stationId": "5d494a445b56502f18c98a10",
+                "name": "比特币矿场",
+                "normalizedName": "bitcoin-farm",
+                "imageLink": "station-bitcoin-farm.png",
+                "level": 2,
+                "count": 15
+            }
+        ]
     },
     {
         "id": "590a358486f77429692b2790",
@@ -589,7 +628,17 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d494a445b56502f18c98a10-3",
+                "stationId": "5d494a445b56502f18c98a10",
+                "name": "比特币矿场",
+                "normalizedName": "bitcoin-farm",
+                "imageLink": "station-bitcoin-farm.png",
+                "level": 3,
+                "count": 25
+            }
+        ]
     },
     {
         "id": "62a0a043cf4a99369e2624a5",
@@ -664,7 +713,17 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d484fcd654e7668ec2ec322-2",
+                "stationId": "5d484fcd654e7668ec2ec322",
+                "name": "医疗站",
+                "normalizedName": "medstation",
+                "imageLink": "station-medstation.png",
+                "level": 2,
+                "count": 2
+            }
+        ]
     },
     {
         "id": "5d03794386f77420415576f5",
@@ -783,7 +842,17 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d484fb3654e7600681d9314-3",
+                "stationId": "5d484fb3654e7600681d9314",
+                "name": "安保",
+                "normalizedName": "security",
+                "imageLink": "station-security.png",
+                "level": 3,
+                "count": 1
+            }
+        ]
     },
     {
         "id": "5909e99886f7740c983b9984",
@@ -920,7 +989,17 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d494a205b56502f18c98a06-3",
+                "stationId": "5d494a205b56502f18c98a06",
+                "name": "照明",
+                "normalizedName": "illumination",
+                "imageLink": "station-illumination.png",
+                "level": 3,
+                "count": 7
+            }
+        ]
     },
     {
         "id": "5d1b2ffd86f77425243e8d17",
@@ -973,7 +1052,26 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d484fb3654e7600681d9314-3",
+                "stationId": "5d484fb3654e7600681d9314",
+                "name": "安保",
+                "normalizedName": "security",
+                "imageLink": "station-security.png",
+                "level": 3,
+                "count": 2
+            },
+            {
+                "id": "5d494a385b56502f18c98a0c-1",
+                "stationId": "5d494a385b56502f18c98a0c",
+                "name": "太阳能",
+                "normalizedName": "solar-power",
+                "imageLink": "station-solar-power.png",
+                "level": 1,
+                "count": 3
+            }
+        ]
     },
     {
         "id": "5d1b392c86f77425243e98fe",
@@ -995,7 +1093,17 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "667298e75ea6b4493c08f266-1",
+                "stationId": "667298e75ea6b4493c08f266",
+                "name": "仪式圈",
+                "normalizedName": "cultist-circle",
+                "imageLink": "station-cultist-circle.png",
+                "level": 1,
+                "count": 5
+            }
+        ]
     },
     {
         "id": "59e3639286f7741777737013",
@@ -1017,7 +1125,26 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d494a175b56502f18c98a04-1",
+                "stationId": "5d494a175b56502f18c98a04",
+                "name": "Scav宝箱",
+                "normalizedName": "scav-case",
+                "imageLink": "station-scav-case.png",
+                "level": 1,
+                "count": 3
+            },
+            {
+                "id": "5d494a295b56502f18c98a08-3",
+                "stationId": "5d494a295b56502f18c98a08",
+                "name": "荣耀展柜",
+                "normalizedName": "hall-of-fame",
+                "imageLink": "station-hall-of-fame.png",
+                "level": 3,
+                "count": 1
+            }
+        ]
     },
     {
         "id": "573478bc24597738002c6175",
@@ -1039,7 +1166,17 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d494a0e5b56502f18c98a02-1",
+                "stationId": "5d494a0e5b56502f18c98a02",
+                "name": "图书馆",
+                "normalizedName": "library",
+                "imageLink": "station-library.png",
+                "level": 1,
+                "count": 1
+            }
+        ]
     },
     {
         "id": "59e3658a86f7741776641ac4",
@@ -1061,7 +1198,17 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d494a295b56502f18c98a08-1",
+                "stationId": "5d494a295b56502f18c98a08",
+                "name": "荣耀展柜",
+                "normalizedName": "hall-of-fame",
+                "imageLink": "station-hall-of-fame.png",
+                "level": 1,
+                "count": 1
+            }
+        ]
     },
     {
         "id": "59faf7ca86f7740dbe19f6c2",
@@ -1083,7 +1230,17 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d494a175b56502f18c98a04-1",
+                "stationId": "5d494a175b56502f18c98a04",
+                "name": "Scav宝箱",
+                "normalizedName": "scav-case",
+                "imageLink": "station-scav-case.png",
+                "level": 1,
+                "count": 4
+            }
+        ]
     },
     {
         "id": "62a09cfe4f842e1bd12da3e4",
@@ -1121,7 +1278,8 @@
         "name": "BEAR 狗牌",
         "normalizedName": "dogtag-bear",
         "types": [
-            "barter"
+            "barter",
+            "noFlea"
         ],
         "iconLink": "59f32bb586f774757e1e8442-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag",
@@ -1234,7 +1392,17 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d484fdf654e7600691aadf8-3",
+                "stationId": "5d484fdf654e7600691aadf8",
+                "name": "情报中心",
+                "normalizedName": "intelligence-center",
+                "imageLink": "station-intelligence-center.png",
+                "level": 3,
+                "count": 2
+            }
+        ]
     },
     {
         "id": "590de71386f774347051a052",
@@ -1499,7 +1667,17 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d484fcd654e7668ec2ec322-3",
+                "stationId": "5d484fcd654e7668ec2ec322",
+                "name": "医疗站",
+                "normalizedName": "medstation",
+                "imageLink": "station-medstation.png",
+                "level": 3,
+                "count": 1
+            }
+        ]
     },
     {
         "id": "5c0530ee86f774697952d952",
@@ -1662,7 +1840,26 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d494a295b56502f18c98a08-3",
+                "stationId": "5d494a295b56502f18c98a08",
+                "name": "荣耀展柜",
+                "normalizedName": "hall-of-fame",
+                "imageLink": "station-hall-of-fame.png",
+                "level": 3,
+                "count": 3
+            },
+            {
+                "id": "63db64cbf9963741dc0d741f-3",
+                "stationId": "63db64cbf9963741dc0d741f",
+                "name": "武器架",
+                "normalizedName": "weapon-rack",
+                "imageLink": "station-weapon-rack.png",
+                "level": 3,
+                "count": 5
+            }
+        ]
     },
     {
         "id": "5d1b3a5d86f774252167ba22",
@@ -1750,7 +1947,26 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d484fda654e7600681d9315-3",
+                "stationId": "5d484fda654e7600681d9315",
+                "name": "工作台",
+                "normalizedName": "workbench",
+                "imageLink": "station-workbench.png",
+                "level": 3,
+                "count": 1
+            },
+            {
+                "id": "63db64cbf9963741dc0d741f-3",
+                "stationId": "63db64cbf9963741dc0d741f",
+                "name": "武器架",
+                "normalizedName": "weapon-rack",
+                "imageLink": "station-weapon-rack.png",
+                "level": 3,
+                "count": 1
+            }
+        ]
     },
     {
         "id": "5bc9bc53d4351e00367fbcee",
@@ -1772,7 +1988,26 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d494a175b56502f18c98a04-1",
+                "stationId": "5d494a175b56502f18c98a04",
+                "name": "Scav宝箱",
+                "normalizedName": "scav-case",
+                "imageLink": "station-scav-case.png",
+                "level": 1,
+                "count": 1
+            },
+            {
+                "id": "5d494a295b56502f18c98a08-2",
+                "stationId": "5d494a295b56502f18c98a08",
+                "name": "荣耀展柜",
+                "normalizedName": "hall-of-fame",
+                "imageLink": "station-hall-of-fame.png",
+                "level": 2,
+                "count": 1
+            }
+        ]
     },
     {
         "id": "5bc9bdb8d4351e003562b8a1",
@@ -2015,7 +2250,17 @@
                 "mixedItemsTask": false
             }
         ],
-        "hideoutStations": []
+        "hideoutStations": [
+            {
+                "id": "5d494a0e5b56502f18c98a02-1",
+                "stationId": "5d494a0e5b56502f18c98a02",
+                "name": "图书馆",
+                "normalizedName": "library",
+                "imageLink": "station-library.png",
+                "level": 1,
+                "count": 1
+            }
+        ]
     },
     {
         "id": "62a09cb7a04c0c5c6e0a84f8",
@@ -2155,7 +2400,8 @@
         "name": "USEC 狗牌",
         "normalizedName": "dogtag-usec",
         "types": [
-            "barter"
+            "barter",
+            "noFlea"
         ],
         "iconLink": "59f32c3b86f77472a31742f0-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag",
@@ -2400,5 +2646,1230 @@
             }
         ],
         "hideoutStations": []
+    },
+    {
+        "id": "5e2af2bc86f7746d3f3c33fc",
+        "name": "Hunter火柴",
+        "normalizedName": "hunting-matches",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5e2af2bc86f7746d3f3c33fc-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hunting_matches",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d388e97081959000a123acf-2",
+                "stationId": "5d388e97081959000a123acf",
+                "name": "加热器",
+                "normalizedName": "heating",
+                "imageLink": "station-heating.png",
+                "level": 2,
+                "count": 2
+            }
+        ]
+    },
+    {
+        "id": "5d1b313086f77425227d1678",
+        "name": "相位控制继电器",
+        "normalizedName": "phase-control-relay",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5d1b313086f77425227d1678-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Phase_control_relay",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d388e97081959000a123acf-3",
+                "stationId": "5d388e97081959000a123acf",
+                "name": "加热器",
+                "normalizedName": "heating",
+                "imageLink": "station-heating.png",
+                "level": 3,
+                "count": 4
+            }
+        ]
+    },
+    {
+        "id": "619cbf476b8a1b37a54eebf8",
+        "name": "军用波纹软管",
+        "normalizedName": "military-corrugated-tube",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "619cbf476b8a1b37a54eebf8-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_corrugated_tube",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d388e97081959000a123acf-3",
+                "stationId": "5d388e97081959000a123acf",
+                "name": "加热器",
+                "normalizedName": "heating",
+                "imageLink": "station-heating.png",
+                "level": 3,
+                "count": 2
+            }
+        ]
+    },
+    {
+        "id": "5d1b2fa286f77425227d1674",
+        "name": "电动马达",
+        "normalizedName": "electric-motor",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5d1b2fa286f77425227d1674-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_motor",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d3b396e33c48f02b81cd9f3-2",
+                "stationId": "5d3b396e33c48f02b81cd9f3",
+                "name": "发电机",
+                "normalizedName": "generator",
+                "imageLink": "station-generator.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "5d3b396e33c48f02b81cd9f3-3",
+                "stationId": "5d3b396e33c48f02b81cd9f3",
+                "name": "发电机",
+                "normalizedName": "generator",
+                "imageLink": "station-generator.png",
+                "level": 3,
+                "count": 3
+            },
+            {
+                "id": "5d473c1e081959000e530190-2",
+                "stationId": "5d473c1e081959000e530190",
+                "name": "通风",
+                "normalizedName": "vents",
+                "imageLink": "station-vents.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "5d473c1e081959000e530190-3",
+                "stationId": "5d473c1e081959000e530190",
+                "name": "通风",
+                "normalizedName": "vents",
+                "imageLink": "station-vents.png",
+                "level": 3,
+                "count": 4
+            },
+            {
+                "id": "5d484fc8654e760065037abf-2",
+                "stationId": "5d484fc8654e760065037abf",
+                "name": "集水器",
+                "normalizedName": "water-collector",
+                "imageLink": "station-water-collector.png",
+                "level": 2,
+                "count": 2
+            },
+            {
+                "id": "5d484fe3654e76006657e0ac-2",
+                "stationId": "5d484fe3654e76006657e0ac",
+                "name": "靶场",
+                "normalizedName": "shooting-range",
+                "imageLink": "station-shooting-range.png",
+                "level": 2,
+                "count": 3
+            }
+        ]
+    },
+    {
+        "id": "619cbfeb6b8a1b37a54eebfa",
+        "name": "Bulbex剪线器",
+        "normalizedName": "bulbex-cable-cutter",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "619cbfeb6b8a1b37a54eebfa-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bulbex_cable_cutter",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d3b396e33c48f02b81cd9f3-2",
+                "stationId": "5d3b396e33c48f02b81cd9f3",
+                "name": "发电机",
+                "normalizedName": "generator",
+                "imageLink": "station-generator.png",
+                "level": 2,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "57347c2e24597744902c94a1",
+        "name": "供电单元",
+        "normalizedName": "power-supply-unit",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "57347c2e24597744902c94a1-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Power_supply_unit",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d3b396e33c48f02b81cd9f3-3",
+                "stationId": "5d3b396e33c48f02b81cd9f3",
+                "name": "发电机",
+                "normalizedName": "generator",
+                "imageLink": "station-generator.png",
+                "level": 3,
+                "count": 5
+            },
+            {
+                "id": "5d494a445b56502f18c98a10-1",
+                "stationId": "5d494a445b56502f18c98a10",
+                "name": "比特币矿场",
+                "normalizedName": "bitcoin-farm",
+                "imageLink": "station-bitcoin-farm.png",
+                "level": 1,
+                "count": 10
+            }
+        ]
+    },
+    {
+        "id": "5af04b6486f774195a3ebb49",
+        "name": "Elite钳子",
+        "normalizedName": "pliers-elite",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5af04b6486f774195a3ebb49-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pliers_Elite",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fb3654e7600681d9314-2",
+                "stationId": "5d484fb3654e7600681d9314",
+                "name": "安保",
+                "normalizedName": "security",
+                "imageLink": "station-security.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "5d484fc8654e760065037abf-3",
+                "stationId": "5d484fc8654e760065037abf",
+                "name": "集水器",
+                "normalizedName": "water-collector",
+                "imageLink": "station-water-collector.png",
+                "level": 3,
+                "count": 2
+            },
+            {
+                "id": "5d484fda654e7600681d9315-3",
+                "stationId": "5d484fda654e7600681d9315",
+                "name": "工作台",
+                "normalizedName": "workbench",
+                "imageLink": "station-workbench.png",
+                "level": 3,
+                "count": 2
+            },
+            {
+                "id": "5d494a295b56502f18c98a08-2",
+                "stationId": "5d494a295b56502f18c98a08",
+                "name": "荣耀展柜",
+                "normalizedName": "hall-of-fame",
+                "imageLink": "station-hall-of-fame.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "637b39f02e873739ec490215-6",
+                "stationId": "637b39f02e873739ec490215",
+                "name": "易碎墙",
+                "normalizedName": "defective-wall",
+                "imageLink": "station-defective-wall.png",
+                "level": 6,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "59e35de086f7741778269d84",
+        "name": "电钻",
+        "normalizedName": "electric-drill",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "59e35de086f7741778269d84-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_drill",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fba654e7600691aadf7-2",
+                "stationId": "5d484fba654e7600691aadf7",
+                "name": "卫生间",
+                "normalizedName": "lavatory",
+                "imageLink": "station-lavatory.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "5d484fc0654e76006657e0ab-3",
+                "stationId": "5d484fc0654e76006657e0ab",
+                "name": "仓库",
+                "normalizedName": "stash",
+                "imageLink": "station-stash.png",
+                "level": 3,
+                "count": 2
+            },
+            {
+                "id": "5d484fda654e7600681d9315-2",
+                "stationId": "5d484fda654e7600681d9315",
+                "name": "工作台",
+                "normalizedName": "workbench",
+                "imageLink": "station-workbench.png",
+                "level": 2,
+                "count": 2
+            },
+            {
+                "id": "5d484fe3654e76006657e0ac-2",
+                "stationId": "5d484fe3654e76006657e0ac",
+                "name": "靶场",
+                "normalizedName": "shooting-range",
+                "imageLink": "station-shooting-range.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "5d494a295b56502f18c98a08-3",
+                "stationId": "5d494a295b56502f18c98a08",
+                "name": "荣耀展柜",
+                "normalizedName": "hall-of-fame",
+                "imageLink": "station-hall-of-fame.png",
+                "level": 3,
+                "count": 1
+            },
+            {
+                "id": "6377a9b9a93bde8fa30eb79a-1",
+                "stationId": "6377a9b9a93bde8fa30eb79a",
+                "name": "健身区",
+                "normalizedName": "gym",
+                "imageLink": "station-gym.png",
+                "level": 1,
+                "count": 1
+            },
+            {
+                "id": "63db64cbf9963741dc0d741f-2",
+                "stationId": "63db64cbf9963741dc0d741f",
+                "name": "武器架",
+                "normalizedName": "weapon-rack",
+                "imageLink": "station-weapon-rack.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "63db64cbf9963741dc0d741f-3",
+                "stationId": "63db64cbf9963741dc0d741f",
+                "name": "武器架",
+                "normalizedName": "weapon-rack",
+                "imageLink": "station-weapon-rack.png",
+                "level": 3,
+                "count": 1
+            },
+            {
+                "id": "65e5bb1713227bb7690cea0a-1",
+                "stationId": "65e5bb1713227bb7690cea0a",
+                "name": "装备架",
+                "normalizedName": "gear-rack",
+                "imageLink": "station-gear-rack.png",
+                "level": 1,
+                "count": 1
+            },
+            {
+                "id": "65e5bb1713227bb7690cea0a-2",
+                "stationId": "65e5bb1713227bb7690cea0a",
+                "name": "装备架",
+                "normalizedName": "gear-rack",
+                "imageLink": "station-gear-rack.png",
+                "level": 2,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "61bf83814088ec1a363d7097",
+        "name": "针线盒",
+        "normalizedName": "sewing-kit",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "61bf83814088ec1a363d7097-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sewing_kit",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fba654e7600691aadf7-2",
+                "stationId": "5d484fba654e7600691aadf7",
+                "name": "卫生间",
+                "normalizedName": "lavatory",
+                "imageLink": "station-lavatory.png",
+                "level": 2,
+                "count": 2
+            },
+            {
+                "id": "65e5bb1713227bb7690cea0a-1",
+                "stationId": "65e5bb1713227bb7690cea0a",
+                "name": "装备架",
+                "normalizedName": "gear-rack",
+                "imageLink": "station-gear-rack.png",
+                "level": 1,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "5d1b327086f7742525194449",
+        "name": "压力表",
+        "normalizedName": "pressure-gauge",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5d1b327086f7742525194449-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pressure_gauge",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fba654e7600691aadf7-3",
+                "stationId": "5d484fba654e7600691aadf7",
+                "name": "卫生间",
+                "normalizedName": "lavatory",
+                "imageLink": "station-lavatory.png",
+                "level": 3,
+                "count": 2
+            },
+            {
+                "id": "5d494a3f5b56502f18c98a0e-1",
+                "stationId": "5d494a3f5b56502f18c98a0e",
+                "name": "酒饮生成器",
+                "normalizedName": "booze-generator",
+                "imageLink": "station-booze-generator.png",
+                "level": 1,
+                "count": 2
+            }
+        ]
+    },
+    {
+        "id": "590c2e1186f77425357b6124",
+        "name": "一套工具",
+        "normalizedName": "toolset",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "590c2e1186f77425357b6124-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fba654e7600691aadf7-3",
+                "stationId": "5d484fba654e7600691aadf7",
+                "name": "卫生间",
+                "normalizedName": "lavatory",
+                "imageLink": "station-lavatory.png",
+                "level": 3,
+                "count": 1
+            },
+            {
+                "id": "5d484fc8654e760065037abf-2",
+                "stationId": "5d484fc8654e760065037abf",
+                "name": "集水器",
+                "normalizedName": "water-collector",
+                "imageLink": "station-water-collector.png",
+                "level": 2,
+                "count": 2
+            },
+            {
+                "id": "5d484fda654e7600681d9315-2",
+                "stationId": "5d484fda654e7600681d9315",
+                "name": "工作台",
+                "normalizedName": "workbench",
+                "imageLink": "station-workbench.png",
+                "level": 2,
+                "count": 3
+            },
+            {
+                "id": "5d484fe3654e76006657e0ac-2",
+                "stationId": "5d484fe3654e76006657e0ac",
+                "name": "靶场",
+                "normalizedName": "shooting-range",
+                "imageLink": "station-shooting-range.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "5d494a295b56502f18c98a08-2",
+                "stationId": "5d494a295b56502f18c98a08",
+                "name": "荣耀展柜",
+                "normalizedName": "hall-of-fame",
+                "imageLink": "station-hall-of-fame.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "6377a9b9a93bde8fa30eb79a-1",
+                "stationId": "6377a9b9a93bde8fa30eb79a",
+                "name": "健身区",
+                "normalizedName": "gym",
+                "imageLink": "station-gym.png",
+                "level": 1,
+                "count": 1
+            },
+            {
+                "id": "637b39f02e873739ec490215-5",
+                "stationId": "637b39f02e873739ec490215",
+                "name": "易碎墙",
+                "normalizedName": "defective-wall",
+                "imageLink": "station-defective-wall.png",
+                "level": 5,
+                "count": 1
+            },
+            {
+                "id": "637b39f02e873739ec490215-6",
+                "stationId": "637b39f02e873739ec490215",
+                "name": "易碎墙",
+                "normalizedName": "defective-wall",
+                "imageLink": "station-defective-wall.png",
+                "level": 6,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "5d1b317c86f7742523398392",
+        "name": "手摇钻",
+        "normalizedName": "hand-drill",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5d1b317c86f7742523398392-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hand_drill",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fc0654e76006657e0ab-2",
+                "stationId": "5d484fc0654e76006657e0ab",
+                "name": "仓库",
+                "normalizedName": "stash",
+                "imageLink": "station-stash.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "63db64cbf9963741dc0d741f-1",
+                "stationId": "63db64cbf9963741dc0d741f",
+                "name": "武器架",
+                "normalizedName": "weapon-rack",
+                "imageLink": "station-weapon-rack.png",
+                "level": 1,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "590c31c586f774245e3141b2",
+        "name": "一包钉子",
+        "normalizedName": "pack-of-nails",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "590c31c586f774245e3141b2-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fc0654e76006657e0ab-2",
+                "stationId": "5d484fc0654e76006657e0ab",
+                "name": "仓库",
+                "normalizedName": "stash",
+                "imageLink": "station-stash.png",
+                "level": 2,
+                "count": 5
+            },
+            {
+                "id": "5d484fc0654e76006657e0ab-3",
+                "stationId": "5d484fc0654e76006657e0ab",
+                "name": "仓库",
+                "normalizedName": "stash",
+                "imageLink": "station-stash.png",
+                "level": 3,
+                "count": 7
+            }
+        ]
+    },
+    {
+        "id": "60391afc25aff57af81f7085",
+        "name": "棘轮扳手",
+        "normalizedName": "ratchet-wrench",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "60391afc25aff57af81f7085-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ratchet_wrench",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fc0654e76006657e0ab-4",
+                "stationId": "5d484fc0654e76006657e0ab",
+                "name": "仓库",
+                "normalizedName": "stash",
+                "imageLink": "station-stash.png",
+                "level": 4,
+                "count": 2
+            },
+            {
+                "id": "5d484fc8654e760065037abf-3",
+                "stationId": "5d484fc8654e760065037abf",
+                "name": "集水器",
+                "normalizedName": "water-collector",
+                "imageLink": "station-water-collector.png",
+                "level": 3,
+                "count": 1
+            },
+            {
+                "id": "65e5bb1713227bb7690cea0a-3",
+                "stationId": "65e5bb1713227bb7690cea0a",
+                "name": "装备架",
+                "normalizedName": "gear-rack",
+                "imageLink": "station-gear-rack.png",
+                "level": 3,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "619cc01e0a7c3a1a2731940c",
+        "name": "医疗工具",
+        "normalizedName": "medical-tools",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "619cc01e0a7c3a1a2731940c-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Medical_tools",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fcd654e7668ec2ec322-2",
+                "stationId": "5d484fcd654e7668ec2ec322",
+                "name": "医疗站",
+                "normalizedName": "medstation",
+                "imageLink": "station-medstation.png",
+                "level": 2,
+                "count": 3
+            }
+        ]
+    },
+    {
+        "id": "5e2af00086f7746d3f3c33f7",
+        "name": "Smoked Chimney下水道清洁剂",
+        "normalizedName": "smoked-chimney-drain-cleaner",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5e2af00086f7746d3f3c33f7-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Smoked_Chimney_drain_cleaner",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fd1654e76006732bf2e-3",
+                "stationId": "5d484fd1654e76006732bf2e",
+                "name": "营养部",
+                "normalizedName": "nutrition-unit",
+                "imageLink": "station-nutrition-unit.png",
+                "level": 3,
+                "count": 2
+            }
+        ]
+    },
+    {
+        "id": "5734781f24597737e04bf32a",
+        "name": "DVD光驱",
+        "normalizedName": "dvd-drive",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5734781f24597737e04bf32a-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/DVD_drive",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fd6654e76051d3cc791-2",
+                "stationId": "5d484fd6654e76051d3cc791",
+                "name": "休息区",
+                "normalizedName": "rest-space",
+                "imageLink": "station-rest-space.png",
+                "level": 2,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "590a391c86f774385a33c404",
+        "name": "电磁铁",
+        "normalizedName": "magnet",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "590a391c86f774385a33c404-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Magnet",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fd6654e76051d3cc791-2",
+                "stationId": "5d484fd6654e76051d3cc791",
+                "name": "休息区",
+                "normalizedName": "rest-space",
+                "imageLink": "station-rest-space.png",
+                "level": 2,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "5e2aedd986f7746d404f3aa4",
+        "name": "GreenBat锂电池",
+        "normalizedName": "greenbat-lithium-battery",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5e2aedd986f7746d404f3aa4-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GreenBat_lithium_battery",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fd6654e76051d3cc791-3",
+                "stationId": "5d484fd6654e76051d3cc791",
+                "name": "休息区",
+                "normalizedName": "rest-space",
+                "imageLink": "station-rest-space.png",
+                "level": 3,
+                "count": 4
+            }
+        ]
+    },
+    {
+        "id": "62a0a0bb621468534a797ad5",
+        "name": "\"Master\"锉刀套装",
+        "normalizedName": "set-of-files-master",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "62a0a0bb621468534a797ad5-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Set_of_files_%22Master%22",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fda654e7600681d9315-2",
+                "stationId": "5d484fda654e7600681d9315",
+                "name": "工作台",
+                "normalizedName": "workbench",
+                "imageLink": "station-workbench.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "5d484fe3654e76006657e0ac-3",
+                "stationId": "5d484fe3654e76006657e0ac",
+                "name": "靶场",
+                "normalizedName": "shooting-range",
+                "imageLink": "station-shooting-range.png",
+                "level": 3,
+                "count": 1
+            },
+            {
+                "id": "5d494a295b56502f18c98a08-3",
+                "stationId": "5d494a295b56502f18c98a08",
+                "name": "荣耀展柜",
+                "normalizedName": "hall-of-fame",
+                "imageLink": "station-hall-of-fame.png",
+                "level": 3,
+                "count": 1
+            },
+            {
+                "id": "63db64cbf9963741dc0d741f-2",
+                "stationId": "63db64cbf9963741dc0d741f",
+                "name": "武器架",
+                "normalizedName": "weapon-rack",
+                "imageLink": "station-weapon-rack.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "65e5bb1713227bb7690cea0a-3",
+                "stationId": "65e5bb1713227bb7690cea0a",
+                "name": "装备架",
+                "normalizedName": "gear-rack",
+                "imageLink": "station-gear-rack.png",
+                "level": 3,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "5c12613b86f7743bbe2c3f76",
+        "name": "情报文件夹",
+        "normalizedName": "intelligence-folder",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5c12613b86f7743bbe2c3f76-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Intelligence_folder",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fdf654e7600691aadf8-2",
+                "stationId": "5d484fdf654e7600691aadf8",
+                "name": "情报中心",
+                "normalizedName": "intelligence-center",
+                "imageLink": "station-intelligence-center.png",
+                "level": 2,
+                "count": 3
+            }
+        ]
+    },
+    {
+        "id": "590c2c9c86f774245b1f03f2",
+        "name": "施工用测量卷尺",
+        "normalizedName": "construction-measuring-tape",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "590c2c9c86f774245b1f03f2-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Construction_measuring_tape",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fe3654e76006657e0ac-2",
+                "stationId": "5d484fe3654e76006657e0ac",
+                "name": "靶场",
+                "normalizedName": "shooting-range",
+                "imageLink": "station-shooting-range.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "667298e75ea6b4493c08f266-1",
+                "stationId": "667298e75ea6b4493c08f266",
+                "name": "仪式圈",
+                "normalizedName": "cultist-circle",
+                "imageLink": "station-cultist-circle.png",
+                "level": 1,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "590c639286f774151567fa95",
+        "name": "技术指导文件",
+        "normalizedName": "tech-manual",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "590c639286f774151567fa95-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tech_manual",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d484fe3654e76006657e0ac-3",
+                "stationId": "5d484fe3654e76006657e0ac",
+                "name": "靶场",
+                "normalizedName": "shooting-range",
+                "imageLink": "station-shooting-range.png",
+                "level": 3,
+                "count": 1
+            },
+            {
+                "id": "5d494a295b56502f18c98a08-2",
+                "stationId": "5d494a295b56502f18c98a08",
+                "name": "荣耀展柜",
+                "normalizedName": "hall-of-fame",
+                "imageLink": "station-hall-of-fame.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "63db64cbf9963741dc0d741f-3",
+                "stationId": "63db64cbf9963741dc0d741f",
+                "name": "武器架",
+                "normalizedName": "weapon-rack",
+                "imageLink": "station-weapon-rack.png",
+                "level": 3,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "573474f924597738002c6174",
+        "name": "项链",
+        "normalizedName": "chainlet",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "573474f924597738002c6174-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Chainlet",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d494a0e5b56502f18c98a02-1",
+                "stationId": "5d494a0e5b56502f18c98a02",
+                "name": "图书馆",
+                "normalizedName": "library",
+                "imageLink": "station-library.png",
+                "level": 1,
+                "count": 2
+            }
+        ]
+    },
+    {
+        "id": "5d235a5986f77443f6329bc6",
+        "name": "黄金骷髅指环",
+        "normalizedName": "gold-skull-ring",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5d235a5986f77443f6329bc6-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gold_skull_ring",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d494a175b56502f18c98a04-1",
+                "stationId": "5d494a175b56502f18c98a04",
+                "name": "Scav宝箱",
+                "normalizedName": "scav-case",
+                "imageLink": "station-scav-case.png",
+                "level": 1,
+                "count": 6
+            }
+        ]
+    },
+    {
+        "id": "5734758f24597738025ee253",
+        "name": "金项链",
+        "normalizedName": "golden-neck-chain",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5734758f24597738025ee253-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Golden_neck_chain",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d494a175b56502f18c98a04-1",
+                "stationId": "5d494a175b56502f18c98a04",
+                "name": "Scav宝箱",
+                "normalizedName": "scav-case",
+                "imageLink": "station-scav-case.png",
+                "level": 1,
+                "count": 8
+            }
+        ]
+    },
+    {
+        "id": "5d1b376e86f774252519444e",
+        "name": "“凶狠跑刀崽”私酒",
+        "normalizedName": "bottle-of-fierce-hatchling-moonshine",
+        "types": [
+            "provisions"
+        ],
+        "iconLink": "5d1b376e86f774252519444e-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Fierce_Hatchling_moonshine",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d494a175b56502f18c98a04-1",
+                "stationId": "5d494a175b56502f18c98a04",
+                "name": "Scav宝箱",
+                "normalizedName": "scav-case",
+                "imageLink": "station-scav-case.png",
+                "level": 1,
+                "count": 3
+            }
+        ]
+    },
+    {
+        "id": "5d1b31ce86f7742523398394",
+        "name": "圆嘴钳",
+        "normalizedName": "round-pliers",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5d1b31ce86f7742523398394-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Round_pliers",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d494a295b56502f18c98a08-1",
+                "stationId": "5d494a295b56502f18c98a08",
+                "name": "荣耀展柜",
+                "normalizedName": "hall-of-fame",
+                "imageLink": "station-hall-of-fame.png",
+                "level": 1,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "590c595c86f7747884343ad7",
+        "name": "防毒面具滤罐",
+        "normalizedName": "gas-mask-air-filter",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "590c595c86f7747884343ad7-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Gas_mask_air_filter",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d494a315b56502f18c98a0a-1",
+                "stationId": "5d494a315b56502f18c98a0a",
+                "name": "空气过滤单元",
+                "normalizedName": "air-filtering-unit",
+                "imageLink": "station-air-filtering-unit.png",
+                "level": 1,
+                "count": 5
+            }
+        ]
+    },
+    {
+        "id": "5d1b32c186f774252167a530",
+        "name": "模拟温度计",
+        "normalizedName": "analog-thermometer",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5d1b32c186f774252167a530-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Analog_thermometer",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d494a3f5b56502f18c98a0e-1",
+                "stationId": "5d494a3f5b56502f18c98a0e",
+                "name": "酒饮生成器",
+                "normalizedName": "booze-generator",
+                "imageLink": "station-booze-generator.png",
+                "level": 1,
+                "count": 2
+            }
+        ]
+    },
+    {
+        "id": "619cbfccbedcde2f5b3f7bdd",
+        "name": "管道扳手",
+        "normalizedName": "pipe-grip-wrench",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "619cbfccbedcde2f5b3f7bdd-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pipe_grip_wrench",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d494a3f5b56502f18c98a0e-1",
+                "stationId": "5d494a3f5b56502f18c98a0e",
+                "name": "酒饮生成器",
+                "normalizedName": "booze-generator",
+                "imageLink": "station-booze-generator.png",
+                "level": 1,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "5d40419286f774318526545f",
+        "name": "金属切割剪刀",
+        "normalizedName": "metal-cutting-scissors",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5d40419286f774318526545f-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_cutting_scissors",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "6377a9b9a93bde8fa30eb79a-1",
+                "stationId": "6377a9b9a93bde8fa30eb79a",
+                "name": "健身区",
+                "normalizedName": "gym",
+                "imageLink": "station-gym.png",
+                "level": 1,
+                "count": 1
+            },
+            {
+                "id": "637b39f02e873739ec490215-5",
+                "stationId": "637b39f02e873739ec490215",
+                "name": "易碎墙",
+                "normalizedName": "defective-wall",
+                "imageLink": "station-defective-wall.png",
+                "level": 5,
+                "count": 1
+            },
+            {
+                "id": "63db64cbf9963741dc0d741f-1",
+                "stationId": "63db64cbf9963741dc0d741f",
+                "name": "武器架",
+                "normalizedName": "weapon-rack",
+                "imageLink": "station-weapon-rack.png",
+                "level": 1,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "63a0b208f444d32d6f03ea1e",
+        "name": "Fierce Blow重击锤",
+        "normalizedName": "fierce-blow-sledgehammer",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "63a0b208f444d32d6f03ea1e-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fierce_Blow_sledgehammer",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "637b39f02e873739ec490215-4",
+                "stationId": "637b39f02e873739ec490215",
+                "name": "易碎墙",
+                "normalizedName": "defective-wall",
+                "imageLink": "station-defective-wall.png",
+                "level": 4,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "62a0a098de7ac8199358053b",
+        "name": "缝纫锥",
+        "normalizedName": "awl",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "62a0a098de7ac8199358053b-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Awl",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "65e5bb1713227bb7690cea0a-1",
+                "stationId": "65e5bb1713227bb7690cea0a",
+                "name": "装备架",
+                "normalizedName": "gear-rack",
+                "imageLink": "station-gear-rack.png",
+                "level": 1,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "590c311186f77424d1667482",
+        "name": "扳手",
+        "normalizedName": "wrench",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "590c311186f77424d1667482-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Wrench",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "65e5bb1713227bb7690cea0a-2",
+                "stationId": "65e5bb1713227bb7690cea0a",
+                "name": "装备架",
+                "normalizedName": "gear-rack",
+                "imageLink": "station-gear-rack.png",
+                "level": 2,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "591094e086f7747caa7bb2ef",
+        "name": "防弹衣维修套件",
+        "normalizedName": "body-armor-repair-kit",
+        "types": [],
+        "iconLink": "591094e086f7747caa7bb2ef-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Body_armor_repair_kit",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "65e5bb1713227bb7690cea0a-3",
+                "stationId": "65e5bb1713227bb7690cea0a",
+                "name": "装备架",
+                "normalizedName": "gear-rack",
+                "imageLink": "station-gear-rack.png",
+                "level": 3,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "5e2af37686f774755a234b65",
+        "name": "SurvL幸存者打火机",
+        "normalizedName": "survl-survivor-lighter",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5e2af37686f774755a234b65-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SurvL_Survivor_Lighter",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "667298e75ea6b4493c08f266-1",
+                "stationId": "667298e75ea6b4493c08f266",
+                "name": "仪式圈",
+                "normalizedName": "cultist-circle",
+                "imageLink": "station-cultist-circle.png",
+                "level": 1,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "62a09ee4cf4a99369e262453",
+        "name": "罐装白盐",
+        "normalizedName": "can-of-white-salt",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "62a09ee4cf4a99369e262453-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_white_salt",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "667298e75ea6b4493c08f266-1",
+                "stationId": "667298e75ea6b4493c08f266",
+                "name": "仪式圈",
+                "normalizedName": "cultist-circle",
+                "imageLink": "station-cultist-circle.png",
+                "level": 1,
+                "count": 3
+            }
+        ]
+    },
+    {
+        "id": "59e3596386f774176c10a2a2",
+        "name": "Paid杀蟑剂",
+        "normalizedName": "paid-antiroach-spray",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "59e3596386f774176c10a2a2-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/PAID_AntiRoach_spray",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "667298e75ea6b4493c08f266-1",
+                "stationId": "667298e75ea6b4493c08f266",
+                "name": "仪式圈",
+                "normalizedName": "cultist-circle",
+                "imageLink": "station-cultist-circle.png",
+                "level": 1,
+                "count": 1
+            }
+        ]
     }
 ]
