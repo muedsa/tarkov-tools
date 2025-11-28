@@ -16857,9 +16857,6 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
-                    "requiredQuestItems": [
-                        null
-                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -16917,7 +16914,8 @@
                                 "wikiLink": ""
                             }
                         }
-                    ]
+                    ],
+                    "requiredQuestItems": []
                 },
                 {
                     "id": "600a9fb7ba91d953182d6a1c",
@@ -23754,17 +23752,6 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
-                    "requiredQuestItems": [
-                        {
-                            "id": "6331bb0d1aa9f42b804997a6",
-                            "name": "V3加密U盘",
-                            "normalizedName": "secure-flash-drive-v3",
-                            "shortName": "V3U盘",
-                            "width": 1,
-                            "height": 1,
-                            "iconLink": "https://assets.tarkov.dev/6331bb0d1aa9f42b804997a6-icon.webp"
-                        }
-                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -23845,6 +23832,17 @@
                                 "iconLink": "https://assets.tarkov.dev/62e910aaf957f2915e0a5e36-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Digital_secure_DSP_radio_transmitter"
                             }
+                        }
+                    ],
+                    "requiredQuestItems": [
+                        {
+                            "id": "6331bb0d1aa9f42b804997a6",
+                            "name": "V3加密U盘",
+                            "normalizedName": "secure-flash-drive-v3",
+                            "shortName": "V3U盘",
+                            "width": 1,
+                            "height": 1,
+                            "iconLink": "https://assets.tarkov.dev/6331bb0d1aa9f42b804997a6-icon.webp"
                         }
                     ],
                     "taskUnlock": {
@@ -24002,9 +24000,6 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
-                    "requiredQuestItems": [
-                        null
-                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -24087,7 +24082,8 @@
                                 "wikiLink": ""
                             }
                         }
-                    ]
+                    ],
+                    "requiredQuestItems": []
                 },
                 {
                     "id": "5ed9ff023a68ec264e5233c2",
@@ -24225,9 +24221,6 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
-                    "requiredQuestItems": [
-                        null
-                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -24310,7 +24303,8 @@
                                 "wikiLink": ""
                             }
                         }
-                    ]
+                    ],
+                    "requiredQuestItems": []
                 },
                 {
                     "id": "67da01179cbeb8d6f4011961",
@@ -25091,9 +25085,6 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
-                    "requiredQuestItems": [
-                        null
-                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -25183,7 +25174,8 @@
                                 "wikiLink": ""
                             }
                         }
-                    ]
+                    ],
+                    "requiredQuestItems": []
                 },
                 {
                     "id": "686c17583cf79421d70b007e",
@@ -25658,9 +25650,6 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
-                    "requiredQuestItems": [
-                        null
-                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -25750,7 +25739,8 @@
                                 "wikiLink": ""
                             }
                         }
-                    ]
+                    ],
+                    "requiredQuestItems": []
                 },
                 {
                     "id": "5ee4a093a297eb185236194f",
@@ -26102,9 +26092,6 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
-                    "requiredQuestItems": [
-                        null
-                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -26187,7 +26174,8 @@
                                 "wikiLink": ""
                             }
                         }
-                    ]
+                    ],
+                    "requiredQuestItems": []
                 },
                 {
                     "id": "67bc980c3c4c5942cb0ac53f",
@@ -26200,10 +26188,6 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
-                    "requiredQuestItems": [
-                        null,
-                        null
-                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -26263,7 +26247,8 @@
                                 "wikiLink": ""
                             }
                         }
-                    ]
+                    ],
+                    "requiredQuestItems": []
                 }
             ]
         },

@@ -752,6 +752,14 @@ request("https://api.tarkov.dev/graphql", hideoutStationsQuery).then((data) => {
     `public/tarkov/data/${mode}/hideoutStations.json`,
   );
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
+
+  data.hideoutStations.forEach((hideoutStation) => {
+    hideoutStation.crafts.forEach((craft) => {
+      // Filter [null] items
+      craft.requiredQuestItems = craft.requiredQuestItems.filter((i) => !!i);
+    });
+  });
+
   fs.writeFileSync(filePath, JSON.stringify(data, null, 4), "utf-8");
 });
 
