@@ -149,7 +149,11 @@ export default function TaskObjective({
               </div>
               <div className="ml-2 flex flex-wrap">
                 {objective.items.map((item) => (
-                  <TarkovItem key={item.id} item={item} />
+                  <TarkovItem
+                    key={item.id}
+                    item={item}
+                    foundInRaid={objective.foundInRaid}
+                  />
                 ))}
               </div>
             </div>

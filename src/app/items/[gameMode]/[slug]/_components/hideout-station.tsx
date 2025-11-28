@@ -53,7 +53,16 @@ export default function HideoutStation({
                   <div className="p-2 bg-gray-950/40 flex flex-wrap gap-2">
                     {level.itemRequirements.map((itemRequirement) => (
                       <div key={itemRequirement.id}>
-                        <TarkovItem item={itemRequirement.item}></TarkovItem>
+                        <TarkovItem
+                          item={itemRequirement.item}
+                          foundInRaid={
+                            itemRequirement.attributes.findIndex(
+                              (attr) =>
+                                attr.name === "foundInRaid" &&
+                                attr.value === "true",
+                            ) >= 0
+                          }
+                        ></TarkovItem>
                         <div className="text-gold-one text-xs text-center text-nowrap text-clip">
                           X{itemRequirement.count}
                         </div>
@@ -96,7 +105,16 @@ export default function HideoutStation({
                   <div className="flex flex-wrap gap-1">
                     {craft.rewardItems.map((rewardItem) => (
                       <div key={rewardItem.item.id}>
-                        <TarkovItem item={rewardItem.item} />
+                        <TarkovItem
+                          item={rewardItem.item}
+                          foundInRaid={
+                            rewardItem.attributes.findIndex(
+                              (attr) =>
+                                attr.name === "foundInRaid" &&
+                                attr.value === "true",
+                            ) >= 0
+                          }
+                        />
                         <div className="text-gold-one text-xs text-center text-nowrap text-clip">
                           X{rewardItem.count}
                         </div>
@@ -117,7 +135,16 @@ export default function HideoutStation({
                     ))}
                     {craft.requiredItems.map((requiredItem) => (
                       <div key={requiredItem.item.id}>
-                        <TarkovItem item={requiredItem.item} />
+                        <TarkovItem
+                          item={requiredItem.item}
+                          foundInRaid={
+                            requiredItem.attributes.findIndex(
+                              (attr) =>
+                                attr.name === "foundInRaid" &&
+                                attr.value === "true",
+                            ) >= 0
+                          }
+                        />
                         <div className="text-gold-one text-xs text-center text-nowrap text-clip">
                           X{requiredItem.count}
                         </div>

@@ -3,7 +3,13 @@ import { handleTarkovDevImageLink } from "@/uitls/image-util";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function TarkovItem({ item }: { item: TarkovItem }) {
+export default function TarkovItem({
+  item,
+  foundInRaid = false,
+}: {
+  item: TarkovItem;
+  foundInRaid?: boolean;
+}) {
   return (
     <Tooltip
       key={item.id}
@@ -32,6 +38,16 @@ export default function TarkovItem({ item }: { item: TarkovItem }) {
           width={64}
           height={64}
         />
+        {foundInRaid && (
+          <div className="w-[13.5px] h-[12.5px] absolute bottom-1 right-1">
+            <Image
+              src={"/tarkov/images/icon-fir.webp"}
+              alt={"战局内带出物品"}
+              width={27}
+              height={25}
+            />
+          </div>
+        )}
       </div>
     </Tooltip>
   );

@@ -36,7 +36,15 @@ export default function TaskRewards({
           <div className="p-2 bg-gray-950/30 flex flex-wrap gap-2">
             {rewards.items.map((containedItem) => (
               <div key={containedItem.item.id}>
-                <TarkovItem item={containedItem.item} />
+                <TarkovItem
+                  item={containedItem.item}
+                  foundInRaid={
+                    containedItem.attributes.findIndex(
+                      (attr) =>
+                        attr.name === "foundInRaid" && attr.value === "true",
+                    ) >= 0
+                  }
+                />
                 <div className="text-gold-one text-xs text-center text-nowrap text-clip">
                   X{containedItem.count}
                 </div>
@@ -73,7 +81,17 @@ export default function TaskRewards({
                 </div>
                 <div className="ml-2 flex flex-wrap">
                   {craft.rewardItems.map((c) => (
-                    <TarkovItem key={c.item.id} item={c.item} />
+                    <TarkovItem
+                      key={c.item.id}
+                      item={c.item}
+                      foundInRaid={
+                        c.attributes.findIndex(
+                          (attr) =>
+                            attr.name === "foundInRaid" &&
+                            attr.value === "true",
+                        ) >= 0
+                      }
+                    />
                   ))}
                 </div>
               </div>

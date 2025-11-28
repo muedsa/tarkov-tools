@@ -253,7 +253,7 @@ type TarkovContainedItem = {
   item: TarkovItem;
   count: number;
   quantity: number;
-  attributes: TarkovItemAttribute;
+  attributes: TarkovItemAttribute[];
 };
 
 type TarkovOfferUnlock = {
