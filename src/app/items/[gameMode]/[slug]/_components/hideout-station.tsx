@@ -144,8 +144,23 @@ export default function HideoutStation({
                                 attr.value === "true",
                             ) >= 0
                           }
+                          asTool={
+                            requiredItem.attributes.findIndex(
+                              (attr) =>
+                                attr.name === "tool" && attr.value === "true",
+                            ) >= 0
+                          }
                         />
-                        <div className="text-gold-one text-xs text-center text-nowrap text-clip">
+                        <div
+                          className={
+                            requiredItem.attributes.findIndex(
+                              (attr) =>
+                                attr.name === "tool" && attr.value === "true",
+                            ) >= 0
+                              ? "text-blue-light text-xs text-center text-nowrap text-clip"
+                              : "text-gold-one text-xs text-center text-nowrap text-clip"
+                          }
+                        >
                           X{requiredItem.count}
                         </div>
                       </div>

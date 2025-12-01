@@ -6,9 +6,11 @@ import Link from "next/link";
 export default function TarkovItem({
   item,
   foundInRaid = false,
+  asTool = false,
 }: {
   item: TarkovItem;
   foundInRaid?: boolean;
+  asTool?: boolean;
 }) {
   return (
     <Tooltip
@@ -28,7 +30,11 @@ export default function TarkovItem({
         </div>
       }
     >
-      <div className="size-[64px]">
+      <div
+        className={
+          asTool ? "size-[64px] border-1 border-blue-light" : "size-[64px]"
+        }
+      >
         <div className="w-[56px] overflow-clip text-white text-xs absolute top-1 right-1 text-right text-shadow-lg text-nowrap text-clip">
           {item.shortName}
         </div>
