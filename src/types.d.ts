@@ -203,8 +203,7 @@ interface TarkovTaskSkill extends TarkovTaskObjectiveBasic {
 }
 
 interface TarkovTaskObjectiveTaskStatus
-  extends TarkovTaskObjectiveBasic,
-    TarkovTaskStatusRequirement {
+  extends TarkovTaskObjectiveBasic, TarkovTaskStatusRequirement {
   __typename: "TaskObjectiveTaskStatus";
 }
 
