@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import path from "path";
 import fs from "fs";
 import { getTaskList } from "@/uitls/task";
+import { handleTarkovDevImageLink } from "@/uitls/image-util";
 
 const rootDir = path.resolve(process.cwd(), "src", "app");
 
@@ -79,6 +80,7 @@ const getTaskPagesSitemap = (createDate: Date): MetadataRoute.Sitemap => {
       url: `${BASE_URL}/tasks/${task.normalizedName}`,
       lastModified: createDate,
       changeFrequency: "monthly",
+      images: [`${BASE_URL}${handleTarkovDevImageLink(task.taskImageLink)}`],
     };
   });
 };
