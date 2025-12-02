@@ -34,7 +34,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.0.6",
     "graphql-request": "^7.3.5",
-    "prettier": "3.7.1",
+    "prettier": "3.7.3",
     "tailwindcss": "^4",
     "typescript": "^5"
   },
