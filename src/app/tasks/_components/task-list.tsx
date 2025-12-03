@@ -22,6 +22,7 @@ export default function TaskListComponent({
             href={`/tasks/${t.normalizedName}`}
             target="_blank"
             className={existMdxFile(t.normalizedName) ? "underline" : ""}
+            prefetch={false}
           >
             {t.name}
             {t.kappaRequired ? " ⁽ᴷ⁾" : ""}
