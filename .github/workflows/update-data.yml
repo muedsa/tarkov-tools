@@ -2,7 +2,7 @@ name: Update Data from tarkov.dev
 
 on:
   schedule:
-    - cron: "47 0 * * *"
+    - cron: "47 0,6,12,18 * * *"
   workflow_dispatch: {}
 
 jobs:
