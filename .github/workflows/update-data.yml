@@ -38,6 +38,8 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes in public/ to commit"
           else
-            git commit -m "chore: update public by scheduled scripts [skip ci]"
+            # 使用东八区时间并以 ISO 8601 格式添加到提交信息中（例如 2025-12-03T10:25:00+08:00）
+            timestamp=$(TZ='Asia/Shanghai' date '+%Y-%m-%dT%H:%M:%S%:z')
+            git commit -m "chore: update public by scheduled scripts - $timestamp"
             git push
           fi
