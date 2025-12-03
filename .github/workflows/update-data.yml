@@ -1,0 +1,42 @@
+name: Update Data from tarkov.dev
+
+on:
+  schedule:
+    - cron: "47 0 * * *"
+
+jobs:
+  run-scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "22"
+
+      - name: Install dependencies (prefer ci)
+        run: |
+          npm ci || npm install --no-audit --no-fund
+
+      - name: Update data from tarkov.dev
+        run: |
+          npm run script:fetchDataPve && npm run script:fetchDataPvp
+
+      - name: Commit and push changes in public/
+        env:
+          GIT_AUTHOR_NAME: "github-actions[bot]"
+          GIT_AUTHOR_EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
+        run: |
+          git config user.name "$GIT_AUTHOR_NAME"
+          git config user.email "$GIT_AUTHOR_EMAIL"
+          git add public || true
+          if git diff --staged --quiet; then
+            echo "No changes in public/ to commit"
+          else
+            git commit -m "chore: update public by scheduled scripts [skip ci]"
+            git push
+          fi
