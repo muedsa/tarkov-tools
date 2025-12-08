@@ -51,8 +51,10 @@ export default function RootLayout({
       // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <Analytics />
-        <SpeedInsights />
+        {process.env.ENABLE_VERCEL_ANALYTICS === "true" && <Analytics />}
+        {process.env.ENABLE_VERCEL_SPEED_INSIGHTS === "true" && (
+          <SpeedInsights />
+        )}
       </body>
     </html>
   );
