@@ -6,7 +6,7 @@ import { handleTarkovDevImageLink } from "@/uitls/image-util";
 
 const rootDir = path.resolve(process.cwd(), "src", "app");
 
-const BASE_URL = "https://tarkov.muedsa.com";
+const BASE_URL = process.env.SITE_URL || "https://tarkov.muedsa.com";
 
 const getFixedPageSitemap = (createDate: Date): MetadataRoute.Sitemap => {
   return [
