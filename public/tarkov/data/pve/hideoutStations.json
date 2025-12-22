@@ -68,28 +68,6 @@
                     "id": "5d388e97081959000a123acf-2",
                     "level": 2,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d388e97081959000a123acf-2-1",
-                            "level": 1,
-                            "station": {
-                                "id": "5d473c1e081959000e530190",
-                                "name": "通风",
-                                "normalizedName": "vents",
-                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
-                            }
-                        },
-                        {
-                            "id": "5d388e97081959000a123acf-2-2",
-                            "level": 1,
-                            "station": {
-                                "id": "5d388e97081959000a123acf",
-                                "name": "加热器",
-                                "normalizedName": "heating",
-                                "imageLink": "https://assets.tarkov.dev/station-heating.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d388e97081959000a123acf-2-0",
@@ -191,35 +169,21 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Crickent_lighter"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "5d388e97081959000a123acf-3",
-                    "level": 3,
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "5d388e97081959000a123acf-3-2",
-                            "level": 2,
+                            "id": "5d388e97081959000a123acf-2-1",
+                            "level": 1,
                             "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                                "id": "5d473c1e081959000e530190",
+                                "name": "通风",
+                                "normalizedName": "vents",
+                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
                             }
                         },
                         {
-                            "id": "5d388e97081959000a123acf-3-3",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fda654e7600681d9315",
-                                "name": "工作台",
-                                "normalizedName": "workbench",
-                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                            }
-                        },
-                        {
-                            "id": "5d388e97081959000a123acf-3-5",
-                            "level": 2,
+                            "id": "5d388e97081959000a123acf-2-2",
+                            "level": 1,
                             "station": {
                                 "id": "5d388e97081959000a123acf",
                                 "name": "加热器",
@@ -227,7 +191,11 @@
                                 "imageLink": "https://assets.tarkov.dev/station-heating.png"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "5d388e97081959000a123acf-3",
+                    "level": 3,
                     "itemRequirements": [
                         {
                             "id": "5d388e97081959000a123acf-3-0",
@@ -330,6 +298,38 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d388e97081959000a123acf-3-2",
+                            "level": 2,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        },
+                        {
+                            "id": "5d388e97081959000a123acf-3-3",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fda654e7600681d9315",
+                                "name": "工作台",
+                                "normalizedName": "workbench",
+                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                            }
+                        },
+                        {
+                            "id": "5d388e97081959000a123acf-3-5",
+                            "level": 2,
+                            "station": {
+                                "id": "5d388e97081959000a123acf",
+                                "name": "加热器",
+                                "normalizedName": "heating",
+                                "imageLink": "https://assets.tarkov.dev/station-heating.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "5d388e97081959000a123acf-3-4",
@@ -358,18 +358,6 @@
                     "id": "5d3b396e33c48f02b81cd9f3-1",
                     "level": 1,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d3b396e33c48f02b81cd9f3-1-1",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fb3654e7600681d9314",
-                                "name": "安保",
-                                "normalizedName": "security",
-                                "imageLink": "https://assets.tarkov.dev/station-security.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d3b396e33c48f02b81cd9f3-1-0",
@@ -421,44 +409,24 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spark_plug"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "5d3b396e33c48f02b81cd9f3-2",
-                    "level": 2,
-                    "traderRequirements": [],
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "5d3b396e33c48f02b81cd9f3-2-0",
-                            "level": 2,
+                            "id": "5d3b396e33c48f02b81cd9f3-1-1",
+                            "level": 1,
                             "station": {
                                 "id": "5d484fb3654e7600681d9314",
                                 "name": "安保",
                                 "normalizedName": "security",
                                 "imageLink": "https://assets.tarkov.dev/station-security.png"
                             }
-                        },
-                        {
-                            "id": "5d3b396e33c48f02b81cd9f3-2-1",
-                            "level": 2,
-                            "station": {
-                                "id": "5d473c1e081959000e530190",
-                                "name": "通风",
-                                "normalizedName": "vents",
-                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
-                            }
-                        },
-                        {
-                            "id": "5d3b396e33c48f02b81cd9f3-2-5",
-                            "level": 1,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "5d3b396e33c48f02b81cd9f3-2",
+                    "level": 2,
+                    "traderRequirements": [],
                     "itemRequirements": [
                         {
                             "id": "5d3b396e33c48f02b81cd9f3-2-2",
@@ -560,15 +528,11 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bulbex_cable_cutter"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "5d3b396e33c48f02b81cd9f3-3",
-                    "level": 3,
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "5d3b396e33c48f02b81cd9f3-3-0",
-                            "level": 3,
+                            "id": "5d3b396e33c48f02b81cd9f3-2-0",
+                            "level": 2,
                             "station": {
                                 "id": "5d484fb3654e7600681d9314",
                                 "name": "安保",
@@ -577,8 +541,8 @@
                             }
                         },
                         {
-                            "id": "5d3b396e33c48f02b81cd9f3-3-1",
-                            "level": 3,
+                            "id": "5d3b396e33c48f02b81cd9f3-2-1",
+                            "level": 2,
                             "station": {
                                 "id": "5d473c1e081959000e530190",
                                 "name": "通风",
@@ -587,8 +551,8 @@
                             }
                         },
                         {
-                            "id": "5d3b396e33c48f02b81cd9f3-3-7",
-                            "level": 2,
+                            "id": "5d3b396e33c48f02b81cd9f3-2-5",
+                            "level": 1,
                             "station": {
                                 "id": "5d3b396e33c48f02b81cd9f3",
                                 "name": "发电机",
@@ -596,7 +560,11 @@
                                 "imageLink": "https://assets.tarkov.dev/station-generator.png"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "5d3b396e33c48f02b81cd9f3-3",
+                    "level": 3,
                     "itemRequirements": [
                         {
                             "id": "5d3b396e33c48f02b81cd9f3-3-2",
@@ -724,6 +692,38 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d3b396e33c48f02b81cd9f3-3-0",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fb3654e7600681d9314",
+                                "name": "安保",
+                                "normalizedName": "security",
+                                "imageLink": "https://assets.tarkov.dev/station-security.png"
+                            }
+                        },
+                        {
+                            "id": "5d3b396e33c48f02b81cd9f3-3-1",
+                            "level": 3,
+                            "station": {
+                                "id": "5d473c1e081959000e530190",
+                                "name": "通风",
+                                "normalizedName": "vents",
+                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
+                            }
+                        },
+                        {
+                            "id": "5d3b396e33c48f02b81cd9f3-3-7",
+                            "level": 2,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "5d3b396e33c48f02b81cd9f3-3-6",
@@ -785,18 +785,6 @@
                     "id": "5d473c1e081959000e530190-2",
                     "level": 2,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d473c1e081959000e530190-2-2",
-                            "level": 1,
-                            "station": {
-                                "id": "5d473c1e081959000e530190",
-                                "name": "通风",
-                                "normalizedName": "vents",
-                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d473c1e081959000e530190-2-0",
@@ -898,26 +886,11 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "5d473c1e081959000e530190-3",
-                    "level": 3,
-                    "traderRequirements": [],
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "5d473c1e081959000e530190-3-0",
-                            "level": 2,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        },
-                        {
-                            "id": "5d473c1e081959000e530190-3-6",
-                            "level": 2,
+                            "id": "5d473c1e081959000e530190-2-2",
+                            "level": 1,
                             "station": {
                                 "id": "5d473c1e081959000e530190",
                                 "name": "通风",
@@ -925,7 +898,12 @@
                                 "imageLink": "https://assets.tarkov.dev/station-vents.png"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "5d473c1e081959000e530190-3",
+                    "level": 3,
+                    "traderRequirements": [],
                     "itemRequirements": [
                         {
                             "id": "5d473c1e081959000e530190-3-1",
@@ -1052,6 +1030,28 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
                             }
                         }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d473c1e081959000e530190-3-0",
+                            "level": 2,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        },
+                        {
+                            "id": "5d473c1e081959000e530190-3-6",
+                            "level": 2,
+                            "station": {
+                                "id": "5d473c1e081959000e530190",
+                                "name": "通风",
+                                "normalizedName": "vents",
+                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
+                            }
+                        }
                     ]
                 }
             ],
@@ -1125,28 +1125,6 @@
                     "id": "5d484fb3654e7600681d9314-2",
                     "level": 2,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fb3654e7600681d9314-2-0",
-                            "level": 1,
-                            "station": {
-                                "id": "5d494a205b56502f18c98a06",
-                                "name": "照明",
-                                "normalizedName": "illumination",
-                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fb3654e7600681d9314-2-3",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fb3654e7600681d9314",
-                                "name": "安保",
-                                "normalizedName": "security",
-                                "imageLink": "https://assets.tarkov.dev/station-security.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fb3654e7600681d9314-2-2",
@@ -1248,15 +1226,11 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TP-200_TNT_brick"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "5d484fb3654e7600681d9314-3",
-                    "level": 3,
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "5d484fb3654e7600681d9314-3-0",
-                            "level": 3,
+                            "id": "5d484fb3654e7600681d9314-2-0",
+                            "level": 1,
                             "station": {
                                 "id": "5d494a205b56502f18c98a06",
                                 "name": "照明",
@@ -1265,8 +1239,8 @@
                             }
                         },
                         {
-                            "id": "5d484fb3654e7600681d9314-3-6",
-                            "level": 2,
+                            "id": "5d484fb3654e7600681d9314-2-3",
+                            "level": 1,
                             "station": {
                                 "id": "5d484fb3654e7600681d9314",
                                 "name": "安保",
@@ -1274,7 +1248,11 @@
                                 "imageLink": "https://assets.tarkov.dev/station-security.png"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "5d484fb3654e7600681d9314-3",
+                    "level": 3,
                     "itemRequirements": [
                         {
                             "id": "5d484fb3654e7600681d9314-3-1",
@@ -1374,6 +1352,28 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c392f86f77444754deb29-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SSD_drive"
+                            }
+                        }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fb3654e7600681d9314-3-0",
+                            "level": 3,
+                            "station": {
+                                "id": "5d494a205b56502f18c98a06",
+                                "name": "照明",
+                                "normalizedName": "illumination",
+                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fb3654e7600681d9314-3-6",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fb3654e7600681d9314",
+                                "name": "安保",
+                                "normalizedName": "security",
+                                "imageLink": "https://assets.tarkov.dev/station-security.png"
                             }
                         }
                     ],
@@ -1538,38 +1538,6 @@
                     "id": "5d484fba654e7600691aadf7-2",
                     "level": 2,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fba654e7600691aadf7-2-3",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fc8654e760065037abf",
-                                "name": "集水器",
-                                "normalizedName": "water-collector",
-                                "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fba654e7600691aadf7-2-4",
-                            "level": 1,
-                            "station": {
-                                "id": "5d473c1e081959000e530190",
-                                "name": "通风",
-                                "normalizedName": "vents",
-                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fba654e7600691aadf7-2-5",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fba654e7600691aadf7",
-                                "name": "卫生间",
-                                "normalizedName": "lavatory",
-                                "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fba654e7600691aadf7-2-0",
@@ -1696,26 +1664,11 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sewing_kit"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "5d484fba654e7600691aadf7-3",
-                    "level": 3,
-                    "traderRequirements": [],
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "5d484fba654e7600691aadf7-3-3",
-                            "level": 2,
-                            "station": {
-                                "id": "5d473c1e081959000e530190",
-                                "name": "通风",
-                                "normalizedName": "vents",
-                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fba654e7600691aadf7-3-4",
-                            "level": 2,
+                            "id": "5d484fba654e7600691aadf7-2-3",
+                            "level": 1,
                             "station": {
                                 "id": "5d484fc8654e760065037abf",
                                 "name": "集水器",
@@ -1724,8 +1677,18 @@
                             }
                         },
                         {
-                            "id": "5d484fba654e7600691aadf7-3-6",
-                            "level": 2,
+                            "id": "5d484fba654e7600691aadf7-2-4",
+                            "level": 1,
+                            "station": {
+                                "id": "5d473c1e081959000e530190",
+                                "name": "通风",
+                                "normalizedName": "vents",
+                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fba654e7600691aadf7-2-5",
+                            "level": 1,
                             "station": {
                                 "id": "5d484fba654e7600691aadf7",
                                 "name": "卫生间",
@@ -1733,7 +1696,12 @@
                                 "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "5d484fba654e7600691aadf7-3",
+                    "level": 3,
+                    "traderRequirements": [],
                     "itemRequirements": [
                         {
                             "id": "5d484fba654e7600691aadf7-3-0",
@@ -1833,6 +1801,38 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c346786f77423e50ed342-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Xenomorph_sealing_foam"
+                            }
+                        }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fba654e7600691aadf7-3-3",
+                            "level": 2,
+                            "station": {
+                                "id": "5d473c1e081959000e530190",
+                                "name": "通风",
+                                "normalizedName": "vents",
+                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fba654e7600691aadf7-3-4",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fc8654e760065037abf",
+                                "name": "集水器",
+                                "normalizedName": "water-collector",
+                                "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fba654e7600691aadf7-3-6",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fba654e7600691aadf7",
+                                "name": "卫生间",
+                                "normalizedName": "lavatory",
+                                "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
                             }
                         }
                     ]
@@ -6082,28 +6082,6 @@
                     "id": "5d484fc0654e76006657e0ab-2",
                     "level": 2,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fc0654e76006657e0ab-2-3",
-                            "level": 1,
-                            "station": {
-                                "id": "5d473c1e081959000e530190",
-                                "name": "通风",
-                                "normalizedName": "vents",
-                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fc0654e76006657e0ab-2-5",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fc0654e76006657e0ab",
-                                "name": "仓库",
-                                "normalizedName": "stash",
-                                "imageLink": "https://assets.tarkov.dev/station-stash.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fc0654e76006657e0ab-2-0",
@@ -6230,15 +6208,11 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "5d484fc0654e76006657e0ab-3",
-                    "level": 3,
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "5d484fc0654e76006657e0ab-3-0",
-                            "level": 2,
+                            "id": "5d484fc0654e76006657e0ab-2-3",
+                            "level": 1,
                             "station": {
                                 "id": "5d473c1e081959000e530190",
                                 "name": "通风",
@@ -6247,18 +6221,8 @@
                             }
                         },
                         {
-                            "id": "5d484fc0654e76006657e0ab-3-1",
-                            "level": 2,
-                            "station": {
-                                "id": "5d388e97081959000a123acf",
-                                "name": "加热器",
-                                "normalizedName": "heating",
-                                "imageLink": "https://assets.tarkov.dev/station-heating.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fc0654e76006657e0ab-3-6",
-                            "level": 2,
+                            "id": "5d484fc0654e76006657e0ab-2-5",
+                            "level": 1,
                             "station": {
                                 "id": "5d484fc0654e76006657e0ab",
                                 "name": "仓库",
@@ -6266,7 +6230,11 @@
                                 "imageLink": "https://assets.tarkov.dev/station-stash.png"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "5d484fc0654e76006657e0ab-3",
+                    "level": 3,
                     "itemRequirements": [
                         {
                             "id": "5d484fc0654e76006657e0ab-3-2",
@@ -6369,6 +6337,38 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fc0654e76006657e0ab-3-0",
+                            "level": 2,
+                            "station": {
+                                "id": "5d473c1e081959000e530190",
+                                "name": "通风",
+                                "normalizedName": "vents",
+                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fc0654e76006657e0ab-3-1",
+                            "level": 2,
+                            "station": {
+                                "id": "5d388e97081959000a123acf",
+                                "name": "加热器",
+                                "normalizedName": "heating",
+                                "imageLink": "https://assets.tarkov.dev/station-heating.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fc0654e76006657e0ab-3-6",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fc0654e76006657e0ab",
+                                "name": "仓库",
+                                "normalizedName": "stash",
+                                "imageLink": "https://assets.tarkov.dev/station-stash.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "5d484fc0654e76006657e0ab-3-5",
@@ -6399,58 +6399,6 @@
                 {
                     "id": "5d484fc0654e76006657e0ab-4",
                     "level": 4,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fc0654e76006657e0ab-4-0",
-                            "level": 3,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fc0654e76006657e0ab-4-1",
-                            "level": 3,
-                            "station": {
-                                "id": "5d484fda654e7600681d9315",
-                                "name": "工作台",
-                                "normalizedName": "workbench",
-                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fc0654e76006657e0ab-4-2",
-                            "level": 3,
-                            "station": {
-                                "id": "5d388e97081959000a123acf",
-                                "name": "加热器",
-                                "normalizedName": "heating",
-                                "imageLink": "https://assets.tarkov.dev/station-heating.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fc0654e76006657e0ab-4-5",
-                            "level": 3,
-                            "station": {
-                                "id": "5d484fc0654e76006657e0ab",
-                                "name": "仓库",
-                                "normalizedName": "stash",
-                                "imageLink": "https://assets.tarkov.dev/station-stash.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fc0654e76006657e0ab-4-6",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fdf654e7600691aadf8",
-                                "name": "情报中心",
-                                "normalizedName": "intelligence-center",
-                                "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fc0654e76006657e0ab-4-3",
@@ -6578,6 +6526,58 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fc0654e76006657e0ab-4-0",
+                            "level": 3,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fc0654e76006657e0ab-4-1",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fda654e7600681d9315",
+                                "name": "工作台",
+                                "normalizedName": "workbench",
+                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fc0654e76006657e0ab-4-2",
+                            "level": 3,
+                            "station": {
+                                "id": "5d388e97081959000a123acf",
+                                "name": "加热器",
+                                "normalizedName": "heating",
+                                "imageLink": "https://assets.tarkov.dev/station-heating.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fc0654e76006657e0ab-4-5",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fc0654e76006657e0ab",
+                                "name": "仓库",
+                                "normalizedName": "stash",
+                                "imageLink": "https://assets.tarkov.dev/station-stash.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fc0654e76006657e0ab-4-6",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fdf654e7600691aadf8",
+                                "name": "情报中心",
+                                "normalizedName": "intelligence-center",
+                                "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "5d484fc0654e76006657e0ab-4-4",
@@ -6618,18 +6618,6 @@
                     "id": "5d484fc8654e760065037abf-1",
                     "level": 1,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fc8654e760065037abf-1-3",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fb3654e7600681d9314",
-                                "name": "安保",
-                                "normalizedName": "security",
-                                "imageLink": "https://assets.tarkov.dev/station-security.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fc8654e760065037abf-1-0",
@@ -6731,33 +6719,23 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Duct_tape"
                             }
                         }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fc8654e760065037abf-1-3",
+                            "level": 1,
+                            "station": {
+                                "id": "5d484fb3654e7600681d9314",
+                                "name": "安保",
+                                "normalizedName": "security",
+                                "imageLink": "https://assets.tarkov.dev/station-security.png"
+                            }
+                        }
                     ]
                 },
                 {
                     "id": "5d484fc8654e760065037abf-2",
                     "level": 2,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fc8654e760065037abf-2-4",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fda654e7600681d9315",
-                                "name": "工作台",
-                                "normalizedName": "workbench",
-                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fc8654e760065037abf-2-5",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fc8654e760065037abf",
-                                "name": "集水器",
-                                "normalizedName": "water-collector",
-                                "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fc8654e760065037abf-2-0",
@@ -6860,6 +6838,28 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fc8654e760065037abf-2-4",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fda654e7600681d9315",
+                                "name": "工作台",
+                                "normalizedName": "workbench",
+                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fc8654e760065037abf-2-5",
+                            "level": 1,
+                            "station": {
+                                "id": "5d484fc8654e760065037abf",
+                                "name": "集水器",
+                                "normalizedName": "water-collector",
+                                "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "5d484fc8654e760065037abf-2-6",
@@ -6878,38 +6878,6 @@
                 {
                     "id": "5d484fc8654e760065037abf-3",
                     "level": 3,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fc8654e760065037abf-3-2",
-                            "level": 3,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fc8654e760065037abf-3-5",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fc8654e760065037abf",
-                                "name": "集水器",
-                                "normalizedName": "water-collector",
-                                "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fc8654e760065037abf-3-6",
-                            "level": 3,
-                            "station": {
-                                "id": "5d388e97081959000a123acf",
-                                "name": "加热器",
-                                "normalizedName": "heating",
-                                "imageLink": "https://assets.tarkov.dev/station-heating.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fc8654e760065037abf-3-0",
@@ -7009,6 +6977,38 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/60391afc25aff57af81f7085-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ratchet_wrench"
+                            }
+                        }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fc8654e760065037abf-3-2",
+                            "level": 3,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fc8654e760065037abf-3-5",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fc8654e760065037abf",
+                                "name": "集水器",
+                                "normalizedName": "water-collector",
+                                "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fc8654e760065037abf-3-6",
+                            "level": 3,
+                            "station": {
+                                "id": "5d388e97081959000a123acf",
+                                "name": "加热器",
+                                "normalizedName": "heating",
+                                "imageLink": "https://assets.tarkov.dev/station-heating.png"
                             }
                         }
                     ],
@@ -7429,28 +7429,6 @@
                 {
                     "id": "5d484fcd654e7668ec2ec322-2",
                     "level": 2,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fcd654e7668ec2ec322-2-0",
-                            "level": 1,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fcd654e7668ec2ec322-2-6",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fcd654e7668ec2ec322",
-                                "name": "医疗站",
-                                "normalizedName": "medstation",
-                                "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fcd654e7668ec2ec322-2-1",
@@ -7579,6 +7557,28 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fcd654e7668ec2ec322-2-0",
+                            "level": 1,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fcd654e7668ec2ec322-2-6",
+                            "level": 1,
+                            "station": {
+                                "id": "5d484fcd654e7668ec2ec322",
+                                "name": "医疗站",
+                                "normalizedName": "medstation",
+                                "imageLink": "https://assets.tarkov.dev/station-medstation.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "5d484fcd654e7668ec2ec322-2-3",
@@ -7597,38 +7597,6 @@
                 {
                     "id": "5d484fcd654e7668ec2ec322-3",
                     "level": 3,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fcd654e7668ec2ec322-3-3",
-                            "level": 2,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fcd654e7668ec2ec322-3-4",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fba654e7600691aadf7",
-                                "name": "卫生间",
-                                "normalizedName": "lavatory",
-                                "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fcd654e7668ec2ec322-3-7",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fcd654e7668ec2ec322",
-                                "name": "医疗站",
-                                "normalizedName": "medstation",
-                                "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fcd654e7668ec2ec322-3-0",
@@ -7728,6 +7696,38 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5af0534a86f7743b6f354284-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ophthalmoscope"
+                            }
+                        }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fcd654e7668ec2ec322-3-3",
+                            "level": 2,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fcd654e7668ec2ec322-3-4",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fba654e7600691aadf7",
+                                "name": "卫生间",
+                                "normalizedName": "lavatory",
+                                "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fcd654e7668ec2ec322-3-7",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fcd654e7668ec2ec322",
+                                "name": "医疗站",
+                                "normalizedName": "medstation",
+                                "imageLink": "https://assets.tarkov.dev/station-medstation.png"
                             }
                         }
                     ],
@@ -10718,18 +10718,6 @@
                     "id": "5d484fd1654e76006732bf2e-1",
                     "level": 1,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fd1654e76006732bf2e-1-0",
-                            "level": 1,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fd1654e76006732bf2e-1-1",
@@ -10831,34 +10819,24 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_white_salt"
                             }
                         }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fd1654e76006732bf2e-1-0",
+                            "level": 1,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        }
                     ]
                 },
                 {
                     "id": "5d484fd1654e76006732bf2e-2",
                     "level": 2,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fd1654e76006732bf2e-2-0",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fba654e7600691aadf7",
-                                "name": "卫生间",
-                                "normalizedName": "lavatory",
-                                "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fd1654e76006732bf2e-2-4",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fd1654e76006732bf2e",
-                                "name": "营养部",
-                                "normalizedName": "nutrition-unit",
-                                "imageLink": "https://assets.tarkov.dev/station-nutrition-unit.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fd1654e76006732bf2e-2-1",
@@ -10960,26 +10938,11 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Phase_control_relay"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "5d484fd1654e76006732bf2e-3",
-                    "level": 3,
-                    "traderRequirements": [],
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "5d484fd1654e76006732bf2e-3-0",
+                            "id": "5d484fd1654e76006732bf2e-2-0",
                             "level": 2,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fd1654e76006732bf2e-3-1",
-                            "level": 3,
                             "station": {
                                 "id": "5d484fba654e7600691aadf7",
                                 "name": "卫生间",
@@ -10988,18 +10951,8 @@
                             }
                         },
                         {
-                            "id": "5d484fd1654e76006732bf2e-3-2",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fc0654e76006657e0ab",
-                                "name": "仓库",
-                                "normalizedName": "stash",
-                                "imageLink": "https://assets.tarkov.dev/station-stash.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fd1654e76006732bf2e-3-5",
-                            "level": 2,
+                            "id": "5d484fd1654e76006732bf2e-2-4",
+                            "level": 1,
                             "station": {
                                 "id": "5d484fd1654e76006732bf2e",
                                 "name": "营养部",
@@ -11007,7 +10960,12 @@
                                 "imageLink": "https://assets.tarkov.dev/station-nutrition-unit.png"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "5d484fd1654e76006732bf2e-3",
+                    "level": 3,
+                    "traderRequirements": [],
                     "itemRequirements": [
                         {
                             "id": "5d484fd1654e76006732bf2e-3-3",
@@ -11107,6 +11065,48 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5e2af00086f7746d3f3c33f7-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Smoked_Chimney_drain_cleaner"
+                            }
+                        }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fd1654e76006732bf2e-3-0",
+                            "level": 2,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fd1654e76006732bf2e-3-1",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fba654e7600691aadf7",
+                                "name": "卫生间",
+                                "normalizedName": "lavatory",
+                                "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fd1654e76006732bf2e-3-2",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fc0654e76006657e0ab",
+                                "name": "仓库",
+                                "normalizedName": "stash",
+                                "imageLink": "https://assets.tarkov.dev/station-stash.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fd1654e76006732bf2e-3-5",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fd1654e76006732bf2e",
+                                "name": "营养部",
+                                "normalizedName": "nutrition-unit",
+                                "imageLink": "https://assets.tarkov.dev/station-nutrition-unit.png"
                             }
                         }
                     ]
@@ -12855,18 +12855,6 @@
                     "id": "5d484fd6654e76051d3cc791-1",
                     "level": 1,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fd6654e76051d3cc791-1-0",
-                            "level": 1,
-                            "station": {
-                                "id": "5d473c1e081959000e530190",
-                                "name": "通风",
-                                "normalizedName": "vents",
-                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fd6654e76051d3cc791-1-1",
@@ -12943,34 +12931,24 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Classic_matches"
                             }
                         }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fd6654e76051d3cc791-1-0",
+                            "level": 1,
+                            "station": {
+                                "id": "5d473c1e081959000e530190",
+                                "name": "通风",
+                                "normalizedName": "vents",
+                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
+                            }
+                        }
                     ]
                 },
                 {
                     "id": "5d484fd6654e76051d3cc791-2",
                     "level": 2,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fd6654e76051d3cc791-2-0",
-                            "level": 1,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fd6654e76051d3cc791-2-2",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fd6654e76051d3cc791",
-                                "name": "休息区",
-                                "normalizedName": "rest-space",
-                                "imageLink": "https://assets.tarkov.dev/station-rest-space.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fd6654e76051d3cc791-2-1",
@@ -13072,16 +13050,21 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Energy-saving_lamp"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "5d484fd6654e76051d3cc791-3",
-                    "level": 3,
-                    "traderRequirements": [],
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "5d484fd6654e76051d3cc791-3-4",
-                            "level": 2,
+                            "id": "5d484fd6654e76051d3cc791-2-0",
+                            "level": 1,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fd6654e76051d3cc791-2-2",
+                            "level": 1,
                             "station": {
                                 "id": "5d484fd6654e76051d3cc791",
                                 "name": "休息区",
@@ -13089,7 +13072,12 @@
                                 "imageLink": "https://assets.tarkov.dev/station-rest-space.png"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "5d484fd6654e76051d3cc791-3",
+                    "level": 3,
+                    "traderRequirements": [],
                     "itemRequirements": [
                         {
                             "id": "5d484fd6654e76051d3cc791-3-0",
@@ -13191,6 +13179,18 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GreenBat_lithium_battery"
                             }
                         }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fd6654e76051d3cc791-3-4",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fd6654e76051d3cc791",
+                                "name": "休息区",
+                                "normalizedName": "rest-space",
+                                "imageLink": "https://assets.tarkov.dev/station-rest-space.png"
+                            }
+                        }
                     ]
                 }
             ],
@@ -13289,28 +13289,6 @@
                 {
                     "id": "5d484fda654e7600681d9315-2",
                     "level": 2,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fda654e7600681d9315-2-0",
-                            "level": 2,
-                            "station": {
-                                "id": "5d494a205b56502f18c98a06",
-                                "name": "照明",
-                                "normalizedName": "illumination",
-                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fda654e7600681d9315-2-5",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fda654e7600681d9315",
-                                "name": "工作台",
-                                "normalizedName": "workbench",
-                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fda654e7600681d9315-2-1",
@@ -13438,6 +13416,28 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fda654e7600681d9315-2-0",
+                            "level": 2,
+                            "station": {
+                                "id": "5d494a205b56502f18c98a06",
+                                "name": "照明",
+                                "normalizedName": "illumination",
+                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fda654e7600681d9315-2-5",
+                            "level": 1,
+                            "station": {
+                                "id": "5d484fda654e7600681d9315",
+                                "name": "工作台",
+                                "normalizedName": "workbench",
+                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "5d484fda654e7600681d9315-2-4",
@@ -13456,38 +13456,6 @@
                 {
                     "id": "5d484fda654e7600681d9315-3",
                     "level": 3,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fda654e7600681d9315-3-0",
-                            "level": 2,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fda654e7600681d9315-3-1",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fc0654e76006657e0ab",
-                                "name": "仓库",
-                                "normalizedName": "stash",
-                                "imageLink": "https://assets.tarkov.dev/station-stash.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fda654e7600681d9315-3-4",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fda654e7600681d9315",
-                                "name": "工作台",
-                                "normalizedName": "workbench",
-                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fda654e7600681d9315-3-2",
@@ -13587,6 +13555,38 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/60391a8b3364dc22b04d0ce5-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_thermite"
+                            }
+                        }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fda654e7600681d9315-3-0",
+                            "level": 2,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fda654e7600681d9315-3-1",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fc0654e76006657e0ab",
+                                "name": "仓库",
+                                "normalizedName": "stash",
+                                "imageLink": "https://assets.tarkov.dev/station-stash.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fda654e7600681d9315-3-4",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fda654e7600681d9315",
+                                "name": "工作台",
+                                "normalizedName": "workbench",
+                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                             }
                         }
                     ],
@@ -23066,48 +23066,6 @@
                     "id": "5d484fdf654e7600691aadf8-1",
                     "level": 1,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fdf654e7600691aadf8-1-0",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fb3654e7600681d9314",
-                                "name": "安保",
-                                "normalizedName": "security",
-                                "imageLink": "https://assets.tarkov.dev/station-security.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fdf654e7600691aadf8-1-1",
-                            "level": 1,
-                            "station": {
-                                "id": "5d473c1e081959000e530190",
-                                "name": "通风",
-                                "normalizedName": "vents",
-                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fdf654e7600691aadf8-1-5",
-                            "level": 1,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fdf654e7600691aadf8-1-6",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fda654e7600681d9315",
-                                "name": "工作台",
-                                "normalizedName": "workbench",
-                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fdf654e7600691aadf8-1-2",
@@ -23235,15 +23193,11 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Power_cord"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "5d484fdf654e7600691aadf8-2",
-                    "level": 2,
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "5d484fdf654e7600691aadf8-2-4",
-                            "level": 3,
+                            "id": "5d484fdf654e7600691aadf8-1-0",
+                            "level": 2,
                             "station": {
                                 "id": "5d484fb3654e7600681d9314",
                                 "name": "安保",
@@ -23252,36 +23206,40 @@
                             }
                         },
                         {
-                            "id": "5d484fdf654e7600691aadf8-2-5",
-                            "level": 3,
-                            "station": {
-                                "id": "5d484fcd654e7668ec2ec322",
-                                "name": "医疗站",
-                                "normalizedName": "medstation",
-                                "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fdf654e7600691aadf8-2-6",
-                            "level": 3,
-                            "station": {
-                                "id": "5d484fd1654e76006732bf2e",
-                                "name": "营养部",
-                                "normalizedName": "nutrition-unit",
-                                "imageLink": "https://assets.tarkov.dev/station-nutrition-unit.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fdf654e7600691aadf8-2-8",
+                            "id": "5d484fdf654e7600691aadf8-1-1",
                             "level": 1,
                             "station": {
-                                "id": "5d484fdf654e7600691aadf8",
-                                "name": "情报中心",
-                                "normalizedName": "intelligence-center",
-                                "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                                "id": "5d473c1e081959000e530190",
+                                "name": "通风",
+                                "normalizedName": "vents",
+                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fdf654e7600691aadf8-1-5",
+                            "level": 1,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fdf654e7600691aadf8-1-6",
+                            "level": 1,
+                            "station": {
+                                "id": "5d484fda654e7600681d9315",
+                                "name": "工作台",
+                                "normalizedName": "workbench",
+                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "5d484fdf654e7600691aadf8-2",
+                    "level": 2,
                     "itemRequirements": [
                         {
                             "id": "5d484fdf654e7600691aadf8-2-0",
@@ -23384,6 +23342,48 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fdf654e7600691aadf8-2-4",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fb3654e7600681d9314",
+                                "name": "安保",
+                                "normalizedName": "security",
+                                "imageLink": "https://assets.tarkov.dev/station-security.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fdf654e7600691aadf8-2-5",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fcd654e7668ec2ec322",
+                                "name": "医疗站",
+                                "normalizedName": "medstation",
+                                "imageLink": "https://assets.tarkov.dev/station-medstation.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fdf654e7600691aadf8-2-6",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fd1654e76006732bf2e",
+                                "name": "营养部",
+                                "normalizedName": "nutrition-unit",
+                                "imageLink": "https://assets.tarkov.dev/station-nutrition-unit.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fdf654e7600691aadf8-2-8",
+                            "level": 1,
+                            "station": {
+                                "id": "5d484fdf654e7600691aadf8",
+                                "name": "情报中心",
+                                "normalizedName": "intelligence-center",
+                                "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "5d484fdf654e7600691aadf8-2-9",
@@ -23402,38 +23402,6 @@
                 {
                     "id": "5d484fdf654e7600691aadf8-3",
                     "level": 3,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fdf654e7600691aadf8-3-5",
-                            "level": 3,
-                            "station": {
-                                "id": "5d484fda654e7600681d9315",
-                                "name": "工作台",
-                                "normalizedName": "workbench",
-                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fdf654e7600691aadf8-3-6",
-                            "level": 3,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fdf654e7600691aadf8-3-7",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fdf654e7600691aadf8",
-                                "name": "情报中心",
-                                "normalizedName": "intelligence-center",
-                                "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fdf654e7600691aadf8-3-0",
@@ -23584,6 +23552,38 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/6389c7f115805221fb410466-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Far-forward_GPS_Signal_Amplifier_Unit"
+                            }
+                        }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fdf654e7600691aadf8-3-5",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fda654e7600681d9315",
+                                "name": "工作台",
+                                "normalizedName": "workbench",
+                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fdf654e7600691aadf8-3-6",
+                            "level": 3,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fdf654e7600691aadf8-3-7",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fdf654e7600691aadf8",
+                                "name": "情报中心",
+                                "normalizedName": "intelligence-center",
+                                "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                             }
                         }
                     ],
@@ -26335,18 +26335,6 @@
                     "id": "5d484fe3654e76006657e0ac-1",
                     "level": 1,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fe3654e76006657e0ac-1-0",
-                            "level": 1,
-                            "station": {
-                                "id": "5d494a205b56502f18c98a06",
-                                "name": "照明",
-                                "normalizedName": "illumination",
-                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fe3654e76006657e0ac-1-1",
@@ -26448,44 +26436,24 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "5d484fe3654e76006657e0ac-2",
-                    "level": 2,
-                    "traderRequirements": [],
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "5d484fe3654e76006657e0ac-2-0",
-                            "level": 3,
+                            "id": "5d484fe3654e76006657e0ac-1-0",
+                            "level": 1,
                             "station": {
                                 "id": "5d494a205b56502f18c98a06",
                                 "name": "照明",
                                 "normalizedName": "illumination",
                                 "imageLink": "https://assets.tarkov.dev/station-illumination.png"
                             }
-                        },
-                        {
-                            "id": "5d484fe3654e76006657e0ac-2-1",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fda654e7600681d9315",
-                                "name": "工作台",
-                                "normalizedName": "workbench",
-                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fe3654e76006657e0ac-2-12",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fe3654e76006657e0ac",
-                                "name": "靶场",
-                                "normalizedName": "shooting-range",
-                                "imageLink": "https://assets.tarkov.dev/station-shooting-range.png"
-                            }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "5d484fe3654e76006657e0ac-2",
+                    "level": 2,
+                    "traderRequirements": [],
                     "itemRequirements": [
                         {
                             "id": "5d484fe3654e76006657e0ac-2-2",
@@ -26738,16 +26706,31 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_drill"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "5d484fe3654e76006657e0ac-3",
-                    "level": 3,
-                    "traderRequirements": [],
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "5d484fe3654e76006657e0ac-3-9",
+                            "id": "5d484fe3654e76006657e0ac-2-0",
+                            "level": 3,
+                            "station": {
+                                "id": "5d494a205b56502f18c98a06",
+                                "name": "照明",
+                                "normalizedName": "illumination",
+                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fe3654e76006657e0ac-2-1",
                             "level": 2,
+                            "station": {
+                                "id": "5d484fda654e7600681d9315",
+                                "name": "工作台",
+                                "normalizedName": "workbench",
+                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fe3654e76006657e0ac-2-12",
+                            "level": 1,
                             "station": {
                                 "id": "5d484fe3654e76006657e0ac",
                                 "name": "靶场",
@@ -26755,7 +26738,12 @@
                                 "imageLink": "https://assets.tarkov.dev/station-shooting-range.png"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "5d484fe3654e76006657e0ac-3",
+                    "level": 3,
+                    "traderRequirements": [],
                     "itemRequirements": [
                         {
                             "id": "5d484fe3654e76006657e0ac-3-0",
@@ -26983,6 +26971,18 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tech_manual"
                             }
                         }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fe3654e76006657e0ac-3-9",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fe3654e76006657e0ac",
+                                "name": "靶场",
+                                "normalizedName": "shooting-range",
+                                "imageLink": "https://assets.tarkov.dev/station-shooting-range.png"
+                            }
+                        }
                     ]
                 }
             ],
@@ -26998,18 +26998,6 @@
                     "id": "5d494a0e5b56502f18c98a02-1",
                     "level": 1,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d494a0e5b56502f18c98a02-1-0",
-                            "level": 3,
-                            "station": {
-                                "id": "5d484fd6654e76051d3cc791",
-                                "name": "休息区",
-                                "normalizedName": "rest-space",
-                                "imageLink": "https://assets.tarkov.dev/station-rest-space.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d494a0e5b56502f18c98a02-1-1",
@@ -27186,6 +27174,18 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BakeEzy_cook_book"
                             }
                         }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d494a0e5b56502f18c98a02-1-0",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fd6654e76051d3cc791",
+                                "name": "休息区",
+                                "normalizedName": "rest-space",
+                                "imageLink": "https://assets.tarkov.dev/station-rest-space.png"
+                            }
+                        }
                     ]
                 }
             ],
@@ -27201,18 +27201,6 @@
                     "id": "5d494a175b56502f18c98a04-1",
                     "level": 1,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d494a175b56502f18c98a04-1-0",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fdf654e7600691aadf8",
-                                "name": "情报中心",
-                                "normalizedName": "intelligence-center",
-                                "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d494a175b56502f18c98a04-1-1",
@@ -27391,6 +27379,18 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Golden_rooster_figurine"
                             }
                         }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d494a175b56502f18c98a04-1-0",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fdf654e7600691aadf8",
+                                "name": "情报中心",
+                                "normalizedName": "intelligence-center",
+                                "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                            }
+                        }
                     ]
                 }
             ],
@@ -27464,28 +27464,6 @@
                     "id": "5d494a205b56502f18c98a06-2",
                     "level": 2,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d494a205b56502f18c98a06-2-2",
-                            "level": 1,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        },
-                        {
-                            "id": "5d494a205b56502f18c98a06-2-3",
-                            "level": 1,
-                            "station": {
-                                "id": "5d494a205b56502f18c98a06",
-                                "name": "照明",
-                                "normalizedName": "illumination",
-                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d494a205b56502f18c98a06-2-0",
@@ -27537,15 +27515,11 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bundle_of_wires"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "5d494a205b56502f18c98a06-3",
-                    "level": 3,
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "5d494a205b56502f18c98a06-3-0",
-                            "level": 2,
+                            "id": "5d494a205b56502f18c98a06-2-2",
+                            "level": 1,
                             "station": {
                                 "id": "5d3b396e33c48f02b81cd9f3",
                                 "name": "发电机",
@@ -27554,18 +27528,8 @@
                             }
                         },
                         {
-                            "id": "5d494a205b56502f18c98a06-3-1",
+                            "id": "5d494a205b56502f18c98a06-2-3",
                             "level": 1,
-                            "station": {
-                                "id": "5d484fda654e7600681d9315",
-                                "name": "工作台",
-                                "normalizedName": "workbench",
-                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                            }
-                        },
-                        {
-                            "id": "5d494a205b56502f18c98a06-3-2",
-                            "level": 2,
                             "station": {
                                 "id": "5d494a205b56502f18c98a06",
                                 "name": "照明",
@@ -27573,7 +27537,11 @@
                                 "imageLink": "https://assets.tarkov.dev/station-illumination.png"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "5d494a205b56502f18c98a06-3",
+                    "level": 3,
                     "itemRequirements": [
                         {
                             "id": "5d494a205b56502f18c98a06-3-4",
@@ -27676,6 +27644,38 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d494a205b56502f18c98a06-3-0",
+                            "level": 2,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        },
+                        {
+                            "id": "5d494a205b56502f18c98a06-3-1",
+                            "level": 1,
+                            "station": {
+                                "id": "5d484fda654e7600681d9315",
+                                "name": "工作台",
+                                "normalizedName": "workbench",
+                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                            }
+                        },
+                        {
+                            "id": "5d494a205b56502f18c98a06-3-2",
+                            "level": 2,
+                            "station": {
+                                "id": "5d494a205b56502f18c98a06",
+                                "name": "照明",
+                                "normalizedName": "illumination",
+                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "5d494a205b56502f18c98a06-3-3",
@@ -27703,28 +27703,6 @@
                 {
                     "id": "5d494a295b56502f18c98a08-1",
                     "level": 1,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d494a295b56502f18c98a08-1-0",
-                            "level": 6,
-                            "station": {
-                                "id": "637b39f02e873739ec490215",
-                                "name": "易碎墙",
-                                "normalizedName": "defective-wall",
-                                "imageLink": "https://assets.tarkov.dev/station-defective-wall.png"
-                            }
-                        },
-                        {
-                            "id": "5d494a295b56502f18c98a08-1-1",
-                            "level": 2,
-                            "station": {
-                                "id": "5d494a205b56502f18c98a06",
-                                "name": "照明",
-                                "normalizedName": "illumination",
-                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d494a295b56502f18c98a08-1-3",
@@ -27877,6 +27855,28 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d494a295b56502f18c98a08-1-0",
+                            "level": 6,
+                            "station": {
+                                "id": "637b39f02e873739ec490215",
+                                "name": "易碎墙",
+                                "normalizedName": "defective-wall",
+                                "imageLink": "https://assets.tarkov.dev/station-defective-wall.png"
+                            }
+                        },
+                        {
+                            "id": "5d494a295b56502f18c98a08-1-1",
+                            "level": 2,
+                            "station": {
+                                "id": "5d494a205b56502f18c98a06",
+                                "name": "照明",
+                                "normalizedName": "illumination",
+                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "5d494a295b56502f18c98a08-1-2",
@@ -27896,18 +27896,6 @@
                     "id": "5d494a295b56502f18c98a08-2",
                     "level": 2,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d494a295b56502f18c98a08-2-9",
-                            "level": 1,
-                            "station": {
-                                "id": "5d494a295b56502f18c98a08",
-                                "name": "荣耀展柜",
-                                "normalizedName": "hall-of-fame",
-                                "imageLink": "https://assets.tarkov.dev/station-hall-of-fame.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d494a295b56502f18c98a08-2-0",
@@ -28134,16 +28122,11 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tube_of_Poxeram_cold_welding"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "5d494a295b56502f18c98a08-3",
-                    "level": 3,
-                    "traderRequirements": [],
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "5d494a295b56502f18c98a08-3-8",
-                            "level": 2,
+                            "id": "5d494a295b56502f18c98a08-2-9",
+                            "level": 1,
                             "station": {
                                 "id": "5d494a295b56502f18c98a08",
                                 "name": "荣耀展柜",
@@ -28151,7 +28134,12 @@
                                 "imageLink": "https://assets.tarkov.dev/station-hall-of-fame.png"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "5d494a295b56502f18c98a08-3",
+                    "level": 3,
+                    "traderRequirements": [],
                     "itemRequirements": [
                         {
                             "id": "5d494a295b56502f18c98a08-3-0",
@@ -28353,6 +28341,18 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Power_cord"
                             }
                         }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d494a295b56502f18c98a08-3-8",
+                            "level": 2,
+                            "station": {
+                                "id": "5d494a295b56502f18c98a08",
+                                "name": "荣耀展柜",
+                                "normalizedName": "hall-of-fame",
+                                "imageLink": "https://assets.tarkov.dev/station-hall-of-fame.png"
+                            }
+                        }
                     ]
                 }
             ],
@@ -28367,28 +28367,6 @@
                 {
                     "id": "5d494a315b56502f18c98a0a-1",
                     "level": 1,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d494a315b56502f18c98a0a-1-0",
-                            "level": 3,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        },
-                        {
-                            "id": "5d494a315b56502f18c98a0a-1-1",
-                            "level": 3,
-                            "station": {
-                                "id": "5d473c1e081959000e530190",
-                                "name": "通风",
-                                "normalizedName": "vents",
-                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d494a315b56502f18c98a0a-1-2",
@@ -28491,6 +28469,28 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d494a315b56502f18c98a0a-1-0",
+                            "level": 3,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        },
+                        {
+                            "id": "5d494a315b56502f18c98a0a-1-1",
+                            "level": 3,
+                            "station": {
+                                "id": "5d473c1e081959000e530190",
+                                "name": "通风",
+                                "normalizedName": "vents",
+                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "5d494a315b56502f18c98a0a-1-3",
@@ -28518,28 +28518,6 @@
                 {
                     "id": "5d494a385b56502f18c98a0c-1",
                     "level": 1,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d494a385b56502f18c98a0c-1-0",
-                            "level": 3,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        },
-                        {
-                            "id": "5d494a385b56502f18c98a0c-1-1",
-                            "level": 3,
-                            "station": {
-                                "id": "5d484fda654e7600681d9315",
-                                "name": "工作台",
-                                "normalizedName": "workbench",
-                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d494a385b56502f18c98a0c-1-2",
@@ -28693,6 +28671,28 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d494a385b56502f18c98a0c-1-0",
+                            "level": 3,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        },
+                        {
+                            "id": "5d494a385b56502f18c98a0c-1-1",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fda654e7600681d9315",
+                                "name": "工作台",
+                                "normalizedName": "workbench",
+                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "5d494a385b56502f18c98a0c-1-3",
@@ -28721,28 +28721,6 @@
                     "id": "5d494a3f5b56502f18c98a0e-1",
                     "level": 1,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d494a3f5b56502f18c98a0e-1-0",
-                            "level": 3,
-                            "station": {
-                                "id": "5d484fc8654e760065037abf",
-                                "name": "集水器",
-                                "normalizedName": "water-collector",
-                                "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
-                            }
-                        },
-                        {
-                            "id": "5d494a3f5b56502f18c98a0e-1-1",
-                            "level": 3,
-                            "station": {
-                                "id": "5d484fd1654e76006732bf2e",
-                                "name": "营养部",
-                                "normalizedName": "nutrition-unit",
-                                "imageLink": "https://assets.tarkov.dev/station-nutrition-unit.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d494a3f5b56502f18c98a0e-1-2",
@@ -28919,6 +28897,28 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
                             }
                         }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d494a3f5b56502f18c98a0e-1-0",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fc8654e760065037abf",
+                                "name": "集水器",
+                                "normalizedName": "water-collector",
+                                "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
+                            }
+                        },
+                        {
+                            "id": "5d494a3f5b56502f18c98a0e-1-1",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fd1654e76006732bf2e",
+                                "name": "营养部",
+                                "normalizedName": "nutrition-unit",
+                                "imageLink": "https://assets.tarkov.dev/station-nutrition-unit.png"
+                            }
+                        }
                     ]
                 }
             ],
@@ -29007,18 +29007,6 @@
                     "id": "5d494a445b56502f18c98a10-1",
                     "level": 1,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d494a445b56502f18c98a10-1-0",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fdf654e7600691aadf8",
-                                "name": "情报中心",
-                                "normalizedName": "intelligence-center",
-                                "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d494a445b56502f18c98a10-1-1",
@@ -29145,34 +29133,24 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/T-Shaped_plug"
                             }
                         }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d494a445b56502f18c98a10-1-0",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fdf654e7600691aadf8",
+                                "name": "情报中心",
+                                "normalizedName": "intelligence-center",
+                                "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                            }
+                        }
                     ]
                 },
                 {
                     "id": "5d494a445b56502f18c98a10-2",
                     "level": 2,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d494a445b56502f18c98a10-2-0",
-                            "level": 1,
-                            "station": {
-                                "id": "5d494a445b56502f18c98a10",
-                                "name": "比特币矿场",
-                                "normalizedName": "bitcoin-farm",
-                                "imageLink": "https://assets.tarkov.dev/station-bitcoin-farm.png"
-                            }
-                        },
-                        {
-                            "id": "5d494a445b56502f18c98a10-2-1",
-                            "level": 3,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d494a445b56502f18c98a10-2-2",
@@ -29299,16 +29277,11 @@
                                 "wikiLink": ""
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "5d494a445b56502f18c98a10-3",
-                    "level": 3,
-                    "traderRequirements": [],
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "5d494a445b56502f18c98a10-3-0",
-                            "level": 2,
+                            "id": "5d494a445b56502f18c98a10-2-0",
+                            "level": 1,
                             "station": {
                                 "id": "5d494a445b56502f18c98a10",
                                 "name": "比特币矿场",
@@ -29317,26 +29290,21 @@
                             }
                         },
                         {
-                            "id": "5d494a445b56502f18c98a10-3-1",
-                            "level": 1,
-                            "station": {
-                                "id": "5d494a385b56502f18c98a0c",
-                                "name": "太阳能",
-                                "normalizedName": "solar-power",
-                                "imageLink": "https://assets.tarkov.dev/station-solar-power.png"
-                            }
-                        },
-                        {
-                            "id": "5d494a445b56502f18c98a10-3-2",
+                            "id": "5d494a445b56502f18c98a10-2-1",
                             "level": 3,
                             "station": {
-                                "id": "5d484fc8654e760065037abf",
-                                "name": "集水器",
-                                "normalizedName": "water-collector",
-                                "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "5d494a445b56502f18c98a10-3",
+                    "level": 3,
+                    "traderRequirements": [],
                     "itemRequirements": [
                         {
                             "id": "5d494a445b56502f18c98a10-3-3",
@@ -29463,6 +29431,38 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6-STEN-140-M_military_battery"
                             }
                         }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d494a445b56502f18c98a10-3-0",
+                            "level": 2,
+                            "station": {
+                                "id": "5d494a445b56502f18c98a10",
+                                "name": "比特币矿场",
+                                "normalizedName": "bitcoin-farm",
+                                "imageLink": "https://assets.tarkov.dev/station-bitcoin-farm.png"
+                            }
+                        },
+                        {
+                            "id": "5d494a445b56502f18c98a10-3-1",
+                            "level": 1,
+                            "station": {
+                                "id": "5d494a385b56502f18c98a0c",
+                                "name": "太阳能",
+                                "normalizedName": "solar-power",
+                                "imageLink": "https://assets.tarkov.dev/station-solar-power.png"
+                            }
+                        },
+                        {
+                            "id": "5d494a445b56502f18c98a10-3-2",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fc8654e760065037abf",
+                                "name": "集水器",
+                                "normalizedName": "water-collector",
+                                "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
+                            }
+                        }
                     ]
                 }
             ],
@@ -29514,38 +29514,6 @@
                     "id": "6377a9b9a93bde8fa30eb79a-1",
                     "level": 1,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "6377a9b9a93bde8fa30eb79a-1-0",
-                            "level": 6,
-                            "station": {
-                                "id": "637b39f02e873739ec490215",
-                                "name": "易碎墙",
-                                "normalizedName": "defective-wall",
-                                "imageLink": "https://assets.tarkov.dev/station-defective-wall.png"
-                            }
-                        },
-                        {
-                            "id": "6377a9b9a93bde8fa30eb79a-1-8",
-                            "level": 2,
-                            "station": {
-                                "id": "5d494a205b56502f18c98a06",
-                                "name": "照明",
-                                "normalizedName": "illumination",
-                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
-                            }
-                        },
-                        {
-                            "id": "6377a9b9a93bde8fa30eb79a-1-9",
-                            "level": 2,
-                            "station": {
-                                "id": "5d473c1e081959000e530190",
-                                "name": "通风",
-                                "normalizedName": "vents",
-                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "6377a9b9a93bde8fa30eb79a-1-1",
@@ -29722,6 +29690,38 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Insulating_tape"
                             }
                         }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "6377a9b9a93bde8fa30eb79a-1-0",
+                            "level": 6,
+                            "station": {
+                                "id": "637b39f02e873739ec490215",
+                                "name": "易碎墙",
+                                "normalizedName": "defective-wall",
+                                "imageLink": "https://assets.tarkov.dev/station-defective-wall.png"
+                            }
+                        },
+                        {
+                            "id": "6377a9b9a93bde8fa30eb79a-1-8",
+                            "level": 2,
+                            "station": {
+                                "id": "5d494a205b56502f18c98a06",
+                                "name": "照明",
+                                "normalizedName": "illumination",
+                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
+                            }
+                        },
+                        {
+                            "id": "6377a9b9a93bde8fa30eb79a-1-9",
+                            "level": 2,
+                            "station": {
+                                "id": "5d473c1e081959000e530190",
+                                "name": "通风",
+                                "normalizedName": "vents",
+                                "imageLink": "https://assets.tarkov.dev/station-vents.png"
+                            }
+                        }
                     ]
                 }
             ],
@@ -29801,18 +29801,6 @@
                     "id": "637b39f02e873739ec490215-4",
                     "level": 4,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "637b39f02e873739ec490215-4-1",
-                            "level": 3,
-                            "station": {
-                                "id": "637b39f02e873739ec490215",
-                                "name": "易碎墙",
-                                "normalizedName": "defective-wall",
-                                "imageLink": "https://assets.tarkov.dev/station-defective-wall.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "637b39f02e873739ec490215-4-0",
@@ -29839,16 +29827,11 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fierce_Blow_sledgehammer"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "637b39f02e873739ec490215-5",
-                    "level": 5,
-                    "traderRequirements": [],
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "637b39f02e873739ec490215-5-2",
-                            "level": 4,
+                            "id": "637b39f02e873739ec490215-4-1",
+                            "level": 3,
                             "station": {
                                 "id": "637b39f02e873739ec490215",
                                 "name": "易碎墙",
@@ -29856,7 +29839,12 @@
                                 "imageLink": "https://assets.tarkov.dev/station-defective-wall.png"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "637b39f02e873739ec490215-5",
+                    "level": 5,
+                    "traderRequirements": [],
                     "itemRequirements": [
                         {
                             "id": "637b39f02e873739ec490215-5-0",
@@ -29908,16 +29896,11 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "637b39f02e873739ec490215-6",
-                    "level": 6,
-                    "traderRequirements": [],
+                    ],
                     "stationLevelRequirements": [
                         {
-                            "id": "637b39f02e873739ec490215-6-8",
-                            "level": 5,
+                            "id": "637b39f02e873739ec490215-5-2",
+                            "level": 4,
                             "station": {
                                 "id": "637b39f02e873739ec490215",
                                 "name": "易碎墙",
@@ -29925,7 +29908,12 @@
                                 "imageLink": "https://assets.tarkov.dev/station-defective-wall.png"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "637b39f02e873739ec490215-6",
+                    "level": 6,
+                    "traderRequirements": [],
                     "itemRequirements": [
                         {
                             "id": "637b39f02e873739ec490215-6-0",
@@ -30127,6 +30115,18 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Light_bulb"
                             }
                         }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "637b39f02e873739ec490215-6-8",
+                            "level": 5,
+                            "station": {
+                                "id": "637b39f02e873739ec490215",
+                                "name": "易碎墙",
+                                "normalizedName": "defective-wall",
+                                "imageLink": "https://assets.tarkov.dev/station-defective-wall.png"
+                            }
+                        }
                     ]
                 }
             ],
@@ -30141,28 +30141,6 @@
                 {
                     "id": "63db64cbf9963741dc0d741f-1",
                     "level": 1,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "63db64cbf9963741dc0d741f-1-7",
-                            "level": 3,
-                            "station": {
-                                "id": "5d494a205b56502f18c98a06",
-                                "name": "照明",
-                                "normalizedName": "illumination",
-                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
-                            }
-                        },
-                        {
-                            "id": "63db64cbf9963741dc0d741f-1-9",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fc0654e76006657e0ab",
-                                "name": "仓库",
-                                "normalizedName": "stash",
-                                "imageLink": "https://assets.tarkov.dev/station-stash.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "63db64cbf9963741dc0d741f-1-0",
@@ -30340,6 +30318,28 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "63db64cbf9963741dc0d741f-1-7",
+                            "level": 3,
+                            "station": {
+                                "id": "5d494a205b56502f18c98a06",
+                                "name": "照明",
+                                "normalizedName": "illumination",
+                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
+                            }
+                        },
+                        {
+                            "id": "63db64cbf9963741dc0d741f-1-9",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fc0654e76006657e0ab",
+                                "name": "仓库",
+                                "normalizedName": "stash",
+                                "imageLink": "https://assets.tarkov.dev/station-stash.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "63db64cbf9963741dc0d741f-1-8",
@@ -30358,48 +30358,6 @@
                 {
                     "id": "63db64cbf9963741dc0d741f-2",
                     "level": 2,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "63db64cbf9963741dc0d741f-2-9",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fe3654e76006657e0ac",
-                                "name": "靶场",
-                                "normalizedName": "shooting-range",
-                                "imageLink": "https://assets.tarkov.dev/station-shooting-range.png"
-                            }
-                        },
-                        {
-                            "id": "63db64cbf9963741dc0d741f-2-10",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fda654e7600681d9315",
-                                "name": "工作台",
-                                "normalizedName": "workbench",
-                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                            }
-                        },
-                        {
-                            "id": "63db64cbf9963741dc0d741f-2-11",
-                            "level": 3,
-                            "station": {
-                                "id": "5d484fc0654e76006657e0ab",
-                                "name": "仓库",
-                                "normalizedName": "stash",
-                                "imageLink": "https://assets.tarkov.dev/station-stash.png"
-                            }
-                        },
-                        {
-                            "id": "63db64cbf9963741dc0d741f-2-13",
-                            "level": 1,
-                            "station": {
-                                "id": "63db64cbf9963741dc0d741f",
-                                "name": "武器架",
-                                "normalizedName": "weapon-rack",
-                                "imageLink": "https://assets.tarkov.dev/station-weapon-rack.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "63db64cbf9963741dc0d741f-2-0",
@@ -30627,6 +30585,48 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "63db64cbf9963741dc0d741f-2-9",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fe3654e76006657e0ac",
+                                "name": "靶场",
+                                "normalizedName": "shooting-range",
+                                "imageLink": "https://assets.tarkov.dev/station-shooting-range.png"
+                            }
+                        },
+                        {
+                            "id": "63db64cbf9963741dc0d741f-2-10",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fda654e7600681d9315",
+                                "name": "工作台",
+                                "normalizedName": "workbench",
+                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                            }
+                        },
+                        {
+                            "id": "63db64cbf9963741dc0d741f-2-11",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fc0654e76006657e0ab",
+                                "name": "仓库",
+                                "normalizedName": "stash",
+                                "imageLink": "https://assets.tarkov.dev/station-stash.png"
+                            }
+                        },
+                        {
+                            "id": "63db64cbf9963741dc0d741f-2-13",
+                            "level": 1,
+                            "station": {
+                                "id": "63db64cbf9963741dc0d741f",
+                                "name": "武器架",
+                                "normalizedName": "weapon-rack",
+                                "imageLink": "https://assets.tarkov.dev/station-weapon-rack.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "63db64cbf9963741dc0d741f-2-12",
@@ -30645,38 +30645,6 @@
                 {
                     "id": "63db64cbf9963741dc0d741f-3",
                     "level": 3,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "63db64cbf9963741dc0d741f-3-9",
-                            "level": 3,
-                            "station": {
-                                "id": "5d484fe3654e76006657e0ac",
-                                "name": "靶场",
-                                "normalizedName": "shooting-range",
-                                "imageLink": "https://assets.tarkov.dev/station-shooting-range.png"
-                            }
-                        },
-                        {
-                            "id": "63db64cbf9963741dc0d741f-3-10",
-                            "level": 3,
-                            "station": {
-                                "id": "5d484fda654e7600681d9315",
-                                "name": "工作台",
-                                "normalizedName": "workbench",
-                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                            }
-                        },
-                        {
-                            "id": "63db64cbf9963741dc0d741f-3-11",
-                            "level": 2,
-                            "station": {
-                                "id": "63db64cbf9963741dc0d741f",
-                                "name": "武器架",
-                                "normalizedName": "weapon-rack",
-                                "imageLink": "https://assets.tarkov.dev/station-weapon-rack.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "63db64cbf9963741dc0d741f-3-0",
@@ -30879,6 +30847,38 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "63db64cbf9963741dc0d741f-3-9",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fe3654e76006657e0ac",
+                                "name": "靶场",
+                                "normalizedName": "shooting-range",
+                                "imageLink": "https://assets.tarkov.dev/station-shooting-range.png"
+                            }
+                        },
+                        {
+                            "id": "63db64cbf9963741dc0d741f-3-10",
+                            "level": 3,
+                            "station": {
+                                "id": "5d484fda654e7600681d9315",
+                                "name": "工作台",
+                                "normalizedName": "workbench",
+                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                            }
+                        },
+                        {
+                            "id": "63db64cbf9963741dc0d741f-3-11",
+                            "level": 2,
+                            "station": {
+                                "id": "63db64cbf9963741dc0d741f",
+                                "name": "武器架",
+                                "normalizedName": "weapon-rack",
+                                "imageLink": "https://assets.tarkov.dev/station-weapon-rack.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "63db64cbf9963741dc0d741f-3-8",
@@ -30906,28 +30906,6 @@
                 {
                     "id": "65e5bb1713227bb7690cea0a-1",
                     "level": 1,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "65e5bb1713227bb7690cea0a-1-0",
-                            "level": 6,
-                            "station": {
-                                "id": "637b39f02e873739ec490215",
-                                "name": "易碎墙",
-                                "normalizedName": "defective-wall",
-                                "imageLink": "https://assets.tarkov.dev/station-defective-wall.png"
-                            }
-                        },
-                        {
-                            "id": "65e5bb1713227bb7690cea0a-1-2",
-                            "level": 2,
-                            "station": {
-                                "id": "5d494a205b56502f18c98a06",
-                                "name": "照明",
-                                "normalizedName": "illumination",
-                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "65e5bb1713227bb7690cea0a-1-4",
@@ -31131,6 +31109,28 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "65e5bb1713227bb7690cea0a-1-0",
+                            "level": 6,
+                            "station": {
+                                "id": "637b39f02e873739ec490215",
+                                "name": "易碎墙",
+                                "normalizedName": "defective-wall",
+                                "imageLink": "https://assets.tarkov.dev/station-defective-wall.png"
+                            }
+                        },
+                        {
+                            "id": "65e5bb1713227bb7690cea0a-1-2",
+                            "level": 2,
+                            "station": {
+                                "id": "5d494a205b56502f18c98a06",
+                                "name": "照明",
+                                "normalizedName": "illumination",
+                                "imageLink": "https://assets.tarkov.dev/station-illumination.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "65e5bb1713227bb7690cea0a-1-3",
@@ -31149,28 +31149,6 @@
                 {
                     "id": "65e5bb1713227bb7690cea0a-2",
                     "level": 2,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "65e5bb1713227bb7690cea0a-2-0",
-                            "level": 1,
-                            "station": {
-                                "id": "5d494a295b56502f18c98a08",
-                                "name": "荣耀展柜",
-                                "normalizedName": "hall-of-fame",
-                                "imageLink": "https://assets.tarkov.dev/station-hall-of-fame.png"
-                            }
-                        },
-                        {
-                            "id": "65e5bb1713227bb7690cea0a-2-10",
-                            "level": 1,
-                            "station": {
-                                "id": "65e5bb1713227bb7690cea0a",
-                                "name": "装备架",
-                                "normalizedName": "gear-rack",
-                                "imageLink": "https://assets.tarkov.dev/station-gear-rack.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "65e5bb1713227bb7690cea0a-2-2",
@@ -31373,6 +31351,28 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "65e5bb1713227bb7690cea0a-2-0",
+                            "level": 1,
+                            "station": {
+                                "id": "5d494a295b56502f18c98a08",
+                                "name": "荣耀展柜",
+                                "normalizedName": "hall-of-fame",
+                                "imageLink": "https://assets.tarkov.dev/station-hall-of-fame.png"
+                            }
+                        },
+                        {
+                            "id": "65e5bb1713227bb7690cea0a-2-10",
+                            "level": 1,
+                            "station": {
+                                "id": "65e5bb1713227bb7690cea0a",
+                                "name": "装备架",
+                                "normalizedName": "gear-rack",
+                                "imageLink": "https://assets.tarkov.dev/station-gear-rack.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "65e5bb1713227bb7690cea0a-2-1",
@@ -31391,28 +31391,6 @@
                 {
                     "id": "65e5bb1713227bb7690cea0a-3",
                     "level": 3,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "65e5bb1713227bb7690cea0a-3-0",
-                            "level": 2,
-                            "station": {
-                                "id": "5d494a295b56502f18c98a08",
-                                "name": "荣耀展柜",
-                                "normalizedName": "hall-of-fame",
-                                "imageLink": "https://assets.tarkov.dev/station-hall-of-fame.png"
-                            }
-                        },
-                        {
-                            "id": "65e5bb1713227bb7690cea0a-3-10",
-                            "level": 2,
-                            "station": {
-                                "id": "65e5bb1713227bb7690cea0a",
-                                "name": "装备架",
-                                "normalizedName": "gear-rack",
-                                "imageLink": "https://assets.tarkov.dev/station-gear-rack.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "65e5bb1713227bb7690cea0a-3-2",
@@ -31613,6 +31591,28 @@
                             }
                         }
                     ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "65e5bb1713227bb7690cea0a-3-0",
+                            "level": 2,
+                            "station": {
+                                "id": "5d494a295b56502f18c98a08",
+                                "name": "荣耀展柜",
+                                "normalizedName": "hall-of-fame",
+                                "imageLink": "https://assets.tarkov.dev/station-hall-of-fame.png"
+                            }
+                        },
+                        {
+                            "id": "65e5bb1713227bb7690cea0a-3-10",
+                            "level": 2,
+                            "station": {
+                                "id": "65e5bb1713227bb7690cea0a",
+                                "name": "装备架",
+                                "normalizedName": "gear-rack",
+                                "imageLink": "https://assets.tarkov.dev/station-gear-rack.png"
+                            }
+                        }
+                    ],
                     "traderRequirements": [
                         {
                             "id": "65e5bb1713227bb7690cea0a-3-1",
@@ -31641,18 +31641,6 @@
                     "id": "667298e75ea6b4493c08f266-1",
                     "level": 1,
                     "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "667298e75ea6b4493c08f266-1-1",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fb3654e7600681d9314",
-                                "name": "安保",
-                                "normalizedName": "security",
-                                "imageLink": "https://assets.tarkov.dev/station-security.png"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "667298e75ea6b4493c08f266-1-0",
@@ -31803,6 +31791,18 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/59e3596386f774176c10a2a2-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/PAID_AntiRoach_spray"
+                            }
+                        }
+                    ],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "667298e75ea6b4493c08f266-1-1",
+                            "level": 1,
+                            "station": {
+                                "id": "5d484fb3654e7600681d9314",
+                                "name": "安保",
+                                "normalizedName": "security",
+                                "imageLink": "https://assets.tarkov.dev/station-security.png"
                             }
                         }
                     ]
