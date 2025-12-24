@@ -5,6 +5,7 @@
             "name": "加热器",
             "normalizedName": "heating",
             "imageLink": "https://assets.tarkov.dev/station-heating.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d388e97081959000a123acf-1",
@@ -59,7 +60,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347b8b24597737dd42e192-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Classic_matches"
+                                "wikiLink": ""
                             }
                         }
                     ]
@@ -345,14 +346,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d3b396e33c48f02b81cd9f3",
             "name": "发电机",
             "normalizedName": "generator",
             "imageLink": "https://assets.tarkov.dev/station-generator.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d3b396e33c48f02b81cd9f3-1",
@@ -739,14 +740,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d473c1e081959000e530190",
             "name": "通风",
             "normalizedName": "vents",
             "imageLink": "https://assets.tarkov.dev/station-vents.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d473c1e081959000e530190-1",
@@ -1054,14 +1055,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d484fb3654e7600681d9314",
             "name": "安保",
             "normalizedName": "security",
             "imageLink": "https://assets.tarkov.dev/station-security.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d484fb3654e7600681d9314-1",
@@ -1392,8 +1393,7 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d484fba654e7600691aadf7",
@@ -2495,7 +2495,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d40412b86f7743cb332ac3a-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Schaman_shampoo"
+                                "wikiLink": ""
                             }
                         }
                     ]
@@ -2659,7 +2659,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d40412b86f7743cb332ac3a-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Schaman_shampoo"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -4090,7 +4090,7 @@
                                     "wearable"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5e4abfed86f77406a2713cf7-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Splav_Tarzan_M22_chest_rig_(Smog)"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -4222,7 +4222,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -5102,7 +5102,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d40425986f7743185265461-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Nippers"
                             }
                         },
                         {
@@ -5473,7 +5473,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -5876,7 +5876,7 @@
                                     "wearable"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5aa2ba46e5b5b000137b758d-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/UX_PRO_beanie"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -6070,6 +6070,7 @@
             "name": "仓库",
             "normalizedName": "stash",
             "imageLink": "https://assets.tarkov.dev/station-stash.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d484fc0654e76006657e0ab-1",
@@ -6205,7 +6206,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
+                                "wikiLink": ""
                             }
                         }
                     ],
@@ -6333,7 +6334,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
+                                "wikiLink": ""
                             }
                         }
                     ],
@@ -6472,7 +6473,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -6605,8 +6606,7 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d484fc8654e760065037abf",
@@ -6691,7 +6691,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -8063,7 +8063,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5c06782b86f77426df5407d2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capacitors"
                             }
                         },
                         {
@@ -8821,7 +8821,7 @@
                                     "provisions"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5c0e531d86f7747fa23f4d42-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ6_TGLabs_combat_stimulant_injector"
+                                "wikiLink": ""
                             }
                         }
                     ]
@@ -8893,7 +8893,7 @@
                                     "provisions"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5751435d24597720a27126d1-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_Max_Energy_energy_drink"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -10372,7 +10372,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d40412b86f7743cb332ac3a-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Schaman_shampoo"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -11441,7 +11441,7 @@
                                     "provisions"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5751435d24597720a27126d1-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_Max_Energy_energy_drink"
+                                "wikiLink": ""
                             }
                         }
                     ]
@@ -11492,7 +11492,7 @@
                                     "provisions"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/575146b724597720a27126d5-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_milk"
+                                "wikiLink": ""
                             }
                         }
                     ],
@@ -12850,6 +12850,7 @@
             "name": "休息区",
             "normalizedName": "rest-space",
             "imageLink": "https://assets.tarkov.dev/station-rest-space.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d484fd6654e76051d3cc791-1",
@@ -12928,7 +12929,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347b8b24597737dd42e192-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Classic_matches"
+                                "wikiLink": ""
                             }
                         }
                     ],
@@ -13126,7 +13127,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5c06782b86f77426df5407d2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capacitors"
                             }
                         },
                         {
@@ -13193,8 +13194,7 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d484fda654e7600681d9315",
@@ -13230,7 +13230,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -13387,7 +13387,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -13879,7 +13879,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5c06782b86f77426df5407d2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capacitors"
                             }
                         },
                         {
@@ -14233,7 +14233,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -14553,7 +14553,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
+                                "wikiLink": ""
                             }
                         }
                     ]
@@ -14628,7 +14628,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d40425986f7743185265461-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Nippers"
                             }
                         }
                     ],
@@ -14712,7 +14712,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -14827,7 +14827,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590a358486f77429692b2790-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rechargeable_battery"
+                                "wikiLink": ""
                             }
                         }
                     ]
@@ -15265,7 +15265,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5c06782b86f77426df5407d2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capacitors"
                             }
                         }
                     ]
@@ -15298,7 +15298,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -15959,7 +15959,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1b31ce86f7742523398394-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Round_pliers"
+                                "wikiLink": ""
                             }
                         }
                     ]
@@ -16193,7 +16193,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -16629,7 +16629,7 @@
                                     "noFlea"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5a26abfac4a28232980eabff-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9x21mm_P_gzh"
                             }
                         }
                     ]
@@ -16888,7 +16888,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590a358486f77429692b2790-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rechargeable_battery"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -17003,7 +17003,7 @@
                                     "wearable"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/68f244ae22c8979ee308f4d8-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NKVD_Finka_knife"
                             }
                         }
                     ],
@@ -18177,7 +18177,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
+                                "wikiLink": ""
                             }
                         }
                     ]
@@ -18674,7 +18674,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -18800,7 +18800,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5c06782b86f77426df5407d2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capacitors"
                             }
                         },
                         {
@@ -18846,7 +18846,7 @@
                                     "noFlea"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5cc80f38e4a949001152b560-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.7x28mm_SS190"
+                                "wikiLink": ""
                             }
                         }
                     ]
@@ -18879,7 +18879,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -19121,7 +19121,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -19766,7 +19766,7 @@
                                     "noFlea"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5fc382c1016cce60e8341b20-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.338_Lapua_Magnum_UCW"
                             }
                         },
                         {
@@ -20270,7 +20270,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -20385,7 +20385,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5c06782b86f77426df5407d2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capacitors"
                             }
                         },
                         {
@@ -21254,7 +21254,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -21440,7 +21440,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347b8b24597737dd42e192-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Classic_matches"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -21589,7 +21589,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -22211,7 +22211,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -22444,7 +22444,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5c06782b86f77426df5407d2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capacitors"
                             }
                         }
                     ],
@@ -22749,7 +22749,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d40425986f7743185265461-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Nippers"
                             }
                         },
                         {
@@ -22898,7 +22898,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5c06782b86f77426df5407d2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capacitors"
                             }
                         },
                         {
@@ -24548,7 +24548,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5c06782b86f77426df5407d2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capacitors"
                             }
                         },
                         {
@@ -26330,6 +26330,7 @@
             "name": "靶场",
             "normalizedName": "shooting-range",
             "imageLink": "https://assets.tarkov.dev/station-shooting-range.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d484fe3654e76006657e0ac-1",
@@ -26358,7 +26359,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -26867,7 +26868,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5c06782b86f77426df5407d2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capacitors"
                             }
                         },
                         {
@@ -26985,14 +26986,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d494a0e5b56502f18c98a02",
             "name": "图书馆",
             "normalizedName": "library",
             "imageLink": "https://assets.tarkov.dev/station-library.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a0e5b56502f18c98a02-1",
@@ -27188,14 +27189,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d494a175b56502f18c98a04",
             "name": "Scav宝箱",
             "normalizedName": "scav-case",
             "imageLink": "https://assets.tarkov.dev/station-scav-case.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a175b56502f18c98a04-1",
@@ -27393,14 +27394,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d494a205b56502f18c98a06",
             "name": "照明",
             "normalizedName": "illumination",
             "imageLink": "https://assets.tarkov.dev/station-illumination.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a205b56502f18c98a06-1",
@@ -27590,7 +27591,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5c06782b86f77426df5407d2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Capacitors"
                             }
                         },
                         {
@@ -27691,14 +27692,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d494a295b56502f18c98a08",
             "name": "荣耀展柜",
             "normalizedName": "hall-of-fame",
             "imageLink": "https://assets.tarkov.dev/station-hall-of-fame.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a295b56502f18c98a08-1",
@@ -27726,7 +27727,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1b31ce86f7742523398394-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Round_pliers"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -27826,7 +27827,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -28355,14 +28356,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d494a315b56502f18c98a0a",
             "name": "空气过滤单元",
             "normalizedName": "air-filtering-unit",
             "imageLink": "https://assets.tarkov.dev/station-air-filtering-unit.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a315b56502f18c98a0a-1",
@@ -28506,14 +28507,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d494a385b56502f18c98a0c",
             "name": "太阳能",
             "normalizedName": "solar-power",
             "imageLink": "https://assets.tarkov.dev/station-solar-power.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a385b56502f18c98a0c-1",
@@ -28708,8 +28709,7 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d494a3f5b56502f18c98a0e",
@@ -29509,6 +29509,7 @@
             "name": "健身区",
             "normalizedName": "gym",
             "imageLink": "https://assets.tarkov.dev/station-gym.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "6377a9b9a93bde8fa30eb79a-1",
@@ -29612,7 +29613,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -29724,14 +29725,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "637b39f02e873739ec490215",
             "name": "易碎墙",
             "normalizedName": "defective-wall",
             "imageLink": "https://assets.tarkov.dev/station-defective-wall.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "637b39f02e873739ec490215-1",
@@ -30129,14 +30130,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "63db64cbf9963741dc0d741f",
             "name": "武器架",
             "normalizedName": "weapon-rack",
             "imageLink": "https://assets.tarkov.dev/station-weapon-rack.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "63db64cbf9963741dc0d741f-1",
@@ -30314,7 +30315,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
+                                "wikiLink": ""
                             }
                         }
                     ],
@@ -30556,7 +30557,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -30894,14 +30895,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "65e5bb1713227bb7690cea0a",
             "name": "装备架",
             "normalizedName": "gear-rack",
             "imageLink": "https://assets.tarkov.dev/station-gear-rack.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "65e5bb1713227bb7690cea0a-1",
@@ -31247,7 +31248,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
+                                "wikiLink": ""
                             }
                         },
                         {
@@ -31628,14 +31629,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "667298e75ea6b4493c08f266",
             "name": "仪式圈",
             "normalizedName": "cultist-circle",
             "imageLink": "https://assets.tarkov.dev/station-cultist-circle.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "667298e75ea6b4493c08f266-1",
@@ -31807,8 +31808,7 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         }
     ]
 }
