@@ -174,7 +174,8 @@
                         "normalizedName": "cms-surgical-kit",
                         "types": [
                             "meds",
-                            "provisions"
+                            "provisions",
+                            "specialSlot"
                         ],
                         "iconLink": "5d02778e86f774203e7dedbe-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CMS_surgical_kit"
@@ -240,7 +241,8 @@
                         "normalizedName": "surv12-field-surgical-kit",
                         "types": [
                             "meds",
-                            "provisions"
+                            "provisions",
+                            "specialSlot"
                         ],
                         "iconLink": "5d02797c86f774203f38e30a-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Surv12_field_surgical_kit"
@@ -732,7 +734,7 @@
                             "provisions"
                         ],
                         "iconLink": "60b0f93284c20f0feb453da7-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_RatCola_soda"
+                        "wikiLink": ""
                     },
                     {
                         "id": "60098b1705871270cd5352a1",
@@ -1055,7 +1057,8 @@
                         "name": "Korund-VM防弹插板（前部）",
                         "normalizedName": "korund-vm-ballistic-plates-front",
                         "types": [
-                            "armorPlate"
+                            "armorPlate",
+                            "wearable"
                         ],
                         "iconLink": "656f664200d62bcd2e024077-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM_ballistic_plates_(Front)"
@@ -1065,7 +1068,8 @@
                         "name": "ESBI IV 级防弹插板（侧边）",
                         "normalizedName": "esbi-level-iv-ballistic-plate-side",
                         "types": [
-                            "armorPlate"
+                            "armorPlate",
+                            "wearable"
                         ],
                         "iconLink": "64afdb577bb3bfe8fe03fd1d-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ESBI_level_IV_ballistic_plate_(Side)"
@@ -1076,7 +1080,8 @@
                         "normalizedName": "granit-4-ballistic-plates-back",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "656efaf54772930db4031ff5-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4_ballistic_plates_(Back)"
@@ -1086,7 +1091,8 @@
                         "name": "Granit 4防弹插板（前部）",
                         "normalizedName": "granit-4-ballistic-plate-front",
                         "types": [
-                            "armorPlate"
+                            "armorPlate",
+                            "wearable"
                         ],
                         "iconLink": "656f611f94b480b8a500c0db-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4_ballistic_plate_(Front)"
@@ -1097,7 +1103,8 @@
                         "normalizedName": "granit-4rs-ballistic-plates-back",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "654a4a964b446df1ad03f192-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4RS_ballistic_plates_(Back)"
@@ -1108,7 +1115,8 @@
                         "normalizedName": "granit-4rs-ballistic-plate-front",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "656f63c027aed95beb08f62c-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4RS_ballistic_plate_(Front)"
@@ -1119,7 +1127,8 @@
                         "normalizedName": "granit-br4-ballistic-plate",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "65573fa5655447403702a816-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_Br4_ballistic_plate"
@@ -1130,7 +1139,8 @@
                         "normalizedName": "kiteco-sc-iv-sa-ballistic-plate",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "656fafe3498d1b7e3e071da4-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/KITECO_SC-IV_SA_ballistic_plate"
@@ -1141,7 +1151,8 @@
                         "normalizedName": "nesco-4400-sa-mc-ballistic-plate",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "656fa61e94b480b8a500c0e8-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NESCO_4400-SA-MC_ballistic_plate"
@@ -1152,7 +1163,8 @@
                         "normalizedName": "granit-br5-ballistic-plate",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "64afc71497cf3a403c01ff38-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_Br5_ballistic_plate"
@@ -1163,7 +1175,8 @@
                         "normalizedName": "esapi-level-iv-ballistic-plate",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "64afdcb83efdfea28601d041-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ESAPI_level_IV_ballistic_plate"
@@ -1173,7 +1186,8 @@
                         "name": "Monoclete三级PE防弹插板",
                         "normalizedName": "monoclete-level-iii-pe-ballistic-plate",
                         "types": [
-                            "armorPlate"
+                            "armorPlate",
+                            "wearable"
                         ],
                         "iconLink": "656fad8c498d1b7e3e071da0-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Monoclete_level_III_PE_ballistic_plate"
@@ -1183,7 +1197,8 @@
                         "name": "SPRTN Elaphros防弹插板",
                         "normalizedName": "sprtn-elaphros-ballistic-plate",
                         "types": [
-                            "armorPlate"
+                            "armorPlate",
+                            "wearable"
                         ],
                         "iconLink": "656fb0bd7c2d57afe200c0dc-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SPRTN_Elaphros_ballistic_plate"
@@ -1193,7 +1208,8 @@
                         "name": "Kiba Arms Titan防弹插板",
                         "normalizedName": "kiba-arms-titan-ballistic-plate",
                         "types": [
-                            "armorPlate"
+                            "armorPlate",
+                            "wearable"
                         ],
                         "iconLink": "656fa25e94b480b8a500c0e0-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kiba_Arms_Titan_ballistic_plate"
@@ -1203,7 +1219,8 @@
                         "name": "NewSphereTech三级防弹插板",
                         "normalizedName": "newspheretech-level-iii-ballistic-plate",
                         "types": [
-                            "armorPlate"
+                            "armorPlate",
+                            "wearable"
                         ],
                         "iconLink": "656fb21fa0dce000a2020f7c-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NewSphereTech_level_III_ballistic_plate"
@@ -1213,7 +1230,8 @@
                         "name": "SPRTN Omega防弹插板",
                         "normalizedName": "sprtn-omega-ballistic-plate",
                         "types": [
-                            "armorPlate"
+                            "armorPlate",
+                            "wearable"
                         ],
                         "iconLink": "656f9fa0498d1b7e3e071d98-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SPRTN_Omega_ballistic_plate"
@@ -1223,7 +1241,8 @@
                         "name": "Global Armor’s Steel防弹插板",
                         "normalizedName": "global-armors-steel-ballistic-plate",
                         "types": [
-                            "armorPlate"
+                            "armorPlate",
+                            "wearable"
                         ],
                         "iconLink": "656fa0fb498d1b7e3e071d9c-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Global_Armor%E2%80%99s_Steel_ballistic_plate"
@@ -1234,7 +1253,8 @@
                         "normalizedName": "sapi-level-iii-ballistic-plate",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "655746010177119f4a097ff7-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SAPI_level_III%2B_ballistic_plate"
@@ -1245,7 +1265,8 @@
                         "normalizedName": "tallcom-guardian-ballistic-plate",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "656fa53d94b480b8a500c0e4-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TallCom_Guardian_ballistic_plate"
@@ -1256,7 +1277,8 @@
                         "normalizedName": "gac-4sss2-ballistic-plate",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "656faf0ca0dce000a2020f77-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GAC_4sss2_ballistic_plate"
@@ -1267,7 +1289,8 @@
                         "normalizedName": "cult-termite-ballistic-plate",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "656fa99800d62bcd2e024088-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cult_Termite_ballistic_plate"
@@ -1278,7 +1301,8 @@
                         "normalizedName": "cult-locust-ballistic-plate",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "656fa8d700d62bcd2e024084-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cult_Locust_ballistic_plate"
@@ -1289,7 +1313,8 @@
                         "normalizedName": "kiba-arms-steel-ballistic-plate",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "656fa76500d62bcd2e024080-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kiba_Arms_Steel_ballistic_plate"
@@ -1300,7 +1325,8 @@
                         "normalizedName": "gac-3s15m-ballistic-plate",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "656fae5f7c2d57afe200c0d7-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GAC_3s15m_ballistic_plate"
@@ -1310,7 +1336,8 @@
                         "name": "SSAPI level III+ 防弹插板（侧边）",
                         "normalizedName": "ssapi-level-iii-ballistic-plate-side",
                         "types": [
-                            "armorPlate"
+                            "armorPlate",
+                            "wearable"
                         ],
                         "iconLink": "6557458f83942d705f0c4962-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SSAPI_level_III%2B_ballistic_plate_(Side)"
@@ -1320,7 +1347,8 @@
                         "name": "6B33防弹插板（前部）",
                         "normalizedName": "6b33-ballistic-plate-front",
                         "types": [
-                            "armorPlate"
+                            "armorPlate",
+                            "wearable"
                         ],
                         "iconLink": "656f603f94b480b8a500c0d6-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6B33_ballistic_plate_(Front)"
@@ -1330,7 +1358,8 @@
                         "name": "6B23-2防弹插板（黑色）",
                         "normalizedName": "6b23-2-ballistic-plate-back",
                         "types": [
-                            "armorPlate"
+                            "armorPlate",
+                            "wearable"
                         ],
                         "iconLink": "657b22485f444d6dff0c6c2f-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6B23-2_ballistic_plate_(Back)"
@@ -1340,7 +1369,8 @@
                         "name": "Granit 防弹插板（侧边）",
                         "normalizedName": "granit-ballistic-plate-side",
                         "types": [
-                            "armorPlate"
+                            "armorPlate",
+                            "wearable"
                         ],
                         "iconLink": "64afd81707e2cf40e903a316-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_ballistic_plate_(Side)"
@@ -1350,7 +1380,8 @@
                         "name": "Korund-VM防弹插板（侧边）",
                         "normalizedName": "korund-vm-ballistic-plate-side",
                         "types": [
-                            "armorPlate"
+                            "armorPlate",
+                            "wearable"
                         ],
                         "iconLink": "654a4f8bc721968a4404ef18-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM_ballistic_plate_(Side)"
@@ -1361,7 +1392,8 @@
                         "normalizedName": "korund-vm-ballistic-plate-back",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "657b2797c3dbcb01d60c35ea-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM_ballistic_plate_(Back)"
@@ -1372,7 +1404,8 @@
                         "normalizedName": "korund-vm-k-ballistic-plate-back",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "657b28d25f444d6dff0c6c77-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM-K_ballistic_plate_(Back)"
@@ -1383,49 +1416,11 @@
                         "normalizedName": "korund-vm-k-ballistic-plates-front",
                         "types": [
                             "armorPlate",
-                            "noFlea"
+                            "noFlea",
+                            "wearable"
                         ],
                         "iconLink": "656f66b5c6baea13cd07e108-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Korund-VM-K_ballistic_plates_(Front)"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "686403eeb4aaef121c0f0f06",
-        "name": "Friend from Norvinsk - Part 4",
-        "taskImageLink": "686403eeb4aaef121c0f0f06.webp",
-        "trader": "Mechanic",
-        "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-        "kappaRequired": false,
-        "mixedItemsTask": true,
-        "objectives": [
-            {
-                "id": "6864044a289d4d4c5f337cf8",
-                "description": "Hand over the found in raid item: Printed circuit board or Microcontroller board",
-                "count": 3,
-                "items": [
-                    {
-                        "id": "590a3b0486f7743954552bdb",
-                        "name": "印制电路板",
-                        "normalizedName": "printed-circuit-board",
-                        "types": [
-                            "barter"
-                        ],
-                        "iconLink": "590a3b0486f7743954552bdb-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Printed_circuit_board"
-                    },
-                    {
-                        "id": "6389c7750ef44505c87f5996",
-                        "name": "微控制器电路板",
-                        "normalizedName": "microcontroller-board",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "6389c7750ef44505c87f5996-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
                     }
                 ]
             }
@@ -2079,7 +2074,7 @@
                             "wearable"
                         ],
                         "iconLink": "6038b4b292ec1c3103795a0b-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-6094A_Slick_Plate_Carrier_(Coyote_Tan)"
+                        "wikiLink": ""
                     },
                     {
                         "id": "5e9dcf5986f7746c417435b3",
@@ -2101,7 +2096,7 @@
                             "wearable"
                         ],
                         "iconLink": "5e9db13186f7742f845ee9d3-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-1961A_Load_Bearing_Chest_Rig_(MAS_Grey)"
+                        "wikiLink": ""
                     },
                     {
                         "id": "5e4abc6786f77406812bd572",

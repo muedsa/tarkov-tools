@@ -722,7 +722,9 @@
         "id": "6540d2162ae6d96b540afcaf",
         "name": "PR-Taran警棍",
         "normalizedName": "pr-taran-police-baton",
-        "types": [],
+        "types": [
+            "wearable"
+        ],
         "iconLink": "6540d2162ae6d96b540afcaf-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/PR-Taran_police_baton",
         "tasks": [
@@ -787,7 +789,8 @@
         "normalizedName": "cms-surgical-kit",
         "types": [
             "meds",
-            "provisions"
+            "provisions",
+            "specialSlot"
         ],
         "iconLink": "5d02778e86f774203e7dedbe-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CMS_surgical_kit",
@@ -969,7 +972,7 @@
             "wearable"
         ],
         "iconLink": "5e997f0b86f7741ac73993e2-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sanitar%27s_bag",
+        "wikiLink": "",
         "tasks": [
             {
                 "id": "666314a1920800278d0f6746",
@@ -1333,7 +1336,7 @@
             "wearable"
         ],
         "iconLink": "62a09dd4621468534a797ac7-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Baddie%27s_red_beard",
+        "wikiLink": "",
         "tasks": [
             {
                 "id": "5c51aac186f77432ea65c552",

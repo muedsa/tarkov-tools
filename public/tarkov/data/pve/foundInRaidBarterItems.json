@@ -62,77 +62,6 @@
         "hideoutStations": []
     },
     {
-        "id": "573477e124597737dd42e191",
-        "name": "电脑CPU",
-        "normalizedName": "pc-cpu",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "573477e124597737dd42e191-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/PC_CPU",
-        "tasks": [
-            {
-                "id": "686403eeb4aaef121c0f0f06",
-                "name": "Friend from Norvinsk - Part 4",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 2,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "5ac346a886f7744e1b083d67",
-                "name": "信号 - 2",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": true,
-                "count": 3,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "666314c10aa5c7436c00908c",
-                "name": "镜头就位，开拍！",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "57347baf24597738002c6178",
-        "name": "内存条",
-        "normalizedName": "ram-stick",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "57347baf24597738002c6178-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/RAM_stick",
-        "tasks": [
-            {
-                "id": "686403eeb4aaef121c0f0f06",
-                "name": "Friend from Norvinsk - Part 4",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 4,
-                "mixedItemsTask": false
-            },
-            {
-                "id": "666314c10aa5c7436c00908c",
-                "name": "镜头就位，开拍！",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
         "id": "590c621186f774138d11ea29",
         "name": "加密U盘",
         "normalizedName": "secure-flash-drive",
@@ -457,6 +386,37 @@
                 "count": 15
             }
         ]
+    },
+    {
+        "id": "573477e124597737dd42e191",
+        "name": "电脑CPU",
+        "normalizedName": "pc-cpu",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "573477e124597737dd42e191-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/PC_CPU",
+        "tasks": [
+            {
+                "id": "5ac346a886f7744e1b083d67",
+                "name": "信号 - 2",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": true,
+                "count": 3,
+                "mixedItemsTask": false
+            },
+            {
+                "id": "666314c10aa5c7436c00908c",
+                "name": "镜头就位，开拍！",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
     },
     {
         "id": "590a358486f77429692b2790",
@@ -1010,6 +970,28 @@
         ],
         "iconLink": "5d1b2ffd86f77425243e8d17-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NIXXOR_lens",
+        "tasks": [
+            {
+                "id": "666314c10aa5c7436c00908c",
+                "name": "镜头就位，开拍！",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "57347baf24597738002c6178",
+        "name": "内存条",
+        "normalizedName": "ram-stick",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "57347baf24597738002c6178-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/RAM_stick",
         "tasks": [
             {
                 "id": "666314c10aa5c7436c00908c",
@@ -1711,6 +1693,28 @@
         "hideoutStations": []
     },
     {
+        "id": "5d1b3a5d86f774252167ba22",
+        "name": "一堆药",
+        "normalizedName": "pile-of-meds",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5d1b3a5d86f774252167ba22-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pile_of_meds",
+        "tasks": [
+            {
+                "id": "60e71c48c1bfa3050473b8e5",
+                "name": "急单",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": true,
+                "count": 20,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
         "id": "5e2af4d286f7746d4159f07a",
         "name": "芳纶纤维布料",
         "normalizedName": "aramid-fiber-fabric",
@@ -1759,7 +1763,8 @@
         "name": "尼龙绳索",
         "normalizedName": "paracord",
         "types": [
-            "barter"
+            "barter",
+            "specialSlot"
         ],
         "iconLink": "5c12688486f77426843c7d32-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Paracord",
@@ -1860,28 +1865,6 @@
                 "count": 5
             }
         ]
-    },
-    {
-        "id": "5d1b3a5d86f774252167ba22",
-        "name": "一堆药",
-        "normalizedName": "pile-of-meds",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "5d1b3a5d86f774252167ba22-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pile_of_meds",
-        "tasks": [
-            {
-                "id": "60e71c48c1bfa3050473b8e5",
-                "name": "急单",
-                "trader": "Therapist",
-                "traderImageLink": "54cb57776803fa99248b456e.webp",
-                "kappaRequired": true,
-                "count": 20,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
     },
     {
         "id": "5bc9c377d4351e3bac12251b",
@@ -2150,7 +2133,7 @@
             "provisions"
         ],
         "iconLink": "60b0f93284c20f0feb453da7-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_RatCola_soda",
+        "wikiLink": "",
         "tasks": [
             {
                 "id": "5c51aac186f77432ea65c552",
@@ -2194,7 +2177,7 @@
             "barter"
         ],
         "iconLink": "60b0f561c4449e4cb624c1d7-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LVNDMARK%27s_rat_poison",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LVNDMARK's_rat_poison",
         "tasks": [
             {
                 "id": "5c51aac186f77432ea65c552",

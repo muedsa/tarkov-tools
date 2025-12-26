@@ -1,7 +1,7 @@
 import { fileURLToPath } from "node:url";
 import fs from "node:fs";
 import path from "node:path";
-import { request, gql } from "graphql-request";
+import { request, gql, ClientError } from "graphql-request";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const projectRootDir = path.join(__dirname, "../../");
@@ -151,7 +151,7 @@ const hideoutStationsQuery = gql`
 
 const taskQuery = gql`
   query TarkovDevTasks {
-    tasks(lang: zh, gameMode: pve) {
+    tasks(lang: zh, gameMode: ${queryMode}) {
       id
       tarkovDataId
       name
@@ -746,7 +746,23 @@ const taskQuery = gql`
   }
 `;
 
-request("https://api.tarkov.dev/graphql", hideoutStationsQuery).then((data) => {
+const unknownItem = {
+  attributes: [],
+  quantity: 1,
+  count: 1,
+  item: {
+    id: "unknown-item",
+    name: "未知物品",
+    normalizedName: "unknown-item",
+    shortName: "unknown",
+    width: 1,
+    height: 1,
+    types: [],
+    iconLink: "https://assets.tarkov.dev/unknown-item-icon.jpg",
+  },
+};
+
+const handleHideoutStationsDate = (data) => {
   const filePath = path.join(
     projectRootDir,
     `public/tarkov/data/${mode}/hideoutStations.json`,
@@ -756,18 +772,34 @@ request("https://api.tarkov.dev/graphql", hideoutStationsQuery).then((data) => {
   data.hideoutStations.forEach((hideoutStation) => {
     hideoutStation.crafts.forEach((craft) => {
       // Filter [null] items
-      craft.requiredQuestItems = craft.requiredQuestItems.filter((i) => !!i);
+      craft.requiredQuestItems = craft.requiredQuestItems.map(
+        (i) => i || unknownItem,
+      );
+      craft.requiredItems = craft.requiredItems.map((i) => i || unknownItem);
+      craft.rewardItems = craft.rewardItems.map((i) => i || unknownItem);
     });
   });
 
   fs.writeFileSync(filePath, JSON.stringify(data, null, 4), "utf-8");
-});
+};
 
-request("https://api.tarkov.dev/graphql", taskQuery).then((data) => {
+const handleTasksDate = (data) => {
   const filePath = path.join(
     projectRootDir,
     `public/tarkov/data/${mode}/tasks.json`,
   );
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, JSON.stringify(data, null, 4), "utf-8");
-});
+};
+
+request("https://api.tarkov.dev/graphql", hideoutStationsQuery)
+  .then(handleHideoutStationsDate)
+  .catch((error) => {
+    if (error instanceof ClientError && error.response && error.response.data) {
+      handleHideoutStationsDate(error.response.data);
+    } else {
+      throw error;
+    }
+  });
+
+request("https://api.tarkov.dev/graphql", taskQuery).then(handleTasksDate);

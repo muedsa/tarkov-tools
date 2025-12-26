@@ -521,7 +521,7 @@
             "provisions"
         ],
         "iconLink": "5ed5166ad380ab312177c100-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Obdolbos_cocktail_injector",
+        "wikiLink": "",
         "tasks": [
             {
                 "id": "5edac020218d181e29451446",
@@ -722,7 +722,9 @@
         "id": "6540d2162ae6d96b540afcaf",
         "name": "PR-Taran警棍",
         "normalizedName": "pr-taran-police-baton",
-        "types": [],
+        "types": [
+            "wearable"
+        ],
         "iconLink": "6540d2162ae6d96b540afcaf-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/PR-Taran_police_baton",
         "tasks": [
@@ -745,7 +747,7 @@
             "wearable"
         ],
         "iconLink": "5ab8f20c86f7745cdb629fb2-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ski_hat_with_holes_for_eyes",
+        "wikiLink": "",
         "tasks": [
             {
                 "id": "5ae4495086f77443c122bc40",
@@ -787,7 +789,8 @@
         "normalizedName": "cms-surgical-kit",
         "types": [
             "meds",
-            "provisions"
+            "provisions",
+            "specialSlot"
         ],
         "iconLink": "5d02778e86f774203e7dedbe-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CMS_surgical_kit",
@@ -902,7 +905,7 @@
             "provisions"
         ],
         "iconLink": "5c0e531d86f7747fa23f4d42-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ6_TGLabs_combat_stimulant_injector",
+        "wikiLink": "",
         "tasks": [
             {
                 "id": "625d7001c4874104f230c0c5",
@@ -969,7 +972,7 @@
             "wearable"
         ],
         "iconLink": "5e997f0b86f7741ac73993e2-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sanitar%27s_bag",
+        "wikiLink": "",
         "tasks": [
             {
                 "id": "666314a1920800278d0f6746",
@@ -1206,7 +1209,7 @@
             "wearable"
         ],
         "iconLink": "5e54f76986f7740366043752-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shroud_half-mask",
+        "wikiLink": "",
         "tasks": [
             {
                 "id": "5c51aac186f77432ea65c552",
@@ -1333,7 +1336,7 @@
             "wearable"
         ],
         "iconLink": "62a09dd4621468534a797ac7-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Baddie%27s_red_beard",
+        "wikiLink": "",
         "tasks": [
             {
                 "id": "5c51aac186f77432ea65c552",
