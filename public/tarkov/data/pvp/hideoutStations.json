@@ -48,7 +48,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347b8b24597737dd42e192-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Classic_matches"
                             },
                             "attributes": [
                                 {
@@ -2365,7 +2365,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d40412b86f7743cb332ac3a-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Schaman_shampoo"
                             },
                             "attributes": [],
                             "quantity": 2,
@@ -2483,7 +2483,7 @@
                             "item": {
                                 "id": "5ab8dced86f774646209ec87",
                                 "name": "ANA Tactical M2防弹胸挂",
-                                "normalizedName": "ana-tactical-m2-plate-carrier-emr",
+                                "normalizedName": "ana-tactical-m2-plate-carrier-od-green",
                                 "shortName": "M2",
                                 "width": 4,
                                 "height": 4,
@@ -2493,7 +2493,7 @@
                                     "wearable"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5ab8dced86f774646209ec87-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ANA_Tactical_M2_plate_carrier_(EMR)"
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ANA_Tactical_M2_plate_carrier_(OD_Green)"
                             },
                             "attributes": [],
                             "quantity": 1,
@@ -2527,7 +2527,7 @@
                                     "wearable"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5e4abfed86f77406a2713cf7-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Splav_Tarzan_M22_chest_rig_(Smog)"
                             },
                             "count": 1,
                             "quantity": 1,
@@ -3309,7 +3309,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d40412b86f7743cb332ac3a-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Schaman_shampoo"
                             },
                             "count": 1,
                             "quantity": 1,
@@ -4163,7 +4163,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
                             },
                             "count": 5,
                             "quantity": 5,
@@ -5080,7 +5080,7 @@
                                     "wearable"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5aa2ba46e5b5b000137b758d-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/UX_PRO_beanie"
                             },
                             "count": 2,
                             "quantity": 2,
@@ -5706,7 +5706,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
                             },
                             "count": 4,
                             "quantity": 4,
@@ -6195,7 +6195,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
                             },
                             "attributes": [
                                 {
@@ -6324,7 +6324,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
                             },
                             "attributes": [
                                 {
@@ -6463,7 +6463,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
                             },
                             "attributes": [
                                 {
@@ -6681,7 +6681,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
                             },
                             "attributes": [
                                 {
@@ -8788,7 +8788,7 @@
                                     "provisions"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5c0e531d86f7747fa23f4d42-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ6_TGLabs_combat_stimulant_injector"
                             },
                             "attributes": [],
                             "quantity": 2,
@@ -9405,7 +9405,7 @@
                                     "provisions"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5751435d24597720a27126d1-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_Max_Energy_energy_drink"
                             },
                             "count": 2,
                             "quantity": 2,
@@ -10206,7 +10206,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d40412b86f7743cb332ac3a-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Schaman_shampoo"
                             },
                             "count": 2,
                             "quantity": 2,
@@ -11245,7 +11245,7 @@
                                     "provisions"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/575146b724597720a27126d5-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_milk"
                             },
                             "count": 1,
                             "quantity": 1,
@@ -11509,7 +11509,7 @@
                                     "provisions"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5751435d24597720a27126d1-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_Max_Energy_energy_drink"
                             },
                             "attributes": [],
                             "quantity": 4,
@@ -12918,7 +12918,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347b8b24597737dd42e192-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Classic_matches"
                             },
                             "attributes": [
                                 {
@@ -13219,7 +13219,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
                             },
                             "attributes": [
                                 {
@@ -13378,7 +13378,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
                             },
                             "attributes": [
                                 {
@@ -13962,7 +13962,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1b31ce86f7742523398394-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Round_pliers"
                             },
                             "attributes": [],
                             "quantity": 1,
@@ -14581,7 +14581,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
                             },
                             "attributes": [],
                             "quantity": 5,
@@ -15033,7 +15033,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
                             },
                             "count": 10,
                             "quantity": 10,
@@ -15341,7 +15341,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
                             },
                             "attributes": [],
                             "quantity": 1,
@@ -15500,7 +15500,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
                             },
                             "count": 1,
                             "quantity": 1,
@@ -15615,7 +15615,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590a358486f77429692b2790-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rechargeable_battery"
                             },
                             "attributes": [],
                             "quantity": 2,
@@ -16005,7 +16005,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
                             },
                             "count": 1,
                             "quantity": 1,
@@ -16677,7 +16677,7 @@
                                     "noFlea"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5cc80f38e4a949001152b560-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.7x28mm_SS190"
                             },
                             "attributes": [],
                             "quantity": 60,
@@ -16710,7 +16710,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
                             },
                             "count": 1,
                             "quantity": 1,
@@ -16952,7 +16952,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
                             },
                             "count": 3,
                             "quantity": 3,
@@ -17348,7 +17348,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
                             },
                             "count": 1,
                             "quantity": 1,
@@ -17502,7 +17502,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
                             },
                             "count": 3,
                             "quantity": 3,
@@ -17676,7 +17676,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347b8b24597737dd42e192-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Classic_matches"
                             },
                             "count": 1,
                             "quantity": 1,
@@ -18394,7 +18394,7 @@
                                     "mods"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5ea034f65aad6446a939737e-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/PPSh-41_7.62x25_71-round_drum_magazine"
                             },
                             "count": 1,
                             "quantity": 1,
@@ -19433,7 +19433,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
                             },
                             "count": 1,
                             "quantity": 1,
@@ -20382,19 +20382,23 @@
                     ],
                     "rewardItems": [
                         {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
                             "item": {
-                                "id": "unknown-item",
-                                "name": "未知物品",
-                                "normalizedName": "unknown-item",
-                                "shortName": "unknown",
+                                "id": "693bfb50d5c25889e701d444",
+                                "name": "Nut can",
+                                "normalizedName": "nut-can",
+                                "shortName": "Nuts&Bolts",
                                 "width": 1,
                                 "height": 1,
-                                "types": [],
-                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
-                            }
+                                "types": [
+                                    "container",
+                                    "noFlea"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Nut_can"
+                            },
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1
                         }
                     ]
                 },
@@ -20643,7 +20647,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
                             },
                             "count": 1,
                             "quantity": 1,
@@ -21265,7 +21269,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
                             },
                             "count": 1,
                             "quantity": 1,
@@ -21416,7 +21420,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
                             },
                             "count": 1,
                             "quantity": 1,
@@ -21655,7 +21659,7 @@
                                     "noFlea"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/64b7af5a8532cf95ee0a0dbd-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_FMJ"
+                                "wikiLink": ""
                             },
                             "attributes": [],
                             "quantity": 200,
@@ -22111,7 +22115,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590a358486f77429692b2790-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rechargeable_battery"
                             },
                             "count": 1,
                             "quantity": 1,
@@ -26549,7 +26553,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
                             },
                             "attributes": [
                                 {
@@ -27918,7 +27922,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1b31ce86f7742523398394-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Round_pliers"
                             },
                             "attributes": [
                                 {
@@ -28018,7 +28022,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
                             },
                             "attributes": [
                                 {
@@ -29803,7 +29807,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
                             },
                             "attributes": [
                                 {
@@ -30506,7 +30510,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
                             },
                             "attributes": [
                                 {
@@ -30748,7 +30752,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5d1c819a86f774771b0acd6c-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_parts"
                             },
                             "attributes": [
                                 {
@@ -31439,7 +31443,7 @@
                                     "barter"
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/590c31c586f774245e3141b2-icon.webp",
-                                "wikiLink": ""
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
                             },
                             "attributes": [
                                 {
