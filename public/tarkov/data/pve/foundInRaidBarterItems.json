@@ -2133,7 +2133,7 @@
             "provisions"
         ],
         "iconLink": "60b0f93284c20f0feb453da7-icon.webp",
-        "wikiLink": "",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_RatCola_soda",
         "tasks": [
             {
                 "id": "5c51aac186f77432ea65c552",
@@ -2177,7 +2177,7 @@
             "barter"
         ],
         "iconLink": "60b0f561c4449e4cb624c1d7-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LVNDMARK's_rat_poison",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LVNDMARK%27s_rat_poison",
         "tasks": [
             {
                 "id": "5c51aac186f77432ea65c552",
@@ -3850,6 +3850,75 @@
                 "name": "仪式圈",
                 "normalizedName": "cultist-circle",
                 "imageLink": "station-cultist-circle.png",
+                "level": 1,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "5df8a77486f77412672a1e3f",
+        "name": "圣诞树装饰球（紫）",
+        "normalizedName": "christmas-tree-ornament-violet",
+        "types": [
+            "barter",
+            "noFlea"
+        ],
+        "iconLink": "5df8a77486f77412672a1e3f-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Christmas_tree_ornament_(Violet)",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5df8a81f8f77747fcf5f5702-1",
+                "stationId": "5df8a81f8f77747fcf5f5702",
+                "name": "圣诞树",
+                "normalizedName": "christmas-tree",
+                "imageLink": "station-christmas-tree.png",
+                "level": 1,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "5df8a72c86f77412640e2e83",
+        "name": "圣诞树装饰球（银）",
+        "normalizedName": "christmas-tree-ornament-silver",
+        "types": [
+            "barter",
+            "noFlea"
+        ],
+        "iconLink": "5df8a72c86f77412640e2e83-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Christmas_tree_ornament_(Silver)",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5df8a81f8f77747fcf5f5702-1",
+                "stationId": "5df8a81f8f77747fcf5f5702",
+                "name": "圣诞树",
+                "normalizedName": "christmas-tree",
+                "imageLink": "station-christmas-tree.png",
+                "level": 1,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "5df8a6a186f77412640e2e80",
+        "name": "圣诞树装饰球（红）",
+        "normalizedName": "christmas-tree-ornament-red",
+        "types": [
+            "barter",
+            "noFlea"
+        ],
+        "iconLink": "5df8a6a186f77412640e2e80-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Christmas_tree_ornament_(Red)",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5df8a81f8f77747fcf5f5702-1",
+                "stationId": "5df8a81f8f77747fcf5f5702",
+                "name": "圣诞树",
+                "normalizedName": "christmas-tree",
+                "imageLink": "station-christmas-tree.png",
                 "level": 1,
                 "count": 1
             }
