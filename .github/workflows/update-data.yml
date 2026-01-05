@@ -25,7 +25,8 @@ jobs:
 
       - name: Update data from tarkov.dev
         run: |
-          npm run script:fetchDataPve && npm run script:fetchDataPvp
+          npm run script:fetchDataPve && npm run script:foundInRaidPve && npm run script:imageDownloaderPve
+          npm run script:fetchDataPvp && npm run script:foundInRaidPvp && npm run script:imageDownloaderPvp
 
       - name: Commit and push changes in public/
         env:
