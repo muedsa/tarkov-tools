@@ -3684,15 +3684,6 @@
                 "count": 1
             },
             {
-                "id": "637b39f02e873739ec490215-5",
-                "stationId": "637b39f02e873739ec490215",
-                "name": "易碎墙",
-                "normalizedName": "defective-wall",
-                "imageLink": "station-defective-wall.png",
-                "level": 5,
-                "count": 1
-            },
-            {
                 "id": "63db64cbf9963741dc0d741f-1",
                 "stationId": "63db64cbf9963741dc0d741f",
                 "name": "武器架",
@@ -3700,27 +3691,14 @@
                 "imageLink": "station-weapon-rack.png",
                 "level": 1,
                 "count": 1
-            }
-        ]
-    },
-    {
-        "id": "63a0b208f444d32d6f03ea1e",
-        "name": "Fierce Blow重击锤",
-        "normalizedName": "fierce-blow-sledgehammer",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "63a0b208f444d32d6f03ea1e-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fierce_Blow_sledgehammer",
-        "tasks": [],
-        "hideoutStations": [
+            },
             {
-                "id": "637b39f02e873739ec490215-4",
+                "id": "637b39f02e873739ec490215-5",
                 "stationId": "637b39f02e873739ec490215",
                 "name": "易碎墙",
                 "normalizedName": "defective-wall",
                 "imageLink": "station-defective-wall.png",
-                "level": 4,
+                "level": 5,
                 "count": 1
             }
         ]
