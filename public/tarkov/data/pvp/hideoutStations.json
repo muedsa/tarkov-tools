@@ -5,6 +5,7 @@
             "name": "加热器",
             "normalizedName": "heating",
             "imageLink": "https://assets.tarkov.dev/station-heating.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d388e97081959000a123acf-1",
@@ -345,14 +346,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d3b396e33c48f02b81cd9f3",
             "name": "发电机",
             "normalizedName": "generator",
             "imageLink": "https://assets.tarkov.dev/station-generator.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d3b396e33c48f02b81cd9f3-1",
@@ -739,14 +740,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d473c1e081959000e530190",
             "name": "通风",
             "normalizedName": "vents",
             "imageLink": "https://assets.tarkov.dev/station-vents.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d473c1e081959000e530190-1",
@@ -1054,14 +1055,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d484fb3654e7600681d9314",
             "name": "安保",
             "normalizedName": "security",
             "imageLink": "https://assets.tarkov.dev/station-security.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d484fb3654e7600681d9314-1",
@@ -1392,8 +1393,7 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d484fba654e7600691aadf7",
@@ -6070,6 +6070,7 @@
             "name": "仓库",
             "normalizedName": "stash",
             "imageLink": "https://assets.tarkov.dev/station-stash.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d484fc0654e76006657e0ab-1",
@@ -6605,8 +6606,7 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d484fc8654e760065037abf",
@@ -12832,6 +12832,7 @@
             "name": "休息区",
             "normalizedName": "rest-space",
             "imageLink": "https://assets.tarkov.dev/station-rest-space.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d484fd6654e76051d3cc791-1",
@@ -13175,8 +13176,7 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d484fda654e7600681d9315",
@@ -26517,6 +26517,7 @@
             "name": "靶场",
             "normalizedName": "shooting-range",
             "imageLink": "https://assets.tarkov.dev/station-shooting-range.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d484fe3654e76006657e0ac-1",
@@ -27172,14 +27173,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d494a0e5b56502f18c98a02",
             "name": "图书馆",
             "normalizedName": "library",
             "imageLink": "https://assets.tarkov.dev/station-library.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a0e5b56502f18c98a02-1",
@@ -27375,14 +27376,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d494a175b56502f18c98a04",
             "name": "Scav宝箱",
             "normalizedName": "scav-case",
             "imageLink": "https://assets.tarkov.dev/station-scav-case.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a175b56502f18c98a04-1",
@@ -27580,14 +27581,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d494a205b56502f18c98a06",
             "name": "照明",
             "normalizedName": "illumination",
             "imageLink": "https://assets.tarkov.dev/station-illumination.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a205b56502f18c98a06-1",
@@ -27878,14 +27879,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d494a295b56502f18c98a08",
             "name": "荣耀展柜",
             "normalizedName": "hall-of-fame",
             "imageLink": "https://assets.tarkov.dev/station-hall-of-fame.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a295b56502f18c98a08-1",
@@ -28542,14 +28543,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d494a315b56502f18c98a0a",
             "name": "空气过滤单元",
             "normalizedName": "air-filtering-unit",
             "imageLink": "https://assets.tarkov.dev/station-air-filtering-unit.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a315b56502f18c98a0a-1",
@@ -28693,14 +28694,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d494a385b56502f18c98a0c",
             "name": "太阳能",
             "normalizedName": "solar-power",
             "imageLink": "https://assets.tarkov.dev/station-solar-power.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a385b56502f18c98a0c-1",
@@ -28895,8 +28896,7 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "5d494a3f5b56502f18c98a0e",
@@ -29696,6 +29696,7 @@
             "name": "健身区",
             "normalizedName": "gym",
             "imageLink": "https://assets.tarkov.dev/station-gym.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "6377a9b9a93bde8fa30eb79a-1",
@@ -29911,14 +29912,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "63db64cbf9963741dc0d741f",
             "name": "武器架",
             "normalizedName": "weapon-rack",
             "imageLink": "https://assets.tarkov.dev/station-weapon-rack.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "63db64cbf9963741dc0d741f-1",
@@ -30676,14 +30677,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "65e5bb1713227bb7690cea0a",
             "name": "装备架",
             "normalizedName": "gear-rack",
             "imageLink": "https://assets.tarkov.dev/station-gear-rack.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "65e5bb1713227bb7690cea0a-1",
@@ -31410,14 +31411,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "667298e75ea6b4493c08f266",
             "name": "仪式圈",
             "normalizedName": "cultist-circle",
             "imageLink": "https://assets.tarkov.dev/station-cultist-circle.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "667298e75ea6b4493c08f266-1",
@@ -31589,14 +31590,14 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         },
         {
             "id": "637b39f02e873739ec490215",
             "name": "易碎墙",
             "normalizedName": "defective-wall",
             "imageLink": "https://assets.tarkov.dev/station-defective-wall.png",
+            "crafts": [],
             "levels": [
                 {
                     "id": "637b39f02e873739ec490215-1",
@@ -31994,8 +31995,7 @@
                         }
                     ]
                 }
-            ],
-            "crafts": []
+            ]
         }
     ]
 }
