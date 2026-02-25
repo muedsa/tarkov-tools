@@ -2356,6 +2356,28 @@
         "hideoutStations": []
     },
     {
+        "id": "6937edb912d456a817083e82",
+        "name": "Mazoni golden dumbbell",
+        "normalizedName": "mazoni-golden-dumbbell",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "6937edb912d456a817083e82-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mazoni_golden_dumbbell",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
         "id": "5d1b33a686f7742523398398",
         "name": "纯净水",
         "normalizedName": "canister-with-purified-water",
@@ -2380,7 +2402,7 @@
     },
     {
         "id": "655c652d60d0ac437100fed7",
-        "name": "BEAR干员小人",
+        "name": "BEAR 干员玩偶",
         "normalizedName": "bear-operative-figurine",
         "types": [
             "barter"
@@ -2420,7 +2442,7 @@
     },
     {
         "id": "655c66e40b2de553b618d4b8",
-        "name": "Mutkevich政客小人",
+        "name": "Mutkevich 政客玩偶",
         "normalizedName": "politician-mutkevich-figurine",
         "types": [
             "barter"
@@ -2469,7 +2491,7 @@
     },
     {
         "id": "66572c82ad599021091c6118",
-        "name": "Killa 小人",
+        "name": "Killa 玩偶",
         "normalizedName": "killa-figurine",
         "types": [
             "barter"
@@ -2518,7 +2540,7 @@
     },
     {
         "id": "66572be36a723f7f005a066e",
-        "name": "Reshala 小人",
+        "name": "Reshala 玩偶",
         "normalizedName": "reshala-figurine",
         "types": [
             "barter"
@@ -2567,7 +2589,7 @@
     },
     {
         "id": "655c67782a1356436041c9c5",
-        "name": "Ryzhy小人",
+        "name": "Ryzhy 玩偶",
         "normalizedName": "ryzhy-figurine",
         "types": [
             "barter"
@@ -2616,7 +2638,7 @@
     },
     {
         "id": "655c673673a43e23e857aebd",
-        "name": "Scav小人",
+        "name": "Scav 玩偶",
         "normalizedName": "scav-figurine",
         "types": [
             "barter"
@@ -2665,7 +2687,7 @@
     },
     {
         "id": "66572cbdad599021091c611a",
-        "name": "Tagilla 小人",
+        "name": "Tagilla 玩偶",
         "normalizedName": "tagilla-figurine",
         "types": [
             "barter"
@@ -2714,7 +2736,7 @@
     },
     {
         "id": "655c663a6689c676ce57af85",
-        "name": "USEC干员小人",
+        "name": "USEC 干员玩偶",
         "normalizedName": "usec-operative-figurine",
         "types": [
             "barter"
@@ -2754,7 +2776,7 @@
     },
     {
         "id": "655c669103999d3c810c025b",
-        "name": "邪教徒小人",
+        "name": "邪教徒玩偶",
         "normalizedName": "cultist-figurine",
         "types": [
             "barter"
@@ -2803,7 +2825,7 @@
     },
     {
         "id": "66572b8d80b1cd4b6a67847f",
-        "name": "Den 小人",
+        "name": "Den 玩偶",
         "normalizedName": "den-figurine",
         "types": [
             "barter"

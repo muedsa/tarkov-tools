@@ -23,7 +23,7 @@
     },
     {
         "id": "590c5d4b86f774784e1b9c45",
-        "name": "Iskra个人配给口粮",
+        "name": "Iskra（“火花”）单兵口粮",
         "normalizedName": "iskra-ration-pack",
         "types": [
             "provisions"
@@ -415,7 +415,7 @@
     },
     {
         "id": "5644bd2b4bdc2d3b4c8b4572",
-        "name": "卡拉什尼科夫 AK-74N 5.45x39 突击步枪",
+        "name": "AK-74N 5.45x39 突击步枪",
         "normalizedName": "kalashnikov-ak-74n-545x39-assault-rifle",
         "types": [
             "gun",
@@ -536,7 +536,7 @@
     },
     {
         "id": "5ed5160a87bb8443d10680b5",
-        "name": "Meldonin 注射器",
+        "name": "米屈肼注射器",
         "normalizedName": "meldonin-injector",
         "types": [
             "injectors",
@@ -1401,6 +1401,70 @@
         ],
         "iconLink": "62a09e08de7ac81993580532-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Glorious_E_lightweight_armored_mask",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "69398e94ca94fd2877039504",
+        "name": "Nut Sack balaclava",
+        "normalizedName": "nut-sack-balaclava",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "69398e94ca94fd2877039504-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Nut_Sack_balaclava",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "6937ecf8628ee476240c07cb",
+        "name": "Tigzresq splint",
+        "normalizedName": "tigzresq-splint",
+        "types": [
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "6937ecf8628ee476240c07cb-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tigzresq_splint",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "6937f02dfd6488bb27024839",
+        "name": "Domontovich ushanka hat",
+        "normalizedName": "domontovich-ushanka-hat",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "6937f02dfd6488bb27024839-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Domontovich_ushanka_hat",
         "tasks": [
             {
                 "id": "5c51aac186f77432ea65c552",
