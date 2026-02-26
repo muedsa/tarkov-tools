@@ -489,6 +489,27 @@
         ]
     },
     {
+        "id": "5c0126f40db834002a125382",
+        "name": "Red Rebel冰镐",
+        "normalizedName": "red-rebel-ice-pick",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "5c0126f40db834002a125382-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Red_Rebel_ice_pick",
+        "tasks": [
+            {
+                "id": "68ee1c18b4e5bc9a68018cd7",
+                "name": "不容置问",
+                "trader": "Prapor",
+                "traderImageLink": "54cb50c76803fa8b248b4571.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
         "id": "5ed51652f6c34d2cc26336a1",
         "name": "M.U.L.E. 兴奋剂",
         "normalizedName": "mule-stimulant-injector",

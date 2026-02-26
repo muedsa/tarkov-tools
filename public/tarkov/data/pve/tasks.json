@@ -14559,7 +14559,7 @@
             "restartable": false,
             "failConditions": [],
             "factionName": "Any",
-            "kappaRequired": true,
+            "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/59674cd986f7744ab26e32f2.webp",
             "trader": {
@@ -14754,6 +14754,26 @@
                             ],
                             "iconLink": "https://assets.tarkov.dev/57372db0245977685d4159b2-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_PP_gs_ammo_pack_(30_pcs)"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "544fb3f34bdc2d03748b456a",
+                            "name": "吗啡注射器",
+                            "normalizedName": "morphine-injector",
+                            "shortName": "吗啡",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "injectors",
+                                "meds",
+                                "provisions"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/544fb3f34bdc2d03748b456a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Morphine_injector"
                         }
                     }
                 ],
@@ -22302,7 +22322,7 @@
             "restartable": false,
             "failConditions": [],
             "factionName": "Any",
-            "kappaRequired": true,
+            "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/59689fbd86f7740d137ebfc4.webp",
             "trader": {
@@ -23009,7 +23029,7 @@
             "restartable": false,
             "failConditions": [],
             "factionName": "Any",
-            "kappaRequired": true,
+            "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/5968eb3186f7741dde183a4d.webp",
             "trader": {
@@ -26965,7 +26985,7 @@
                 ],
                 "craftUnlock": [
                     {
-                        "id": "64b6aefe25251516d768542d",
+                        "id": "5e66408286f7747b2c2d7786",
                         "level": 2,
                         "station": {
                             "id": "5d484fda654e7600681d9315",
@@ -26976,21 +26996,21 @@
                         "rewardItems": [
                             {
                                 "attributes": [],
-                                "count": 8,
-                                "quantity": 8,
+                                "count": 5,
+                                "quantity": 5,
                                 "item": {
-                                    "id": "5e32f56fcb6d5863cc5e5ee4",
-                                    "name": "VOG-17 Khattabka 简易手榴弹",
-                                    "normalizedName": "vog-17-khattabka-improvised-hand-grenade",
-                                    "shortName": "VOG-17",
+                                    "id": "5e340dcdcb6d5863cc5e5efb",
+                                    "name": "VOG-25 Khattabka 简易手榴弹",
+                                    "normalizedName": "vog-25-khattabka-improvised-hand-grenade",
+                                    "shortName": "VOG-25",
                                     "width": 1,
                                     "height": 1,
                                     "types": [
                                         "ammo",
                                         "grenade"
                                     ],
-                                    "iconLink": "https://assets.tarkov.dev/5e32f56fcb6d5863cc5e5ee4-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VOG-17_Khattabka_improvised_hand_grenade"
+                                    "iconLink": "https://assets.tarkov.dev/5e340dcdcb6d5863cc5e5efb-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VOG-25_Khattabka_improvised_hand_grenade"
                                 }
                             }
                         ]
@@ -29021,6 +29041,29 @@
                             ],
                             "iconLink": "https://assets.tarkov.dev/5ac4ad3686f774181345c3da-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Springfield_Armory_M1A_7.62x51_rifle"
+                        }
+                    },
+                    {
+                        "id": "68efe00fc487dbe6f2d2ac54",
+                        "level": 2,
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        },
+                        "item": {
+                            "id": "68a639748e1fe612970728e9",
+                            "name": "柯尔特 M16A1 5.56x45 突击步枪",
+                            "normalizedName": "colt-m16a1-556x45-assault-rifle",
+                            "shortName": "M16A1",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "gun"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68a639748e1fe612970728e9-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Colt_M16A1_5.56x45_assault_rifle"
                         }
                     }
                 ]
@@ -50096,7 +50139,6 @@
                 "customization": [],
                 "traderUnlock": [],
                 "achievement": [],
-                "craftUnlock": [],
                 "traderStanding": [
                     {
                         "standing": 0.03,
@@ -50189,6 +50231,39 @@
                             "iconLink": "https://assets.tarkov.dev/5f06d6e1475d472556679d16-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/FN40GL_Mk2_40mm_grenade_launcher"
                         }
+                    }
+                ],
+                "craftUnlock": [
+                    {
+                        "id": "5dceb6964a98801ba2075d27",
+                        "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 40,
+                                "quantity": 40,
+                                "item": {
+                                    "id": "6768c25aa7b238f14a08d3f6",
+                                    "name": "7.62x51毫米 M80A1",
+                                    "normalizedName": "762x51mm-m80a1",
+                                    "shortName": "M80A1",
+                                    "width": 1,
+                                    "height": 1,
+                                    "types": [
+                                        "ammo",
+                                        "noFlea"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/6768c25aa7b238f14a08d3f6-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80A1"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -62335,6 +62410,490 @@
                     }
                 ]
             }
+        },
+        {
+            "id": "67a09761e720611a6a01f288",
+            "tarkovDataId": null,
+            "name": "守望者箴言",
+            "normalizedName": "keepers-word",
+            "experience": 56800,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Keeper's_Word",
+            "minPlayerLevel": 15,
+            "traderRequirements": [],
+            "restartable": false,
+            "failConditions": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/67a09761e720611a6a01f288.webp",
+            "trader": {
+                "id": "638f541a29ffd1183d187f57",
+                "name": "Lightkeeper",
+                "normalizedName": "lightkeeper",
+                "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
+            },
+            "map": {
+                "id": "6733700029c367a3d40b02af",
+                "name": "迷宫",
+                "normalizedName": "the-labyrinth"
+            },
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a096ed77dd677f600804ba",
+                        "name": "感官分析 - 2",
+                        "normalizedName": "sensory-analysis-part-2",
+                        "taskImageLink": "https://assets.tarkov.dev/67a096ed77dd677f600804ba.webp",
+                        "trader": {
+                            "id": "656f0f98d80a697f855d34b1",
+                            "name": "BTR司机",
+                            "normalizedName": "btr-driver",
+                            "imageLink": "https://assets.tarkov.dev/656f0f98d80a697f855d34b1.webp"
+                        }
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0970f05d1611ed90be75d",
+                        "name": "检验假说",
+                        "normalizedName": "hypotheses-testing",
+                        "taskImageLink": "https://assets.tarkov.dev/67a0970f05d1611ed90be75d.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67d03be712fb5f8fd2096332",
+                        "name": "清空外围",
+                        "normalizedName": "vacate-the-premises",
+                        "taskImageLink": "https://assets.tarkov.dev/67d03be712fb5f8fd2096332.webp",
+                        "trader": {
+                            "id": "5ac3b934156ae10c4430e83c",
+                            "name": "Ragman",
+                            "normalizedName": "ragman",
+                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
+                        }
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a09724972c11a3f5077324",
+                        "name": "机密情报",
+                        "normalizedName": "confidential-info",
+                        "taskImageLink": "https://assets.tarkov.dev/67a09724972c11a3f5077324.webp",
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        }
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a097379f2068e74603c6ac",
+                        "name": "绝对威信",
+                        "normalizedName": "indisputable-authority",
+                        "taskImageLink": "https://assets.tarkov.dev/67a097379f2068e74603c6ac.webp",
+                        "trader": {
+                            "id": "58330581ace78e27b8b10cee",
+                            "name": "Skier",
+                            "normalizedName": "skier",
+                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
+                        }
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "67a0972e77dd677f600804bd",
+                        "name": "这带子糟透了",
+                        "normalizedName": "this-tape-sucks",
+                        "taskImageLink": "https://assets.tarkov.dev/67a0972e77dd677f600804bd.webp",
+                        "trader": {
+                            "id": "54cb57776803fa99248b456e",
+                            "name": "Therapist",
+                            "normalizedName": "therapist",
+                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+                        }
+                    }
+                }
+            ],
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.03,
+                        "trader": {
+                            "id": "638f541a29ffd1183d187f57",
+                            "name": "Lightkeeper",
+                            "normalizedName": "lightkeeper",
+                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 4200,
+                        "quantity": 4200,
+                        "item": {
+                            "id": "5696686a4bdc2da3298b456a",
+                            "name": "美元",
+                            "normalizedName": "dollars",
+                            "shortName": "美元",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "5c05308086f7746b2101e90b",
+                            "name": "Virtex可编程处理器",
+                            "normalizedName": "virtex-programmable-processor",
+                            "shortName": "Virtex",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5c05308086f7746b2101e90b-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Virtex_programmable_processor"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "5d235bb686f77443f4331278",
+                            "name": "SICC 收纳包",
+                            "normalizedName": "s-i-c-c-organizational-pouch",
+                            "shortName": "SICC",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "container",
+                                "markedOnly"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d235bb686f77443f4331278-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/S_I_C_C_organizational_pouch"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "64d0b40fbe2eed70e254e2d4",
+                            "name": "神圣护身符",
+                            "normalizedName": "sacred-amulet",
+                            "shortName": "护身符",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea",
+                                "specialSlot"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/64d0b40fbe2eed70e254e2d4-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Sacred_Amulet"
+                        }
+                    }
+                ]
+            },
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "67a0e4df8cddbe2df31dd1d9",
+                    "type": "plantItem",
+                    "description": "在迷宫的第一个特殊位置藏匿邪教徒的刀",
+                    "optional": false,
+                    "count": 1,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "requiredKeys": null,
+                    "maps": [
+                        {
+                            "id": "6733700029c367a3d40b02af",
+                            "name": "迷宫",
+                            "normalizedName": "the-labyrinth"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "5fc64ea372b0dd78d51159dc",
+                            "name": "邪教徒之刃",
+                            "normalizedName": "cultist-knife",
+                            "shortName": "仪式刀",
+                            "description": "从邪教徒身上获得的战利品：一把构造奇特、刀身刻满了奇怪符号的刀。看样子是用来举行某种仪式的道具，但显然并不只有这一种用途。为了涂覆毒素，邪教徒们煞费苦心地对刀身进行了改造——以防万一，最好别碰刀刃。",
+                            "types": [
+                                "wearable"
+                            ],
+                            "width": 2,
+                            "height": 1,
+                            "iconLink": "https://assets.tarkov.dev/5fc64ea372b0dd78d51159dc-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cultist_knife"
+                        }
+                    ],
+                    "zones": [
+                        {
+                            "id": "event_labyrinth_11_lightkeep_place_01",
+                            "position": {
+                                "x": -23.2,
+                                "y": 1,
+                                "z": 19
+                            },
+                            "outline": [
+                                {
+                                    "x": -24.7,
+                                    "y": 1,
+                                    "z": 17.5
+                                },
+                                {
+                                    "x": -21.7,
+                                    "y": 1,
+                                    "z": 17.5
+                                },
+                                {
+                                    "x": -21.7,
+                                    "y": 1,
+                                    "z": 20.5
+                                },
+                                {
+                                    "x": -24.7,
+                                    "y": 1,
+                                    "z": 20.5
+                                }
+                            ],
+                            "top": 2.5,
+                            "bottom": -0.5,
+                            "map": {
+                                "id": "6733700029c367a3d40b02af"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "67a0e4e399e34c9ffcdc6e00",
+                    "type": "plantItem",
+                    "description": "在迷宫的第二个特殊位置藏匿邪教徒的刀",
+                    "optional": false,
+                    "count": 1,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "requiredKeys": null,
+                    "maps": [
+                        {
+                            "id": "6733700029c367a3d40b02af",
+                            "name": "迷宫",
+                            "normalizedName": "the-labyrinth"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "5fc64ea372b0dd78d51159dc",
+                            "name": "邪教徒之刃",
+                            "normalizedName": "cultist-knife",
+                            "shortName": "仪式刀",
+                            "description": "从邪教徒身上获得的战利品：一把构造奇特、刀身刻满了奇怪符号的刀。看样子是用来举行某种仪式的道具，但显然并不只有这一种用途。为了涂覆毒素，邪教徒们煞费苦心地对刀身进行了改造——以防万一，最好别碰刀刃。",
+                            "types": [
+                                "wearable"
+                            ],
+                            "width": 2,
+                            "height": 1,
+                            "iconLink": "https://assets.tarkov.dev/5fc64ea372b0dd78d51159dc-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cultist_knife"
+                        }
+                    ],
+                    "zones": [
+                        {
+                            "id": "event_labyrinth_11_lightkeep_place_02",
+                            "position": {
+                                "x": 15.6,
+                                "y": 1,
+                                "z": 19
+                            },
+                            "outline": [
+                                {
+                                    "x": 14.1,
+                                    "y": 1,
+                                    "z": 17.5
+                                },
+                                {
+                                    "x": 17.1,
+                                    "y": 1,
+                                    "z": 17.5
+                                },
+                                {
+                                    "x": 17.1,
+                                    "y": 1,
+                                    "z": 20.5
+                                },
+                                {
+                                    "x": 14.1,
+                                    "y": 1,
+                                    "z": 20.5
+                                }
+                            ],
+                            "top": 2.5,
+                            "bottom": -0.5,
+                            "map": {
+                                "id": "6733700029c367a3d40b02af"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "67a0e4e64cb065811d95c6d9",
+                    "type": "plantItem",
+                    "description": "在迷宫的第三个特殊位置藏匿邪教徒的刀",
+                    "optional": false,
+                    "count": 1,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "maps": [
+                        {
+                            "id": "6733700029c367a3d40b02af",
+                            "name": "迷宫",
+                            "normalizedName": "the-labyrinth"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "id": "5fc64ea372b0dd78d51159dc",
+                            "name": "邪教徒之刃",
+                            "normalizedName": "cultist-knife",
+                            "shortName": "仪式刀",
+                            "description": "从邪教徒身上获得的战利品：一把构造奇特、刀身刻满了奇怪符号的刀。看样子是用来举行某种仪式的道具，但显然并不只有这一种用途。为了涂覆毒素，邪教徒们煞费苦心地对刀身进行了改造——以防万一，最好别碰刀刃。",
+                            "types": [
+                                "wearable"
+                            ],
+                            "width": 2,
+                            "height": 1,
+                            "iconLink": "https://assets.tarkov.dev/5fc64ea372b0dd78d51159dc-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cultist_knife"
+                        }
+                    ],
+                    "zones": [
+                        {
+                            "id": "event_labyrinth_11_lightkeep_place_03 ",
+                            "position": {
+                                "x": 9.2,
+                                "y": 1,
+                                "z": -14.8
+                            },
+                            "outline": [
+                                {
+                                    "x": 7.7,
+                                    "y": 1,
+                                    "z": -16.3
+                                },
+                                {
+                                    "x": 10.7,
+                                    "y": 1,
+                                    "z": -16.3
+                                },
+                                {
+                                    "x": 10.7,
+                                    "y": 1,
+                                    "z": -13.3
+                                },
+                                {
+                                    "x": 7.7,
+                                    "y": 1,
+                                    "z": -13.3
+                                }
+                            ],
+                            "top": 2.5,
+                            "bottom": -0.5,
+                            "map": {
+                                "id": "6733700029c367a3d40b02af"
+                            }
+                        }
+                    ],
+                    "requiredKeys": [
+                        [
+                            {
+                                "id": "679bab714e9ca6b3d80586b4",
+                                "name": "停尸房钥匙",
+                                "normalizedName": "corpse-room-key",
+                                "shortName": "停尸房",
+                                "width": 1,
+                                "height": 1,
+                                "types": [
+                                    "keys",
+                                    "noFlea"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/679bab714e9ca6b3d80586b4-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Corpse_room_key"
+                            }
+                        ]
+                    ]
+                }
+            ]
         },
         {
             "id": "639135e0fa894f0a866afde6",
@@ -290293,6 +290852,222 @@
             }
         },
         {
+            "id": "68ee1c18b4e5bc9a68018cd7",
+            "tarkovDataId": null,
+            "name": "不容置问",
+            "normalizedName": "no-questions-asked",
+            "map": null,
+            "experience": 11200,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/No_Questions_Asked",
+            "minPlayerLevel": 21,
+            "traderRequirements": [],
+            "restartable": false,
+            "failConditions": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+            "trader": {
+                "id": "54cb50c76803fa8b248b4571",
+                "name": "Prapor",
+                "normalizedName": "prapor",
+                "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+            },
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "68ee1cc7e8b13097f525e6f2",
+                    "type": "giveItem",
+                    "description": "上交战局中找到的物品：Red Rebel 冰镐",
+                    "maps": [],
+                    "optional": false,
+                    "count": 1,
+                    "foundInRaid": true,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null,
+                    "items": [
+                        {
+                            "id": "5c0126f40db834002a125382",
+                            "name": "Red Rebel冰镐",
+                            "normalizedName": "red-rebel-ice-pick",
+                            "shortName": "RedRebel",
+                            "description": "完美平衡的冰镐，顶端由一块高硬度金属制成。",
+                            "types": [
+                                "wearable"
+                            ],
+                            "width": 1,
+                            "height": 3,
+                            "iconLink": "https://assets.tarkov.dev/5c0126f40db834002a125382-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Red_Rebel_ice_pick"
+                        }
+                    ]
+                }
+            ],
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "59ca2eb686f77445a80ed049",
+                        "name": "惩罚者 - 6",
+                        "normalizedName": "the-punisher-part-6",
+                        "taskImageLink": "https://assets.tarkov.dev/59ca2eb686f77445a80ed049.webp",
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        }
+                    }
+                }
+            ],
+            "finishRewards": {
+                "traderStanding": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "68ec0c1e4a10ddacb2069398",
+                            "name": "TKPD 9.3x64 carbine Assault",
+                            "normalizedName": "tkpd-93x64-carbine-assault-2",
+                            "shortName": "TKPD Assault",
+                            "width": 4,
+                            "height": 2,
+                            "types": [
+                                "noFlea",
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68ec0c1e4a10ddacb2069398-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TKPD_9.3x64_carbine"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "68ee0103b5db65191e0ec07c",
+                            "name": "9.3x64mm 7N33 弹药包（20发装）",
+                            "normalizedName": "93x64mm-7n33-ammo-pack-20-pcs",
+                            "shortName": "7N33",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "ammoBox",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68ee0103b5db65191e0ec07c-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9.3x64mm_7N33_ammo_pack_(20_pcs)"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "68db9c7557bc51a8c804c14b-54cb50c76803fa8b248b4571-68ec0c1e4a10ddacb2069398",
+                        "level": 4,
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        },
+                        "item": {
+                            "id": "68ec0c1e4a10ddacb2069398",
+                            "name": "TKPD 9.3x64 carbine Assault",
+                            "normalizedName": "tkpd-93x64-carbine-assault-2",
+                            "shortName": "TKPD Assault",
+                            "width": 4,
+                            "height": 2,
+                            "types": [
+                                "noFlea",
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68ec0c1e4a10ddacb2069398-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TKPD_9.3x64_carbine"
+                        }
+                    },
+                    {
+                        "id": "68db9c7557bc51a8c804c14b-54cb50c76803fa8b248b4571-68bac6ca653ee6b1e406d978",
+                        "level": 4,
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        },
+                        "item": {
+                            "id": "68bac6ca653ee6b1e406d978",
+                            "name": "9.3x64毫米 FMJ",
+                            "normalizedName": "93x64mm-fmj",
+                            "shortName": "FMJ",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "ammo",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68bac6ca653ee6b1e406d978-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9.3x64mm_FMJ"
+                        }
+                    },
+                    {
+                        "id": "68db9c7557bc51a8c804c14b-54cb50c76803fa8b248b4571-68aee9b89df2c1144f0aaa46",
+                        "level": 4,
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        },
+                        "item": {
+                            "id": "68aee9b89df2c1144f0aaa46",
+                            "name": "TKPD 9.3x64 457 毫米枪管",
+                            "normalizedName": "tkpd-93x64-457mm-barrel",
+                            "shortName": "TKPD 457mm",
+                            "width": 3,
+                            "height": 1,
+                            "types": [
+                                "mods"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68aee9b89df2c1144f0aaa46-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TKPD_9.3x64_457mm_barrel"
+                        }
+                    }
+                ]
+            }
+        },
+        {
             "id": "5edac020218d181e29451446",
             "tarkovDataId": 188,
             "name": "样品",
@@ -322089,7 +322864,7 @@
                     "notWearing": [],
                     "distance": {
                         "compareMethod": ">=",
-                        "value": 75
+                        "value": 40
                     },
                     "playerHealthEffect": null,
                     "enemyHealthEffect": null,
@@ -332723,6 +333498,217 @@
             ]
         },
         {
+            "id": "68db9c7557bc51a8c804c14b",
+            "tarkovDataId": null,
+            "name": "目标与手段",
+            "normalizedName": "goals-and-means",
+            "map": null,
+            "experience": 12500,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Goals_and_Means",
+            "minPlayerLevel": 33,
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveShoot",
+                    "id": "68db9ea0e6c69908254eceee",
+                    "type": "shoot",
+                    "description": "使用 9x39 毫米口径的武器在 50 米开外消灭 PMC",
+                    "maps": [],
+                    "optional": false,
+                    "targetNames": [
+                        "任何PMC干员"
+                    ],
+                    "count": 20,
+                    "shotType": "kill",
+                    "zoneNames": [],
+                    "bodyParts": [],
+                    "timeFromHour": null,
+                    "timeUntilHour": null,
+                    "usingWeapon": [],
+                    "usingWeaponMods": [],
+                    "wearing": [],
+                    "notWearing": [],
+                    "distance": {
+                        "compareMethod": ">=",
+                        "value": 50
+                    },
+                    "playerHealthEffect": null,
+                    "enemyHealthEffect": null,
+                    "zones": []
+                }
+            ],
+            "failConditions": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+            "trader": {
+                "id": "5a7c2eca46aef81a7ca2145d",
+                "name": "Mechanic",
+                "normalizedName": "mechanic",
+                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+            },
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "5ae3280386f7742a41359364",
+                        "name": "枪匠 - 15",
+                        "normalizedName": "gunsmith-part-15",
+                        "taskImageLink": "https://assets.tarkov.dev/5ae3280386f7742a41359364.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
+                },
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "625d700cc48e6c62a440fab5",
+                        "name": "邂逅",
+                        "normalizedName": "getting-acquainted",
+                        "taskImageLink": "https://assets.tarkov.dev/625d700cc48e6c62a440fab5.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
+                }
+            ],
+            "finishRewards": {
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.02,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "68d502e016a16a91e200bbbc",
+                            "name": "AS VAL MOD.4 9x39 special assault rifle Default",
+                            "normalizedName": "as-val-mod4-9x39-special-assault-rifle-default",
+                            "shortName": "AS VAL MOD.4 Default",
+                            "width": 4,
+                            "height": 2,
+                            "types": [
+                                "noFlea",
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68d502e016a16a91e200bbbc-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AS_VAL_MOD.4_9x39_special_assault_rifle"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 3,
+                        "quantity": 3,
+                        "item": {
+                            "id": "65118f531b90b4fc77015083",
+                            "name": "VSS/VAL 9x39 30发弹匣",
+                            "normalizedName": "vssval-9x39-30-round-magazine",
+                            "shortName": "VSS/VAL",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "mods"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/65118f531b90b4fc77015083-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VSS/VAL_9x39_30-round_magazine"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 6,
+                        "quantity": 6,
+                        "item": {
+                            "id": "657025cfbfc87b3a34093253",
+                            "name": "9x39mm PAB-9 弹药包（20发装）",
+                            "normalizedName": "9x39mm-pab-9-gs-ammo-pack-20-pcs",
+                            "shortName": "PAB-9",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "ammoBox",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/657025cfbfc87b3a34093253-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9x39mm_PAB-9_gs_ammo_pack_(20_pcs)"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "68db9c7557bc51a8c804c14b-5a7c2eca46aef81a7ca2145d-68d502e016a16a91e200bbbc",
+                        "level": 4,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        },
+                        "item": {
+                            "id": "68d502e016a16a91e200bbbc",
+                            "name": "AS VAL MOD.4 9x39 special assault rifle Default",
+                            "normalizedName": "as-val-mod4-9x39-special-assault-rifle-default",
+                            "shortName": "AS VAL MOD.4 Default",
+                            "width": 4,
+                            "height": 2,
+                            "types": [
+                                "noFlea",
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68d502e016a16a91e200bbbc-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AS_VAL_MOD.4_9x39_special_assault_rifle"
+                        }
+                    }
+                ]
+            }
+        },
+        {
             "id": "626bd75d5bef5d7d590bd415",
             "tarkovDataId": 246,
             "name": "头号机密",
@@ -341653,7 +342639,6 @@
             "finishRewards": {
                 "skillLevelReward": [],
                 "customization": [],
-                "craftUnlock": [],
                 "traderUnlock": [],
                 "achievement": [],
                 "traderStanding": [
@@ -341773,6 +342758,39 @@
                             "iconLink": "https://assets.tarkov.dev/60926df0132d4d12c81fd9df-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SilencerCo_Saker_ASR_556_5.56x45_sound_suppressor"
                         }
+                    }
+                ],
+                "craftUnlock": [
+                    {
+                        "id": "63a2327c151bfb591645c104",
+                        "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 1,
+                                "quantity": 1,
+                                "item": {
+                                    "id": "5a1eaa87fcdbcb001865f75e",
+                                    "name": "Trijicon REAP-IR热成像步枪瞄准镜",
+                                    "normalizedName": "trijicon-reap-ir-thermal-scope",
+                                    "shortName": "REAP-IR",
+                                    "width": 2,
+                                    "height": 1,
+                                    "types": [
+                                        "mods",
+                                        "noFlea"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/5a1eaa87fcdbcb001865f75e-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Trijicon_REAP-IR_thermal_scope"
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -350901,23 +351919,6 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "59674cd986f7744ab26e32f2",
-                        "name": "硝烟野餐",
-                        "normalizedName": "shootout-picnic",
-                        "taskImageLink": "https://assets.tarkov.dev/59674cd986f7744ab26e32f2.webp",
-                        "trader": {
-                            "id": "54cb50c76803fa8b248b4571",
-                            "name": "Prapor",
-                            "normalizedName": "prapor",
-                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
-                        }
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
                         "id": "5fd9fad9c1ce6b1a3b486d00",
                         "name": "搜索任务",
                         "normalizedName": "search-mission",
@@ -350944,23 +351945,6 @@
                             "name": "Prapor",
                             "normalizedName": "prapor",
                             "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
-                        }
-                    }
-                },
-                {
-                    "status": [
-                        "complete"
-                    ],
-                    "task": {
-                        "id": "5968eb3186f7741dde183a4d",
-                        "name": "水瓶座行动 - 2",
-                        "normalizedName": "operation-aquarius-part-2",
-                        "taskImageLink": "https://assets.tarkov.dev/5968eb3186f7741dde183a4d.webp",
-                        "trader": {
-                            "id": "54cb57776803fa99248b456e",
-                            "name": "Therapist",
-                            "normalizedName": "therapist",
-                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
                         }
                     }
                 },

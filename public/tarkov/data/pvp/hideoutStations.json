@@ -16324,7 +16324,6 @@
                 {
                     "id": "5dceb6964a98801ba2075d27",
                     "level": 3,
-                    "taskUnlock": null,
                     "duration": 8256,
                     "requiredQuestItems": [],
                     "station": {
@@ -16332,6 +16331,18 @@
                         "name": "工作台",
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                    },
+                    "taskUnlock": {
+                        "id": "5a27bc8586f7741b543d8ea4",
+                        "name": "湿活 - 6",
+                        "normalizedName": "wet-job-part-6",
+                        "taskImageLink": "https://assets.tarkov.dev/5a27bc8586f7741b543d8ea4.webp",
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        }
                     },
                     "requiredItems": [
                         {
@@ -16842,7 +16853,6 @@
                 {
                     "id": "5e66408286f7747b2c2d7786",
                     "level": 2,
-                    "taskUnlock": null,
                     "duration": 6000,
                     "requiredQuestItems": [],
                     "station": {
@@ -16850,6 +16860,18 @@
                         "name": "工作台",
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                    },
+                    "taskUnlock": {
+                        "id": "5c0d190cd09282029f5390d8",
+                        "name": "掷弹兵",
+                        "normalizedName": "grenadier",
+                        "taskImageLink": "https://assets.tarkov.dev/5c0d190cd09282029f5390d8.webp",
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        }
                     },
                     "requiredItems": [
                         {
