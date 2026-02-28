@@ -344010,12 +344010,12 @@
                 ],
                 "offerUnlock": [
                     {
-                        "id": "6942b44f891369fc790e385a-5a7c2eca46aef81a7ca2145d-69413241b1ce1e5fbb09ed0a",
+                        "id": "6942b44f891369fc790e385a-5935c25fb3acc3127c3d8cd9-69413241b1ce1e5fbb09ed0a",
                         "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
                         },
                         "level": 4,
                         "item": {
