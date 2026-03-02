@@ -121636,7 +121636,7 @@
                             "id": "55d35ee94bdc2d61338b4568",
                             "name": "10.3 英寸 AR-15 枪管 5.56x45",
                             "normalizedName": "ar-15-556x45-103-inch-barrel",
-                            "shortName": "260毫米AR-15 5.56x45",
+                            "shortName": "AR-15 10.3\"",
                             "description": "适用于 AR-15 枪族的 10.3 英寸 (260 毫米) 枪管，5.56x45 北约步枪弹口径。与 M4 CQBR 制式枪管通用。",
                             "types": [
                                 "mods"
@@ -121650,7 +121650,7 @@
                             "id": "55d3632e4bdc2d972f8b4569",
                             "name": "14.5 英寸 AR-15 枪管 5.56x45",
                             "normalizedName": "ar-15-556x45-145-inch-barrel",
-                            "shortName": "370毫米AR-15 5.56x45",
+                            "shortName": "AR-15 14.5\"",
                             "description": "适用于 AR-15 枪族的 14.5 英寸 (370 毫米) 枪管，5.56x45 北约步枪弹口径。与 M4A1 制式枪管通用。",
                             "types": [
                                 "mods"
@@ -128222,9 +128222,9 @@
                         },
                         {
                             "id": "5df8e4080b92095fd441e594",
-                            "name": "KAC 7.62x51 SR-25步枪上机匣",
+                            "name": "SR-25 7.62x51 上机匣",
                             "normalizedName": "sr-25-762x51-upper-receiver",
-                            "shortName": "SR-25上机匣",
+                            "shortName": "SR-25",
                             "description": "Knight's Armament公司量产的SR-25步枪上机匣。",
                             "types": [
                                 "mods"
@@ -169097,7 +169097,7 @@
                             "id": "55d35ee94bdc2d61338b4568",
                             "name": "10.3 英寸 AR-15 枪管 5.56x45",
                             "normalizedName": "ar-15-556x45-103-inch-barrel",
-                            "shortName": "260毫米AR-15 5.56x45",
+                            "shortName": "AR-15 10.3\"",
                             "description": "适用于 AR-15 枪族的 10.3 英寸 (260 毫米) 枪管，5.56x45 北约步枪弹口径。与 M4 CQBR 制式枪管通用。",
                             "types": [
                                 "mods"
@@ -169111,7 +169111,7 @@
                             "id": "55d3632e4bdc2d972f8b4569",
                             "name": "14.5 英寸 AR-15 枪管 5.56x45",
                             "normalizedName": "ar-15-556x45-145-inch-barrel",
-                            "shortName": "370毫米AR-15 5.56x45",
+                            "shortName": "AR-15 14.5\"",
                             "description": "适用于 AR-15 枪族的 14.5 英寸 (370 毫米) 枪管，5.56x45 北约步枪弹口径。与 M4A1 制式枪管通用。",
                             "types": [
                                 "mods"
@@ -175683,9 +175683,9 @@
                         },
                         {
                             "id": "5df8e4080b92095fd441e594",
-                            "name": "KAC 7.62x51 SR-25步枪上机匣",
+                            "name": "SR-25 7.62x51 上机匣",
                             "normalizedName": "sr-25-762x51-upper-receiver",
-                            "shortName": "SR-25上机匣",
+                            "shortName": "SR-25",
                             "description": "Knight's Armament公司量产的SR-25步枪上机匣。",
                             "types": [
                                 "mods"
@@ -216558,7 +216558,7 @@
                             "id": "55d35ee94bdc2d61338b4568",
                             "name": "10.3 英寸 AR-15 枪管 5.56x45",
                             "normalizedName": "ar-15-556x45-103-inch-barrel",
-                            "shortName": "260毫米AR-15 5.56x45",
+                            "shortName": "AR-15 10.3\"",
                             "description": "适用于 AR-15 枪族的 10.3 英寸 (260 毫米) 枪管，5.56x45 北约步枪弹口径。与 M4 CQBR 制式枪管通用。",
                             "types": [
                                 "mods"
@@ -216572,7 +216572,7 @@
                             "id": "55d3632e4bdc2d972f8b4569",
                             "name": "14.5 英寸 AR-15 枪管 5.56x45",
                             "normalizedName": "ar-15-556x45-145-inch-barrel",
-                            "shortName": "370毫米AR-15 5.56x45",
+                            "shortName": "AR-15 14.5\"",
                             "description": "适用于 AR-15 枪族的 14.5 英寸 (370 毫米) 枪管，5.56x45 北约步枪弹口径。与 M4A1 制式枪管通用。",
                             "types": [
                                 "mods"
@@ -223144,9 +223144,9 @@
                         },
                         {
                             "id": "5df8e4080b92095fd441e594",
-                            "name": "KAC 7.62x51 SR-25步枪上机匣",
+                            "name": "SR-25 7.62x51 上机匣",
                             "normalizedName": "sr-25-762x51-upper-receiver",
-                            "shortName": "SR-25上机匣",
+                            "shortName": "SR-25",
                             "description": "Knight's Armament公司量产的SR-25步枪上机匣。",
                             "types": [
                                 "mods"
@@ -269755,7 +269755,7 @@
                             "id": "55d35ee94bdc2d61338b4568",
                             "name": "10.3 英寸 AR-15 枪管 5.56x45",
                             "normalizedName": "ar-15-556x45-103-inch-barrel",
-                            "shortName": "260毫米AR-15 5.56x45",
+                            "shortName": "AR-15 10.3\"",
                             "description": "适用于 AR-15 枪族的 10.3 英寸 (260 毫米) 枪管，5.56x45 北约步枪弹口径。与 M4 CQBR 制式枪管通用。",
                             "types": [
                                 "mods"
@@ -269769,7 +269769,7 @@
                             "id": "55d3632e4bdc2d972f8b4569",
                             "name": "14.5 英寸 AR-15 枪管 5.56x45",
                             "normalizedName": "ar-15-556x45-145-inch-barrel",
-                            "shortName": "370毫米AR-15 5.56x45",
+                            "shortName": "AR-15 14.5\"",
                             "description": "适用于 AR-15 枪族的 14.5 英寸 (370 毫米) 枪管，5.56x45 北约步枪弹口径。与 M4A1 制式枪管通用。",
                             "types": [
                                 "mods"
@@ -276341,9 +276341,9 @@
                         },
                         {
                             "id": "5df8e4080b92095fd441e594",
-                            "name": "KAC 7.62x51 SR-25步枪上机匣",
+                            "name": "SR-25 7.62x51 上机匣",
                             "normalizedName": "sr-25-762x51-upper-receiver",
-                            "shortName": "SR-25上机匣",
+                            "shortName": "SR-25",
                             "description": "Knight's Armament公司量产的SR-25步枪上机匣。",
                             "types": [
                                 "mods"
@@ -341064,7 +341064,7 @@
                         [
                             {
                                 "id": "69413241b1ce1e5fbb09ed0a",
-                                "name": "CENS ProFlex DX5 tactical earplug",
+                                "name": "CENS ProFlex DX5 战术耳塞",
                                 "normalizedName": "cens-proflex-dx5-tactical-earplug",
                                 "shortName": "ProFlex",
                                 "width": 1,
@@ -341176,7 +341176,7 @@
                         [
                             {
                                 "id": "693bb59250fafa102607aeb7",
-                                "name": "OPSMEN Earmor M32 headset (White)",
+                                "name": "Opsmen Earmor M32 耳机（白色）",
                                 "normalizedName": "opsmen-earmor-m32-headset-white",
                                 "shortName": "M32",
                                 "width": 2,
@@ -341870,7 +341870,7 @@
                         },
                         {
                             "id": "693be8f650fafa102607aed4",
-                            "name": "HighCom Striker ULACH IIIA helmet (Winter Mesh Spray)",
+                            "name": "HighCom Striker ULACH IIIA 头盔（冬季网格喷漆）",
                             "normalizedName": "highcom-striker-ulach-iiia-helmet-winter-mesh-spray",
                             "shortName": "ULACH",
                             "width": 2,
@@ -341884,9 +341884,9 @@
                         },
                         {
                             "id": "693be003582cc8870b090b41",
-                            "name": "Galvion Caiman Hybrid helmet (MultiCam Alpine)",
+                            "name": "Galvion 凯门鳄 复合防弹头盔（高原复合迷彩）",
                             "normalizedName": "galvion-caiman-hybrid-helmet-multicam-alpine",
-                            "shortName": "Caiman",
+                            "shortName": "凯门鳄",
                             "width": 2,
                             "height": 2,
                             "types": [
@@ -342722,7 +342722,7 @@
                         },
                         {
                             "id": "69412e5573dcf473e50be464",
-                            "name": "ANA Tactical M2 plate carrier (MultiCam Alpine)",
+                            "name": "ANA Tactical M2 插板胸挂（高原复合迷彩）",
                             "normalizedName": "ana-tactical-m2-plate-carrier-multicam-alpine",
                             "shortName": "ANA M2",
                             "width": 4,
@@ -342737,7 +342737,7 @@
                         },
                         {
                             "id": "693fd13aa490096a05028cc8",
-                            "name": "Tac-Kek JayPC plate carrier (OD Green)",
+                            "name": "Tac-Kek JayPC 插板胸挂（橄榄绿）",
                             "normalizedName": "tac-kek-jaypc-plate-carrier-od-green",
                             "shortName": "JayPC",
                             "width": 3,
@@ -342751,7 +342751,7 @@
                         },
                         {
                             "id": "693fd1200ec97e98040bd3f9",
-                            "name": "Tac-Kek JayPC plate carrier (Black)",
+                            "name": "Tac-Kek JayPC 插板胸挂（黑色）",
                             "normalizedName": "tac-kek-jaypc-plate-carrier-black",
                             "shortName": "JayPC",
                             "width": 3,
@@ -342765,7 +342765,7 @@
                         },
                         {
                             "id": "693fd0e9deee848f70054999",
-                            "name": "Crye Precision JPC Plate Carrier (MultiCam)",
+                            "name": "Crye Precision JPC 插板胸挂（复合迷彩）",
                             "normalizedName": "crye-precision-jpc-plate-carrier-multicam",
                             "shortName": "JPC",
                             "width": 3,
@@ -343328,9 +343328,9 @@
                         },
                         {
                             "id": "6936ff8734029a096c06f95a",
-                            "name": "Atomic Defense CQCM ballistic mask (Blasted Ice)",
+                            "name": "Atomic Defense CQCM 防弹面罩（冰爆）",
                             "normalizedName": "atomic-defense-cqcm-ballistic-mask-blasted-ice",
-                            "shortName": "Blasted Ice",
+                            "shortName": "冰爆",
                             "width": 2,
                             "height": 2,
                             "types": [
@@ -343342,7 +343342,7 @@
                         },
                         {
                             "id": "68d54d0525ac8590a8075ac3",
-                            "name": "Atomic Defense CQCM 防弹面具（路易屁登）",
+                            "name": "Atomic Defense CQCM 防弹面具（路易伪登）",
                             "normalizedName": "atomic-defense-cqcm-ballistic-mask-loui-peeton-1",
                             "shortName": "LP",
                             "width": 2,
@@ -343931,7 +343931,7 @@
                         },
                         {
                             "id": "693bb59250fafa102607aeb7",
-                            "name": "OPSMEN Earmor M32 headset (White)",
+                            "name": "Opsmen Earmor M32 耳机（白色）",
                             "normalizedName": "opsmen-earmor-m32-headset-white",
                             "shortName": "M32",
                             "width": 2,
@@ -343946,7 +343946,7 @@
                         },
                         {
                             "id": "69413241b1ce1e5fbb09ed0a",
-                            "name": "CENS ProFlex DX5 tactical earplug",
+                            "name": "CENS ProFlex DX5 战术耳塞",
                             "normalizedName": "cens-proflex-dx5-tactical-earplug",
                             "shortName": "ProFlex",
                             "width": 1,
@@ -344020,7 +344020,7 @@
                         "level": 4,
                         "item": {
                             "id": "69413241b1ce1e5fbb09ed0a",
-                            "name": "CENS ProFlex DX5 tactical earplug",
+                            "name": "CENS ProFlex DX5 战术耳塞",
                             "normalizedName": "cens-proflex-dx5-tactical-earplug",
                             "shortName": "ProFlex",
                             "width": 1,
@@ -355720,10 +355720,10 @@
                     "items": [
                         {
                             "id": "69398e94ca94fd2877039504",
-                            "name": "Nut Sack balaclava",
+                            "name": "Nut Sack 巴拉克拉瓦头套",
                             "normalizedName": "nut-sack-balaclava",
                             "shortName": "Nut Sack",
-                            "description": "This balaclava seems to have a strange smell. Its previous owner apparently wore it without ever taking it off.",
+                            "description": "这个巴拉克拉瓦头套一股怪味，就像是前主人一直套着它从不脱下来一样。",
                             "types": [
                                 "wearable"
                             ],
@@ -355751,10 +355751,10 @@
                     "items": [
                         {
                             "id": "6937edb912d456a817083e82",
-                            "name": "Mazoni golden dumbbell",
+                            "name": "Mazoni 金色哑铃",
                             "normalizedName": "mazoni-golden-dumbbell",
                             "shortName": "Mazoni",
-                            "description": "A dumbbell from the limited \"Man-Machine\" series by the renowned sports equipment manufacturer. They say this series was inspired by a famous athlete from Kazakhstan.",
+                            "description": "知名运动器材制造商推出的限量版“健身工厂”系列哑铃，据说这个系列的器材是在某位哈萨克斯坦运动员启发之下而设计的。",
                             "types": [
                                 "barter"
                             ],
@@ -355782,10 +355782,10 @@
                     "items": [
                         {
                             "id": "6937ecf8628ee476240c07cb",
-                            "name": "Tigzresq splint",
+                            "name": "Tigzresq 夹板",
                             "normalizedName": "tigzresq-splint",
                             "shortName": "Tigzresq",
-                            "description": "Sometimes nothing is more important than having a fracture splint within easy reach. The founder of Tigzresq knows this firsthand.",
+                            "description": "紧急情况下，没有任何东西能比随手可得的骨折夹板更能解燃眉之急，Tigzresq 的创始人 Tigz 对此有着切身体验。",
                             "types": [
                                 "meds",
                                 "provisions"
@@ -355814,10 +355814,10 @@
                     "items": [
                         {
                             "id": "6937f02dfd6488bb27024839",
-                            "name": "Domontovich ushanka hat",
+                            "name": "Domontovich 毛帽",
                             "normalizedName": "domontovich-ushanka-hat",
-                            "shortName": "Domontovich",
-                            "description": "A ushanka with an emblem occasionally spotted on the streets of Tarkov. Domontovich used to take part in the urban battles himself — until he disappeared. Some say Lightkeeper had something to do with it.",
+                            "shortName": "Domont",
+                            "description": "毛帽上的图案偶尔会出现在塔科夫街头。在 Domontovich 人间蒸发前，他也曾亲自投身城市里的战斗——直到有一天他消失得无影无踪。有人说这背后是 Lightkeeper 在操纵一切。",
                             "types": [
                                 "wearable"
                             ],

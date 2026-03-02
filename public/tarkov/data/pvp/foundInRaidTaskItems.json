@@ -1436,7 +1436,7 @@
     },
     {
         "id": "69398e94ca94fd2877039504",
-        "name": "Nut Sack balaclava",
+        "name": "Nut Sack 巴拉克拉瓦头套",
         "normalizedName": "nut-sack-balaclava",
         "types": [
             "wearable"
@@ -1457,7 +1457,7 @@
     },
     {
         "id": "6937ecf8628ee476240c07cb",
-        "name": "Tigzresq splint",
+        "name": "Tigzresq 夹板",
         "normalizedName": "tigzresq-splint",
         "types": [
             "meds",
@@ -1479,7 +1479,7 @@
     },
     {
         "id": "6937f02dfd6488bb27024839",
-        "name": "Domontovich ushanka hat",
+        "name": "Domontovich 毛帽",
         "normalizedName": "domontovich-ushanka-hat",
         "types": [
             "wearable"
