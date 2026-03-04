@@ -290871,7 +290871,7 @@
                     "description": "上交战局中找到的物品：Red Rebel 冰镐",
                     "maps": [],
                     "optional": false,
-                    "count": 1,
+                    "count": 2,
                     "foundInRaid": true,
                     "dogTagLevel": 0,
                     "maxDurability": 100,
@@ -290928,17 +290928,17 @@
                         "count": 1,
                         "quantity": 1,
                         "item": {
-                            "id": "68ec0c1e4a10ddacb2069398",
-                            "name": "TKPD 9.3x64 carbine Assault",
-                            "normalizedName": "tkpd-93x64-carbine-assault-2",
-                            "shortName": "TKPD Assault",
-                            "width": 4,
+                            "id": "707265736574000000000010",
+                            "name": "TKPD 9.3x64 carbine XPS3-2",
+                            "normalizedName": "tkpd-93x64-carbine-xps3-2-2",
+                            "shortName": "TKPD XPS3-2",
+                            "width": 5,
                             "height": 2,
                             "types": [
                                 "noFlea",
                                 "preset"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/68ec0c1e4a10ddacb2069398-icon.webp",
+                            "iconLink": "https://assets.tarkov.dev/707265736574000000000010-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TKPD_9.3x64_carbine"
                         }
                     },
@@ -290964,7 +290964,7 @@
                 ],
                 "offerUnlock": [
                     {
-                        "id": "68db9c7557bc51a8c804c14b-54cb50c76803fa8b248b4571-68ec0c1e4a10ddacb2069398",
+                        "id": "68db9c7557bc51a8c804c14b-54cb50c76803fa8b248b4571-707265736574000000000010",
                         "level": 4,
                         "trader": {
                             "id": "54cb50c76803fa8b248b4571",
@@ -290973,17 +290973,17 @@
                             "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
                         },
                         "item": {
-                            "id": "68ec0c1e4a10ddacb2069398",
-                            "name": "TKPD 9.3x64 carbine Assault",
-                            "normalizedName": "tkpd-93x64-carbine-assault-2",
-                            "shortName": "TKPD Assault",
-                            "width": 4,
+                            "id": "707265736574000000000010",
+                            "name": "TKPD 9.3x64 carbine XPS3-2",
+                            "normalizedName": "tkpd-93x64-carbine-xps3-2-2",
+                            "shortName": "TKPD XPS3-2",
+                            "width": 5,
                             "height": 2,
                             "types": [
                                 "noFlea",
                                 "preset"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/68ec0c1e4a10ddacb2069398-icon.webp",
+                            "iconLink": "https://assets.tarkov.dev/707265736574000000000010-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TKPD_9.3x64_carbine"
                         }
                     },
