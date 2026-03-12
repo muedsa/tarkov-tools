@@ -11301,9 +11301,9 @@
                     "description": "击杀穿着警服的Scav（Reshala的保镖）",
                     "maps": [
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -17581,9 +17581,9 @@
                     "description": "You must not kill Kaban or Kollontay while the task is active",
                     "maps": [
                         {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -58773,7 +58773,7 @@
                 "offerUnlock": [],
                 "craftUnlock": [
                     {
-                        "id": "6671d4fef3bee343f5000703",
+                        "id": "66509e8c9398c9c9e10a31bb",
                         "station": {
                             "id": "5d484fcd654e7668ec2ec322",
                             "name": "医疗站",
@@ -293896,9 +293896,9 @@
                     "description": "",
                     "maps": [
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -339289,44 +339289,9 @@
                     "description": "穿戴任意款式的 Goons 版胸挂找到并消灭除 Goons 与 Partisan 外的任意 Boss",
                     "maps": [
                         {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
-                        },
-                        {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
                         },
                         {
                             "id": "5704e4dad2720bb55b8b4567",
@@ -360241,19 +360206,9 @@
                     "description": "找到并消灭Tagilla",
                     "maps": [
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
-                        },
-                        {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -360286,9 +360241,9 @@
                     "description": "找到并消灭Killa",
                     "maps": [
                         {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -360320,9 +360275,9 @@
                     "description": "找到并消灭Reshala",
                     "maps": [
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -360354,9 +360309,9 @@
                     "description": "找到并消灭Shturman",
                     "maps": [
                         {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -360422,9 +360377,9 @@
                     "description": "找到并消灭Sanitar",
                     "maps": [
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -364181,29 +364136,9 @@
                     "description": "消灭任意 Scav 阵营 Boss 的保镖，但不击杀 Boss 本人",
                     "maps": [
                         {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
                         }
                     ],
                     "optional": false,
@@ -364249,24 +364184,14 @@
                     "description": "",
                     "maps": [
                         {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         },
                         {
                             "id": "5704e3c2d2720bac5b8b4567",
@@ -364282,16 +364207,6 @@
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
                         }
                     ],
                     "optional": false,
