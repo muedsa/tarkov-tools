@@ -303568,6 +303568,7 @@
             "tarkovDataId": null,
             "name": "试驾 - 3",
             "normalizedName": "test-drive-part-3",
+            "map": null,
             "experience": 18000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Test_Drive_-_Part_3",
             "minPlayerLevel": 25,
@@ -303583,11 +303584,6 @@
                 "name": "Prapor",
                 "normalizedName": "prapor",
                 "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
-            },
-            "map": {
-                "id": "5704e4dad2720bb55b8b4567",
-                "name": "灯塔",
-                "normalizedName": "lighthouse"
             },
             "failureOutcome": {
                 "traderStanding": [],
@@ -303746,7 +303742,7 @@
                     "__typename": "TaskObjectiveShoot",
                     "id": "64f5deac39e45b527a7c4235",
                     "type": "shoot",
-                    "description": "在灯塔使用装有Valday PS-320 1/6x瞄准镜与消音器的AK-12击杀PMC行动人员",
+                    "description": "在灯塔、海关或储备站使用装有Valday PS-320 1/6x瞄准镜与消音器的AK-12击杀PMC行动人员",
                     "optional": false,
                     "targetNames": [
                         "任何PMC干员"
@@ -303771,6 +303767,16 @@
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         }
                     ],
                     "usingWeapon": [
@@ -322817,7 +322823,7 @@
                     "__typename": "TaskObjectiveShoot",
                     "id": "5fd8aa3206fb3a6b8154a2c3",
                     "type": "shoot",
-                    "description": "使用装有指定瞄具的M700狙击步枪从75米开外爆头击杀Shturman",
+                    "description": "使用装有指定瞄具的M700狙击步枪从40米开外爆头击杀Shturman",
                     "optional": false,
                     "targetNames": [
                         "Shturman"
