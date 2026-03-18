@@ -6310,12 +6310,6 @@
                     {
                         "id": "655b4f57769de97e1d62d116",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -6336,7 +6330,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_BT_gzh"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -17948,10 +17948,10 @@
                     ],
                     "item": {
                         "id": "5926bb2186f7744b1c6c6e60",
-                        "name": "HK MP5N 9x19 冲锋枪（海军型）",
+                        "name": "HK MP5 9x19 冲锋枪（海军三发点射）",
                         "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst",
                         "shortName": "MP5",
-                        "description": "HK MP5微型冲锋枪的海军3连点版，特点是可在自动3连发后停止射击。作为一款广受好评的微型冲锋枪，起初主要被GSG9和世界各国类似部队使用，后因频繁出现在影视和游戏中而名声大噪。",
+                        "description": "HK MP5 冲锋枪，带有海军型的三发点射结构，切换至点射模式后按下扳机可一次性发射 3 枚子弹。MP5 冲锋枪自上世纪 70 年代开始频繁在全球各地的反恐行动中亮相，因高精度与可靠的性能表现而广受赞誉，后作为德国边防警察第 9 反恐大队 (GSG9) 以及其他知名反恐力量的装备频繁出现在影视作品和电子游戏中而名声大噪。",
                         "types": [
                             "gun",
                             "wearable"
@@ -18054,7 +18054,7 @@
                         "quantity": 2,
                         "item": {
                             "id": "5fce0cf655375d18a253eff0",
-                            "name": "Magpul RVG握把 FDE",
+                            "name": "Magpul RVG 前握把 (FDE)",
                             "normalizedName": "magpul-rvg-foregrip-fde",
                             "shortName": "RVG FDE",
                             "width": 1,
@@ -21580,12 +21580,6 @@
                     {
                         "id": "5e66408286f7747b2c2d7786",
                         "level": 2,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -21606,7 +21600,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VOG-25_Khattabka_improvised_hand_grenade"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -27096,7 +27096,7 @@
                             "id": "5c6d42cb2e2216000e69d7d1",
                             "name": "HK 5.56x45 mag 30 STANAG 30发聚合物弹匣",
                             "normalizedName": "ar-15-556x45-hk-30-stanag-polymer-30-round-magazine",
-                            "shortName": "聚合物弹匣",
+                            "shortName": "HK聚合",
                             "width": 1,
                             "height": 2,
                             "types": [
@@ -48442,12 +48442,6 @@
                     {
                         "id": "655b457c9db22d43ab42b706",
                         "level": 2,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -48468,7 +48462,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Blackout_M62_Tracer"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -50207,12 +50207,6 @@
                     {
                         "id": "5dceb6964a98801ba2075d27",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -50233,7 +50227,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80A1"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -58763,12 +58763,6 @@
                     {
                         "id": "66509e8c9398c9c9e10a31bb",
                         "level": 2,
-                        "station": {
-                            "id": "5d484fcd654e7668ec2ec322",
-                            "name": "医疗站",
-                            "normalizedName": "medstation",
-                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -58790,7 +58784,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/2A2-(b-TG)_stimulant_injector"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fcd654e7668ec2ec322",
+                            "name": "医疗站",
+                            "normalizedName": "medstation",
+                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
+                        }
                     }
                 ]
             }
@@ -72321,12 +72321,6 @@
                     {
                         "id": "5dde60e0e2c8f57eb6465327",
                         "level": 2,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -72347,7 +72341,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9x39mm_PAB-9_gs"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -76449,12 +76449,6 @@
                     {
                         "id": "5d5c1f25d582a5479d4ec458",
                         "level": 2,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -76475,7 +76469,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_PP_gs"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -95237,10 +95237,10 @@
                         },
                         {
                             "id": "635267f063651329f75a4ee8",
-                            "name": "26x75燃烧照明信号弹（酸性绿）",
+                            "name": "26x75 毫米照明信号弹（酸绿）",
                             "normalizedName": "26x75mm-flare-cartridge-acid-green",
                             "shortName": "酸绿",
-                            "description": "SP-81信号枪所使用的26x75毫米酸性绿信号弹。这种少见的色彩仅在特殊情况使用，代表“请求友军支援”。在遇到不善的Scav和Boss时或许能救你一命。",
+                            "description": "SP-81 信号枪专用的 26x75 毫米“酸绿”信号弹。其不同寻常的颜色表明这种信号弹是为了向周围“友军”传递特殊信号而打造的。遭遇凶悍的 Scav 或者 Boss 的时候，把它发射到天上也许能救你一命。",
                             "types": [
                                 "ammo",
                                 "noFlea"
@@ -96272,7 +96272,7 @@
                         },
                         {
                             "id": "59e4cf5286f7741778269d8a",
-                            "name": "7.62x39毫米 T45M",
+                            "name": "7.62x39毫米 T45M1",
                             "normalizedName": "762x39mm-t-45m1-gzh",
                             "shortName": "T45M",
                             "description": "7.62x39毫米T45M（GRAU编号— 57-T-231PM1）是带有T-45M弹头的曳光弹。",
@@ -96422,7 +96422,7 @@
                         },
                         {
                             "id": "5efb0c1bd79ff02a1f5e68d9",
-                            "name": "7.62x51 毫米 M993",
+                            "name": "7.62x51毫米 M993",
                             "normalizedName": "762x51mm-m993",
                             "shortName": "M993",
                             "description": "7.62×51 毫米 M993 弹药，穿甲弹头重 8.2 克，结构为铝制基底上的碳化钨弹芯，外覆铜制被甲，采用黄铜弹壳装填。该弹药设计于上世纪 90 年代，旨在提升美军单兵装备的穿甲能力，让步兵班组能够穿透敌方轻型掩体和轻型装甲车辆，同时对身着最先进专业级别护甲的人类敌人也有强大的杀伤作用。",
@@ -96500,7 +96500,7 @@
                             "name": "7.62x54毫米 R HP BT",
                             "normalizedName": "762x54mm-r-hp-bt",
                             "shortName": "HP BT",
-                            "description": "HPBT（空尖艇尾弹）具有流线型/锥形的尾部设计。",
+                            "description": "HPBT 即空尖艇尾弹，代表弹头部分具备空尖扩张设计以提升杀伤力；弹尾具备流线修型以提升弹道稳定性，相较平底子弹存能更好，有助于改善精度表现。",
                             "types": [
                                 "ammo",
                                 "noFlea"
@@ -96530,7 +96530,7 @@
                             "name": "7.62x54毫米 R SP BT",
                             "normalizedName": "762x54mm-r-sp-bt",
                             "shortName": "SP BT",
-                            "description": "软尖艇尾弹，适用于诸如狩猎鹿、大型猪等需要强大停止力的场景。",
+                            "description": "弹头重 180 格令的软尖艇尾弹，为猎杀鹿、野猪等其他大型猎物需要强大停止力的场景而打造的专用狩猎弹。",
                             "types": [
                                 "ammo",
                                 "noFlea"
@@ -96545,7 +96545,7 @@
                             "name": "7.62x54R T-46M",
                             "normalizedName": "762x54mm-r-t-46m-gzh",
                             "shortName": "T46M",
-                            "description": "带有曳光弹头的7.62x54R T-46M步枪弹药。",
+                            "description": "7.62x54R T-46M (GRAU 编号：7T2M) 弹药配备外覆双金属被甲的铅芯曳光弹头，采用钢覆铜弹壳装填，弹头总重 9.6 克。T-46M 主要设计用于指示目标与修正火力，飞行轨迹带有标志性绿色曳光。该款弹药是前代 T-46 型的升级版本，曳光剂燃烧距离更长，同时具备与 LPS 普通弹相近的弹道特性。尽管弹头部分的设计相对原始，但作为一款全威力步枪弹，T46M 仍能轻松穿透中低级护甲，命中目标后的停止作用也相当可观。不过在各类表面发生跳弹的概率也相对较高。",
                             "types": [
                                 "ammo",
                                 "noFlea"
@@ -96574,8 +96574,8 @@
                             "id": "5887431f2459777e1612938f",
                             "name": "7.62x54R LPS Gzh",
                             "normalizedName": "762x54mm-r-lps-gzh",
-                            "shortName": "LPS Gzh",
-                            "description": "（型号 GRAU - 57-N-323S）是一种带有含钢芯的轻型双金属LPS弹头的子弹。",
+                            "shortName": "LPS",
+                            "description": "7.62x54R LPS 弹药 (GAU 编号：57-N-323S) 弹头总重 9.6 克，钢制弹芯外覆铅涂层与钢覆铜被甲，采用双金属弹壳装填。LPS (即俄语“轻质钢芯弹”的缩写) 于 1953 年正式服役，材料与工艺在此后多年的生产期间曾历经多次变动。构造中的钢芯穿甲体设计使其能够轻松穿透中低级护甲，同时具备相当可观的停止作用。但在各类表面发生跳弹的概率也相对较高。",
                             "types": [
                                 "ammo",
                                 "noFlea"
@@ -98376,7 +98376,7 @@
                         },
                         {
                             "id": "657025ebc5d7d4cb4d078588",
-                            "name": "5.45x39mm 7N39 针刺 弹药包（120发装）",
+                            "name": "5.45x39mm 7N39“针刺”弹药包（120发装）",
                             "normalizedName": "545x39mm-ppbs-gs-igolnik-ammo-pack-120-pcs",
                             "shortName": "7N39",
                             "description": "一盒用纸包装的120发5.45x39 7N39“针刺”子弹。",
@@ -105771,10 +105771,10 @@
                         },
                         {
                             "id": "5926bb2186f7744b1c6c6e60",
-                            "name": "HK MP5N 9x19 冲锋枪（海军型）",
+                            "name": "HK MP5 9x19 冲锋枪（海军三发点射）",
                             "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst",
                             "shortName": "MP5",
-                            "description": "HK MP5微型冲锋枪的海军3连点版，特点是可在自动3连发后停止射击。作为一款广受好评的微型冲锋枪，起初主要被GSG9和世界各国类似部队使用，后因频繁出现在影视和游戏中而名声大噪。",
+                            "description": "HK MP5 冲锋枪，带有海军型的三发点射结构，切换至点射模式后按下扳机可一次性发射 3 枚子弹。MP5 冲锋枪自上世纪 70 年代开始频繁在全球各地的反恐行动中亮相，因高精度与可靠的性能表现而广受赞誉，后作为德国边防警察第 9 反恐大队 (GSG9) 以及其他知名反恐力量的装备频繁出现在影视作品和电子游戏中而名声大噪。",
                             "types": [
                                 "gun",
                                 "wearable"
@@ -110128,10 +110128,10 @@
                         },
                         {
                             "id": "5fce0cf655375d18a253eff0",
-                            "name": "Magpul RVG握把 FDE",
+                            "name": "Magpul RVG 前握把 (FDE)",
                             "normalizedName": "magpul-rvg-foregrip-fde",
                             "shortName": "RVG FDE",
-                            "description": "Magpul RVG（导轨垂直握把）战术握把。常见、简单、便宜又符合人体工程学的垂直握把。",
+                            "description": "Magpul RVG（导轨垂直握把）战术握把。常见、简单、便宜又符合人体工程学的垂直握把。沙土褐色 (FDE) 版本。",
                             "types": [
                                 "mods"
                             ],
@@ -111626,10 +111626,10 @@
                         },
                         {
                             "id": "5b2240bf5acfc40dc528af69",
-                            "name": "Raptor AR-15拉机柄",
+                            "name": "雷电 Raptor-SD AR-15 拉机柄 (FDE)",
                             "normalizedName": "ar-15-radian-weapons-raptor-charging-handle-fde",
-                            "shortName": "Raptor拉机柄",
-                            "description": "AR-15兼容系统使用的Raptor拉机柄。",
+                            "shortName": "Raptor",
+                            "description": "AR-15 及兼容武器系统使用的 Raptor 拉机柄，由 Radian Weapons 设计制造。沙土褐色 (FDE) 版本。",
                             "types": [
                                 "mods"
                             ],
@@ -112202,7 +112202,7 @@
                         },
                         {
                             "id": "59e5d83b86f7745aed03d262",
-                            "name": "使用的7.62x39的加强筋10发装金属AK兼容弹匣。",
+                            "name": "7.62x39 10发 AK 加强筋金属弹匣",
                             "normalizedName": "ak-762x39-ribbed-metal-10-round-magazine",
                             "shortName": "AK定制",
                             "description": "民用 10 发容量钢制 7.62x39 毫米 AK 弹匣。由军规弹匣锯断再接上原先的弹匣底板制造而成，以此适应俄联邦民用武器相关法规中对于弹匣容量的限制。尽管可装填 .366 TKM 弹药为对应的民用武器供弹，但 .366 TKM 弹药与 7.62x39 枪械不通用，也无法发射。",
@@ -112708,10 +112708,10 @@
                         },
                         {
                             "id": "5b7bef1e5acfc43d82528402",
-                            "name": "FAL/SA-58 7.62x51 10发弹匣",
+                            "name": "SA-58/FAL 7.62x51 10发弹匣",
                             "normalizedName": "sa58fal-762x51-10-round-magazine",
                             "shortName": "SA58/FAL",
-                            "description": "FAL/SA-58的7.62x51 NATO弹10发双排钢制弹匣。",
+                            "description": "适用于 FAL/SA-58 的 10 发容量双排钢制弹匣，7.62x51 毫米北约步枪弹口径。",
                             "types": [
                                 "mods"
                             ],
@@ -112722,10 +112722,10 @@
                         },
                         {
                             "id": "5b099ac65acfc400186331e1",
-                            "name": "7.62x51 20发FAL/SA-58弹匣",
+                            "name": "SA-58/FAL 7.62x51 20发弹匣",
                             "normalizedName": "sa58fal-762x51-20-round-magazine",
                             "shortName": "FAL 20 7.62",
-                            "description": "FAL/SA-58的7.62x51 NATO 20发双排钢制弹匣。",
+                            "description": "适用于 FAL/SA-58 的 20 发容量双排钢制弹匣，7.62x51 毫米北约步枪弹口径。",
                             "types": [
                                 "mods"
                             ],
@@ -112736,10 +112736,10 @@
                         },
                         {
                             "id": "5b7bef5d5acfc43bca7067a3",
-                            "name": "FAL/SA-58 7.62x51 30发弹匣",
+                            "name": "SA-58/FAL 7.62x51 30发弹匣",
                             "normalizedName": "sa58fal-762x51-30-round-magazine",
                             "shortName": "SA58/FAL",
-                            "description": "FAL/SA-58的7.62x51 NATO弹30发双排钢制弹匣。",
+                            "description": "适用于 FAL/SA-58 的 30 发容量双排钢制弹匣，7.62x51 毫米北约步枪弹口径。",
                             "types": [
                                 "mods"
                             ],
@@ -112750,10 +112750,10 @@
                         },
                         {
                             "id": "5b7c2d1d5acfc43d1028532a",
-                            "name": "FAL/SA-58 \"MMW\" 7.62x51 20发塑料弹匣",
+                            "name": "SA-58/FAL 7.62x51 MMW 20发聚合物弹匣",
                             "normalizedName": "sa58fal-762x51-mmw-polymer-20-round-magazine",
                             "shortName": "MMW Fal 7.62",
-                            "description": "FAL/SA-58的7.62x51 NATO弹20发双排塑料弹匣。",
+                            "description": "适用于 FAL/SA-58 的 20 发容量双排塑料弹匣，7.62x51 毫米北约步枪弹口径。由 Moses Machine Works (MMW) 设计制造。",
                             "types": [
                                 "mods"
                             ],
@@ -112764,10 +112764,10 @@
                         },
                         {
                             "id": "5b7d37845acfc400170e2f87",
-                            "name": "SA-58/FAL/SLR 7.62x51 30发弹匣",
+                            "name": "SA-58/FAL/SLR 7.62x51 30发弹匣",
                             "normalizedName": "sa58falslr-762x51-30-round-magazine",
-                            "shortName": "SLR 7.62",
-                            "description": "FAL/SA-58的7.62x51 NATO弹英制原装30发双排钢制弹匣。",
+                            "shortName": "7.62",
+                            "description": "适用于 L1A1 自装填步枪 (SLR) 的 30 发双排钢制弹匣，该款步枪为英军版本的 FN FAL 步枪，弹匣规格通用。",
                             "types": [
                                 "mods"
                             ],
@@ -114124,8 +114124,8 @@
                             "id": "5c6d42cb2e2216000e69d7d1",
                             "name": "HK 5.56x45 mag 30 STANAG 30发聚合物弹匣",
                             "normalizedName": "ar-15-556x45-hk-30-stanag-polymer-30-round-magazine",
-                            "shortName": "聚合物弹匣",
-                            "description": "30发装的HK聚合物弹匣，适用5.56x45弹药。",
+                            "shortName": "HK聚合",
+                            "description": "HK 公司设计制造的聚合物弹匣，容量 30 发，适用于 5.56x45 毫米口径弹药。",
                             "types": [
                                 "mods"
                             ],
@@ -123678,8 +123678,8 @@
                             "id": "5c6d11072e2216000e69d2e4",
                             "name": "HK 416 Midwest Industries 13.5 英寸 M-LOK 护木",
                             "normalizedName": "hk-416-midwest-industries-135-inch-m-lok-handguard",
-                            "shortName": "Midwest M-LOK",
-                            "description": "Midwest生产的416A5 M-LOK护木，配备了用于安装各种附加设备和组件的M-LOK接口。",
+                            "shortName": "416 Midwest 13.5\"",
+                            "description": "Midwest Industries 为 HK 416A5 突击步枪打造的 M-LOK 护木，配备有标准规格的 M-LOK 接口，可加装专用规格的前握把与其他战术设备。",
                             "types": [
                                 "mods"
                             ],
@@ -123692,8 +123692,8 @@
                             "id": "5c6d10fa2e221600106f3f23",
                             "name": "HK 416 Midwest Industries 9 英寸 M-LOK 护木",
                             "normalizedName": "hk-416-midwest-industries-9-inch-m-lok-handguard",
-                            "shortName": "Midwest M-LOK",
-                            "description": "Midwest生产的416A5 M-LOK护木，配备了用于安装各种附加设备和组件的M-LOK接口。",
+                            "shortName": "416 Midwest 9\"",
+                            "description": "Midwest Industries 为 HK 416A5 突击步枪打造的 M-LOK 护木，配备有标准规格的 M-LOK 接口，可加装专用规格的前握把与其他战术设备。",
                             "types": [
                                 "mods"
                             ],
@@ -124127,7 +124127,7 @@
                             "name": "Magpul MOE AKM 护木（哑光灰）",
                             "normalizedName": "ak-magpul-moe-akm-handguard-stealth-grey",
                             "shortName": "MOE AKM",
-                            "description": "Magpul MOE AKM护木可安装在AKM/AK-74兼容武器系统上，配有授权的M-LOK插槽来安装额外的设备或导轨，橄榄绿版本。",
+                            "description": "Magpul MOE AKM护木可安装在AKM/AK-74兼容武器系统上，配有授权的M-LOK插槽来安装额外的设备或导轨，哑光灰版本。",
                             "types": [
                                 "mods"
                             ],
@@ -130264,10 +130264,10 @@
                         },
                         {
                             "id": "5f6372e2865db925d54f3869",
-                            "name": "AR-15 Ferfrans CQB 5.56x45膛口制退器",
+                            "name": "Ferfrans CQB 5.56x45 AR-15 膛口制退器",
                             "normalizedName": "ar-15-ferfrans-cqb-556x45-muzzle-brake",
-                            "shortName": "Ferfrans膛口制退",
-                            "description": "Ferfrans膛口制退器。可与Ferfrans Modular震动抑制器共同安装。",
+                            "shortName": "CQB 556",
+                            "description": "Ferfrans 制造的膛口制退器，可搭配 Ferfrans 模块化后座缓冲装置 (556 CRD) 一同使用，降低体感后座。",
                             "types": [
                                 "mods"
                             ],
@@ -145837,7 +145837,7 @@
                         },
                         {
                             "id": "657025ebc5d7d4cb4d078588",
-                            "name": "5.45x39mm 7N39 针刺 弹药包（120发装）",
+                            "name": "5.45x39mm 7N39“针刺”弹药包（120发装）",
                             "normalizedName": "545x39mm-ppbs-gs-igolnik-ammo-pack-120-pcs",
                             "shortName": "7N39",
                             "description": "一盒用纸包装的120发5.45x39 7N39“针刺”子弹。",
@@ -153232,10 +153232,10 @@
                         },
                         {
                             "id": "5926bb2186f7744b1c6c6e60",
-                            "name": "HK MP5N 9x19 冲锋枪（海军型）",
+                            "name": "HK MP5 9x19 冲锋枪（海军三发点射）",
                             "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst",
                             "shortName": "MP5",
-                            "description": "HK MP5微型冲锋枪的海军3连点版，特点是可在自动3连发后停止射击。作为一款广受好评的微型冲锋枪，起初主要被GSG9和世界各国类似部队使用，后因频繁出现在影视和游戏中而名声大噪。",
+                            "description": "HK MP5 冲锋枪，带有海军型的三发点射结构，切换至点射模式后按下扳机可一次性发射 3 枚子弹。MP5 冲锋枪自上世纪 70 年代开始频繁在全球各地的反恐行动中亮相，因高精度与可靠的性能表现而广受赞誉，后作为德国边防警察第 9 反恐大队 (GSG9) 以及其他知名反恐力量的装备频繁出现在影视作品和电子游戏中而名声大噪。",
                             "types": [
                                 "gun",
                                 "wearable"
@@ -157589,10 +157589,10 @@
                         },
                         {
                             "id": "5fce0cf655375d18a253eff0",
-                            "name": "Magpul RVG握把 FDE",
+                            "name": "Magpul RVG 前握把 (FDE)",
                             "normalizedName": "magpul-rvg-foregrip-fde",
                             "shortName": "RVG FDE",
-                            "description": "Magpul RVG（导轨垂直握把）战术握把。常见、简单、便宜又符合人体工程学的垂直握把。",
+                            "description": "Magpul RVG（导轨垂直握把）战术握把。常见、简单、便宜又符合人体工程学的垂直握把。沙土褐色 (FDE) 版本。",
                             "types": [
                                 "mods"
                             ],
@@ -159087,10 +159087,10 @@
                         },
                         {
                             "id": "5b2240bf5acfc40dc528af69",
-                            "name": "Raptor AR-15拉机柄",
+                            "name": "雷电 Raptor-SD AR-15 拉机柄 (FDE)",
                             "normalizedName": "ar-15-radian-weapons-raptor-charging-handle-fde",
-                            "shortName": "Raptor拉机柄",
-                            "description": "AR-15兼容系统使用的Raptor拉机柄。",
+                            "shortName": "Raptor",
+                            "description": "AR-15 及兼容武器系统使用的 Raptor 拉机柄，由 Radian Weapons 设计制造。沙土褐色 (FDE) 版本。",
                             "types": [
                                 "mods"
                             ],
@@ -159663,7 +159663,7 @@
                         },
                         {
                             "id": "59e5d83b86f7745aed03d262",
-                            "name": "使用的7.62x39的加强筋10发装金属AK兼容弹匣。",
+                            "name": "7.62x39 10发 AK 加强筋金属弹匣",
                             "normalizedName": "ak-762x39-ribbed-metal-10-round-magazine",
                             "shortName": "AK定制",
                             "description": "民用 10 发容量钢制 7.62x39 毫米 AK 弹匣。由军规弹匣锯断再接上原先的弹匣底板制造而成，以此适应俄联邦民用武器相关法规中对于弹匣容量的限制。尽管可装填 .366 TKM 弹药为对应的民用武器供弹，但 .366 TKM 弹药与 7.62x39 枪械不通用，也无法发射。",
@@ -160169,10 +160169,10 @@
                         },
                         {
                             "id": "5b7bef1e5acfc43d82528402",
-                            "name": "FAL/SA-58 7.62x51 10发弹匣",
+                            "name": "SA-58/FAL 7.62x51 10发弹匣",
                             "normalizedName": "sa58fal-762x51-10-round-magazine",
                             "shortName": "SA58/FAL",
-                            "description": "FAL/SA-58的7.62x51 NATO弹10发双排钢制弹匣。",
+                            "description": "适用于 FAL/SA-58 的 10 发容量双排钢制弹匣，7.62x51 毫米北约步枪弹口径。",
                             "types": [
                                 "mods"
                             ],
@@ -160183,10 +160183,10 @@
                         },
                         {
                             "id": "5b099ac65acfc400186331e1",
-                            "name": "7.62x51 20发FAL/SA-58弹匣",
+                            "name": "SA-58/FAL 7.62x51 20发弹匣",
                             "normalizedName": "sa58fal-762x51-20-round-magazine",
                             "shortName": "FAL 20 7.62",
-                            "description": "FAL/SA-58的7.62x51 NATO 20发双排钢制弹匣。",
+                            "description": "适用于 FAL/SA-58 的 20 发容量双排钢制弹匣，7.62x51 毫米北约步枪弹口径。",
                             "types": [
                                 "mods"
                             ],
@@ -160197,10 +160197,10 @@
                         },
                         {
                             "id": "5b7bef5d5acfc43bca7067a3",
-                            "name": "FAL/SA-58 7.62x51 30发弹匣",
+                            "name": "SA-58/FAL 7.62x51 30发弹匣",
                             "normalizedName": "sa58fal-762x51-30-round-magazine",
                             "shortName": "SA58/FAL",
-                            "description": "FAL/SA-58的7.62x51 NATO弹30发双排钢制弹匣。",
+                            "description": "适用于 FAL/SA-58 的 30 发容量双排钢制弹匣，7.62x51 毫米北约步枪弹口径。",
                             "types": [
                                 "mods"
                             ],
@@ -160211,10 +160211,10 @@
                         },
                         {
                             "id": "5b7c2d1d5acfc43d1028532a",
-                            "name": "FAL/SA-58 \"MMW\" 7.62x51 20发塑料弹匣",
+                            "name": "SA-58/FAL 7.62x51 MMW 20发聚合物弹匣",
                             "normalizedName": "sa58fal-762x51-mmw-polymer-20-round-magazine",
                             "shortName": "MMW Fal 7.62",
-                            "description": "FAL/SA-58的7.62x51 NATO弹20发双排塑料弹匣。",
+                            "description": "适用于 FAL/SA-58 的 20 发容量双排塑料弹匣，7.62x51 毫米北约步枪弹口径。由 Moses Machine Works (MMW) 设计制造。",
                             "types": [
                                 "mods"
                             ],
@@ -160225,10 +160225,10 @@
                         },
                         {
                             "id": "5b7d37845acfc400170e2f87",
-                            "name": "SA-58/FAL/SLR 7.62x51 30发弹匣",
+                            "name": "SA-58/FAL/SLR 7.62x51 30发弹匣",
                             "normalizedName": "sa58falslr-762x51-30-round-magazine",
-                            "shortName": "SLR 7.62",
-                            "description": "FAL/SA-58的7.62x51 NATO弹英制原装30发双排钢制弹匣。",
+                            "shortName": "7.62",
+                            "description": "适用于 L1A1 自装填步枪 (SLR) 的 30 发双排钢制弹匣，该款步枪为英军版本的 FN FAL 步枪，弹匣规格通用。",
                             "types": [
                                 "mods"
                             ],
@@ -161585,8 +161585,8 @@
                             "id": "5c6d42cb2e2216000e69d7d1",
                             "name": "HK 5.56x45 mag 30 STANAG 30发聚合物弹匣",
                             "normalizedName": "ar-15-556x45-hk-30-stanag-polymer-30-round-magazine",
-                            "shortName": "聚合物弹匣",
-                            "description": "30发装的HK聚合物弹匣，适用5.56x45弹药。",
+                            "shortName": "HK聚合",
+                            "description": "HK 公司设计制造的聚合物弹匣，容量 30 发，适用于 5.56x45 毫米口径弹药。",
                             "types": [
                                 "mods"
                             ],
@@ -171139,8 +171139,8 @@
                             "id": "5c6d11072e2216000e69d2e4",
                             "name": "HK 416 Midwest Industries 13.5 英寸 M-LOK 护木",
                             "normalizedName": "hk-416-midwest-industries-135-inch-m-lok-handguard",
-                            "shortName": "Midwest M-LOK",
-                            "description": "Midwest生产的416A5 M-LOK护木，配备了用于安装各种附加设备和组件的M-LOK接口。",
+                            "shortName": "416 Midwest 13.5\"",
+                            "description": "Midwest Industries 为 HK 416A5 突击步枪打造的 M-LOK 护木，配备有标准规格的 M-LOK 接口，可加装专用规格的前握把与其他战术设备。",
                             "types": [
                                 "mods"
                             ],
@@ -171153,8 +171153,8 @@
                             "id": "5c6d10fa2e221600106f3f23",
                             "name": "HK 416 Midwest Industries 9 英寸 M-LOK 护木",
                             "normalizedName": "hk-416-midwest-industries-9-inch-m-lok-handguard",
-                            "shortName": "Midwest M-LOK",
-                            "description": "Midwest生产的416A5 M-LOK护木，配备了用于安装各种附加设备和组件的M-LOK接口。",
+                            "shortName": "416 Midwest 9\"",
+                            "description": "Midwest Industries 为 HK 416A5 突击步枪打造的 M-LOK 护木，配备有标准规格的 M-LOK 接口，可加装专用规格的前握把与其他战术设备。",
                             "types": [
                                 "mods"
                             ],
@@ -171588,7 +171588,7 @@
                             "name": "Magpul MOE AKM 护木（哑光灰）",
                             "normalizedName": "ak-magpul-moe-akm-handguard-stealth-grey",
                             "shortName": "MOE AKM",
-                            "description": "Magpul MOE AKM护木可安装在AKM/AK-74兼容武器系统上，配有授权的M-LOK插槽来安装额外的设备或导轨，橄榄绿版本。",
+                            "description": "Magpul MOE AKM护木可安装在AKM/AK-74兼容武器系统上，配有授权的M-LOK插槽来安装额外的设备或导轨，哑光灰版本。",
                             "types": [
                                 "mods"
                             ],
@@ -177725,10 +177725,10 @@
                         },
                         {
                             "id": "5f6372e2865db925d54f3869",
-                            "name": "AR-15 Ferfrans CQB 5.56x45膛口制退器",
+                            "name": "Ferfrans CQB 5.56x45 AR-15 膛口制退器",
                             "normalizedName": "ar-15-ferfrans-cqb-556x45-muzzle-brake",
-                            "shortName": "Ferfrans膛口制退",
-                            "description": "Ferfrans膛口制退器。可与Ferfrans Modular震动抑制器共同安装。",
+                            "shortName": "CQB 556",
+                            "description": "Ferfrans 制造的膛口制退器，可搭配 Ferfrans 模块化后座缓冲装置 (556 CRD) 一同使用，降低体感后座。",
                             "types": [
                                 "mods"
                             ],
@@ -193298,7 +193298,7 @@
                         },
                         {
                             "id": "657025ebc5d7d4cb4d078588",
-                            "name": "5.45x39mm 7N39 针刺 弹药包（120发装）",
+                            "name": "5.45x39mm 7N39“针刺”弹药包（120发装）",
                             "normalizedName": "545x39mm-ppbs-gs-igolnik-ammo-pack-120-pcs",
                             "shortName": "7N39",
                             "description": "一盒用纸包装的120发5.45x39 7N39“针刺”子弹。",
@@ -200693,10 +200693,10 @@
                         },
                         {
                             "id": "5926bb2186f7744b1c6c6e60",
-                            "name": "HK MP5N 9x19 冲锋枪（海军型）",
+                            "name": "HK MP5 9x19 冲锋枪（海军三发点射）",
                             "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst",
                             "shortName": "MP5",
-                            "description": "HK MP5微型冲锋枪的海军3连点版，特点是可在自动3连发后停止射击。作为一款广受好评的微型冲锋枪，起初主要被GSG9和世界各国类似部队使用，后因频繁出现在影视和游戏中而名声大噪。",
+                            "description": "HK MP5 冲锋枪，带有海军型的三发点射结构，切换至点射模式后按下扳机可一次性发射 3 枚子弹。MP5 冲锋枪自上世纪 70 年代开始频繁在全球各地的反恐行动中亮相，因高精度与可靠的性能表现而广受赞誉，后作为德国边防警察第 9 反恐大队 (GSG9) 以及其他知名反恐力量的装备频繁出现在影视作品和电子游戏中而名声大噪。",
                             "types": [
                                 "gun",
                                 "wearable"
@@ -205050,10 +205050,10 @@
                         },
                         {
                             "id": "5fce0cf655375d18a253eff0",
-                            "name": "Magpul RVG握把 FDE",
+                            "name": "Magpul RVG 前握把 (FDE)",
                             "normalizedName": "magpul-rvg-foregrip-fde",
                             "shortName": "RVG FDE",
-                            "description": "Magpul RVG（导轨垂直握把）战术握把。常见、简单、便宜又符合人体工程学的垂直握把。",
+                            "description": "Magpul RVG（导轨垂直握把）战术握把。常见、简单、便宜又符合人体工程学的垂直握把。沙土褐色 (FDE) 版本。",
                             "types": [
                                 "mods"
                             ],
@@ -206548,10 +206548,10 @@
                         },
                         {
                             "id": "5b2240bf5acfc40dc528af69",
-                            "name": "Raptor AR-15拉机柄",
+                            "name": "雷电 Raptor-SD AR-15 拉机柄 (FDE)",
                             "normalizedName": "ar-15-radian-weapons-raptor-charging-handle-fde",
-                            "shortName": "Raptor拉机柄",
-                            "description": "AR-15兼容系统使用的Raptor拉机柄。",
+                            "shortName": "Raptor",
+                            "description": "AR-15 及兼容武器系统使用的 Raptor 拉机柄，由 Radian Weapons 设计制造。沙土褐色 (FDE) 版本。",
                             "types": [
                                 "mods"
                             ],
@@ -207124,7 +207124,7 @@
                         },
                         {
                             "id": "59e5d83b86f7745aed03d262",
-                            "name": "使用的7.62x39的加强筋10发装金属AK兼容弹匣。",
+                            "name": "7.62x39 10发 AK 加强筋金属弹匣",
                             "normalizedName": "ak-762x39-ribbed-metal-10-round-magazine",
                             "shortName": "AK定制",
                             "description": "民用 10 发容量钢制 7.62x39 毫米 AK 弹匣。由军规弹匣锯断再接上原先的弹匣底板制造而成，以此适应俄联邦民用武器相关法规中对于弹匣容量的限制。尽管可装填 .366 TKM 弹药为对应的民用武器供弹，但 .366 TKM 弹药与 7.62x39 枪械不通用，也无法发射。",
@@ -207630,10 +207630,10 @@
                         },
                         {
                             "id": "5b7bef1e5acfc43d82528402",
-                            "name": "FAL/SA-58 7.62x51 10发弹匣",
+                            "name": "SA-58/FAL 7.62x51 10发弹匣",
                             "normalizedName": "sa58fal-762x51-10-round-magazine",
                             "shortName": "SA58/FAL",
-                            "description": "FAL/SA-58的7.62x51 NATO弹10发双排钢制弹匣。",
+                            "description": "适用于 FAL/SA-58 的 10 发容量双排钢制弹匣，7.62x51 毫米北约步枪弹口径。",
                             "types": [
                                 "mods"
                             ],
@@ -207644,10 +207644,10 @@
                         },
                         {
                             "id": "5b099ac65acfc400186331e1",
-                            "name": "7.62x51 20发FAL/SA-58弹匣",
+                            "name": "SA-58/FAL 7.62x51 20发弹匣",
                             "normalizedName": "sa58fal-762x51-20-round-magazine",
                             "shortName": "FAL 20 7.62",
-                            "description": "FAL/SA-58的7.62x51 NATO 20发双排钢制弹匣。",
+                            "description": "适用于 FAL/SA-58 的 20 发容量双排钢制弹匣，7.62x51 毫米北约步枪弹口径。",
                             "types": [
                                 "mods"
                             ],
@@ -207658,10 +207658,10 @@
                         },
                         {
                             "id": "5b7bef5d5acfc43bca7067a3",
-                            "name": "FAL/SA-58 7.62x51 30发弹匣",
+                            "name": "SA-58/FAL 7.62x51 30发弹匣",
                             "normalizedName": "sa58fal-762x51-30-round-magazine",
                             "shortName": "SA58/FAL",
-                            "description": "FAL/SA-58的7.62x51 NATO弹30发双排钢制弹匣。",
+                            "description": "适用于 FAL/SA-58 的 30 发容量双排钢制弹匣，7.62x51 毫米北约步枪弹口径。",
                             "types": [
                                 "mods"
                             ],
@@ -207672,10 +207672,10 @@
                         },
                         {
                             "id": "5b7c2d1d5acfc43d1028532a",
-                            "name": "FAL/SA-58 \"MMW\" 7.62x51 20发塑料弹匣",
+                            "name": "SA-58/FAL 7.62x51 MMW 20发聚合物弹匣",
                             "normalizedName": "sa58fal-762x51-mmw-polymer-20-round-magazine",
                             "shortName": "MMW Fal 7.62",
-                            "description": "FAL/SA-58的7.62x51 NATO弹20发双排塑料弹匣。",
+                            "description": "适用于 FAL/SA-58 的 20 发容量双排塑料弹匣，7.62x51 毫米北约步枪弹口径。由 Moses Machine Works (MMW) 设计制造。",
                             "types": [
                                 "mods"
                             ],
@@ -207686,10 +207686,10 @@
                         },
                         {
                             "id": "5b7d37845acfc400170e2f87",
-                            "name": "SA-58/FAL/SLR 7.62x51 30发弹匣",
+                            "name": "SA-58/FAL/SLR 7.62x51 30发弹匣",
                             "normalizedName": "sa58falslr-762x51-30-round-magazine",
-                            "shortName": "SLR 7.62",
-                            "description": "FAL/SA-58的7.62x51 NATO弹英制原装30发双排钢制弹匣。",
+                            "shortName": "7.62",
+                            "description": "适用于 L1A1 自装填步枪 (SLR) 的 30 发双排钢制弹匣，该款步枪为英军版本的 FN FAL 步枪，弹匣规格通用。",
                             "types": [
                                 "mods"
                             ],
@@ -209046,8 +209046,8 @@
                             "id": "5c6d42cb2e2216000e69d7d1",
                             "name": "HK 5.56x45 mag 30 STANAG 30发聚合物弹匣",
                             "normalizedName": "ar-15-556x45-hk-30-stanag-polymer-30-round-magazine",
-                            "shortName": "聚合物弹匣",
-                            "description": "30发装的HK聚合物弹匣，适用5.56x45弹药。",
+                            "shortName": "HK聚合",
+                            "description": "HK 公司设计制造的聚合物弹匣，容量 30 发，适用于 5.56x45 毫米口径弹药。",
                             "types": [
                                 "mods"
                             ],
@@ -218600,8 +218600,8 @@
                             "id": "5c6d11072e2216000e69d2e4",
                             "name": "HK 416 Midwest Industries 13.5 英寸 M-LOK 护木",
                             "normalizedName": "hk-416-midwest-industries-135-inch-m-lok-handguard",
-                            "shortName": "Midwest M-LOK",
-                            "description": "Midwest生产的416A5 M-LOK护木，配备了用于安装各种附加设备和组件的M-LOK接口。",
+                            "shortName": "416 Midwest 13.5\"",
+                            "description": "Midwest Industries 为 HK 416A5 突击步枪打造的 M-LOK 护木，配备有标准规格的 M-LOK 接口，可加装专用规格的前握把与其他战术设备。",
                             "types": [
                                 "mods"
                             ],
@@ -218614,8 +218614,8 @@
                             "id": "5c6d10fa2e221600106f3f23",
                             "name": "HK 416 Midwest Industries 9 英寸 M-LOK 护木",
                             "normalizedName": "hk-416-midwest-industries-9-inch-m-lok-handguard",
-                            "shortName": "Midwest M-LOK",
-                            "description": "Midwest生产的416A5 M-LOK护木，配备了用于安装各种附加设备和组件的M-LOK接口。",
+                            "shortName": "416 Midwest 9\"",
+                            "description": "Midwest Industries 为 HK 416A5 突击步枪打造的 M-LOK 护木，配备有标准规格的 M-LOK 接口，可加装专用规格的前握把与其他战术设备。",
                             "types": [
                                 "mods"
                             ],
@@ -219049,7 +219049,7 @@
                             "name": "Magpul MOE AKM 护木（哑光灰）",
                             "normalizedName": "ak-magpul-moe-akm-handguard-stealth-grey",
                             "shortName": "MOE AKM",
-                            "description": "Magpul MOE AKM护木可安装在AKM/AK-74兼容武器系统上，配有授权的M-LOK插槽来安装额外的设备或导轨，橄榄绿版本。",
+                            "description": "Magpul MOE AKM护木可安装在AKM/AK-74兼容武器系统上，配有授权的M-LOK插槽来安装额外的设备或导轨，哑光灰版本。",
                             "types": [
                                 "mods"
                             ],
@@ -225186,10 +225186,10 @@
                         },
                         {
                             "id": "5f6372e2865db925d54f3869",
-                            "name": "AR-15 Ferfrans CQB 5.56x45膛口制退器",
+                            "name": "Ferfrans CQB 5.56x45 AR-15 膛口制退器",
                             "normalizedName": "ar-15-ferfrans-cqb-556x45-muzzle-brake",
-                            "shortName": "Ferfrans膛口制退",
-                            "description": "Ferfrans膛口制退器。可与Ferfrans Modular震动抑制器共同安装。",
+                            "shortName": "CQB 556",
+                            "description": "Ferfrans 制造的膛口制退器，可搭配 Ferfrans 模块化后座缓冲装置 (556 CRD) 一同使用，降低体感后座。",
                             "types": [
                                 "mods"
                             ],
@@ -235133,7 +235133,7 @@
                         },
                         {
                             "id": "657025ebc5d7d4cb4d078588",
-                            "name": "5.45x39mm 7N39 针刺 弹药包（120发装）",
+                            "name": "5.45x39mm 7N39“针刺”弹药包（120发装）",
                             "normalizedName": "545x39mm-ppbs-gs-igolnik-ammo-pack-120-pcs",
                             "shortName": "7N39",
                             "description": "一盒用纸包装的120发5.45x39 7N39“针刺”子弹。",
@@ -235631,7 +235631,7 @@
                         },
                         {
                             "id": "657025ebc5d7d4cb4d078588",
-                            "name": "5.45x39mm 7N39 针刺 弹药包（120发装）",
+                            "name": "5.45x39mm 7N39“针刺”弹药包（120发装）",
                             "normalizedName": "545x39mm-ppbs-gs-igolnik-ammo-pack-120-pcs",
                             "shortName": "7N39",
                             "description": "一盒用纸包装的120发5.45x39 7N39“针刺”子弹。",
@@ -236129,7 +236129,7 @@
                         },
                         {
                             "id": "657025ebc5d7d4cb4d078588",
-                            "name": "5.45x39mm 7N39 针刺 弹药包（120发装）",
+                            "name": "5.45x39mm 7N39“针刺”弹药包（120发装）",
                             "normalizedName": "545x39mm-ppbs-gs-igolnik-ammo-pack-120-pcs",
                             "shortName": "7N39",
                             "description": "一盒用纸包装的120发5.45x39 7N39“针刺”子弹。",
@@ -246495,7 +246495,7 @@
                         },
                         {
                             "id": "657025ebc5d7d4cb4d078588",
-                            "name": "5.45x39mm 7N39 针刺 弹药包（120发装）",
+                            "name": "5.45x39mm 7N39“针刺”弹药包（120发装）",
                             "normalizedName": "545x39mm-ppbs-gs-igolnik-ammo-pack-120-pcs",
                             "shortName": "7N39",
                             "description": "一盒用纸包装的120发5.45x39 7N39“针刺”子弹。",
@@ -253890,10 +253890,10 @@
                         },
                         {
                             "id": "5926bb2186f7744b1c6c6e60",
-                            "name": "HK MP5N 9x19 冲锋枪（海军型）",
+                            "name": "HK MP5 9x19 冲锋枪（海军三发点射）",
                             "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst",
                             "shortName": "MP5",
-                            "description": "HK MP5微型冲锋枪的海军3连点版，特点是可在自动3连发后停止射击。作为一款广受好评的微型冲锋枪，起初主要被GSG9和世界各国类似部队使用，后因频繁出现在影视和游戏中而名声大噪。",
+                            "description": "HK MP5 冲锋枪，带有海军型的三发点射结构，切换至点射模式后按下扳机可一次性发射 3 枚子弹。MP5 冲锋枪自上世纪 70 年代开始频繁在全球各地的反恐行动中亮相，因高精度与可靠的性能表现而广受赞誉，后作为德国边防警察第 9 反恐大队 (GSG9) 以及其他知名反恐力量的装备频繁出现在影视作品和电子游戏中而名声大噪。",
                             "types": [
                                 "gun",
                                 "wearable"
@@ -258247,10 +258247,10 @@
                         },
                         {
                             "id": "5fce0cf655375d18a253eff0",
-                            "name": "Magpul RVG握把 FDE",
+                            "name": "Magpul RVG 前握把 (FDE)",
                             "normalizedName": "magpul-rvg-foregrip-fde",
                             "shortName": "RVG FDE",
-                            "description": "Magpul RVG（导轨垂直握把）战术握把。常见、简单、便宜又符合人体工程学的垂直握把。",
+                            "description": "Magpul RVG（导轨垂直握把）战术握把。常见、简单、便宜又符合人体工程学的垂直握把。沙土褐色 (FDE) 版本。",
                             "types": [
                                 "mods"
                             ],
@@ -259745,10 +259745,10 @@
                         },
                         {
                             "id": "5b2240bf5acfc40dc528af69",
-                            "name": "Raptor AR-15拉机柄",
+                            "name": "雷电 Raptor-SD AR-15 拉机柄 (FDE)",
                             "normalizedName": "ar-15-radian-weapons-raptor-charging-handle-fde",
-                            "shortName": "Raptor拉机柄",
-                            "description": "AR-15兼容系统使用的Raptor拉机柄。",
+                            "shortName": "Raptor",
+                            "description": "AR-15 及兼容武器系统使用的 Raptor 拉机柄，由 Radian Weapons 设计制造。沙土褐色 (FDE) 版本。",
                             "types": [
                                 "mods"
                             ],
@@ -260321,7 +260321,7 @@
                         },
                         {
                             "id": "59e5d83b86f7745aed03d262",
-                            "name": "使用的7.62x39的加强筋10发装金属AK兼容弹匣。",
+                            "name": "7.62x39 10发 AK 加强筋金属弹匣",
                             "normalizedName": "ak-762x39-ribbed-metal-10-round-magazine",
                             "shortName": "AK定制",
                             "description": "民用 10 发容量钢制 7.62x39 毫米 AK 弹匣。由军规弹匣锯断再接上原先的弹匣底板制造而成，以此适应俄联邦民用武器相关法规中对于弹匣容量的限制。尽管可装填 .366 TKM 弹药为对应的民用武器供弹，但 .366 TKM 弹药与 7.62x39 枪械不通用，也无法发射。",
@@ -260827,10 +260827,10 @@
                         },
                         {
                             "id": "5b7bef1e5acfc43d82528402",
-                            "name": "FAL/SA-58 7.62x51 10发弹匣",
+                            "name": "SA-58/FAL 7.62x51 10发弹匣",
                             "normalizedName": "sa58fal-762x51-10-round-magazine",
                             "shortName": "SA58/FAL",
-                            "description": "FAL/SA-58的7.62x51 NATO弹10发双排钢制弹匣。",
+                            "description": "适用于 FAL/SA-58 的 10 发容量双排钢制弹匣，7.62x51 毫米北约步枪弹口径。",
                             "types": [
                                 "mods"
                             ],
@@ -260841,10 +260841,10 @@
                         },
                         {
                             "id": "5b099ac65acfc400186331e1",
-                            "name": "7.62x51 20发FAL/SA-58弹匣",
+                            "name": "SA-58/FAL 7.62x51 20发弹匣",
                             "normalizedName": "sa58fal-762x51-20-round-magazine",
                             "shortName": "FAL 20 7.62",
-                            "description": "FAL/SA-58的7.62x51 NATO 20发双排钢制弹匣。",
+                            "description": "适用于 FAL/SA-58 的 20 发容量双排钢制弹匣，7.62x51 毫米北约步枪弹口径。",
                             "types": [
                                 "mods"
                             ],
@@ -260855,10 +260855,10 @@
                         },
                         {
                             "id": "5b7bef5d5acfc43bca7067a3",
-                            "name": "FAL/SA-58 7.62x51 30发弹匣",
+                            "name": "SA-58/FAL 7.62x51 30发弹匣",
                             "normalizedName": "sa58fal-762x51-30-round-magazine",
                             "shortName": "SA58/FAL",
-                            "description": "FAL/SA-58的7.62x51 NATO弹30发双排钢制弹匣。",
+                            "description": "适用于 FAL/SA-58 的 30 发容量双排钢制弹匣，7.62x51 毫米北约步枪弹口径。",
                             "types": [
                                 "mods"
                             ],
@@ -260869,10 +260869,10 @@
                         },
                         {
                             "id": "5b7c2d1d5acfc43d1028532a",
-                            "name": "FAL/SA-58 \"MMW\" 7.62x51 20发塑料弹匣",
+                            "name": "SA-58/FAL 7.62x51 MMW 20发聚合物弹匣",
                             "normalizedName": "sa58fal-762x51-mmw-polymer-20-round-magazine",
                             "shortName": "MMW Fal 7.62",
-                            "description": "FAL/SA-58的7.62x51 NATO弹20发双排塑料弹匣。",
+                            "description": "适用于 FAL/SA-58 的 20 发容量双排塑料弹匣，7.62x51 毫米北约步枪弹口径。由 Moses Machine Works (MMW) 设计制造。",
                             "types": [
                                 "mods"
                             ],
@@ -260883,10 +260883,10 @@
                         },
                         {
                             "id": "5b7d37845acfc400170e2f87",
-                            "name": "SA-58/FAL/SLR 7.62x51 30发弹匣",
+                            "name": "SA-58/FAL/SLR 7.62x51 30发弹匣",
                             "normalizedName": "sa58falslr-762x51-30-round-magazine",
-                            "shortName": "SLR 7.62",
-                            "description": "FAL/SA-58的7.62x51 NATO弹英制原装30发双排钢制弹匣。",
+                            "shortName": "7.62",
+                            "description": "适用于 L1A1 自装填步枪 (SLR) 的 30 发双排钢制弹匣，该款步枪为英军版本的 FN FAL 步枪，弹匣规格通用。",
                             "types": [
                                 "mods"
                             ],
@@ -262243,8 +262243,8 @@
                             "id": "5c6d42cb2e2216000e69d7d1",
                             "name": "HK 5.56x45 mag 30 STANAG 30发聚合物弹匣",
                             "normalizedName": "ar-15-556x45-hk-30-stanag-polymer-30-round-magazine",
-                            "shortName": "聚合物弹匣",
-                            "description": "30发装的HK聚合物弹匣，适用5.56x45弹药。",
+                            "shortName": "HK聚合",
+                            "description": "HK 公司设计制造的聚合物弹匣，容量 30 发，适用于 5.56x45 毫米口径弹药。",
                             "types": [
                                 "mods"
                             ],
@@ -271797,8 +271797,8 @@
                             "id": "5c6d11072e2216000e69d2e4",
                             "name": "HK 416 Midwest Industries 13.5 英寸 M-LOK 护木",
                             "normalizedName": "hk-416-midwest-industries-135-inch-m-lok-handguard",
-                            "shortName": "Midwest M-LOK",
-                            "description": "Midwest生产的416A5 M-LOK护木，配备了用于安装各种附加设备和组件的M-LOK接口。",
+                            "shortName": "416 Midwest 13.5\"",
+                            "description": "Midwest Industries 为 HK 416A5 突击步枪打造的 M-LOK 护木，配备有标准规格的 M-LOK 接口，可加装专用规格的前握把与其他战术设备。",
                             "types": [
                                 "mods"
                             ],
@@ -271811,8 +271811,8 @@
                             "id": "5c6d10fa2e221600106f3f23",
                             "name": "HK 416 Midwest Industries 9 英寸 M-LOK 护木",
                             "normalizedName": "hk-416-midwest-industries-9-inch-m-lok-handguard",
-                            "shortName": "Midwest M-LOK",
-                            "description": "Midwest生产的416A5 M-LOK护木，配备了用于安装各种附加设备和组件的M-LOK接口。",
+                            "shortName": "416 Midwest 9\"",
+                            "description": "Midwest Industries 为 HK 416A5 突击步枪打造的 M-LOK 护木，配备有标准规格的 M-LOK 接口，可加装专用规格的前握把与其他战术设备。",
                             "types": [
                                 "mods"
                             ],
@@ -272246,7 +272246,7 @@
                             "name": "Magpul MOE AKM 护木（哑光灰）",
                             "normalizedName": "ak-magpul-moe-akm-handguard-stealth-grey",
                             "shortName": "MOE AKM",
-                            "description": "Magpul MOE AKM护木可安装在AKM/AK-74兼容武器系统上，配有授权的M-LOK插槽来安装额外的设备或导轨，橄榄绿版本。",
+                            "description": "Magpul MOE AKM护木可安装在AKM/AK-74兼容武器系统上，配有授权的M-LOK插槽来安装额外的设备或导轨，哑光灰版本。",
                             "types": [
                                 "mods"
                             ],
@@ -278383,10 +278383,10 @@
                         },
                         {
                             "id": "5f6372e2865db925d54f3869",
-                            "name": "AR-15 Ferfrans CQB 5.56x45膛口制退器",
+                            "name": "Ferfrans CQB 5.56x45 AR-15 膛口制退器",
                             "normalizedName": "ar-15-ferfrans-cqb-556x45-muzzle-brake",
-                            "shortName": "Ferfrans膛口制退",
-                            "description": "Ferfrans膛口制退器。可与Ferfrans Modular震动抑制器共同安装。",
+                            "shortName": "CQB 556",
+                            "description": "Ferfrans 制造的膛口制退器，可搭配 Ferfrans 模块化后座缓冲装置 (556 CRD) 一同使用，降低体感后座。",
                             "types": [
                                 "mods"
                             ],
@@ -289428,7 +289428,7 @@
                         },
                         {
                             "id": "5926bb2186f7744b1c6c6e60",
-                            "name": "HK MP5N 9x19 冲锋枪（海军型）",
+                            "name": "HK MP5 9x19 冲锋枪（海军三发点射）",
                             "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst",
                             "shortName": "MP5",
                             "width": 1,
@@ -290790,12 +290790,6 @@
                     {
                         "id": "655b33429db22d43ab42b704",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -290816,7 +290810,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_BP_gs"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -291850,12 +291850,6 @@
                     {
                         "id": "655b5af31273611d2462ab76",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -291876,7 +291870,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/12/70_AP-20_armor-piercing_slug"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -297079,12 +297079,6 @@
                     {
                         "id": "655b5fd2975a7f3c734661a8",
                         "level": 2,
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -297106,7 +297100,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/First_Spear_Strandhogg_plate_carrier_(Ranger_Green)"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        }
                     }
                 ]
             }
@@ -303232,12 +303232,6 @@
                     {
                         "id": "655b5ebc32b0b1645e6f54c9",
                         "level": 1,
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -303258,7 +303252,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6B23-2_body_armor_(Mountain_Flora)"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        }
                     }
                 ]
             }
@@ -305342,12 +305342,6 @@
                     {
                         "id": "655b65fc1273611d2462ab77",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -305369,7 +305363,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.11_Tactical_TacTec_plate_carrier_(Ranger_Green)"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        }
                     }
                 ]
             }
@@ -306767,12 +306767,6 @@
                     {
                         "id": "655b63ac9db22d43ab42b70a",
                         "level": 2,
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -306794,7 +306788,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ars_Arma_A18_Skanda_plate_carrier_(MultiCam)"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        }
                     }
                 ]
             }
@@ -309005,10 +309005,10 @@
                         },
                         {
                             "id": "5fce0cf655375d18a253eff0",
-                            "name": "Magpul RVG握把 FDE",
+                            "name": "Magpul RVG 前握把 (FDE)",
                             "normalizedName": "magpul-rvg-foregrip-fde",
                             "shortName": "RVG FDE",
-                            "description": "Magpul RVG（导轨垂直握把）战术握把。常见、简单、便宜又符合人体工程学的垂直握把。",
+                            "description": "Magpul RVG（导轨垂直握把）战术握把。常见、简单、便宜又符合人体工程学的垂直握把。沙土褐色 (FDE) 版本。",
                             "types": [
                                 "mods"
                             ],
@@ -320930,12 +320930,6 @@
                     {
                         "id": "655b675e1f2b6843ec751fd6",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -320957,7 +320951,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NPP_KlASS_Bagariy_plate_carrier_(EMR)"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        }
                     }
                 ]
             }
@@ -322072,12 +322072,6 @@
                     {
                         "id": "63baedefe6ebc10fe0201083",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -322098,7 +322092,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/4.6x30mm_AP_SX"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -324584,12 +324584,6 @@
                     {
                         "id": "63a571802116d261d2336cd1",
                         "level": 1,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -324609,7 +324603,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Radio_repeater"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -326315,12 +326315,6 @@
                     {
                         "id": "6399c421d65735732c6ba765",
                         "level": 2,
-                        "station": {
-                            "id": "5d484fdf654e7600691aadf8",
-                            "name": "情报中心",
-                            "normalizedName": "intelligence-center",
-                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -326341,7 +326335,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Digital_secure_DSP_radio_transmitter"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fdf654e7600691aadf8",
+                            "name": "情报中心",
+                            "normalizedName": "intelligence-center",
+                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                        }
                     }
                 ]
             }
@@ -327564,12 +327564,6 @@
                     {
                         "id": "5ed9ff023a68ec264e5233c2",
                         "level": 2,
-                        "station": {
-                            "id": "5d484fdf654e7600691aadf8",
-                            "name": "情报中心",
-                            "normalizedName": "intelligence-center",
-                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -327589,7 +327583,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Virtex_programmable_processor"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fdf654e7600691aadf8",
+                            "name": "情报中心",
+                            "normalizedName": "intelligence-center",
+                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                        }
                     }
                 ]
             }
@@ -328290,12 +328290,6 @@
                     {
                         "id": "5ee4a093a297eb185236194f",
                         "level": 2,
-                        "station": {
-                            "id": "5d484fdf654e7600691aadf8",
-                            "name": "情报中心",
-                            "normalizedName": "intelligence-center",
-                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -328315,7 +328309,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/UHF_RFID_Reader"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fdf654e7600691aadf8",
+                            "name": "情报中心",
+                            "normalizedName": "intelligence-center",
+                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                        }
                     }
                 ]
             }
@@ -329527,12 +329527,6 @@
                     {
                         "id": "60048c82a7903e00382d9593",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -329553,7 +329547,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/FLIR_RS-32_2.25-9x_35mm_60Hz_thermal_riflescope"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -330557,12 +330557,6 @@
                     {
                         "id": "63a232f8ab6bb51044344bff",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -330583,7 +330577,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -330756,12 +330756,6 @@
                     {
                         "id": "63a2327c151bfb591645c104",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -330782,7 +330776,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Trijicon_REAP-IR_thermal_scope"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -335207,12 +335207,6 @@
                     {
                         "id": "655b4489065b076eb02c4b45",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -335233,7 +335227,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -344766,12 +344766,6 @@
                     {
                         "id": "6012ee7e44a0465ee67a58de",
                         "level": 2,
-                        "station": {
-                            "id": "5d484fcd654e7668ec2ec322",
-                            "name": "医疗站",
-                            "normalizedName": "medstation",
-                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -344793,17 +344787,17 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/M.U.L.E._stimulant_injector"
                                 }
                             }
-                        ]
-                    },
-                    {
-                        "id": "64b6b5c1c3abf20a9660daad",
-                        "level": 2,
+                        ],
                         "station": {
                             "id": "5d484fcd654e7668ec2ec322",
                             "name": "医疗站",
                             "normalizedName": "medstation",
                             "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                        },
+                        }
+                    },
+                    {
+                        "id": "64b6b5c1c3abf20a9660daad",
+                        "level": 2,
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -344825,7 +344819,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ETG-change_regenerative_stimulant_injector"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fcd654e7668ec2ec322",
+                            "name": "医疗站",
+                            "normalizedName": "medstation",
+                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
+                        }
                     }
                 ]
             }
@@ -345607,12 +345607,6 @@
                     {
                         "id": "63a2327c151bfb591645c104",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -345633,7 +345627,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Trijicon_REAP-IR_thermal_scope"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -352161,12 +352161,6 @@
                     {
                         "id": "6839a4b18b47de9b76007028",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -352187,7 +352181,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TheAKGuy_AK-50_.50_BMG_anti-materiel_rifle"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -352631,12 +352631,6 @@
                     {
                         "id": "655b4a73975a7f3c734661a5",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -352657,7 +352651,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_BP_gzh"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -352807,12 +352807,6 @@
                     {
                         "id": "655b4669b71eeb7c4168c625",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -352833,7 +352827,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Blackout_AP"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        }
                     }
                 ]
             }
@@ -356348,12 +356348,6 @@
                     {
                         "id": "655b6a50b71eeb7c4168c628",
                         "level": 3,
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -356375,7 +356369,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rys-T_bulletproof_helmet_(Black)"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        }
                     }
                 ]
             }
@@ -356736,12 +356736,6 @@
                     {
                         "id": "6002eec9cc73cd34ac64188a",
                         "level": 2,
-                        "station": {
-                            "id": "5d484fcd654e7668ec2ec322",
-                            "name": "医疗站",
-                            "normalizedName": "medstation",
-                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -356763,7 +356757,13 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/XTG-12_antidote_injector"
                                 }
                             }
-                        ]
+                        ],
+                        "station": {
+                            "id": "5d484fcd654e7668ec2ec322",
+                            "name": "医疗站",
+                            "normalizedName": "medstation",
+                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
+                        }
                     }
                 ]
             }
