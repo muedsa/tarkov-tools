@@ -97,7 +97,7 @@
         "tasks": [
             {
                 "id": "5d25e2c386f77443e7549029",
-                "name": "猎人之路 - 物资",
+                "name": "猎人之路 - 战利品",
                 "trader": "Jaeger",
                 "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
                 "kappaRequired": true,
@@ -818,7 +818,7 @@
         "tasks": [
             {
                 "id": "5d25e46e86f77409453bce7c",
-                "name": "救护车",
+                "name": "急救措施",
                 "trader": "Jaeger",
                 "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
                 "kappaRequired": true,

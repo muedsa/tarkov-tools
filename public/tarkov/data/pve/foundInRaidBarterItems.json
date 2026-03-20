@@ -82,7 +82,7 @@
             },
             {
                 "id": "5d25e48d86f77408251c4bfb",
-                "name": "生意至上",
+                "name": "黑幕交易",
                 "trader": "Jaeger",
                 "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
                 "kappaRequired": true,
@@ -741,7 +741,7 @@
         "tasks": [
             {
                 "id": "5d25e46e86f77409453bce7c",
-                "name": "救护车",
+                "name": "急救措施",
                 "trader": "Jaeger",
                 "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
                 "kappaRequired": true,
