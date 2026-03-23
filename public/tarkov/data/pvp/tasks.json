@@ -322635,8 +322635,7 @@
                             "width": 4,
                             "height": 1,
                             "types": [
-                                "gun",
-                                "noFlea"
+                                "gun"
                             ],
                             "iconLink": "https://assets.tarkov.dev/676bf44c5539167c3603e869-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/RShG-2_72.5mm_rocket_launcher"
