@@ -5,7 +5,6 @@
             "name": "加热器",
             "normalizedName": "heating",
             "imageLink": "https://assets.tarkov.dev/station-heating.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "5d388e97081959000a123acf-1",
@@ -346,14 +345,14 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "5d3b396e33c48f02b81cd9f3",
             "name": "发电机",
             "normalizedName": "generator",
             "imageLink": "https://assets.tarkov.dev/station-generator.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "5d3b396e33c48f02b81cd9f3-1",
@@ -740,7 +739,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "5d473c1e081959000e530190",
@@ -1062,7 +1062,6 @@
             "name": "安保",
             "normalizedName": "security",
             "imageLink": "https://assets.tarkov.dev/station-security.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "5d484fb3654e7600681d9314-1",
@@ -1393,7 +1392,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "5d484fba654e7600691aadf7",
@@ -6070,7 +6070,6 @@
             "name": "仓库",
             "normalizedName": "stash",
             "imageLink": "https://assets.tarkov.dev/station-stash.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "5d484fc0654e76006657e0ab-1",
@@ -6606,270 +6605,14 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "5d484fc8654e760065037abf",
             "name": "集水器",
             "normalizedName": "water-collector",
             "imageLink": "https://assets.tarkov.dev/station-water-collector.png",
-            "crafts": [
-                {
-                    "id": "67f4ec82690e0a541a021d3d",
-                    "level": 2,
-                    "taskUnlock": null,
-                    "duration": 1800,
-                    "requiredQuestItems": [],
-                    "station": {
-                        "id": "5d484fc8654e760065037abf",
-                        "name": "集水器",
-                        "normalizedName": "water-collector",
-                        "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
-                    },
-                    "requiredItems": [
-                        {
-                            "count": 1,
-                            "quantity": 1,
-                            "attributes": [],
-                            "item": {
-                                "id": "57513f9324597720a7128161",
-                                "name": "西柚汁",
-                                "normalizedName": "pack-of-grand-juice",
-                                "shortName": "西柚汁",
-                                "width": 1,
-                                "height": 2,
-                                "types": [
-                                    "provisions"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/57513f9324597720a7128161-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_Grand_juice"
-                            }
-                        },
-                        {
-                            "count": 1,
-                            "quantity": 1,
-                            "attributes": [
-                                {
-                                    "type": "tool",
-                                    "name": "tool",
-                                    "value": "true"
-                                }
-                            ],
-                            "item": {
-                                "id": "5d1b39a386f774252339976f",
-                                "name": "硅胶管",
-                                "normalizedName": "silicone-tube",
-                                "shortName": "管子",
-                                "width": 1,
-                                "height": 1,
-                                "types": [
-                                    "barter"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/5d1b39a386f774252339976f-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Silicone_tube"
-                            }
-                        }
-                    ],
-                    "rewardItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 2,
-                            "count": 2,
-                            "item": {
-                                "id": "60098b1705871270cd5352a1",
-                                "name": "应急用水",
-                                "normalizedName": "emergency-water-ration",
-                                "shortName": "应急用水",
-                                "width": 1,
-                                "height": 1,
-                                "types": [
-                                    "provisions"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/60098b1705871270cd5352a1-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Emergency_Water_Ration"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "5d5589c1f934db045e6c5492",
-                    "level": 3,
-                    "taskUnlock": null,
-                    "duration": 19500,
-                    "requiredQuestItems": [],
-                    "station": {
-                        "id": "5d484fc8654e760065037abf",
-                        "name": "集水器",
-                        "normalizedName": "water-collector",
-                        "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
-                    },
-                    "requiredItems": [
-                        {
-                            "count": 0.66,
-                            "quantity": 0.66,
-                            "attributes": [],
-                            "item": {
-                                "id": "5d1b385e86f774252167b98a",
-                                "name": "滤水器",
-                                "normalizedName": "water-filter",
-                                "shortName": "过滤器",
-                                "width": 1,
-                                "height": 2,
-                                "types": [
-                                    "barter"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/5d1b385e86f774252167b98a-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Water_filter"
-                            }
-                        }
-                    ],
-                    "rewardItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "5d1b33a686f7742523398398",
-                                "name": "纯净水",
-                                "normalizedName": "canister-with-purified-water",
-                                "shortName": "Superwater",
-                                "width": 2,
-                                "height": 2,
-                                "types": [
-                                    "barter",
-                                    "provisions"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/5d1b33a686f7742523398398-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Canister_with_purified_water"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "67f4ec521d41954d4f09a9c8",
-                    "level": 2,
-                    "taskUnlock": null,
-                    "duration": 3600,
-                    "requiredQuestItems": [],
-                    "station": {
-                        "id": "5d484fc8654e760065037abf",
-                        "name": "集水器",
-                        "normalizedName": "water-collector",
-                        "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
-                    },
-                    "requiredItems": [
-                        {
-                            "count": 5,
-                            "quantity": 5,
-                            "attributes": [],
-                            "item": {
-                                "id": "5448fee04bdc2dbc018b4567",
-                                "name": "0.6升瓶装水",
-                                "normalizedName": "bottle-of-water-06l",
-                                "shortName": "水",
-                                "width": 1,
-                                "height": 2,
-                                "types": [
-                                    "provisions"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/5448fee04bdc2dbc018b4567-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_water_(0.6L)"
-                            }
-                        },
-                        {
-                            "count": 1,
-                            "quantity": 1,
-                            "attributes": [],
-                            "item": {
-                                "id": "6389c6c7dbfd5e4b95197e68",
-                                "name": "Aquapeps饮用水净化片",
-                                "normalizedName": "aquapeps-water-purification-tablets",
-                                "shortName": "Aquapeps",
-                                "width": 1,
-                                "height": 1,
-                                "types": [
-                                    "barter"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/6389c6c7dbfd5e4b95197e68-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aquapeps_water_purification_tablets"
-                            }
-                        }
-                    ],
-                    "rewardItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 5,
-                            "count": 5,
-                            "item": {
-                                "id": "5c0fa877d174af02a012e1cf",
-                                "name": "Aquamari带滤嘴水瓶",
-                                "normalizedName": "aquamari-water-bottle-with-filter",
-                                "shortName": "Aquamari",
-                                "width": 1,
-                                "height": 2,
-                                "types": [
-                                    "provisions"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/5c0fa877d174af02a012e1cf-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aquamari_water_bottle_with_filter"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "67f4ebb7d0fb51b8c705e80e",
-                    "level": 1,
-                    "taskUnlock": null,
-                    "duration": 1200,
-                    "requiredQuestItems": [],
-                    "station": {
-                        "id": "5d484fc8654e760065037abf",
-                        "name": "集水器",
-                        "normalizedName": "water-collector",
-                        "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
-                    },
-                    "requiredItems": [
-                        {
-                            "count": 1,
-                            "quantity": 1,
-                            "attributes": [],
-                            "item": {
-                                "id": "5448fee04bdc2dbc018b4567",
-                                "name": "0.6升瓶装水",
-                                "normalizedName": "bottle-of-water-06l",
-                                "shortName": "水",
-                                "width": 1,
-                                "height": 2,
-                                "types": [
-                                    "provisions"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/5448fee04bdc2dbc018b4567-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_water_(0.6L)"
-                            }
-                        }
-                    ],
-                    "rewardItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "5448fee04bdc2dbc018b4567",
-                                "name": "0.6升瓶装水",
-                                "normalizedName": "bottle-of-water-06l",
-                                "shortName": "水",
-                                "width": 1,
-                                "height": 2,
-                                "types": [
-                                    "provisions"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/5448fee04bdc2dbc018b4567-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_water_(0.6L)"
-                            }
-                        }
-                    ]
-                }
-            ],
             "levels": [
                 {
                     "id": "5d484fc8654e760065037abf-1",
@@ -7280,6 +7023,263 @@
                                 "name": "Jaeger",
                                 "normalizedName": "jaeger",
                                 "imageLink": "https://assets.tarkov.dev/5c0647fdd443bc2504c2d371.webp"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "crafts": [
+                {
+                    "id": "67f4ec82690e0a541a021d3d",
+                    "level": 2,
+                    "taskUnlock": null,
+                    "duration": 1800,
+                    "requiredQuestItems": [],
+                    "station": {
+                        "id": "5d484fc8654e760065037abf",
+                        "name": "集水器",
+                        "normalizedName": "water-collector",
+                        "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
+                    },
+                    "requiredItems": [
+                        {
+                            "count": 1,
+                            "quantity": 1,
+                            "attributes": [],
+                            "item": {
+                                "id": "57513f9324597720a7128161",
+                                "name": "西柚汁",
+                                "normalizedName": "pack-of-grand-juice",
+                                "shortName": "西柚汁",
+                                "width": 1,
+                                "height": 2,
+                                "types": [
+                                    "provisions"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/57513f9324597720a7128161-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_Grand_juice"
+                            }
+                        },
+                        {
+                            "count": 1,
+                            "quantity": 1,
+                            "attributes": [
+                                {
+                                    "type": "tool",
+                                    "name": "tool",
+                                    "value": "true"
+                                }
+                            ],
+                            "item": {
+                                "id": "5d1b39a386f774252339976f",
+                                "name": "硅胶管",
+                                "normalizedName": "silicone-tube",
+                                "shortName": "管子",
+                                "width": 1,
+                                "height": 1,
+                                "types": [
+                                    "barter"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/5d1b39a386f774252339976f-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Silicone_tube"
+                            }
+                        }
+                    ],
+                    "rewardItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 2,
+                            "count": 2,
+                            "item": {
+                                "id": "60098b1705871270cd5352a1",
+                                "name": "应急用水",
+                                "normalizedName": "emergency-water-ration",
+                                "shortName": "应急用水",
+                                "width": 1,
+                                "height": 1,
+                                "types": [
+                                    "provisions"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/60098b1705871270cd5352a1-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Emergency_Water_Ration"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "5d5589c1f934db045e6c5492",
+                    "level": 3,
+                    "taskUnlock": null,
+                    "duration": 19500,
+                    "requiredQuestItems": [],
+                    "station": {
+                        "id": "5d484fc8654e760065037abf",
+                        "name": "集水器",
+                        "normalizedName": "water-collector",
+                        "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
+                    },
+                    "requiredItems": [
+                        {
+                            "count": 0.66,
+                            "quantity": 0.66,
+                            "attributes": [],
+                            "item": {
+                                "id": "5d1b385e86f774252167b98a",
+                                "name": "滤水器",
+                                "normalizedName": "water-filter",
+                                "shortName": "过滤器",
+                                "width": 1,
+                                "height": 2,
+                                "types": [
+                                    "barter"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/5d1b385e86f774252167b98a-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Water_filter"
+                            }
+                        }
+                    ],
+                    "rewardItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "5d1b33a686f7742523398398",
+                                "name": "纯净水",
+                                "normalizedName": "canister-with-purified-water",
+                                "shortName": "Superwater",
+                                "width": 2,
+                                "height": 2,
+                                "types": [
+                                    "barter",
+                                    "provisions"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/5d1b33a686f7742523398398-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Canister_with_purified_water"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "67f4ec521d41954d4f09a9c8",
+                    "level": 2,
+                    "taskUnlock": null,
+                    "duration": 3600,
+                    "requiredQuestItems": [],
+                    "station": {
+                        "id": "5d484fc8654e760065037abf",
+                        "name": "集水器",
+                        "normalizedName": "water-collector",
+                        "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
+                    },
+                    "requiredItems": [
+                        {
+                            "count": 5,
+                            "quantity": 5,
+                            "attributes": [],
+                            "item": {
+                                "id": "5448fee04bdc2dbc018b4567",
+                                "name": "0.6升瓶装水",
+                                "normalizedName": "bottle-of-water-06l",
+                                "shortName": "水",
+                                "width": 1,
+                                "height": 2,
+                                "types": [
+                                    "provisions"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/5448fee04bdc2dbc018b4567-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_water_(0.6L)"
+                            }
+                        },
+                        {
+                            "count": 1,
+                            "quantity": 1,
+                            "attributes": [],
+                            "item": {
+                                "id": "6389c6c7dbfd5e4b95197e68",
+                                "name": "Aquapeps饮用水净化片",
+                                "normalizedName": "aquapeps-water-purification-tablets",
+                                "shortName": "Aquapeps",
+                                "width": 1,
+                                "height": 1,
+                                "types": [
+                                    "barter"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/6389c6c7dbfd5e4b95197e68-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aquapeps_water_purification_tablets"
+                            }
+                        }
+                    ],
+                    "rewardItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 5,
+                            "count": 5,
+                            "item": {
+                                "id": "5c0fa877d174af02a012e1cf",
+                                "name": "Aquamari带滤嘴水瓶",
+                                "normalizedName": "aquamari-water-bottle-with-filter",
+                                "shortName": "Aquamari",
+                                "width": 1,
+                                "height": 2,
+                                "types": [
+                                    "provisions"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/5c0fa877d174af02a012e1cf-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aquamari_water_bottle_with_filter"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "67f4ebb7d0fb51b8c705e80e",
+                    "level": 1,
+                    "taskUnlock": null,
+                    "duration": 1200,
+                    "requiredQuestItems": [],
+                    "station": {
+                        "id": "5d484fc8654e760065037abf",
+                        "name": "集水器",
+                        "normalizedName": "water-collector",
+                        "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
+                    },
+                    "requiredItems": [
+                        {
+                            "count": 1,
+                            "quantity": 1,
+                            "attributes": [],
+                            "item": {
+                                "id": "5448fee04bdc2dbc018b4567",
+                                "name": "0.6升瓶装水",
+                                "normalizedName": "bottle-of-water-06l",
+                                "shortName": "水",
+                                "width": 1,
+                                "height": 2,
+                                "types": [
+                                    "provisions"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/5448fee04bdc2dbc018b4567-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_water_(0.6L)"
+                            }
+                        }
+                    ],
+                    "rewardItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "5448fee04bdc2dbc018b4567",
+                                "name": "0.6升瓶装水",
+                                "normalizedName": "bottle-of-water-06l",
+                                "shortName": "水",
+                                "width": 1,
+                                "height": 2,
+                                "types": [
+                                    "provisions"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/5448fee04bdc2dbc018b4567-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_water_(0.6L)"
                             }
                         }
                     ]
@@ -27610,7 +27610,6 @@
             "name": "照明",
             "normalizedName": "illumination",
             "imageLink": "https://assets.tarkov.dev/station-illumination.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a205b56502f18c98a06-1",
@@ -27901,14 +27900,14 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "5d494a295b56502f18c98a08",
             "name": "荣耀展柜",
             "normalizedName": "hall-of-fame",
             "imageLink": "https://assets.tarkov.dev/station-hall-of-fame.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a295b56502f18c98a08-1",
@@ -28565,14 +28564,14 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "5d494a315b56502f18c98a0a",
             "name": "空气过滤单元",
             "normalizedName": "air-filtering-unit",
             "imageLink": "https://assets.tarkov.dev/station-air-filtering-unit.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a315b56502f18c98a0a-1",
@@ -28716,14 +28715,14 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "5d494a385b56502f18c98a0c",
             "name": "太阳能",
             "normalizedName": "solar-power",
             "imageLink": "https://assets.tarkov.dev/station-solar-power.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a385b56502f18c98a0c-1",
@@ -28918,7 +28917,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "5d494a3f5b56502f18c98a0e",
@@ -29941,7 +29941,6 @@
             "name": "武器架",
             "normalizedName": "weapon-rack",
             "imageLink": "https://assets.tarkov.dev/station-weapon-rack.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "63db64cbf9963741dc0d741f-1",
@@ -30699,14 +30698,14 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "65e5bb1713227bb7690cea0a",
             "name": "装备架",
             "normalizedName": "gear-rack",
             "imageLink": "https://assets.tarkov.dev/station-gear-rack.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "65e5bb1713227bb7690cea0a-1",
@@ -31433,7 +31432,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "667298e75ea6b4493c08f266",
