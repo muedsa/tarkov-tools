@@ -21684,7 +21684,7 @@
                         {
                             "id": "675a0288c3102563bd01c9c3",
                             "name": "竞技场海报",
-                            "normalizedName": "arena-poster",
+                            "normalizedName": "arena-advertisement-poster",
                             "shortName": "海报",
                             "description": "开出巨额价码为竞技场招募角斗士的广告。许多塔科夫市民都跃跃欲试想要赚些快钱，哪怕是送命也吓不倒他们。",
                             "types": [
@@ -21891,7 +21891,7 @@
                         "item": {
                             "id": "675a0288c3102563bd01c9c3",
                             "name": "竞技场海报",
-                            "normalizedName": "arena-poster",
+                            "normalizedName": "arena-advertisement-poster",
                             "shortName": "海报",
                             "width": 2,
                             "height": 2,
@@ -117057,7 +117057,7 @@
                         {
                             "id": "58a56f8d86f774651579314c",
                             "name": "SIG MPX Gen1护木2英寸导轨适配器",
-                            "normalizedName": "mpx-gen1-handguard-2-inch-rail",
+                            "normalizedName": "sig-gen1-handguard-2-inch-rail",
                             "shortName": "2In. Gen1",
                             "description": "SIG MPX Gen1护木2英寸导轨连接器，让你能够在一代SIG MPX护木上安装额外配件。",
                             "types": [
@@ -117071,7 +117071,7 @@
                         {
                             "id": "58a5c12e86f7745d585a2b9e",
                             "name": "SIG MPX Gen1护木4英寸导轨适配器",
-                            "normalizedName": "mpx-gen1-handguard-4-inch-rail",
+                            "normalizedName": "sig-gen1-handguard-4-inch-rail",
                             "shortName": "MPX 4\"",
                             "description": "SIG MPX Gen1护木4英寸导轨连接器，让你能够在一代SIG MPX护木上安装额外配件。",
                             "types": [
@@ -164518,7 +164518,7 @@
                         {
                             "id": "58a56f8d86f774651579314c",
                             "name": "SIG MPX Gen1护木2英寸导轨适配器",
-                            "normalizedName": "mpx-gen1-handguard-2-inch-rail",
+                            "normalizedName": "sig-gen1-handguard-2-inch-rail",
                             "shortName": "2In. Gen1",
                             "description": "SIG MPX Gen1护木2英寸导轨连接器，让你能够在一代SIG MPX护木上安装额外配件。",
                             "types": [
@@ -164532,7 +164532,7 @@
                         {
                             "id": "58a5c12e86f7745d585a2b9e",
                             "name": "SIG MPX Gen1护木4英寸导轨适配器",
-                            "normalizedName": "mpx-gen1-handguard-4-inch-rail",
+                            "normalizedName": "sig-gen1-handguard-4-inch-rail",
                             "shortName": "MPX 4\"",
                             "description": "SIG MPX Gen1护木4英寸导轨连接器，让你能够在一代SIG MPX护木上安装额外配件。",
                             "types": [
@@ -211979,7 +211979,7 @@
                         {
                             "id": "58a56f8d86f774651579314c",
                             "name": "SIG MPX Gen1护木2英寸导轨适配器",
-                            "normalizedName": "mpx-gen1-handguard-2-inch-rail",
+                            "normalizedName": "sig-gen1-handguard-2-inch-rail",
                             "shortName": "2In. Gen1",
                             "description": "SIG MPX Gen1护木2英寸导轨连接器，让你能够在一代SIG MPX护木上安装额外配件。",
                             "types": [
@@ -211993,7 +211993,7 @@
                         {
                             "id": "58a5c12e86f7745d585a2b9e",
                             "name": "SIG MPX Gen1护木4英寸导轨适配器",
-                            "normalizedName": "mpx-gen1-handguard-4-inch-rail",
+                            "normalizedName": "sig-gen1-handguard-4-inch-rail",
                             "shortName": "MPX 4\"",
                             "description": "SIG MPX Gen1护木4英寸导轨连接器，让你能够在一代SIG MPX护木上安装额外配件。",
                             "types": [
@@ -265176,7 +265176,7 @@
                         {
                             "id": "58a56f8d86f774651579314c",
                             "name": "SIG MPX Gen1护木2英寸导轨适配器",
-                            "normalizedName": "mpx-gen1-handguard-2-inch-rail",
+                            "normalizedName": "sig-gen1-handguard-2-inch-rail",
                             "shortName": "2In. Gen1",
                             "description": "SIG MPX Gen1护木2英寸导轨连接器，让你能够在一代SIG MPX护木上安装额外配件。",
                             "types": [
@@ -265190,7 +265190,7 @@
                         {
                             "id": "58a5c12e86f7745d585a2b9e",
                             "name": "SIG MPX Gen1护木4英寸导轨适配器",
-                            "normalizedName": "mpx-gen1-handguard-4-inch-rail",
+                            "normalizedName": "sig-gen1-handguard-4-inch-rail",
                             "shortName": "MPX 4\"",
                             "description": "SIG MPX Gen1护木4英寸导轨连接器，让你能够在一代SIG MPX护木上安装额外配件。",
                             "types": [
