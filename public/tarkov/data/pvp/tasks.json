@@ -4501,6 +4501,7 @@
                 ],
                 "traderUnlock": [],
                 "achievement": [],
+                "craftUnlock": [],
                 "traderStanding": [
                     {
                         "standing": 0.02,
@@ -4615,8 +4616,7 @@
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mosin_Rifle_AIM_Sports_Recoil_Pad"
                         }
                     }
-                ],
-                "craftUnlock": []
+                ]
             }
         },
         {
@@ -6310,6 +6310,12 @@
                     {
                         "id": "655b4f57769de97e1d62d116",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -6330,13 +6336,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_BT_gzh"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -21572,6 +21572,12 @@
                     {
                         "id": "5e66408286f7747b2c2d7786",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -21592,13 +21598,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VOG-25_Khattabka_improvised_hand_grenade"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -48434,6 +48434,12 @@
                     {
                         "id": "655b457c9db22d43ab42b706",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -48454,13 +48460,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Blackout_M62_Tracer"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -50199,6 +50199,12 @@
                     {
                         "id": "5dceb6964a98801ba2075d27",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -50219,13 +50225,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80A1"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -58755,6 +58755,12 @@
                     {
                         "id": "66509e8c9398c9c9e10a31bb",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fcd654e7668ec2ec322",
+                            "name": "医疗站",
+                            "normalizedName": "medstation",
+                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -58776,13 +58782,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/2A2-(b-TG)_stimulant_injector"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fcd654e7668ec2ec322",
-                            "name": "医疗站",
-                            "normalizedName": "medstation",
-                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -72313,6 +72313,12 @@
                     {
                         "id": "5dde60e0e2c8f57eb6465327",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -72333,13 +72339,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9x39mm_PAB-9_gs"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -76441,6 +76441,12 @@
                     {
                         "id": "5d5c1f25d582a5479d4ec458",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -76461,13 +76467,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_PP_gs"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -290782,6 +290782,12 @@
                     {
                         "id": "655b33429db22d43ab42b704",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -290802,13 +290808,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_BP_gs"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -291842,6 +291842,12 @@
                     {
                         "id": "655b5af31273611d2462ab76",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -291862,13 +291868,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/12/70_AP-20_armor-piercing_slug"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -297071,6 +297071,12 @@
                     {
                         "id": "655b5fd2975a7f3c734661a8",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -297092,13 +297098,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/First_Spear_Strandhogg_plate_carrier_(Ranger_Green)"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -303224,6 +303224,12 @@
                     {
                         "id": "655b5ebc32b0b1645e6f54c9",
                         "level": 1,
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -303244,13 +303250,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6B23-2_body_armor_(Mountain_Flora)"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -305334,6 +305334,12 @@
                     {
                         "id": "655b65fc1273611d2462ab77",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -305355,13 +305361,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.11_Tactical_TacTec_plate_carrier_(Ranger_Green)"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -306759,6 +306759,12 @@
                     {
                         "id": "655b63ac9db22d43ab42b70a",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -306780,13 +306786,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ars_Arma_A18_Skanda_plate_carrier_(MultiCam)"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -317779,6 +317779,63 @@
                     }
                 }
             ],
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "craftUnlock": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.05,
+                        "trader": {
+                            "id": "58330581ace78e27b8b10cee",
+                            "name": "Skier",
+                            "normalizedName": "skier",
+                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 100000,
+                        "quantity": 100000,
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "60b7c2bd95047637182d90a4",
+                            "name": "MP-155 12铅径 半自动霰弹枪 Ultima",
+                            "normalizedName": "mp-155-12ga-semi-automatic-shotgun-ultima-2",
+                            "shortName": "MP-155 Ultima",
+                            "width": 5,
+                            "height": 2,
+                            "types": [
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/60b7c2bd95047637182d90a4-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-155_12ga_semi-automatic_shotgun"
+                        }
+                    }
+                ]
+            },
             "objectives": [
                 {
                     "__typename": "TaskObjectiveShoot",
@@ -318200,64 +318257,7 @@
                         ]
                     ]
                 }
-            ],
-            "finishRewards": {
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.05,
-                        "trader": {
-                            "id": "58330581ace78e27b8b10cee",
-                            "name": "Skier",
-                            "normalizedName": "skier",
-                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 100000,
-                        "quantity": 100000,
-                        "item": {
-                            "id": "5449016a4bdc2d6f028b456f",
-                            "name": "卢布",
-                            "normalizedName": "roubles",
-                            "shortName": "卢布",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "60b7c2bd95047637182d90a4",
-                            "name": "MP-155 12铅径 半自动霰弹枪 Ultima",
-                            "normalizedName": "mp-155-12ga-semi-automatic-shotgun-ultima-2",
-                            "shortName": "MP-155 Ultima",
-                            "width": 5,
-                            "height": 2,
-                            "types": [
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/60b7c2bd95047637182d90a4-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-155_12ga_semi-automatic_shotgun"
-                        }
-                    }
-                ],
-                "craftUnlock": []
-            }
+            ]
         },
         {
             "id": "5c0d0f1886f77457b8210226",
@@ -320922,6 +320922,12 @@
                     {
                         "id": "655b675e1f2b6843ec751fd6",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -320943,13 +320949,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NPP_KlASS_Bagariy_plate_carrier_(EMR)"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -322064,6 +322064,12 @@
                     {
                         "id": "63baedefe6ebc10fe0201083",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -322084,13 +322090,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/4.6x30mm_AP_SX"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -324575,6 +324575,12 @@
                     {
                         "id": "63a571802116d261d2336cd1",
                         "level": 1,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -324594,13 +324600,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Radio_repeater"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -326306,6 +326306,12 @@
                     {
                         "id": "6399c421d65735732c6ba765",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fdf654e7600691aadf8",
+                            "name": "情报中心",
+                            "normalizedName": "intelligence-center",
+                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -326326,13 +326332,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Digital_secure_DSP_radio_transmitter"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fdf654e7600691aadf8",
-                            "name": "情报中心",
-                            "normalizedName": "intelligence-center",
-                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -327555,6 +327555,12 @@
                     {
                         "id": "5ed9ff023a68ec264e5233c2",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fdf654e7600691aadf8",
+                            "name": "情报中心",
+                            "normalizedName": "intelligence-center",
+                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -327574,13 +327580,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Virtex_programmable_processor"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fdf654e7600691aadf8",
-                            "name": "情报中心",
-                            "normalizedName": "intelligence-center",
-                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -327822,6 +327822,7 @@
                 "customization": [],
                 "traderUnlock": [],
                 "achievement": [],
+                "craftUnlock": [],
                 "traderStanding": [
                     {
                         "standing": 0.01,
@@ -327879,8 +327880,7 @@
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
                         }
                     }
-                ],
-                "craftUnlock": []
+                ]
             }
         },
         {
@@ -328281,6 +328281,12 @@
                     {
                         "id": "5ee4a093a297eb185236194f",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fdf654e7600691aadf8",
+                            "name": "情报中心",
+                            "normalizedName": "intelligence-center",
+                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -328300,13 +328306,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/UHF_RFID_Reader"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fdf654e7600691aadf8",
-                            "name": "情报中心",
-                            "normalizedName": "intelligence-center",
-                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -328968,6 +328968,7 @@
                 "customization": [],
                 "traderUnlock": [],
                 "achievement": [],
+                "craftUnlock": [],
                 "traderStanding": [
                     {
                         "standing": 0.03,
@@ -328998,8 +328999,7 @@
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Silicon_Optoelectronic_Integrated_Circuits_textbook"
                         }
                     }
-                ],
-                "craftUnlock": []
+                ]
             }
         },
         {
@@ -329518,6 +329518,12 @@
                     {
                         "id": "60048c82a7903e00382d9593",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -329538,13 +329544,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/FLIR_RS-32_2.25-9x_35mm_60Hz_thermal_riflescope"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -330548,6 +330548,12 @@
                     {
                         "id": "63a232f8ab6bb51044344bff",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -330568,13 +330574,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -330747,6 +330747,12 @@
                     {
                         "id": "63a2327c151bfb591645c104",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -330767,13 +330773,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Trijicon_REAP-IR_thermal_scope"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -335198,6 +335198,12 @@
                     {
                         "id": "655b4489065b076eb02c4b45",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -335218,13 +335224,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -344792,6 +344792,12 @@
                     {
                         "id": "6012ee7e44a0465ee67a58de",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fcd654e7668ec2ec322",
+                            "name": "医疗站",
+                            "normalizedName": "medstation",
+                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -344813,17 +344819,17 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/M.U.L.E._stimulant_injector"
                                 }
                             }
-                        ],
+                        ]
+                    },
+                    {
+                        "id": "64b6b5c1c3abf20a9660daad",
+                        "level": 2,
                         "station": {
                             "id": "5d484fcd654e7668ec2ec322",
                             "name": "医疗站",
                             "normalizedName": "medstation",
                             "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                        }
-                    },
-                    {
-                        "id": "64b6b5c1c3abf20a9660daad",
-                        "level": 2,
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -344845,13 +344851,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ETG-change_regenerative_stimulant_injector"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fcd654e7668ec2ec322",
-                            "name": "医疗站",
-                            "normalizedName": "medstation",
-                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -345633,6 +345633,12 @@
                     {
                         "id": "63a2327c151bfb591645c104",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -345653,13 +345659,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Trijicon_REAP-IR_thermal_scope"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -352187,6 +352187,12 @@
                     {
                         "id": "6839a4b18b47de9b76007028",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -352207,13 +352213,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TheAKGuy_AK-50_.50_BMG_anti-materiel_rifle"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -352657,6 +352657,12 @@
                     {
                         "id": "655b4a73975a7f3c734661a5",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -352677,13 +352683,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_BP_gzh"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -352833,6 +352833,12 @@
                     {
                         "id": "655b4669b71eeb7c4168c625",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -352853,13 +352859,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Blackout_AP"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -356374,6 +356374,12 @@
                     {
                         "id": "655b6a50b71eeb7c4168c628",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -356395,13 +356401,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rys-T_bulletproof_helmet_(Black)"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -356762,6 +356762,12 @@
                     {
                         "id": "6002eec9cc73cd34ac64188a",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fcd654e7668ec2ec322",
+                            "name": "医疗站",
+                            "normalizedName": "medstation",
+                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -356783,13 +356789,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/XTG-12_antidote_injector"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fcd654e7668ec2ec322",
-                            "name": "医疗站",
-                            "normalizedName": "medstation",
-                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                        }
+                        ]
                     }
                 ]
             }
