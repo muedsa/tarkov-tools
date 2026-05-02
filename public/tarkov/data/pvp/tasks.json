@@ -4501,6 +4501,7 @@
                 ],
                 "traderUnlock": [],
                 "achievement": [],
+                "craftUnlock": [],
                 "traderStanding": [
                     {
                         "standing": 0.02,
@@ -4615,8 +4616,7 @@
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mosin_Rifle_AIM_Sports_Recoil_Pad"
                         }
                     }
-                ],
-                "craftUnlock": []
+                ]
             }
         },
         {
@@ -6638,7 +6638,7 @@
                         "item": {
                             "id": "mosinsniperatacr00000001",
                             "name": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型） NF 7-35x56",
-                            "normalizedName": "mosin-762x54r-bolt-action-rifle-sniper-atacr-7-35-2",
+                            "normalizedName": "mosin-762x54r-bolt-action-rifle-sniper-atacr-7-35",
                             "shortName": "莫辛狙击型 NF 7-35x56",
                             "width": 7,
                             "height": 2,
@@ -13737,7 +13737,7 @@
                         "item": {
                             "id": "5d38517786f7742a1468cf6a",
                             "name": "雷明顿Model 700 7.62x51 狙击步枪 MRS",
-                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-mrs-2",
+                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-mrs",
                             "shortName": "M700 MRS",
                             "width": 5,
                             "height": 2,
@@ -18072,7 +18072,7 @@
                         "item": {
                             "id": "5a88ad7b86f77479aa7226af",
                             "name": "GLOCK 17 9x19手枪 Tac 3",
-                            "normalizedName": "glock-17-9x19-pistol-tac-3-2",
+                            "normalizedName": "glock-17-9x19-pistol-tac-3",
                             "shortName": "GLOCK17 Tac 3",
                             "width": 2,
                             "height": 2,
@@ -19305,7 +19305,7 @@
                         "item": {
                             "id": "624d7ae691f0160c7324c402",
                             "name": "Chiappa 犀牛 50DS .357 左轮手枪 Tactical",
-                            "normalizedName": "chiappa-rhino-50ds-357-revolver-tactical-2",
+                            "normalizedName": "chiappa-rhino-50ds-357-revolver-tactical",
                             "shortName": "CR 50DS Tactical",
                             "width": 2,
                             "height": 1,
@@ -19488,7 +19488,7 @@
                         "item": {
                             "id": "707265736574000000000040",
                             "name": "西蒙诺夫 OP-SKS 7.62x39 卡宾枪 UAS SKS",
-                            "normalizedName": "molot-arms-simonov-op-sks-762x39-carbine-uas-sks-2",
+                            "normalizedName": "molot-arms-simonov-op-sks-762x39-carbine-uas-sks",
                             "shortName": "OP-SKS UAS SKS",
                             "width": 5,
                             "height": 2,
@@ -20047,7 +20047,7 @@
                         "item": {
                             "id": "70726573657400000000000f",
                             "name": "联盟-TM STM-9 Gen.2 9x19 卡宾枪 STM9制退器",
-                            "normalizedName": "soyuz-tm-stm-9-gen2-9x19-carbine-stm9-mb-2",
+                            "normalizedName": "soyuz-tm-stm-9-gen2-9x19-carbine-stm9-mb",
                             "shortName": "STM-9 STM9制退器",
                             "width": 4,
                             "height": 2,
@@ -20690,7 +20690,7 @@
                         "item": {
                             "id": "707265736574000000000036",
                             "name": "RPK-16 5.45x39 轻机枪 Drum",
-                            "normalizedName": "rpk-16-545x39-light-machine-gun-drum-2",
+                            "normalizedName": "rpk-16-545x39-light-machine-gun-drum",
                             "shortName": "RPK-16 RPK-16 MB",
                             "width": 5,
                             "height": 2,
@@ -21155,7 +21155,7 @@
                         "item": {
                             "id": "5a8ae65f86f774377a23ed55",
                             "name": "PP-19-01 勇士 9x19 冲锋枪 Zenit",
-                            "normalizedName": "pp-19-01-vityaz-9x19-submachine-gun-zenit-2",
+                            "normalizedName": "pp-19-01-vityaz-9x19-submachine-gun-zenit",
                             "shortName": "PP-19-01 Zenit",
                             "width": 4,
                             "height": 2,
@@ -21178,7 +21178,7 @@
                         "item": {
                             "id": "5a8ae65f86f774377a23ed55",
                             "name": "PP-19-01 勇士 9x19 冲锋枪 Zenit",
-                            "normalizedName": "pp-19-01-vityaz-9x19-submachine-gun-zenit-2",
+                            "normalizedName": "pp-19-01-vityaz-9x19-submachine-gun-zenit",
                             "shortName": "PP-19-01 Zenit",
                             "width": 4,
                             "height": 2,
@@ -26325,7 +26325,7 @@
                         "item": {
                             "id": "59411abb86f77478f702b5d2",
                             "name": "HK MP5 9x19 冲锋枪（海军三发点射） SD",
-                            "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst-sd-2",
+                            "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst-sd",
                             "shortName": "MP5 SD",
                             "width": 4,
                             "height": 2,
@@ -27610,7 +27610,7 @@
                         "item": {
                             "id": "707265736574000000000037",
                             "name": "沙漠科技 MDR 5.56x45 突击步枪 Gemtech ONE",
-                            "normalizedName": "desert-tech-mdr-556x45-assault-rifle-one-2",
+                            "normalizedName": "desert-tech-mdr-556x45-assault-rifle-one",
                             "shortName": "MDR Gemtech ONE",
                             "width": 5,
                             "height": 2,
@@ -30772,7 +30772,7 @@
                         "item": {
                             "id": "707265736574000000000045",
                             "name": "雷明顿Model 700 7.62x51 狙击步枪 Vudu 1-6",
-                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-vudu-1-6-2",
+                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-vudu-1-6",
                             "shortName": "M700 Vudu 1-6",
                             "width": 5,
                             "height": 2,
@@ -31110,7 +31110,7 @@
                         "item": {
                             "id": "59e8d2b386f77445830dd299",
                             "name": "DVL-10 7.62x51 栓动式狙击步枪 Saboteur",
-                            "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle-saboteur-2",
+                            "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle-saboteur",
                             "shortName": "DVL-10 Saboteur",
                             "width": 5,
                             "height": 2,
@@ -32243,7 +32243,7 @@
                         "item": {
                             "id": "58dffd4586f77408a27629b2",
                             "name": "SIG MPX 9x19 冲锋枪 Silenced",
-                            "normalizedName": "sig-mpx-9x19-submachine-gun-silenced-2",
+                            "normalizedName": "sig-mpx-9x19-submachine-gun-silenced",
                             "shortName": "MPX Silenced",
                             "width": 4,
                             "height": 2,
@@ -36160,7 +36160,7 @@
                         "item": {
                             "id": "58dffd4586f77408a27629b2",
                             "name": "SIG MPX 9x19 冲锋枪 Silenced",
-                            "normalizedName": "sig-mpx-9x19-submachine-gun-silenced-2",
+                            "normalizedName": "sig-mpx-9x19-submachine-gun-silenced",
                             "shortName": "MPX Silenced",
                             "width": 4,
                             "height": 2,
@@ -38549,7 +38549,7 @@
                         "item": {
                             "id": "m4a1kacrisii000000000001",
                             "name": "柯尔特 M4A1 5.56x45 卡宾枪 KAC RIS",
-                            "normalizedName": "colt-m4a1-556x45-assault-rifle-kac-ris-2",
+                            "normalizedName": "colt-m4a1-556x45-assault-rifle-kac-ris",
                             "shortName": "M4A1 KAC RIS",
                             "width": 5,
                             "height": 2,
@@ -46674,7 +46674,7 @@
                         "item": {
                             "id": "5d383ee786f7742a15793860",
                             "name": "雷明顿Model 700 7.62x51 狙击步枪 ARCH",
-                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-arch-2",
+                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-arch",
                             "shortName": "M700 ARCH",
                             "width": 5,
                             "height": 2,
@@ -46697,7 +46697,7 @@
                         "item": {
                             "id": "5d383e1a86f7742a1468ce63",
                             "name": "雷明顿Model 700 7.62x51 狙击步枪 AICS",
-                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-aics-2",
+                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-aics",
                             "shortName": "M700 AICS",
                             "width": 5,
                             "height": 2,
@@ -46720,7 +46720,7 @@
                         "item": {
                             "id": "5d383f5d86f7742a15793872",
                             "name": "雷明顿Model 700 7.62x51 狙击步枪 PRO",
-                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-pro-2",
+                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-pro",
                             "shortName": "M700 PRO",
                             "width": 5,
                             "height": 2,
@@ -46743,7 +46743,7 @@
                         "item": {
                             "id": "5d38517786f7742a1468cf6a",
                             "name": "雷明顿Model 700 7.62x51 狙击步枪 MRS",
-                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-mrs-2",
+                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-mrs",
                             "shortName": "M700 MRS",
                             "width": 5,
                             "height": 2,
@@ -50138,7 +50138,7 @@
                         "item": {
                             "id": "59e8d2b386f77445830dd299",
                             "name": "DVL-10 7.62x51 栓动式狙击步枪 Saboteur",
-                            "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle-saboteur-2",
+                            "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle-saboteur",
                             "shortName": "DVL-10 Saboteur",
                             "width": 5,
                             "height": 2,
@@ -50448,7 +50448,7 @@
                         "item": {
                             "id": "5a88ae4a86f77457fd2c0dae",
                             "name": "GLOCK 17 9x19手枪 Viper",
-                            "normalizedName": "glock-17-9x19-pistol-viper-2",
+                            "normalizedName": "glock-17-9x19-pistol-viper",
                             "shortName": "GLOCK17 Viper",
                             "width": 2,
                             "height": 2,
@@ -55900,7 +55900,7 @@
                         "item": {
                             "id": "5b83f22086f77464e15a1d5f",
                             "name": "DS Arms SA-58 7.62x51 突击步枪 AUT",
-                            "normalizedName": "ds-arms-sa58-762x51-assault-rifle-aut-2",
+                            "normalizedName": "ds-arms-sa58-762x51-assault-rifle-aut",
                             "shortName": "SA-58 AUT",
                             "width": 6,
                             "height": 2,
@@ -62923,7 +62923,7 @@
                         "item": {
                             "id": "618ab04934aa2e47480fba2b",
                             "name": "AK-104 7.62x39 突击步枪 RPKT mod.1",
-                            "normalizedName": "kalashnikov-ak-104-762x39-assault-rifle-rpkt-mod1-2",
+                            "normalizedName": "kalashnikov-ak-104-762x39-assault-rifle-rpkt-mod1",
                             "shortName": "AK-104 RPKT mod.1",
                             "width": 4,
                             "height": 2,
@@ -62969,7 +62969,7 @@
                         "item": {
                             "id": "618ab04934aa2e47480fba2b",
                             "name": "AK-104 7.62x39 突击步枪 RPKT mod.1",
-                            "normalizedName": "kalashnikov-ak-104-762x39-assault-rifle-rpkt-mod1-2",
+                            "normalizedName": "kalashnikov-ak-104-762x39-assault-rifle-rpkt-mod1",
                             "shortName": "AK-104 RPKT mod.1",
                             "width": 4,
                             "height": 2,
@@ -63302,7 +63302,7 @@
                         "item": {
                             "id": "6193e108c1982475fa2a7f16",
                             "name": "FN SCAR-L 5.56x45突击步枪 （FDE） CQC",
-                            "normalizedName": "fn-scar-l-556x45-assault-rifle-fde-cqc-2",
+                            "normalizedName": "fn-scar-l-556x45-assault-rifle-fde-cqc",
                             "shortName": "Mk 16 CQC",
                             "width": 4,
                             "height": 2,
@@ -69493,7 +69493,7 @@
                         "item": {
                             "id": "58dffc5d86f77407c744a847",
                             "name": "DVL-10 7.62x51 栓动式狙击步枪 Urbana",
-                            "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle-urbana-2",
+                            "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle-urbana",
                             "shortName": "DVL-10 Urbana",
                             "width": 6,
                             "height": 2,
@@ -75959,7 +75959,7 @@
                         "item": {
                             "id": "5af08cc686f77424a61595f2",
                             "name": "柯尔特 M4A1 5.56x45 卡宾枪 SOPMOD I",
-                            "normalizedName": "colt-m4a1-556x45-assault-rifle-sopmod-i-2",
+                            "normalizedName": "colt-m4a1-556x45-assault-rifle-sopmod-i",
                             "shortName": "M4A1 SOPMOD I",
                             "width": 5,
                             "height": 2,
@@ -76206,7 +76206,7 @@
                         "item": {
                             "id": "58dffc5d86f77407c744a847",
                             "name": "DVL-10 7.62x51 栓动式狙击步枪 Urbana",
-                            "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle-urbana-2",
+                            "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle-urbana",
                             "shortName": "DVL-10 Urbana",
                             "width": 6,
                             "height": 2,
@@ -76709,7 +76709,7 @@
                         "item": {
                             "id": "58dffc5d86f77407c744a847",
                             "name": "DVL-10 7.62x51 栓动式狙击步枪 Urbana",
-                            "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle-urbana-2",
+                            "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle-urbana",
                             "shortName": "DVL-10 Urbana",
                             "width": 6,
                             "height": 2,
@@ -77960,7 +77960,7 @@
                         "item": {
                             "id": "58dffc5d86f77407c744a847",
                             "name": "DVL-10 7.62x51 栓动式狙击步枪 Urbana",
-                            "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle-urbana-2",
+                            "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle-urbana",
                             "shortName": "DVL-10 Urbana",
                             "width": 6,
                             "height": 2,
@@ -80045,7 +80045,7 @@
                         "item": {
                             "id": "m4a1sopmodiiflash0000001",
                             "name": "柯尔特 M4A1 5.56x45 卡宾枪 SOPMOD II Flash",
-                            "normalizedName": "colt-m4a1-556x45-assault-rifle-sopmod-ii-flash-2",
+                            "normalizedName": "colt-m4a1-556x45-assault-rifle-sopmod-ii-flash",
                             "shortName": "M4A1 SOPMOD II Flash",
                             "width": 5,
                             "height": 2,
@@ -287671,7 +287671,7 @@
                         "item": {
                             "id": "59411abb86f77478f702b5d2",
                             "name": "HK MP5 9x19 冲锋枪（海军三发点射） SD",
-                            "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst-sd-2",
+                            "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst-sd",
                             "shortName": "MP5 SD",
                             "width": 4,
                             "height": 2,
@@ -288362,7 +288362,7 @@
                         "item": {
                             "id": "5a327f7c86f77475187e509a",
                             "name": "谢尔久科夫 SR1MP 9x21 “斑蝰蛇” 半自动手枪 Tactical 2",
-                            "normalizedName": "serdyukov-sr-1mp-gyurza-9x21-pistol-tactical-2-2",
+                            "normalizedName": "serdyukov-sr-1mp-gyurza-9x21-pistol-tactical-2",
                             "shortName": "SR-1MP Tactical 2",
                             "width": 3,
                             "height": 1,
@@ -288925,7 +288925,7 @@
                         "item": {
                             "id": "63986a9ab483a550805be5ee",
                             "name": "SR-2M 石楠 9x21 毫米冲锋枪 FSB",
-                            "normalizedName": "sr-2m-veresk-9x21-submachine-gun-fsb-2",
+                            "normalizedName": "sr-2m-veresk-9x21-submachine-gun-fsb",
                             "shortName": "SR-2M FSB",
                             "width": 4,
                             "height": 2,
@@ -289880,7 +289880,7 @@
                         "item": {
                             "id": "ak12sd000000000000000001",
                             "name": "AK-12 5.45x39突击步枪 Silenced",
-                            "normalizedName": "kalashnikov-ak-12-545x39-assault-rifle-silenced-2",
+                            "normalizedName": "kalashnikov-ak-12-545x39-assault-rifle-silenced",
                             "shortName": "AK-12 Silenced",
                             "width": 6,
                             "height": 2,
@@ -290036,7 +290036,7 @@
                         "item": {
                             "id": "707265736574000000000010",
                             "name": "TKPD 9.3x64 突击卡宾枪 XPS3-2",
-                            "normalizedName": "tkpd-93x64-carbine-xps3-2-2",
+                            "normalizedName": "tkpd-93x64-carbine-xps3-2",
                             "shortName": "TKPD XPS3-2",
                             "width": 5,
                             "height": 2,
@@ -290081,7 +290081,7 @@
                         "item": {
                             "id": "707265736574000000000010",
                             "name": "TKPD 9.3x64 突击卡宾枪 XPS3-2",
-                            "normalizedName": "tkpd-93x64-carbine-xps3-2-2",
+                            "normalizedName": "tkpd-93x64-carbine-xps3-2",
                             "shortName": "TKPD XPS3-2",
                             "width": 5,
                             "height": 2,
@@ -290748,7 +290748,7 @@
                         "item": {
                             "id": "5b83f23a86f7746d3d190a73",
                             "name": "DS Arms SA-58 7.62x51 突击步枪 BEL",
-                            "normalizedName": "ds-arms-sa58-762x51-assault-rifle-bel-2",
+                            "normalizedName": "ds-arms-sa58-762x51-assault-rifle-bel",
                             "shortName": "SA-58 BEL",
                             "width": 6,
                             "height": 2,
@@ -291596,7 +291596,7 @@
                         "item": {
                             "id": "64c390af8427c75665190d1d",
                             "name": "Tokarev SVT-40 7.62x54R步枪 Sniper",
-                            "normalizedName": "tokarev-svt-40-762x54r-rifle-sniper-2",
+                            "normalizedName": "tokarev-svt-40-762x54r-rifle-sniper",
                             "shortName": "SVT-40 Sniper",
                             "width": 6,
                             "height": 1,
@@ -291744,7 +291744,7 @@
                         "item": {
                             "id": "59411abb86f77478f702b5d2",
                             "name": "HK MP5 9x19 冲锋枪（海军三发点射） SD",
-                            "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst-sd-2",
+                            "normalizedName": "hk-mp5-9x19-submachine-gun-navy-3-round-burst-sd",
                             "shortName": "MP5 SD",
                             "width": 4,
                             "height": 2,
@@ -291909,7 +291909,7 @@
                         "item": {
                             "id": "ash12silenced00000000001",
                             "name": "ASh-12 12.7x55 突击步枪 Silenced",
-                            "normalizedName": "ash-12-127x55-assault-rifle-silenced-2",
+                            "normalizedName": "ash-12-127x55-assault-rifle-silenced",
                             "shortName": "ASh-12 Silenced",
                             "width": 5,
                             "height": 2,
@@ -292409,7 +292409,7 @@
                         "item": {
                             "id": "5dd800eae49222636663133b",
                             "name": "柯尔特 M4A1 5.56x45 卡宾枪 SAI",
-                            "normalizedName": "colt-m4a1-556x45-assault-rifle-sai-2",
+                            "normalizedName": "colt-m4a1-556x45-assault-rifle-sai",
                             "shortName": "M4A1 SAI",
                             "width": 4,
                             "height": 2,
@@ -292433,7 +292433,7 @@
                         "item": {
                             "id": "5dd800eae49222636663133b",
                             "name": "柯尔特 M4A1 5.56x45 卡宾枪 SAI",
-                            "normalizedName": "colt-m4a1-556x45-assault-rifle-sai-2",
+                            "normalizedName": "colt-m4a1-556x45-assault-rifle-sai",
                             "shortName": "M4A1 SAI",
                             "width": 4,
                             "height": 2,
@@ -298013,7 +298013,7 @@
                         "item": {
                             "id": "707265736574000000000053",
                             "name": "Saiga-12K 12 铅径自动霰弹枪 COMP M4",
-                            "normalizedName": "saiga-12k-12ga-automatic-shotgun-compm4-2",
+                            "normalizedName": "saiga-12k-12ga-automatic-shotgun-compm4",
                             "shortName": "Saiga-12K FA COMP M4",
                             "width": 6,
                             "height": 2,
@@ -302013,7 +302013,7 @@
                         "item": {
                             "id": "619e61e70459e93c12392ba7",
                             "name": "FN SCAR-L 5.56x45突击步枪 （FDE） Contract Wars",
-                            "normalizedName": "fn-scar-l-556x45-assault-rifle-fde-contract-wars-2",
+                            "normalizedName": "fn-scar-l-556x45-assault-rifle-fde-contract-wars",
                             "shortName": "Mk 16 Contract Wars",
                             "width": 5,
                             "height": 2,
@@ -302083,7 +302083,7 @@
                         "item": {
                             "id": "619e61e70459e93c12392ba7",
                             "name": "FN SCAR-L 5.56x45突击步枪 （FDE） Contract Wars",
-                            "normalizedName": "fn-scar-l-556x45-assault-rifle-fde-contract-wars-2",
+                            "normalizedName": "fn-scar-l-556x45-assault-rifle-fde-contract-wars",
                             "shortName": "Mk 16 Contract Wars",
                             "width": 5,
                             "height": 2,
@@ -302765,7 +302765,7 @@
                         "item": {
                             "id": "ak12valday00000000000001",
                             "name": "AK-12 5.45x39突击步枪 PS320 1/6x",
-                            "normalizedName": "kalashnikov-ak-12-545x39-assault-rifle-ps-320-2",
+                            "normalizedName": "kalashnikov-ak-12-545x39-assault-rifle-ps-320",
                             "shortName": "AK-12 PS320 1/6x",
                             "width": 6,
                             "height": 2,
@@ -307509,7 +307509,7 @@
                         "item": {
                             "id": "m4a1kacrisii000000000001",
                             "name": "柯尔特 M4A1 5.56x45 卡宾枪 KAC RIS",
-                            "normalizedName": "colt-m4a1-556x45-assault-rifle-kac-ris-2",
+                            "normalizedName": "colt-m4a1-556x45-assault-rifle-kac-ris",
                             "shortName": "M4A1 KAC RIS",
                             "width": 5,
                             "height": 2,
@@ -307604,7 +307604,7 @@
                         "item": {
                             "id": "5c123fe086f7742a60324263",
                             "name": "春田 M1A 7.62x51 步枪 2k18 NY",
-                            "normalizedName": "springfield-armory-m1a-762x51-rifle-2k18-ny-2",
+                            "normalizedName": "springfield-armory-m1a-762x51-rifle-2k18-ny",
                             "shortName": "M1A 2k18 NY",
                             "width": 6,
                             "height": 2,
@@ -308648,7 +308648,7 @@
                         "item": {
                             "id": "vepruntersvd000000000001",
                             "name": "VPO-101 Vepr-Hunter 7.62x51 卡宾枪 SVD 7.62x54",
-                            "normalizedName": "molot-arms-vpo-101-vepr-hunter-762x51-carbine-svd-2",
+                            "normalizedName": "molot-arms-vpo-101-vepr-hunter-762x51-carbine-svd",
                             "shortName": "Hunter SVD 7.62x54",
                             "width": 6,
                             "height": 2,
@@ -309077,7 +309077,7 @@
                         "item": {
                             "id": "707265736574000000000047",
                             "name": "MP-43-1C双管霰弹枪 Short",
-                            "normalizedName": "mp-43-1c-12ga-double-barrel-shotgun-short-2",
+                            "normalizedName": "mp-43-1c-12ga-double-barrel-shotgun-short",
                             "shortName": "MP43e Short",
                             "width": 4,
                             "height": 1,
@@ -313549,7 +313549,7 @@
                         "item": {
                             "id": "707265736574000000000044",
                             "name": "RPDN 7.62x39 轻机枪 1P78-1",
-                            "normalizedName": "degtyarev-rpdn-762x39-machine-gun-1p78-1-2",
+                            "normalizedName": "degtyarev-rpdn-762x39-machine-gun-1p78-1",
                             "shortName": "RPDN 1P78-1",
                             "width": 6,
                             "height": 3,
@@ -313905,7 +313905,7 @@
                         "item": {
                             "id": "5c0c1dba86f7743e667da897",
                             "name": "雷明顿Model 700 7.62x51 狙击步枪 AAC SD",
-                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-aac-sd-2",
+                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-aac-sd",
                             "shortName": "M700 AAC SD",
                             "width": 6,
                             "height": 1,
@@ -315656,7 +315656,7 @@
                         "item": {
                             "id": "619d26ccc7791e3af27ae3cd",
                             "name": "HK USP .45 ACP手枪 Match",
-                            "normalizedName": "hk-usp-45-acp-pistol-match-2",
+                            "normalizedName": "hk-usp-45-acp-pistol-match",
                             "shortName": "USP .45 Match",
                             "width": 2,
                             "height": 1,
@@ -316932,6 +316932,63 @@
                     }
                 }
             ],
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "craftUnlock": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.05,
+                        "trader": {
+                            "id": "58330581ace78e27b8b10cee",
+                            "name": "Skier",
+                            "normalizedName": "skier",
+                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 100000,
+                        "quantity": 100000,
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "60b7c2bd95047637182d90a4",
+                            "name": "MP-155 12铅径 半自动霰弹枪 Ultima",
+                            "normalizedName": "mp-155-12ga-semi-automatic-shotgun-ultima",
+                            "shortName": "MP-155 Ultima",
+                            "width": 5,
+                            "height": 2,
+                            "types": [
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/60b7c2bd95047637182d90a4-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-155_12ga_semi-automatic_shotgun"
+                        }
+                    }
+                ]
+            },
             "objectives": [
                 {
                     "__typename": "TaskObjectiveShoot",
@@ -317353,64 +317410,7 @@
                         ]
                     ]
                 }
-            ],
-            "finishRewards": {
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.05,
-                        "trader": {
-                            "id": "58330581ace78e27b8b10cee",
-                            "name": "Skier",
-                            "normalizedName": "skier",
-                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 100000,
-                        "quantity": 100000,
-                        "item": {
-                            "id": "5449016a4bdc2d6f028b456f",
-                            "name": "卢布",
-                            "normalizedName": "roubles",
-                            "shortName": "卢布",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "60b7c2bd95047637182d90a4",
-                            "name": "MP-155 12铅径 半自动霰弹枪 Ultima",
-                            "normalizedName": "mp-155-12ga-semi-automatic-shotgun-ultima-2",
-                            "shortName": "MP-155 Ultima",
-                            "width": 5,
-                            "height": 2,
-                            "types": [
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/60b7c2bd95047637182d90a4-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-155_12ga_semi-automatic_shotgun"
-                        }
-                    }
-                ],
-                "craftUnlock": []
-            }
+            ]
         },
         {
             "id": "5c0d0f1886f77457b8210226",
@@ -318475,7 +318475,7 @@
                         "item": {
                             "id": "m4a1kacrisii000000000001",
                             "name": "柯尔特 M4A1 5.56x45 卡宾枪 KAC RIS",
-                            "normalizedName": "colt-m4a1-556x45-assault-rifle-kac-ris-2",
+                            "normalizedName": "colt-m4a1-556x45-assault-rifle-kac-ris",
                             "shortName": "M4A1 KAC RIS",
                             "width": 5,
                             "height": 2,
@@ -319018,7 +319018,7 @@
                         "item": {
                             "id": "5c0c1dba86f7743e667da897",
                             "name": "雷明顿Model 700 7.62x51 狙击步枪 AAC SD",
-                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-aac-sd-2",
+                            "normalizedName": "remington-model-700-762x51-bolt-action-sniper-rifle-aac-sd",
                             "shortName": "M700 AAC SD",
                             "width": 6,
                             "height": 1,
@@ -319634,7 +319634,7 @@
                         "item": {
                             "id": "rpk166l26000000000000001",
                             "name": "RPK-16 5.45x39 轻机枪 6L26",
-                            "normalizedName": "rpk-16-545x39-light-machine-gun-6l26-2",
+                            "normalizedName": "rpk-16-545x39-light-machine-gun-6l26",
                             "shortName": "RPK-16 6L26",
                             "width": 6,
                             "height": 3,
@@ -321319,7 +321319,7 @@
                         "item": {
                             "id": "707265736574000000000048",
                             "name": "IWI UZI PRO Pistol 9x19冲锋枪 BOSS Xe",
-                            "normalizedName": "iwi-uzi-pro-pistol-9x19-submachine-gun-boss-xe-2",
+                            "normalizedName": "iwi-uzi-pro-pistol-9x19-submachine-gun-boss-xe",
                             "shortName": "UZI PRO Pistol BOSS Xe",
                             "width": 4,
                             "height": 2,
@@ -326975,6 +326975,7 @@
                 "customization": [],
                 "traderUnlock": [],
                 "achievement": [],
+                "craftUnlock": [],
                 "traderStanding": [
                     {
                         "standing": 0.01,
@@ -327032,8 +327033,7 @@
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
                         }
                     }
-                ],
-                "craftUnlock": []
+                ]
             }
         },
         {
@@ -328121,6 +328121,7 @@
                 "customization": [],
                 "traderUnlock": [],
                 "achievement": [],
+                "craftUnlock": [],
                 "traderStanding": [
                     {
                         "standing": 0.03,
@@ -328151,8 +328152,7 @@
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Silicon_Optoelectronic_Integrated_Circuits_textbook"
                         }
                     }
-                ],
-                "craftUnlock": []
+                ]
             }
         },
         {
@@ -333291,7 +333291,7 @@
                         "item": {
                             "id": "70726573657400000000006d",
                             "name": "Sako TRG M10 .338 LM 栓动狙击步枪 PM II 1-8x24",
-                            "normalizedName": "sako-trg-m10-338-lm-bolt-action-sniper-rifle-pm-ii-1-8-2",
+                            "normalizedName": "sako-trg-m10-338-lm-bolt-action-sniper-rifle-pm-ii-1-8",
                             "shortName": "TRG M10 PM II 1-8x24",
                             "width": 5,
                             "height": 2,
@@ -334708,7 +334708,7 @@
                         "item": {
                             "id": "5dd800bde492226366631317",
                             "name": "AK-104 7.62x39 突击步枪 T-SAW",
-                            "normalizedName": "kalashnikov-ak-104-762x39-assault-rifle-t-saw-2",
+                            "normalizedName": "kalashnikov-ak-104-762x39-assault-rifle-t-saw",
                             "shortName": "AK-104 T-SAW",
                             "width": 4,
                             "height": 2,
@@ -338854,7 +338854,7 @@
                         "item": {
                             "id": "707265736574000000000051",
                             "name": "MPS Auto Assault-12 Gen 1 12铅径自动霰弹枪 Drum",
-                            "normalizedName": "mps-auto-assault-12-gen-1-12ga-automatic-shotgun-drum-2",
+                            "normalizedName": "mps-auto-assault-12-gen-1-12ga-automatic-shotgun-drum",
                             "shortName": "AA-12 Gen 1 Drum",
                             "width": 6,
                             "height": 2,
@@ -351359,7 +351359,7 @@
                         "item": {
                             "id": "707265736574000000000000",
                             "name": "TheAKGuy AK-50 .50 BMG 反器材步枪 默认",
-                            "normalizedName": "theakguy-ak-50-50-bmg-anti-materiel-rifle-default-2",
+                            "normalizedName": "theakguy-ak-50-50-bmg-anti-materiel-rifle-default",
                             "shortName": "AK-50 默认",
                             "width": 7,
                             "height": 2,
