@@ -30695,10 +30695,10 @@
                         "complete"
                     ],
                     "task": {
-                        "id": "66058cb7c7f3584787181476",
-                        "name": "平衡之力 - 1 [PVP ZONE]",
-                        "normalizedName": "balancing-part-1-pvp-zone",
-                        "taskImageLink": "https://assets.tarkov.dev/66058cb7c7f3584787181476.webp",
+                        "id": "69788db3878a4385d10c0718",
+                        "name": "专业热身 - 2（PVP）",
+                        "normalizedName": "professional-fitness-part-2-pvp-zone",
+                        "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
                         "trader": {
                             "id": "6617beeaa9cfa777ca915b7c",
                             "name": "竞技场裁判",
@@ -31156,6 +31156,764 @@
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702566bfc87b3a3409324d-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_TCW_SP_ammo_pack_(20_pcs)"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "697877e0c639962b2e0cf24f",
+            "tarkovDataId": null,
+            "name": "竞技场差事（PVP）",
+            "normalizedName": "arena-business-pvp-zone",
+            "map": null,
+            "experience": 19500,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Arena_Business",
+            "minPlayerLevel": 10,
+            "traderRequirements": [],
+            "restartable": false,
+            "failConditions": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+            "trader": {
+                "id": "6617beeaa9cfa777ca915b7c",
+                "name": "竞技场裁判",
+                "normalizedName": "ref",
+                "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+            },
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66058cb7c7f3584787181476",
+                        "name": "平衡之力 - 1 [PVP ZONE]",
+                        "normalizedName": "balancing-part-1-pvp-zone",
+                        "taskImageLink": "https://assets.tarkov.dev/66058cb7c7f3584787181476.webp",
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        }
+                    }
+                }
+            ],
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveTaskStatus",
+                    "id": "69789727f9ef98d604a0a4eb",
+                    "type": "taskStatus",
+                    "description": "完成任务：专业热身 - 2",
+                    "maps": [],
+                    "optional": false,
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "69788db3878a4385d10c0718",
+                        "name": "专业热身 - 2（PVP）",
+                        "normalizedName": "professional-fitness-part-2-pvp-zone",
+                        "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        }
+                    }
+                },
+                {
+                    "__typename": "TaskObjectiveTaskStatus",
+                    "id": "69789737271caeeb3db66e8d",
+                    "type": "taskStatus",
+                    "description": "完成任务：再创新高！- 6",
+                    "maps": [],
+                    "optional": false,
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "69789418b2187365e70bb947",
+                        "name": "再创新高！- 6（PVP）",
+                        "normalizedName": "to-great-heights-part-6-pvp-zone",
+                        "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        }
+                    }
+                },
+                {
+                    "__typename": "TaskObjectiveTaskStatus",
+                    "id": "6978973c2834db5eb178fdc8",
+                    "type": "taskStatus",
+                    "description": "完成任务：保持领先",
+                    "maps": [],
+                    "optional": false,
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "697895b6c639962b2e0cf268",
+                        "name": "保持领先（PVP）",
+                        "normalizedName": "hold-the-lead-pvp-zone",
+                        "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        }
+                    }
+                }
+            ],
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.04,
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 250,
+                        "quantity": 250,
+                        "item": {
+                            "id": "5d235b4d86f7742e017bc88a",
+                            "name": "GP币",
+                            "normalizedName": "gp-coin",
+                            "shortName": "GP",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d235b4d86f7742e017bc88a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GP_coin"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "6656560053eaaa7a23349c86",
+                            "name": "传奇奖章",
+                            "normalizedName": "lega-medal",
+                            "shortName": "传奇奖章",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6656560053eaaa7a23349c86-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lega_Medal"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "66572b3f6a723f7f005a066c",
+                            "name": "上锁的武器箱（稀有）",
+                            "normalizedName": "locked-weapon-crate-rare",
+                            "shortName": "武器箱（稀有）",
+                            "width": 5,
+                            "height": 2,
+                            "types": [
+                                "barter",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/66572b3f6a723f7f005a066c-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Weapon_crate_(Rare)"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "66572b88ac60f009f270d1dc",
+                            "name": "上锁的物资箱（稀有）",
+                            "normalizedName": "locked-supply-crate-rare",
+                            "shortName": "物资箱（稀有）",
+                            "width": 4,
+                            "height": 4,
+                            "types": [
+                                "barter",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/66572b88ac60f009f270d1dc-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Supply_crate_(Rare)"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 2,
+                        "quantity": 2,
+                        "item": {
+                            "id": "66572bb3ac60f009f270d1df",
+                            "name": "上锁的贵重物品箱（稀有）",
+                            "normalizedName": "locked-valuables-crate-rare",
+                            "shortName": "贵重物品箱（稀有）",
+                            "width": 3,
+                            "height": 2,
+                            "types": [
+                                "barter",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/66572bb3ac60f009f270d1df-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Valuables_crate_(Rare)"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "69788c2bac719606e40b4e77",
+            "tarkovDataId": null,
+            "name": "专业热身 - 1（PVP）",
+            "normalizedName": "professional-fitness-part-1-pvp-zone",
+            "map": null,
+            "experience": 1800,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Professional_Fitness_-_Part_1",
+            "minPlayerLevel": 10,
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveBasic",
+                    "id": "69788c6d403c43a13a7ba7c2",
+                    "type": "visit",
+                    "description": "在竞技场 LastHero 或 CheckPoint 模式进行一场游戏",
+                    "maps": [],
+                    "optional": false,
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+            "trader": {
+                "id": "6617beeaa9cfa777ca915b7c",
+                "name": "竞技场裁判",
+                "normalizedName": "ref",
+                "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+            },
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66058cb7c7f3584787181476",
+                        "name": "平衡之力 - 1 [PVP ZONE]",
+                        "normalizedName": "balancing-part-1-pvp-zone",
+                        "taskImageLink": "https://assets.tarkov.dev/66058cb7c7f3584787181476.webp",
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        }
+                    }
+                }
+            ],
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.01,
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 10,
+                        "quantity": 10,
+                        "item": {
+                            "id": "5d235b4d86f7742e017bc88a",
+                            "name": "GP币",
+                            "normalizedName": "gp-coin",
+                            "shortName": "GP",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d235b4d86f7742e017bc88a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GP_coin"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "69788db3878a4385d10c0718",
+            "tarkovDataId": null,
+            "name": "专业热身 - 2（PVP）",
+            "normalizedName": "professional-fitness-part-2-pvp-zone",
+            "map": null,
+            "experience": 2400,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Professional_Fitness_-_Part_2",
+            "minPlayerLevel": 10,
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveBasic",
+                    "id": "69788fc3dc3074ce1c851e20",
+                    "type": "visit",
+                    "description": "在竞技场任意模式击杀 20 名敌人",
+                    "maps": [],
+                    "optional": false,
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+            "trader": {
+                "id": "6617beeaa9cfa777ca915b7c",
+                "name": "竞技场裁判",
+                "normalizedName": "ref",
+                "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+            },
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "69788c2bac719606e40b4e77",
+                        "name": "专业热身 - 1（PVP）",
+                        "normalizedName": "professional-fitness-part-1-pvp-zone",
+                        "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        }
+                    }
+                }
+            ],
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.01,
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 15,
+                        "quantity": 15,
+                        "item": {
+                            "id": "5d235b4d86f7742e017bc88a",
+                            "name": "GP币",
+                            "normalizedName": "gp-coin",
+                            "shortName": "GP",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d235b4d86f7742e017bc88a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GP_coin"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "6656560053eaaa7a23349c86",
+                            "name": "传奇奖章",
+                            "normalizedName": "lega-medal",
+                            "shortName": "传奇奖章",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6656560053eaaa7a23349c86-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lega_Medal"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "69789418b2187365e70bb947",
+            "tarkovDataId": null,
+            "name": "再创新高！- 6（PVP）",
+            "normalizedName": "to-great-heights-part-6-pvp-zone",
+            "map": null,
+            "experience": 7700,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/To_Great_Heights!_-_Part_6",
+            "minPlayerLevel": 10,
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveBasic",
+                    "id": "6978a28fe2bee676ada49c79",
+                    "type": "visit",
+                    "description": "在竞技场连续赢得两场 TeamFight 或 BlastGang 或 CheckPoint 模式的战斗",
+                    "maps": [],
+                    "optional": false,
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+            "trader": {
+                "id": "6617beeaa9cfa777ca915b7c",
+                "name": "竞技场裁判",
+                "normalizedName": "ref",
+                "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+            },
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "66058cc9ae4719735349b9ea",
+                        "name": "再创新高！- 5 [PVP ZONE]",
+                        "normalizedName": "to-great-heights-part-5-pvp-zone",
+                        "taskImageLink": "https://assets.tarkov.dev/66058cc9ae4719735349b9ea.webp",
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        }
+                    }
+                }
+            ],
+            "finishRewards": {
+                "traderStanding": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 55,
+                        "quantity": 55,
+                        "item": {
+                            "id": "5d235b4d86f7742e017bc88a",
+                            "name": "GP币",
+                            "normalizedName": "gp-coin",
+                            "shortName": "GP",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d235b4d86f7742e017bc88a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GP_coin"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "697877e0c639962b2e0cf24f-664a5428d5e33a713b622379",
+                        "level": 2,
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        },
+                        "item": {
+                            "id": "664a5428d5e33a713b622379",
+                            "name": "APOK ”荒原之地“ 战术短剑",
+                            "normalizedName": "apok-tactical-wasteland-gladius",
+                            "shortName": "短剑",
+                            "width": 1,
+                            "height": 4,
+                            "types": [
+                                "noFlea",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/664a5428d5e33a713b622379-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/APOK_Tactical_Wasteland_Gladius"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "697895b6c639962b2e0cf268",
+            "tarkovDataId": null,
+            "name": "保持领先（PVP）",
+            "normalizedName": "hold-the-lead-pvp-zone",
+            "map": null,
+            "experience": 9100,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hold_the_Lead%5BPVP_ZONE%5D",
+            "minPlayerLevel": 10,
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveBasic",
+                    "id": "697895e700201d158bb28f22",
+                    "type": "visit",
+                    "description": "在竞技场任意模式击杀 75 名敌人",
+                    "maps": [],
+                    "optional": false,
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+            "trader": {
+                "id": "6617beeaa9cfa777ca915b7c",
+                "name": "竞技场裁判",
+                "normalizedName": "ref",
+                "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+            },
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": []
+            },
+            "taskRequirements": [
+                {
+                    "status": [
+                        "complete"
+                    ],
+                    "task": {
+                        "id": "69789418b2187365e70bb947",
+                        "name": "再创新高！- 6（PVP）",
+                        "normalizedName": "to-great-heights-part-6-pvp-zone",
+                        "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        }
+                    }
+                }
+            ],
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "craftUnlock": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.05,
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 75,
+                        "quantity": 75,
+                        "item": {
+                            "id": "5d235b4d86f7742e017bc88a",
+                            "name": "GP币",
+                            "normalizedName": "gp-coin",
+                            "shortName": "GP",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d235b4d86f7742e017bc88a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GP_coin"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "6656560053eaaa7a23349c86",
+                            "name": "传奇奖章",
+                            "normalizedName": "lega-medal",
+                            "shortName": "传奇奖章",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6656560053eaaa7a23349c86-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lega_Medal"
                         }
                     }
                 ]
@@ -314693,17 +315451,17 @@
                         "count": 1,
                         "quantity": 1,
                         "item": {
-                            "id": "707265736574000000000044",
-                            "name": "RPDN 7.62x39 轻机枪 1P78-1",
-                            "normalizedName": "degtyarev-rpdn-762x39-machine-gun-1p78-1-2",
-                            "shortName": "RPDN 1P78-1",
+                            "id": "657eb30326f0eb0718056204",
+                            "name": "RPDN 7.62x39 轻机枪 默认",
+                            "normalizedName": "degtyarev-rpdn-762x39-machine-gun-default",
+                            "shortName": "RPDN 默认",
                             "width": 6,
                             "height": 3,
                             "types": [
                                 "noFlea",
                                 "preset"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/707265736574000000000044-icon.webp",
+                            "iconLink": "https://assets.tarkov.dev/657eb30326f0eb0718056204-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Degtyarev_RPDN_7.62x39_machine_gun"
                         }
                     }
@@ -314853,17 +315611,17 @@
                     "usingWeaponMods": [
                         [
                             {
-                                "id": "618a75f0bd321d49084cd399",
-                                "name": "NPZ 1P78-1 2.8倍瞄准镜",
-                                "normalizedName": "npz-1p78-1-28x-scope",
-                                "shortName": "1P78-1",
+                                "id": "6544d4187c5457729210d277",
+                                "name": "Axion Kobra EKP-1S-03 反射式瞄具（燕尾槽）",
+                                "normalizedName": "axion-kobra-ekp-1s-03-reflex-sight-dovetail",
+                                "shortName": "EKP-1S-03",
                                 "width": 1,
                                 "height": 1,
                                 "types": [
                                     "mods"
                                 ],
-                                "iconLink": "https://assets.tarkov.dev/618a75f0bd321d49084cd399-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NPZ_1P78-1_2.8x_scope"
+                                "iconLink": "https://assets.tarkov.dev/6544d4187c5457729210d277-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Axion_Kobra_EKP-1S-03_reflex_sight_(Dovetail)"
                             }
                         ]
                     ],
@@ -322463,17 +323221,17 @@
                         "count": 1,
                         "quantity": 1,
                         "item": {
-                            "id": "707265736574000000000048",
-                            "name": "IWI UZI PRO Pistol 9x19冲锋枪 BOSS Xe",
-                            "normalizedName": "iwi-uzi-pro-pistol-9x19-submachine-gun-boss-xe-2",
-                            "shortName": "UZI PRO Pistol BOSS Xe",
+                            "id": "63986a9ab483a550805be5ee",
+                            "name": "SR-2M 石楠 9x21 毫米冲锋枪 FSB",
+                            "normalizedName": "sr-2m-veresk-9x21-submachine-gun-fsb-2",
+                            "shortName": "SR-2M FSB",
                             "width": 4,
                             "height": 2,
                             "types": [
                                 "preset"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/707265736574000000000048-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/IWI_UZI_PRO_Pistol_9x19_submachine_gun"
+                            "iconLink": "https://assets.tarkov.dev/63986a9ab483a550805be5ee-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SR-2M_Veresk_9x21_submachine_gun"
                         }
                     }
                 ]
@@ -322604,72 +323362,47 @@
                     "zones": [],
                     "usingWeapon": [
                         {
-                            "id": "6680304edadb7aa61d00cef0",
-                            "name": "IWI UZI PRO Pistol 9x19冲锋枪",
-                            "normalizedName": "iwi-uzi-pro-pistol-9x19-submachine-gun",
-                            "shortName": "UZI PRO Pistol",
+                            "id": "62e14904c2699c0ec93adc47",
+                            "name": "SR-2M 石楠 9x21 毫米冲锋枪",
+                            "normalizedName": "sr-2m-veresk-9x21-submachine-gun",
+                            "shortName": "SR-2M",
                             "width": 2,
                             "height": 1,
                             "types": [
                                 "gun"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/6680304edadb7aa61d00cef0-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/IWI_UZI_PRO_Pistol_9x19_submachine_gun"
-                        },
-                        {
-                            "id": "668e71a8dadf42204c032ce1",
-                            "name": "IWI UZI PRO SMG 9x19冲锋枪",
-                            "normalizedName": "iwi-uzi-pro-smg-9x19-submachine-gun",
-                            "shortName": "UZI PRO冲锋枪",
-                            "width": 2,
-                            "height": 1,
-                            "types": [
-                                "gun"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/668e71a8dadf42204c032ce1-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/IWI_UZI_PRO_SMG_9x19_submachine_gun"
+                            "iconLink": "https://assets.tarkov.dev/62e14904c2699c0ec93adc47-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SR-2M_Veresk_9x21_submachine_gun"
                         }
                     ],
                     "usingWeaponMods": [
                         [
                             {
-                                "id": "668670432b934a68630a7fe8",
-                                "name": "UZI PRO 9x19 240毫米枪管",
-                                "normalizedName": "uzi-pro-9x19-240mm-barrel",
-                                "shortName": "PRO 240毫米",
+                                "id": "62e2a7138e1ac9380579c122",
+                                "name": "SR-2M 9x21消音器（SV-1381）",
+                                "normalizedName": "sr-2m-9x21-sv-1381-sound-suppressor",
+                                "shortName": "SV-1381",
                                 "width": 2,
                                 "height": 1,
                                 "types": [
-                                    "mods"
+                                    "mods",
+                                    "suppressor"
                                 ],
-                                "iconLink": "https://assets.tarkov.dev/668670432b934a68630a7fe8-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/UZI_PRO_9x19_240mm_barrel"
+                                "iconLink": "https://assets.tarkov.dev/62e2a7138e1ac9380579c122-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SR-2M_9x21_SV-1381_sound_suppressor"
                             },
                             {
-                                "id": "66867310f3734a938b077f79",
-                                "name": "UZI PRO SBR底托",
-                                "normalizedName": "uzi-pro-sbr-buttstock",
-                                "shortName": "PRO底托",
-                                "width": 2,
-                                "height": 1,
-                                "types": [
-                                    "mods"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/66867310f3734a938b077f79-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/UZI_PRO_SBR_buttstock"
-                            },
-                            {
-                                "id": "655f13e0a246670fb0373245",
-                                "name": "Wilcox BOSS Xe反射式瞄具",
-                                "normalizedName": "wilcox-boss-xe-reflex-sight",
-                                "shortName": "BOSS Xe",
+                                "id": "62ff9920fe938a24c90c10d2",
+                                "name": "SR-2M KP-SR2反射式瞄具",
+                                "normalizedName": "sr-2m-kp-sr2-reflex-sight",
+                                "shortName": "KP-SR2",
                                 "width": 1,
                                 "height": 1,
                                 "types": [
                                     "mods"
                                 ],
-                                "iconLink": "https://assets.tarkov.dev/655f13e0a246670fb0373245-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Wilcox_BOSS_Xe_reflex_sight"
+                                "iconLink": "https://assets.tarkov.dev/62ff9920fe938a24c90c10d2-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SR-2M_KP-SR2_reflex_sight"
                             }
                         ]
                     ],
@@ -339522,11 +340255,6 @@
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -339540,6 +340268,11 @@
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -362523,11 +363256,6 @@
                     "zones": [],
                     "maps": [
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -366482,11 +367210,6 @@
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -366505,6 +367228,11 @@
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
