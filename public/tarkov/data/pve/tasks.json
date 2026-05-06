@@ -232143,6 +232143,25 @@
                             "iconLink": "https://assets.tarkov.dev/6761a6ccd9bbb27ad703c48a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Old_house_room_key"
                         }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "6939948dc2ceb9acd7082eb2",
+                            "name": "旧屋厕所钥匙",
+                            "normalizedName": "old-house-toilet-key",
+                            "shortName": "技术站厕所",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "keys",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6939948dc2ceb9acd7082eb2-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Old_house_toilet_key"
+                        }
                     }
                 ]
             }
