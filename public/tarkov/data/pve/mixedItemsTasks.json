@@ -93,7 +93,7 @@
                     },
                     {
                         "id": "60098ad7c2240c0fe85c570a",
-                        "name": "AFAK单兵战术急救包",
+                        "name": "AFAK单兵急救包",
                         "normalizedName": "afak-tactical-individual-first-aid-kit",
                         "types": [
                             "meds",
@@ -115,7 +115,7 @@
                     },
                     {
                         "id": "590c678286f77426c9660122",
-                        "name": "IFAK单兵战术急救包",
+                        "name": "IFAK单兵急救包",
                         "normalizedName": "ifak-individual-first-aid-kit",
                         "types": [
                             "meds",
@@ -603,7 +603,7 @@
     },
     {
         "id": "6834158f2f0e2a7eb90b62c8",
-        "name": "Easy Money - Part 2 [PVE ZONE]",
+        "name": "赚点快钱 - 2（PVE）",
         "taskImageLink": "6834158f2f0e2a7eb90b62c8.webp",
         "trader": "竞技场裁判",
         "traderImageLink": "6617beeaa9cfa777ca915b7c.webp",
@@ -1040,7 +1040,7 @@
     },
     {
         "id": "68341b407559f4e6d50bc0ce",
-        "name": "Surprise [PVE ZONE]",
+        "name": "惊喜（PVE）",
         "taskImageLink": "68341b407559f4e6d50bc0ce.webp",
         "trader": "竞技场裁判",
         "traderImageLink": "6617beeaa9cfa777ca915b7c.webp",
@@ -1249,7 +1249,7 @@
                     },
                     {
                         "id": "655746010177119f4a097ff7",
-                        "name": "SAPI三级+防弹插板",
+                        "name": "SAPI III+ 级防弹插板",
                         "normalizedName": "sapi-level-iii-ballistic-plate",
                         "types": [
                             "armorPlate",
@@ -1333,7 +1333,7 @@
                     },
                     {
                         "id": "6557458f83942d705f0c4962",
-                        "name": "SSAPI level III+ 防弹插板（侧边）",
+                        "name": "SSAPI III+ 级防弹插板（侧边）",
                         "normalizedName": "ssapi-level-iii-ballistic-plate-side",
                         "types": [
                             "armorPlate",

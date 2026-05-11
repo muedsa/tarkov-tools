@@ -974,7 +974,7 @@
                             "count": 2,
                             "item": {
                                 "id": "590c678286f77426c9660122",
-                                "name": "IFAK单兵战术急救包",
+                                "name": "IFAK单兵急救包",
                                 "normalizedName": "ifak-individual-first-aid-kit",
                                 "shortName": "IFAK",
                                 "width": 1,
@@ -1008,7 +1008,7 @@
                             "attributes": [],
                             "item": {
                                 "id": "60098ad7c2240c0fe85c570a",
-                                "name": "AFAK单兵战术急救包",
+                                "name": "AFAK单兵急救包",
                                 "normalizedName": "afak-tactical-individual-first-aid-kit",
                                 "shortName": "AFAK",
                                 "width": 1,
@@ -2251,7 +2251,7 @@
                             "attributes": [],
                             "item": {
                                 "id": "590c678286f77426c9660122",
-                                "name": "IFAK单兵战术急救包",
+                                "name": "IFAK单兵急救包",
                                 "normalizedName": "ifak-individual-first-aid-kit",
                                 "shortName": "IFAK",
                                 "width": 1,
@@ -2310,7 +2310,7 @@
                             "count": 1,
                             "item": {
                                 "id": "60098ad7c2240c0fe85c570a",
-                                "name": "AFAK单兵战术急救包",
+                                "name": "AFAK单兵急救包",
                                 "normalizedName": "afak-tactical-individual-first-aid-kit",
                                 "shortName": "AFAK",
                                 "width": 1,
@@ -3989,7 +3989,7 @@
                             "attributes": [],
                             "item": {
                                 "id": "5bc9be8fd4351e00334cae6e",
-                                "name": "42nd Signature Blend英式茶",
+                                "name": "42 Signature Blend英式茶",
                                 "normalizedName": "42-signature-blend-english-tea",
                                 "shortName": "42",
                                 "width": 1,
@@ -5331,9 +5331,9 @@
                             "attributes": [],
                             "item": {
                                 "id": "573475fb24597737fb1379e1",
-                                "name": "阿波伦联盟香烟 ",
+                                "name": "阿波罗-联盟香烟",
                                 "normalizedName": "apollo-soyuz-cigarettes",
-                                "shortName": "香烟",
+                                "shortName": "阿波罗",
                                 "width": 1,
                                 "height": 1,
                                 "types": [
@@ -5349,7 +5349,7 @@
                             "attributes": [],
                             "item": {
                                 "id": "5bc9be8fd4351e00334cae6e",
-                                "name": "42nd Signature Blend英式茶",
+                                "name": "42 Signature Blend英式茶",
                                 "normalizedName": "42-signature-blend-english-tea",
                                 "shortName": "42",
                                 "width": 1,
@@ -5371,7 +5371,7 @@
                                 "id": "573476f124597737e04bf328",
                                 "name": "云尔斯顿香烟",
                                 "normalizedName": "wilston-cigarettes",
-                                "shortName": "香烟",
+                                "shortName": "云尔斯顿",
                                 "width": 1,
                                 "height": 1,
                                 "types": [
@@ -5457,7 +5457,7 @@
                             "attributes": [],
                             "item": {
                                 "id": "5bc9be8fd4351e00334cae6e",
-                                "name": "42nd Signature Blend英式茶",
+                                "name": "42 Signature Blend英式茶",
                                 "normalizedName": "42-signature-blend-english-tea",
                                 "shortName": "42",
                                 "width": 1,
@@ -5746,7 +5746,7 @@
         },
         {
             "id": "5d388e97081959000a123acf",
-            "name": "加热器",
+            "name": "供暖",
             "normalizedName": "heating",
             "imageLink": "https://assets.tarkov.dev/station-heating.png",
             "crafts": [],
@@ -5829,7 +5829,7 @@
                             "level": 1,
                             "station": {
                                 "id": "5d388e97081959000a123acf",
-                                "name": "加热器",
+                                "name": "供暖",
                                 "normalizedName": "heating",
                                 "imageLink": "https://assets.tarkov.dev/station-heating.png"
                             }
@@ -5967,7 +5967,7 @@
                             "level": 2,
                             "station": {
                                 "id": "5d388e97081959000a123acf",
-                                "name": "加热器",
+                                "name": "供暖",
                                 "normalizedName": "heating",
                                 "imageLink": "https://assets.tarkov.dev/station-heating.png"
                             }
@@ -8135,7 +8135,7 @@
                             "level": 3,
                             "station": {
                                 "id": "5d388e97081959000a123acf",
-                                "name": "加热器",
+                                "name": "供暖",
                                 "normalizedName": "heating",
                                 "imageLink": "https://assets.tarkov.dev/station-heating.png"
                             }
@@ -8742,7 +8742,7 @@
         },
         {
             "id": "5d494a3f5b56502f18c98a0e",
-            "name": "酒饮生成器",
+            "name": "酿酒处",
             "normalizedName": "booze-generator",
             "imageLink": "https://assets.tarkov.dev/station-booze-generator.png",
             "levels": [
@@ -8960,7 +8960,7 @@
                     "requiredQuestItems": [],
                     "station": {
                         "id": "5d494a3f5b56502f18c98a0e",
-                        "name": "酒饮生成器",
+                        "name": "酿酒处",
                         "normalizedName": "booze-generator",
                         "imageLink": "https://assets.tarkov.dev/station-booze-generator.png"
                     },
@@ -11947,7 +11947,7 @@
                             "attributes": [],
                             "item": {
                                 "id": "64b8f7968532cf95ee0a0dbf",
-                                "name": "7.62x54R FMJ",
+                                "name": "7.62x54R FMJ",
                                 "normalizedName": "762x54mm-r-fmj",
                                 "shortName": "FMJ",
                                 "width": 1,
@@ -12045,7 +12045,7 @@
                             "attributes": [],
                             "item": {
                                 "id": "5857a8bc2459772bad15db29",
-                                "name": "Gamma安全箱",
+                                "name": "Gamma 安全箱",
                                 "normalizedName": "secure-container-gamma",
                                 "shortName": "Gamma",
                                 "width": 3,
@@ -12340,7 +12340,7 @@
                             "count": 1,
                             "item": {
                                 "id": "5857a8bc2459772bad15db29",
-                                "name": "Gamma安全箱",
+                                "name": "Gamma 安全箱",
                                 "normalizedName": "secure-container-gamma",
                                 "shortName": "Gamma",
                                 "width": 3,
@@ -12685,7 +12685,7 @@
                             "count": 140,
                             "item": {
                                 "id": "57371aab2459775a77142f22",
-                                "name": "9x18毫米 PMM PstM",
+                                "name": "9x18毫米PM PMM",
                                 "normalizedName": "9x18mm-pmm-pstm-gzh",
                                 "shortName": "PMM",
                                 "width": 1,
@@ -13508,7 +13508,7 @@
                                 "id": "5fc382c1016cce60e8341b20",
                                 "name": ".338 Lapua Magnum UCW",
                                 "normalizedName": "338-lapua-magnum-ucw",
-                                "shortName": ".338 UPZ",
+                                "shortName": "UCW",
                                 "width": 1,
                                 "height": 1,
                                 "types": [
@@ -14967,7 +14967,7 @@
                             "count": 2,
                             "item": {
                                 "id": "5d0379a886f77420407aa271",
-                                "name": "OFZ 30х160毫米炮弹 ",
+                                "name": "OFZ 30x165毫米炮弹",
                                 "normalizedName": "ofz-30x165mm-shell",
                                 "shortName": "OFZ ",
                                 "width": 1,
@@ -17439,9 +17439,9 @@
                             "attributes": [],
                             "item": {
                                 "id": "573720e02459776143012541",
-                                "name": "9x18毫米 PM RG028",
+                                "name": "9x18毫米PM RG028 gzh",
                                 "normalizedName": "9x18mm-pm-rg028-gzh",
-                                "shortName": "RG028 gzh",
+                                "shortName": "RG028",
                                 "width": 1,
                                 "height": 1,
                                 "types": [
@@ -17478,9 +17478,9 @@
                             "count": 150,
                             "item": {
                                 "id": "5737218f245977612125ba51",
-                                "name": "9x18毫米 PM SP8",
+                                "name": "9x18毫米PM SP8 gzh",
                                 "normalizedName": "9x18mm-pm-sp8-gzh",
-                                "shortName": "SP8 gzh",
+                                "shortName": "SP8",
                                 "width": 1,
                                 "height": 1,
                                 "types": [
@@ -18495,7 +18495,7 @@
                             "attributes": [],
                             "item": {
                                 "id": "5d0379a886f77420407aa271",
-                                "name": "OFZ 30х160毫米炮弹 ",
+                                "name": "OFZ 30x165毫米炮弹",
                                 "normalizedName": "ofz-30x165mm-shell",
                                 "shortName": "OFZ ",
                                 "width": 1,
@@ -19189,7 +19189,7 @@
                             "level": 2,
                             "station": {
                                 "id": "5d388e97081959000a123acf",
-                                "name": "加热器",
+                                "name": "供暖",
                                 "normalizedName": "heating",
                                 "imageLink": "https://assets.tarkov.dev/station-heating.png"
                             }
@@ -19363,7 +19363,7 @@
                             "level": 3,
                             "station": {
                                 "id": "5d388e97081959000a123acf",
-                                "name": "加热器",
+                                "name": "供暖",
                                 "normalizedName": "heating",
                                 "imageLink": "https://assets.tarkov.dev/station-heating.png"
                             }
@@ -30131,7 +30131,7 @@
                             "count": 1,
                             "item": {
                                 "id": "5ab8dced86f774646209ec87",
-                                "name": "ANA Tactical M2 插板胸挂（数码丛林迷彩）",
+                                "name": "ANA Tactical M2 插板胸挂（橄榄绿）",
                                 "normalizedName": "ana-tactical-m2-plate-carrier-od-green",
                                 "shortName": "ANA M2",
                                 "width": 4,

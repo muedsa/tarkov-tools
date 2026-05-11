@@ -373,7 +373,7 @@
     },
     {
         "id": "572b7fa524597762b747ce82",
-        "name": "半面巾",
+        "name": "遮脸半面巾",
         "normalizedName": "lower-half-mask",
         "types": [
             "wearable"
@@ -394,7 +394,7 @@
     },
     {
         "id": "57e26fc7245977162a14b800",
-        "name": "A-2607-95x18匕首",
+        "name": "A-2607 95Kh18 匕首",
         "normalizedName": "bars-a-2607-95kh18-knife",
         "types": [
             "wearable"

@@ -709,7 +709,7 @@
     },
     {
         "id": "5d0379a886f77420407aa271",
-        "name": "OFZ 30х160毫米炮弹 ",
+        "name": "OFZ 30x165毫米炮弹",
         "normalizedName": "ofz-30x165mm-shell",
         "types": [
             "barter"
@@ -2082,7 +2082,7 @@
     },
     {
         "id": "5bc9be8fd4351e00334cae6e",
-        "name": "42nd Signature Blend英式茶",
+        "name": "42 Signature Blend英式茶",
         "normalizedName": "42-signature-blend-english-tea",
         "types": [
             "barter"
@@ -2456,7 +2456,7 @@
     },
     {
         "id": "655c67ab0d37ca5135388f4b",
-        "name": "“圣诞老人”小人",
+        "name": "圣诞老人玩偶",
         "normalizedName": "ded-moroz-figurine",
         "types": [
             "barter"
@@ -2732,7 +2732,7 @@
             {
                 "id": "5d388e97081959000a123acf-2",
                 "stationId": "5d388e97081959000a123acf",
-                "name": "加热器",
+                "name": "供暖",
                 "normalizedName": "heating",
                 "imageLink": "station-heating.png",
                 "level": 2,
@@ -2754,7 +2754,7 @@
             {
                 "id": "5d388e97081959000a123acf-3",
                 "stationId": "5d388e97081959000a123acf",
-                "name": "加热器",
+                "name": "供暖",
                 "normalizedName": "heating",
                 "imageLink": "station-heating.png",
                 "level": 3,
@@ -2776,7 +2776,7 @@
             {
                 "id": "5d388e97081959000a123acf-3",
                 "stationId": "5d388e97081959000a123acf",
-                "name": "加热器",
+                "name": "供暖",
                 "normalizedName": "heating",
                 "imageLink": "station-heating.png",
                 "level": 3,
@@ -3430,7 +3430,7 @@
             {
                 "id": "5d494a3f5b56502f18c98a0e-1",
                 "stationId": "5d494a3f5b56502f18c98a0e",
-                "name": "酒饮生成器",
+                "name": "酿酒处",
                 "normalizedName": "booze-generator",
                 "imageLink": "station-booze-generator.png",
                 "level": 1,
@@ -3452,7 +3452,7 @@
             {
                 "id": "5d494a3f5b56502f18c98a0e-1",
                 "stationId": "5d494a3f5b56502f18c98a0e",
-                "name": "酒饮生成器",
+                "name": "酿酒处",
                 "normalizedName": "booze-generator",
                 "imageLink": "station-booze-generator.png",
                 "level": 1,
@@ -3483,7 +3483,7 @@
             {
                 "id": "5d494a3f5b56502f18c98a0e-1",
                 "stationId": "5d494a3f5b56502f18c98a0e",
-                "name": "酒饮生成器",
+                "name": "酿酒处",
                 "normalizedName": "booze-generator",
                 "imageLink": "station-booze-generator.png",
                 "level": 1,
