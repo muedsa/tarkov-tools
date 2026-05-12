@@ -310122,6 +310122,11 @@
                     "zones": [],
                     "maps": [
                         {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -310682,6 +310687,11 @@
                     "enemyHealthEffect": null,
                     "zones": [],
                     "maps": [
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
                         {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
@@ -339980,6 +339990,11 @@
                             "normalizedName": "customs"
                         },
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -340798,6 +340813,11 @@
                     "zones": [],
                     "maps": [
                         {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -340842,6 +340862,11 @@
                     "zones": [],
                     "maps": [
                         {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -340885,6 +340910,11 @@
                     "enemyHealthEffect": null,
                     "zones": [],
                     "maps": [
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
                         {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
@@ -362939,9 +362969,9 @@
                     "zones": [],
                     "maps": [
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         }
                     ]
                 },
@@ -366817,6 +366847,11 @@
                             "normalizedName": "streets-of-tarkov"
                         },
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
@@ -366883,6 +366918,11 @@
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
