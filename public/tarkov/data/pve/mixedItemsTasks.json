@@ -627,7 +627,7 @@
                     },
                     {
                         "id": "575062b524597720a31c09a1",
-                        "name": "冰绿茶",
+                        "name": "罐装冰绿茶",
                         "normalizedName": "can-of-ice-green-tea",
                         "types": [
                             "provisions"
@@ -687,7 +687,7 @@
                     },
                     {
                         "id": "57514643245977207f2c2d09",
-                        "name": "塔可乐",
+                        "name": "罐装塔可乐汽水",
                         "normalizedName": "can-of-tarcola-soda",
                         "types": [
                             "provisions"
@@ -986,7 +986,7 @@
                     },
                     {
                         "id": "57347d90245977448f7b7f65",
-                        "name": "一盒燕麦片",
+                        "name": "盒装燕麦片",
                         "normalizedName": "pack-of-oat-flakes",
                         "types": [
                             "provisions"
@@ -2034,7 +2034,7 @@
                 "items": [
                     {
                         "id": "628baf0b967de16aab5a4f36",
-                        "name": "LBT-1961A Load Bearing胸挂 (Goons特别版)",
+                        "name": "LBT-1961A 承重胸挂（Goons特别版）",
                         "normalizedName": "lbt-1961a-load-bearing-chest-rig-goons-edition",
                         "types": [
                             "rig",
@@ -2078,7 +2078,7 @@
                     },
                     {
                         "id": "5e9dcf5986f7746c417435b3",
-                        "name": "LBT-8005A Day Pack背包",
+                        "name": "LBT-8005A Day Pack 背包（黑系复合迷彩）",
                         "normalizedName": "lbt-8005a-day-pack-backpack-multicam-black",
                         "types": [
                             "backpack",

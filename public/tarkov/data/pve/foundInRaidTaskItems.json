@@ -205,7 +205,7 @@
     },
     {
         "id": "55d482194bdc2d1d4e8b456b",
-        "name": "6L31 5.45x39 60发AK-74兼容弹匣",
+        "name": "6L31 5.45x39 AK-74 60发弹匣",
         "normalizedName": "ak-74-545x39-6l31-60-round-magazine",
         "types": [
             "mods"
@@ -690,7 +690,7 @@
     },
     {
         "id": "59e7715586f7742ee5789605",
-        "name": "防毒面罩",
+        "name": "呼吸面罩",
         "normalizedName": "respirator",
         "types": [
             "wearable"
@@ -1031,7 +1031,7 @@
     },
     {
         "id": "628baf0b967de16aab5a4f36",
-        "name": "LBT-1961A Load Bearing胸挂 (Goons特别版)",
+        "name": "LBT-1961A 承重胸挂（Goons特别版）",
         "normalizedName": "lbt-1961a-load-bearing-chest-rig-goons-edition",
         "types": [
             "rig",
@@ -1593,7 +1593,7 @@
     },
     {
         "id": "57514643245977207f2c2d09",
-        "name": "塔可乐",
+        "name": "罐装塔可乐汽水",
         "normalizedName": "can-of-tarcola-soda",
         "types": [
             "provisions"
