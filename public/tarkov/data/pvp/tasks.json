@@ -80771,7 +80771,24 @@
                             "bottom": 11.658
                         }
                     ],
-                    "requiredKeys": null
+                    "requiredKeys": [
+                        [
+                            {
+                                "id": "63a39e1d234195315d4020bd",
+                                "name": "Primorsky 46-48号天桥钥匙",
+                                "normalizedName": "primorsky-46-48-skybridge-key",
+                                "shortName": "天桥46-48",
+                                "width": 1,
+                                "height": 1,
+                                "types": [
+                                    "keys",
+                                    "noFlea"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/63a39e1d234195315d4020bd-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Primorsky_46-48_skybridge_key"
+                            }
+                        ]
+                    ]
                 },
                 {
                     "__typename": "TaskObjectiveExtract",
@@ -307210,7 +307227,24 @@
                             "bottom": 10.7533989
                         }
                     ],
-                    "requiredKeys": null
+                    "requiredKeys": [
+                        [
+                            {
+                                "id": "63a39e1d234195315d4020bd",
+                                "name": "Primorsky 46-48号天桥钥匙",
+                                "normalizedName": "primorsky-46-48-skybridge-key",
+                                "shortName": "天桥46-48",
+                                "width": 1,
+                                "height": 1,
+                                "types": [
+                                    "keys",
+                                    "noFlea"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/63a39e1d234195315d4020bd-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Primorsky_46-48_skybridge_key"
+                            }
+                        ]
+                    ]
                 },
                 {
                     "__typename": "TaskObjectiveQuestItem",
@@ -307296,7 +307330,24 @@
                     ],
                     "zones": [],
                     "count": 1,
-                    "requiredKeys": null
+                    "requiredKeys": [
+                        [
+                            {
+                                "id": "63a39e1d234195315d4020bd",
+                                "name": "Primorsky 46-48号天桥钥匙",
+                                "normalizedName": "primorsky-46-48-skybridge-key",
+                                "shortName": "天桥46-48",
+                                "width": 1,
+                                "height": 1,
+                                "types": [
+                                    "keys",
+                                    "noFlea"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/63a39e1d234195315d4020bd-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Primorsky_46-48_skybridge_key"
+                            }
+                        ]
+                    ]
                 },
                 {
                     "__typename": "TaskObjectiveQuestItem",
