@@ -1867,28 +1867,6 @@
         ]
     },
     {
-        "id": "5bc9c377d4351e3bac12251b",
-        "name": "古董火镰",
-        "normalizedName": "old-firesteel",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "5bc9c377d4351e3bac12251b-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Old_firesteel",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
         "id": "5bc9c049d4351e44f824d360",
         "name": "破旧的古董书",
         "normalizedName": "battered-antique-book",
@@ -2378,6 +2356,28 @@
         "hideoutStations": []
     },
     {
+        "id": "69f9d547b98cc4120608692a",
+        "name": "Desmondpilak CD 专辑",
+        "normalizedName": "desmondpilak-cd",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "69f9d547b98cc4120608692a-icon.webp",
+        "wikiLink": "",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
         "id": "5d1b33a686f7742523398398",
         "name": "纯净水",
         "normalizedName": "canister-with-purified-water",
@@ -2647,6 +2647,50 @@
                 "traderImageLink": "579dc571d53a0658a154fbec.webp",
                 "kappaRequired": false,
                 "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "69bb43df99f3fda8f1072483",
+        "name": "Nooby Shield 碘化钾片",
+        "normalizedName": "nooby-shield-potassium-iodide-tablets",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "69bb43df99f3fda8f1072483-icon.webp",
+        "wikiLink": "",
+        "tasks": [
+            {
+                "id": "69ce204c8702b378f9091e4b",
+                "name": "战争从未改变",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": false,
+                "count": 10,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "69bb435ff609db77390b0e25",
+        "name": "Aceso Xpress 半自动生化分析仪",
+        "normalizedName": "aceso-xpress-semi-automatic-biochemical-analyzer",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "69bb435ff609db77390b0e25-icon.webp",
+        "wikiLink": "",
+        "tasks": [
+            {
+                "id": "69ce213a298a6529b30d7134",
+                "name": "生化分析",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": false,
+                "count": 3,
                 "mixedItemsTask": false
             }
         ],

@@ -1118,27 +1118,6 @@
         ]
     },
     {
-        "id": "5bc9b156d4351e00367fbce9",
-        "name": "DevilDog蛋黄酱",
-        "normalizedName": "jar-of-devildog-mayo",
-        "types": [
-            "provisions"
-        ],
-        "iconLink": "5bc9b156d4351e00367fbce9-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Jar_of_DevilDog_mayo",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
         "id": "5bc9c29cd4351e003562b8a3",
         "name": "西鲱鱼罐头",
         "normalizedName": "can-of-sprats",
@@ -1499,6 +1478,46 @@
         ]
     },
     {
+        "id": "69f9d60b5de6674f08060f2a",
+        "name": "Dunduk 软盘",
+        "normalizedName": "dunduk-floppy-disk",
+        "types": [],
+        "iconLink": "69f9d60b5de6674f08060f2a-icon.webp",
+        "wikiLink": "",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "69f9d319c906cd16da03b374",
+        "name": "SheefGG 存钱罐",
+        "normalizedName": "sheefgg-piggy-bank",
+        "types": [
+            "container"
+        ],
+        "iconLink": "69f9d319c906cd16da03b374-icon.webp",
+        "wikiLink": "",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
         "id": "5fc64ea372b0dd78d51159dc",
         "name": "邪教徒之刃",
         "normalizedName": "cultist-knife",
@@ -1608,6 +1627,98 @@
                 "traderImageLink": "579dc571d53a0658a154fbec.webp",
                 "kappaRequired": false,
                 "count": 3,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "689479cb47e5acd1e10be986",
+        "name": "Ferro Concepts FCPC V5 插板胸挂 (黑色军团)",
+        "normalizedName": "ferro-concepts-fcpc-v5-plate-carrier-black-division",
+        "types": [
+            "noFlea",
+            "rig",
+            "wearable"
+        ],
+        "iconLink": "689479cb47e5acd1e10be986-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ferro_Concepts_FCPC_V5_Plate_Carrier_(Black_Division)",
+        "tasks": [
+            {
+                "id": "69ce21e990144e437802b1e0",
+                "name": "新鲜到货",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": false,
+                "count": 5,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "689479eb30cc5ba7be00f5ff",
+        "name": "Spiritus Systems LV-119 插板胸挂 (黑色军团 V2)",
+        "normalizedName": "spiritus-systems-lv-119-plate-carrier-black-division-v2",
+        "types": [
+            "noFlea",
+            "rig",
+            "wearable"
+        ],
+        "iconLink": "689479eb30cc5ba7be00f5ff-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spiritus_Systems_LV-119_Plate_Carrier_(Black_Division_V2)",
+        "tasks": [
+            {
+                "id": "69ce21e990144e437802b1e0",
+                "name": "新鲜到货",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": false,
+                "count": 5,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "69e2441a18cb3157560855ec",
+        "name": "Spiritus Systems LV-119 插板胸挂 (黑系复合迷彩)",
+        "normalizedName": "spiritus-systems-lv-119-plate-carrier-multicam-black",
+        "types": [
+            "noFlea",
+            "rig",
+            "wearable"
+        ],
+        "iconLink": "69e2441a18cb3157560855ec-icon.webp",
+        "wikiLink": "",
+        "tasks": [
+            {
+                "id": "69ce21e990144e437802b1e0",
+                "name": "新鲜到货",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": false,
+                "count": 5,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "68947a4be4bf255d1b0ca746",
+        "name": "First Spear Siege-R Optimized M.A.S.S. 插板胸挂 (黑色军团)",
+        "normalizedName": "first-spear-siege-r-optimized-mass-plate-carrier-black-division",
+        "types": [
+            "noFlea",
+            "rig",
+            "wearable"
+        ],
+        "iconLink": "68947a4be4bf255d1b0ca746-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/First_Spear_Siege-R_Optimized_M.A.S.S._Plate_Carrier_(Black_Division)",
+        "tasks": [
+            {
+                "id": "69ce21e990144e437802b1e0",
+                "name": "新鲜到货",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": false,
+                "count": 5,
                 "mixedItemsTask": false
             }
         ]
