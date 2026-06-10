@@ -1118,27 +1118,6 @@
         ]
     },
     {
-        "id": "5bc9c29cd4351e003562b8a3",
-        "name": "西鲱鱼罐头",
-        "normalizedName": "can-of-sprats",
-        "types": [
-            "provisions"
-        ],
-        "iconLink": "5bc9c29cd4351e003562b8a3-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_sprats",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
         "id": "5bd073a586f7747e6f135799",
         "name": "假胡子",
         "normalizedName": "fake-mustache",
@@ -1147,27 +1126,6 @@
         ],
         "iconLink": "5bd073a586f7747e6f135799-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fake_mustache",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
-        "id": "5bd073c986f7747f627e796c",
-        "name": "Kotton无檐小便帽",
-        "normalizedName": "kotton-beanie",
-        "types": [
-            "wearable"
-        ],
-        "iconLink": "5bd073c986f7747f627e796c-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kotton_beanie",
         "tasks": [
             {
                 "id": "5c51aac186f77432ea65c552",

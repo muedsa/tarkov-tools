@@ -351907,37 +351907,6 @@
                 },
                 {
                     "__typename": "TaskObjectiveItem",
-                    "id": "5c51bf9a86f77478bf5632aa",
-                    "type": "giveItem",
-                    "description": "上交金公鸡",
-                    "maps": [],
-                    "optional": false,
-                    "items": [
-                        {
-                            "id": "5bc9bc53d4351e00367fbcee",
-                            "name": "金公鸡",
-                            "normalizedName": "golden-rooster-figurine",
-                            "shortName": "金鸡",
-                            "description": "一只立在亚力克台子上带有Chickenprism商标的金公鸡。",
-                            "types": [
-                                "barter"
-                            ],
-                            "width": 2,
-                            "height": 2,
-                            "iconLink": "https://assets.tarkov.dev/5bc9bc53d4351e00367fbcee-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Golden_rooster_figurine"
-                        }
-                    ],
-                    "count": 1,
-                    "foundInRaid": true,
-                    "dogTagLevel": 0,
-                    "maxDurability": 100,
-                    "minDurability": 0,
-                    "zones": [],
-                    "requiredKeys": null
-                },
-                {
-                    "__typename": "TaskObjectiveItem",
                     "id": "5c51bfb186f77478bd516d37",
                     "type": "giveItem",
                     "description": "上交银徽章",
@@ -352031,37 +352000,6 @@
                 },
                 {
                     "__typename": "TaskObjectiveItem",
-                    "id": "5c51c23a86f77478bb033466",
-                    "type": "giveItem",
-                    "description": "上交鲱鱼罐头",
-                    "maps": [],
-                    "optional": false,
-                    "items": [
-                        {
-                            "id": "5bc9c29cd4351e003562b8a3",
-                            "name": "西鲱鱼罐头",
-                            "normalizedName": "can-of-sprats",
-                            "shortName": "西鲱鱼",
-                            "description": "Alconafter 公司制造的美味西鲱鱼罐头，开罐即食。",
-                            "types": [
-                                "provisions"
-                            ],
-                            "width": 1,
-                            "height": 1,
-                            "iconLink": "https://assets.tarkov.dev/5bc9c29cd4351e003562b8a3-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_sprats"
-                        }
-                    ],
-                    "count": 1,
-                    "foundInRaid": true,
-                    "dogTagLevel": 0,
-                    "maxDurability": 100,
-                    "minDurability": 0,
-                    "zones": [],
-                    "requiredKeys": null
-                },
-                {
-                    "__typename": "TaskObjectiveItem",
                     "id": "5c51c24c86f77416a11e5cb7",
                     "type": "giveItem",
                     "description": "上交假胡子",
@@ -352081,37 +352019,6 @@
                             "height": 1,
                             "iconLink": "https://assets.tarkov.dev/5bd073a586f7747e6f135799-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fake_mustache"
-                        }
-                    ],
-                    "count": 1,
-                    "foundInRaid": true,
-                    "dogTagLevel": 0,
-                    "maxDurability": 100,
-                    "minDurability": 0,
-                    "zones": [],
-                    "requiredKeys": null
-                },
-                {
-                    "__typename": "TaskObjectiveItem",
-                    "id": "5c51c25c86f77478bf5632af",
-                    "type": "giveItem",
-                    "description": "上交Kotton无檐小便帽",
-                    "maps": [],
-                    "optional": false,
-                    "items": [
-                        {
-                            "id": "5bd073c986f7747f627e796c",
-                            "name": "Kotton无檐小便帽",
-                            "normalizedName": "kotton-beanie",
-                            "shortName": "Kotton",
-                            "description": "Kotton牌无檐小便帽，保暖又新潮。",
-                            "types": [
-                                "wearable"
-                            ],
-                            "width": 1,
-                            "height": 1,
-                            "iconLink": "https://assets.tarkov.dev/5bd073c986f7747f627e796c-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kotton_beanie"
                         }
                     ],
                     "count": 1,

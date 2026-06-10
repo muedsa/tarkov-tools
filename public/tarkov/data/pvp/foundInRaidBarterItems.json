@@ -1930,47 +1930,6 @@
         ]
     },
     {
-        "id": "5bc9bc53d4351e00367fbcee",
-        "name": "金公鸡",
-        "normalizedName": "golden-rooster-figurine",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "5bc9bc53d4351e00367fbcee-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Golden_rooster_figurine",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": [
-            {
-                "id": "5d494a295b56502f18c98a08-2",
-                "stationId": "5d494a295b56502f18c98a08",
-                "name": "荣耀展柜",
-                "normalizedName": "hall-of-fame",
-                "imageLink": "station-hall-of-fame.png",
-                "level": 2,
-                "count": 1
-            },
-            {
-                "id": "5d494a175b56502f18c98a04-1",
-                "stationId": "5d494a175b56502f18c98a04",
-                "name": "Scav宝箱",
-                "normalizedName": "scav-case",
-                "imageLink": "station-scav-case.png",
-                "level": 1,
-                "count": 1
-            }
-        ]
-    },
-    {
         "id": "5bc9bdb8d4351e003562b8a1",
         "name": "银徽章",
         "normalizedName": "silver-badge",
@@ -3391,6 +3350,37 @@
                 "normalizedName": "lavatory",
                 "imageLink": "station-lavatory.png",
                 "level": 3,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": "5bc9bc53d4351e00367fbcee",
+        "name": "金公鸡",
+        "normalizedName": "golden-rooster-figurine",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5bc9bc53d4351e00367fbcee-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Golden_rooster_figurine",
+        "tasks": [],
+        "hideoutStations": [
+            {
+                "id": "5d494a295b56502f18c98a08-2",
+                "stationId": "5d494a295b56502f18c98a08",
+                "name": "荣耀展柜",
+                "normalizedName": "hall-of-fame",
+                "imageLink": "station-hall-of-fame.png",
+                "level": 2,
+                "count": 1
+            },
+            {
+                "id": "5d494a175b56502f18c98a04-1",
+                "stationId": "5d494a175b56502f18c98a04",
+                "name": "Scav宝箱",
+                "normalizedName": "scav-case",
+                "imageLink": "station-scav-case.png",
+                "level": 1,
                 "count": 1
             }
         ]
