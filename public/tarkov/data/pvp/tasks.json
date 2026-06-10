@@ -366903,6 +366903,140 @@
             "taskImageLink": "https://assets.tarkov.dev/61e6e60c5ca3b3783662be27.webp"
         },
         {
+            "id": "69ce1de03e15cd80bd06f6c9",
+            "tarkovDataId": null,
+            "name": "油料交换",
+            "normalizedName": "oil-change",
+            "trader": {
+                "id": "54cb50c76803fa8b248b4571",
+                "name": "Prapor",
+                "normalizedName": "prapor",
+                "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+            },
+            "map": {
+                "id": "69af492a4819ea4ba10a69c5",
+                "name": "破冰船",
+                "normalizedName": "icebreaker"
+            },
+            "experience": 32000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Oil_Change",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69ce1e2614b1a16885f61da4",
+                    "type": "giveItem",
+                    "description": "在战局中找到物品：AMG-10 液压油",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "699f09de81a6c812900a77b7",
+                            "name": "AMG-10 液压油",
+                            "normalizedName": "amg-10-hydraulic-fluid",
+                            "shortName": "AMG-10",
+                            "description": "AMG-10 航空级液压油具备优异的粘度特性，专为在极地极端条件下运行的飞机和地面设备液压系统而设计。能在 -60°C 至 +55°C 的温差范围内保持理化性质稳定，确保设备正常运行。",
+                            "types": [
+                                "barter"
+                            ],
+                            "width": 1,
+                            "height": 2,
+                            "iconLink": "https://assets.tarkov.dev/699f09de81a6c812900a77b7-icon.webp",
+                            "wikiLink": ""
+                        }
+                    ],
+                    "count": 2,
+                    "foundInRaid": true,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "craftUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [
+                    {
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        },
+                        "attributes": [],
+                        "count": 330000,
+                        "quantity": 330000
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "68aee763130c00663d08aea8-707265736574000000000021",
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        },
+                        "level": 1,
+                        "item": {
+                            "id": "707265736574000000000021",
+                            "name": "AK-308 7.62x51 突击步枪 RMR",
+                            "normalizedName": "kalashnikov-ak-308-762x51-assault-rifle-rmr",
+                            "shortName": "AK-308 RMR",
+                            "width": 6,
+                            "height": 2,
+                            "types": [
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/707265736574000000000021-icon.webp",
+                            "wikiLink": ""
+                        }
+                    }
+                ],
+                "craftUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "craftUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp"
+        },
+        {
             "id": "69ce204c8702b378f9091e4b",
             "tarkovDataId": null,
             "name": "战争从未改变",
@@ -367639,6 +367773,435 @@
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/69ce213a298a6529b30d7134.webp"
+        },
+        {
+            "id": "69ce1f84ebbdbf36a200627c",
+            "tarkovDataId": null,
+            "name": "和平原子",
+            "normalizedName": "peaceful-atom",
+            "trader": {
+                "id": "5935c25fb3acc3127c3d8cd9",
+                "name": "Peacekeeper",
+                "normalizedName": "peacekeeper",
+                "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+            },
+            "map": {
+                "id": "69af492a4819ea4ba10a69c5",
+                "name": "破冰船",
+                "normalizedName": "icebreaker"
+            },
+            "experience": 24000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Peaceful_Atom",
+            "minPlayerLevel": 0,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "69ce1de03e15cd80bd06f6c9",
+                        "name": "油料交换",
+                        "normalizedName": "oil-change",
+                        "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        }
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveQuestItem",
+                    "id": "69ce1f84ebbdbf36a200627e",
+                    "type": "findQuestItem",
+                    "description": "在破冰船上找到并获取核反应单元控制日志",
+                    "maps": [
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        }
+                    ],
+                    "optional": false,
+                    "questItem": {
+                        "id": "69bb42b9ce2b96840302b92b",
+                        "name": "核反应单元控制日志",
+                        "normalizedName": "nuclear-power-unit-control-log",
+                        "shortName": "核日志",
+                        "description": "记录有安全参数、例行检查结果以及各项测量数据的核反应堆运行日志，确保破冰船核反应堆能够安全运行。",
+                        "width": 1,
+                        "height": 2,
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
+                    },
+                    "possibleLocations": null,
+                    "zones": [],
+                    "count": 1,
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveQuestItem",
+                    "id": "69ce1f84ebbdbf36a200627f",
+                    "type": "giveQuestItem",
+                    "description": "上交找到的物品",
+                    "maps": [],
+                    "optional": false,
+                    "questItem": {
+                        "id": "69bb42b9ce2b96840302b92b",
+                        "name": "核反应单元控制日志",
+                        "normalizedName": "nuclear-power-unit-control-log",
+                        "shortName": "核日志",
+                        "description": "记录有安全参数、例行检查结果以及各项测量数据的核反应堆运行日志，确保破冰船核反应堆能够安全运行。",
+                        "width": 1,
+                        "height": 2,
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
+                    },
+                    "possibleLocations": null,
+                    "zones": [],
+                    "count": 1,
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "craftUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [
+                    {
+                        "item": {
+                            "id": "6193e590069d61205d490dd8",
+                            "name": "HK G28 7.62x51 精确射手步枪 默认",
+                            "normalizedName": "hk-g28-762x51-marksman-rifle-default",
+                            "shortName": "G28 默认",
+                            "width": 6,
+                            "height": 3,
+                            "types": [
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6193e590069d61205d490dd8-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/HK_G28_7.62x51_marksman_rifle"
+                        },
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1
+                    },
+                    {
+                        "item": {
+                            "id": "6769b8e3c1a1466c850658a8",
+                            "name": "7.62x51mm M80A1 弹药包（20发装）",
+                            "normalizedName": "762x51mm-m80a1-ammo-pack-20-pcs",
+                            "shortName": "M80A1",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "ammoBox",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6769b8e3c1a1466c850658a8-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80A1_ammo_pack_(20_pcs)"
+                        },
+                        "attributes": [],
+                        "count": 5,
+                        "quantity": 5
+                    },
+                    {
+                        "item": {
+                            "id": "617131a4568c120fdd29482d",
+                            "name": "HK417/G28 7.62x51 20发弹匣",
+                            "normalizedName": "hk417g28-762x51-20-round-magazine",
+                            "shortName": "417 762",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "mods"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/617131a4568c120fdd29482d-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/HK417/G28_7.62x51_20-round_magazine"
+                        },
+                        "attributes": [],
+                        "count": 3,
+                        "quantity": 3
+                    },
+                    {
+                        "item": {
+                            "id": "5696686a4bdc2da3298b456a",
+                            "name": "美元",
+                            "normalizedName": "dollars",
+                            "shortName": "美元",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
+                        },
+                        "attributes": [],
+                        "count": 3600,
+                        "quantity": 3600
+                    }
+                ],
+                "offerUnlock": [],
+                "craftUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "craftUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp"
+        },
+        {
+            "id": "69e5583240c3e6c8ba0edbd5",
+            "tarkovDataId": null,
+            "name": "窃听风暴",
+            "normalizedName": "wiring-the-vessel",
+            "trader": {
+                "id": "5935c25fb3acc3127c3d8cd9",
+                "name": "Peacekeeper",
+                "normalizedName": "peacekeeper",
+                "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+            },
+            "map": {
+                "id": "69af492a4819ea4ba10a69c5",
+                "name": "破冰船",
+                "normalizedName": "icebreaker"
+            },
+            "experience": 30000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Wiring_the_Vessel",
+            "minPlayerLevel": 0,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "69ce1f84ebbdbf36a200627c",
+                        "name": "和平原子",
+                        "normalizedName": "peaceful-atom",
+                        "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        }
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveBasic",
+                    "id": "69e5593e3f425636f1d762d9",
+                    "type": "repair",
+                    "description": "修复破冰船通往轮机舱路上自动化控制室内的设备",
+                    "maps": [
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        }
+                    ],
+                    "optional": false,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveBasic",
+                    "id": "69e5594c6dd4d9e12fa3de0d",
+                    "type": "repair",
+                    "description": "修复破冰船轮机舱下方自动化控制室内的设备",
+                    "maps": [
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        }
+                    ],
+                    "optional": false,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveBasic",
+                    "id": "69e559525afcf4e746e98e33",
+                    "type": "repair",
+                    "description": "修复破冰船靠近货舱位置自动化控制室内的设备",
+                    "maps": [
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        }
+                    ],
+                    "optional": false,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69e559bf4b53b554a2779130",
+                    "type": "plantItem",
+                    "description": "在破冰船主控室内安放黑客入侵装置",
+                    "maps": [
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        }
+                    ],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "590c2e1186f77425357b6124",
+                            "name": "一套工具",
+                            "normalizedName": "toolset",
+                            "shortName": "工具",
+                            "description": "修理工的工具套装，包含各种类型的工具。",
+                            "types": [
+                                "barter"
+                            ],
+                            "width": 2,
+                            "height": 2,
+                            "iconLink": "https://assets.tarkov.dev/590c2e1186f77425357b6124-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset"
+                        }
+                    ],
+                    "count": 1,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [
+                    {
+                        "item": {
+                            "id": "68e63a53371639e1e4004b6e",
+                            "name": "本地网络黑客入侵装置",
+                            "normalizedName": "local-network-hacking-device",
+                            "shortName": "LAN黑客",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea",
+                                "specialSlot"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68e63a53371639e1e4004b6e-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Local_network_hacking_device"
+                        },
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1
+                    }
+                ],
+                "offerUnlock": [],
+                "craftUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [
+                    {
+                        "item": {
+                            "id": "5696686a4bdc2da3298b456a",
+                            "name": "美元",
+                            "normalizedName": "dollars",
+                            "shortName": "美元",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
+                        },
+                        "attributes": [],
+                        "count": 5400,
+                        "quantity": 5400
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "5d235bb686f77443f4331278-5935c25fb3acc3127c3d8cd9",
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        },
+                        "level": 4,
+                        "item": {
+                            "id": "5d235bb686f77443f4331278",
+                            "name": "SICC 收纳包",
+                            "normalizedName": "s-i-c-c-organizational-pouch",
+                            "shortName": "SICC",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "container",
+                                "markedOnly"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d235bb686f77443f4331278-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/S_I_C_C_organizational_pouch"
+                        }
+                    }
+                ],
+                "craftUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "craftUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp"
         },
         {
             "id": "69c26c07683c9831020018c7",

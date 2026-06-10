@@ -2612,6 +2612,28 @@
         "hideoutStations": []
     },
     {
+        "id": "699f09de81a6c812900a77b7",
+        "name": "AMG-10 液压油",
+        "normalizedName": "amg-10-hydraulic-fluid",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "699f09de81a6c812900a77b7-icon.webp",
+        "wikiLink": "",
+        "tasks": [
+            {
+                "id": "69ce1de03e15cd80bd06f6c9",
+                "name": "油料交换",
+                "trader": "Prapor",
+                "traderImageLink": "54cb50c76803fa8b248b4571.webp",
+                "kappaRequired": false,
+                "count": 2,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
         "id": "69bb43df99f3fda8f1072483",
         "name": "Nooby Shield 碘化钾片",
         "normalizedName": "nooby-shield-potassium-iodide-tablets",
