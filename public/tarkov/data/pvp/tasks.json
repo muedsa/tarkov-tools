@@ -367034,7 +367034,7 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp"
+            "taskImageLink": "https://assets.tarkov.dev/69ce1de03e15cd80bd06f6c9.webp"
         },
         {
             "id": "69ce204c8702b378f9091e4b",
@@ -367799,7 +367799,7 @@
                         "id": "69ce1de03e15cd80bd06f6c9",
                         "name": "油料交换",
                         "normalizedName": "oil-change",
-                        "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+                        "taskImageLink": "https://assets.tarkov.dev/69ce1de03e15cd80bd06f6c9.webp",
                         "trader": {
                             "id": "54cb50c76803fa8b248b4571",
                             "name": "Prapor",
@@ -367974,7 +367974,7 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp"
+            "taskImageLink": "https://assets.tarkov.dev/69ce1f84ebbdbf36a200627c.webp"
         },
         {
             "id": "69e5583240c3e6c8ba0edbd5",
@@ -368001,7 +368001,7 @@
                         "id": "69ce1f84ebbdbf36a200627c",
                         "name": "和平原子",
                         "normalizedName": "peaceful-atom",
-                        "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp",
+                        "taskImageLink": "https://assets.tarkov.dev/69ce1f84ebbdbf36a200627c.webp",
                         "trader": {
                             "id": "5935c25fb3acc3127c3d8cd9",
                             "name": "Peacekeeper",
@@ -368201,7 +368201,7 @@
             "factionName": "Any",
             "kappaRequired": false,
             "lightkeeperRequired": false,
-            "taskImageLink": "https://assets.tarkov.dev/unknown-task.webp"
+            "taskImageLink": "https://assets.tarkov.dev/69e5583240c3e6c8ba0edbd5.webp"
         },
         {
             "id": "69c26c07683c9831020018c7",
