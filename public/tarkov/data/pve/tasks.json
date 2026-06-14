@@ -4496,6 +4496,7 @@
                 ],
                 "traderUnlock": [],
                 "achievement": [],
+                "craftUnlock": [],
                 "traderStanding": [
                     {
                         "standing": 0.02,
@@ -4610,8 +4611,7 @@
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mosin_Rifle_AIM_Sports_Recoil_Pad"
                         }
                     }
-                ],
-                "craftUnlock": []
+                ]
             }
         },
         {
@@ -6305,6 +6305,12 @@
                     {
                         "id": "655b4f57769de97e1d62d116",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -6325,13 +6331,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_BT_gzh"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -24789,6 +24789,12 @@
                     {
                         "id": "5e66408286f7747b2c2d7786",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -24809,13 +24815,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VOG-25_Khattabka_improvised_hand_grenade"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -45821,6 +45821,95 @@
                     }
                 }
             ],
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.04,
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 1100,
+                        "quantity": 1100,
+                        "item": {
+                            "id": "5696686a4bdc2da3298b456a",
+                            "name": "美元",
+                            "normalizedName": "dollars",
+                            "shortName": "美元",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 2,
+                        "quantity": 2,
+                        "item": {
+                            "id": "61bf7c024770ee6f9c6b8b53",
+                            "name": "加密磁带盒",
+                            "normalizedName": "secure-magnetic-tape-cassette",
+                            "shortName": "加密磁带",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/61bf7c024770ee6f9c6b8b53-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Secure_magnetic_tape_cassette"
+                        }
+                    }
+                ],
+                "craftUnlock": [
+                    {
+                        "id": "655b457c9db22d43ab42b706",
+                        "level": 2,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 100,
+                                "quantity": 100,
+                                "item": {
+                                    "id": "619636be6db0f2477964e710",
+                                    "name": ".300 Blackout M62 曳光弹",
+                                    "normalizedName": "300-blackout-m62-tracer",
+                                    "shortName": "M62",
+                                    "width": 1,
+                                    "height": 1,
+                                    "types": [
+                                        "ammo",
+                                        "noFlea"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/619636be6db0f2477964e710-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Blackout_M62_Tracer"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             "map": {
                 "id": "5704e554d2720bac5b8b456e",
                 "name": "海岸线",
@@ -46207,96 +46296,7 @@
                         }
                     ]
                 }
-            ],
-            "finishRewards": {
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.04,
-                        "trader": {
-                            "id": "5935c25fb3acc3127c3d8cd9",
-                            "name": "Peacekeeper",
-                            "normalizedName": "peacekeeper",
-                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 1100,
-                        "quantity": 1100,
-                        "item": {
-                            "id": "5696686a4bdc2da3298b456a",
-                            "name": "美元",
-                            "normalizedName": "dollars",
-                            "shortName": "美元",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 2,
-                        "quantity": 2,
-                        "item": {
-                            "id": "61bf7c024770ee6f9c6b8b53",
-                            "name": "加密磁带盒",
-                            "normalizedName": "secure-magnetic-tape-cassette",
-                            "shortName": "加密磁带",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/61bf7c024770ee6f9c6b8b53-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Secure_magnetic_tape_cassette"
-                        }
-                    }
-                ],
-                "craftUnlock": [
-                    {
-                        "id": "655b457c9db22d43ab42b706",
-                        "level": 2,
-                        "rewardItems": [
-                            {
-                                "attributes": [],
-                                "count": 100,
-                                "quantity": 100,
-                                "item": {
-                                    "id": "619636be6db0f2477964e710",
-                                    "name": ".300 Blackout M62 曳光弹",
-                                    "normalizedName": "300-blackout-m62-tracer",
-                                    "shortName": "M62",
-                                    "width": 1,
-                                    "height": 1,
-                                    "types": [
-                                        "ammo",
-                                        "noFlea"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/619636be6db0f2477964e710-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Blackout_M62_Tracer"
-                                }
-                            }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "id": "5ac3462b86f7741d6118b983",
@@ -48032,6 +48032,12 @@
                     {
                         "id": "5dceb6964a98801ba2075d27",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -48052,13 +48058,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80A1"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -56583,6 +56583,12 @@
                     {
                         "id": "66509e8c9398c9c9e10a31bb",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fcd654e7668ec2ec322",
+                            "name": "医疗站",
+                            "normalizedName": "medstation",
+                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -56604,13 +56610,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/2A2-(b-TG)_stimulant_injector"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fcd654e7668ec2ec322",
-                            "name": "医疗站",
-                            "normalizedName": "medstation",
-                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -70164,6 +70164,12 @@
                     {
                         "id": "5dde60e0e2c8f57eb6465327",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -70184,13 +70190,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9x39mm_PAB-9_gs"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -74361,6 +74361,104 @@
                     }
                 }
             ],
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.04,
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        }
+                    },
+                    {
+                        "standing": 0.02,
+                        "trader": {
+                            "id": "58330581ace78e27b8b10cee",
+                            "name": "Skier",
+                            "normalizedName": "skier",
+                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 2500,
+                        "quantity": 2500,
+                        "item": {
+                            "id": "5696686a4bdc2da3298b456a",
+                            "name": "美元",
+                            "normalizedName": "dollars",
+                            "shortName": "美元",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "58dffc5d86f77407c744a847",
+                            "name": "DVL-10 7.62x51 栓动式狙击步枪 Urbana",
+                            "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle-urbana",
+                            "shortName": "DVL-10 Urbana",
+                            "width": 6,
+                            "height": 2,
+                            "types": [
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/58dffc5d86f77407c744a847-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lobaev_Arms_DVL-10_7.62x51_bolt-action_sniper_rifle"
+                        }
+                    }
+                ],
+                "craftUnlock": [
+                    {
+                        "id": "5d5c1f25d582a5479d4ec458",
+                        "level": 2,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 120,
+                                "quantity": 120,
+                                "item": {
+                                    "id": "56dff2ced2720bb4668b4567",
+                                    "name": "5.45x39毫米 PP",
+                                    "normalizedName": "545x39mm-pp-gs",
+                                    "shortName": "PP",
+                                    "width": 1,
+                                    "height": 1,
+                                    "types": [
+                                        "ammo",
+                                        "noFlea"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/56dff2ced2720bb4668b4567-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_PP_gs"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             "map": {
                 "id": "56f40101d2720b2a4d8b45d6",
                 "name": "海关",
@@ -74457,105 +74555,7 @@
                         }
                     ]
                 }
-            ],
-            "finishRewards": {
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.04,
-                        "trader": {
-                            "id": "54cb50c76803fa8b248b4571",
-                            "name": "Prapor",
-                            "normalizedName": "prapor",
-                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
-                        }
-                    },
-                    {
-                        "standing": 0.02,
-                        "trader": {
-                            "id": "58330581ace78e27b8b10cee",
-                            "name": "Skier",
-                            "normalizedName": "skier",
-                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 2500,
-                        "quantity": 2500,
-                        "item": {
-                            "id": "5696686a4bdc2da3298b456a",
-                            "name": "美元",
-                            "normalizedName": "dollars",
-                            "shortName": "美元",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "58dffc5d86f77407c744a847",
-                            "name": "DVL-10 7.62x51 栓动式狙击步枪 Urbana",
-                            "normalizedName": "lobaev-arms-dvl-10-762x51-bolt-action-sniper-rifle-urbana",
-                            "shortName": "DVL-10 Urbana",
-                            "width": 6,
-                            "height": 2,
-                            "types": [
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/58dffc5d86f77407c744a847-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lobaev_Arms_DVL-10_7.62x51_bolt-action_sniper_rifle"
-                        }
-                    }
-                ],
-                "craftUnlock": [
-                    {
-                        "id": "5d5c1f25d582a5479d4ec458",
-                        "level": 2,
-                        "rewardItems": [
-                            {
-                                "attributes": [],
-                                "count": 120,
-                                "quantity": 120,
-                                "item": {
-                                    "id": "56dff2ced2720bb4668b4567",
-                                    "name": "5.45x39毫米 PP",
-                                    "normalizedName": "545x39mm-pp-gs",
-                                    "shortName": "PP",
-                                    "width": 1,
-                                    "height": 1,
-                                    "types": [
-                                        "ammo",
-                                        "noFlea"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/56dff2ced2720bb4668b4567-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_PP_gs"
-                                }
-                            }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "id": "66ab970848ddbe9d4a0c49a8",
@@ -287264,6 +287264,138 @@
                     }
                 }
             ],
+            "finishRewards": {
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.04,
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 185000,
+                        "quantity": 185000,
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 16,
+                        "quantity": 16,
+                        "item": {
+                            "id": "5d40407c86f774318526545a",
+                            "name": "Tarkovskaya瓶装伏特加",
+                            "normalizedName": "bottle-of-tarkovskaya-vodka",
+                            "shortName": "伏特加",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "provisions"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d40407c86f774318526545a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Tarkovskaya_vodka"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "65766a7b86f11bca4106d3c3",
+                            "name": "BNTI Zhuk（甲虫）防弹衣（数码丛林迷彩） 默认",
+                            "normalizedName": "bnti-zhuk-body-armor-emr-default",
+                            "shortName": "Zhuk-6a 默认",
+                            "width": 3,
+                            "height": 3,
+                            "types": [
+                                "noFlea",
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/65766a7b86f11bca4106d3c3-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BNTI_Zhuk_body_armor_(EMR)"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "64f8c95cb4918f39d363e340",
+                        "level": 4,
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        },
+                        "item": {
+                            "id": "70726573657400000000001b",
+                            "name": "AK-12 5.45x39突击步枪 Silenced",
+                            "normalizedName": "kalashnikov-ak-12-545x39-assault-rifle-silenced",
+                            "shortName": "AK-12 Silenced",
+                            "width": 6,
+                            "height": 2,
+                            "types": [
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/ak12sd000000000000000001-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AK-12_5.45x39_assault_rifle"
+                        }
+                    }
+                ],
+                "craftUnlock": [
+                    {
+                        "id": "655b33429db22d43ab42b704",
+                        "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 60,
+                                "quantity": 60,
+                                "item": {
+                                    "id": "56dfef82d2720bbd668b4567",
+                                    "name": "5.45x39毫米 BP",
+                                    "normalizedName": "545x39mm-bp-gs",
+                                    "shortName": "BP",
+                                    "width": 1,
+                                    "height": 1,
+                                    "types": [
+                                        "ammo",
+                                        "noFlea"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/56dfef82d2720bbd668b4567-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_BP_gs"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             "map": {
                 "id": "5714dc692459777137212e12",
                 "name": "塔科夫街区",
@@ -288058,139 +288190,7 @@
                         }
                     ]
                 }
-            ],
-            "finishRewards": {
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.04,
-                        "trader": {
-                            "id": "54cb50c76803fa8b248b4571",
-                            "name": "Prapor",
-                            "normalizedName": "prapor",
-                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 185000,
-                        "quantity": 185000,
-                        "item": {
-                            "id": "5449016a4bdc2d6f028b456f",
-                            "name": "卢布",
-                            "normalizedName": "roubles",
-                            "shortName": "卢布",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 16,
-                        "quantity": 16,
-                        "item": {
-                            "id": "5d40407c86f774318526545a",
-                            "name": "Tarkovskaya瓶装伏特加",
-                            "normalizedName": "bottle-of-tarkovskaya-vodka",
-                            "shortName": "伏特加",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "provisions"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5d40407c86f774318526545a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Tarkovskaya_vodka"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "65766a7b86f11bca4106d3c3",
-                            "name": "BNTI Zhuk（甲虫）防弹衣（数码丛林迷彩） 默认",
-                            "normalizedName": "bnti-zhuk-body-armor-emr-default",
-                            "shortName": "Zhuk-6a 默认",
-                            "width": 3,
-                            "height": 3,
-                            "types": [
-                                "noFlea",
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/65766a7b86f11bca4106d3c3-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BNTI_Zhuk_body_armor_(EMR)"
-                        }
-                    }
-                ],
-                "offerUnlock": [
-                    {
-                        "id": "64f8c95cb4918f39d363e340",
-                        "level": 4,
-                        "trader": {
-                            "id": "54cb50c76803fa8b248b4571",
-                            "name": "Prapor",
-                            "normalizedName": "prapor",
-                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
-                        },
-                        "item": {
-                            "id": "70726573657400000000001b",
-                            "name": "AK-12 5.45x39突击步枪 Silenced",
-                            "normalizedName": "kalashnikov-ak-12-545x39-assault-rifle-silenced",
-                            "shortName": "AK-12 Silenced",
-                            "width": 6,
-                            "height": 2,
-                            "types": [
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/ak12sd000000000000000001-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AK-12_5.45x39_assault_rifle"
-                        }
-                    }
-                ],
-                "craftUnlock": [
-                    {
-                        "id": "655b33429db22d43ab42b704",
-                        "level": 3,
-                        "rewardItems": [
-                            {
-                                "attributes": [],
-                                "count": 60,
-                                "quantity": 60,
-                                "item": {
-                                    "id": "56dfef82d2720bbd668b4567",
-                                    "name": "5.45x39毫米 BP",
-                                    "normalizedName": "545x39mm-bp-gs",
-                                    "shortName": "BP",
-                                    "width": 1,
-                                    "height": 1,
-                                    "types": [
-                                        "ammo",
-                                        "noFlea"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/56dfef82d2720bbd668b4567-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_BP_gs"
-                                }
-                            }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "id": "68ee1c18b4e5bc9a68018cd7",
@@ -289139,47 +289139,6 @@
                     }
                 }
             ],
-            "map": {
-                "id": "5704e4dad2720bb55b8b4567",
-                "name": "灯塔",
-                "normalizedName": "lighthouse"
-            },
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveShoot",
-                    "id": "617bf1e1d93d977d2452051f",
-                    "type": "shoot",
-                    "description": "在灯塔消灭游荡者",
-                    "optional": false,
-                    "targetNames": [
-                        "游荡者"
-                    ],
-                    "count": 10,
-                    "shotType": "kill",
-                    "zoneNames": [],
-                    "bodyParts": [],
-                    "timeFromHour": 0,
-                    "timeUntilHour": 0,
-                    "usingWeapon": [],
-                    "usingWeaponMods": [],
-                    "wearing": [],
-                    "notWearing": [],
-                    "distance": {
-                        "compareMethod": ">=",
-                        "value": 0
-                    },
-                    "playerHealthEffect": null,
-                    "enemyHealthEffect": null,
-                    "zones": [],
-                    "maps": [
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        }
-                    ]
-                }
-            ],
             "finishRewards": {
                 "offerUnlock": [],
                 "skillLevelReward": [],
@@ -289221,6 +289180,12 @@
                     {
                         "id": "655b5af31273611d2462ab76",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -289241,16 +289206,51 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/12/70_AP-20_armor-piercing_slug"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
-            }
+            },
+            "map": {
+                "id": "5704e4dad2720bb55b8b4567",
+                "name": "灯塔",
+                "normalizedName": "lighthouse"
+            },
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveShoot",
+                    "id": "617bf1e1d93d977d2452051f",
+                    "type": "shoot",
+                    "description": "在灯塔消灭游荡者",
+                    "optional": false,
+                    "targetNames": [
+                        "游荡者"
+                    ],
+                    "count": 10,
+                    "shotType": "kill",
+                    "zoneNames": [],
+                    "bodyParts": [],
+                    "timeFromHour": 0,
+                    "timeUntilHour": 0,
+                    "usingWeapon": [],
+                    "usingWeaponMods": [],
+                    "wearing": [],
+                    "notWearing": [],
+                    "distance": {
+                        "compareMethod": ">=",
+                        "value": 0
+                    },
+                    "playerHealthEffect": null,
+                    "enemyHealthEffect": null,
+                    "zones": [],
+                    "maps": [
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "id": "5b478eca86f7744642012254",
@@ -294180,6 +294180,121 @@
                     }
                 }
             ],
+            "finishRewards": {
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.03,
+                        "trader": {
+                            "id": "5ac3b934156ae10c4430e83c",
+                            "name": "Ragman",
+                            "normalizedName": "ragman",
+                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 50000,
+                        "quantity": 50000,
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "5b44c6ae86f7742d1627baea",
+                            "name": "ANA Tactical Beta 2 战斗背包（橄榄绿）",
+                            "normalizedName": "ana-tactical-beta-2-battle-backpack-olive-drab",
+                            "shortName": "Beta2",
+                            "width": 5,
+                            "height": 5,
+                            "types": [
+                                "backpack",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5b44c6ae86f7742d1627baea-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ANA_Tactical_Beta_2_Battle_backpack_(Olive_Drab)"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "655b88f11f2b6843ec751fdd",
+                        "level": 2,
+                        "trader": {
+                            "id": "5ac3b934156ae10c4430e83c",
+                            "name": "Ragman",
+                            "normalizedName": "ragman",
+                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
+                        },
+                        "item": {
+                            "id": "657127126d197c216005b402",
+                            "name": "Interceptor OTV防弹衣（通用迷彩） 默认",
+                            "normalizedName": "interceptor-otv-body-armor-ucp-default",
+                            "shortName": "OTV 默认",
+                            "width": 3,
+                            "height": 3,
+                            "types": [
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/657127126d197c216005b402-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Interceptor_OTV_body_armor_(UCP)"
+                        }
+                    }
+                ],
+                "craftUnlock": [
+                    {
+                        "id": "655b5fd2975a7f3c734661a8",
+                        "level": 2,
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 1,
+                                "quantity": 1,
+                                "item": {
+                                    "id": "61bcc89aef0f505f0c6cd0fc",
+                                    "name": "FirstSpear Strandhogg 插板胸挂（丛林绿）",
+                                    "normalizedName": "first-spear-strandhogg-plate-carrier-ranger-green",
+                                    "shortName": "Strandhogg",
+                                    "width": 3,
+                                    "height": 4,
+                                    "types": [
+                                        "armor",
+                                        "rig",
+                                        "wearable"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/61bcc89aef0f505f0c6cd0fc-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/First_Spear_Strandhogg_plate_carrier_(Ranger_Green)"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             "map": {
                 "id": "5714dbc024597771384a510d",
                 "name": "立交桥",
@@ -294387,122 +294502,7 @@
                         }
                     ]
                 }
-            ],
-            "finishRewards": {
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.03,
-                        "trader": {
-                            "id": "5ac3b934156ae10c4430e83c",
-                            "name": "Ragman",
-                            "normalizedName": "ragman",
-                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 50000,
-                        "quantity": 50000,
-                        "item": {
-                            "id": "5449016a4bdc2d6f028b456f",
-                            "name": "卢布",
-                            "normalizedName": "roubles",
-                            "shortName": "卢布",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "5b44c6ae86f7742d1627baea",
-                            "name": "ANA Tactical Beta 2 战斗背包（橄榄绿）",
-                            "normalizedName": "ana-tactical-beta-2-battle-backpack-olive-drab",
-                            "shortName": "Beta2",
-                            "width": 5,
-                            "height": 5,
-                            "types": [
-                                "backpack",
-                                "wearable"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5b44c6ae86f7742d1627baea-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ANA_Tactical_Beta_2_Battle_backpack_(Olive_Drab)"
-                        }
-                    }
-                ],
-                "offerUnlock": [
-                    {
-                        "id": "655b88f11f2b6843ec751fdd",
-                        "level": 2,
-                        "trader": {
-                            "id": "5ac3b934156ae10c4430e83c",
-                            "name": "Ragman",
-                            "normalizedName": "ragman",
-                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
-                        },
-                        "item": {
-                            "id": "657127126d197c216005b402",
-                            "name": "Interceptor OTV防弹衣（通用迷彩） 默认",
-                            "normalizedName": "interceptor-otv-body-armor-ucp-default",
-                            "shortName": "OTV 默认",
-                            "width": 3,
-                            "height": 3,
-                            "types": [
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/657127126d197c216005b402-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Interceptor_OTV_body_armor_(UCP)"
-                        }
-                    }
-                ],
-                "craftUnlock": [
-                    {
-                        "id": "655b5fd2975a7f3c734661a8",
-                        "level": 2,
-                        "rewardItems": [
-                            {
-                                "attributes": [],
-                                "count": 1,
-                                "quantity": 1,
-                                "item": {
-                                    "id": "61bcc89aef0f505f0c6cd0fc",
-                                    "name": "FirstSpear Strandhogg 插板胸挂（丛林绿）",
-                                    "normalizedName": "first-spear-strandhogg-plate-carrier-ranger-green",
-                                    "shortName": "Strandhogg",
-                                    "width": 3,
-                                    "height": 4,
-                                    "types": [
-                                        "armor",
-                                        "rig",
-                                        "wearable"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/61bcc89aef0f505f0c6cd0fc-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/First_Spear_Strandhogg_plate_carrier_(Ranger_Green)"
-                                }
-                            }
-                        ],
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "id": "5b47926a86f7747ccc057c15",
@@ -300624,6 +300624,12 @@
                     {
                         "id": "655b5ebc32b0b1645e6f54c9",
                         "level": 1,
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -300644,13 +300650,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6B23-2_body_armor_(Mountain_Flora)"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -302732,6 +302732,12 @@
                     {
                         "id": "655b65fc1273611d2462ab77",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -302753,13 +302759,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.11_Tactical_TacTec_plate_carrier_(Ranger_Green)"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -304157,6 +304157,12 @@
                     {
                         "id": "655b63ac9db22d43ab42b70a",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -304178,13 +304184,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ars_Arma_A18_Skanda_plate_carrier_(MultiCam)"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -315221,6 +315221,63 @@
                     }
                 }
             ],
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "craftUnlock": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.05,
+                        "trader": {
+                            "id": "58330581ace78e27b8b10cee",
+                            "name": "Skier",
+                            "normalizedName": "skier",
+                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 100000,
+                        "quantity": 100000,
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "60b7c2bd95047637182d90a4",
+                            "name": "MP-155 12铅径 半自动霰弹枪 Ultima",
+                            "normalizedName": "mp-155-12ga-semi-automatic-shotgun-ultima",
+                            "shortName": "MP-155 Ultima",
+                            "width": 5,
+                            "height": 2,
+                            "types": [
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/60b7c2bd95047637182d90a4-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-155_12ga_semi-automatic_shotgun"
+                        }
+                    }
+                ]
+            },
             "objectives": [
                 {
                     "__typename": "TaskObjectiveShoot",
@@ -315642,64 +315699,7 @@
                         ]
                     ]
                 }
-            ],
-            "finishRewards": {
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.05,
-                        "trader": {
-                            "id": "58330581ace78e27b8b10cee",
-                            "name": "Skier",
-                            "normalizedName": "skier",
-                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 100000,
-                        "quantity": 100000,
-                        "item": {
-                            "id": "5449016a4bdc2d6f028b456f",
-                            "name": "卢布",
-                            "normalizedName": "roubles",
-                            "shortName": "卢布",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "60b7c2bd95047637182d90a4",
-                            "name": "MP-155 12铅径 半自动霰弹枪 Ultima",
-                            "normalizedName": "mp-155-12ga-semi-automatic-shotgun-ultima",
-                            "shortName": "MP-155 Ultima",
-                            "width": 5,
-                            "height": 2,
-                            "types": [
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/60b7c2bd95047637182d90a4-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-155_12ga_semi-automatic_shotgun"
-                        }
-                    }
-                ],
-                "craftUnlock": []
-            }
+            ]
         },
         {
             "id": "5c0d0f1886f77457b8210226",
@@ -318364,6 +318364,12 @@
                     {
                         "id": "655b675e1f2b6843ec751fd6",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -318385,13 +318391,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NPP_KlASS_Bagariy_plate_carrier_(EMR)"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -319038,6 +319038,203 @@
                     }
                 }
             ],
+            "finishRewards": {
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.04,
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 25000,
+                        "quantity": 25000,
+                        "item": {
+                            "id": "5696686a4bdc2da3298b456a",
+                            "name": "美元",
+                            "normalizedName": "dollars",
+                            "shortName": "美元",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "5c0a2cec0db834001b7ce47d",
+                            "name": "EOTech HHS-1 复合瞄具（黄褐色）",
+                            "normalizedName": "eotech-hhs-1-hybrid-sight-tan",
+                            "shortName": "HHS-1褐",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "mods"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5c0a2cec0db834001b7ce47d-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/EOTech_HHS-1_hybrid_sight"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "5c0e66e2d174af02a96252f4",
+                            "name": "Ops-Core SLAAP 附加防弹板（黄褐色）",
+                            "normalizedName": "velocity-systems-slaap-plate-tan",
+                            "shortName": "SLAAP",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "noFlea",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5c0e66e2d174af02a96252f4-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Velocity_Systems_SLAAP_Plate_(Tan)"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 3,
+                        "quantity": 3,
+                        "item": {
+                            "id": "59bfe68886f7746004266202",
+                            "name": "Vltor MUR-1S 5.56x45 AR-15 上机匣",
+                            "normalizedName": "ar-15-vltor-mur-1s-556x45-upper-receiver",
+                            "shortName": "MUR-1S",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "mods"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/59bfe68886f7746004266202-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AR-15_Vltor_MUR-1S_5.56x45_upper_receiver"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "5c19314586f774315e7716c4",
+                        "level": 3,
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        },
+                        "item": {
+                            "id": "5c0a2cec0db834001b7ce47d",
+                            "name": "EOTech HHS-1 复合瞄具（黄褐色）",
+                            "normalizedName": "eotech-hhs-1-hybrid-sight-tan",
+                            "shortName": "HHS-1褐",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "mods"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5c0a2cec0db834001b7ce47d-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/EOTech_HHS-1_hybrid_sight"
+                        }
+                    },
+                    {
+                        "id": "5c19318086f7745fa96afd4a",
+                        "level": 4,
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        },
+                        "item": {
+                            "id": "5c0e66e2d174af02a96252f4",
+                            "name": "Ops-Core SLAAP 附加防弹板（黄褐色）",
+                            "normalizedName": "velocity-systems-slaap-plate-tan",
+                            "shortName": "SLAAP",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "noFlea",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5c0e66e2d174af02a96252f4-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Velocity_Systems_SLAAP_Plate_(Tan)"
+                        }
+                    },
+                    {
+                        "id": "5c19319686f7747ce71bcbe7",
+                        "level": 4,
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        },
+                        "item": {
+                            "id": "59bfe68886f7746004266202",
+                            "name": "Vltor MUR-1S 5.56x45 AR-15 上机匣",
+                            "normalizedName": "ar-15-vltor-mur-1s-556x45-upper-receiver",
+                            "shortName": "MUR-1S",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "mods"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/59bfe68886f7746004266202-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AR-15_Vltor_MUR-1S_5.56x45_upper_receiver"
+                        }
+                    }
+                ],
+                "craftUnlock": [
+                    {
+                        "id": "63baedefe6ebc10fe0201083",
+                        "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 60,
+                                "quantity": 60,
+                                "item": {
+                                    "id": "5ba26835d4351e0035628ff5",
+                                    "name": "4.6x30毫米 AP SX",
+                                    "normalizedName": "46x30mm-ap-sx",
+                                    "shortName": "AP SX",
+                                    "width": 1,
+                                    "height": 1,
+                                    "types": [
+                                        "ammo",
+                                        "noFlea"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/5ba26835d4351e0035628ff5-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/4.6x30mm_AP_SX"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             "objectives": [
                 {
                     "__typename": "TaskObjectiveExtract",
@@ -319338,204 +319535,7 @@
                         }
                     ]
                 }
-            ],
-            "finishRewards": {
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.04,
-                        "trader": {
-                            "id": "5935c25fb3acc3127c3d8cd9",
-                            "name": "Peacekeeper",
-                            "normalizedName": "peacekeeper",
-                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 25000,
-                        "quantity": 25000,
-                        "item": {
-                            "id": "5696686a4bdc2da3298b456a",
-                            "name": "美元",
-                            "normalizedName": "dollars",
-                            "shortName": "美元",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "5c0a2cec0db834001b7ce47d",
-                            "name": "EOTech HHS-1 复合瞄具（黄褐色）",
-                            "normalizedName": "eotech-hhs-1-hybrid-sight-tan",
-                            "shortName": "HHS-1褐",
-                            "width": 2,
-                            "height": 1,
-                            "types": [
-                                "mods"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5c0a2cec0db834001b7ce47d-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/EOTech_HHS-1_hybrid_sight"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "5c0e66e2d174af02a96252f4",
-                            "name": "Ops-Core SLAAP 附加防弹板（黄褐色）",
-                            "normalizedName": "velocity-systems-slaap-plate-tan",
-                            "shortName": "SLAAP",
-                            "width": 2,
-                            "height": 1,
-                            "types": [
-                                "noFlea",
-                                "wearable"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5c0e66e2d174af02a96252f4-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Velocity_Systems_SLAAP_Plate_(Tan)"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 3,
-                        "quantity": 3,
-                        "item": {
-                            "id": "59bfe68886f7746004266202",
-                            "name": "Vltor MUR-1S 5.56x45 AR-15 上机匣",
-                            "normalizedName": "ar-15-vltor-mur-1s-556x45-upper-receiver",
-                            "shortName": "MUR-1S",
-                            "width": 2,
-                            "height": 1,
-                            "types": [
-                                "mods"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/59bfe68886f7746004266202-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AR-15_Vltor_MUR-1S_5.56x45_upper_receiver"
-                        }
-                    }
-                ],
-                "offerUnlock": [
-                    {
-                        "id": "5c19314586f774315e7716c4",
-                        "level": 3,
-                        "trader": {
-                            "id": "5935c25fb3acc3127c3d8cd9",
-                            "name": "Peacekeeper",
-                            "normalizedName": "peacekeeper",
-                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                        },
-                        "item": {
-                            "id": "5c0a2cec0db834001b7ce47d",
-                            "name": "EOTech HHS-1 复合瞄具（黄褐色）",
-                            "normalizedName": "eotech-hhs-1-hybrid-sight-tan",
-                            "shortName": "HHS-1褐",
-                            "width": 2,
-                            "height": 1,
-                            "types": [
-                                "mods"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5c0a2cec0db834001b7ce47d-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/EOTech_HHS-1_hybrid_sight"
-                        }
-                    },
-                    {
-                        "id": "5c19318086f7745fa96afd4a",
-                        "level": 4,
-                        "trader": {
-                            "id": "5935c25fb3acc3127c3d8cd9",
-                            "name": "Peacekeeper",
-                            "normalizedName": "peacekeeper",
-                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                        },
-                        "item": {
-                            "id": "5c0e66e2d174af02a96252f4",
-                            "name": "Ops-Core SLAAP 附加防弹板（黄褐色）",
-                            "normalizedName": "velocity-systems-slaap-plate-tan",
-                            "shortName": "SLAAP",
-                            "width": 2,
-                            "height": 1,
-                            "types": [
-                                "noFlea",
-                                "wearable"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5c0e66e2d174af02a96252f4-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Velocity_Systems_SLAAP_Plate_(Tan)"
-                        }
-                    },
-                    {
-                        "id": "5c19319686f7747ce71bcbe7",
-                        "level": 4,
-                        "trader": {
-                            "id": "5935c25fb3acc3127c3d8cd9",
-                            "name": "Peacekeeper",
-                            "normalizedName": "peacekeeper",
-                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                        },
-                        "item": {
-                            "id": "59bfe68886f7746004266202",
-                            "name": "Vltor MUR-1S 5.56x45 AR-15 上机匣",
-                            "normalizedName": "ar-15-vltor-mur-1s-556x45-upper-receiver",
-                            "shortName": "MUR-1S",
-                            "width": 2,
-                            "height": 1,
-                            "types": [
-                                "mods"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/59bfe68886f7746004266202-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AR-15_Vltor_MUR-1S_5.56x45_upper_receiver"
-                        }
-                    }
-                ],
-                "craftUnlock": [
-                    {
-                        "id": "63baedefe6ebc10fe0201083",
-                        "level": 3,
-                        "rewardItems": [
-                            {
-                                "attributes": [],
-                                "count": 60,
-                                "quantity": 60,
-                                "item": {
-                                    "id": "5ba26835d4351e0035628ff5",
-                                    "name": "4.6x30毫米 AP SX",
-                                    "normalizedName": "46x30mm-ap-sx",
-                                    "shortName": "AP SX",
-                                    "width": 1,
-                                    "height": 1,
-                                    "types": [
-                                        "ammo",
-                                        "noFlea"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/5ba26835d4351e0035628ff5-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/4.6x30mm_AP_SX"
-                                }
-                            }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "id": "669fa3a40c828825de06d6a1",
@@ -321650,6 +321650,66 @@
                     }
                 }
             ],
+            "startRewards": {
+                "traderStanding": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 4,
+                        "quantity": 4,
+                        "item": {
+                            "id": "63a0b2eabea67a6d93009e52",
+                            "name": "无线电中继器",
+                            "normalizedName": "radio-repeater",
+                            "shortName": "中继器",
+                            "width": 2,
+                            "height": 2,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/63a0b2eabea67a6d93009e52-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Radio_repeater"
+                        }
+                    }
+                ],
+                "craftUnlock": [
+                    {
+                        "id": "63a571802116d261d2336cd1",
+                        "level": 1,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 1,
+                                "quantity": 1,
+                                "item": {
+                                    "id": "63a0b2eabea67a6d93009e52",
+                                    "name": "无线电中继器",
+                                    "normalizedName": "radio-repeater",
+                                    "shortName": "中继器",
+                                    "width": 2,
+                                    "height": 2,
+                                    "types": [
+                                        "noFlea"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/63a0b2eabea67a6d93009e52-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Radio_repeater"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             "map": {
                 "id": "5704e4dad2720bb55b8b4567",
                 "name": "灯塔",
@@ -321960,67 +322020,7 @@
                         }
                     ]
                 }
-            ],
-            "startRewards": {
-                "traderStanding": [],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 4,
-                        "quantity": 4,
-                        "item": {
-                            "id": "63a0b2eabea67a6d93009e52",
-                            "name": "无线电中继器",
-                            "normalizedName": "radio-repeater",
-                            "shortName": "中继器",
-                            "width": 2,
-                            "height": 2,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/63a0b2eabea67a6d93009e52-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Radio_repeater"
-                        }
-                    }
-                ],
-                "craftUnlock": [
-                    {
-                        "id": "63a571802116d261d2336cd1",
-                        "level": 1,
-                        "rewardItems": [
-                            {
-                                "attributes": [],
-                                "count": 1,
-                                "quantity": 1,
-                                "item": {
-                                    "id": "63a0b2eabea67a6d93009e52",
-                                    "name": "无线电中继器",
-                                    "normalizedName": "radio-repeater",
-                                    "shortName": "中继器",
-                                    "width": 2,
-                                    "height": 2,
-                                    "types": [
-                                        "noFlea"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/63a0b2eabea67a6d93009e52-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Radio_repeater"
-                                }
-                            }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "id": "625d6ffcaa168e51321d69d7",
@@ -323447,6 +323447,48 @@
                     }
                 }
             ],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "craftUnlock": [
+                    {
+                        "id": "6399c421d65735732c6ba765",
+                        "level": 2,
+                        "station": {
+                            "id": "5d484fdf654e7600691aadf8",
+                            "name": "情报中心",
+                            "normalizedName": "intelligence-center",
+                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 1,
+                                "quantity": 1,
+                                "item": {
+                                    "id": "62e910aaf957f2915e0a5e36",
+                                    "name": "Digital secure DSP无线电收发器",
+                                    "normalizedName": "digital-secure-dsp-radio-transmitter",
+                                    "shortName": "DSPT",
+                                    "width": 1,
+                                    "height": 1,
+                                    "types": [
+                                        "noFlea",
+                                        "specialSlot"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/62e910aaf957f2915e0a5e36-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Digital_secure_DSP_radio_transmitter"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             "map": {
                 "id": "5704e4dad2720bb55b8b4567",
                 "name": "灯塔",
@@ -323710,49 +323752,7 @@
                         }
                     ]
                 }
-            ],
-            "startRewards": {
-                "traderStanding": [],
-                "items": [],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "craftUnlock": [
-                    {
-                        "id": "6399c421d65735732c6ba765",
-                        "level": 2,
-                        "rewardItems": [
-                            {
-                                "attributes": [],
-                                "count": 1,
-                                "quantity": 1,
-                                "item": {
-                                    "id": "62e910aaf957f2915e0a5e36",
-                                    "name": "Digital secure DSP无线电收发器",
-                                    "normalizedName": "digital-secure-dsp-radio-transmitter",
-                                    "shortName": "DSPT",
-                                    "width": 1,
-                                    "height": 1,
-                                    "types": [
-                                        "noFlea",
-                                        "specialSlot"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/62e910aaf957f2915e0a5e36-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Digital_secure_DSP_radio_transmitter"
-                                }
-                            }
-                        ],
-                        "station": {
-                            "id": "5d484fdf654e7600691aadf8",
-                            "name": "情报中心",
-                            "normalizedName": "intelligence-center",
-                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "id": "626148251ed3bb5bcc5bd9ed",
@@ -324695,6 +324695,76 @@
                     }
                 }
             ],
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.01,
+                        "trader": {
+                            "id": "638f541a29ffd1183d187f57",
+                            "name": "Lightkeeper",
+                            "normalizedName": "lightkeeper",
+                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "6389c92d52123d5dd17f8876",
+                            "name": "先进电子材料教材",
+                            "normalizedName": "advanced-electronic-materials-textbook",
+                            "shortName": "电子材料教材",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6389c92d52123d5dd17f8876-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Advanced_Electronic_Materials_textbook"
+                        }
+                    }
+                ],
+                "craftUnlock": [
+                    {
+                        "id": "5ed9ff023a68ec264e5233c2",
+                        "level": 2,
+                        "station": {
+                            "id": "5d484fdf654e7600691aadf8",
+                            "name": "情报中心",
+                            "normalizedName": "intelligence-center",
+                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 1,
+                                "quantity": 1,
+                                "item": {
+                                    "id": "5c05308086f7746b2101e90b",
+                                    "name": "Virtex可编程处理器",
+                                    "normalizedName": "virtex-programmable-processor",
+                                    "shortName": "Virtex",
+                                    "width": 1,
+                                    "height": 1,
+                                    "types": [
+                                        "barter"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/5c05308086f7746b2101e90b-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Virtex_programmable_processor"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             "objectives": [
                 {
                     "__typename": "TaskObjectiveExtract",
@@ -324930,77 +325000,7 @@
                         }
                     ]
                 }
-            ],
-            "finishRewards": {
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.01,
-                        "trader": {
-                            "id": "638f541a29ffd1183d187f57",
-                            "name": "Lightkeeper",
-                            "normalizedName": "lightkeeper",
-                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "6389c92d52123d5dd17f8876",
-                            "name": "先进电子材料教材",
-                            "normalizedName": "advanced-electronic-materials-textbook",
-                            "shortName": "电子材料教材",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/6389c92d52123d5dd17f8876-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Advanced_Electronic_Materials_textbook"
-                        }
-                    }
-                ],
-                "craftUnlock": [
-                    {
-                        "id": "5ed9ff023a68ec264e5233c2",
-                        "level": 2,
-                        "rewardItems": [
-                            {
-                                "attributes": [],
-                                "count": 1,
-                                "quantity": 1,
-                                "item": {
-                                    "id": "5c05308086f7746b2101e90b",
-                                    "name": "Virtex可编程处理器",
-                                    "normalizedName": "virtex-programmable-processor",
-                                    "shortName": "Virtex",
-                                    "width": 1,
-                                    "height": 1,
-                                    "types": [
-                                        "barter"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/5c05308086f7746b2101e90b-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Virtex_programmable_processor"
-                                }
-                            }
-                        ],
-                        "station": {
-                            "id": "5d484fdf654e7600691aadf8",
-                            "name": "情报中心",
-                            "normalizedName": "intelligence-center",
-                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "id": "63966fbeea19ac7ed845db2e",
@@ -325062,6 +325062,71 @@
                     }
                 }
             ],
+            "finishRewards": {
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "craftUnlock": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.01,
+                        "trader": {
+                            "id": "638f541a29ffd1183d187f57",
+                            "name": "Lightkeeper",
+                            "normalizedName": "lightkeeper",
+                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "6389c7750ef44505c87f5996",
+                            "name": "微控制器电路板",
+                            "normalizedName": "microcontroller-board",
+                            "shortName": "电路板",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6389c7750ef44505c87f5996-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "63a235b6f194393ecf632fa3",
+                        "level": 4,
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        },
+                        "item": {
+                            "id": "6389c7750ef44505c87f5996",
+                            "name": "微控制器电路板",
+                            "normalizedName": "microcontroller-board",
+                            "shortName": "电路板",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6389c7750ef44505c87f5996-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
+                        }
+                    }
+                ]
+            },
             "map": {
                 "id": "5714dc692459777137212e12",
                 "name": "塔科夫街区",
@@ -325233,72 +325298,7 @@
                         }
                     ]
                 }
-            ],
-            "finishRewards": {
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.01,
-                        "trader": {
-                            "id": "638f541a29ffd1183d187f57",
-                            "name": "Lightkeeper",
-                            "normalizedName": "lightkeeper",
-                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "6389c7750ef44505c87f5996",
-                            "name": "微控制器电路板",
-                            "normalizedName": "microcontroller-board",
-                            "shortName": "电路板",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter",
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/6389c7750ef44505c87f5996-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
-                        }
-                    }
-                ],
-                "offerUnlock": [
-                    {
-                        "id": "63a235b6f194393ecf632fa3",
-                        "level": 4,
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        },
-                        "item": {
-                            "id": "6389c7750ef44505c87f5996",
-                            "name": "微控制器电路板",
-                            "normalizedName": "microcontroller-board",
-                            "shortName": "电路板",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter",
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/6389c7750ef44505c87f5996-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
-                        }
-                    }
-                ],
-                "craftUnlock": []
-            }
+            ]
         },
         {
             "id": "63966fccac6f8f3c677b9d89",
@@ -325361,6 +325361,137 @@
                     }
                 }
             ],
+            "finishRewards": {
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.01,
+                        "trader": {
+                            "id": "638f541a29ffd1183d187f57",
+                            "name": "Lightkeeper",
+                            "normalizedName": "lightkeeper",
+                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "5c05300686f7746dce784e5d",
+                            "name": "VPX闪存模块",
+                            "normalizedName": "vpx-flash-storage-module",
+                            "shortName": "VPX",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5c05300686f7746dce784e5d-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VPX_Flash_Storage_Module"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "5c05300686f7746dce784e5d",
+                            "name": "VPX闪存模块",
+                            "normalizedName": "vpx-flash-storage-module",
+                            "shortName": "VPX",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5c05300686f7746dce784e5d-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VPX_Flash_Storage_Module"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "5c05300686f7746dce784e5d",
+                            "name": "VPX闪存模块",
+                            "normalizedName": "vpx-flash-storage-module",
+                            "shortName": "VPX",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5c05300686f7746dce784e5d-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VPX_Flash_Storage_Module"
+                        }
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "658065c5baa3942bf871691f",
+                        "level": 4,
+                        "trader": {
+                            "id": "5ac3b934156ae10c4430e83c",
+                            "name": "Ragman",
+                            "normalizedName": "ragman",
+                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
+                        },
+                        "item": {
+                            "id": "657089638db3adca1009f4ca",
+                            "name": "Atomic Defense CQCM 防弹面具（黑色）",
+                            "normalizedName": "atomic-defense-cqcm-ballistic-mask-black",
+                            "shortName": "CQCM",
+                            "width": 2,
+                            "height": 2,
+                            "types": [
+                                "noFlea",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/657089638db3adca1009f4ca-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Atomic_Defense_CQCM_ballistic_mask_(Black)"
+                        }
+                    }
+                ],
+                "craftUnlock": [
+                    {
+                        "id": "5ee4a093a297eb185236194f",
+                        "level": 2,
+                        "station": {
+                            "id": "5d484fdf654e7600691aadf8",
+                            "name": "情报中心",
+                            "normalizedName": "intelligence-center",
+                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 1,
+                                "quantity": 1,
+                                "item": {
+                                    "id": "5c052fb986f7746b2101e909",
+                                    "name": "UHF RFID固定式读取器 ",
+                                    "normalizedName": "uhf-rfid-reader",
+                                    "shortName": "RFIDR",
+                                    "width": 1,
+                                    "height": 1,
+                                    "types": [
+                                        "barter"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/5c052fb986f7746b2101e909-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/UHF_RFID_Reader"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             "objectives": [
                 {
                     "__typename": "TaskObjectiveExtract",
@@ -325595,138 +325726,7 @@
                         }
                     ]
                 }
-            ],
-            "finishRewards": {
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.01,
-                        "trader": {
-                            "id": "638f541a29ffd1183d187f57",
-                            "name": "Lightkeeper",
-                            "normalizedName": "lightkeeper",
-                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "5c05300686f7746dce784e5d",
-                            "name": "VPX闪存模块",
-                            "normalizedName": "vpx-flash-storage-module",
-                            "shortName": "VPX",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5c05300686f7746dce784e5d-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VPX_Flash_Storage_Module"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "5c05300686f7746dce784e5d",
-                            "name": "VPX闪存模块",
-                            "normalizedName": "vpx-flash-storage-module",
-                            "shortName": "VPX",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5c05300686f7746dce784e5d-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VPX_Flash_Storage_Module"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "5c05300686f7746dce784e5d",
-                            "name": "VPX闪存模块",
-                            "normalizedName": "vpx-flash-storage-module",
-                            "shortName": "VPX",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5c05300686f7746dce784e5d-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VPX_Flash_Storage_Module"
-                        }
-                    }
-                ],
-                "offerUnlock": [
-                    {
-                        "id": "658065c5baa3942bf871691f",
-                        "level": 4,
-                        "trader": {
-                            "id": "5ac3b934156ae10c4430e83c",
-                            "name": "Ragman",
-                            "normalizedName": "ragman",
-                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
-                        },
-                        "item": {
-                            "id": "657089638db3adca1009f4ca",
-                            "name": "Atomic Defense CQCM 防弹面具（黑色）",
-                            "normalizedName": "atomic-defense-cqcm-ballistic-mask-black",
-                            "shortName": "CQCM",
-                            "width": 2,
-                            "height": 2,
-                            "types": [
-                                "noFlea",
-                                "wearable"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/657089638db3adca1009f4ca-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Atomic_Defense_CQCM_ballistic_mask_(Black)"
-                        }
-                    }
-                ],
-                "craftUnlock": [
-                    {
-                        "id": "5ee4a093a297eb185236194f",
-                        "level": 2,
-                        "rewardItems": [
-                            {
-                                "attributes": [],
-                                "count": 1,
-                                "quantity": 1,
-                                "item": {
-                                    "id": "5c052fb986f7746b2101e909",
-                                    "name": "UHF RFID固定式读取器 ",
-                                    "normalizedName": "uhf-rfid-reader",
-                                    "shortName": "RFIDR",
-                                    "width": 1,
-                                    "height": 1,
-                                    "types": [
-                                        "barter"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/5c052fb986f7746b2101e909-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/UHF_RFID_Reader"
-                                }
-                            }
-                        ],
-                        "station": {
-                            "id": "5d484fdf654e7600691aadf8",
-                            "name": "情报中心",
-                            "normalizedName": "intelligence-center",
-                            "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "id": "63966fd9ea19ac7ed845db30",
@@ -326154,6 +326154,45 @@
                     }
                 }
             ],
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "craftUnlock": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.03,
+                        "trader": {
+                            "id": "638f541a29ffd1183d187f57",
+                            "name": "Lightkeeper",
+                            "normalizedName": "lightkeeper",
+                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "6389c8fb46b54c634724d847",
+                            "name": "硅基光电集成电路教材",
+                            "normalizedName": "silicon-optoelectronic-integrated-circuits-textbook",
+                            "shortName": "光电教材",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6389c8fb46b54c634724d847-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Silicon_Optoelectronic_Integrated_Circuits_textbook"
+                        }
+                    }
+                ]
+            },
             "map": {
                 "id": "5704e3c2d2720bac5b8b4567",
                 "name": "森林",
@@ -326378,46 +326417,7 @@
                         }
                     ]
                 }
-            ],
-            "finishRewards": {
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.03,
-                        "trader": {
-                            "id": "638f541a29ffd1183d187f57",
-                            "name": "Lightkeeper",
-                            "normalizedName": "lightkeeper",
-                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "6389c8fb46b54c634724d847",
-                            "name": "硅基光电集成电路教材",
-                            "normalizedName": "silicon-optoelectronic-integrated-circuits-textbook",
-                            "shortName": "光电教材",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/6389c8fb46b54c634724d847-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Silicon_Optoelectronic_Integrated_Circuits_textbook"
-                        }
-                    }
-                ],
-                "craftUnlock": []
-            }
+            ]
         },
         {
             "id": "63966ff54c3ef01b6f3ffad8",
@@ -326479,6 +326479,95 @@
                     }
                 }
             ],
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.03,
+                        "trader": {
+                            "id": "638f541a29ffd1183d187f57",
+                            "name": "Lightkeeper",
+                            "normalizedName": "lightkeeper",
+                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "5c05308086f7746b2101e90b",
+                            "name": "Virtex可编程处理器",
+                            "normalizedName": "virtex-programmable-processor",
+                            "shortName": "Virtex",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5c05308086f7746b2101e90b-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Virtex_programmable_processor"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "5c05308086f7746b2101e90b",
+                            "name": "Virtex可编程处理器",
+                            "normalizedName": "virtex-programmable-processor",
+                            "shortName": "Virtex",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5c05308086f7746b2101e90b-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Virtex_programmable_processor"
+                        }
+                    }
+                ],
+                "craftUnlock": [
+                    {
+                        "id": "60048c82a7903e00382d9593",
+                        "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 1,
+                                "quantity": 1,
+                                "item": {
+                                    "id": "5d1b5e94d7ad1a2b865a96b0",
+                                    "name": "FLIR RS-32 2.25-9x 35毫米 60Hz热成像步枪瞄准镜",
+                                    "normalizedName": "flir-rs-32-225-9x-35mm-60hz-thermal-riflescope",
+                                    "shortName": "FLIR RS-32",
+                                    "width": 2,
+                                    "height": 1,
+                                    "types": [
+                                        "mods",
+                                        "noFlea"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/5d1b5e94d7ad1a2b865a96b0-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/FLIR_RS-32_2.25-9x_35mm_60Hz_thermal_riflescope"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             "map": {
                 "id": "5714dbc024597771384a510d",
                 "name": "立交桥",
@@ -326875,96 +326964,7 @@
                         }
                     ]
                 }
-            ],
-            "finishRewards": {
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.03,
-                        "trader": {
-                            "id": "638f541a29ffd1183d187f57",
-                            "name": "Lightkeeper",
-                            "normalizedName": "lightkeeper",
-                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "5c05308086f7746b2101e90b",
-                            "name": "Virtex可编程处理器",
-                            "normalizedName": "virtex-programmable-processor",
-                            "shortName": "Virtex",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5c05308086f7746b2101e90b-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Virtex_programmable_processor"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "5c05308086f7746b2101e90b",
-                            "name": "Virtex可编程处理器",
-                            "normalizedName": "virtex-programmable-processor",
-                            "shortName": "Virtex",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5c05308086f7746b2101e90b-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Virtex_programmable_processor"
-                        }
-                    }
-                ],
-                "craftUnlock": [
-                    {
-                        "id": "60048c82a7903e00382d9593",
-                        "level": 3,
-                        "rewardItems": [
-                            {
-                                "attributes": [],
-                                "count": 1,
-                                "quantity": 1,
-                                "item": {
-                                    "id": "5d1b5e94d7ad1a2b865a96b0",
-                                    "name": "FLIR RS-32 2.25-9x 35毫米 60Hz热成像步枪瞄准镜",
-                                    "normalizedName": "flir-rs-32-225-9x-35mm-60hz-thermal-riflescope",
-                                    "shortName": "FLIR RS-32",
-                                    "width": 2,
-                                    "height": 1,
-                                    "types": [
-                                        "mods",
-                                        "noFlea"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/5d1b5e94d7ad1a2b865a96b0-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/FLIR_RS-32_2.25-9x_35mm_60Hz_thermal_riflescope"
-                                }
-                            }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "id": "639670029113f06a7c3b2377",
@@ -327434,6 +327434,78 @@
                     }
                 }
             ],
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.04,
+                        "trader": {
+                            "id": "638f541a29ffd1183d187f57",
+                            "name": "Lightkeeper",
+                            "normalizedName": "lightkeeper",
+                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "6389c7750ef44505c87f5996",
+                            "name": "微控制器电路板",
+                            "normalizedName": "microcontroller-board",
+                            "shortName": "电路板",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6389c7750ef44505c87f5996-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
+                        }
+                    }
+                ],
+                "craftUnlock": [
+                    {
+                        "id": "63a232f8ab6bb51044344bff",
+                        "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 4,
+                                "quantity": 4,
+                                "item": {
+                                    "id": "6389c7750ef44505c87f5996",
+                                    "name": "微控制器电路板",
+                                    "normalizedName": "microcontroller-board",
+                                    "shortName": "电路板",
+                                    "width": 1,
+                                    "height": 1,
+                                    "types": [
+                                        "barter",
+                                        "noFlea"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/6389c7750ef44505c87f5996-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             "map": {
                 "id": "5714dc692459777137212e12",
                 "name": "塔科夫街区",
@@ -327922,79 +327994,7 @@
                         }
                     ]
                 }
-            ],
-            "finishRewards": {
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.04,
-                        "trader": {
-                            "id": "638f541a29ffd1183d187f57",
-                            "name": "Lightkeeper",
-                            "normalizedName": "lightkeeper",
-                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "6389c7750ef44505c87f5996",
-                            "name": "微控制器电路板",
-                            "normalizedName": "microcontroller-board",
-                            "shortName": "电路板",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter",
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/6389c7750ef44505c87f5996-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
-                        }
-                    }
-                ],
-                "craftUnlock": [
-                    {
-                        "id": "63a232f8ab6bb51044344bff",
-                        "level": 3,
-                        "rewardItems": [
-                            {
-                                "attributes": [],
-                                "count": 4,
-                                "quantity": 4,
-                                "item": {
-                                    "id": "6389c7750ef44505c87f5996",
-                                    "name": "微控制器电路板",
-                                    "normalizedName": "microcontroller-board",
-                                    "shortName": "电路板",
-                                    "width": 1,
-                                    "height": 1,
-                                    "types": [
-                                        "barter",
-                                        "noFlea"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/6389c7750ef44505c87f5996-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
-                                }
-                            }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "id": "6396701b9113f06a7c3b2379",
@@ -328057,54 +328057,6 @@
                     }
                 }
             ],
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveSkill",
-                    "id": "639a169e6cd47c525121a116",
-                    "type": "skill",
-                    "description": "达到指定的栓动式步枪操作技能等级",
-                    "maps": [],
-                    "optional": false,
-                    "skillLevel": {
-                        "name": "栓动式步枪",
-                        "level": 10
-                    }
-                },
-                {
-                    "__typename": "TaskObjectiveShoot",
-                    "id": "6397ac912e519e69d2139b26",
-                    "type": "shoot",
-                    "description": "从350开外击杀狙击Scav",
-                    "optional": false,
-                    "targetNames": [
-                        "狙击手"
-                    ],
-                    "count": 10,
-                    "shotType": "kill",
-                    "zoneNames": [],
-                    "bodyParts": [],
-                    "timeFromHour": 0,
-                    "timeUntilHour": 0,
-                    "usingWeapon": [],
-                    "usingWeaponMods": [],
-                    "wearing": [],
-                    "notWearing": [],
-                    "distance": {
-                        "compareMethod": ">=",
-                        "value": 350
-                    },
-                    "playerHealthEffect": null,
-                    "enemyHealthEffect": null,
-                    "zones": [],
-                    "maps": [
-                        {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        }
-                    ]
-                }
-            ],
             "finishRewards": {
                 "offerUnlock": [],
                 "skillLevelReward": [],
@@ -328164,6 +328116,12 @@
                     {
                         "id": "63a2327c151bfb591645c104",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -328184,16 +328142,58 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Trijicon_REAP-IR_thermal_scope"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
-            }
+            },
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveSkill",
+                    "id": "639a169e6cd47c525121a116",
+                    "type": "skill",
+                    "description": "达到指定的栓动式步枪操作技能等级",
+                    "maps": [],
+                    "optional": false,
+                    "skillLevel": {
+                        "name": "栓动式步枪",
+                        "level": 10
+                    }
+                },
+                {
+                    "__typename": "TaskObjectiveShoot",
+                    "id": "6397ac912e519e69d2139b26",
+                    "type": "shoot",
+                    "description": "从350开外击杀狙击Scav",
+                    "optional": false,
+                    "targetNames": [
+                        "狙击手"
+                    ],
+                    "count": 10,
+                    "shotType": "kill",
+                    "zoneNames": [],
+                    "bodyParts": [],
+                    "timeFromHour": 0,
+                    "timeUntilHour": 0,
+                    "usingWeapon": [],
+                    "usingWeaponMods": [],
+                    "wearing": [],
+                    "notWearing": [],
+                    "distance": {
+                        "compareMethod": ">=",
+                        "value": 350
+                    },
+                    "playerHealthEffect": null,
+                    "enemyHealthEffect": null,
+                    "zones": [],
+                    "maps": [
+                        {
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "id": "63967028c4a91c5cb76abd81",
@@ -332388,6 +332388,77 @@
                     }
                 ]
             },
+            "finishRewards": {
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "traderStanding": [
+                    {
+                        "standing": 0.03,
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 1000,
+                        "quantity": 1000,
+                        "item": {
+                            "id": "5696686a4bdc2da3298b456a",
+                            "name": "美元",
+                            "normalizedName": "dollars",
+                            "shortName": "美元",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
+                        }
+                    }
+                ],
+                "craftUnlock": [
+                    {
+                        "id": "655b4489065b076eb02c4b45",
+                        "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 90,
+                                "quantity": 90,
+                                "item": {
+                                    "id": "54527ac44bdc2d36668b4567",
+                                    "name": "5.56x45毫米 M855A1",
+                                    "normalizedName": "556x45mm-m855a1",
+                                    "shortName": "M855A1",
+                                    "width": 1,
+                                    "height": 1,
+                                    "types": [
+                                        "ammo",
+                                        "noFlea"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/54527ac44bdc2d36668b4567-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             "map": {
                 "id": "5714dc692459777137212e12",
                 "name": "塔科夫街区",
@@ -332488,78 +332559,7 @@
                         "iconLink": "https://assets.tarkov.dev/638cbb3ba63f1b49be6a300e-icon.webp"
                     }
                 }
-            ],
-            "finishRewards": {
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "traderStanding": [
-                    {
-                        "standing": 0.03,
-                        "trader": {
-                            "id": "5935c25fb3acc3127c3d8cd9",
-                            "name": "Peacekeeper",
-                            "normalizedName": "peacekeeper",
-                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 1000,
-                        "quantity": 1000,
-                        "item": {
-                            "id": "5696686a4bdc2da3298b456a",
-                            "name": "美元",
-                            "normalizedName": "dollars",
-                            "shortName": "美元",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
-                        }
-                    }
-                ],
-                "craftUnlock": [
-                    {
-                        "id": "655b4489065b076eb02c4b45",
-                        "level": 3,
-                        "rewardItems": [
-                            {
-                                "attributes": [],
-                                "count": 90,
-                                "quantity": 90,
-                                "item": {
-                                    "id": "54527ac44bdc2d36668b4567",
-                                    "name": "5.56x45毫米 M855A1",
-                                    "normalizedName": "556x45mm-m855a1",
-                                    "shortName": "M855A1",
-                                    "width": 1,
-                                    "height": 1,
-                                    "types": [
-                                        "ammo",
-                                        "noFlea"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/54527ac44bdc2d36668b4567-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1"
-                                }
-                            }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "id": "5c0be13186f7746f016734aa",
@@ -342174,6 +342174,12 @@
                     {
                         "id": "6012ee7e44a0465ee67a58de",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fcd654e7668ec2ec322",
+                            "name": "医疗站",
+                            "normalizedName": "medstation",
+                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -342195,17 +342201,17 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/M.U.L.E._stimulant_injector"
                                 }
                             }
-                        ],
+                        ]
+                    },
+                    {
+                        "id": "64b6b5c1c3abf20a9660daad",
+                        "level": 2,
                         "station": {
                             "id": "5d484fcd654e7668ec2ec322",
                             "name": "医疗站",
                             "normalizedName": "medstation",
                             "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                        }
-                    },
-                    {
-                        "id": "64b6b5c1c3abf20a9660daad",
-                        "level": 2,
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -342227,13 +342233,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ETG-change_regenerative_stimulant_injector"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fcd654e7668ec2ec322",
-                            "name": "医疗站",
-                            "normalizedName": "medstation",
-                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -343015,6 +343015,12 @@
                     {
                         "id": "63a2327c151bfb591645c104",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -343035,13 +343041,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Trijicon_REAP-IR_thermal_scope"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -349051,6 +349051,48 @@
                     }
                 ]
             },
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "craftUnlock": [
+                    {
+                        "id": "6839a4b18b47de9b76007028",
+                        "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 1,
+                                "quantity": 1,
+                                "item": {
+                                    "id": "67d0576f29f580ebc10efd08",
+                                    "name": "TheAKGuy AK-50 .50 BMG 反器材步枪",
+                                    "normalizedName": "theakguy-ak-50-50-bmg-anti-materiel-rifle",
+                                    "shortName": "AK-50",
+                                    "width": 5,
+                                    "height": 1,
+                                    "types": [
+                                        "gun",
+                                        "noFlea"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/67d0576f29f580ebc10efd08-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TheAKGuy_AK-50_.50_BMG_anti-materiel_rifle"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             "objectives": [
                 {
                     "__typename": "TaskObjectiveQuestItem",
@@ -349556,49 +349598,7 @@
                         }
                     ]
                 }
-            ],
-            "startRewards": {
-                "traderStanding": [],
-                "items": [],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "craftUnlock": [
-                    {
-                        "id": "6839a4b18b47de9b76007028",
-                        "level": 3,
-                        "rewardItems": [
-                            {
-                                "attributes": [],
-                                "count": 1,
-                                "quantity": 1,
-                                "item": {
-                                    "id": "67d0576f29f580ebc10efd08",
-                                    "name": "TheAKGuy AK-50 .50 BMG 反器材步枪",
-                                    "normalizedName": "theakguy-ak-50-50-bmg-anti-materiel-rifle",
-                                    "shortName": "AK-50",
-                                    "width": 5,
-                                    "height": 1,
-                                    "types": [
-                                        "gun",
-                                        "noFlea"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/67d0576f29f580ebc10efd08-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TheAKGuy_AK-50_.50_BMG_anti-materiel_rifle"
-                                }
-                            }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "id": "68400926706e0a55e90b0007",
@@ -350039,6 +350039,12 @@
                     {
                         "id": "655b4a73975a7f3c734661a5",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -350059,13 +350065,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_BP_gzh"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
             }
@@ -350130,47 +350130,6 @@
                     }
                 }
             ],
-            "map": {
-                "id": "5704e5fad2720bc05b8b4567",
-                "name": "储备站",
-                "normalizedName": "reserve"
-            },
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveShoot",
-                    "id": "60e745d6479eef59b01b0bdc",
-                    "type": "shoot",
-                    "description": "在储备站击杀掠夺者",
-                    "optional": false,
-                    "targetNames": [
-                        "掠夺者"
-                    ],
-                    "count": 40,
-                    "shotType": "kill",
-                    "zoneNames": [],
-                    "bodyParts": [],
-                    "timeFromHour": 0,
-                    "timeUntilHour": 0,
-                    "usingWeapon": [],
-                    "usingWeaponMods": [],
-                    "wearing": [],
-                    "notWearing": [],
-                    "distance": {
-                        "compareMethod": ">=",
-                        "value": 0
-                    },
-                    "playerHealthEffect": null,
-                    "enemyHealthEffect": null,
-                    "zones": [],
-                    "maps": [
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        }
-                    ]
-                }
-            ],
             "finishRewards": {
                 "traderStanding": [],
                 "offerUnlock": [],
@@ -350215,6 +350174,12 @@
                     {
                         "id": "655b4669b71eeb7c4168c625",
                         "level": 3,
+                        "station": {
+                            "id": "5d484fda654e7600681d9315",
+                            "name": "工作台",
+                            "normalizedName": "workbench",
+                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -350235,16 +350200,51 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Blackout_AP"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        }
+                        ]
                     }
                 ]
-            }
+            },
+            "map": {
+                "id": "5704e5fad2720bc05b8b4567",
+                "name": "储备站",
+                "normalizedName": "reserve"
+            },
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveShoot",
+                    "id": "60e745d6479eef59b01b0bdc",
+                    "type": "shoot",
+                    "description": "在储备站击杀掠夺者",
+                    "optional": false,
+                    "targetNames": [
+                        "掠夺者"
+                    ],
+                    "count": 40,
+                    "shotType": "kill",
+                    "zoneNames": [],
+                    "bodyParts": [],
+                    "timeFromHour": 0,
+                    "timeUntilHour": 0,
+                    "usingWeapon": [],
+                    "usingWeaponMods": [],
+                    "wearing": [],
+                    "notWearing": [],
+                    "distance": {
+                        "compareMethod": ">=",
+                        "value": 0
+                    },
+                    "playerHealthEffect": null,
+                    "enemyHealthEffect": null,
+                    "zones": [],
+                    "maps": [
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        }
+                    ]
+                }
+            ]
         },
         {
             "id": "60e71dc0a94be721b065bbfc",
@@ -353294,6 +353294,122 @@
                     }
                 }
             ],
+            "finishRewards": {
+                "traderStanding": [],
+                "offerUnlock": [],
+                "skillLevelReward": [
+                    {
+                        "name": "近战",
+                        "level": 5
+                    },
+                    {
+                        "name": "手枪",
+                        "level": 5
+                    },
+                    {
+                        "name": "力量",
+                        "level": 5
+                    }
+                ],
+                "customization": [],
+                "traderUnlock": [],
+                "achievement": [],
+                "items": [
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "5f60c74e3b85f6263c145586",
+                            "name": "Rys-T 防弹头盔（黑色）",
+                            "normalizedName": "rys-t-bulletproof-helmet-black",
+                            "shortName": "Rys-T",
+                            "width": 2,
+                            "height": 2,
+                            "types": [
+                                "helmet",
+                                "noFlea",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5f60c74e3b85f6263c145586-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rys-T_bulletproof_helmet_(Black)"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "5f60c85b58eff926626a60f7",
+                            "name": "Rys-T 面罩",
+                            "normalizedName": "rys-t-face-shield",
+                            "shortName": "Rys-T面罩",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "glasses",
+                                "noFlea",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5f60c85b58eff926626a60f7-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rys-T_face_shield"
+                        }
+                    },
+                    {
+                        "attributes": [],
+                        "count": 1,
+                        "quantity": 1,
+                        "item": {
+                            "id": "65766adc234b9f6e050a431a",
+                            "name": "6B43 屏障-Sh 防弹衣（数码丛林迷彩） 默认",
+                            "normalizedName": "6b43-zabralo-sh-body-armor-emr-default",
+                            "shortName": "6B43 默认",
+                            "width": 4,
+                            "height": 4,
+                            "types": [
+                                "noFlea",
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/65766adc234b9f6e050a431a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(EMR)"
+                        }
+                    }
+                ],
+                "craftUnlock": [
+                    {
+                        "id": "655b6a50b71eeb7c4168c628",
+                        "level": 3,
+                        "station": {
+                            "id": "5d484fba654e7600691aadf7",
+                            "name": "卫生间",
+                            "normalizedName": "lavatory",
+                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
+                        },
+                        "rewardItems": [
+                            {
+                                "attributes": [],
+                                "count": 1,
+                                "quantity": 1,
+                                "item": {
+                                    "id": "5f60c74e3b85f6263c145586",
+                                    "name": "Rys-T 防弹头盔（黑色）",
+                                    "normalizedName": "rys-t-bulletproof-helmet-black",
+                                    "shortName": "Rys-T",
+                                    "width": 2,
+                                    "height": 2,
+                                    "types": [
+                                        "helmet",
+                                        "noFlea",
+                                        "wearable"
+                                    ],
+                                    "iconLink": "https://assets.tarkov.dev/5f60c74e3b85f6263c145586-icon.webp",
+                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rys-T_bulletproof_helmet_(Black)"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
             "objectives": [
                 {
                     "__typename": "TaskObjectiveShoot",
@@ -353606,123 +353722,7 @@
                         }
                     ]
                 }
-            ],
-            "finishRewards": {
-                "traderStanding": [],
-                "offerUnlock": [],
-                "skillLevelReward": [
-                    {
-                        "name": "近战",
-                        "level": 5
-                    },
-                    {
-                        "name": "手枪",
-                        "level": 5
-                    },
-                    {
-                        "name": "力量",
-                        "level": 5
-                    }
-                ],
-                "customization": [],
-                "traderUnlock": [],
-                "achievement": [],
-                "items": [
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "5f60c74e3b85f6263c145586",
-                            "name": "Rys-T 防弹头盔（黑色）",
-                            "normalizedName": "rys-t-bulletproof-helmet-black",
-                            "shortName": "Rys-T",
-                            "width": 2,
-                            "height": 2,
-                            "types": [
-                                "helmet",
-                                "noFlea",
-                                "wearable"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5f60c74e3b85f6263c145586-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rys-T_bulletproof_helmet_(Black)"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "5f60c85b58eff926626a60f7",
-                            "name": "Rys-T 面罩",
-                            "normalizedName": "rys-t-face-shield",
-                            "shortName": "Rys-T面罩",
-                            "width": 2,
-                            "height": 1,
-                            "types": [
-                                "glasses",
-                                "noFlea",
-                                "wearable"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5f60c85b58eff926626a60f7-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rys-T_face_shield"
-                        }
-                    },
-                    {
-                        "attributes": [],
-                        "count": 1,
-                        "quantity": 1,
-                        "item": {
-                            "id": "65766adc234b9f6e050a431a",
-                            "name": "6B43 屏障-Sh 防弹衣（数码丛林迷彩） 默认",
-                            "normalizedName": "6b43-zabralo-sh-body-armor-emr-default",
-                            "shortName": "6B43 默认",
-                            "width": 4,
-                            "height": 4,
-                            "types": [
-                                "noFlea",
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/65766adc234b9f6e050a431a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6B43_Zabralo-Sh_body_armor_(EMR)"
-                        }
-                    }
-                ],
-                "craftUnlock": [
-                    {
-                        "id": "655b6a50b71eeb7c4168c628",
-                        "level": 3,
-                        "rewardItems": [
-                            {
-                                "attributes": [],
-                                "count": 1,
-                                "quantity": 1,
-                                "item": {
-                                    "id": "5f60c74e3b85f6263c145586",
-                                    "name": "Rys-T 防弹头盔（黑色）",
-                                    "normalizedName": "rys-t-bulletproof-helmet-black",
-                                    "shortName": "Rys-T",
-                                    "width": 2,
-                                    "height": 2,
-                                    "types": [
-                                        "helmet",
-                                        "noFlea",
-                                        "wearable"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/5f60c74e3b85f6263c145586-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rys-T_bulletproof_helmet_(Black)"
-                                }
-                            }
-                        ],
-                        "station": {
-                            "id": "5d484fba654e7600691aadf7",
-                            "name": "卫生间",
-                            "normalizedName": "lavatory",
-                            "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
-                        }
-                    }
-                ]
-            }
+            ]
         },
         {
             "id": "60e71d23c1bfa3050473b8e6",
@@ -354080,6 +354080,12 @@
                     {
                         "id": "6002eec9cc73cd34ac64188a",
                         "level": 2,
+                        "station": {
+                            "id": "5d484fcd654e7668ec2ec322",
+                            "name": "医疗站",
+                            "normalizedName": "medstation",
+                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
+                        },
                         "rewardItems": [
                             {
                                 "attributes": [],
@@ -354101,13 +354107,7 @@
                                     "wikiLink": "https://escapefromtarkov.fandom.com/wiki/XTG-12_antidote_injector"
                                 }
                             }
-                        ],
-                        "station": {
-                            "id": "5d484fcd654e7668ec2ec322",
-                            "name": "医疗站",
-                            "normalizedName": "medstation",
-                            "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                        }
+                        ]
                     }
                 ]
             }
