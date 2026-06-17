@@ -17801,6 +17801,23 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
+                    "requiredQuestItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "unknown-item",
+                                "name": "未知物品",
+                                "normalizedName": "unknown-item",
+                                "shortName": "unknown",
+                                "width": 1,
+                                "height": 1,
+                                "types": [],
+                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
+                            }
+                        }
+                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -17857,23 +17874,6 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/68dfc07da7cfeed3e60204e7-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Armored_case"
-                            }
-                        }
-                    ],
-                    "requiredQuestItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "unknown-item",
-                                "name": "未知物品",
-                                "normalizedName": "unknown-item",
-                                "shortName": "unknown",
-                                "width": 1,
-                                "height": 1,
-                                "types": [],
-                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
                             }
                         }
                     ]
@@ -20546,6 +20546,23 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
+                    "requiredQuestItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "unknown-item",
+                                "name": "未知物品",
+                                "normalizedName": "unknown-item",
+                                "shortName": "unknown",
+                                "width": 1,
+                                "height": 1,
+                                "types": [],
+                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
+                            }
+                        }
+                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -20637,23 +20654,6 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reprogrammed_RFID_keycard_with_Prapor%27s_hash_codes"
                             }
                         }
-                    ],
-                    "requiredQuestItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "unknown-item",
-                                "name": "未知物品",
-                                "normalizedName": "unknown-item",
-                                "shortName": "unknown",
-                                "width": 1,
-                                "height": 1,
-                                "types": [],
-                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
-                            }
-                        }
                     ]
                 },
                 {
@@ -20738,6 +20738,23 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
+                    "requiredQuestItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "unknown-item",
+                                "name": "未知物品",
+                                "normalizedName": "unknown-item",
+                                "shortName": "unknown",
+                                "width": 1,
+                                "height": 1,
+                                "types": [],
+                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
+                            }
+                        }
+                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -20818,23 +20835,6 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/68c14b734a7e0bada00f8fd4-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reprogrammed_keycard_for_A.P.%27s_apartment_lock_(Green)"
-                            }
-                        }
-                    ],
-                    "requiredQuestItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "unknown-item",
-                                "name": "未知物品",
-                                "normalizedName": "unknown-item",
-                                "shortName": "unknown",
-                                "width": 1,
-                                "height": 1,
-                                "types": [],
-                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
                             }
                         }
                     ]
@@ -20998,6 +20998,17 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
+                    "requiredQuestItems": [
+                        {
+                            "id": "6331bb0d1aa9f42b804997a6",
+                            "name": "V3加密U盘",
+                            "normalizedName": "secure-flash-drive-v3",
+                            "shortName": "V3U盘",
+                            "width": 1,
+                            "height": 1,
+                            "iconLink": "https://assets.tarkov.dev/6331bb0d1aa9f42b804997a6-icon.webp"
+                        }
+                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -21080,17 +21091,6 @@
                                 "iconLink": "https://assets.tarkov.dev/62e910aaf957f2915e0a5e36-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Digital_secure_DSP_radio_transmitter"
                             }
-                        }
-                    ],
-                    "requiredQuestItems": [
-                        {
-                            "id": "6331bb0d1aa9f42b804997a6",
-                            "name": "V3加密U盘",
-                            "normalizedName": "secure-flash-drive-v3",
-                            "shortName": "V3U盘",
-                            "width": 1,
-                            "height": 1,
-                            "iconLink": "https://assets.tarkov.dev/6331bb0d1aa9f42b804997a6-icon.webp"
                         }
                     ],
                     "taskUnlock": {
@@ -21418,6 +21418,23 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
+                    "requiredQuestItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "unknown-item",
+                                "name": "未知物品",
+                                "normalizedName": "unknown-item",
+                                "shortName": "unknown",
+                                "width": 1,
+                                "height": 1,
+                                "types": [],
+                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
+                            }
+                        }
+                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -21500,7 +21517,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reprogrammed_keycard_for_A.P.%27s_apartment_lock_(Red)"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "67bc980c3c4c5942cb0ac53f",
+                    "level": 1,
+                    "taskUnlock": null,
+                    "duration": 84600,
+                    "station": {
+                        "id": "5d484fdf654e7600691aadf8",
+                        "name": "情报中心",
+                        "normalizedName": "intelligence-center",
+                        "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                    },
                     "requiredQuestItems": [
                         {
                             "attributes": [],
@@ -21516,20 +21545,23 @@
                                 "types": [],
                                 "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
                             }
+                        },
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "unknown-item",
+                                "name": "未知物品",
+                                "normalizedName": "unknown-item",
+                                "shortName": "unknown",
+                                "width": 1,
+                                "height": 1,
+                                "types": [],
+                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
+                            }
                         }
-                    ]
-                },
-                {
-                    "id": "67bc980c3c4c5942cb0ac53f",
-                    "level": 1,
-                    "taskUnlock": null,
-                    "duration": 84600,
-                    "station": {
-                        "id": "5d484fdf654e7600691aadf8",
-                        "name": "情报中心",
-                        "normalizedName": "intelligence-center",
-                        "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                    },
+                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -21589,38 +21621,6 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/67bdf04d66ca1d79a2024637-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Activated_Kruglov%27s_RFID_keycard"
-                            }
-                        }
-                    ],
-                    "requiredQuestItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "unknown-item",
-                                "name": "未知物品",
-                                "normalizedName": "unknown-item",
-                                "shortName": "unknown",
-                                "width": 1,
-                                "height": 1,
-                                "types": [],
-                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
-                            }
-                        },
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "unknown-item",
-                                "name": "未知物品",
-                                "normalizedName": "unknown-item",
-                                "shortName": "unknown",
-                                "width": 1,
-                                "height": 1,
-                                "types": [],
-                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
                             }
                         }
                     ]
@@ -22231,6 +22231,23 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
+                    "requiredQuestItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "unknown-item",
+                                "name": "未知物品",
+                                "normalizedName": "unknown-item",
+                                "shortName": "unknown",
+                                "width": 1,
+                                "height": 1,
+                                "types": [],
+                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
+                            }
+                        }
+                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -22320,23 +22337,6 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/67c033fd0610e91bea056998-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reprogrammed_RFID_keycard_with_Mr._Kerman%27s_hash_codes"
-                            }
-                        }
-                    ],
-                    "requiredQuestItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "unknown-item",
-                                "name": "未知物品",
-                                "normalizedName": "unknown-item",
-                                "shortName": "unknown",
-                                "width": 1,
-                                "height": 1,
-                                "types": [],
-                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
                             }
                         }
                     ]
@@ -22822,6 +22822,23 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
+                    "requiredQuestItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "unknown-item",
+                                "name": "未知物品",
+                                "normalizedName": "unknown-item",
+                                "shortName": "unknown",
+                                "width": 1,
+                                "height": 1,
+                                "types": [],
+                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
+                            }
+                        }
+                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -22902,23 +22919,6 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/68e7d984308332889e0b5e71-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reprogrammed_keycard_for_A.P.%27s_apartment_lock_(Blue)"
-                            }
-                        }
-                    ],
-                    "requiredQuestItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "unknown-item",
-                                "name": "未知物品",
-                                "normalizedName": "unknown-item",
-                                "shortName": "unknown",
-                                "width": 1,
-                                "height": 1,
-                                "types": [],
-                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
                             }
                         }
                     ]
