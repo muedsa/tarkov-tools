@@ -1885,6 +1885,338 @@
         ]
     },
     {
+        "id": "6761ff17cdc36bd66102e9d0",
+        "name": "新起点",
+        "taskImageLink": "6761ff17cdc36bd66102e9d0.webp",
+        "trader": "Ragman",
+        "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+        "kappaRequired": false,
+        "mixedItemsTask": true,
+        "objectives": [
+            {
+                "id": "6761ff17cdc36bd66102e9d8",
+                "description": "上交任意在战局中找到的 PMC 玩偶",
+                "count": 2,
+                "items": [
+                    {
+                        "id": "655c652d60d0ac437100fed7",
+                        "name": "BEAR 干员玩偶",
+                        "normalizedName": "bear-operative-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c652d60d0ac437100fed7-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BEAR_operative_figurine"
+                    },
+                    {
+                        "id": "655c663a6689c676ce57af85",
+                        "name": "USEC 干员玩偶",
+                        "normalizedName": "usec-operative-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c663a6689c676ce57af85-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/USEC_operative_figurine"
+                    },
+                    {
+                        "id": "66572b8d80b1cd4b6a67847f",
+                        "name": "Den 玩偶",
+                        "normalizedName": "den-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "66572b8d80b1cd4b6a67847f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Den_figurine"
+                    },
+                    {
+                        "id": "68f26124b84c6e1f8a09cfff",
+                        "name": "无赖战士玩偶",
+                        "normalizedName": "walking-tank-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f26124b84c6e1f8a09cfff-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Walking_Tank_figurine"
+                    },
+                    {
+                        "id": "6841b6b674a3c16f5e03d653",
+                        "name": "PMC 起源玩偶",
+                        "normalizedName": "pmc-origins-figurine",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "6841b6b674a3c16f5e03d653-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/PMC_Origins_figurine"
+                    },
+                    {
+                        "id": "68f11224197b61ffe703b16f",
+                        "name": "硬汉 PMC 玩偶",
+                        "normalizedName": "hardened-pmc-figurine",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f11224197b61ffe703b16f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hardened_PMC_figurine"
+                    },
+                    {
+                        "id": "697cddb414e932098005748d",
+                        "name": "鸭子玩偶",
+                        "normalizedName": "duck-figurine",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "697cddb414e932098005748d-icon.webp",
+                        "wikiLink": ""
+                    }
+                ]
+            },
+            {
+                "id": "6761ff17cdc36bd66102e9d9",
+                "description": "上交任意在战局中找到的 Scav 玩偶",
+                "count": 2,
+                "items": [
+                    {
+                        "id": "655c673673a43e23e857aebd",
+                        "name": "Scav 玩偶",
+                        "normalizedName": "scav-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c673673a43e23e857aebd-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Scav_figurine"
+                    },
+                    {
+                        "id": "655c67782a1356436041c9c5",
+                        "name": "Ryzhy 玩偶",
+                        "normalizedName": "ryzhy-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c67782a1356436041c9c5-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ryzhy_figurine"
+                    },
+                    {
+                        "id": "655c66e40b2de553b618d4b8",
+                        "name": "Mutkevich 政客玩偶",
+                        "normalizedName": "politician-mutkevich-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c66e40b2de553b618d4b8-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Politician_Mutkevich_figurine"
+                    },
+                    {
+                        "id": "68f261f6928cd23ddf0471fd",
+                        "name": "Mastichin 玩偶",
+                        "normalizedName": "mastichin-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f261f6928cd23ddf0471fd-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mastichin_figurine"
+                    },
+                    {
+                        "id": "690c70a2a1461a01d605a1bd",
+                        "name": "Elvisvista 玩偶",
+                        "normalizedName": "elvisvista-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "690c70a2a1461a01d605a1bd-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Elvisvista_figurine"
+                    },
+                    {
+                        "id": "68f260d7b84c6e1f8a09cffd",
+                        "name": "藏身处之猫玩偶",
+                        "normalizedName": "hideout-cat-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f260d7b84c6e1f8a09cffd-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hideout_Cat_figurine"
+                    }
+                ]
+            },
+            {
+                "id": "6761ff17cdc36bd66102e9da",
+                "description": "上交任意在战局中找到的 Boss 玩偶",
+                "count": 2,
+                "items": [
+                    {
+                        "id": "66572c82ad599021091c6118",
+                        "name": "Killa 玩偶",
+                        "normalizedName": "killa-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "66572c82ad599021091c6118-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Killa_figurine"
+                    },
+                    {
+                        "id": "66572cbdad599021091c611a",
+                        "name": "Tagilla 玩偶",
+                        "normalizedName": "tagilla-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "66572cbdad599021091c611a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tagilla_figurine"
+                    },
+                    {
+                        "id": "66572be36a723f7f005a066e",
+                        "name": "Reshala 玩偶",
+                        "normalizedName": "reshala-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "66572be36a723f7f005a066e-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reshala_figurine"
+                    },
+                    {
+                        "id": "655c67ab0d37ca5135388f4b",
+                        "name": "圣诞老人玩偶",
+                        "normalizedName": "ded-moroz-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c67ab0d37ca5135388f4b-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ded_Moroz_figurine"
+                    },
+                    {
+                        "id": "655c669103999d3c810c025b",
+                        "name": "邪教徒玩偶",
+                        "normalizedName": "cultist-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c669103999d3c810c025b-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cultist_figurine"
+                    }
+                ]
+            },
+            {
+                "id": "6761ff17cdc36bd66102e9e1",
+                "description": "上交任意在战局中找到的 商人 玩偶",
+                "count": 2,
+                "items": [
+                    {
+                        "id": "68f25c64b2b53abd200b954f",
+                        "name": "Prapor 玩偶",
+                        "normalizedName": "prapor-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25c64b2b53abd200b954f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Prapor_figurine"
+                    },
+                    {
+                        "id": "68f25ce9b2b53abd200b9551",
+                        "name": "Therapist 玩偶",
+                        "normalizedName": "therapist-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25ce9b2b53abd200b9551-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Therapist_figurine"
+                    },
+                    {
+                        "id": "68f25da3b84c6e1f8a09cffb",
+                        "name": "Fence 玩偶",
+                        "normalizedName": "fence-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25da3b84c6e1f8a09cffb-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fence_figurine"
+                    },
+                    {
+                        "id": "68f25eba19a2b503d70dc28f",
+                        "name": "Skier 玩偶",
+                        "normalizedName": "skier-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25eba19a2b503d70dc28f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Skier_figurine"
+                    },
+                    {
+                        "id": "68f25eef19a2b503d70dc291",
+                        "name": "Peacekeeper 玩偶",
+                        "normalizedName": "peacekeeper-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25eef19a2b503d70dc291-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Peacekeeper_figurine"
+                    },
+                    {
+                        "id": "68f25f1201fb9de974058be4",
+                        "name": "Mechanic 玩偶",
+                        "normalizedName": "mechanic-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25f1201fb9de974058be4-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mechanic_figurine"
+                    },
+                    {
+                        "id": "68f25f3a5d977110860c3350",
+                        "name": "Ragman 玩偶",
+                        "normalizedName": "ragman-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25f3a5d977110860c3350-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ragman_figurine"
+                    },
+                    {
+                        "id": "68f25faa22c8979ee308f4da",
+                        "name": "Jaeger 玩偶",
+                        "normalizedName": "jaeger-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25faa22c8979ee308f4da-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Jaeger_figurine"
+                    },
+                    {
+                        "id": "68f25fdf928cd23ddf0471fb",
+                        "name": "Lightkeeper 玩偶",
+                        "normalizedName": "lightkeeper-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25fdf928cd23ddf0471fb-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lightkeeper_figurine"
+                    },
+                    {
+                        "id": "68f26063b2b53abd200b9553",
+                        "name": "竞技场裁判玩偶",
+                        "normalizedName": "ref-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f26063b2b53abd200b9553-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ref_figurine"
+                    },
+                    {
+                        "id": "68f2608301fb9de974058be6",
+                        "name": "BTR 模型",
+                        "normalizedName": "btr-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f2608301fb9de974058be6-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BTR_figurine"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "6179b5eabca27a099552e052",
         "name": "反抗",
         "taskImageLink": "6179b5eabca27a099552e052.webp",
@@ -2119,6 +2451,670 @@
                         ],
                         "iconLink": "5e4abb5086f77406975c9342-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-6094A_Slick_Plate_Carrier_(Black)"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6848100b00afffa81f09e365",
+        "name": "新起点",
+        "taskImageLink": "6848100b00afffa81f09e365.webp",
+        "trader": "Ragman",
+        "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+        "kappaRequired": false,
+        "mixedItemsTask": true,
+        "objectives": [
+            {
+                "id": "6848100b00afffa81f09e36d",
+                "description": "上交任意在战局中找到的 PMC 玩偶",
+                "count": 3,
+                "items": [
+                    {
+                        "id": "655c652d60d0ac437100fed7",
+                        "name": "BEAR 干员玩偶",
+                        "normalizedName": "bear-operative-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c652d60d0ac437100fed7-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BEAR_operative_figurine"
+                    },
+                    {
+                        "id": "655c663a6689c676ce57af85",
+                        "name": "USEC 干员玩偶",
+                        "normalizedName": "usec-operative-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c663a6689c676ce57af85-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/USEC_operative_figurine"
+                    },
+                    {
+                        "id": "66572b8d80b1cd4b6a67847f",
+                        "name": "Den 玩偶",
+                        "normalizedName": "den-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "66572b8d80b1cd4b6a67847f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Den_figurine"
+                    },
+                    {
+                        "id": "68f26124b84c6e1f8a09cfff",
+                        "name": "无赖战士玩偶",
+                        "normalizedName": "walking-tank-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f26124b84c6e1f8a09cfff-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Walking_Tank_figurine"
+                    },
+                    {
+                        "id": "6841b6b674a3c16f5e03d653",
+                        "name": "PMC 起源玩偶",
+                        "normalizedName": "pmc-origins-figurine",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "6841b6b674a3c16f5e03d653-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/PMC_Origins_figurine"
+                    },
+                    {
+                        "id": "68f11224197b61ffe703b16f",
+                        "name": "硬汉 PMC 玩偶",
+                        "normalizedName": "hardened-pmc-figurine",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f11224197b61ffe703b16f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hardened_PMC_figurine"
+                    },
+                    {
+                        "id": "697cddb414e932098005748d",
+                        "name": "鸭子玩偶",
+                        "normalizedName": "duck-figurine",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "697cddb414e932098005748d-icon.webp",
+                        "wikiLink": ""
+                    }
+                ]
+            },
+            {
+                "id": "6848100b00afffa81f09e36e",
+                "description": "上交任意在战局中找到的 Scav 玩偶",
+                "count": 3,
+                "items": [
+                    {
+                        "id": "655c673673a43e23e857aebd",
+                        "name": "Scav 玩偶",
+                        "normalizedName": "scav-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c673673a43e23e857aebd-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Scav_figurine"
+                    },
+                    {
+                        "id": "655c67782a1356436041c9c5",
+                        "name": "Ryzhy 玩偶",
+                        "normalizedName": "ryzhy-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c67782a1356436041c9c5-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ryzhy_figurine"
+                    },
+                    {
+                        "id": "655c66e40b2de553b618d4b8",
+                        "name": "Mutkevich 政客玩偶",
+                        "normalizedName": "politician-mutkevich-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c66e40b2de553b618d4b8-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Politician_Mutkevich_figurine"
+                    },
+                    {
+                        "id": "68f261f6928cd23ddf0471fd",
+                        "name": "Mastichin 玩偶",
+                        "normalizedName": "mastichin-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f261f6928cd23ddf0471fd-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mastichin_figurine"
+                    },
+                    {
+                        "id": "690c70a2a1461a01d605a1bd",
+                        "name": "Elvisvista 玩偶",
+                        "normalizedName": "elvisvista-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "690c70a2a1461a01d605a1bd-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Elvisvista_figurine"
+                    },
+                    {
+                        "id": "68f260d7b84c6e1f8a09cffd",
+                        "name": "藏身处之猫玩偶",
+                        "normalizedName": "hideout-cat-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f260d7b84c6e1f8a09cffd-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hideout_Cat_figurine"
+                    }
+                ]
+            },
+            {
+                "id": "6848100b00afffa81f09e36f",
+                "description": "上交任意在战局中找到的 Boss 玩偶",
+                "count": 3,
+                "items": [
+                    {
+                        "id": "66572c82ad599021091c6118",
+                        "name": "Killa 玩偶",
+                        "normalizedName": "killa-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "66572c82ad599021091c6118-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Killa_figurine"
+                    },
+                    {
+                        "id": "66572cbdad599021091c611a",
+                        "name": "Tagilla 玩偶",
+                        "normalizedName": "tagilla-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "66572cbdad599021091c611a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tagilla_figurine"
+                    },
+                    {
+                        "id": "66572be36a723f7f005a066e",
+                        "name": "Reshala 玩偶",
+                        "normalizedName": "reshala-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "66572be36a723f7f005a066e-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reshala_figurine"
+                    },
+                    {
+                        "id": "655c67ab0d37ca5135388f4b",
+                        "name": "圣诞老人玩偶",
+                        "normalizedName": "ded-moroz-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c67ab0d37ca5135388f4b-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ded_Moroz_figurine"
+                    },
+                    {
+                        "id": "655c669103999d3c810c025b",
+                        "name": "邪教徒玩偶",
+                        "normalizedName": "cultist-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c669103999d3c810c025b-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cultist_figurine"
+                    }
+                ]
+            },
+            {
+                "id": "6848100b00afffa81f09e376",
+                "description": "上交任意在战局中找到的 商人 玩偶",
+                "count": 3,
+                "items": [
+                    {
+                        "id": "68f25c64b2b53abd200b954f",
+                        "name": "Prapor 玩偶",
+                        "normalizedName": "prapor-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25c64b2b53abd200b954f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Prapor_figurine"
+                    },
+                    {
+                        "id": "68f25ce9b2b53abd200b9551",
+                        "name": "Therapist 玩偶",
+                        "normalizedName": "therapist-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25ce9b2b53abd200b9551-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Therapist_figurine"
+                    },
+                    {
+                        "id": "68f25da3b84c6e1f8a09cffb",
+                        "name": "Fence 玩偶",
+                        "normalizedName": "fence-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25da3b84c6e1f8a09cffb-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fence_figurine"
+                    },
+                    {
+                        "id": "68f25eba19a2b503d70dc28f",
+                        "name": "Skier 玩偶",
+                        "normalizedName": "skier-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25eba19a2b503d70dc28f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Skier_figurine"
+                    },
+                    {
+                        "id": "68f25eef19a2b503d70dc291",
+                        "name": "Peacekeeper 玩偶",
+                        "normalizedName": "peacekeeper-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25eef19a2b503d70dc291-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Peacekeeper_figurine"
+                    },
+                    {
+                        "id": "68f25f1201fb9de974058be4",
+                        "name": "Mechanic 玩偶",
+                        "normalizedName": "mechanic-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25f1201fb9de974058be4-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mechanic_figurine"
+                    },
+                    {
+                        "id": "68f25f3a5d977110860c3350",
+                        "name": "Ragman 玩偶",
+                        "normalizedName": "ragman-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25f3a5d977110860c3350-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ragman_figurine"
+                    },
+                    {
+                        "id": "68f25faa22c8979ee308f4da",
+                        "name": "Jaeger 玩偶",
+                        "normalizedName": "jaeger-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25faa22c8979ee308f4da-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Jaeger_figurine"
+                    },
+                    {
+                        "id": "68f25fdf928cd23ddf0471fb",
+                        "name": "Lightkeeper 玩偶",
+                        "normalizedName": "lightkeeper-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25fdf928cd23ddf0471fb-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lightkeeper_figurine"
+                    },
+                    {
+                        "id": "68f26063b2b53abd200b9553",
+                        "name": "竞技场裁判玩偶",
+                        "normalizedName": "ref-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f26063b2b53abd200b9553-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ref_figurine"
+                    },
+                    {
+                        "id": "68f2608301fb9de974058be6",
+                        "name": "BTR 模型",
+                        "normalizedName": "btr-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f2608301fb9de974058be6-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BTR_figurine"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "68481881f43abfdda2058369",
+        "name": "新起点",
+        "taskImageLink": "68481881f43abfdda2058369.webp",
+        "trader": "Ragman",
+        "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+        "kappaRequired": false,
+        "mixedItemsTask": true,
+        "objectives": [
+            {
+                "id": "68481881f43abfdda2058371",
+                "description": "上交任意在战局中找到的 PMC 玩偶",
+                "count": 3,
+                "items": [
+                    {
+                        "id": "655c652d60d0ac437100fed7",
+                        "name": "BEAR 干员玩偶",
+                        "normalizedName": "bear-operative-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c652d60d0ac437100fed7-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BEAR_operative_figurine"
+                    },
+                    {
+                        "id": "655c663a6689c676ce57af85",
+                        "name": "USEC 干员玩偶",
+                        "normalizedName": "usec-operative-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c663a6689c676ce57af85-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/USEC_operative_figurine"
+                    },
+                    {
+                        "id": "66572b8d80b1cd4b6a67847f",
+                        "name": "Den 玩偶",
+                        "normalizedName": "den-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "66572b8d80b1cd4b6a67847f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Den_figurine"
+                    },
+                    {
+                        "id": "68f26124b84c6e1f8a09cfff",
+                        "name": "无赖战士玩偶",
+                        "normalizedName": "walking-tank-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f26124b84c6e1f8a09cfff-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Walking_Tank_figurine"
+                    },
+                    {
+                        "id": "6841b6b674a3c16f5e03d653",
+                        "name": "PMC 起源玩偶",
+                        "normalizedName": "pmc-origins-figurine",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "6841b6b674a3c16f5e03d653-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/PMC_Origins_figurine"
+                    },
+                    {
+                        "id": "68f11224197b61ffe703b16f",
+                        "name": "硬汉 PMC 玩偶",
+                        "normalizedName": "hardened-pmc-figurine",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f11224197b61ffe703b16f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hardened_PMC_figurine"
+                    },
+                    {
+                        "id": "697cddb414e932098005748d",
+                        "name": "鸭子玩偶",
+                        "normalizedName": "duck-figurine",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "697cddb414e932098005748d-icon.webp",
+                        "wikiLink": ""
+                    }
+                ]
+            },
+            {
+                "id": "68481881f43abfdda2058372",
+                "description": "上交任意在战局中找到的 Scav 玩偶",
+                "count": 3,
+                "items": [
+                    {
+                        "id": "655c673673a43e23e857aebd",
+                        "name": "Scav 玩偶",
+                        "normalizedName": "scav-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c673673a43e23e857aebd-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Scav_figurine"
+                    },
+                    {
+                        "id": "655c67782a1356436041c9c5",
+                        "name": "Ryzhy 玩偶",
+                        "normalizedName": "ryzhy-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c67782a1356436041c9c5-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ryzhy_figurine"
+                    },
+                    {
+                        "id": "655c66e40b2de553b618d4b8",
+                        "name": "Mutkevich 政客玩偶",
+                        "normalizedName": "politician-mutkevich-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c66e40b2de553b618d4b8-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Politician_Mutkevich_figurine"
+                    },
+                    {
+                        "id": "68f261f6928cd23ddf0471fd",
+                        "name": "Mastichin 玩偶",
+                        "normalizedName": "mastichin-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f261f6928cd23ddf0471fd-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mastichin_figurine"
+                    },
+                    {
+                        "id": "690c70a2a1461a01d605a1bd",
+                        "name": "Elvisvista 玩偶",
+                        "normalizedName": "elvisvista-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "690c70a2a1461a01d605a1bd-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Elvisvista_figurine"
+                    },
+                    {
+                        "id": "68f260d7b84c6e1f8a09cffd",
+                        "name": "藏身处之猫玩偶",
+                        "normalizedName": "hideout-cat-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f260d7b84c6e1f8a09cffd-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hideout_Cat_figurine"
+                    }
+                ]
+            },
+            {
+                "id": "68481881f43abfdda2058373",
+                "description": "上交任意在战局中找到的 Boss 玩偶",
+                "count": 3,
+                "items": [
+                    {
+                        "id": "66572c82ad599021091c6118",
+                        "name": "Killa 玩偶",
+                        "normalizedName": "killa-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "66572c82ad599021091c6118-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Killa_figurine"
+                    },
+                    {
+                        "id": "66572cbdad599021091c611a",
+                        "name": "Tagilla 玩偶",
+                        "normalizedName": "tagilla-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "66572cbdad599021091c611a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tagilla_figurine"
+                    },
+                    {
+                        "id": "66572be36a723f7f005a066e",
+                        "name": "Reshala 玩偶",
+                        "normalizedName": "reshala-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "66572be36a723f7f005a066e-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reshala_figurine"
+                    },
+                    {
+                        "id": "655c67ab0d37ca5135388f4b",
+                        "name": "圣诞老人玩偶",
+                        "normalizedName": "ded-moroz-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c67ab0d37ca5135388f4b-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ded_Moroz_figurine"
+                    },
+                    {
+                        "id": "655c669103999d3c810c025b",
+                        "name": "邪教徒玩偶",
+                        "normalizedName": "cultist-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "655c669103999d3c810c025b-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cultist_figurine"
+                    }
+                ]
+            },
+            {
+                "id": "68481881f43abfdda205837a",
+                "description": "上交任意在战局中找到的 商人 玩偶",
+                "count": 3,
+                "items": [
+                    {
+                        "id": "68f25c64b2b53abd200b954f",
+                        "name": "Prapor 玩偶",
+                        "normalizedName": "prapor-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25c64b2b53abd200b954f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Prapor_figurine"
+                    },
+                    {
+                        "id": "68f25ce9b2b53abd200b9551",
+                        "name": "Therapist 玩偶",
+                        "normalizedName": "therapist-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25ce9b2b53abd200b9551-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Therapist_figurine"
+                    },
+                    {
+                        "id": "68f25da3b84c6e1f8a09cffb",
+                        "name": "Fence 玩偶",
+                        "normalizedName": "fence-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25da3b84c6e1f8a09cffb-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fence_figurine"
+                    },
+                    {
+                        "id": "68f25eba19a2b503d70dc28f",
+                        "name": "Skier 玩偶",
+                        "normalizedName": "skier-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25eba19a2b503d70dc28f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Skier_figurine"
+                    },
+                    {
+                        "id": "68f25eef19a2b503d70dc291",
+                        "name": "Peacekeeper 玩偶",
+                        "normalizedName": "peacekeeper-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25eef19a2b503d70dc291-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Peacekeeper_figurine"
+                    },
+                    {
+                        "id": "68f25f1201fb9de974058be4",
+                        "name": "Mechanic 玩偶",
+                        "normalizedName": "mechanic-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25f1201fb9de974058be4-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mechanic_figurine"
+                    },
+                    {
+                        "id": "68f25f3a5d977110860c3350",
+                        "name": "Ragman 玩偶",
+                        "normalizedName": "ragman-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25f3a5d977110860c3350-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ragman_figurine"
+                    },
+                    {
+                        "id": "68f25faa22c8979ee308f4da",
+                        "name": "Jaeger 玩偶",
+                        "normalizedName": "jaeger-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25faa22c8979ee308f4da-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Jaeger_figurine"
+                    },
+                    {
+                        "id": "68f25fdf928cd23ddf0471fb",
+                        "name": "Lightkeeper 玩偶",
+                        "normalizedName": "lightkeeper-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f25fdf928cd23ddf0471fb-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lightkeeper_figurine"
+                    },
+                    {
+                        "id": "68f26063b2b53abd200b9553",
+                        "name": "竞技场裁判玩偶",
+                        "normalizedName": "ref-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f26063b2b53abd200b9553-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ref_figurine"
+                    },
+                    {
+                        "id": "68f2608301fb9de974058be6",
+                        "name": "BTR 模型",
+                        "normalizedName": "btr-figurine",
+                        "types": [
+                            "barter"
+                        ],
+                        "iconLink": "68f2608301fb9de974058be6-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BTR_figurine"
                     }
                 ]
             }
