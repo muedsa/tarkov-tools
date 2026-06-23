@@ -24367,7 +24367,7 @@
                 "offerUnlock": [
                     {
                         "id": "5ac664a886f774066f04bd47",
-                        "level": 2,
+                        "level": 1,
                         "trader": {
                             "id": "54cb57776803fa99248b456e",
                             "name": "Therapist",
@@ -29416,10 +29416,10 @@
                         "normalizedName": "against-the-conscience-part-1-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058ccbc7f3584787181478.webp",
                         "trader": {
-                            "id": "6617beeaa9cfa777ca915b7c",
-                            "name": "竞技场裁判",
-                            "normalizedName": "ref",
-                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                            "id": "579dc571d53a0658a154fbec",
+                            "name": "Fence",
+                            "normalizedName": "fence",
+                            "imageLink": "https://assets.tarkov.dev/579dc571d53a0658a154fbec.webp"
                         }
                     }
                 }
@@ -31664,10 +31664,10 @@
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/66058ccbc7f3584787181478.webp",
             "trader": {
-                "id": "6617beeaa9cfa777ca915b7c",
-                "name": "竞技场裁判",
-                "normalizedName": "ref",
-                "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                "id": "579dc571d53a0658a154fbec",
+                "name": "Fence",
+                "normalizedName": "fence",
+                "imageLink": "https://assets.tarkov.dev/579dc571d53a0658a154fbec.webp"
             },
             "startRewards": {
                 "traderStanding": [],
@@ -367978,7 +367978,7 @@
                     "type": "giveItem",
                     "description": "在战局中找到物品：黑色军团插板胸挂",
                     "maps": [],
-                    "optional": true,
+                    "optional": false,
                     "count": 5,
                     "foundInRaid": true,
                     "dogTagLevel": 0,
@@ -368002,24 +368002,7 @@
                             "height": 3,
                             "iconLink": "https://assets.tarkov.dev/689479cb47e5acd1e10be986-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ferro_Concepts_FCPC_V5_Plate_Carrier_(Black_Division)"
-                        }
-                    ]
-                },
-                {
-                    "__typename": "TaskObjectiveItem",
-                    "id": "69ce21e990144e437802b1e2",
-                    "type": "giveItem",
-                    "description": "在战局中找到物品：黑色军团插板胸挂",
-                    "maps": [],
-                    "optional": true,
-                    "count": 5,
-                    "foundInRaid": true,
-                    "dogTagLevel": 0,
-                    "maxDurability": 100,
-                    "minDurability": 0,
-                    "zones": [],
-                    "requiredKeys": null,
-                    "items": [
+                        },
                         {
                             "id": "689479eb30cc5ba7be00f5ff",
                             "name": "Spiritus Systems LV-119 插板胸挂 (黑色军团 V2)",
@@ -368035,72 +368018,6 @@
                             "height": 4,
                             "iconLink": "https://assets.tarkov.dev/689479eb30cc5ba7be00f5ff-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spiritus_Systems_LV-119_Plate_Carrier_(Black_Division_V2)"
-                        }
-                    ]
-                },
-                {
-                    "__typename": "TaskObjectiveItem",
-                    "id": "69ce21e990144e437802b1e2",
-                    "type": "giveItem",
-                    "description": "在战局中找到物品：黑色军团插板胸挂",
-                    "maps": [],
-                    "optional": true,
-                    "count": 5,
-                    "foundInRaid": true,
-                    "dogTagLevel": 0,
-                    "maxDurability": 100,
-                    "minDurability": 0,
-                    "zones": [],
-                    "requiredKeys": null,
-                    "items": [
-                        {
-                            "id": "69e2441a18cb3157560855ec",
-                            "name": "Spiritus Systems LV-119 插板胸挂 (黑系复合迷彩)",
-                            "normalizedName": "spiritus-systems-lv-119-plate-carrier-multicam-black",
-                            "shortName": "LV-119",
-                            "description": "Spiritus Systems 制造的模块化插板胸挂，为最大限度提升行动中的穿戴舒适度而设计，拥有充足的定制改造空间。这款为黑系复合迷彩版本，由呼号 Wedge 的黑色军团干员配置而成。",
-                            "types": [
-                                "noFlea",
-                                "rig",
-                                "wearable"
-                            ],
-                            "width": 4,
-                            "height": 4,
-                            "iconLink": "https://assets.tarkov.dev/69e2441a18cb3157560855ec-icon.webp",
-                            "wikiLink": ""
-                        }
-                    ]
-                },
-                {
-                    "__typename": "TaskObjectiveItem",
-                    "id": "69ce21e990144e437802b1e2",
-                    "type": "giveItem",
-                    "description": "在战局中找到物品：黑色军团插板胸挂",
-                    "maps": [],
-                    "optional": true,
-                    "count": 5,
-                    "foundInRaid": true,
-                    "dogTagLevel": 0,
-                    "maxDurability": 100,
-                    "minDurability": 0,
-                    "zones": [],
-                    "requiredKeys": null,
-                    "items": [
-                        {
-                            "id": "68947a4be4bf255d1b0ca746",
-                            "name": "First Spear Siege-R Optimized M.A.S.S. 插板胸挂 (黑色军团)",
-                            "normalizedName": "first-spear-siege-r-optimized-mass-plate-carrier-black-division",
-                            "shortName": "Siege-R",
-                            "description": "一款配有模块化附加护甲系统 (M.A.S.S.) 肩部悬挂的 First Spear Siege-R Optimized 插板背心。在提供可靠的全方位防护同时，为使用者留出充足的活动空间，便于操作各类武器设备。黑色版本。",
-                            "types": [
-                                "noFlea",
-                                "rig",
-                                "wearable"
-                            ],
-                            "width": 4,
-                            "height": 4,
-                            "iconLink": "https://assets.tarkov.dev/68947a4be4bf255d1b0ca746-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/First_Spear_Siege-R_Optimized_M.A.S.S._Plate_Carrier_(Black_Division)"
                         }
                     ]
                 }

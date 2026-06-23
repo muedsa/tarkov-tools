@@ -3298,5 +3298,47 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "69ce21e990144e437802b1e0",
+        "name": "新鲜到货",
+        "taskImageLink": "69ce21e990144e437802b1e0.webp",
+        "trader": "Ragman",
+        "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+        "kappaRequired": false,
+        "mixedItemsTask": true,
+        "objectives": [
+            {
+                "id": "69ce21e990144e437802b1e2",
+                "description": "在战局中找到物品：黑色军团插板胸挂",
+                "count": 5,
+                "items": [
+                    {
+                        "id": "689479cb47e5acd1e10be986",
+                        "name": "Ferro Concepts FCPC V5 插板胸挂 (黑色军团)",
+                        "normalizedName": "ferro-concepts-fcpc-v5-plate-carrier-black-division",
+                        "types": [
+                            "noFlea",
+                            "rig",
+                            "wearable"
+                        ],
+                        "iconLink": "689479cb47e5acd1e10be986-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ferro_Concepts_FCPC_V5_Plate_Carrier_(Black_Division)"
+                    },
+                    {
+                        "id": "689479eb30cc5ba7be00f5ff",
+                        "name": "Spiritus Systems LV-119 插板胸挂 (黑色军团 V2)",
+                        "normalizedName": "spiritus-systems-lv-119-plate-carrier-black-division-v2",
+                        "types": [
+                            "noFlea",
+                            "rig",
+                            "wearable"
+                        ],
+                        "iconLink": "689479eb30cc5ba7be00f5ff-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spiritus_Systems_LV-119_Plate_Carrier_(Black_Division_V2)"
+                    }
+                ]
+            }
+        ]
     }
 ]
