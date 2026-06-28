@@ -21711,7 +21711,7 @@
                     "__typename": "TaskObjectiveItem",
                     "id": "6606b709f7ce34bb26221cab",
                     "type": "plantItem",
-                    "description": "将公牛 vs 复仇者海报安放在海关 Scav 营地",
+                    "description": "将竞技场广告海报安放在海关 Scav 营地",
                     "optional": false,
                     "count": 1,
                     "foundInRaid": false,
@@ -28629,7 +28629,7 @@
                     "__typename": "TaskObjectiveItem",
                     "id": "6633a85e347a2a2b4051a26b",
                     "type": "giveItem",
-                    "description": "上交卢布（从塔科夫本体的余额中扣除）",
+                    "description": "上交卢布",
                     "maps": [],
                     "optional": false,
                     "count": 1000000,
@@ -28670,7 +28670,7 @@
                     "__typename": "TaskObjectiveBasic",
                     "id": "665493a649bd17856482ba77",
                     "type": "visit",
-                    "description": "失败条件：在 4 场比赛中落败",
+                    "description": "在竞技场进行六场 TeamFight 或 BlastGang 或 CheckPoint 模式的战斗，至少赢得其中三场",
                     "maps": [],
                     "optional": true,
                     "zones": [],
@@ -301568,9 +301568,9 @@
                 },
                 {
                     "__typename": "TaskObjectiveExtract",
-                    "id": "6848100b00afffa81f09e36b",
+                    "id": "6761f9d718fa62aac3264ff2",
                     "type": "extract",
-                    "description": "使用转移功能从实验室转移到塔科夫街区",
+                    "description": "以幸存状态撤离实验室",
                     "optional": false,
                     "exitStatus": [
                         "幸存"
