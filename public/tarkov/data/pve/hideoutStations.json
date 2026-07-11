@@ -165,20 +165,6 @@
                             }
                         }
                     ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d484fcd654e7668ec2ec322-2-3",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 2,
-                            "trader": {
-                                "id": "54cb57776803fa99248b456e",
-                                "name": "Therapist",
-                                "normalizedName": "therapist",
-                                "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fcd654e7668ec2ec322-2-1",
@@ -306,6 +292,20 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Medical_tools"
                             }
                         }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d484fcd654e7668ec2ec322-2-3",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 2,
+                            "trader": {
+                                "id": "54cb57776803fa99248b456e",
+                                "name": "Therapist",
+                                "normalizedName": "therapist",
+                                "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+                            }
+                        }
                     ]
                 },
                 {
@@ -340,32 +340,6 @@
                                 "name": "医疗站",
                                 "normalizedName": "medstation",
                                 "imageLink": "https://assets.tarkov.dev/station-medstation.png"
-                            }
-                        }
-                    ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d484fcd654e7668ec2ec322-3-1",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 3,
-                            "trader": {
-                                "id": "54cb57776803fa99248b456e",
-                                "name": "Therapist",
-                                "normalizedName": "therapist",
-                                "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
-                            }
-                        },
-                        {
-                            "id": "5d484fcd654e7668ec2ec322-3-2",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 2,
-                            "trader": {
-                                "id": "58330581ace78e27b8b10cee",
-                                "name": "Skier",
-                                "normalizedName": "skier",
-                                "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
                             }
                         }
                     ],
@@ -468,6 +442,32 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5af0534a86f7743b6f354284-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ophthalmoscope"
+                            }
+                        }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d484fcd654e7668ec2ec322-3-1",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 3,
+                            "trader": {
+                                "id": "54cb57776803fa99248b456e",
+                                "name": "Therapist",
+                                "normalizedName": "therapist",
+                                "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+                            }
+                        },
+                        {
+                            "id": "5d484fcd654e7668ec2ec322-3-2",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 2,
+                            "trader": {
+                                "id": "58330581ace78e27b8b10cee",
+                                "name": "Skier",
+                                "normalizedName": "skier",
+                                "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
                             }
                         }
                     ]
@@ -742,18 +742,6 @@
                         "normalizedName": "medstation",
                         "imageLink": "https://assets.tarkov.dev/station-medstation.png"
                     },
-                    "taskUnlock": {
-                        "id": "60e71c11d54b755a3b53eb65",
-                        "name": "夜间扫荡",
-                        "normalizedName": "night-sweep",
-                        "taskImageLink": "https://assets.tarkov.dev/60e71c11d54b755a3b53eb65.webp",
-                        "trader": {
-                            "id": "58330581ace78e27b8b10cee",
-                            "name": "Skier",
-                            "normalizedName": "skier",
-                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 1,
@@ -834,7 +822,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/XTG-12_antidote_injector"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "60e71c11d54b755a3b53eb65",
+                        "name": "夜间扫荡",
+                        "normalizedName": "night-sweep",
+                        "taskImageLink": "https://assets.tarkov.dev/60e71c11d54b755a3b53eb65.webp",
+                        "trader": {
+                            "id": "58330581ace78e27b8b10cee",
+                            "name": "Skier",
+                            "normalizedName": "skier",
+                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
+                        }
+                    }
                 },
                 {
                     "id": "5eeca8e327ccd70521107fdc",
@@ -978,18 +978,6 @@
                         "normalizedName": "medstation",
                         "imageLink": "https://assets.tarkov.dev/station-medstation.png"
                     },
-                    "taskUnlock": {
-                        "id": "665eeca92f7aedcc900b0437",
-                        "name": "口干舌燥 - 秘密配方",
-                        "normalizedName": "thirsty-secrets",
-                        "taskImageLink": "https://assets.tarkov.dev/665eeca92f7aedcc900b0437.webp",
-                        "trader": {
-                            "id": "54cb57776803fa99248b456e",
-                            "name": "Therapist",
-                            "normalizedName": "therapist",
-                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 1,
@@ -1087,7 +1075,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/2A2-(b-TG)_stimulant_injector"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "665eeca92f7aedcc900b0437",
+                        "name": "口干舌燥 - 秘密配方",
+                        "normalizedName": "thirsty-secrets",
+                        "taskImageLink": "https://assets.tarkov.dev/665eeca92f7aedcc900b0437.webp",
+                        "trader": {
+                            "id": "54cb57776803fa99248b456e",
+                            "name": "Therapist",
+                            "normalizedName": "therapist",
+                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+                        }
+                    }
                 },
                 {
                     "id": "68f1105b53aec9cbde0aa22e",
@@ -1240,18 +1240,6 @@
                         "normalizedName": "medstation",
                         "imageLink": "https://assets.tarkov.dev/station-medstation.png"
                     },
-                    "taskUnlock": {
-                        "id": "60e71c48c1bfa3050473b8e5",
-                        "name": "急单",
-                        "normalizedName": "crisis",
-                        "taskImageLink": "https://assets.tarkov.dev/60e71c48c1bfa3050473b8e5.webp",
-                        "trader": {
-                            "id": "54cb57776803fa99248b456e",
-                            "name": "Therapist",
-                            "normalizedName": "therapist",
-                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 2,
@@ -1349,7 +1337,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/ETG-change_regenerative_stimulant_injector"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "60e71c48c1bfa3050473b8e5",
+                        "name": "急单",
+                        "normalizedName": "crisis",
+                        "taskImageLink": "https://assets.tarkov.dev/60e71c48c1bfa3050473b8e5.webp",
+                        "trader": {
+                            "id": "54cb57776803fa99248b456e",
+                            "name": "Therapist",
+                            "normalizedName": "therapist",
+                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+                        }
+                    }
                 },
                 {
                     "id": "5ede0502879619077751d00a",
@@ -1547,18 +1547,6 @@
                         "normalizedName": "medstation",
                         "imageLink": "https://assets.tarkov.dev/station-medstation.png"
                     },
-                    "taskUnlock": {
-                        "id": "60e71c48c1bfa3050473b8e5",
-                        "name": "急单",
-                        "normalizedName": "crisis",
-                        "taskImageLink": "https://assets.tarkov.dev/60e71c48c1bfa3050473b8e5.webp",
-                        "trader": {
-                            "id": "54cb57776803fa99248b456e",
-                            "name": "Therapist",
-                            "normalizedName": "therapist",
-                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 2,
@@ -1658,7 +1646,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/M.U.L.E._stimulant_injector"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "60e71c48c1bfa3050473b8e5",
+                        "name": "急单",
+                        "normalizedName": "crisis",
+                        "taskImageLink": "https://assets.tarkov.dev/60e71c48c1bfa3050473b8e5.webp",
+                        "trader": {
+                            "id": "54cb57776803fa99248b456e",
+                            "name": "Therapist",
+                            "normalizedName": "therapist",
+                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+                        }
+                    }
                 },
                 {
                     "id": "68f111a853aec9cbde0aa22f",
@@ -5546,7 +5546,6 @@
             "name": "图书馆",
             "normalizedName": "library",
             "imageLink": "https://assets.tarkov.dev/station-library.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a0e5b56502f18c98a02-1",
@@ -5742,7 +5741,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "5d388e97081959000a123acf",
@@ -5973,20 +5973,6 @@
                             }
                         }
                     ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d388e97081959000a123acf-3-4",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 2,
-                            "trader": {
-                                "id": "5ac3b934156ae10c4430e83c",
-                                "name": "Ragman",
-                                "normalizedName": "ragman",
-                                "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d388e97081959000a123acf-3-0",
@@ -6086,6 +6072,20 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/619cbf476b8a1b37a54eebf8-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_corrugated_tube"
+                            }
+                        }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d388e97081959000a123acf-3-4",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 2,
+                            "trader": {
+                                "id": "5ac3b934156ae10c4430e83c",
+                                "name": "Ragman",
+                                "normalizedName": "ragman",
+                                "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
                             }
                         }
                     ]
@@ -6311,20 +6311,6 @@
                             }
                         }
                     ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d484fb3654e7600681d9314-3-5",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 2,
-                            "trader": {
-                                "id": "5a7c2eca46aef81a7ca2145d",
-                                "name": "Mechanic",
-                                "normalizedName": "mechanic",
-                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fb3654e7600681d9314-3-1",
@@ -6426,6 +6412,20 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SSD_drive"
                             }
                         }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d484fb3654e7600681d9314-3-5",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 2,
+                            "trader": {
+                                "id": "5a7c2eca46aef81a7ca2145d",
+                                "name": "Mechanic",
+                                "normalizedName": "mechanic",
+                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                            }
+                        }
                     ]
                 }
             ]
@@ -6435,7 +6435,6 @@
             "name": "休息区",
             "normalizedName": "rest-space",
             "imageLink": "https://assets.tarkov.dev/station-rest-space.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "5d484fd6654e76051d3cc791-1",
@@ -6779,7 +6778,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "5d494a295b56502f18c98a08",
@@ -6810,20 +6810,6 @@
                                 "name": "照明",
                                 "normalizedName": "illumination",
                                 "imageLink": "https://assets.tarkov.dev/station-illumination.png"
-                            }
-                        }
-                    ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d494a295b56502f18c98a08-1-2",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 2,
-                            "trader": {
-                                "id": "5a7c2eca46aef81a7ca2145d",
-                                "name": "Mechanic",
-                                "normalizedName": "mechanic",
-                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
                             }
                         }
                     ],
@@ -6976,6 +6962,20 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/5734795124597738002c6176-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Insulating_tape"
+                            }
+                        }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d494a295b56502f18c98a08-1-2",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 2,
+                            "trader": {
+                                "id": "5a7c2eca46aef81a7ca2145d",
+                                "name": "Mechanic",
+                                "normalizedName": "mechanic",
+                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
                             }
                         }
                     ]
@@ -7695,20 +7695,6 @@
                             }
                         }
                     ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d3b396e33c48f02b81cd9f3-3-6",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 3,
-                            "trader": {
-                                "id": "5a7c2eca46aef81a7ca2145d",
-                                "name": "Mechanic",
-                                "normalizedName": "mechanic",
-                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d3b396e33c48f02b81cd9f3-3-2",
@@ -7835,6 +7821,20 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Metal_spare_parts"
                             }
                         }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d3b396e33c48f02b81cd9f3-3-6",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 3,
+                            "trader": {
+                                "id": "5a7c2eca46aef81a7ca2145d",
+                                "name": "Mechanic",
+                                "normalizedName": "mechanic",
+                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                            }
+                        }
                     ]
                 }
             ]
@@ -7844,421 +7844,6 @@
             "name": "集水器",
             "normalizedName": "water-collector",
             "imageLink": "https://assets.tarkov.dev/station-water-collector.png",
-            "levels": [
-                {
-                    "id": "5d484fc8654e760065037abf-1",
-                    "level": 1,
-                    "traderRequirements": [],
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fc8654e760065037abf-1-3",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fb3654e7600681d9314",
-                                "name": "安保",
-                                "normalizedName": "security",
-                                "imageLink": "https://assets.tarkov.dev/station-security.png"
-                            }
-                        }
-                    ],
-                    "itemRequirements": [
-                        {
-                            "id": "5d484fc8654e760065037abf-1-0",
-                            "attributes": [
-                                {
-                                    "type": "foundInRaid",
-                                    "name": "foundInRaid",
-                                    "value": "false"
-                                }
-                            ],
-                            "quantity": 4,
-                            "count": 4,
-                            "item": {
-                                "id": "59e35cbb86f7741778269d83",
-                                "name": "波纹软管",
-                                "normalizedName": "corrugated-hose",
-                                "shortName": "软管",
-                                "width": 2,
-                                "height": 1,
-                                "types": [
-                                    "barter"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/59e35cbb86f7741778269d83-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Corrugated_hose"
-                            }
-                        },
-                        {
-                            "id": "5d484fc8654e760065037abf-1-1",
-                            "attributes": [
-                                {
-                                    "type": "foundInRaid",
-                                    "name": "foundInRaid",
-                                    "value": "false"
-                                }
-                            ],
-                            "quantity": 5,
-                            "count": 5,
-                            "item": {
-                                "id": "57347c5b245977448d35f6e1",
-                                "name": "螺栓",
-                                "normalizedName": "bolts",
-                                "shortName": "螺栓",
-                                "width": 1,
-                                "height": 1,
-                                "types": [
-                                    "barter"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/57347c5b245977448d35f6e1-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bolts"
-                            }
-                        },
-                        {
-                            "id": "5d484fc8654e760065037abf-1-2",
-                            "attributes": [
-                                {
-                                    "type": "foundInRaid",
-                                    "name": "foundInRaid",
-                                    "value": "false"
-                                }
-                            ],
-                            "quantity": 5,
-                            "count": 5,
-                            "item": {
-                                "id": "57347c77245977448d35f6e2",
-                                "name": "螺母",
-                                "normalizedName": "screw-nuts",
-                                "shortName": "螺母",
-                                "width": 1,
-                                "height": 1,
-                                "types": [
-                                    "barter"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
-                            }
-                        },
-                        {
-                            "id": "5d484fc8654e760065037abf-1-4",
-                            "attributes": [
-                                {
-                                    "type": "foundInRaid",
-                                    "name": "foundInRaid",
-                                    "value": "false"
-                                }
-                            ],
-                            "quantity": 3,
-                            "count": 3,
-                            "item": {
-                                "id": "57347c1124597737fb1379e3",
-                                "name": "管道胶带",
-                                "normalizedName": "duct-tape",
-                                "shortName": "管道胶带",
-                                "width": 1,
-                                "height": 1,
-                                "types": [
-                                    "barter"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/57347c1124597737fb1379e3-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Duct_tape"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "5d484fc8654e760065037abf-2",
-                    "level": 2,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fc8654e760065037abf-2-4",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fda654e7600681d9315",
-                                "name": "工作台",
-                                "normalizedName": "workbench",
-                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fc8654e760065037abf-2-5",
-                            "level": 1,
-                            "station": {
-                                "id": "5d484fc8654e760065037abf",
-                                "name": "集水器",
-                                "normalizedName": "water-collector",
-                                "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
-                            }
-                        }
-                    ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d484fc8654e760065037abf-2-6",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 2,
-                            "trader": {
-                                "id": "5c0647fdd443bc2504c2d371",
-                                "name": "Jaeger",
-                                "normalizedName": "jaeger",
-                                "imageLink": "https://assets.tarkov.dev/5c0647fdd443bc2504c2d371.webp"
-                            }
-                        }
-                    ],
-                    "itemRequirements": [
-                        {
-                            "id": "5d484fc8654e760065037abf-2-0",
-                            "attributes": [
-                                {
-                                    "type": "foundInRaid",
-                                    "name": "foundInRaid",
-                                    "value": "false"
-                                }
-                            ],
-                            "quantity": 6,
-                            "count": 6,
-                            "item": {
-                                "id": "59e35cbb86f7741778269d83",
-                                "name": "波纹软管",
-                                "normalizedName": "corrugated-hose",
-                                "shortName": "软管",
-                                "width": 2,
-                                "height": 1,
-                                "types": [
-                                    "barter"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/59e35cbb86f7741778269d83-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Corrugated_hose"
-                            }
-                        },
-                        {
-                            "id": "5d484fc8654e760065037abf-2-1",
-                            "attributes": [
-                                {
-                                    "type": "foundInRaid",
-                                    "name": "foundInRaid",
-                                    "value": "true"
-                                }
-                            ],
-                            "quantity": 2,
-                            "count": 2,
-                            "item": {
-                                "id": "5d1b2fa286f77425227d1674",
-                                "name": "电动马达",
-                                "normalizedName": "electric-motor",
-                                "shortName": "马达",
-                                "width": 2,
-                                "height": 2,
-                                "types": [
-                                    "barter"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/5d1b2fa286f77425227d1674-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_motor"
-                            }
-                        },
-                        {
-                            "id": "5d484fc8654e760065037abf-2-2",
-                            "attributes": [
-                                {
-                                    "type": "foundInRaid",
-                                    "name": "foundInRaid",
-                                    "value": "true"
-                                }
-                            ],
-                            "quantity": 2,
-                            "count": 2,
-                            "item": {
-                                "id": "590c2e1186f77425357b6124",
-                                "name": "一套工具",
-                                "normalizedName": "toolset",
-                                "shortName": "工具",
-                                "width": 2,
-                                "height": 2,
-                                "types": [
-                                    "barter"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/590c2e1186f77425357b6124-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset"
-                            }
-                        },
-                        {
-                            "id": "5d484fc8654e760065037abf-2-7",
-                            "attributes": [
-                                {
-                                    "type": "foundInRaid",
-                                    "name": "foundInRaid",
-                                    "value": "false"
-                                }
-                            ],
-                            "quantity": 5,
-                            "count": 5,
-                            "item": {
-                                "id": "5e2af29386f7746d4159f077",
-                                "name": "KEKTAPE管道胶带",
-                                "normalizedName": "kektape-duct-tape",
-                                "shortName": "KEK",
-                                "width": 1,
-                                "height": 1,
-                                "types": [
-                                    "barter"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/5e2af29386f7746d4159f077-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/KEKTAPE_duct_tape"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "5d484fc8654e760065037abf-3",
-                    "level": 3,
-                    "stationLevelRequirements": [
-                        {
-                            "id": "5d484fc8654e760065037abf-3-2",
-                            "level": 3,
-                            "station": {
-                                "id": "5d3b396e33c48f02b81cd9f3",
-                                "name": "发电机",
-                                "normalizedName": "generator",
-                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fc8654e760065037abf-3-5",
-                            "level": 2,
-                            "station": {
-                                "id": "5d484fc8654e760065037abf",
-                                "name": "集水器",
-                                "normalizedName": "water-collector",
-                                "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
-                            }
-                        },
-                        {
-                            "id": "5d484fc8654e760065037abf-3-6",
-                            "level": 3,
-                            "station": {
-                                "id": "5d388e97081959000a123acf",
-                                "name": "供暖",
-                                "normalizedName": "heating",
-                                "imageLink": "https://assets.tarkov.dev/station-heating.png"
-                            }
-                        }
-                    ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d484fc8654e760065037abf-3-1",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 3,
-                            "trader": {
-                                "id": "5c0647fdd443bc2504c2d371",
-                                "name": "Jaeger",
-                                "normalizedName": "jaeger",
-                                "imageLink": "https://assets.tarkov.dev/5c0647fdd443bc2504c2d371.webp"
-                            }
-                        }
-                    ],
-                    "itemRequirements": [
-                        {
-                            "id": "5d484fc8654e760065037abf-3-0",
-                            "attributes": [
-                                {
-                                    "type": "foundInRaid",
-                                    "name": "foundInRaid",
-                                    "value": "false"
-                                }
-                            ],
-                            "quantity": 20000,
-                            "count": 20000,
-                            "item": {
-                                "id": "5449016a4bdc2d6f028b456f",
-                                "name": "卢布",
-                                "normalizedName": "roubles",
-                                "shortName": "卢布",
-                                "width": 1,
-                                "height": 1,
-                                "types": [
-                                    "noFlea"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
-                            }
-                        },
-                        {
-                            "id": "5d484fc8654e760065037abf-3-3",
-                            "attributes": [
-                                {
-                                    "type": "foundInRaid",
-                                    "name": "foundInRaid",
-                                    "value": "true"
-                                }
-                            ],
-                            "quantity": 2,
-                            "count": 2,
-                            "item": {
-                                "id": "5af04b6486f774195a3ebb49",
-                                "name": "Elite钳子",
-                                "normalizedName": "pliers-elite",
-                                "shortName": "钳子",
-                                "width": 1,
-                                "height": 1,
-                                "types": [
-                                    "barter"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/5af04b6486f774195a3ebb49-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pliers_Elite"
-                            }
-                        },
-                        {
-                            "id": "5d484fc8654e760065037abf-3-4",
-                            "attributes": [
-                                {
-                                    "type": "foundInRaid",
-                                    "name": "foundInRaid",
-                                    "value": "false"
-                                }
-                            ],
-                            "quantity": 10,
-                            "count": 10,
-                            "item": {
-                                "id": "590c35a486f774273531c822",
-                                "name": "Shustrilo发泡密封胶",
-                                "normalizedName": "shustrilo-sealing-foam",
-                                "shortName": "Shus",
-                                "width": 1,
-                                "height": 3,
-                                "types": [
-                                    "barter"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/590c35a486f774273531c822-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shustrilo_sealing_foam"
-                            }
-                        },
-                        {
-                            "id": "5d484fc8654e760065037abf-3-7",
-                            "attributes": [
-                                {
-                                    "type": "foundInRaid",
-                                    "name": "foundInRaid",
-                                    "value": "true"
-                                }
-                            ],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "60391afc25aff57af81f7085",
-                                "name": "棘轮扳手",
-                                "normalizedName": "ratchet-wrench",
-                                "shortName": "棘轮",
-                                "width": 1,
-                                "height": 2,
-                                "types": [
-                                    "barter"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/60391afc25aff57af81f7085-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ratchet_wrench"
-                            }
-                        }
-                    ]
-                }
-            ],
             "crafts": [
                 {
                     "id": "67f4ec521d41954d4f09a9c8",
@@ -8515,6 +8100,421 @@
                         }
                     ]
                 }
+            ],
+            "levels": [
+                {
+                    "id": "5d484fc8654e760065037abf-1",
+                    "level": 1,
+                    "traderRequirements": [],
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fc8654e760065037abf-1-3",
+                            "level": 1,
+                            "station": {
+                                "id": "5d484fb3654e7600681d9314",
+                                "name": "安保",
+                                "normalizedName": "security",
+                                "imageLink": "https://assets.tarkov.dev/station-security.png"
+                            }
+                        }
+                    ],
+                    "itemRequirements": [
+                        {
+                            "id": "5d484fc8654e760065037abf-1-0",
+                            "attributes": [
+                                {
+                                    "type": "foundInRaid",
+                                    "name": "foundInRaid",
+                                    "value": "false"
+                                }
+                            ],
+                            "quantity": 4,
+                            "count": 4,
+                            "item": {
+                                "id": "59e35cbb86f7741778269d83",
+                                "name": "波纹软管",
+                                "normalizedName": "corrugated-hose",
+                                "shortName": "软管",
+                                "width": 2,
+                                "height": 1,
+                                "types": [
+                                    "barter"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/59e35cbb86f7741778269d83-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Corrugated_hose"
+                            }
+                        },
+                        {
+                            "id": "5d484fc8654e760065037abf-1-1",
+                            "attributes": [
+                                {
+                                    "type": "foundInRaid",
+                                    "name": "foundInRaid",
+                                    "value": "false"
+                                }
+                            ],
+                            "quantity": 5,
+                            "count": 5,
+                            "item": {
+                                "id": "57347c5b245977448d35f6e1",
+                                "name": "螺栓",
+                                "normalizedName": "bolts",
+                                "shortName": "螺栓",
+                                "width": 1,
+                                "height": 1,
+                                "types": [
+                                    "barter"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/57347c5b245977448d35f6e1-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bolts"
+                            }
+                        },
+                        {
+                            "id": "5d484fc8654e760065037abf-1-2",
+                            "attributes": [
+                                {
+                                    "type": "foundInRaid",
+                                    "name": "foundInRaid",
+                                    "value": "false"
+                                }
+                            ],
+                            "quantity": 5,
+                            "count": 5,
+                            "item": {
+                                "id": "57347c77245977448d35f6e2",
+                                "name": "螺母",
+                                "normalizedName": "screw-nuts",
+                                "shortName": "螺母",
+                                "width": 1,
+                                "height": 1,
+                                "types": [
+                                    "barter"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/57347c77245977448d35f6e2-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Screw_nuts"
+                            }
+                        },
+                        {
+                            "id": "5d484fc8654e760065037abf-1-4",
+                            "attributes": [
+                                {
+                                    "type": "foundInRaid",
+                                    "name": "foundInRaid",
+                                    "value": "false"
+                                }
+                            ],
+                            "quantity": 3,
+                            "count": 3,
+                            "item": {
+                                "id": "57347c1124597737fb1379e3",
+                                "name": "管道胶带",
+                                "normalizedName": "duct-tape",
+                                "shortName": "管道胶带",
+                                "width": 1,
+                                "height": 1,
+                                "types": [
+                                    "barter"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/57347c1124597737fb1379e3-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Duct_tape"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "5d484fc8654e760065037abf-2",
+                    "level": 2,
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fc8654e760065037abf-2-4",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fda654e7600681d9315",
+                                "name": "工作台",
+                                "normalizedName": "workbench",
+                                "imageLink": "https://assets.tarkov.dev/station-workbench.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fc8654e760065037abf-2-5",
+                            "level": 1,
+                            "station": {
+                                "id": "5d484fc8654e760065037abf",
+                                "name": "集水器",
+                                "normalizedName": "water-collector",
+                                "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
+                            }
+                        }
+                    ],
+                    "itemRequirements": [
+                        {
+                            "id": "5d484fc8654e760065037abf-2-0",
+                            "attributes": [
+                                {
+                                    "type": "foundInRaid",
+                                    "name": "foundInRaid",
+                                    "value": "false"
+                                }
+                            ],
+                            "quantity": 6,
+                            "count": 6,
+                            "item": {
+                                "id": "59e35cbb86f7741778269d83",
+                                "name": "波纹软管",
+                                "normalizedName": "corrugated-hose",
+                                "shortName": "软管",
+                                "width": 2,
+                                "height": 1,
+                                "types": [
+                                    "barter"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/59e35cbb86f7741778269d83-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Corrugated_hose"
+                            }
+                        },
+                        {
+                            "id": "5d484fc8654e760065037abf-2-1",
+                            "attributes": [
+                                {
+                                    "type": "foundInRaid",
+                                    "name": "foundInRaid",
+                                    "value": "true"
+                                }
+                            ],
+                            "quantity": 2,
+                            "count": 2,
+                            "item": {
+                                "id": "5d1b2fa286f77425227d1674",
+                                "name": "电动马达",
+                                "normalizedName": "electric-motor",
+                                "shortName": "马达",
+                                "width": 2,
+                                "height": 2,
+                                "types": [
+                                    "barter"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/5d1b2fa286f77425227d1674-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electric_motor"
+                            }
+                        },
+                        {
+                            "id": "5d484fc8654e760065037abf-2-2",
+                            "attributes": [
+                                {
+                                    "type": "foundInRaid",
+                                    "name": "foundInRaid",
+                                    "value": "true"
+                                }
+                            ],
+                            "quantity": 2,
+                            "count": 2,
+                            "item": {
+                                "id": "590c2e1186f77425357b6124",
+                                "name": "一套工具",
+                                "normalizedName": "toolset",
+                                "shortName": "工具",
+                                "width": 2,
+                                "height": 2,
+                                "types": [
+                                    "barter"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/590c2e1186f77425357b6124-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset"
+                            }
+                        },
+                        {
+                            "id": "5d484fc8654e760065037abf-2-7",
+                            "attributes": [
+                                {
+                                    "type": "foundInRaid",
+                                    "name": "foundInRaid",
+                                    "value": "false"
+                                }
+                            ],
+                            "quantity": 5,
+                            "count": 5,
+                            "item": {
+                                "id": "5e2af29386f7746d4159f077",
+                                "name": "KEKTAPE管道胶带",
+                                "normalizedName": "kektape-duct-tape",
+                                "shortName": "KEK",
+                                "width": 1,
+                                "height": 1,
+                                "types": [
+                                    "barter"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/5e2af29386f7746d4159f077-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/KEKTAPE_duct_tape"
+                            }
+                        }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d484fc8654e760065037abf-2-6",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 2,
+                            "trader": {
+                                "id": "5c0647fdd443bc2504c2d371",
+                                "name": "Jaeger",
+                                "normalizedName": "jaeger",
+                                "imageLink": "https://assets.tarkov.dev/5c0647fdd443bc2504c2d371.webp"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "5d484fc8654e760065037abf-3",
+                    "level": 3,
+                    "stationLevelRequirements": [
+                        {
+                            "id": "5d484fc8654e760065037abf-3-2",
+                            "level": 3,
+                            "station": {
+                                "id": "5d3b396e33c48f02b81cd9f3",
+                                "name": "发电机",
+                                "normalizedName": "generator",
+                                "imageLink": "https://assets.tarkov.dev/station-generator.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fc8654e760065037abf-3-5",
+                            "level": 2,
+                            "station": {
+                                "id": "5d484fc8654e760065037abf",
+                                "name": "集水器",
+                                "normalizedName": "water-collector",
+                                "imageLink": "https://assets.tarkov.dev/station-water-collector.png"
+                            }
+                        },
+                        {
+                            "id": "5d484fc8654e760065037abf-3-6",
+                            "level": 3,
+                            "station": {
+                                "id": "5d388e97081959000a123acf",
+                                "name": "供暖",
+                                "normalizedName": "heating",
+                                "imageLink": "https://assets.tarkov.dev/station-heating.png"
+                            }
+                        }
+                    ],
+                    "itemRequirements": [
+                        {
+                            "id": "5d484fc8654e760065037abf-3-0",
+                            "attributes": [
+                                {
+                                    "type": "foundInRaid",
+                                    "name": "foundInRaid",
+                                    "value": "false"
+                                }
+                            ],
+                            "quantity": 20000,
+                            "count": 20000,
+                            "item": {
+                                "id": "5449016a4bdc2d6f028b456f",
+                                "name": "卢布",
+                                "normalizedName": "roubles",
+                                "shortName": "卢布",
+                                "width": 1,
+                                "height": 1,
+                                "types": [
+                                    "noFlea"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                            }
+                        },
+                        {
+                            "id": "5d484fc8654e760065037abf-3-3",
+                            "attributes": [
+                                {
+                                    "type": "foundInRaid",
+                                    "name": "foundInRaid",
+                                    "value": "true"
+                                }
+                            ],
+                            "quantity": 2,
+                            "count": 2,
+                            "item": {
+                                "id": "5af04b6486f774195a3ebb49",
+                                "name": "Elite钳子",
+                                "normalizedName": "pliers-elite",
+                                "shortName": "钳子",
+                                "width": 1,
+                                "height": 1,
+                                "types": [
+                                    "barter"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/5af04b6486f774195a3ebb49-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pliers_Elite"
+                            }
+                        },
+                        {
+                            "id": "5d484fc8654e760065037abf-3-4",
+                            "attributes": [
+                                {
+                                    "type": "foundInRaid",
+                                    "name": "foundInRaid",
+                                    "value": "false"
+                                }
+                            ],
+                            "quantity": 10,
+                            "count": 10,
+                            "item": {
+                                "id": "590c35a486f774273531c822",
+                                "name": "Shustrilo发泡密封胶",
+                                "normalizedName": "shustrilo-sealing-foam",
+                                "shortName": "Shus",
+                                "width": 1,
+                                "height": 3,
+                                "types": [
+                                    "barter"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/590c35a486f774273531c822-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shustrilo_sealing_foam"
+                            }
+                        },
+                        {
+                            "id": "5d484fc8654e760065037abf-3-7",
+                            "attributes": [
+                                {
+                                    "type": "foundInRaid",
+                                    "name": "foundInRaid",
+                                    "value": "true"
+                                }
+                            ],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "60391afc25aff57af81f7085",
+                                "name": "棘轮扳手",
+                                "normalizedName": "ratchet-wrench",
+                                "shortName": "棘轮",
+                                "width": 1,
+                                "height": 2,
+                                "types": [
+                                    "barter"
+                                ],
+                                "iconLink": "https://assets.tarkov.dev/60391afc25aff57af81f7085-icon.webp",
+                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ratchet_wrench"
+                            }
+                        }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d484fc8654e760065037abf-3-1",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 3,
+                            "trader": {
+                                "id": "5c0647fdd443bc2504c2d371",
+                                "name": "Jaeger",
+                                "normalizedName": "jaeger",
+                                "imageLink": "https://assets.tarkov.dev/5c0647fdd443bc2504c2d371.webp"
+                            }
+                        }
+                    ]
+                }
             ]
         },
         {
@@ -8522,7 +8522,6 @@
             "name": "健身区",
             "normalizedName": "gym",
             "imageLink": "https://assets.tarkov.dev/station-gym.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "6377a9b9a93bde8fa30eb79a-1",
@@ -8738,7 +8737,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "5d494a3f5b56502f18c98a0e",
@@ -9141,20 +9141,6 @@
                             }
                         }
                     ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d484fda654e7600681d9315-2-4",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 2,
-                            "trader": {
-                                "id": "5a7c2eca46aef81a7ca2145d",
-                                "name": "Mechanic",
-                                "normalizedName": "mechanic",
-                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fda654e7600681d9315-2-1",
@@ -9281,6 +9267,20 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Set_of_files_%22Master%22"
                             }
                         }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d484fda654e7600681d9315-2-4",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 2,
+                            "trader": {
+                                "id": "5a7c2eca46aef81a7ca2145d",
+                                "name": "Mechanic",
+                                "normalizedName": "mechanic",
+                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                            }
+                        }
                     ]
                 },
                 {
@@ -9315,20 +9315,6 @@
                                 "name": "工作台",
                                 "normalizedName": "workbench",
                                 "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                            }
-                        }
-                    ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d484fda654e7600681d9315-3-3",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 3,
-                            "trader": {
-                                "id": "5a7c2eca46aef81a7ca2145d",
-                                "name": "Mechanic",
-                                "normalizedName": "mechanic",
-                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
                             }
                         }
                     ],
@@ -9431,6 +9417,20 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/60391a8b3364dc22b04d0ce5-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Can_of_thermite"
+                            }
+                        }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d484fda654e7600681d9315-3-3",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 3,
+                            "trader": {
+                                "id": "5a7c2eca46aef81a7ca2145d",
+                                "name": "Mechanic",
+                                "normalizedName": "mechanic",
+                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
                             }
                         }
                     ]
@@ -9573,18 +9573,6 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
-                    "taskUnlock": {
-                        "id": "5c0d4e61d09282029f53920e",
-                        "name": "向导",
-                        "normalizedName": "the-guide",
-                        "taskImageLink": "https://assets.tarkov.dev/5c0d4e61d09282029f53920e.webp",
-                        "trader": {
-                            "id": "5935c25fb3acc3127c3d8cd9",
-                            "name": "Peacekeeper",
-                            "normalizedName": "peacekeeper",
-                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 120,
@@ -9710,7 +9698,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/4.6x30mm_AP_SX"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "5c0d4e61d09282029f53920e",
+                        "name": "向导",
+                        "normalizedName": "the-guide",
+                        "taskImageLink": "https://assets.tarkov.dev/5c0d4e61d09282029f53920e.webp",
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        }
+                    }
                 },
                 {
                     "id": "5f245f875b664e084523a4ce",
@@ -9722,18 +9722,6 @@
                         "name": "工作台",
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                    },
-                    "taskUnlock": {
-                        "id": "5bc47dbf86f7741ee74e93b9",
-                        "name": "塔科夫神射手 - 3",
-                        "normalizedName": "the-tarkov-shooter-part-3",
-                        "taskImageLink": "https://assets.tarkov.dev/5bc47dbf86f7741ee74e93b9.webp",
-                        "trader": {
-                            "id": "5c0647fdd443bc2504c2d371",
-                            "name": "Jaeger",
-                            "normalizedName": "jaeger",
-                            "imageLink": "https://assets.tarkov.dev/5c0647fdd443bc2504c2d371.webp"
-                        }
                     },
                     "requiredItems": [
                         {
@@ -9818,7 +9806,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.366_TKM_AP-M"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "5bc47dbf86f7741ee74e93b9",
+                        "name": "塔科夫神射手 - 3",
+                        "normalizedName": "the-tarkov-shooter-part-3",
+                        "taskImageLink": "https://assets.tarkov.dev/5bc47dbf86f7741ee74e93b9.webp",
+                        "trader": {
+                            "id": "5c0647fdd443bc2504c2d371",
+                            "name": "Jaeger",
+                            "normalizedName": "jaeger",
+                            "imageLink": "https://assets.tarkov.dev/5c0647fdd443bc2504c2d371.webp"
+                        }
+                    }
                 },
                 {
                     "id": "655b5af31273611d2462ab76",
@@ -9830,18 +9830,6 @@
                         "name": "工作台",
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                    },
-                    "taskUnlock": {
-                        "id": "6179ad0a6e9dd54ac275e3f2",
-                        "name": "猎人之路 - 流浪汉",
-                        "normalizedName": "the-huntsman-path-outcasts",
-                        "taskImageLink": "https://assets.tarkov.dev/6179ad0a6e9dd54ac275e3f2.webp",
-                        "trader": {
-                            "id": "5c0647fdd443bc2504c2d371",
-                            "name": "Jaeger",
-                            "normalizedName": "jaeger",
-                            "imageLink": "https://assets.tarkov.dev/5c0647fdd443bc2504c2d371.webp"
-                        }
                     },
                     "requiredItems": [
                         {
@@ -9944,7 +9932,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/12/70_AP-20_armor-piercing_slug"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "6179ad0a6e9dd54ac275e3f2",
+                        "name": "猎人之路 - 流浪汉",
+                        "normalizedName": "the-huntsman-path-outcasts",
+                        "taskImageLink": "https://assets.tarkov.dev/6179ad0a6e9dd54ac275e3f2.webp",
+                        "trader": {
+                            "id": "5c0647fdd443bc2504c2d371",
+                            "name": "Jaeger",
+                            "normalizedName": "jaeger",
+                            "imageLink": "https://assets.tarkov.dev/5c0647fdd443bc2504c2d371.webp"
+                        }
+                    }
                 },
                 {
                     "id": "5d78dbfb65aebb016d20b6f3",
@@ -10672,18 +10672,6 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
-                    "taskUnlock": {
-                        "id": "5c0bd94186f7747a727f09b2",
-                        "name": "试驾 - 1",
-                        "normalizedName": "test-drive-part-1",
-                        "taskImageLink": "https://assets.tarkov.dev/5c0bd94186f7747a727f09b2.webp",
-                        "trader": {
-                            "id": "54cb50c76803fa8b248b4571",
-                            "name": "Prapor",
-                            "normalizedName": "prapor",
-                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 3,
@@ -10748,7 +10736,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9x39mm_PAB-9_gs"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "5c0bd94186f7747a727f09b2",
+                        "name": "试驾 - 1",
+                        "normalizedName": "test-drive-part-1",
+                        "taskImageLink": "https://assets.tarkov.dev/5c0bd94186f7747a727f09b2.webp",
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        }
+                    }
                 },
                 {
                     "id": "690c784a8c5857a8e80c9970",
@@ -11048,18 +11048,6 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
-                    "taskUnlock": {
-                        "id": "6396700fea19ac7ed845db32",
-                        "name": "观察员",
-                        "normalizedName": "spotter",
-                        "taskImageLink": "https://assets.tarkov.dev/6396700fea19ac7ed845db32.webp",
-                        "trader": {
-                            "id": "638f541a29ffd1183d187f57",
-                            "name": "Lightkeeper",
-                            "normalizedName": "lightkeeper",
-                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 1,
@@ -11173,7 +11161,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Microcontroller_board"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "6396700fea19ac7ed845db32",
+                        "name": "观察员",
+                        "normalizedName": "spotter",
+                        "taskImageLink": "https://assets.tarkov.dev/6396700fea19ac7ed845db32.webp",
+                        "trader": {
+                            "id": "638f541a29ffd1183d187f57",
+                            "name": "Lightkeeper",
+                            "normalizedName": "lightkeeper",
+                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
+                        }
+                    }
                 },
                 {
                     "id": "5de95c91225b0a76ca0ea0b7",
@@ -11502,18 +11502,6 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
-                    "taskUnlock": {
-                        "id": "639135534b15ca31f76bc317",
-                        "name": "你的车该洗了",
-                        "normalizedName": "your-car-needs-a-service",
-                        "taskImageLink": "https://assets.tarkov.dev/639135534b15ca31f76bc317.webp",
-                        "trader": {
-                            "id": "5935c25fb3acc3127c3d8cd9",
-                            "name": "Peacekeeper",
-                            "normalizedName": "peacekeeper",
-                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 180,
@@ -11616,7 +11604,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "639135534b15ca31f76bc317",
+                        "name": "你的车该洗了",
+                        "normalizedName": "your-car-needs-a-service",
+                        "taskImageLink": "https://assets.tarkov.dev/639135534b15ca31f76bc317.webp",
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        }
+                    }
                 },
                 {
                     "id": "5de95f1c9517b140195ab717",
@@ -12636,18 +12636,6 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
-                    "taskUnlock": {
-                        "id": "6396701b9113f06a7c3b2379",
-                        "name": "大显身手",
-                        "normalizedName": "make-an-impression",
-                        "taskImageLink": "https://assets.tarkov.dev/6396701b9113f06a7c3b2379.webp",
-                        "trader": {
-                            "id": "638f541a29ffd1183d187f57",
-                            "name": "Lightkeeper",
-                            "normalizedName": "lightkeeper",
-                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 4,
@@ -12815,7 +12803,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Trijicon_REAP-IR_thermal_scope"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "6396701b9113f06a7c3b2379",
+                        "name": "大显身手",
+                        "normalizedName": "make-an-impression",
+                        "taskImageLink": "https://assets.tarkov.dev/6396701b9113f06a7c3b2379.webp",
+                        "trader": {
+                            "id": "638f541a29ffd1183d187f57",
+                            "name": "Lightkeeper",
+                            "normalizedName": "lightkeeper",
+                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
+                        }
+                    }
                 },
                 {
                     "id": "63bd4c3964d7e356983c4cf5",
@@ -13742,18 +13742,6 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
-                    "taskUnlock": {
-                        "id": "5bc4856986f77454c317bea7",
-                        "name": "塔科夫神射手 - 7",
-                        "normalizedName": "the-tarkov-shooter-part-7",
-                        "taskImageLink": "https://assets.tarkov.dev/5bc4856986f77454c317bea7.webp",
-                        "trader": {
-                            "id": "5c0647fdd443bc2504c2d371",
-                            "name": "Jaeger",
-                            "normalizedName": "jaeger",
-                            "imageLink": "https://assets.tarkov.dev/5c0647fdd443bc2504c2d371.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 50,
@@ -13855,7 +13843,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_BT_gzh"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "5bc4856986f77454c317bea7",
+                        "name": "塔科夫神射手 - 7",
+                        "normalizedName": "the-tarkov-shooter-part-7",
+                        "taskImageLink": "https://assets.tarkov.dev/5bc4856986f77454c317bea7.webp",
+                        "trader": {
+                            "id": "5c0647fdd443bc2504c2d371",
+                            "name": "Jaeger",
+                            "normalizedName": "jaeger",
+                            "imageLink": "https://assets.tarkov.dev/5c0647fdd443bc2504c2d371.webp"
+                        }
+                    }
                 },
                 {
                     "id": "603cf23a420e7f487e175d7f",
@@ -14228,18 +14228,6 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
-                    "taskUnlock": {
-                        "id": "5a27bb8386f7741c770d2d0a",
-                        "name": "湿活 - 1",
-                        "normalizedName": "wet-job-part-1",
-                        "taskImageLink": "https://assets.tarkov.dev/5a27bb8386f7741c770d2d0a.webp",
-                        "trader": {
-                            "id": "5935c25fb3acc3127c3d8cd9",
-                            "name": "Peacekeeper",
-                            "normalizedName": "peacekeeper",
-                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 120,
@@ -14323,7 +14311,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Blackout_M62_Tracer"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "5a27bb8386f7741c770d2d0a",
+                        "name": "湿活 - 1",
+                        "normalizedName": "wet-job-part-1",
+                        "taskImageLink": "https://assets.tarkov.dev/5a27bb8386f7741c770d2d0a.webp",
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        }
+                    }
                 },
                 {
                     "id": "61c77d465a98404dee40a77c",
@@ -14565,18 +14565,6 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
-                    "taskUnlock": {
-                        "id": "684009026ceedc792c09b2a7",
-                        "name": "同好俱乐部",
-                        "normalizedName": "hobby-club",
-                        "taskImageLink": "https://assets.tarkov.dev/684009026ceedc792c09b2a7.webp",
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 1,
@@ -14738,7 +14726,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TheAKGuy_AK-50_.50_BMG_anti-materiel_rifle"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "684009026ceedc792c09b2a7",
+                        "name": "同好俱乐部",
+                        "normalizedName": "hobby-club",
+                        "taskImageLink": "https://assets.tarkov.dev/684009026ceedc792c09b2a7.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
                 },
                 {
                     "id": "64b6aefe25251516d768542d",
@@ -15140,18 +15140,6 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
-                    "taskUnlock": {
-                        "id": "5a27bc8586f7741b543d8ea4",
-                        "name": "湿活 - 6",
-                        "normalizedName": "wet-job-part-6",
-                        "taskImageLink": "https://assets.tarkov.dev/5a27bc8586f7741b543d8ea4.webp",
-                        "trader": {
-                            "id": "5935c25fb3acc3127c3d8cd9",
-                            "name": "Peacekeeper",
-                            "normalizedName": "peacekeeper",
-                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 2,
@@ -15254,7 +15242,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80A1"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "5a27bc8586f7741b543d8ea4",
+                        "name": "湿活 - 6",
+                        "normalizedName": "wet-job-part-6",
+                        "taskImageLink": "https://assets.tarkov.dev/5a27bc8586f7741b543d8ea4.webp",
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        }
+                    }
                 },
                 {
                     "id": "655b4a73975a7f3c734661a5",
@@ -15266,18 +15266,6 @@
                         "name": "工作台",
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                    },
-                    "taskUnlock": {
-                        "id": "60e71bb4e456d449cd47ca75",
-                        "name": "恐吓者",
-                        "normalizedName": "intimidator",
-                        "taskImageLink": "https://assets.tarkov.dev/60e71bb4e456d449cd47ca75.webp",
-                        "trader": {
-                            "id": "54cb50c76803fa8b248b4571",
-                            "name": "Prapor",
-                            "normalizedName": "prapor",
-                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
-                        }
                     },
                     "requiredItems": [
                         {
@@ -15404,7 +15392,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_BP_gzh"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "60e71bb4e456d449cd47ca75",
+                        "name": "恐吓者",
+                        "normalizedName": "intimidator",
+                        "taskImageLink": "https://assets.tarkov.dev/60e71bb4e456d449cd47ca75.webp",
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        }
+                    }
                 },
                 {
                     "id": "690c7882b6e7d092f006dda8",
@@ -15487,18 +15487,6 @@
                         "name": "工作台",
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                    },
-                    "taskUnlock": {
-                        "id": "59c512ad86f7741f0d09de9b",
-                        "name": "惩罚者 - 3",
-                        "normalizedName": "the-punisher-part-3",
-                        "taskImageLink": "https://assets.tarkov.dev/59c512ad86f7741f0d09de9b.webp",
-                        "trader": {
-                            "id": "54cb50c76803fa8b248b4571",
-                            "name": "Prapor",
-                            "normalizedName": "prapor",
-                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
-                        }
                     },
                     "requiredItems": [
                         {
@@ -15583,7 +15571,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_PP_gs"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "59c512ad86f7741f0d09de9b",
+                        "name": "惩罚者 - 3",
+                        "normalizedName": "the-punisher-part-3",
+                        "taskImageLink": "https://assets.tarkov.dev/59c512ad86f7741f0d09de9b.webp",
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        }
+                    }
                 },
                 {
                     "id": "67bc88ec4e7dbc3aa2024321",
@@ -15596,23 +15596,6 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
-                    "requiredQuestItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "unknown-item",
-                                "name": "未知物品",
-                                "normalizedName": "unknown-item",
-                                "shortName": "unknown",
-                                "width": 1,
-                                "height": 1,
-                                "types": [],
-                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
-                            }
-                        }
-                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -15669,6 +15652,23 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/68dfc07da7cfeed3e60204e7-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Armored_case"
+                            }
+                        }
+                    ],
+                    "requiredQuestItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "unknown-item",
+                                "name": "未知物品",
+                                "normalizedName": "unknown-item",
+                                "shortName": "unknown",
+                                "width": 1,
+                                "height": 1,
+                                "types": [],
+                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
                             }
                         }
                     ]
@@ -16597,18 +16597,6 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
-                    "taskUnlock": {
-                        "id": "60e71c9ad54b755a3b53eb66",
-                        "name": "清洁工",
-                        "normalizedName": "the-cleaner",
-                        "taskImageLink": "https://assets.tarkov.dev/60e71c9ad54b755a3b53eb66.webp",
-                        "trader": {
-                            "id": "5935c25fb3acc3127c3d8cd9",
-                            "name": "Peacekeeper",
-                            "normalizedName": "peacekeeper",
-                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 90,
@@ -16692,7 +16680,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Blackout_AP"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "60e71c9ad54b755a3b53eb66",
+                        "name": "清洁工",
+                        "normalizedName": "the-cleaner",
+                        "taskImageLink": "https://assets.tarkov.dev/60e71c9ad54b755a3b53eb66.webp",
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        }
+                    }
                 },
                 {
                     "id": "63a571802116d261d2336cd1",
@@ -16704,18 +16704,6 @@
                         "name": "工作台",
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                    },
-                    "taskUnlock": {
-                        "id": "625d6ffaf7308432be1d44c5",
-                        "name": "网络供应商 - 2",
-                        "normalizedName": "network-provider-part-2",
-                        "taskImageLink": "https://assets.tarkov.dev/625d6ffaf7308432be1d44c5.webp",
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
                     },
                     "requiredItems": [
                         {
@@ -16858,7 +16846,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Radio_repeater"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "625d6ffaf7308432be1d44c5",
+                        "name": "网络供应商 - 2",
+                        "normalizedName": "network-provider-part-2",
+                        "taskImageLink": "https://assets.tarkov.dev/625d6ffaf7308432be1d44c5.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
                 },
                 {
                     "id": "63a3359eaf870e651d58e61a",
@@ -17655,18 +17655,6 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
-                    "taskUnlock": {
-                        "id": "5c0d190cd09282029f5390d8",
-                        "name": "掷弹兵",
-                        "normalizedName": "grenadier",
-                        "taskImageLink": "https://assets.tarkov.dev/5c0d190cd09282029f5390d8.webp",
-                        "trader": {
-                            "id": "54cb50c76803fa8b248b4571",
-                            "name": "Prapor",
-                            "normalizedName": "prapor",
-                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 5,
@@ -17752,7 +17740,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VOG-25_Khattabka_improvised_hand_grenade"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "5c0d190cd09282029f5390d8",
+                        "name": "掷弹兵",
+                        "normalizedName": "grenadier",
+                        "taskImageLink": "https://assets.tarkov.dev/5c0d190cd09282029f5390d8.webp",
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        }
+                    }
                 },
                 {
                     "id": "677d4db74ac9193862043ee9",
@@ -18423,18 +18423,6 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
-                    "taskUnlock": {
-                        "id": "64e7b9bffd30422ed03dad38",
-                        "name": "出警 - 巡逻",
-                        "normalizedName": "gendarmerie-district-patrol",
-                        "taskImageLink": "https://assets.tarkov.dev/64e7b9bffd30422ed03dad38.webp",
-                        "trader": {
-                            "id": "54cb50c76803fa8b248b4571",
-                            "name": "Prapor",
-                            "normalizedName": "prapor",
-                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 180,
@@ -18518,7 +18506,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_BP_gs"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "64e7b9bffd30422ed03dad38",
+                        "name": "出警 - 巡逻",
+                        "normalizedName": "gendarmerie-district-patrol",
+                        "taskImageLink": "https://assets.tarkov.dev/64e7b9bffd30422ed03dad38.webp",
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        }
+                    }
                 },
                 {
                     "id": "60048c82a7903e00382d9593",
@@ -18530,18 +18530,6 @@
                         "name": "工作台",
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                    },
-                    "taskUnlock": {
-                        "id": "63966ff54c3ef01b6f3ffad8",
-                        "name": "挑衅",
-                        "normalizedName": "provocation",
-                        "taskImageLink": "https://assets.tarkov.dev/63966ff54c3ef01b6f3ffad8.webp",
-                        "trader": {
-                            "id": "638f541a29ffd1183d187f57",
-                            "name": "Lightkeeper",
-                            "normalizedName": "lightkeeper",
-                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
-                        }
                     },
                     "requiredItems": [
                         {
@@ -18703,7 +18691,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/FLIR_RS-32_2.25-9x_35mm_60Hz_thermal_riflescope"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "63966ff54c3ef01b6f3ffad8",
+                        "name": "挑衅",
+                        "normalizedName": "provocation",
+                        "taskImageLink": "https://assets.tarkov.dev/63966ff54c3ef01b6f3ffad8.webp",
+                        "trader": {
+                            "id": "638f541a29ffd1183d187f57",
+                            "name": "Lightkeeper",
+                            "normalizedName": "lightkeeper",
+                            "imageLink": "https://assets.tarkov.dev/638f541a29ffd1183d187f57.webp"
+                        }
+                    }
                 },
                 {
                     "id": "5ffcad24f3fdc212a91d5536",
@@ -18813,18 +18813,6 @@
                         "normalizedName": "workbench",
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
-                    "taskUnlock": {
-                        "id": "5c0bc91486f7746ab41857a2",
-                        "name": "大音希声",
-                        "normalizedName": "silent-caliber",
-                        "taskImageLink": "https://assets.tarkov.dev/5c0bc91486f7746ab41857a2.webp",
-                        "trader": {
-                            "id": "58330581ace78e27b8b10cee",
-                            "name": "Skier",
-                            "normalizedName": "skier",
-                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 3,
@@ -18907,7 +18895,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/12/70_flechette"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "5c0bc91486f7746ab41857a2",
+                        "name": "大音希声",
+                        "normalizedName": "silent-caliber",
+                        "taskImageLink": "https://assets.tarkov.dev/5c0bc91486f7746ab41857a2.webp",
+                        "trader": {
+                            "id": "58330581ace78e27b8b10cee",
+                            "name": "Skier",
+                            "normalizedName": "skier",
+                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
+                        }
+                    }
                 },
                 {
                     "id": "655b50e7c023e22044165de5",
@@ -19205,32 +19205,6 @@
                             }
                         }
                     ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d484fc0654e76006657e0ab-3-5",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 3,
-                            "trader": {
-                                "id": "54cb50c76803fa8b248b4571",
-                                "name": "Prapor",
-                                "normalizedName": "prapor",
-                                "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
-                            }
-                        },
-                        {
-                            "id": "5d484fc0654e76006657e0ab-3-7",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 3,
-                            "trader": {
-                                "id": "5ac3b934156ae10c4430e83c",
-                                "name": "Ragman",
-                                "normalizedName": "ragman",
-                                "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fc0654e76006657e0ab-3-2",
@@ -19332,6 +19306,32 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
                             }
                         }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d484fc0654e76006657e0ab-3-5",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 3,
+                            "trader": {
+                                "id": "54cb50c76803fa8b248b4571",
+                                "name": "Prapor",
+                                "normalizedName": "prapor",
+                                "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                            }
+                        },
+                        {
+                            "id": "5d484fc0654e76006657e0ab-3-7",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 3,
+                            "trader": {
+                                "id": "5ac3b934156ae10c4430e83c",
+                                "name": "Ragman",
+                                "normalizedName": "ragman",
+                                "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
+                            }
+                        }
                     ]
                 },
                 {
@@ -19386,32 +19386,6 @@
                                 "name": "情报中心",
                                 "normalizedName": "intelligence-center",
                                 "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                            }
-                        }
-                    ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d484fc0654e76006657e0ab-4-4",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 4,
-                            "trader": {
-                                "id": "5935c25fb3acc3127c3d8cd9",
-                                "name": "Peacekeeper",
-                                "normalizedName": "peacekeeper",
-                                "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                            }
-                        },
-                        {
-                            "id": "5d484fc0654e76006657e0ab-4-7",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 4,
-                            "trader": {
-                                "id": "5ac3b934156ae10c4430e83c",
-                                "name": "Ragman",
-                                "normalizedName": "ragman",
-                                "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
                             }
                         }
                     ],
@@ -19539,6 +19513,32 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/60391afc25aff57af81f7085-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ratchet_wrench"
+                            }
+                        }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d484fc0654e76006657e0ab-4-4",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 4,
+                            "trader": {
+                                "id": "5935c25fb3acc3127c3d8cd9",
+                                "name": "Peacekeeper",
+                                "normalizedName": "peacekeeper",
+                                "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                            }
+                        },
+                        {
+                            "id": "5d484fc0654e76006657e0ab-4-7",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 4,
+                            "trader": {
+                                "id": "5ac3b934156ae10c4430e83c",
+                                "name": "Ragman",
+                                "normalizedName": "ragman",
+                                "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
                             }
                         }
                     ]
@@ -19771,20 +19771,6 @@
                             }
                         }
                     ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d484fdf654e7600691aadf8-2-9",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 2,
-                            "trader": {
-                                "id": "5a7c2eca46aef81a7ca2145d",
-                                "name": "Mechanic",
-                                "normalizedName": "mechanic",
-                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d484fdf654e7600691aadf8-2-0",
@@ -19886,6 +19872,20 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Damaged_hard_drive"
                             }
                         }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d484fdf654e7600691aadf8-2-9",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 2,
+                            "trader": {
+                                "id": "5a7c2eca46aef81a7ca2145d",
+                                "name": "Mechanic",
+                                "normalizedName": "mechanic",
+                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                            }
+                        }
                     ]
                 },
                 {
@@ -19920,20 +19920,6 @@
                                 "name": "情报中心",
                                 "normalizedName": "intelligence-center",
                                 "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                            }
-                        }
-                    ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d484fdf654e7600691aadf8-3-4",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 3,
-                            "trader": {
-                                "id": "54cb50c76803fa8b248b4571",
-                                "name": "Prapor",
-                                "normalizedName": "prapor",
-                                "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
                             }
                         }
                     ],
@@ -20087,6 +20073,20 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/6389c7f115805221fb410466-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Far-forward_GPS_Signal_Amplifier_Unit"
+                            }
+                        }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d484fdf654e7600691aadf8-3-4",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 3,
+                            "trader": {
+                                "id": "54cb50c76803fa8b248b4571",
+                                "name": "Prapor",
+                                "normalizedName": "prapor",
+                                "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
                             }
                         }
                     ]
@@ -20630,23 +20630,6 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
-                    "requiredQuestItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "unknown-item",
-                                "name": "未知物品",
-                                "normalizedName": "unknown-item",
-                                "shortName": "unknown",
-                                "width": 1,
-                                "height": 1,
-                                "types": [],
-                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
-                            }
-                        }
-                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -20736,6 +20719,23 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/67c033fd0610e91bea056998-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reprogrammed_RFID_keycard_with_Mr._Kerman%27s_hash_codes"
+                            }
+                        }
+                    ],
+                    "requiredQuestItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "unknown-item",
+                                "name": "未知物品",
+                                "normalizedName": "unknown-item",
+                                "shortName": "unknown",
+                                "width": 1,
+                                "height": 1,
+                                "types": [],
+                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
                             }
                         }
                     ]
@@ -21190,23 +21190,6 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
-                    "requiredQuestItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "unknown-item",
-                                "name": "未知物品",
-                                "normalizedName": "unknown-item",
-                                "shortName": "unknown",
-                                "width": 1,
-                                "height": 1,
-                                "types": [],
-                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
-                            }
-                        }
-                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -21289,19 +21272,7 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reprogrammed_keycard_for_A.P.%27s_apartment_lock_(Blue)"
                             }
                         }
-                    ]
-                },
-                {
-                    "id": "67c86b2828d3adac2e09a16e",
-                    "level": 1,
-                    "taskUnlock": null,
-                    "duration": 19800,
-                    "station": {
-                        "id": "5d484fdf654e7600691aadf8",
-                        "name": "情报中心",
-                        "normalizedName": "intelligence-center",
-                        "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
-                    },
+                    ],
                     "requiredQuestItems": [
                         {
                             "attributes": [],
@@ -21318,7 +21289,19 @@
                                 "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
                             }
                         }
-                    ],
+                    ]
+                },
+                {
+                    "id": "67c86b2828d3adac2e09a16e",
+                    "level": 1,
+                    "taskUnlock": null,
+                    "duration": 19800,
+                    "station": {
+                        "id": "5d484fdf654e7600691aadf8",
+                        "name": "情报中心",
+                        "normalizedName": "intelligence-center",
+                        "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
+                    },
                     "requiredItems": [
                         {
                             "count": 1,
@@ -21408,6 +21391,23 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/67c04a6f9152fbdfa306cc66-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reprogrammed_RFID_keycard_with_Prapor%27s_hash_codes"
+                            }
+                        }
+                    ],
+                    "requiredQuestItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "unknown-item",
+                                "name": "未知物品",
+                                "normalizedName": "unknown-item",
+                                "shortName": "unknown",
+                                "width": 1,
+                                "height": 1,
+                                "types": [],
+                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
                             }
                         }
                     ]
@@ -21679,23 +21679,6 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
-                    "requiredQuestItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "unknown-item",
-                                "name": "未知物品",
-                                "normalizedName": "unknown-item",
-                                "shortName": "unknown",
-                                "width": 1,
-                                "height": 1,
-                                "types": [],
-                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
-                            }
-                        }
-                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -21776,6 +21759,23 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/68c14b734a7e0bada00f8fd4-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reprogrammed_keycard_for_A.P.%27s_apartment_lock_(Green)"
+                            }
+                        }
+                    ],
+                    "requiredQuestItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "unknown-item",
+                                "name": "未知物品",
+                                "normalizedName": "unknown-item",
+                                "shortName": "unknown",
+                                "width": 1,
+                                "height": 1,
+                                "types": [],
+                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
                             }
                         }
                     ]
@@ -22035,38 +22035,6 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
-                    "requiredQuestItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "unknown-item",
-                                "name": "未知物品",
-                                "normalizedName": "unknown-item",
-                                "shortName": "unknown",
-                                "width": 1,
-                                "height": 1,
-                                "types": [],
-                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
-                            }
-                        },
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "unknown-item",
-                                "name": "未知物品",
-                                "normalizedName": "unknown-item",
-                                "shortName": "unknown",
-                                "width": 1,
-                                "height": 1,
-                                "types": [],
-                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
-                            }
-                        }
-                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -22126,6 +22094,38 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/67bdf04d66ca1d79a2024637-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Activated_Kruglov%27s_RFID_keycard"
+                            }
+                        }
+                    ],
+                    "requiredQuestItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "unknown-item",
+                                "name": "未知物品",
+                                "normalizedName": "unknown-item",
+                                "shortName": "unknown",
+                                "width": 1,
+                                "height": 1,
+                                "types": [],
+                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
+                            }
+                        },
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "unknown-item",
+                                "name": "未知物品",
+                                "normalizedName": "unknown-item",
+                                "shortName": "unknown",
+                                "width": 1,
+                                "height": 1,
+                                "types": [],
+                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
                             }
                         }
                     ]
@@ -22447,29 +22447,6 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
-                    "requiredQuestItems": [
-                        {
-                            "id": "6331bb0d1aa9f42b804997a6",
-                            "name": "V3加密U盘",
-                            "normalizedName": "secure-flash-drive-v3",
-                            "shortName": "V3U盘",
-                            "width": 1,
-                            "height": 1,
-                            "iconLink": "https://assets.tarkov.dev/6331bb0d1aa9f42b804997a6-icon.webp"
-                        }
-                    ],
-                    "taskUnlock": {
-                        "id": "625d700cc48e6c62a440fab5",
-                        "name": "邂逅",
-                        "normalizedName": "getting-acquainted",
-                        "taskImageLink": "https://assets.tarkov.dev/625d700cc48e6c62a440fab5.webp",
-                        "trader": {
-                            "id": "5a7c2eca46aef81a7ca2145d",
-                            "name": "Mechanic",
-                            "normalizedName": "mechanic",
-                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 1,
@@ -22553,7 +22530,30 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Digital_secure_DSP_radio_transmitter"
                             }
                         }
-                    ]
+                    ],
+                    "requiredQuestItems": [
+                        {
+                            "id": "6331bb0d1aa9f42b804997a6",
+                            "name": "V3加密U盘",
+                            "normalizedName": "secure-flash-drive-v3",
+                            "shortName": "V3U盘",
+                            "width": 1,
+                            "height": 1,
+                            "iconLink": "https://assets.tarkov.dev/6331bb0d1aa9f42b804997a6-icon.webp"
+                        }
+                    ],
+                    "taskUnlock": {
+                        "id": "625d700cc48e6c62a440fab5",
+                        "name": "邂逅",
+                        "normalizedName": "getting-acquainted",
+                        "taskImageLink": "https://assets.tarkov.dev/625d700cc48e6c62a440fab5.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    }
                 },
                 {
                     "id": "62a112fec1cce91d2c46a06e",
@@ -22822,23 +22822,6 @@
                         "normalizedName": "intelligence-center",
                         "imageLink": "https://assets.tarkov.dev/station-intelligence-center.png"
                     },
-                    "requiredQuestItems": [
-                        {
-                            "attributes": [],
-                            "quantity": 1,
-                            "count": 1,
-                            "item": {
-                                "id": "unknown-item",
-                                "name": "未知物品",
-                                "normalizedName": "unknown-item",
-                                "shortName": "unknown",
-                                "width": 1,
-                                "height": 1,
-                                "types": [],
-                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
-                            }
-                        }
-                    ],
                     "requiredItems": [
                         {
                             "count": 1,
@@ -22921,6 +22904,23 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reprogrammed_keycard_for_A.P.%27s_apartment_lock_(Red)"
                             }
                         }
+                    ],
+                    "requiredQuestItems": [
+                        {
+                            "attributes": [],
+                            "quantity": 1,
+                            "count": 1,
+                            "item": {
+                                "id": "unknown-item",
+                                "name": "未知物品",
+                                "normalizedName": "unknown-item",
+                                "shortName": "unknown",
+                                "width": 1,
+                                "height": 1,
+                                "types": [],
+                                "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg"
+                            }
+                        }
                     ]
                 }
             ]
@@ -22930,7 +22930,6 @@
             "name": "通风",
             "normalizedName": "vents",
             "imageLink": "https://assets.tarkov.dev/station-vents.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "5d473c1e081959000e530190-1",
@@ -23238,7 +23237,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "5d494a205b56502f18c98a06",
@@ -23419,20 +23419,6 @@
                             }
                         }
                     ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d494a205b56502f18c98a06-3-3",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 2,
-                            "trader": {
-                                "id": "5a7c2eca46aef81a7ca2145d",
-                                "name": "Mechanic",
-                                "normalizedName": "mechanic",
-                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d494a205b56502f18c98a06-3-4",
@@ -23534,6 +23520,20 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Energy-saving_lamp"
                             }
                         }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d494a205b56502f18c98a06-3-3",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 2,
+                            "trader": {
+                                "id": "5a7c2eca46aef81a7ca2145d",
+                                "name": "Mechanic",
+                                "normalizedName": "mechanic",
+                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                            }
+                        }
                     ]
                 }
             ]
@@ -23567,20 +23567,6 @@
                                 "name": "仓库",
                                 "normalizedName": "stash",
                                 "imageLink": "https://assets.tarkov.dev/station-stash.png"
-                            }
-                        }
-                    ],
-                    "traderRequirements": [
-                        {
-                            "id": "63db64cbf9963741dc0d741f-1-8",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 2,
-                            "trader": {
-                                "id": "5a7c2eca46aef81a7ca2145d",
-                                "name": "Mechanic",
-                                "normalizedName": "mechanic",
-                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
                             }
                         }
                     ],
@@ -23760,6 +23746,20 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pack_of_nails"
                             }
                         }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "63db64cbf9963741dc0d741f-1-8",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 2,
+                            "trader": {
+                                "id": "5a7c2eca46aef81a7ca2145d",
+                                "name": "Mechanic",
+                                "normalizedName": "mechanic",
+                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                            }
+                        }
                     ]
                 },
                 {
@@ -23804,20 +23804,6 @@
                                 "name": "武器架",
                                 "normalizedName": "weapon-rack",
                                 "imageLink": "https://assets.tarkov.dev/station-weapon-rack.png"
-                            }
-                        }
-                    ],
-                    "traderRequirements": [
-                        {
-                            "id": "63db64cbf9963741dc0d741f-2-12",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 3,
-                            "trader": {
-                                "id": "5a7c2eca46aef81a7ca2145d",
-                                "name": "Mechanic",
-                                "normalizedName": "mechanic",
-                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
                             }
                         }
                     ],
@@ -24047,6 +24033,20 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tube_of_Poxeram_cold_welding"
                             }
                         }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "63db64cbf9963741dc0d741f-2-12",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 3,
+                            "trader": {
+                                "id": "5a7c2eca46aef81a7ca2145d",
+                                "name": "Mechanic",
+                                "normalizedName": "mechanic",
+                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                            }
+                        }
                     ]
                 },
                 {
@@ -24081,20 +24081,6 @@
                                 "name": "武器架",
                                 "normalizedName": "weapon-rack",
                                 "imageLink": "https://assets.tarkov.dev/station-weapon-rack.png"
-                            }
-                        }
-                    ],
-                    "traderRequirements": [
-                        {
-                            "id": "63db64cbf9963741dc0d741f-3-8",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 4,
-                            "trader": {
-                                "id": "5a7c2eca46aef81a7ca2145d",
-                                "name": "Mechanic",
-                                "normalizedName": "mechanic",
-                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
                             }
                         }
                     ],
@@ -24299,6 +24285,20 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/FireKlean_gun_lube"
                             }
                         }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "63db64cbf9963741dc0d741f-3-8",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 4,
+                            "trader": {
+                                "id": "5a7c2eca46aef81a7ca2145d",
+                                "name": "Mechanic",
+                                "normalizedName": "mechanic",
+                                "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                            }
+                        }
                     ]
                 }
             ]
@@ -24308,7 +24308,6 @@
             "name": "靶场",
             "normalizedName": "shooting-range",
             "imageLink": "https://assets.tarkov.dev/station-shooting-range.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "5d484fe3654e76006657e0ac-1",
@@ -24964,14 +24963,14 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "5d494a175b56502f18c98a04",
             "name": "Scav宝箱",
             "normalizedName": "scav-case",
             "imageLink": "https://assets.tarkov.dev/station-scav-case.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "5d494a175b56502f18c98a04-1",
@@ -25169,14 +25168,14 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "667298e75ea6b4493c08f266",
             "name": "仪式圈",
             "normalizedName": "cultist-circle",
             "imageLink": "https://assets.tarkov.dev/station-cultist-circle.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "667298e75ea6b4493c08f266-1",
@@ -25348,7 +25347,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "65e5bb1713227bb7690cea0a",
@@ -25379,20 +25379,6 @@
                                 "name": "照明",
                                 "normalizedName": "illumination",
                                 "imageLink": "https://assets.tarkov.dev/station-illumination.png"
-                            }
-                        }
-                    ],
-                    "traderRequirements": [
-                        {
-                            "id": "65e5bb1713227bb7690cea0a-1-3",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 2,
-                            "trader": {
-                                "id": "5ac3b934156ae10c4430e83c",
-                                "name": "Ragman",
-                                "normalizedName": "ragman",
-                                "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
                             }
                         }
                     ],
@@ -25598,6 +25584,20 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
                             }
                         }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "65e5bb1713227bb7690cea0a-1-3",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 2,
+                            "trader": {
+                                "id": "5ac3b934156ae10c4430e83c",
+                                "name": "Ragman",
+                                "normalizedName": "ragman",
+                                "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
+                            }
+                        }
                     ]
                 },
                 {
@@ -25622,20 +25622,6 @@
                                 "name": "装备架",
                                 "normalizedName": "gear-rack",
                                 "imageLink": "https://assets.tarkov.dev/station-gear-rack.png"
-                            }
-                        }
-                    ],
-                    "traderRequirements": [
-                        {
-                            "id": "65e5bb1713227bb7690cea0a-2-1",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 3,
-                            "trader": {
-                                "id": "5ac3b934156ae10c4430e83c",
-                                "name": "Ragman",
-                                "normalizedName": "ragman",
-                                "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
                             }
                         }
                     ],
@@ -25840,6 +25826,20 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
                             }
                         }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "65e5bb1713227bb7690cea0a-2-1",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 3,
+                            "trader": {
+                                "id": "5ac3b934156ae10c4430e83c",
+                                "name": "Ragman",
+                                "normalizedName": "ragman",
+                                "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
+                            }
+                        }
                     ]
                 },
                 {
@@ -25864,20 +25864,6 @@
                                 "name": "装备架",
                                 "normalizedName": "gear-rack",
                                 "imageLink": "https://assets.tarkov.dev/station-gear-rack.png"
-                            }
-                        }
-                    ],
-                    "traderRequirements": [
-                        {
-                            "id": "65e5bb1713227bb7690cea0a-3-1",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 4,
-                            "trader": {
-                                "id": "5ac3b934156ae10c4430e83c",
-                                "name": "Ragman",
-                                "normalizedName": "ragman",
-                                "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
                             }
                         }
                     ],
@@ -26080,6 +26066,20 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
                             }
                         }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "65e5bb1713227bb7690cea0a-3-1",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 4,
+                            "trader": {
+                                "id": "5ac3b934156ae10c4430e83c",
+                                "name": "Ragman",
+                                "normalizedName": "ragman",
+                                "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
+                            }
+                        }
                     ]
                 }
             ]
@@ -26089,7 +26089,6 @@
             "name": "易碎墙",
             "normalizedName": "defective-wall",
             "imageLink": "https://assets.tarkov.dev/station-defective-wall.png",
-            "crafts": [],
             "levels": [
                 {
                     "id": "637b39f02e873739ec490215-1",
@@ -26487,7 +26486,8 @@
                         }
                     ]
                 }
-            ]
+            ],
+            "crafts": []
         },
         {
             "id": "5d494a315b56502f18c98a0a",
@@ -26518,20 +26518,6 @@
                                 "name": "通风",
                                 "normalizedName": "vents",
                                 "imageLink": "https://assets.tarkov.dev/station-vents.png"
-                            }
-                        }
-                    ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d494a315b56502f18c98a0a-1-3",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 3,
-                            "trader": {
-                                "id": "58330581ace78e27b8b10cee",
-                                "name": "Skier",
-                                "normalizedName": "skier",
-                                "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
                             }
                         }
                     ],
@@ -26634,6 +26620,20 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/619cbf476b8a1b37a54eebf8-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_corrugated_tube"
+                            }
+                        }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d494a315b56502f18c98a0a-1-3",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 3,
+                            "trader": {
+                                "id": "58330581ace78e27b8b10cee",
+                                "name": "Skier",
+                                "normalizedName": "skier",
+                                "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
                             }
                         }
                     ]
@@ -28893,18 +28893,6 @@
                         "normalizedName": "lavatory",
                         "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
                     },
-                    "taskUnlock": {
-                        "id": "5ae4495086f77443c122bc40",
-                        "name": "临行密密缝 - 1",
-                        "normalizedName": "sew-it-good-part-1",
-                        "taskImageLink": "https://assets.tarkov.dev/5ae4495086f77443c122bc40.webp",
-                        "trader": {
-                            "id": "5ac3b934156ae10c4430e83c",
-                            "name": "Ragman",
-                            "normalizedName": "ragman",
-                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 1,
@@ -29000,7 +28988,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6B23-2_body_armor_(Mountain_Flora)"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "5ae4495086f77443c122bc40",
+                        "name": "临行密密缝 - 1",
+                        "normalizedName": "sew-it-good-part-1",
+                        "taskImageLink": "https://assets.tarkov.dev/5ae4495086f77443c122bc40.webp",
+                        "trader": {
+                            "id": "5ac3b934156ae10c4430e83c",
+                            "name": "Ragman",
+                            "normalizedName": "ragman",
+                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
+                        }
+                    }
                 },
                 {
                     "id": "655b68b4769de97e1d62d117",
@@ -29151,18 +29151,6 @@
                         "normalizedName": "lavatory",
                         "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
                     },
-                    "taskUnlock": {
-                        "id": "5c1141f386f77430ff393792",
-                        "name": "奢侈无罪 - 2",
-                        "normalizedName": "living-high-is-not-a-crime-part-2",
-                        "taskImageLink": "https://assets.tarkov.dev/5c1141f386f77430ff393792.webp",
-                        "trader": {
-                            "id": "5ac3b934156ae10c4430e83c",
-                            "name": "Ragman",
-                            "normalizedName": "ragman",
-                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 2,
@@ -29284,7 +29272,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/NPP_KlASS_Bagariy_plate_carrier_(EMR)"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "5c1141f386f77430ff393792",
+                        "name": "奢侈无罪 - 2",
+                        "normalizedName": "living-high-is-not-a-crime-part-2",
+                        "taskImageLink": "https://assets.tarkov.dev/5c1141f386f77430ff393792.webp",
+                        "trader": {
+                            "id": "5ac3b934156ae10c4430e83c",
+                            "name": "Ragman",
+                            "normalizedName": "ragman",
+                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
+                        }
+                    }
                 },
                 {
                     "id": "5eda07acb6c564225571536c",
@@ -30214,18 +30214,6 @@
                         "normalizedName": "lavatory",
                         "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
                     },
-                    "taskUnlock": {
-                        "id": "5b47876e86f7744d1c353205",
-                        "name": "战争之血 - 2",
-                        "normalizedName": "the-blood-of-war-part-2",
-                        "taskImageLink": "https://assets.tarkov.dev/5b47876e86f7744d1c353205.webp",
-                        "trader": {
-                            "id": "5ac3b934156ae10c4430e83c",
-                            "name": "Ragman",
-                            "normalizedName": "ragman",
-                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 2,
@@ -30370,7 +30358,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ars_Arma_A18_Skanda_plate_carrier_(MultiCam)"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "5b47876e86f7744d1c353205",
+                        "name": "战争之血 - 2",
+                        "normalizedName": "the-blood-of-war-part-2",
+                        "taskImageLink": "https://assets.tarkov.dev/5b47876e86f7744d1c353205.webp",
+                        "trader": {
+                            "id": "5ac3b934156ae10c4430e83c",
+                            "name": "Ragman",
+                            "normalizedName": "ragman",
+                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
+                        }
+                    }
                 },
                 {
                     "id": "5df8fe0deddb880fd56f2d7d",
@@ -30612,18 +30612,6 @@
                         "normalizedName": "lavatory",
                         "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
                     },
-                    "taskUnlock": {
-                        "id": "5ae4497b86f7744cf402ed00",
-                        "name": "临行密密缝 - 4",
-                        "normalizedName": "sew-it-good-part-4",
-                        "taskImageLink": "https://assets.tarkov.dev/5ae4497b86f7744cf402ed00.webp",
-                        "trader": {
-                            "id": "5ac3b934156ae10c4430e83c",
-                            "name": "Ragman",
-                            "normalizedName": "ragman",
-                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 1,
@@ -30751,7 +30739,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.11_Tactical_TacTec_plate_carrier_(Ranger_Green)"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "5ae4497b86f7744cf402ed00",
+                        "name": "临行密密缝 - 4",
+                        "normalizedName": "sew-it-good-part-4",
+                        "taskImageLink": "https://assets.tarkov.dev/5ae4497b86f7744cf402ed00.webp",
+                        "trader": {
+                            "id": "5ac3b934156ae10c4430e83c",
+                            "name": "Ragman",
+                            "normalizedName": "ragman",
+                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
+                        }
+                    }
                 },
                 {
                     "id": "655b6b641273611d2462ab78",
@@ -30907,18 +30907,6 @@
                         "normalizedName": "lavatory",
                         "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
                     },
-                    "taskUnlock": {
-                        "id": "60e71b62a0beca400d69efc4",
-                        "name": "护送",
-                        "normalizedName": "escort",
-                        "taskImageLink": "https://assets.tarkov.dev/60e71b62a0beca400d69efc4.webp",
-                        "trader": {
-                            "id": "54cb50c76803fa8b248b4571",
-                            "name": "Prapor",
-                            "normalizedName": "prapor",
-                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 1,
@@ -31064,7 +31052,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rys-T_bulletproof_helmet_(Black)"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "60e71b62a0beca400d69efc4",
+                        "name": "护送",
+                        "normalizedName": "escort",
+                        "taskImageLink": "https://assets.tarkov.dev/60e71b62a0beca400d69efc4.webp",
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        }
+                    }
                 },
                 {
                     "id": "655b60774343a16d2e04766b",
@@ -31282,18 +31282,6 @@
                         "normalizedName": "lavatory",
                         "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
                     },
-                    "taskUnlock": {
-                        "id": "5b478d0f86f7744d190d91b5",
-                        "name": "微型客车",
-                        "normalizedName": "minibus",
-                        "taskImageLink": "https://assets.tarkov.dev/5b478d0f86f7744d190d91b5.webp",
-                        "trader": {
-                            "id": "5ac3b934156ae10c4430e83c",
-                            "name": "Ragman",
-                            "normalizedName": "ragman",
-                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
-                        }
-                    },
                     "requiredItems": [
                         {
                             "count": 1,
@@ -31414,7 +31402,19 @@
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/First_Spear_Strandhogg_plate_carrier_(Ranger_Green)"
                             }
                         }
-                    ]
+                    ],
+                    "taskUnlock": {
+                        "id": "5b478d0f86f7744d190d91b5",
+                        "name": "微型客车",
+                        "normalizedName": "minibus",
+                        "taskImageLink": "https://assets.tarkov.dev/5b478d0f86f7744d190d91b5.webp",
+                        "trader": {
+                            "id": "5ac3b934156ae10c4430e83c",
+                            "name": "Ragman",
+                            "normalizedName": "ragman",
+                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
+                        }
+                    }
                 }
             ]
         },
@@ -31957,20 +31957,6 @@
                             }
                         }
                     ],
-                    "traderRequirements": [
-                        {
-                            "id": "5d494a385b56502f18c98a0c-1-3",
-                            "requirementType": "level",
-                            "compareMethod": ">=",
-                            "value": 4,
-                            "trader": {
-                                "id": "5935c25fb3acc3127c3d8cd9",
-                                "name": "Peacekeeper",
-                                "normalizedName": "peacekeeper",
-                                "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                            }
-                        }
-                    ],
                     "itemRequirements": [
                         {
                             "id": "5d494a385b56502f18c98a0c-1-2",
@@ -32121,6 +32107,20 @@
                                 ],
                                 "iconLink": "https://assets.tarkov.dev/6389c85357baa773a825b356-icon.webp",
                                 "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Advanced_current_converter"
+                            }
+                        }
+                    ],
+                    "traderRequirements": [
+                        {
+                            "id": "5d494a385b56502f18c98a0c-1-3",
+                            "requirementType": "level",
+                            "compareMethod": ">=",
+                            "value": 4,
+                            "trader": {
+                                "id": "5935c25fb3acc3127c3d8cd9",
+                                "name": "Peacekeeper",
+                                "normalizedName": "peacekeeper",
+                                "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
                             }
                         }
                     ]
