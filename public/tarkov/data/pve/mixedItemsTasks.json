@@ -10,7 +10,7 @@
         "objectives": [
             {
                 "id": "65817bf31404f3565aef9fec",
-                "description": "上交任意医疗物品",
+                "description": "上交任意在战局中找到的医疗物品",
                 "count": 3,
                 "items": [
                     {
@@ -612,7 +612,7 @@
         "objectives": [
             {
                 "id": "6834158f2f0e2a7eb90b62cb",
-                "description": "Hand over the found in raid items from the Drinks category",
+                "description": "上交战局中找到的物品：饮料",
                 "count": 5,
                 "items": [
                     {
@@ -811,7 +811,7 @@
             },
             {
                 "id": "6834158f2f0e2a7eb90b62cc",
-                "description": "Hand over the found in raid items from the Food category",
+                "description": "上交战局中找到的物品：食物",
                 "count": 5,
                 "items": [
                     {
@@ -1040,7 +1040,7 @@
     },
     {
         "id": "68341b407559f4e6d50bc0ce",
-        "name": "惊喜（PVE）",
+        "name": "平衡之力 - 2（PVE）",
         "taskImageLink": "68341b407559f4e6d50bc0ce.webp",
         "trader": "竞技场裁判",
         "traderImageLink": "6617beeaa9cfa777ca915b7c.webp",
@@ -1049,7 +1049,7 @@
         "objectives": [
             {
                 "id": "68341b407559f4e6d50bc0d1",
-                "description": "Hand over the found in raid items: Class 4 or higher ballistic plates",
+                "description": "上交战局中找到的物品：四级及以上护甲插板",
                 "count": 3,
                 "items": [
                     {
@@ -1437,7 +1437,7 @@
         "objectives": [
             {
                 "id": "5a03289686f7745dbc6c5063",
-                "description": "在战局中找到并上交：WD-40",
+                "description": "上交战局中找到的物品：WD-40",
                 "count": 1,
                 "items": [
                     {
@@ -1599,6 +1599,852 @@
                         ],
                         "iconLink": "579204f224597773d619e051-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Makarov_PM_(t)_9x18PM_pistol"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "66151401efb0539ae10875ae",
+        "name": "人靠衣装 - 1",
+        "taskImageLink": "66151401efb0539ae10875ae.webp",
+        "trader": "Ragman",
+        "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+        "kappaRequired": false,
+        "mixedItemsTask": true,
+        "objectives": [
+            {
+                "id": "66168239957ac58c30b29135",
+                "description": "上交在战局中找到的 WARTECH 品牌装备",
+                "count": 50,
+                "items": [
+                    {
+                        "id": "64a536392d2c4e6e970f4121",
+                        "name": "WARTECH TV-115 插板胸挂（橄榄绿）",
+                        "normalizedName": "wartech-tv-115-plate-carrier-olive-drab",
+                        "types": [
+                            "armor",
+                            "rig",
+                            "wearable"
+                        ],
+                        "iconLink": "64a536392d2c4e6e970f4121-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_TV-115_plate_carrier_(Olive_Drab)"
+                    },
+                    {
+                        "id": "5ca20d5986f774331e7c9602",
+                        "name": "WARTECH 金雕 BB-102 背包 (A-TACS FG 迷彩)",
+                        "normalizedName": "wartech-berkut-bb-102-backpack-a-tacs-fg",
+                        "types": [
+                            "backpack",
+                            "wearable"
+                        ],
+                        "iconLink": "5ca20d5986f774331e7c9602-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_Berkut_BB-102_backpack_(A-TACS_FG)"
+                    },
+                    {
+                        "id": "5c0e746986f7741453628fe5",
+                        "name": "WARTECH TV-110 插板胸挂（灰褐色）",
+                        "normalizedName": "wartech-tv-110-plate-carrier-coyote",
+                        "types": [
+                            "armor",
+                            "rig",
+                            "wearable"
+                        ],
+                        "iconLink": "5c0e746986f7741453628fe5-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_TV-110_plate_carrier_(Coyote)"
+                    },
+                    {
+                        "id": "5ab8dab586f77441cd04f2a2",
+                        "name": "WARTECH MK3 TV-104 胸挂 (复合迷彩)",
+                        "normalizedName": "wartech-mk3-tv-104-chest-rig-multicam",
+                        "types": [
+                            "rig",
+                            "wearable"
+                        ],
+                        "iconLink": "5ab8dab586f77441cd04f2a2-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_MK3_TV-104_chest_rig_(MultiCam)"
+                    },
+                    {
+                        "id": "59e7643b86f7742cbf2c109a",
+                        "name": "WARTECH TV-109 + TV-106 胸挂（A-TACS 橄榄绿迷彩）",
+                        "normalizedName": "wartech-tv-109-tv-106-chest-rig-a-tacs-fg",
+                        "types": [
+                            "rig",
+                            "wearable"
+                        ],
+                        "iconLink": "59e7643b86f7742cbf2c109a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_TV-109_%2B_TV-106_chest_rig_(A-TACS_FG)"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6179b5eabca27a099552e052",
+        "name": "反抗",
+        "taskImageLink": "6179b5eabca27a099552e052.webp",
+        "trader": "Peacekeeper",
+        "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
+        "kappaRequired": false,
+        "mixedItemsTask": true,
+        "objectives": [
+            {
+                "id": "617fc08b30ccff6c7c37fcd3",
+                "description": "上交在战局中找到的BEAR狗牌",
+                "count": 20,
+                "items": [
+                    {
+                        "id": "68fb41120760c7891606613c",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-16",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68fb41120760c7891606613c-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "6662e9aca7e0b43baa3d5f74",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-1",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "6662e9aca7e0b43baa3d5f74-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68fb412b0760c7891606613e",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-17",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68fb412b0760c7891606613e-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "6662e9cda7e0b43baa3d5f76",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-2",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "6662e9cda7e0b43baa3d5f76-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "59f32bb586f774757e1e8442",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "59f32bb586f774757e1e8442-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68f15e26f1aa7e100a0ca208",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-15",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f15e26f1aa7e100a0ca208-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "675dc9d37ae1a8792107ca96",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-3",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "675dc9d37ae1a8792107ca96-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "675dcb0545b1a2d108011b2b",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-4",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "675dcb0545b1a2d108011b2b-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "684180bc51bf8645f7067bc8",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-5",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "684180bc51bf8645f7067bc8-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "684181208d035f60230f63f9",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-6",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "684181208d035f60230f63f9-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68f0f60a121d878a2303eedb",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-11",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f0f60a121d878a2303eedb-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68f0f63c645c14a02104142a",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-12",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f0f63c645c14a02104142a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68f15cf222c8979ee308f495",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-14",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f15cf222c8979ee308f495-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68f153aa7da590b6df0515da",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-13",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f153aa7da590b6df0515da-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68df9908972cf1e1ec07256a",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-7",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68df9908972cf1e1ec07256a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68df991142e96f583d042b8a",
+                        "name": "BEAR狗牌",
+                        "normalizedName": "dogtag-bear-8",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68df991142e96f583d042b8a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68df991dbeba86572e097ceb",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-9",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68df991dbeba86572e097ceb-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68df9927a38a5e37d80df6c9",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-10",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68df9927a38a5e37d80df6c9-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "5d25e2e286f77444001e2e48",
+        "name": "猎人之路 - 脱销",
+        "taskImageLink": "5d25e2e286f77444001e2e48.webp",
+        "trader": "Jaeger",
+        "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
+        "kappaRequired": true,
+        "mixedItemsTask": true,
+        "objectives": [
+            {
+                "id": "5d271a3486f774483c7bdb12",
+                "description": "上交Killa的头盔 ",
+                "count": 1,
+                "items": [
+                    {
+                        "id": "5c0e874186f7745dc7616606",
+                        "name": "Maska-1SCh 防弹头盔（Killa 版）",
+                        "normalizedName": "maska-1sch-bulletproof-helmet-killa-edition",
+                        "types": [
+                            "helmet",
+                            "wearable"
+                        ],
+                        "iconLink": "5c0e874186f7745dc7616606-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Maska-1SCh_bulletproof_helmet_(Killa_Edition)"
+                    },
+                    {
+                        "id": "6759af0f9c8a538dd70bfae6",
+                        "name": "Maska-1SCh 防弹头盔（圣诞特装版）",
+                        "normalizedName": "maska-1sch-bulletproof-helmet-christmas-edition",
+                        "types": [
+                            "wearable"
+                        ],
+                        "iconLink": "6759af0f9c8a538dd70bfae6-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Maska-1SCh_bulletproof_helmet_(Christmas_Edition)"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6615141bfda04449120269a7",
+        "name": "人靠衣装 - 2",
+        "taskImageLink": "6615141bfda04449120269a7.webp",
+        "trader": "Ragman",
+        "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+        "kappaRequired": false,
+        "mixedItemsTask": true,
+        "objectives": [
+            {
+                "id": "661682aed31d408548016468",
+                "description": "上交在战局中找到的 LBT 品牌装备",
+                "count": 50,
+                "items": [
+                    {
+                        "id": "628baf0b967de16aab5a4f36",
+                        "name": "LBT-1961A 承重胸挂（Goons特别版）",
+                        "normalizedName": "lbt-1961a-load-bearing-chest-rig-goons-edition",
+                        "types": [
+                            "rig",
+                            "wearable"
+                        ],
+                        "iconLink": "628baf0b967de16aab5a4f36-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-1961A_Load_Bearing_Chest_Rig_(Goons_Edition)"
+                    },
+                    {
+                        "id": "618cfae774bb2d036a049e7c",
+                        "name": "LBT-1476A 3 日行军背包（林地迷彩）",
+                        "normalizedName": "lbt-1476a-3day-pack-woodland",
+                        "types": [
+                            "backpack",
+                            "wearable"
+                        ],
+                        "iconLink": "618cfae774bb2d036a049e7c-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-1476A_3Day_Pack_(Woodland)"
+                    },
+                    {
+                        "id": "6038b4ca92ec1c3103795a0d",
+                        "name": "LBT 6094A Slick 插板背心（橄榄绿）",
+                        "normalizedName": "lbt-6094a-slick-plate-carrier-olive-drab",
+                        "types": [
+                            "armor",
+                            "wearable"
+                        ],
+                        "iconLink": "6038b4ca92ec1c3103795a0d-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-6094A_Slick_Plate_Carrier_(Olive_Drab)"
+                    },
+                    {
+                        "id": "6038b4b292ec1c3103795a0b",
+                        "name": "LBT 6094A Slick 插板背心（黄褐色）",
+                        "normalizedName": "lbt-6094a-slick-plate-carrier-coyote-tan",
+                        "types": [
+                            "armor",
+                            "wearable"
+                        ],
+                        "iconLink": "6038b4b292ec1c3103795a0b-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-6094A_Slick_Plate_Carrier_(Coyote_Tan)"
+                    },
+                    {
+                        "id": "5e9dcf5986f7746c417435b3",
+                        "name": "LBT-8005A Day Pack 背包（黑系复合迷彩）",
+                        "normalizedName": "lbt-8005a-day-pack-backpack-multicam-black",
+                        "types": [
+                            "backpack",
+                            "wearable"
+                        ],
+                        "iconLink": "5e9dcf5986f7746c417435b3-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-8005A_Day_Pack_backpack_(MultiCam_Black)"
+                    },
+                    {
+                        "id": "5e9db13186f7742f845ee9d3",
+                        "name": "LBT-1961A 承重胸挂（MAS 灰色）",
+                        "normalizedName": "lbt-1961a-load-bearing-chest-rig-mas-grey",
+                        "types": [
+                            "rig",
+                            "wearable"
+                        ],
+                        "iconLink": "5e9db13186f7742f845ee9d3-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-1961A_Load_Bearing_Chest_Rig_(MAS_Grey)"
+                    },
+                    {
+                        "id": "5e4abc6786f77406812bd572",
+                        "name": "LBT-2670 小型野战医物包",
+                        "normalizedName": "lbt-2670-slim-field-med-pack-black",
+                        "types": [
+                            "backpack",
+                            "wearable"
+                        ],
+                        "iconLink": "5e4abc6786f77406812bd572-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-2670_Slim_Field_Med_Pack_(Black)"
+                    },
+                    {
+                        "id": "5e4abb5086f77406975c9342",
+                        "name": "LBT-6094A Slick 插板背心（黑色）",
+                        "normalizedName": "lbt-6094a-slick-plate-carrier-black",
+                        "types": [
+                            "armor",
+                            "wearable"
+                        ],
+                        "iconLink": "5e4abb5086f77406975c9342-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-6094A_Slick_Plate_Carrier_(Black)"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "60e71ccb5688f6424c7bfec4",
+        "name": "战利品",
+        "taskImageLink": "60e71ccb5688f6424c7bfec4.webp",
+        "trader": "Peacekeeper",
+        "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
+        "kappaRequired": false,
+        "mixedItemsTask": true,
+        "objectives": [
+            {
+                "id": "60e8174d0367e10a450f7818",
+                "description": "在战局中找到50级以上BEAR PMC狗牌并上交",
+                "count": 20,
+                "items": [
+                    {
+                        "id": "68fb41120760c7891606613c",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-16",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68fb41120760c7891606613c-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "6662e9aca7e0b43baa3d5f74",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-1",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "6662e9aca7e0b43baa3d5f74-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68fb412b0760c7891606613e",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-17",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68fb412b0760c7891606613e-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "6662e9cda7e0b43baa3d5f76",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-2",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "6662e9cda7e0b43baa3d5f76-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "59f32bb586f774757e1e8442",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "59f32bb586f774757e1e8442-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68f15e26f1aa7e100a0ca208",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-15",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f15e26f1aa7e100a0ca208-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "675dc9d37ae1a8792107ca96",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-3",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "675dc9d37ae1a8792107ca96-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "675dcb0545b1a2d108011b2b",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-4",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "675dcb0545b1a2d108011b2b-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "684180bc51bf8645f7067bc8",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-5",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "684180bc51bf8645f7067bc8-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "684181208d035f60230f63f9",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-6",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "684181208d035f60230f63f9-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68f0f60a121d878a2303eedb",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-11",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f0f60a121d878a2303eedb-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68f0f63c645c14a02104142a",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-12",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f0f63c645c14a02104142a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68f15cf222c8979ee308f495",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-14",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f15cf222c8979ee308f495-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68f153aa7da590b6df0515da",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-13",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f153aa7da590b6df0515da-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68df9908972cf1e1ec07256a",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-7",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68df9908972cf1e1ec07256a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68df991142e96f583d042b8a",
+                        "name": "BEAR狗牌",
+                        "normalizedName": "dogtag-bear-8",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68df991142e96f583d042b8a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68df991dbeba86572e097ceb",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-9",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68df991dbeba86572e097ceb-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68df9927a38a5e37d80df6c9",
+                        "name": "BEAR 狗牌",
+                        "normalizedName": "dogtag-bear-10",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68df9927a38a5e37d80df6c9-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    }
+                ]
+            },
+            {
+                "id": "60e81795479eef59b01b0bdf",
+                "description": "在战局中找到50级以上USEC PMC狗牌并上交",
+                "count": 20,
+                "items": [
+                    {
+                        "id": "68fb4143a854bc7ae80fad3e",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-15",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68fb4143a854bc7ae80fad3e-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "6662e9f37fa79a6d83730fa0",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-1",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "6662e9f37fa79a6d83730fa0-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68fb4157b280c103230e3b3c",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-16",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68fb4157b280c103230e3b3c-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "6662ea05f6259762c56f3189",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-2",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "6662ea05f6259762c56f3189-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "59f32c3b86f77472a31742f0",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "59f32c3b86f77472a31742f0-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68f15e53103c5d9d4f022c78",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-14",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f15e53103c5d9d4f022c78-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "6764207f2fa5e32733055c4a",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-4",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "6764207f2fa5e32733055c4a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "6764202ae307804338014c1a",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-3",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "6764202ae307804338014c1a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68418091b5b0c9e4c60f0e7a",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-5",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68418091b5b0c9e4c60f0e7a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "684180ee9b6d80d840042e8a",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-6",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "684180ee9b6d80d840042e8a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68f0f64f183146ea530330aa",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-11",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f0f64f183146ea530330aa-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68f0f662859ebec8d501b76a",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-12",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f0f662859ebec8d501b76a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68f15dbab2b53abd200b9378",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-13",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68f15dbab2b53abd200b9378-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68df99975d4e135b130392ca",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-7",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68df99975d4e135b130392ca-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68df99a614ca2428b2017cd8",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-8",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68df99a614ca2428b2017cd8-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68df99b2f716906506098308",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-9",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68df99b2f716906506098308-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
+                    },
+                    {
+                        "id": "68df99c05d4e135b130392cc",
+                        "name": "USEC 狗牌",
+                        "normalizedName": "dogtag-usec-10",
+                        "types": [
+                            "barter",
+                            "noFlea"
+                        ],
+                        "iconLink": "68df99c05d4e135b130392cc-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                     }
                 ]
             }
@@ -1804,542 +2650,6 @@
                         ],
                         "iconLink": "6389c70ca33d8c4cdf4932c6-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Electronic_components"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "66151401efb0539ae10875ae",
-        "name": "人靠衣装 - 1",
-        "taskImageLink": "66151401efb0539ae10875ae.webp",
-        "trader": "Ragman",
-        "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-        "kappaRequired": false,
-        "mixedItemsTask": true,
-        "objectives": [
-            {
-                "id": "66168239957ac58c30b29135",
-                "description": "上交在战局中找到的 WARTECH 品牌装备",
-                "count": 50,
-                "items": [
-                    {
-                        "id": "64a536392d2c4e6e970f4121",
-                        "name": "WARTECH TV-115 插板胸挂（橄榄绿）",
-                        "normalizedName": "wartech-tv-115-plate-carrier-olive-drab",
-                        "types": [
-                            "armor",
-                            "rig",
-                            "wearable"
-                        ],
-                        "iconLink": "64a536392d2c4e6e970f4121-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_TV-115_plate_carrier_(Olive_Drab)"
-                    },
-                    {
-                        "id": "5ca20d5986f774331e7c9602",
-                        "name": "WARTECH 金雕 BB-102 背包 (A-TACS FG 迷彩)",
-                        "normalizedName": "wartech-berkut-bb-102-backpack-a-tacs-fg",
-                        "types": [
-                            "backpack",
-                            "wearable"
-                        ],
-                        "iconLink": "5ca20d5986f774331e7c9602-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_Berkut_BB-102_backpack_(A-TACS_FG)"
-                    },
-                    {
-                        "id": "5c0e746986f7741453628fe5",
-                        "name": "WARTECH TV-110 插板胸挂（灰褐色）",
-                        "normalizedName": "wartech-tv-110-plate-carrier-coyote",
-                        "types": [
-                            "armor",
-                            "rig",
-                            "wearable"
-                        ],
-                        "iconLink": "5c0e746986f7741453628fe5-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_TV-110_plate_carrier_(Coyote)"
-                    },
-                    {
-                        "id": "5ab8dab586f77441cd04f2a2",
-                        "name": "WARTECH MK3 TV-104 胸挂 (复合迷彩)",
-                        "normalizedName": "wartech-mk3-tv-104-chest-rig-multicam",
-                        "types": [
-                            "rig",
-                            "wearable"
-                        ],
-                        "iconLink": "5ab8dab586f77441cd04f2a2-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_MK3_TV-104_chest_rig_(MultiCam)"
-                    },
-                    {
-                        "id": "59e7643b86f7742cbf2c109a",
-                        "name": "WARTECH TV-109 + TV-106 胸挂（A-TACS 橄榄绿迷彩）",
-                        "normalizedName": "wartech-tv-109-tv-106-chest-rig-a-tacs-fg",
-                        "types": [
-                            "rig",
-                            "wearable"
-                        ],
-                        "iconLink": "59e7643b86f7742cbf2c109a-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WARTECH_TV-109_%2B_TV-106_chest_rig_(A-TACS_FG)"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "6179b5eabca27a099552e052",
-        "name": "反抗",
-        "taskImageLink": "6179b5eabca27a099552e052.webp",
-        "trader": "Peacekeeper",
-        "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
-        "kappaRequired": false,
-        "mixedItemsTask": true,
-        "objectives": [
-            {
-                "id": "617fc08b30ccff6c7c37fcd3",
-                "description": "上交在战局中找到的BEAR狗牌",
-                "count": 20,
-                "items": [
-                    {
-                        "id": "59f32bb586f774757e1e8442",
-                        "name": "BEAR 狗牌",
-                        "normalizedName": "dogtag-bear",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "59f32bb586f774757e1e8442-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "6662e9cda7e0b43baa3d5f76",
-                        "name": "BEAR 狗牌",
-                        "normalizedName": "dogtag-bear-2",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "6662e9cda7e0b43baa3d5f76-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "6662e9aca7e0b43baa3d5f74",
-                        "name": "BEAR 狗牌",
-                        "normalizedName": "dogtag-bear-1",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "6662e9aca7e0b43baa3d5f74-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "684181208d035f60230f63f9",
-                        "name": "BEAR 狗牌",
-                        "normalizedName": "dogtag-bear-6",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "684181208d035f60230f63f9-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "684180bc51bf8645f7067bc8",
-                        "name": "BEAR 狗牌",
-                        "normalizedName": "dogtag-bear-5",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "684180bc51bf8645f7067bc8-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "675dcb0545b1a2d108011b2b",
-                        "name": "BEAR 狗牌",
-                        "normalizedName": "dogtag-bear-4",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "675dcb0545b1a2d108011b2b-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "675dc9d37ae1a8792107ca96",
-                        "name": "BEAR 狗牌",
-                        "normalizedName": "dogtag-bear-3",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "675dc9d37ae1a8792107ca96-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "5d25e2e286f77444001e2e48",
-        "name": "猎人之路 - 脱销",
-        "taskImageLink": "5d25e2e286f77444001e2e48.webp",
-        "trader": "Jaeger",
-        "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
-        "kappaRequired": true,
-        "mixedItemsTask": true,
-        "objectives": [
-            {
-                "id": "5d271a3486f774483c7bdb12",
-                "description": "上交Killa的头盔 ",
-                "count": 1,
-                "items": [
-                    {
-                        "id": "5c0e874186f7745dc7616606",
-                        "name": "Maska-1SCh 防弹头盔（Killa 版）",
-                        "normalizedName": "maska-1sch-bulletproof-helmet-killa-edition",
-                        "types": [
-                            "helmet",
-                            "wearable"
-                        ],
-                        "iconLink": "5c0e874186f7745dc7616606-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Maska-1SCh_bulletproof_helmet_(Killa_Edition)"
-                    },
-                    {
-                        "id": "6759af0f9c8a538dd70bfae6",
-                        "name": "Maska-1SCh 防弹头盔（圣诞特装版）",
-                        "normalizedName": "maska-1sch-bulletproof-helmet-christmas-edition",
-                        "types": [
-                            "wearable"
-                        ],
-                        "iconLink": "6759af0f9c8a538dd70bfae6-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Maska-1SCh_bulletproof_helmet_(Christmas_Edition)"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "6615141bfda04449120269a7",
-        "name": "人靠衣装 - 2",
-        "taskImageLink": "6615141bfda04449120269a7.webp",
-        "trader": "Ragman",
-        "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-        "kappaRequired": false,
-        "mixedItemsTask": true,
-        "objectives": [
-            {
-                "id": "661682aed31d408548016468",
-                "description": "上交在战局中找到的 LBT 品牌装备",
-                "count": 50,
-                "items": [
-                    {
-                        "id": "628baf0b967de16aab5a4f36",
-                        "name": "LBT-1961A 承重胸挂（Goons特别版）",
-                        "normalizedName": "lbt-1961a-load-bearing-chest-rig-goons-edition",
-                        "types": [
-                            "rig",
-                            "wearable"
-                        ],
-                        "iconLink": "628baf0b967de16aab5a4f36-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-1961A_Load_Bearing_Chest_Rig_(Goons_Edition)"
-                    },
-                    {
-                        "id": "618cfae774bb2d036a049e7c",
-                        "name": "LBT-1476A 3 日行军背包（林地迷彩）",
-                        "normalizedName": "lbt-1476a-3day-pack-woodland",
-                        "types": [
-                            "backpack",
-                            "wearable"
-                        ],
-                        "iconLink": "618cfae774bb2d036a049e7c-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-1476A_3Day_Pack_(Woodland)"
-                    },
-                    {
-                        "id": "6038b4ca92ec1c3103795a0d",
-                        "name": "LBT 6094A Slick 插板背心（橄榄绿）",
-                        "normalizedName": "lbt-6094a-slick-plate-carrier-olive-drab",
-                        "types": [
-                            "armor",
-                            "wearable"
-                        ],
-                        "iconLink": "6038b4ca92ec1c3103795a0d-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-6094A_Slick_Plate_Carrier_(Olive_Drab)"
-                    },
-                    {
-                        "id": "6038b4b292ec1c3103795a0b",
-                        "name": "LBT 6094A Slick 插板背心（黄褐色）",
-                        "normalizedName": "lbt-6094a-slick-plate-carrier-coyote-tan",
-                        "types": [
-                            "armor",
-                            "wearable"
-                        ],
-                        "iconLink": "6038b4b292ec1c3103795a0b-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-6094A_Slick_Plate_Carrier_(Coyote_Tan)"
-                    },
-                    {
-                        "id": "5e9dcf5986f7746c417435b3",
-                        "name": "LBT-8005A Day Pack 背包（黑系复合迷彩）",
-                        "normalizedName": "lbt-8005a-day-pack-backpack-multicam-black",
-                        "types": [
-                            "backpack",
-                            "wearable"
-                        ],
-                        "iconLink": "5e9dcf5986f7746c417435b3-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-8005A_Day_Pack_backpack_(MultiCam_Black)"
-                    },
-                    {
-                        "id": "5e9db13186f7742f845ee9d3",
-                        "name": "LBT-1961A 承重胸挂（MAS 灰色）",
-                        "normalizedName": "lbt-1961a-load-bearing-chest-rig-mas-grey",
-                        "types": [
-                            "rig",
-                            "wearable"
-                        ],
-                        "iconLink": "5e9db13186f7742f845ee9d3-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-1961A_Load_Bearing_Chest_Rig_(MAS_Grey)"
-                    },
-                    {
-                        "id": "5e4abc6786f77406812bd572",
-                        "name": "LBT-2670 小型野战医物包",
-                        "normalizedName": "lbt-2670-slim-field-med-pack-black",
-                        "types": [
-                            "backpack",
-                            "wearable"
-                        ],
-                        "iconLink": "5e4abc6786f77406812bd572-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-2670_Slim_Field_Med_Pack_(Black)"
-                    },
-                    {
-                        "id": "5e4abb5086f77406975c9342",
-                        "name": "LBT-6094A Slick 插板背心（黑色）",
-                        "normalizedName": "lbt-6094a-slick-plate-carrier-black",
-                        "types": [
-                            "armor",
-                            "wearable"
-                        ],
-                        "iconLink": "5e4abb5086f77406975c9342-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LBT-6094A_Slick_Plate_Carrier_(Black)"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "60e71ccb5688f6424c7bfec4",
-        "name": "战利品",
-        "taskImageLink": "60e71ccb5688f6424c7bfec4.webp",
-        "trader": "Peacekeeper",
-        "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
-        "kappaRequired": false,
-        "mixedItemsTask": true,
-        "objectives": [
-            {
-                "id": "60e8174d0367e10a450f7818",
-                "description": "在战局中找到50级以上BEAR PMC狗牌并上交",
-                "count": 20,
-                "items": [
-                    {
-                        "id": "59f32bb586f774757e1e8442",
-                        "name": "BEAR 狗牌",
-                        "normalizedName": "dogtag-bear",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "59f32bb586f774757e1e8442-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "6662e9cda7e0b43baa3d5f76",
-                        "name": "BEAR 狗牌",
-                        "normalizedName": "dogtag-bear-2",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "6662e9cda7e0b43baa3d5f76-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "6662e9aca7e0b43baa3d5f74",
-                        "name": "BEAR 狗牌",
-                        "normalizedName": "dogtag-bear-1",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "6662e9aca7e0b43baa3d5f74-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "675dc9d37ae1a8792107ca96",
-                        "name": "BEAR 狗牌",
-                        "normalizedName": "dogtag-bear-3",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "675dc9d37ae1a8792107ca96-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "675dcb0545b1a2d108011b2b",
-                        "name": "BEAR 狗牌",
-                        "normalizedName": "dogtag-bear-4",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "675dcb0545b1a2d108011b2b-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "684181208d035f60230f63f9",
-                        "name": "BEAR 狗牌",
-                        "normalizedName": "dogtag-bear-6",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "684181208d035f60230f63f9-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "684180bc51bf8645f7067bc8",
-                        "name": "BEAR 狗牌",
-                        "normalizedName": "dogtag-bear-5",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "684180bc51bf8645f7067bc8-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    }
-                ]
-            },
-            {
-                "id": "60e81795479eef59b01b0bdf",
-                "description": "在战局中找到50级以上USEC PMC狗牌并上交",
-                "count": 20,
-                "items": [
-                    {
-                        "id": "59f32c3b86f77472a31742f0",
-                        "name": "USEC 狗牌",
-                        "normalizedName": "dogtag-usec",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "59f32c3b86f77472a31742f0-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "6662ea05f6259762c56f3189",
-                        "name": "USEC 狗牌",
-                        "normalizedName": "dogtag-usec-2",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "6662ea05f6259762c56f3189-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "6662e9f37fa79a6d83730fa0",
-                        "name": "USEC 狗牌",
-                        "normalizedName": "dogtag-usec-1",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "6662e9f37fa79a6d83730fa0-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "6764207f2fa5e32733055c4a",
-                        "name": "USEC 狗牌",
-                        "normalizedName": "dogtag-usec-4",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "6764207f2fa5e32733055c4a-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "6764202ae307804338014c1a",
-                        "name": "USEC 狗牌",
-                        "normalizedName": "dogtag-usec-3",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "6764202ae307804338014c1a-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "684180ee9b6d80d840042e8a",
-                        "name": "USEC 狗牌",
-                        "normalizedName": "dogtag-usec-6",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "684180ee9b6d80d840042e8a-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    },
-                    {
-                        "id": "68418091b5b0c9e4c60f0e7a",
-                        "name": "USEC 狗牌",
-                        "normalizedName": "dogtag-usec-5",
-                        "types": [
-                            "barter",
-                            "noFlea"
-                        ],
-                        "iconLink": "68418091b5b0c9e4c60f0e7a-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "69ce21e990144e437802b1e0",
-        "name": "新鲜到货",
-        "taskImageLink": "69ce21e990144e437802b1e0.webp",
-        "trader": "Ragman",
-        "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
-        "kappaRequired": false,
-        "mixedItemsTask": true,
-        "objectives": [
-            {
-                "id": "69ce21e990144e437802b1e2",
-                "description": "在战局中找到物品：黑色军团插板胸挂",
-                "count": 5,
-                "items": [
-                    {
-                        "id": "689479cb47e5acd1e10be986",
-                        "name": "Ferro Concepts FCPC V5 插板胸挂 (黑色军团)",
-                        "normalizedName": "ferro-concepts-fcpc-v5-plate-carrier-black-division",
-                        "types": [
-                            "noFlea",
-                            "rig",
-                            "wearable"
-                        ],
-                        "iconLink": "689479cb47e5acd1e10be986-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ferro_Concepts_FCPC_V5_Plate_Carrier_(Black_Division)"
-                    },
-                    {
-                        "id": "689479eb30cc5ba7be00f5ff",
-                        "name": "Spiritus Systems LV-119 插板胸挂 (黑色军团 V2)",
-                        "normalizedName": "spiritus-systems-lv-119-plate-carrier-black-division-v2",
-                        "types": [
-                            "noFlea",
-                            "rig",
-                            "wearable"
-                        ],
-                        "iconLink": "689479eb30cc5ba7be00f5ff-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spiritus_Systems_LV-119_Plate_Carrier_(Black_Division_V2)"
                     }
                 ]
             }

@@ -894,97 +894,6 @@
         ]
     },
     {
-        "id": "5c0e531286f7747fa54205c2",
-        "name": "SJ1 TGLabs战斗兴奋剂注射器",
-        "normalizedName": "sj1-tglabs-combat-stimulant-injector",
-        "types": [
-            "injectors",
-            "meds",
-            "provisions"
-        ],
-        "iconLink": "5c0e531286f7747fa54205c2-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ1_TGLabs_combat_stimulant_injector",
-        "tasks": [
-            {
-                "id": "625d7001c4874104f230c0c5",
-                "name": "试探 - 3",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 15,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
-        "id": "5c0e531d86f7747fa23f4d42",
-        "name": "SJ6 TGLabs战斗兴奋剂注射器",
-        "normalizedName": "sj6-tglabs-combat-stimulant-injector",
-        "types": [
-            "injectors",
-            "meds",
-            "provisions"
-        ],
-        "iconLink": "5c0e531d86f7747fa23f4d42-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ6_TGLabs_combat_stimulant_injector",
-        "tasks": [
-            {
-                "id": "625d7001c4874104f230c0c5",
-                "name": "试探 - 3",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 5,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
-        "id": "5fca13ca637ee0341a484f46",
-        "name": "SJ9 TGLabs战斗兴奋剂注射器",
-        "normalizedName": "sj9-tglabs-combat-stimulant-injector",
-        "types": [
-            "injectors",
-            "meds",
-            "provisions"
-        ],
-        "iconLink": "5fca13ca637ee0341a484f46-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ9_TGLabs_combat_stimulant_injector",
-        "tasks": [
-            {
-                "id": "625d7001c4874104f230c0c5",
-                "name": "试探 - 3",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
-        "id": "5c46fbd72e2216398b5a8c9c",
-        "name": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
-        "normalizedName": "svds-762x54r-sniper-rifle",
-        "types": [
-            "gun",
-            "wearable"
-        ],
-        "iconLink": "5c46fbd72e2216398b5a8c9c-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SVDS_7.62x54R_sniper_rifle",
-        "tasks": [
-            {
-                "id": "6261482fa4eb80027c4f2e11",
-                "name": "破镜重圆 - 装备",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 4,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
         "id": "5e997f0b86f7741ac73993e2",
         "name": "Sanitar 包",
         "normalizedName": "sanitars-bag",
@@ -1202,6 +1111,89 @@
         ]
     },
     {
+        "id": "69f9d60b5de6674f08060f2a",
+        "name": "Dunduk 软盘",
+        "normalizedName": "dunduk-floppy-disk",
+        "types": [],
+        "iconLink": "69f9d60b5de6674f08060f2a-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dunduk_floppy_disk",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "69398e94ca94fd2877039504",
+        "name": "Nut Sack 巴拉克拉瓦头套",
+        "normalizedName": "nut-sack-balaclava",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "69398e94ca94fd2877039504-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Nut_Sack_balaclava",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "69f9d319c906cd16da03b374",
+        "name": "SheefGG 存钱罐",
+        "normalizedName": "sheefgg-piggy-bank",
+        "types": [
+            "container"
+        ],
+        "iconLink": "69f9d319c906cd16da03b374-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SheefGG_piggy_bank",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "6937ecf8628ee476240c07cb",
+        "name": "Tigzresq 夹板",
+        "normalizedName": "tigzresq-splint",
+        "types": [
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "6937ecf8628ee476240c07cb-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tigzresq_splint",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
         "id": "5fd8d28367cb5e077335170f",
         "name": "Smoke巴拉克拉瓦头套",
         "normalizedName": "smoke-balaclava",
@@ -1210,6 +1202,27 @@
         ],
         "iconLink": "5fd8d28367cb5e077335170f-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Smoke_balaclava",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "6937f02dfd6488bb27024839",
+        "name": "Domontovich 毛帽",
+        "normalizedName": "domontovich-ushanka-hat",
+        "types": [
+            "wearable"
+        ],
+        "iconLink": "6937f02dfd6488bb27024839-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Domontovich_ushanka_hat",
         "tasks": [
             {
                 "id": "5c51aac186f77432ea65c552",
@@ -1372,110 +1385,6 @@
         ]
     },
     {
-        "id": "69398e94ca94fd2877039504",
-        "name": "Nut Sack 巴拉克拉瓦头套",
-        "normalizedName": "nut-sack-balaclava",
-        "types": [
-            "wearable"
-        ],
-        "iconLink": "69398e94ca94fd2877039504-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Nut_Sack_balaclava",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
-        "id": "6937ecf8628ee476240c07cb",
-        "name": "Tigzresq 夹板",
-        "normalizedName": "tigzresq-splint",
-        "types": [
-            "meds",
-            "provisions"
-        ],
-        "iconLink": "6937ecf8628ee476240c07cb-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tigzresq_splint",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
-        "id": "6937f02dfd6488bb27024839",
-        "name": "Domontovich 毛帽",
-        "normalizedName": "domontovich-ushanka-hat",
-        "types": [
-            "wearable"
-        ],
-        "iconLink": "6937f02dfd6488bb27024839-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Domontovich_ushanka_hat",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
-        "id": "69f9d60b5de6674f08060f2a",
-        "name": "Dunduk 软盘",
-        "normalizedName": "dunduk-floppy-disk",
-        "types": [],
-        "iconLink": "69f9d60b5de6674f08060f2a-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dunduk_floppy_disk",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
-        "id": "69f9d319c906cd16da03b374",
-        "name": "SheefGG 存钱罐",
-        "normalizedName": "sheefgg-piggy-bank",
-        "types": [
-            "container"
-        ],
-        "iconLink": "69f9d319c906cd16da03b374-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SheefGG_piggy_bank",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
         "id": "5fc64ea372b0dd78d51159dc",
         "name": "邪教徒之刃",
         "normalizedName": "cultist-knife",
@@ -1585,6 +1494,97 @@
                 "traderImageLink": "579dc571d53a0658a154fbec.webp",
                 "kappaRequired": false,
                 "count": 3,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5c0e531286f7747fa54205c2",
+        "name": "SJ1 TGLabs战斗兴奋剂注射器",
+        "normalizedName": "sj1-tglabs-combat-stimulant-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5c0e531286f7747fa54205c2-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ1_TGLabs_combat_stimulant_injector",
+        "tasks": [
+            {
+                "id": "625d7001c4874104f230c0c5",
+                "name": "试探 - 3",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 15,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5c0e531d86f7747fa23f4d42",
+        "name": "SJ6 TGLabs战斗兴奋剂注射器",
+        "normalizedName": "sj6-tglabs-combat-stimulant-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5c0e531d86f7747fa23f4d42-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ6_TGLabs_combat_stimulant_injector",
+        "tasks": [
+            {
+                "id": "625d7001c4874104f230c0c5",
+                "name": "试探 - 3",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 5,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5fca13ca637ee0341a484f46",
+        "name": "SJ9 TGLabs战斗兴奋剂注射器",
+        "normalizedName": "sj9-tglabs-combat-stimulant-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5fca13ca637ee0341a484f46-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ9_TGLabs_combat_stimulant_injector",
+        "tasks": [
+            {
+                "id": "625d7001c4874104f230c0c5",
+                "name": "试探 - 3",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5c46fbd72e2216398b5a8c9c",
+        "name": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+        "normalizedName": "svds-762x54r-sniper-rifle",
+        "types": [
+            "gun",
+            "wearable"
+        ],
+        "iconLink": "5c46fbd72e2216398b5a8c9c-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SVDS_7.62x54R_sniper_rifle",
+        "tasks": [
+            {
+                "id": "6261482fa4eb80027c4f2e11",
+                "name": "破镜重圆 - 装备",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 4,
                 "mixedItemsTask": false
             }
         ]

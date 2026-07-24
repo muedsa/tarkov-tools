@@ -1256,14 +1256,14 @@
         "hideoutStations": []
     },
     {
-        "id": "59f32bb586f774757e1e8442",
+        "id": "68fb41120760c7891606613c",
         "name": "BEAR 狗牌",
-        "normalizedName": "dogtag-bear",
+        "normalizedName": "dogtag-bear-16",
         "types": [
             "barter",
             "noFlea"
         ],
-        "iconLink": "59f32bb586f774757e1e8442-icon.webp",
+        "iconLink": "68fb41120760c7891606613c-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag",
         "tasks": [
             {
@@ -1283,15 +1283,6 @@
                 "kappaRequired": false,
                 "count": 20,
                 "mixedItemsTask": true
-            },
-            {
-                "id": "61e6e5e0f5b9633f6719ed95",
-                "name": "亡羊补牢 - 信任",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": false,
-                "count": 5,
-                "mixedItemsTask": false
             }
         ],
         "hideoutStations": []
@@ -1347,12 +1338,12 @@
                 "mixedItemsTask": false
             },
             {
-                "id": "625d70031ed3bb5bcc5bd9e5",
-                "name": "灯塔之匙",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "id": "60e71ce009d7c801eb0c0ec6",
+                "name": "特殊装备",
+                "trader": "Peacekeeper",
+                "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
                 "kappaRequired": false,
-                "count": 1,
+                "count": 5,
                 "mixedItemsTask": false
             },
             {
@@ -1365,12 +1356,12 @@
                 "mixedItemsTask": false
             },
             {
-                "id": "60e71ce009d7c801eb0c0ec6",
-                "name": "特殊装备",
-                "trader": "Peacekeeper",
-                "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
+                "id": "625d70031ed3bb5bcc5bd9e5",
+                "name": "灯塔之匙",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
                 "kappaRequired": false,
-                "count": 5,
+                "count": 1,
                 "mixedItemsTask": false
             }
         ],
@@ -1487,72 +1478,6 @@
                 "traderImageLink": "579dc571d53a0658a154fbec.webp",
                 "kappaRequired": true,
                 "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "59e366c186f7741778269d85",
-        "name": "有机玻璃片",
-        "normalizedName": "piece-of-plexiglass",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "59e366c186f7741778269d85-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Piece_of_plexiglass",
-        "tasks": [
-            {
-                "id": "625d70031ed3bb5bcc5bd9e5",
-                "name": "灯塔之匙",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 2,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "5734795124597738002c6176",
-        "name": "绝缘胶带",
-        "normalizedName": "insulating-tape",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "5734795124597738002c6176-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Insulating_tape",
-        "tasks": [
-            {
-                "id": "625d70031ed3bb5bcc5bd9e5",
-                "name": "灯塔之匙",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "5d0376a486f7747d8050965c",
-        "name": "军用电路板",
-        "normalizedName": "military-circuit-board",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "5d0376a486f7747d8050965c-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_circuit_board",
-        "tasks": [
-            {
-                "id": "625d70031ed3bb5bcc5bd9e5",
-                "name": "灯塔之匙",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 2,
                 "mixedItemsTask": false
             }
         ],
@@ -2085,6 +2010,50 @@
         "hideoutStations": []
     },
     {
+        "id": "69f9d547b98cc4120608692a",
+        "name": "Desmondpilak CD 专辑",
+        "normalizedName": "desmondpilak-cd",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "69f9d547b98cc4120608692a-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/DesmondPilak_CD",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "6937edb912d456a817083e82",
+        "name": "Mazoni 金色哑铃",
+        "normalizedName": "mazoni-golden-dumbbell",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "6937edb912d456a817083e82-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mazoni_golden_dumbbell",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
         "id": "60b0f7057897d47c5b04ab94",
         "name": "Loot Lord毛绒玩具",
         "normalizedName": "loot-lord-plushie",
@@ -2293,50 +2262,6 @@
         "hideoutStations": []
     },
     {
-        "id": "6937edb912d456a817083e82",
-        "name": "Mazoni 金色哑铃",
-        "normalizedName": "mazoni-golden-dumbbell",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "6937edb912d456a817083e82-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mazoni_golden_dumbbell",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "69f9d547b98cc4120608692a",
-        "name": "Desmondpilak CD 专辑",
-        "normalizedName": "desmondpilak-cd",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "69f9d547b98cc4120608692a-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/DesmondPilak_CD",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
         "id": "5d1b33a686f7742523398398",
         "name": "纯净水",
         "normalizedName": "canister-with-purified-water",
@@ -2360,14 +2285,14 @@
         "hideoutStations": []
     },
     {
-        "id": "59f32c3b86f77472a31742f0",
+        "id": "68fb4143a854bc7ae80fad3e",
         "name": "USEC 狗牌",
-        "normalizedName": "dogtag-usec",
+        "normalizedName": "dogtag-usec-15",
         "types": [
             "barter",
             "noFlea"
         ],
-        "iconLink": "59f32c3b86f77472a31742f0-icon.webp",
+        "iconLink": "68fb4143a854bc7ae80fad3e-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag",
         "tasks": [
             {
@@ -2378,15 +2303,6 @@
                 "kappaRequired": false,
                 "count": 20,
                 "mixedItemsTask": true
-            },
-            {
-                "id": "61e6e5e0f5b9633f6719ed95",
-                "name": "亡羊补牢 - 信任",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": false,
-                "count": 5,
-                "mixedItemsTask": false
             }
         ],
         "hideoutStations": []
@@ -2408,6 +2324,118 @@
                 "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
                 "kappaRequired": false,
                 "count": 4,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "59f32bb586f774757e1e8442",
+        "name": "BEAR 狗牌",
+        "normalizedName": "dogtag-bear",
+        "types": [
+            "barter",
+            "noFlea"
+        ],
+        "iconLink": "59f32bb586f774757e1e8442-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag",
+        "tasks": [
+            {
+                "id": "61e6e5e0f5b9633f6719ed95",
+                "name": "亡羊补牢 - 信任",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": false,
+                "count": 5,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "59f32c3b86f77472a31742f0",
+        "name": "USEC 狗牌",
+        "normalizedName": "dogtag-usec",
+        "types": [
+            "barter",
+            "noFlea"
+        ],
+        "iconLink": "59f32c3b86f77472a31742f0-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag",
+        "tasks": [
+            {
+                "id": "61e6e5e0f5b9633f6719ed95",
+                "name": "亡羊补牢 - 信任",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": false,
+                "count": 5,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "59e366c186f7741778269d85",
+        "name": "有机玻璃片",
+        "normalizedName": "piece-of-plexiglass",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "59e366c186f7741778269d85-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Piece_of_plexiglass",
+        "tasks": [
+            {
+                "id": "625d70031ed3bb5bcc5bd9e5",
+                "name": "灯塔之匙",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 2,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "5734795124597738002c6176",
+        "name": "绝缘胶带",
+        "normalizedName": "insulating-tape",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5734795124597738002c6176-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Insulating_tape",
+        "tasks": [
+            {
+                "id": "625d70031ed3bb5bcc5bd9e5",
+                "name": "灯塔之匙",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "5d0376a486f7747d8050965c",
+        "name": "军用电路板",
+        "normalizedName": "military-circuit-board",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5d0376a486f7747d8050965c-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Military_circuit_board",
+        "tasks": [
+            {
+                "id": "625d70031ed3bb5bcc5bd9e5",
+                "name": "灯塔之匙",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 2,
                 "mixedItemsTask": false
             }
         ],
@@ -2606,72 +2634,6 @@
                 "traderImageLink": "579dc571d53a0658a154fbec.webp",
                 "kappaRequired": false,
                 "count": 1,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "699f09de81a6c812900a77b7",
-        "name": "AMG-10 液压油",
-        "normalizedName": "amg-10-hydraulic-fluid",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "699f09de81a6c812900a77b7-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AMG-10_hydraulic_fluid",
-        "tasks": [
-            {
-                "id": "69ce1de03e15cd80bd06f6c9",
-                "name": "油料交换",
-                "trader": "Prapor",
-                "traderImageLink": "54cb50c76803fa8b248b4571.webp",
-                "kappaRequired": false,
-                "count": 5,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "69bb43df99f3fda8f1072483",
-        "name": "Nooby Shield 碘化钾片",
-        "normalizedName": "nooby-shield-potassium-iodide-tablets",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "69bb43df99f3fda8f1072483-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Nooby_Shield_potassium_iodide_tablets",
-        "tasks": [
-            {
-                "id": "69ce204c8702b378f9091e4b",
-                "name": "战争从未改变",
-                "trader": "Therapist",
-                "traderImageLink": "54cb57776803fa99248b456e.webp",
-                "kappaRequired": false,
-                "count": 10,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "69bb435ff609db77390b0e25",
-        "name": "Aceso Xpress 半自动生化分析仪",
-        "normalizedName": "aceso-xpress-semi-automatic-biochemical-analyzer",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "69bb435ff609db77390b0e25-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aceso_Xpress_semi-automatic_biochemical_analyzer",
-        "tasks": [
-            {
-                "id": "69ce213a298a6529b30d7134",
-                "name": "生化分析",
-                "trader": "Therapist",
-                "traderImageLink": "54cb57776803fa99248b456e.webp",
-                "kappaRequired": false,
-                "count": 3,
                 "mixedItemsTask": false
             }
         ],
