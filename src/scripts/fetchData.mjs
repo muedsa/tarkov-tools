@@ -475,14 +475,24 @@ function transformObjective(obj, items, traders, maps, stationLookup, taskLookup
         bodyParts: obj.bodyParts || [],
         timeFromHour: obj.timeFromHour ?? 0,
         timeUntilHour: obj.timeUntilHour ?? 0,
-        usingWeapon: (obj.usingWeapon || []).map((id) => resolveItem(id, items)),
-        usingWeaponMods: [
-          (obj.usingWeaponMods || []).map((id) => resolveItem(id, items)),
-        ],
-        wearing: [
-          (obj.wearing || []).map((id) => resolveItem(id, items)),
-        ],
-        notWearing: (obj.notWearing || []).map((id) => resolveItem(id, items)),
+        usingWeapon: (obj.usingWeapon || []).map((ref) =>
+          resolveItem(typeof ref === "string" ? ref : ref.id, items),
+        ),
+        // usingWeaponMods is already a 2D array from the API: [["id"]]
+        usingWeaponMods: (obj.usingWeaponMods || []).map((innerList) =>
+          (innerList || []).map((ref) =>
+            resolveItem(typeof ref === "string" ? ref : ref.id, items),
+          ),
+        ),
+        // wearing is already a 2D array from the API: [[{id, name}]]
+        wearing: (obj.wearing || []).map((innerList) =>
+          (innerList || []).map((ref) =>
+            resolveItem(typeof ref === "string" ? ref : ref.id, items),
+          ),
+        ),
+        notWearing: (obj.notWearing || []).map((ref) =>
+          resolveItem(typeof ref === "string" ? ref : ref.id, items),
+        ),
         distance: obj.distance || { compareMethod: ">=", value: 0 },
         playerHealthEffect: obj.playerHealthEffect || null,
         enemyHealthEffect: obj.enemyHealthEffect || null,
