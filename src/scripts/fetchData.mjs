@@ -204,6 +204,10 @@ async function fetchAllData() {
   const hideoutData = hideoutResp.data;
   const tasksData = tasksResp.data;
 
+  // Extract sub-sections from tasks endpoint
+  const achievementsData = tasksResp.data.achievements || {};
+  const questItemsData = tasksResp.data.questItems || {};
+
   // items endpoint returns {items, itemCategories, ...} — extract items dict
   const itemsData = itemsResp.data.items || itemsResp.data;
 
@@ -218,6 +222,8 @@ async function fetchAllData() {
     tradersData: tradersResp.data,
     mapsData: mapsDataActual,
     globalTranslations,
+    achievementsData,
+    questItemsData,
   };
 }
 
@@ -225,7 +231,7 @@ async function fetchAllData() {
 // Lookup builders
 // ---------------------------------------------------------------------------
 
-function buildLookups(itemsData, tradersData, mapsData, tasksData) {
+function buildLookups(itemsData, tradersData, mapsData, tasksData, achievementsData) {
   const items = {};
   for (const [id, item] of Object.entries(itemsData)) {
     items[id] = {
@@ -260,6 +266,20 @@ function buildLookups(itemsData, tradersData, mapsData, tasksData) {
     };
   }
 
+  const achievements = {};
+  for (const [id, ach] of Object.entries(achievementsData || {})) {
+    achievements[id] = {
+      id: ach.id,
+      name: ach.name || `${ach.id} name`,
+      description: ach.description || "",
+      imageLink: ach.imageLink || "",
+      side: ach.side || "",
+      normalizedSide: ach.normalizedSide || "",
+      rarity: ach.rarity || "",
+      normalizedRarity: ach.normalizedRarity || "",
+    };
+  }
+
   // Build task lookup for resolving taskRequirements / taskUnlock
   const taskLookup = {};
   if (tasksData && tasksData.tasks) {
@@ -274,7 +294,7 @@ function buildLookups(itemsData, tradersData, mapsData, tasksData) {
     }
   }
 
-  return { items, traders, maps, taskLookup };
+  return { items, traders, maps, taskLookup, achievements };
 }
 
 function buildStationLookup(hideoutData) {
@@ -530,7 +550,7 @@ function transformObjective(obj, items, traders, maps, stationLookup, taskLookup
         containsAll: (obj.containsAll || []).map((id) => resolveItem(id, items)),
         containsCategory: (obj.containsCategory || []).map((id) => ({
           id,
-          name: `${id} name`,
+          name: translations[`${id} Name`] || `${id} name`,
           normalizedName: id,
         })),
         attributes: obj.buildAttributes
@@ -615,7 +635,7 @@ function transformObjective(obj, items, traders, maps, stationLookup, taskLookup
 // Rewards transformation
 // ---------------------------------------------------------------------------
 
-function transformRewards(rewards, items, traders, stationLookup) {
+function transformRewards(rewards, items, traders, stationLookup, achievements, translations) {
   if (!rewards) {
     return {
       traderStanding: [],
@@ -674,27 +694,18 @@ function transformRewards(rewards, items, traders, stationLookup) {
   }));
 
   const achievement = (rewards.achievement || []).map((a) => {
-    if (typeof a === "string") {
-      return {
-        id: a,
-        name: `${a} Name`,
-        description: "",
-        imageLink: "",
-        side: "",
-        normalizedSide: "",
-        rarity: "",
-        normalizedRarity: "",
-      };
-    }
+    const achId = typeof a === "string" ? a : a.id;
+    if (achievements[achId]) return achievements[achId];
+    // Fallback
     return {
-      id: a.id || "",
-      name: a.name || "",
-      description: a.description || "",
-      imageLink: a.imageLink || "",
-      side: a.side || "",
-      normalizedSide: a.normalizedSide || "",
-      rarity: a.rarity || "",
-      normalizedRarity: a.normalizedRarity || "",
+      id: achId || "",
+      name: `${achId} name`,
+      description: "",
+      imageLink: "",
+      side: "",
+      normalizedSide: "",
+      rarity: "",
+      normalizedRarity: "",
     };
   });
 
@@ -702,7 +713,7 @@ function transformRewards(rewards, items, traders, stationLookup) {
     if (typeof c === "string") {
       return {
         id: c,
-        name: `${c} Name`,
+        name: translations[`${c} Name`] || `${c} Name`,
         customizationType: "",
         customizationTypeName: "",
         imageLink: "",
@@ -710,7 +721,7 @@ function transformRewards(rewards, items, traders, stationLookup) {
     }
     return {
       id: c.id || "",
-      name: c.name || "",
+      name: translations[c.name] || c.name || "",
       customizationType: c.customizationType || "",
       customizationTypeName: c.customizationTypeName || "",
       imageLink: c.imageLink || "",
@@ -821,7 +832,7 @@ function transformHideoutStations(
 // Tasks transformation
 // ---------------------------------------------------------------------------
 
-function transformTasks(tasksData, items, traders, maps, stationLookup, taskLookup, translations) {
+function transformTasks(tasksData, items, traders, maps, stationLookup, taskLookup, translations, achievements) {
   const tasksDict = tasksData.tasks || {};
 
   // Build a local task lookup that includes the trader resolved
@@ -866,9 +877,9 @@ function transformTasks(tasksData, items, traders, maps, stationLookup, taskLook
     failConditions: (task.failConditions || []).map((obj) =>
       transformObjective(obj, items, traders, maps, stationLookup, resolvedTaskLookup, translations),
     ),
-    startRewards: transformRewards(task.startRewards, items, traders, stationLookup),
-    finishRewards: transformRewards(task.finishRewards, items, traders, stationLookup),
-    failureOutcome: transformRewards(task.failureOutcome, items, traders, stationLookup),
+    startRewards: transformRewards(task.startRewards, items, traders, stationLookup, achievements, translations),
+    finishRewards: transformRewards(task.finishRewards, items, traders, stationLookup, achievements, translations),
+    failureOutcome: transformRewards(task.failureOutcome, items, traders, stationLookup, achievements, translations),
     factionName: task.factionName || "",
     kappaRequired: task.kappaRequired ?? false,
     lightkeeperRequired: task.lightkeeperRequired ?? false,
@@ -972,18 +983,19 @@ const handleTasksData = (tasks) => {
 
 async function main() {
   console.log(`Fetching data from JSON API (mode: ${gameMode}, lang: ${LANG})...`);
-  const { hideoutData, tasksData, craftsData, itemsData, tradersData, mapsData, globalTranslations } =
+  const { hideoutData, tasksData, craftsData, itemsData, tradersData, mapsData, globalTranslations, achievementsData } =
     await fetchAllData();
 
   console.log(`  → ${Object.keys(itemsData).length} items fetched.`);
   handleItemsData(itemsData);
 
   console.log("Building lookups...");
-  const { items, traders, maps, taskLookup } = buildLookups(
+  const { items, traders, maps, taskLookup, achievements } = buildLookups(
     itemsData,
     tradersData,
     mapsData,
     tasksData,
+    achievementsData,
   );
   const stationLookup = buildStationLookup(hideoutData);
 
@@ -1009,6 +1021,7 @@ async function main() {
     stationLookup,
     taskLookup,
     globalTranslations,
+    achievements,
   );
   handleTasksData(tasks);
   console.log(`  → ${tasks.length} tasks written.`);

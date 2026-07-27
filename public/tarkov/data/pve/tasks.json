@@ -3215,7 +3215,7 @@
                     "containsCategory": [
                         {
                             "id": "55818b164bdc2ddc698b456c",
-                            "name": "55818b164bdc2ddc698b456c name",
+                            "name": "组合式战术设备",
                             "normalizedName": "55818b164bdc2ddc698b456c"
                         }
                     ],
@@ -4688,7 +4688,7 @@
                 "customization": [
                     {
                         "id": "67585d2cd7a2703986067e99",
-                        "name": "67585d2cd7a2703986067e99 Name",
+                        "name": "彩色靶纸",
                         "customizationType": "ShootingRangeMark",
                         "customizationTypeName": "Hideout/Customization/ShootingRangeMark/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-67585d2cd7a2703986067e99.webp"
@@ -9620,7 +9620,7 @@
                 "customization": [
                     {
                         "id": "67585bf5428877c04c038ee3",
-                        "name": "67585bf5428877c04c038ee3 Name",
+                        "name": "熊靶纸",
                         "customizationType": "ShootingRangeMark",
                         "customizationTypeName": "Hideout/Customization/ShootingRangeMark/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-67585bf5428877c04c038ee3.webp"
@@ -14996,7 +14996,7 @@
                 "customization": [
                     {
                         "id": "67585d6ab032beb9b5097e96",
-                        "name": "67585d6ab032beb9b5097e96 Name",
+                        "name": "鸭子靶纸",
                         "customizationType": "ShootingRangeMark",
                         "customizationTypeName": "Hideout/Customization/ShootingRangeMark/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-67585d6ab032beb9b5097e96.webp"
@@ -18396,12 +18396,12 @@
                     "containsCategory": [
                         {
                             "id": "550aa4cd4bdc2dd8348b456c",
-                            "name": "550aa4cd4bdc2dd8348b456c name",
+                            "name": "消音器",
                             "normalizedName": "550aa4cd4bdc2dd8348b456c"
                         },
                         {
                             "id": "55818b164bdc2ddc698b456c",
-                            "name": "55818b164bdc2ddc698b456c name",
+                            "name": "组合式战术设备",
                             "normalizedName": "55818b164bdc2ddc698b456c"
                         }
                     ],
@@ -21597,7 +21597,7 @@
                     "containsCategory": [
                         {
                             "id": "550aa4cd4bdc2dd8348b456c",
-                            "name": "550aa4cd4bdc2dd8348b456c name",
+                            "name": "消音器",
                             "normalizedName": "550aa4cd4bdc2dd8348b456c"
                         }
                     ],
@@ -24744,12 +24744,12 @@
                     "containsCategory": [
                         {
                             "id": "55818b164bdc2ddc698b456c",
-                            "name": "55818b164bdc2ddc698b456c name",
+                            "name": "组合式战术设备",
                             "normalizedName": "55818b164bdc2ddc698b456c"
                         },
                         {
                             "id": "55818af64bdc2d5b648b4570",
-                            "name": "55818af64bdc2d5b648b4570 name",
+                            "name": "前握把",
                             "normalizedName": "55818af64bdc2d5b648b4570"
                         }
                     ],
@@ -47724,7 +47724,7 @@
                     "containsCategory": [
                         {
                             "id": "550aa4cd4bdc2dd8348b456c",
-                            "name": "550aa4cd4bdc2dd8348b456c name",
+                            "name": "消音器",
                             "normalizedName": "550aa4cd4bdc2dd8348b456c"
                         }
                     ],
@@ -55918,7 +55918,7 @@
                 "customization": [
                     {
                         "id": "675467d8b784110b2702fe11",
-                        "name": "675467d8b784110b2702fe11 Name",
+                        "name": "红漆",
                         "customizationType": "Wall",
                         "customizationTypeName": "Hideout/Customization/Wall/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-675467d8b784110b2702fe11.webp"
@@ -57457,7 +57457,7 @@
                     "containsCategory": [
                         {
                             "id": "550aa4cd4bdc2dd8348b456c",
-                            "name": "550aa4cd4bdc2dd8348b456c name",
+                            "name": "消音器",
                             "normalizedName": "550aa4cd4bdc2dd8348b456c"
                         }
                     ],
@@ -67056,7 +67056,7 @@
                     "containsCategory": [
                         {
                             "id": "550aa4cd4bdc2dd8348b456c",
-                            "name": "550aa4cd4bdc2dd8348b456c name",
+                            "name": "消音器",
                             "normalizedName": "550aa4cd4bdc2dd8348b456c"
                         }
                     ],
@@ -71428,7 +71428,7 @@
                 "customization": [
                     {
                         "id": "67585cf55ec257bf740a446f",
-                        "name": "67585cf55ec257bf740a446f Name",
+                        "name": "野猪靶纸",
                         "customizationType": "ShootingRangeMark",
                         "customizationTypeName": "Hideout/Customization/ShootingRangeMark/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-67585cf55ec257bf740a446f.webp"
@@ -76645,7 +76645,7 @@
                 "customization": [
                     {
                         "id": "675468d8c6e063d76309c60f",
-                        "name": "675468d8c6e063d76309c60f Name",
+                        "name": "脏天花板",
                         "customizationType": "Ceiling",
                         "customizationTypeName": "Hideout/Customization/Ceiling/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-675468d8c6e063d76309c60f.webp"
@@ -77363,7 +77363,7 @@
                 "customization": [
                     {
                         "id": "675466d57dadca6836092b26",
-                        "name": "675466d57dadca6836092b26 Name",
+                        "name": "英式人字纹",
                         "customizationType": "Floor",
                         "customizationTypeName": "Hideout/Customization/Floor/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-675466d57dadca6836092b26.webp"
@@ -77475,7 +77475,7 @@
                     "containsCategory": [
                         {
                             "id": "55818b164bdc2ddc698b456c",
-                            "name": "55818b164bdc2ddc698b456c name",
+                            "name": "组合式战术设备",
                             "normalizedName": "55818b164bdc2ddc698b456c"
                         }
                     ],
@@ -82569,7 +82569,7 @@
                     "containsCategory": [
                         {
                             "id": "550aa4cd4bdc2dd8348b456c",
-                            "name": "550aa4cd4bdc2dd8348b456c name",
+                            "name": "消音器",
                             "normalizedName": "550aa4cd4bdc2dd8348b456c"
                         }
                     ],
@@ -91995,7 +91995,7 @@
                     "containsCategory": [
                         {
                             "id": "550aa4cd4bdc2dd8348b456c",
-                            "name": "550aa4cd4bdc2dd8348b456c name",
+                            "name": "消音器",
                             "normalizedName": "550aa4cd4bdc2dd8348b456c"
                         }
                     ],
@@ -103222,7 +103222,7 @@
                     "containsCategory": [
                         {
                             "id": "550aa4cd4bdc2dd8348b456c",
-                            "name": "550aa4cd4bdc2dd8348b456c name",
+                            "name": "消音器",
                             "normalizedName": "550aa4cd4bdc2dd8348b456c"
                         }
                     ],
@@ -106765,7 +106765,7 @@
                 "customization": [
                     {
                         "id": "675468937dadca6836092b2a",
-                        "name": "675468937dadca6836092b2a Name",
+                        "name": "白色天花板",
                         "customizationType": "Ceiling",
                         "customizationTypeName": "Hideout/Customization/Ceiling/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-675468937dadca6836092b2a.webp"
@@ -118660,7 +118660,7 @@
                     "containsCategory": [
                         {
                             "id": "55818b164bdc2ddc698b456c",
-                            "name": "55818b164bdc2ddc698b456c name",
+                            "name": "组合式战术设备",
                             "normalizedName": "55818b164bdc2ddc698b456c"
                         }
                     ],
@@ -123634,7 +123634,7 @@
                 "customization": [
                     {
                         "id": "675467aa81067119a10938cb",
-                        "name": "675467aa81067119a10938cb Name",
+                        "name": "砖墙",
                         "customizationType": "Wall",
                         "customizationTypeName": "Hideout/Customization/Wall/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-675467aa81067119a10938cb.webp"
@@ -129838,7 +129838,7 @@
                 "customization": [
                     {
                         "id": "6754666c76e1f2b24c0cc956",
-                        "name": "6754666c76e1f2b24c0cc956 Name",
+                        "name": "层压地板",
                         "customizationType": "Floor",
                         "customizationTypeName": "Hideout/Customization/Floor/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-6754666c76e1f2b24c0cc956.webp"
@@ -131305,7 +131305,7 @@
                     "containsCategory": [
                         {
                             "id": "550aa4cd4bdc2dd8348b456c",
-                            "name": "550aa4cd4bdc2dd8348b456c name",
+                            "name": "消音器",
                             "normalizedName": "550aa4cd4bdc2dd8348b456c"
                         }
                     ],
@@ -135599,7 +135599,7 @@
                     "containsCategory": [
                         {
                             "id": "55818b164bdc2ddc698b456c",
-                            "name": "55818b164bdc2ddc698b456c name",
+                            "name": "组合式战术设备",
                             "normalizedName": "55818b164bdc2ddc698b456c"
                         }
                     ],
@@ -136992,7 +136992,7 @@
                     "containsCategory": [
                         {
                             "id": "55818b164bdc2ddc698b456c",
-                            "name": "55818b164bdc2ddc698b456c name",
+                            "name": "组合式战术设备",
                             "normalizedName": "55818b164bdc2ddc698b456c"
                         }
                     ],
@@ -137188,13 +137188,13 @@
                 "achievement": [
                     {
                         "id": "664f23e44702fd5db50ee732",
-                        "name": "664f23e44702fd5db50ee732 Name",
-                        "description": "",
-                        "imageLink": "",
-                        "side": "",
-                        "normalizedSide": "",
-                        "rarity": "",
-                        "normalizedRarity": ""
+                        "name": "集大成者",
+                        "description": "完成枪匠任务线",
+                        "imageLink": "https://assets.tarkov.dev/achievement-664f23e44702fd5db50ee732-icon.webp",
+                        "side": "所有",
+                        "normalizedSide": "all",
+                        "rarity": "罕见",
+                        "normalizedRarity": "rare"
                     }
                 ],
                 "customization": []
@@ -146237,13 +146237,13 @@
                 "achievement": [
                     {
                         "id": "664f1f8768508d74604bf556",
-                        "name": "664f1f8768508d74604bf556 Name",
-                        "description": "",
-                        "imageLink": "",
-                        "side": "",
-                        "normalizedSide": "",
-                        "rarity": "",
-                        "normalizedRarity": ""
+                        "name": "Kappa之路",
+                        "description": "获得Kappa安全箱",
+                        "imageLink": "https://assets.tarkov.dev/achievement-664f1f8768508d74604bf556-icon.webp",
+                        "side": "所有",
+                        "normalizedSide": "all",
+                        "rarity": "传奇",
+                        "normalizedRarity": "legendary"
                     }
                 ],
                 "customization": []
@@ -150073,7 +150073,7 @@
                 "customization": [
                     {
                         "id": "67585d161840a37ff10ebdd1",
-                        "name": "67585d161840a37ff10ebdd1 Name",
+                        "name": "瓶子靶纸",
                         "customizationType": "ShootingRangeMark",
                         "customizationTypeName": "Hideout/Customization/ShootingRangeMark/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-67585d161840a37ff10ebdd1.webp"
@@ -303056,13 +303056,13 @@
                 "achievement": [
                     {
                         "id": "675709bef4e2a2ce0f058f56",
-                        "name": "675709bef4e2a2ce0f058f56 Name",
-                        "description": "",
-                        "imageLink": "",
-                        "side": "",
-                        "normalizedSide": "",
-                        "rarity": "",
-                        "normalizedRarity": ""
+                        "name": "美“轮”美奂",
+                        "description": "解决BTR司机的问题",
+                        "imageLink": "https://assets.tarkov.dev/achievement-675709bef4e2a2ce0f058f56-icon.webp",
+                        "side": "所有",
+                        "normalizedSide": "all",
+                        "rarity": "罕见",
+                        "normalizedRarity": "rare"
                     }
                 ],
                 "customization": []
@@ -303690,13 +303690,13 @@
                 "achievement": [
                     {
                         "id": "675709bef4e2a2ce0f058f56",
-                        "name": "675709bef4e2a2ce0f058f56 Name",
-                        "description": "",
-                        "imageLink": "",
-                        "side": "",
-                        "normalizedSide": "",
-                        "rarity": "",
-                        "normalizedRarity": ""
+                        "name": "美“轮”美奂",
+                        "description": "解决BTR司机的问题",
+                        "imageLink": "https://assets.tarkov.dev/achievement-675709bef4e2a2ce0f058f56-icon.webp",
+                        "side": "所有",
+                        "normalizedSide": "all",
+                        "rarity": "罕见",
+                        "normalizedRarity": "rare"
                     }
                 ],
                 "customization": []
@@ -351353,13 +351353,13 @@
                 "achievement": [
                     {
                         "id": "675709bef4e2a2ce0f058f56",
-                        "name": "675709bef4e2a2ce0f058f56 Name",
-                        "description": "",
-                        "imageLink": "",
-                        "side": "",
-                        "normalizedSide": "",
-                        "rarity": "",
-                        "normalizedRarity": ""
+                        "name": "美“轮”美奂",
+                        "description": "解决BTR司机的问题",
+                        "imageLink": "https://assets.tarkov.dev/achievement-675709bef4e2a2ce0f058f56-icon.webp",
+                        "side": "所有",
+                        "normalizedSide": "all",
+                        "rarity": "罕见",
+                        "normalizedRarity": "rare"
                     }
                 ],
                 "customization": []
