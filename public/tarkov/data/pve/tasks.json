@@ -14917,26 +14917,6 @@
                         "count": 1,
                         "quantity": 1,
                         "attributes": []
-                    },
-                    {
-                        "item": {
-                            "id": "544fb3f34bdc2d03748b456a",
-                            "name": "吗啡注射器",
-                            "normalizedName": "morphine-injector",
-                            "shortName": "吗啡",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "injectors",
-                                "meds",
-                                "provisions"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/544fb3f34bdc2d03748b456a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Morphine_injector"
-                        },
-                        "count": 1,
-                        "quantity": 1,
-                        "attributes": []
                     }
                 ],
                 "offerUnlock": [
@@ -21798,29 +21778,6 @@
                 "offerUnlock": [
                     {
                         "id": "63a19b36fcae11642e50f9b4",
-                        "trader": {
-                            "id": "6617beeaa9cfa777ca915b7c",
-                            "name": "竞技场裁判",
-                            "normalizedName": "ref",
-                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
-                        },
-                        "level": 1,
-                        "item": {
-                            "id": "5a8ae65f86f774377a23ed55",
-                            "name": "PP-19-01 勇士 9x19 冲锋枪 Zenit",
-                            "normalizedName": "pp-19-01-vityaz-9x19-submachine-gun-zenit",
-                            "shortName": "PP-19-01 Zenit",
-                            "width": 4,
-                            "height": 2,
-                            "types": [
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5a8ae65f86f774377a23ed55-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/PP-19-01_Vityaz_9x19_submachine_gun"
-                        }
-                    },
-                    {
-                        "id": "66c1beb0fa6e5a0c120f0e461",
                         "trader": {
                             "id": "6617beeaa9cfa777ca915b7c",
                             "name": "竞技场裁判",
@@ -51179,37 +51136,6 @@
                                 "attributes": []
                             }
                         ]
-                    },
-                    {
-                        "id": "",
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
-                        "level": 3,
-                        "rewardItems": [
-                            {
-                                "item": {
-                                    "id": "6768c25aa7b238f14a08d3f6",
-                                    "name": "7.62x51毫米 M80A1",
-                                    "normalizedName": "762x51mm-m80a1",
-                                    "shortName": "M80A1",
-                                    "width": 1,
-                                    "height": 1,
-                                    "types": [
-                                        "ammo",
-                                        "noFlea"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/6768c25aa7b238f14a08d3f6-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80A1"
-                                },
-                                "count": 40,
-                                "quantity": 40,
-                                "attributes": []
-                            }
-                        ]
                     }
                 ],
                 "achievement": [],
@@ -64537,29 +64463,6 @@
                             ],
                             "iconLink": "https://assets.tarkov.dev/66bdc28a0b603c26902b2011-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/DevTac_Ronin_ballistic_helmet"
-                        }
-                    },
-                    {
-                        "id": "66c1beadfa6e5a0c120f0c481",
-                        "trader": {
-                            "id": "6617beeaa9cfa777ca915b7c",
-                            "name": "竞技场裁判",
-                            "normalizedName": "ref",
-                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
-                        },
-                        "level": 2,
-                        "item": {
-                            "id": "618ab04934aa2e47480fba2b",
-                            "name": "AK-104 7.62x39 突击步枪 RPKT mod.1",
-                            "normalizedName": "kalashnikov-ak-104-762x39-assault-rifle-rpkt-mod1",
-                            "shortName": "AK-104 RPKT mod.1",
-                            "width": 4,
-                            "height": 2,
-                            "types": [
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/618ab04934aa2e47480fba2b-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AK-104_7.62x39_assault_rifle"
                         }
                     }
                 ],
@@ -92204,30 +92107,6 @@
                             "iconLink": "https://assets.tarkov.dev/5dd800eae49222636663133b-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Colt_M4A1_5.56x45_assault_rifle"
                         }
-                    },
-                    {
-                        "id": "66c46c37f7ca8a539f08613a1",
-                        "trader": {
-                            "id": "6617beeaa9cfa777ca915b7c",
-                            "name": "竞技场裁判",
-                            "normalizedName": "ref",
-                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
-                        },
-                        "level": 2,
-                        "item": {
-                            "id": "5dd800eae49222636663133b",
-                            "name": "柯尔特 M4A1 5.56x45 卡宾枪 SAI",
-                            "normalizedName": "colt-m4a1-556x45-assault-rifle-sai",
-                            "shortName": "M4A1 SAI",
-                            "width": 4,
-                            "height": 2,
-                            "types": [
-                                "noFlea",
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5dd800eae49222636663133b-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Colt_M4A1_5.56x45_assault_rifle"
-                        }
                     }
                 ],
                 "skillLevelReward": [],
@@ -102311,29 +102190,6 @@
                             ],
                             "iconLink": "https://assets.tarkov.dev/656f611f94b480b8a500c0db-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Granit_4_ballistic_plate_(Front)"
-                        }
-                    },
-                    {
-                        "id": "66c1beaffa6e5a0c120f0dff1",
-                        "trader": {
-                            "id": "6617beeaa9cfa777ca915b7c",
-                            "name": "竞技场裁判",
-                            "normalizedName": "ref",
-                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
-                        },
-                        "level": 3,
-                        "item": {
-                            "id": "619e61e70459e93c12392ba7",
-                            "name": "FN SCAR-L 5.56x45突击步枪 （FDE） Contract Wars",
-                            "normalizedName": "fn-scar-l-556x45-assault-rifle-fde-contract-wars",
-                            "shortName": "Mk 16 Contract Wars",
-                            "width": 5,
-                            "height": 2,
-                            "types": [
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/619e61e70459e93c12392ba7-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/FN_SCAR-L_5.56x45_assault_rifle"
                         }
                     }
                 ],
@@ -112430,30 +112286,6 @@
                 "offerUnlock": [
                     {
                         "id": "655b8bce065b076eb02c4b4d",
-                        "trader": {
-                            "id": "6617beeaa9cfa777ca915b7c",
-                            "name": "竞技场裁判",
-                            "normalizedName": "ref",
-                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
-                        },
-                        "level": 4,
-                        "item": {
-                            "id": "65766582234b9f6e050a42c1",
-                            "name": "IOTV Gen4 防弹衣（高机动型，复合迷彩） 默认",
-                            "normalizedName": "iotv-gen4-body-armor-high-mobility-kit-multicam-default",
-                            "shortName": "Gen4高机动型 默认",
-                            "width": 3,
-                            "height": 4,
-                            "types": [
-                                "noFlea",
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/65766582234b9f6e050a42c1-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/IOTV_Gen4_body_armor_(High_Mobility_Kit,_MultiCam)"
-                        }
-                    },
-                    {
-                        "id": "66c46c36f7ca8a539f08600d5",
                         "trader": {
                             "id": "6617beeaa9cfa777ca915b7c",
                             "name": "竞技场裁判",
@@ -136177,37 +136009,6 @@
                 "skillLevelReward": [],
                 "traderUnlock": [],
                 "craftUnlock": [
-                    {
-                        "id": "",
-                        "station": {
-                            "id": "5d484fda654e7600681d9315",
-                            "name": "工作台",
-                            "normalizedName": "workbench",
-                            "imageLink": "https://assets.tarkov.dev/station-workbench.png"
-                        },
-                        "level": 3,
-                        "rewardItems": [
-                            {
-                                "item": {
-                                    "id": "5a1eaa87fcdbcb001865f75e",
-                                    "name": "Trijicon REAP-IR热成像步枪瞄准镜",
-                                    "normalizedName": "trijicon-reap-ir-thermal-scope",
-                                    "shortName": "REAP-IR",
-                                    "width": 2,
-                                    "height": 1,
-                                    "types": [
-                                        "mods",
-                                        "noFlea"
-                                    ],
-                                    "iconLink": "https://assets.tarkov.dev/5a1eaa87fcdbcb001865f75e-icon.webp",
-                                    "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Trijicon_REAP-IR_thermal_scope"
-                                },
-                                "count": 1,
-                                "quantity": 1,
-                                "attributes": []
-                            }
-                        ]
-                    },
                     {
                         "id": "",
                         "station": {
@@ -304212,25 +304013,6 @@
                             ],
                             "iconLink": "https://assets.tarkov.dev/6761a6ccd9bbb27ad703c48a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Old_house_room_key"
-                        },
-                        "count": 1,
-                        "quantity": 1,
-                        "attributes": []
-                    },
-                    {
-                        "item": {
-                            "id": "6939948dc2ceb9acd7082eb2",
-                            "name": "旧屋厕所钥匙",
-                            "normalizedName": "old-house-toilet-key",
-                            "shortName": "技术站厕所",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "keys",
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/6939948dc2ceb9acd7082eb2-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Old_house_toilet_key"
                         },
                         "count": 1,
                         "quantity": 1,
