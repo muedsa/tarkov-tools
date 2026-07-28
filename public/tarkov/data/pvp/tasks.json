@@ -15871,7 +15871,18 @@
                         }
                     ],
                     "optional": false,
-                    "questItem": null,
+                    "questItem": {
+                        "id": "591092ef86f7747bb8703422",
+                        "name": "0022号保险文件夹",
+                        "normalizedName": "591092ef86f7747bb8703422",
+                        "shortName": "22",
+                        "description": "用于保护重要文件的特制文件夹，几乎不可能被强行开启或破坏。上面印有数字 0022，以及一个奇怪的标志。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
                     "count": 1,
                     "possibleLocations": [],
                     "zones": [
@@ -20428,7 +20439,18 @@
                         }
                     ],
                     "optional": false,
-                    "questItem": null,
+                    "questItem": {
+                        "id": "5939a00786f7742fe8132936",
+                        "name": "金质 Zibbo 打火机",
+                        "normalizedName": "5939a00786f7742fe8132936",
+                        "shortName": "金 Zibbo",
+                        "description": "镀金的 Zibbo 汽油打火机。属于一个外号叫 Uruguay 的本地帮派头目。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
                     "count": 1,
                     "possibleLocations": [],
                     "zones": [
@@ -45457,7 +45479,18 @@
                         }
                     ],
                     "optional": false,
-                    "questItem": null,
+                    "questItem": {
+                        "id": "66b22630a6b4e5ec7c02cdb7",
+                        "name": "精密工具盒",
+                        "normalizedName": "66b22630a6b4e5ec7c02cdb7",
+                        "shortName": "工具盒",
+                        "description": "装有贵重精密工具的盒子。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
                     "count": 1,
                     "possibleLocations": [],
                     "zones": [
@@ -60281,7 +60314,18 @@
                         }
                     ],
                     "optional": false,
-                    "questItem": null,
+                    "questItem": {
+                        "id": "66c0b39ca1f68fcc1d0c0cc3",
+                        "name": "实验室日志",
+                        "normalizedName": "66c0b39ca1f68fcc1d0c0cc3",
+                        "shortName": "日记本",
+                        "description": "TerraGroup研发药品的副作用实验记录... 看起来化工厂的员工们对这次“研究”毫不知情。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
                     "count": 1,
                     "possibleLocations": [],
                     "zones": [
@@ -97319,7 +97363,18 @@
                         }
                     ],
                     "optional": false,
-                    "questItem": null,
+                    "questItem": {
+                        "id": "5c12301c86f77419522ba7e4",
+                        "name": "假U盘",
+                        "normalizedName": "5c12301c86f77419522ba7e4",
+                        "shortName": "假U盘",
+                        "description": "专门准备的U盘，内含货物运输相关的假数据。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
                     "count": 1,
                     "possibleLocations": [],
                     "zones": [
@@ -145069,7 +145124,18 @@
                         }
                     ],
                     "optional": false,
-                    "questItem": null,
+                    "questItem": {
+                        "id": "683ed6ccd9a096739b0c9228",
+                        "name": "AK-50 护木与导气管组合",
+                        "normalizedName": "683ed6ccd9a096739b0c9228",
+                        "shortName": "AK-50",
+                        "description": "AK-50 狙击步枪的 M-LOK 护木与导轨导气管组合。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
                     "count": 1,
                     "possibleLocations": [],
                     "zones": [
@@ -145124,7 +145190,18 @@
                         }
                     ],
                     "optional": false,
-                    "questItem": null,
+                    "questItem": {
+                        "id": "683ed6aed885538c4102d8c8",
+                        "name": "AK-50 枪管",
+                        "normalizedName": "683ed6aed885538c4102d8c8",
+                        "shortName": "AK-50",
+                        "description": "AK-50 狙击步枪标配的 24 英寸枪管。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
                     "count": 1,
                     "possibleLocations": [],
                     "zones": [
@@ -145179,7 +145256,18 @@
                         }
                     ],
                     "optional": false,
-                    "questItem": null,
+                    "questItem": {
+                        "id": "683ed6c2e4b1dd7ec4069dc8",
+                        "name": "AK-50 防尘盖",
+                        "normalizedName": "683ed6c2e4b1dd7ec4069dc8",
+                        "shortName": "AK-50",
+                        "description": "AK-50 狙击步枪标配的机匣防尘盖。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
                     "count": 1,
                     "possibleLocations": [],
                     "zones": [
@@ -160606,7 +160694,18 @@
                         }
                     ],
                     "optional": false,
-                    "questItem": null,
+                    "questItem": {
+                        "id": "6398a0861c712b1e1d4dadf1",
+                        "name": "伪造的Lightkeeper情报",
+                        "normalizedName": "6398a0861c712b1e1d4dadf1",
+                        "shortName": "情报",
+                        "description": "Lightkeeper伪造的假情报。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
                     "count": 1,
                     "possibleLocations": [],
                     "zones": [
@@ -167528,7 +167627,18 @@
                         }
                     ],
                     "optional": false,
-                    "questItem": null,
+                    "questItem": {
+                        "id": "67499b9b909d2013670a5029",
+                        "name": "KOSA 无人机电子干扰设备",
+                        "normalizedName": "67499b9b909d2013670a5029",
+                        "shortName": "KOSA",
+                        "description": "设计用于压制无人机导航系统的电子战设备，能够保护重要设施免受无人机攻击。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
                     "count": 1,
                     "possibleLocations": [],
                     "zones": [
@@ -305363,7 +305473,18 @@
                         }
                     ],
                     "optional": false,
-                    "questItem": null,
+                    "questItem": {
+                        "id": "67499d0eeca8acb2d2061639",
+                        "name": "控告信",
+                        "normalizedName": "67499d0eeca8acb2d2061639",
+                        "shortName": "信",
+                        "description": "BTR 司机的一封信，显然，里面写的东西会对 Skier 那个滑头产生重大压力。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
                     "count": 1,
                     "possibleLocations": [],
                     "zones": [
@@ -305997,7 +306118,18 @@
                         }
                     ],
                     "optional": false,
-                    "questItem": null,
+                    "questItem": {
+                        "id": "67499d0eeca8acb2d2061639",
+                        "name": "控告信",
+                        "normalizedName": "67499d0eeca8acb2d2061639",
+                        "shortName": "信",
+                        "description": "BTR 司机的一封信，显然，里面写的东西会对 Skier 那个滑头产生重大压力。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
                     "count": 1,
                     "possibleLocations": [],
                     "zones": [
@@ -307019,7 +307151,18 @@
                         }
                     ],
                     "optional": false,
-                    "questItem": null,
+                    "questItem": {
+                        "id": "67499b3eeca8acb2d2061636",
+                        "name": "Lightkeeper 的箱子",
+                        "normalizedName": "67499b3eeca8acb2d2061636",
+                        "shortName": "箱子",
+                        "description": "摇晃箱子时发出的金属撞击声表明，里面很可能装满了 OFZ 机炮炮弹，或者其他类似的弹药。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
                     "count": 1,
                     "possibleLocations": [],
                     "zones": [
@@ -354344,6 +354487,298 @@
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/6752f6d83038f7df520c83e8.webp"
+        },
+        {
+            "id": "69c27158e350f01390049e77",
+            "tarkovDataId": "69c27158e350f01390049e77",
+            "name": "拯救大兵罗曼",
+            "normalizedName": "saving-private-roman",
+            "trader": {
+                "id": "656f0f98d80a697f855d34b1",
+                "name": "BTR司机",
+                "normalizedName": "btr-driver",
+                "imageLink": "https://assets.tarkov.dev/656f0f98d80a697f855d34b1.webp"
+            },
+            "map": null,
+            "experience": 42000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Saving_Private_Roman",
+            "minPlayerLevel": 0,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "69c26c07683c9831020018c7",
+                        "name": "坚持到底",
+                        "normalizedName": "stick-to-it",
+                        "taskImageLink": "https://assets.tarkov.dev/69c26c07683c9831020018c7.webp",
+                        "trader": {
+                            "id": "656f0f98d80a697f855d34b1",
+                            "name": "BTR司机",
+                            "normalizedName": "btr-driver",
+                            "imageLink": "https://assets.tarkov.dev/656f0f98d80a697f855d34b1.webp"
+                        }
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveMark",
+                    "id": "69c2740bdbeade0b8e55eeea",
+                    "type": "mark",
+                    "description": "在森林使用 MS2000 指示器标记前往灯塔的转移点",
+                    "maps": [],
+                    "optional": false,
+                    "markerItem": {
+                        "id": "5991b51486f77447b112d44f",
+                        "name": "MS2000指示器",
+                        "normalizedName": "ms2000-marker",
+                        "shortName": "MS2000",
+                        "width": 1,
+                        "height": 1,
+                        "types": [
+                            "barter",
+                            "specialSlot"
+                        ],
+                        "iconLink": "https://assets.tarkov.dev/5991b51486f77447b112d44f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MS2000_Marker"
+                    },
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveExtract",
+                    "id": "69c27425f79e528d73ed4b2e",
+                    "type": "extract",
+                    "description": "使用转移功能从森林转移到灯塔",
+                    "maps": [
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        }
+                    ],
+                    "optional": false,
+                    "exitStatus": [
+                        "转移"
+                    ],
+                    "exitName": "转移点03",
+                    "count": 1,
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveMark",
+                    "id": "69c2745137b8de0e367891c6",
+                    "type": "mark",
+                    "description": "在灯塔使用 MS2000 指示器标记前往森林的转移点",
+                    "maps": [],
+                    "optional": false,
+                    "markerItem": {
+                        "id": "5991b51486f77447b112d44f",
+                        "name": "MS2000指示器",
+                        "normalizedName": "ms2000-marker",
+                        "shortName": "MS2000",
+                        "width": 1,
+                        "height": 1,
+                        "types": [
+                            "barter",
+                            "specialSlot"
+                        ],
+                        "iconLink": "https://assets.tarkov.dev/5991b51486f77447b112d44f-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MS2000_Marker"
+                    },
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/69c27158e350f01390049e77.webp"
+        },
+        {
+            "id": "69c26c07683c9831020018c7",
+            "tarkovDataId": "69c26c07683c9831020018c7",
+            "name": "坚持到底",
+            "normalizedName": "stick-to-it",
+            "trader": {
+                "id": "656f0f98d80a697f855d34b1",
+                "name": "BTR司机",
+                "normalizedName": "btr-driver",
+                "imageLink": "https://assets.tarkov.dev/656f0f98d80a697f855d34b1.webp"
+            },
+            "map": null,
+            "experience": 25000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Stick_to_It",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveShoot",
+                    "id": "69c26dfeaa4283497aab0d36",
+                    "type": "shoot",
+                    "description": "消灭游荡者",
+                    "maps": [
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        }
+                    ],
+                    "optional": false,
+                    "targetNames": [
+                        "Big Pipe",
+                        "Birdeye",
+                        "游荡者",
+                        "Knight"
+                    ],
+                    "count": 30,
+                    "shotType": "kill",
+                    "zoneNames": [],
+                    "bodyParts": [],
+                    "timeFromHour": 0,
+                    "timeUntilHour": 0,
+                    "usingWeapon": [],
+                    "usingWeaponMods": [],
+                    "wearing": [],
+                    "notWearing": [],
+                    "distance": {
+                        "value": 0,
+                        "compareMethod": ">="
+                    },
+                    "playerHealthEffect": null,
+                    "enemyHealthEffect": null,
+                    "zones": []
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [
+                    {
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        },
+                        "count": 100000,
+                        "quantity": 100000,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "5d1b385e86f774252167b98a",
+                            "name": "滤水器",
+                            "normalizedName": "water-filter",
+                            "shortName": "过滤器",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d1b385e86f774252167b98a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Water_filter"
+                        },
+                        "count": 3,
+                        "quantity": 3,
+                        "attributes": []
+                    }
+                ],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/69c26c07683c9831020018c7.webp"
         },
         {
             "id": "61e6e60c5ca3b3783662be27",
