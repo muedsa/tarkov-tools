@@ -2285,6 +2285,7 @@
                         "name": "LBT-1961A 承重胸挂（Goons特别版）",
                         "normalizedName": "lbt-1961a-load-bearing-chest-rig-goons-edition",
                         "types": [
+                            "noFlea",
                             "rig",
                             "wearable"
                         ],

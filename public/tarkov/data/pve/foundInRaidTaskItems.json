@@ -90,6 +90,7 @@
         "normalizedName": "tokarev-tt-33-762x25-tt-pistol-golden",
         "types": [
             "gun",
+            "noFlea",
             "wearable"
         ],
         "iconLink": "5b3b713c5acfc4330140bd8d-icon.webp",
@@ -271,7 +272,8 @@
         "name": "Shturman 的储物箱钥匙",
         "normalizedName": "shturmans-stash-key",
         "types": [
-            "keys"
+            "keys",
+            "noFlea"
         ],
         "iconLink": "5d08d21286f774736e7c94c3-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shturman%27s_stash_key",
@@ -744,6 +746,7 @@
         "name": "PR-Taran警棍",
         "normalizedName": "pr-taran-police-baton",
         "types": [
+            "noFlea",
             "wearable"
         ],
         "iconLink": "6540d2162ae6d96b540afcaf-icon.webp",
@@ -899,6 +902,7 @@
         "normalizedName": "sanitars-bag",
         "types": [
             "backpack",
+            "noFlea",
             "wearable"
         ],
         "iconLink": "5e997f0b86f7741ac73993e2-icon.webp",
@@ -921,6 +925,7 @@
         "normalizedName": "crye-precision-avs-plate-carrier-tagilla-edition",
         "types": [
             "armor",
+            "noFlea",
             "rig",
             "wearable"
         ],
@@ -943,6 +948,7 @@
         "name": "LBT-1961A 承重胸挂（Goons特别版）",
         "normalizedName": "lbt-1961a-load-bearing-chest-rig-goons-edition",
         "types": [
+            "noFlea",
             "rig",
             "wearable"
         ],

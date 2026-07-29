@@ -7533,6 +7533,7 @@
                             "height": 4,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5c0e541586f7747fa54205c9-icon.webp",
@@ -8008,6 +8009,7 @@
                             "height": 3,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -11217,6 +11219,7 @@
                             "height": 1,
                             "types": [
                                 "gun",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5b3b713c5acfc4330140bd8d-icon.webp",
@@ -11282,6 +11285,7 @@
                             "height": 1,
                             "types": [
                                 "gun",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5b3b713c5acfc4330140bd8d-icon.webp",
@@ -19488,6 +19492,7 @@
                             "height": 1,
                             "types": [
                                 "gun",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5b3b713c5acfc4330140bd8d-icon.webp",
@@ -47352,7 +47357,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "keys"
+                                "keys",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5d08d21286f774736e7c94c3-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shturman%27s_stash_key"
@@ -47416,7 +47422,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "keys"
+                                "keys",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5d08d21286f774736e7c94c3-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shturman%27s_stash_key"
@@ -86041,6 +86048,7 @@
                             "height": 1,
                             "types": [
                                 "gun",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5b3b713c5acfc4330140bd8d-icon.webp",
@@ -95045,6 +95053,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6540d2162ae6d96b540afcaf-icon.webp",
@@ -109770,6 +109779,7 @@
                             "height": 1,
                             "types": [
                                 "gun",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5b3b713c5acfc4330140bd8d-icon.webp",
@@ -109801,6 +109811,7 @@
                             "width": 2,
                             "height": 1,
                             "types": [
+                                "noFlea",
                                 "preset"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5b44abe986f774283e2e3512-icon.webp",
@@ -124512,6 +124523,7 @@
                             "width": 3,
                             "height": 3,
                             "types": [
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -124755,6 +124767,7 @@
                             "width": 3,
                             "height": 3,
                             "types": [
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -127475,6 +127488,7 @@
                             "height": 4,
                             "types": [
                                 "backpack",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5e997f0b86f7741ac73993e2-icon.webp",
@@ -128204,6 +128218,7 @@
                             "width": 3,
                             "height": 3,
                             "types": [
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -128535,6 +128550,7 @@
                             "height": 3,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -129059,6 +129075,7 @@
                             "height": 4,
                             "types": [
                                 "backpack",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5e997f0b86f7741ac73993e2-icon.webp",
@@ -129090,6 +129107,7 @@
                             "height": 4,
                             "types": [
                                 "backpack",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5e997f0b86f7741ac73993e2-icon.webp",
@@ -129121,6 +129139,7 @@
                             "height": 3,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -129153,6 +129172,7 @@
                             "height": 3,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -129184,6 +129204,7 @@
                             "width": 3,
                             "height": 3,
                             "types": [
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -129215,6 +129236,7 @@
                             "width": 3,
                             "height": 3,
                             "types": [
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -129583,6 +129605,7 @@
                                 "width": 3,
                                 "height": 3,
                                 "types": [
+                                    "noFlea",
                                     "rig",
                                     "wearable"
                                 ],
@@ -129648,6 +129671,7 @@
                             "width": 3,
                             "height": 3,
                             "types": [
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -131862,6 +131886,7 @@
                             "height": 4,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5c0e541586f7747fa54205c9-icon.webp",
@@ -133711,6 +133736,7 @@
                             "height": 3,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -137364,6 +137390,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6540d2162ae6d96b540afcaf-icon.webp",
@@ -137662,6 +137689,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6540d2162ae6d96b540afcaf-icon.webp",
@@ -137960,6 +137988,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6540d2162ae6d96b540afcaf-icon.webp",
@@ -138258,6 +138287,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6540d2162ae6d96b540afcaf-icon.webp",
@@ -138570,6 +138600,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6540d2162ae6d96b540afcaf-icon.webp",
@@ -138854,6 +138885,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6540d2162ae6d96b540afcaf-icon.webp",
@@ -139152,6 +139184,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6540d2162ae6d96b540afcaf-icon.webp",
@@ -139450,6 +139483,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6540d2162ae6d96b540afcaf-icon.webp",
@@ -139753,6 +139787,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6540d2162ae6d96b540afcaf-icon.webp",
@@ -147332,6 +147367,7 @@
                             "height": 4,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5c0e541586f7747fa54205c9-icon.webp",
@@ -147807,6 +147843,7 @@
                             "height": 3,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -148465,6 +148502,7 @@
                             "width": 2,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/62963c18dbc8ab5f0d382d0b-icon.webp",
@@ -165276,6 +165314,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6540d2162ae6d96b540afcaf-icon.webp",
@@ -169597,7 +169636,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "keys"
+                                "keys",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5d08d21286f774736e7c94c3-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shturman%27s_stash_key"
@@ -176554,6 +176594,7 @@
                             "height": 3,
                             "types": [
                                 "backpack",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/66a9f98f3bd5a41b162030f4-icon.webp",
@@ -176598,6 +176639,7 @@
                             "height": 4,
                             "types": [
                                 "backpack",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5e997f0b86f7741ac73993e2-icon.webp",
@@ -178432,6 +178474,7 @@
                             "width": 3,
                             "height": 3,
                             "types": [
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -178791,6 +178834,7 @@
                             "height": 3,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -180345,6 +180389,7 @@
                             "height": 1,
                             "types": [
                                 "gun",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5b3b713c5acfc4330140bd8d-icon.webp",
@@ -181114,6 +181159,7 @@
                             "height": 4,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5c0e541586f7747fa54205c9-icon.webp",
@@ -182292,6 +182338,7 @@
                             "width": 2,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/62963c18dbc8ab5f0d382d0b-icon.webp",
@@ -183019,6 +183066,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/628e4dd1f477aa12234918aa-icon.webp",
@@ -209235,6 +209283,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6540d2162ae6d96b540afcaf-icon.webp",
@@ -213556,7 +213605,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "keys"
+                                "keys",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5d08d21286f774736e7c94c3-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shturman%27s_stash_key"
@@ -220513,6 +220563,7 @@
                             "height": 3,
                             "types": [
                                 "backpack",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/66a9f98f3bd5a41b162030f4-icon.webp",
@@ -220557,6 +220608,7 @@
                             "height": 4,
                             "types": [
                                 "backpack",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5e997f0b86f7741ac73993e2-icon.webp",
@@ -222391,6 +222443,7 @@
                             "width": 3,
                             "height": 3,
                             "types": [
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -222750,6 +222803,7 @@
                             "height": 3,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -224304,6 +224358,7 @@
                             "height": 1,
                             "types": [
                                 "gun",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5b3b713c5acfc4330140bd8d-icon.webp",
@@ -225073,6 +225128,7 @@
                             "height": 4,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5c0e541586f7747fa54205c9-icon.webp",
@@ -226251,6 +226307,7 @@
                             "width": 2,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/62963c18dbc8ab5f0d382d0b-icon.webp",
@@ -226978,6 +227035,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/628e4dd1f477aa12234918aa-icon.webp",
@@ -253194,6 +253252,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6540d2162ae6d96b540afcaf-icon.webp",
@@ -257515,7 +257574,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "keys"
+                                "keys",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5d08d21286f774736e7c94c3-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shturman%27s_stash_key"
@@ -266965,6 +267025,7 @@
                             "height": 3,
                             "types": [
                                 "backpack",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/66a9f98f3bd5a41b162030f4-icon.webp",
@@ -267009,6 +267070,7 @@
                             "height": 4,
                             "types": [
                                 "backpack",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5e997f0b86f7741ac73993e2-icon.webp",
@@ -268843,6 +268905,7 @@
                             "width": 3,
                             "height": 3,
                             "types": [
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -269202,6 +269265,7 @@
                             "height": 3,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -270756,6 +270820,7 @@
                             "height": 1,
                             "types": [
                                 "gun",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5b3b713c5acfc4330140bd8d-icon.webp",
@@ -271525,6 +271590,7 @@
                             "height": 4,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5c0e541586f7747fa54205c9-icon.webp",
@@ -272703,6 +272769,7 @@
                             "width": 2,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/62963c18dbc8ab5f0d382d0b-icon.webp",
@@ -273430,6 +273497,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/628e4dd1f477aa12234918aa-icon.webp",
@@ -307014,6 +307082,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6540d2162ae6d96b540afcaf-icon.webp",
@@ -311335,7 +311404,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "keys"
+                                "keys",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5d08d21286f774736e7c94c3-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shturman%27s_stash_key"
@@ -318292,6 +318362,7 @@
                             "height": 3,
                             "types": [
                                 "backpack",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/66a9f98f3bd5a41b162030f4-icon.webp",
@@ -318336,6 +318407,7 @@
                             "height": 4,
                             "types": [
                                 "backpack",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5e997f0b86f7741ac73993e2-icon.webp",
@@ -320170,6 +320242,7 @@
                             "width": 3,
                             "height": 3,
                             "types": [
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -320529,6 +320602,7 @@
                             "height": 3,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "rig",
                                 "wearable"
                             ],
@@ -322083,6 +322157,7 @@
                             "height": 1,
                             "types": [
                                 "gun",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5b3b713c5acfc4330140bd8d-icon.webp",
@@ -322852,6 +322927,7 @@
                             "height": 4,
                             "types": [
                                 "armor",
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/5c0e541586f7747fa54205c9-icon.webp",
@@ -324030,6 +324106,7 @@
                             "width": 2,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/62963c18dbc8ab5f0d382d0b-icon.webp",
@@ -324757,6 +324834,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
+                                "noFlea",
                                 "wearable"
                             ],
                             "iconLink": "https://assets.tarkov.dev/628e4dd1f477aa12234918aa-icon.webp",
