@@ -352402,6 +352402,1286 @@
             "taskImageLink": "https://assets.tarkov.dev/69c26c07683c9831020018c7.webp"
         },
         {
+            "id": "69ce204c8702b378f9091e4b",
+            "tarkovDataId": "69ce204c8702b378f9091e4b",
+            "name": "战争从未改变",
+            "normalizedName": "war-never-changes",
+            "trader": {
+                "id": "54cb57776803fa99248b456e",
+                "name": "Therapist",
+                "normalizedName": "therapist",
+                "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+            },
+            "map": {
+                "id": "69af492a4819ea4ba10a69c5",
+                "name": "破冰船",
+                "normalizedName": "icebreaker"
+            },
+            "experience": 27000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/War_Never_Changes",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69ce204c8702b378f9091e4d",
+                    "type": "findItem",
+                    "description": "在战局中找到物品：Nooby Shield 碘化钾片",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "69bb43df99f3fda8f1072483",
+                            "name": "Nooby Shield 碘化钾片",
+                            "normalizedName": "nooby-shield-potassium-iodide-tablets",
+                            "shortName": "NoobyShield",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/69bb43df99f3fda8f1072483-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Nooby_Shield_potassium_iodide_tablets"
+                        }
+                    ],
+                    "count": 10,
+                    "foundInRaid": true,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69ce204c8702b378f9091e4e",
+                    "type": "giveItem",
+                    "description": "上交物品",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "69bb43df99f3fda8f1072483",
+                            "name": "Nooby Shield 碘化钾片",
+                            "normalizedName": "nooby-shield-potassium-iodide-tablets",
+                            "shortName": "NoobyShield",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/69bb43df99f3fda8f1072483-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Nooby_Shield_potassium_iodide_tablets"
+                        }
+                    ],
+                    "count": 10,
+                    "foundInRaid": true,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [
+                    {
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        },
+                        "count": 250000,
+                        "quantity": 250000,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "637b620db7afa97bfc3d7009",
+                            "name": "曲马多注射器",
+                            "normalizedName": "trimadol-stimulant-injector",
+                            "shortName": "曲马多",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "injectors",
+                                "meds",
+                                "provisions"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/637b620db7afa97bfc3d7009-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Trimadol_stimulant_injector"
+                        },
+                        "count": 5,
+                        "quantity": 5,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "5d02797c86f774203f38e30a",
+                            "name": "Surv12野战手术包",
+                            "normalizedName": "surv12-field-surgical-kit",
+                            "shortName": "Surv12",
+                            "width": 3,
+                            "height": 1,
+                            "types": [
+                                "meds",
+                                "provisions",
+                                "specialSlot"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d02797c86f774203f38e30a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Surv12_field_surgical_kit"
+                        },
+                        "count": 2,
+                        "quantity": 2,
+                        "attributes": []
+                    }
+                ],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/69ce204c8702b378f9091e4b.webp"
+        },
+        {
+            "id": "69ce1de03e15cd80bd06f6c9",
+            "tarkovDataId": "69ce1de03e15cd80bd06f6c9",
+            "name": "油料交换",
+            "normalizedName": "oil-change",
+            "trader": {
+                "id": "54cb50c76803fa8b248b4571",
+                "name": "Prapor",
+                "normalizedName": "prapor",
+                "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+            },
+            "map": {
+                "id": "69af492a4819ea4ba10a69c5",
+                "name": "破冰船",
+                "normalizedName": "icebreaker"
+            },
+            "experience": 32000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Oil_Change",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69ce1e2614b1a16885f61da4",
+                    "type": "findItem",
+                    "description": "在战局中找到物品：AMG-10 液压油",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "699f09de81a6c812900a77b7",
+                            "name": "AMG-10 液压油",
+                            "normalizedName": "amg-10-hydraulic-fluid",
+                            "shortName": "AMG-10",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/699f09de81a6c812900a77b7-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AMG-10_hydraulic_fluid"
+                        }
+                    ],
+                    "count": 5,
+                    "foundInRaid": true,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69ce1e30e2c52320f2eba4ee",
+                    "type": "giveItem",
+                    "description": "上交物品",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "699f09de81a6c812900a77b7",
+                            "name": "AMG-10 液压油",
+                            "normalizedName": "amg-10-hydraulic-fluid",
+                            "shortName": "AMG-10",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/699f09de81a6c812900a77b7-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AMG-10_hydraulic_fluid"
+                        }
+                    ],
+                    "count": 5,
+                    "foundInRaid": true,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [
+                    {
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        },
+                        "count": 330000,
+                        "quantity": 330000,
+                        "attributes": []
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "6a0c9255e80f4a0e327c0202",
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        },
+                        "level": 1,
+                        "item": {
+                            "id": "707265736574000000000027",
+                            "name": "AK-308 7.62x51 突击步枪 Vudu 1-6",
+                            "normalizedName": "kalashnikov-ak-308-762x51-assault-rifle-vudu-1-6",
+                            "shortName": "AK-308 Vudu 1-6",
+                            "width": 6,
+                            "height": 2,
+                            "types": [
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/707265736574000000000027-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kalashnikov_AK-308_7.62x51_assault_rifle"
+                        }
+                    }
+                ],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/69ce1de03e15cd80bd06f6c9.webp"
+        },
+        {
+            "id": "69ce21e990144e437802b1e0",
+            "tarkovDataId": "69ce21e990144e437802b1e0",
+            "name": "新鲜到货",
+            "normalizedName": "fresh-stock",
+            "trader": {
+                "id": "5ac3b934156ae10c4430e83c",
+                "name": "Ragman",
+                "normalizedName": "ragman",
+                "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
+            },
+            "map": {
+                "id": "69af492a4819ea4ba10a69c5",
+                "name": "破冰船",
+                "normalizedName": "icebreaker"
+            },
+            "experience": 25000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fresh_Stock",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69ce21e990144e437802b1e2",
+                    "type": "findItem",
+                    "description": "在战局中找到物品：黑色军团插板胸挂",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "68947a4be4bf255d1b0ca746",
+                            "name": "First Spear Siege-R Optimized M.A.S.S. 插板胸挂 (黑色军团)",
+                            "normalizedName": "first-spear-siege-r-optimized-mass-plate-carrier-black-division",
+                            "shortName": "Siege-R",
+                            "width": 4,
+                            "height": 4,
+                            "types": [
+                                "noFlea",
+                                "rig",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68947a4be4bf255d1b0ca746-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/First_Spear_Siege-R_Optimized_M.A.S.S._Plate_Carrier_(Black_Division)"
+                        },
+                        {
+                            "id": "689479eb30cc5ba7be00f5ff",
+                            "name": "Spiritus Systems LV-119 插板胸挂 (黑色军团 V2)",
+                            "normalizedName": "spiritus-systems-lv-119-plate-carrier-black-division-v2",
+                            "shortName": "LV-119",
+                            "width": 4,
+                            "height": 4,
+                            "types": [
+                                "noFlea",
+                                "rig",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/689479eb30cc5ba7be00f5ff-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spiritus_Systems_LV-119_Plate_Carrier_(Black_Division_V2)"
+                        },
+                        {
+                            "id": "689479cb47e5acd1e10be986",
+                            "name": "Ferro Concepts FCPC V5 插板胸挂 (黑色军团)",
+                            "normalizedName": "ferro-concepts-fcpc-v5-plate-carrier-black-division",
+                            "shortName": "FCPC V5",
+                            "width": 3,
+                            "height": 3,
+                            "types": [
+                                "noFlea",
+                                "rig",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/689479cb47e5acd1e10be986-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ferro_Concepts_FCPC_V5_Plate_Carrier_(Black_Division)"
+                        },
+                        {
+                            "id": "689479a4a733b1602007e2eb",
+                            "name": "Spiritus Systems LV-119 插板胸挂 (黑色军团 V1)",
+                            "normalizedName": "spiritus-systems-lv-119-plate-carrier-black-division-v1",
+                            "shortName": "LV-119",
+                            "width": 4,
+                            "height": 3,
+                            "types": [
+                                "noFlea",
+                                "rig",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/689479a4a733b1602007e2eb-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spiritus_Systems_LV-119_Plate_Carrier_(Black_Division_V1)"
+                        }
+                    ],
+                    "count": 5,
+                    "foundInRaid": true,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69ce21e990144e437802b1e3",
+                    "type": "giveItem",
+                    "description": "上交物品",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "68947a4be4bf255d1b0ca746",
+                            "name": "First Spear Siege-R Optimized M.A.S.S. 插板胸挂 (黑色军团)",
+                            "normalizedName": "first-spear-siege-r-optimized-mass-plate-carrier-black-division",
+                            "shortName": "Siege-R",
+                            "width": 4,
+                            "height": 4,
+                            "types": [
+                                "noFlea",
+                                "rig",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68947a4be4bf255d1b0ca746-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/First_Spear_Siege-R_Optimized_M.A.S.S._Plate_Carrier_(Black_Division)"
+                        },
+                        {
+                            "id": "689479eb30cc5ba7be00f5ff",
+                            "name": "Spiritus Systems LV-119 插板胸挂 (黑色军团 V2)",
+                            "normalizedName": "spiritus-systems-lv-119-plate-carrier-black-division-v2",
+                            "shortName": "LV-119",
+                            "width": 4,
+                            "height": 4,
+                            "types": [
+                                "noFlea",
+                                "rig",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/689479eb30cc5ba7be00f5ff-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spiritus_Systems_LV-119_Plate_Carrier_(Black_Division_V2)"
+                        },
+                        {
+                            "id": "689479cb47e5acd1e10be986",
+                            "name": "Ferro Concepts FCPC V5 插板胸挂 (黑色军团)",
+                            "normalizedName": "ferro-concepts-fcpc-v5-plate-carrier-black-division",
+                            "shortName": "FCPC V5",
+                            "width": 3,
+                            "height": 3,
+                            "types": [
+                                "noFlea",
+                                "rig",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/689479cb47e5acd1e10be986-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ferro_Concepts_FCPC_V5_Plate_Carrier_(Black_Division)"
+                        },
+                        {
+                            "id": "689479a4a733b1602007e2eb",
+                            "name": "Spiritus Systems LV-119 插板胸挂 (黑色军团 V1)",
+                            "normalizedName": "spiritus-systems-lv-119-plate-carrier-black-division-v1",
+                            "shortName": "LV-119",
+                            "width": 4,
+                            "height": 3,
+                            "types": [
+                                "noFlea",
+                                "rig",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/689479a4a733b1602007e2eb-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spiritus_Systems_LV-119_Plate_Carrier_(Black_Division_V1)"
+                        }
+                    ],
+                    "count": 5,
+                    "foundInRaid": true,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [
+                    {
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        },
+                        "count": 300000,
+                        "quantity": 300000,
+                        "attributes": []
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "6a0c0ec6b8e54b2e24f00d22",
+                        "trader": {
+                            "id": "5ac3b934156ae10c4430e83c",
+                            "name": "Ragman",
+                            "normalizedName": "ragman",
+                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
+                        },
+                        "level": 1,
+                        "item": {
+                            "id": "5f60c74e3b85f6263c145586",
+                            "name": "Rys-T 防弹头盔（黑色）",
+                            "normalizedName": "rys-t-bulletproof-helmet-black",
+                            "shortName": "Rys-T",
+                            "width": 2,
+                            "height": 2,
+                            "types": [
+                                "helmet",
+                                "noFlea",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5f60c74e3b85f6263c145586-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rys-T_bulletproof_helmet_(Black)"
+                        }
+                    }
+                ],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/69ce21e990144e437802b1e0.webp"
+        },
+        {
+            "id": "69ce1cfb298a6529b30d712b",
+            "tarkovDataId": "69ce1cfb298a6529b30d712b",
+            "name": "如楔在侧",
+            "normalizedName": "a-wedge-between-us",
+            "trader": {
+                "id": "5c0647fdd443bc2504c2d371",
+                "name": "Jaeger",
+                "normalizedName": "jaeger",
+                "imageLink": "https://assets.tarkov.dev/5c0647fdd443bc2504c2d371.webp"
+            },
+            "map": {
+                "id": "69af492a4819ea4ba10a69c5",
+                "name": "破冰船",
+                "normalizedName": "icebreaker"
+            },
+            "experience": 52000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/A_Wedge_Between_Us",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveShoot",
+                    "id": "69ce1cfb298a6529b30d712d",
+                    "type": "shoot",
+                    "description": "找到并消灭 Wedge 小队",
+                    "maps": [
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        }
+                    ],
+                    "optional": false,
+                    "targetNames": [
+                        "The Wedge"
+                    ],
+                    "count": 4,
+                    "shotType": "kill",
+                    "zoneNames": [],
+                    "bodyParts": [],
+                    "timeFromHour": 0,
+                    "timeUntilHour": 0,
+                    "usingWeapon": [],
+                    "usingWeaponMods": [],
+                    "wearing": [],
+                    "notWearing": [],
+                    "distance": {
+                        "value": 0,
+                        "compareMethod": ">="
+                    },
+                    "playerHealthEffect": null,
+                    "enemyHealthEffect": null,
+                    "zones": []
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "6a03343990ee160507db2294",
+                    "type": "findItem",
+                    "description": "从 Wedge 身上取得战利品",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "69e2441a18cb3157560855ec",
+                            "name": "Spiritus Systems LV-119 插板胸挂 (黑系复合迷彩)",
+                            "normalizedName": "spiritus-systems-lv-119-plate-carrier-multicam-black",
+                            "shortName": "LV-119",
+                            "width": 4,
+                            "height": 4,
+                            "types": [
+                                "noFlea",
+                                "rig",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/69e2441a18cb3157560855ec-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spiritus_Systems_LV-119_Plate_Carrier_(MultiCam_Black)"
+                        }
+                    ],
+                    "count": 1,
+                    "foundInRaid": true,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "6a033442e041f8512e182c8e",
+                    "type": "giveItem",
+                    "description": "上交找到的物品",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "69e2441a18cb3157560855ec",
+                            "name": "Spiritus Systems LV-119 插板胸挂 (黑系复合迷彩)",
+                            "normalizedName": "spiritus-systems-lv-119-plate-carrier-multicam-black",
+                            "shortName": "LV-119",
+                            "width": 4,
+                            "height": 4,
+                            "types": [
+                                "noFlea",
+                                "rig",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/69e2441a18cb3157560855ec-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Spiritus_Systems_LV-119_Plate_Carrier_(MultiCam_Black)"
+                        }
+                    ],
+                    "count": 1,
+                    "foundInRaid": true,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [
+                    {
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        },
+                        "count": 450000,
+                        "quantity": 450000,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "62973e474bb5ab23071c2a70",
+                            "name": "Accuracy International AXMC .338 LM 栓动式狙击步枪 默认",
+                            "normalizedName": "accuracy-international-axmc-338-lm-bolt-action-sniper-rifle-default",
+                            "shortName": "AXMC 默认",
+                            "width": 6,
+                            "height": 2,
+                            "types": [
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/62973e474bb5ab23071c2a70-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Accuracy_International_AXMC_.338_LM_bolt-action_sniper_rifle"
+                        },
+                        "count": 1,
+                        "quantity": 1,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "657023ccbfc87b3a3409320a",
+                            "name": ".338 Lapua Magnum FMJ弹药包（20发装）",
+                            "normalizedName": "338-lapua-magnum-fmj-ammo-pack-20-pcs",
+                            "shortName": "FMJ",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "ammoBox",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/657023ccbfc87b3a3409320a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.338_Lapua_Magnum_FMJ_ammo_pack_(20_pcs)"
+                        },
+                        "count": 3,
+                        "quantity": 3,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "628120fd5631d45211793c9f",
+                            "name": "AI AXMC .338 LM 10发容量弹匣",
+                            "normalizedName": "ai-axmc-338-lm-10-round-magazine",
+                            "shortName": "AXMC 338LM",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "mods"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/628120fd5631d45211793c9f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AI_AXMC_.338_LM_10-round_magazine"
+                        },
+                        "count": 3,
+                        "quantity": 3,
+                        "attributes": []
+                    }
+                ],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/69ce1cfb298a6529b30d712b.webp"
+        },
+        {
+            "id": "69c2a2d004de49c8f0055a3d",
+            "tarkovDataId": "69c2a2d004de49c8f0055a3d",
+            "name": "宿醉",
+            "normalizedName": "hangover",
+            "trader": {
+                "id": "656f0f98d80a697f855d34b1",
+                "name": "BTR司机",
+                "normalizedName": "btr-driver",
+                "imageLink": "https://assets.tarkov.dev/656f0f98d80a697f855d34b1.webp"
+            },
+            "map": null,
+            "experience": 60000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hangover",
+            "minPlayerLevel": 0,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "69c277f3ea6da9c23e07f8d2",
+                        "name": "苦涩的胜利",
+                        "normalizedName": "a-bitter-victory",
+                        "taskImageLink": "https://assets.tarkov.dev/69c277f3ea6da9c23e07f8d2.webp",
+                        "trader": {
+                            "id": "656f0f98d80a697f855d34b1",
+                            "name": "BTR司机",
+                            "normalizedName": "btr-driver",
+                            "imageLink": "https://assets.tarkov.dev/656f0f98d80a697f855d34b1.webp"
+                        }
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveBasic",
+                    "id": "69c2a5ba8d7f2db5aff26bd2",
+                    "type": "dialogue",
+                    "description": "返回 BTR 司机处，了解司机和走私者的谈判情况",
+                    "maps": [],
+                    "optional": false,
+                    "zones": []
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/69c2a2d004de49c8f0055a3d.webp"
+        },
+        {
+            "id": "69c277f3ea6da9c23e07f8d2",
+            "tarkovDataId": "69c277f3ea6da9c23e07f8d2",
+            "name": "苦涩的胜利",
+            "normalizedName": "a-bitter-victory",
+            "trader": {
+                "id": "656f0f98d80a697f855d34b1",
+                "name": "BTR司机",
+                "normalizedName": "btr-driver",
+                "imageLink": "https://assets.tarkov.dev/656f0f98d80a697f855d34b1.webp"
+            },
+            "map": null,
+            "experience": 30000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/A_Bitter_Victory",
+            "minPlayerLevel": 0,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "69c27158e350f01390049e77",
+                        "name": "拯救大兵罗曼",
+                        "normalizedName": "saving-private-roman",
+                        "taskImageLink": "https://assets.tarkov.dev/69c27158e350f01390049e77.webp",
+                        "trader": {
+                            "id": "656f0f98d80a697f855d34b1",
+                            "name": "BTR司机",
+                            "normalizedName": "btr-driver",
+                            "imageLink": "https://assets.tarkov.dev/656f0f98d80a697f855d34b1.webp"
+                        }
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69c27887c921a0bbeb1889f5",
+                    "type": "giveItem",
+                    "description": "上交物品：“凶狠跑刀崽”私酒",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "5d1b376e86f774252519444e",
+                            "name": "“凶狠跑刀崽”私酒",
+                            "normalizedName": "bottle-of-fierce-hatchling-moonshine",
+                            "shortName": "私酒",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "provisions"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d1b376e86f774252519444e-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Fierce_Hatchling_moonshine"
+                        }
+                    ],
+                    "count": 2,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69c278e24c0bedf890ce8873",
+                    "type": "findItem",
+                    "description": "获得物品：“凶狠跑刀崽”私酒",
+                    "maps": [],
+                    "optional": true,
+                    "items": [
+                        {
+                            "id": "5d1b376e86f774252519444e",
+                            "name": "“凶狠跑刀崽”私酒",
+                            "normalizedName": "bottle-of-fierce-hatchling-moonshine",
+                            "shortName": "私酒",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "provisions"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d1b376e86f774252519444e-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Fierce_Hatchling_moonshine"
+                        }
+                    ],
+                    "count": 2,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69c278f14dc0363079d5bb40",
+                    "type": "giveItem",
+                    "description": "上交物品：咸狗牛肉肠",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "635a758bfefc88a93f021b8a",
+                            "name": "咸狗牛肉肠",
+                            "normalizedName": "salty-dog-beef-sausage",
+                            "shortName": "香肠",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "provisions"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/635a758bfefc88a93f021b8a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Salty_Dog_beef_sausage"
+                        }
+                    ],
+                    "count": 2,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69c278cc962d59d4fe7d8d82",
+                    "type": "findItem",
+                    "description": "取得物品：咸狗牛肉肠",
+                    "maps": [],
+                    "optional": true,
+                    "items": [
+                        {
+                            "id": "635a758bfefc88a93f021b8a",
+                            "name": "咸狗牛肉肠",
+                            "normalizedName": "salty-dog-beef-sausage",
+                            "shortName": "香肠",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "provisions"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/635a758bfefc88a93f021b8a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Salty_Dog_beef_sausage"
+                        }
+                    ],
+                    "count": 2,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveBasic",
+                    "id": "69c294f2bffe2159a3e4d56a",
+                    "type": "globalVariable",
+                    "description": "与 BTR 司机对话",
+                    "maps": [],
+                    "optional": false,
+                    "zones": []
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69c278972aaa73481e71ddf7",
+                    "type": "findItem",
+                    "description": "取得物品：黑麦面包块",
+                    "maps": [],
+                    "optional": true,
+                    "items": [
+                        {
+                            "id": "57347d3d245977448f7b7f61",
+                            "name": "黑麦面包块",
+                            "normalizedName": "rye-croutons",
+                            "shortName": "面包块",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "provisions"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/57347d3d245977448f7b7f61-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rye_croutons"
+                        },
+                        {
+                            "id": "5751487e245977207e26a315",
+                            "name": "Emelya黑麦面包块",
+                            "normalizedName": "emelya-rye-croutons",
+                            "shortName": "Emelya",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "provisions"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5751487e245977207e26a315-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Emelya_rye_croutons"
+                        }
+                    ],
+                    "count": 4,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69c278be0634a7d5f463fc3b",
+                    "type": "findItem",
+                    "description": "取得物品：Tarkovskaya瓶装伏特加",
+                    "maps": [],
+                    "optional": true,
+                    "items": [
+                        {
+                            "id": "5d40407c86f774318526545a",
+                            "name": "Tarkovskaya瓶装伏特加",
+                            "normalizedName": "bottle-of-tarkovskaya-vodka",
+                            "shortName": "伏特加",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "provisions"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d40407c86f774318526545a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Tarkovskaya_vodka"
+                        }
+                    ],
+                    "count": 4,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69c27909f96f171f6982c4c7",
+                    "type": "giveItem",
+                    "description": "上交物品：黑麦面包块",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "5751487e245977207e26a315",
+                            "name": "Emelya黑麦面包块",
+                            "normalizedName": "emelya-rye-croutons",
+                            "shortName": "Emelya",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "provisions"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5751487e245977207e26a315-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Emelya_rye_croutons"
+                        },
+                        {
+                            "id": "57347d3d245977448f7b7f61",
+                            "name": "黑麦面包块",
+                            "normalizedName": "rye-croutons",
+                            "shortName": "面包块",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "provisions"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/57347d3d245977448f7b7f61-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Rye_croutons"
+                        }
+                    ],
+                    "count": 4,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69c278fff569bda0e2652705",
+                    "type": "giveItem",
+                    "description": "上交物品：Tarkovskaya瓶装伏特加",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "5d40407c86f774318526545a",
+                            "name": "Tarkovskaya瓶装伏特加",
+                            "normalizedName": "bottle-of-tarkovskaya-vodka",
+                            "shortName": "伏特加",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "provisions"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d40407c86f774318526545a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_Tarkovskaya_vodka"
+                        }
+                    ],
+                    "count": 4,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveExtract",
+                    "id": "6a102713a973fbe02db53bf1",
+                    "type": "extract",
+                    "description": "以幸存状态撤离该区域",
+                    "maps": [],
+                    "optional": false,
+                    "exitStatus": [
+                        "幸存",
+                        "匆匆逃离"
+                    ],
+                    "exitName": "",
+                    "count": 1,
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/69c277f3ea6da9c23e07f8d2.webp"
+        },
+        {
             "id": "61e6e60c5ca3b3783662be27",
             "tarkovDataId": "61e6e60c5ca3b3783662be27",
             "name": "亡羊补牢 - Wergild",
@@ -354203,6 +355483,651 @@
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/6391d9144b15ca31f76bc323.webp"
+        },
+        {
+            "id": "69ce213a298a6529b30d7134",
+            "tarkovDataId": "69ce213a298a6529b30d7134",
+            "name": "生化分析",
+            "normalizedName": "biochemistry",
+            "trader": {
+                "id": "54cb57776803fa99248b456e",
+                "name": "Therapist",
+                "normalizedName": "therapist",
+                "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+            },
+            "map": {
+                "id": "69af492a4819ea4ba10a69c5",
+                "name": "破冰船",
+                "normalizedName": "icebreaker"
+            },
+            "experience": 32000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Biochemistry",
+            "minPlayerLevel": 0,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "69ce204c8702b378f9091e4b",
+                        "name": "战争从未改变",
+                        "normalizedName": "war-never-changes",
+                        "taskImageLink": "https://assets.tarkov.dev/69ce204c8702b378f9091e4b.webp",
+                        "trader": {
+                            "id": "54cb57776803fa99248b456e",
+                            "name": "Therapist",
+                            "normalizedName": "therapist",
+                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+                        }
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69ce213a298a6529b30d7136",
+                    "type": "giveItem",
+                    "description": "在战局中找到物品：Aceso Xpress 半自动生化分析仪",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "69bb435ff609db77390b0e25",
+                            "name": "Aceso Xpress 半自动生化分析仪",
+                            "normalizedName": "aceso-xpress-semi-automatic-biochemical-analyzer",
+                            "shortName": "Aceso Xpress",
+                            "width": 2,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/69bb435ff609db77390b0e25-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aceso_Xpress_semi-automatic_biochemical_analyzer"
+                        }
+                    ],
+                    "count": 3,
+                    "foundInRaid": true,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [
+                    {
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        },
+                        "count": 360000,
+                        "quantity": 360000,
+                        "attributes": []
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "59fb016586f7746d0d4b423a-54cb57776803fa99248b456e",
+                        "trader": {
+                            "id": "54cb57776803fa99248b456e",
+                            "name": "Therapist",
+                            "normalizedName": "therapist",
+                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+                        },
+                        "level": 1,
+                        "item": {
+                            "id": "59fb016586f7746d0d4b423a",
+                            "name": "钱箱",
+                            "normalizedName": "money-case",
+                            "shortName": "钱箱",
+                            "width": 3,
+                            "height": 2,
+                            "types": [
+                                "container",
+                                "markedOnly"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/59fb016586f7746d0d4b423a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Money_case"
+                        }
+                    }
+                ],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/69ce213a298a6529b30d7134.webp"
+        },
+        {
+            "id": "69ce1f84ebbdbf36a200627c",
+            "tarkovDataId": "69ce1f84ebbdbf36a200627c",
+            "name": "和平原子",
+            "normalizedName": "peaceful-atom",
+            "trader": {
+                "id": "5935c25fb3acc3127c3d8cd9",
+                "name": "Peacekeeper",
+                "normalizedName": "peacekeeper",
+                "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+            },
+            "map": {
+                "id": "69af492a4819ea4ba10a69c5",
+                "name": "破冰船",
+                "normalizedName": "icebreaker"
+            },
+            "experience": 24000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Peaceful_Atom",
+            "minPlayerLevel": 0,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "69ce1de03e15cd80bd06f6c9",
+                        "name": "油料交换",
+                        "normalizedName": "oil-change",
+                        "taskImageLink": "https://assets.tarkov.dev/69ce1de03e15cd80bd06f6c9.webp",
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        }
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveQuestItem",
+                    "id": "69ce1f84ebbdbf36a200627e",
+                    "type": "findQuestItem",
+                    "description": "在破冰船上找到并获取核反应单元控制日志",
+                    "maps": [
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        }
+                    ],
+                    "optional": false,
+                    "questItem": {
+                        "id": "69bb42b9ce2b96840302b92b",
+                        "name": "核反应单元控制日志",
+                        "normalizedName": "69bb42b9ce2b96840302b92b",
+                        "shortName": "核日志",
+                        "description": "记录有安全参数、例行检查结果以及各项测量数据的核反应堆运行日志，确保破冰船核反应堆能够安全运行。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
+                    "count": 1,
+                    "possibleLocations": [],
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveQuestItem",
+                    "id": "69ce1f84ebbdbf36a200627f",
+                    "type": "giveQuestItem",
+                    "description": "上交找到的物品",
+                    "maps": [],
+                    "optional": false,
+                    "questItem": {
+                        "id": "69bb42b9ce2b96840302b92b",
+                        "name": "核反应单元控制日志",
+                        "normalizedName": "69bb42b9ce2b96840302b92b",
+                        "shortName": "核日志",
+                        "description": "记录有安全参数、例行检查结果以及各项测量数据的核反应堆运行日志，确保破冰船核反应堆能够安全运行。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
+                    "count": 1,
+                    "possibleLocations": [],
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [
+                    {
+                        "item": {
+                            "id": "6193e590069d61205d490dd8",
+                            "name": "HK G28 7.62x51 精确射手步枪 默认",
+                            "normalizedName": "hk-g28-762x51-marksman-rifle-default",
+                            "shortName": "G28 默认",
+                            "width": 6,
+                            "height": 3,
+                            "types": [
+                                "preset"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6193e590069d61205d490dd8-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/HK_G28_7.62x51_marksman_rifle"
+                        },
+                        "count": 1,
+                        "quantity": 1,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "6769b8e3c1a1466c850658a8",
+                            "name": "7.62x51mm M80A1 弹药包（20发装）",
+                            "normalizedName": "762x51mm-m80a1-ammo-pack-20-pcs",
+                            "shortName": "M80A1",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "ammoBox",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6769b8e3c1a1466c850658a8-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80A1_ammo_pack_(20_pcs)"
+                        },
+                        "count": 5,
+                        "quantity": 5,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "617131a4568c120fdd29482d",
+                            "name": "HK417/G28 7.62x51 20发弹匣",
+                            "normalizedName": "hk417g28-762x51-20-round-magazine",
+                            "shortName": "417 762",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "mods"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/617131a4568c120fdd29482d-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/HK417/G28_7.62x51_20-round_magazine"
+                        },
+                        "count": 3,
+                        "quantity": 3,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "5696686a4bdc2da3298b456a",
+                            "name": "美元",
+                            "normalizedName": "dollars",
+                            "shortName": "美元",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
+                        },
+                        "count": 3600,
+                        "quantity": 3600,
+                        "attributes": []
+                    }
+                ],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/69ce1f84ebbdbf36a200627c.webp"
+        },
+        {
+            "id": "69e5583240c3e6c8ba0edbd5",
+            "tarkovDataId": "69e5583240c3e6c8ba0edbd5",
+            "name": "窃听风暴",
+            "normalizedName": "wiring-the-vessel",
+            "trader": {
+                "id": "5935c25fb3acc3127c3d8cd9",
+                "name": "Peacekeeper",
+                "normalizedName": "peacekeeper",
+                "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+            },
+            "map": {
+                "id": "69af492a4819ea4ba10a69c5",
+                "name": "破冰船",
+                "normalizedName": "icebreaker"
+            },
+            "experience": 30000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Wiring_the_Vessel",
+            "minPlayerLevel": 0,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "69ce1f84ebbdbf36a200627c",
+                        "name": "和平原子",
+                        "normalizedName": "peaceful-atom",
+                        "taskImageLink": "https://assets.tarkov.dev/69ce1f84ebbdbf36a200627c.webp",
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        }
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69e5593e3f425636f1d762d9",
+                    "type": "plantItem",
+                    "description": "修复破冰船通往轮机舱路上自动化控制室内的设备",
+                    "maps": [
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        }
+                    ],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "590c2e1186f77425357b6124",
+                            "name": "一套工具",
+                            "normalizedName": "toolset",
+                            "shortName": "工具",
+                            "width": 2,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/590c2e1186f77425357b6124-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset"
+                        }
+                    ],
+                    "count": 1,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69e5594c6dd4d9e12fa3de0d",
+                    "type": "plantItem",
+                    "description": "修复破冰船轮机舱下方自动化控制室内的设备",
+                    "maps": [
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        }
+                    ],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "590c2e1186f77425357b6124",
+                            "name": "一套工具",
+                            "normalizedName": "toolset",
+                            "shortName": "工具",
+                            "width": 2,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/590c2e1186f77425357b6124-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset"
+                        }
+                    ],
+                    "count": 1,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69e559525afcf4e746e98e33",
+                    "type": "plantItem",
+                    "description": "修复破冰船靠近货舱位置自动化控制室内的设备",
+                    "maps": [
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        }
+                    ],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "590c2e1186f77425357b6124",
+                            "name": "一套工具",
+                            "normalizedName": "toolset",
+                            "shortName": "工具",
+                            "width": 2,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/590c2e1186f77425357b6124-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Toolset"
+                        }
+                    ],
+                    "count": 1,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "69e559bf4b53b554a2779130",
+                    "type": "plantItem",
+                    "description": "在破冰船主控室内安放黑客入侵装置",
+                    "maps": [
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        }
+                    ],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "68e63a53371639e1e4004b6e",
+                            "name": "本地网络黑客入侵装置",
+                            "normalizedName": "local-network-hacking-device",
+                            "shortName": "LAN黑客",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea",
+                                "specialSlot"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68e63a53371639e1e4004b6e-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Local_network_hacking_device"
+                        }
+                    ],
+                    "count": 1,
+                    "foundInRaid": false,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [
+                    {
+                        "item": {
+                            "id": "68e63a53371639e1e4004b6e",
+                            "name": "本地网络黑客入侵装置",
+                            "normalizedName": "local-network-hacking-device",
+                            "shortName": "LAN黑客",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea",
+                                "specialSlot"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68e63a53371639e1e4004b6e-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Local_network_hacking_device"
+                        },
+                        "count": 1,
+                        "quantity": 1,
+                        "attributes": []
+                    }
+                ],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [
+                    {
+                        "item": {
+                            "id": "5696686a4bdc2da3298b456a",
+                            "name": "美元",
+                            "normalizedName": "dollars",
+                            "shortName": "美元",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
+                        },
+                        "count": 5400,
+                        "quantity": 5400,
+                        "attributes": []
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "5d235bb686f77443f4331278-5935c25fb3acc3127c3d8cd9",
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        },
+                        "level": 1,
+                        "item": {
+                            "id": "5d235bb686f77443f4331278",
+                            "name": "SICC 收纳包",
+                            "normalizedName": "s-i-c-c-organizational-pouch",
+                            "shortName": "SICC",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "container",
+                                "markedOnly"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d235bb686f77443f4331278-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/S_I_C_C_organizational_pouch"
+                        }
+                    }
+                ],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/69e5583240c3e6c8ba0edbd5.webp"
         }
     ]
 }

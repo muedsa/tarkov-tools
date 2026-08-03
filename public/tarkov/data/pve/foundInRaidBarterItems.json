@@ -2640,6 +2640,72 @@
         "hideoutStations": []
     },
     {
+        "id": "69bb43df99f3fda8f1072483",
+        "name": "Nooby Shield 碘化钾片",
+        "normalizedName": "nooby-shield-potassium-iodide-tablets",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "69bb43df99f3fda8f1072483-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Nooby_Shield_potassium_iodide_tablets",
+        "tasks": [
+            {
+                "id": "69ce204c8702b378f9091e4b",
+                "name": "战争从未改变",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": false,
+                "count": 10,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "699f09de81a6c812900a77b7",
+        "name": "AMG-10 液压油",
+        "normalizedName": "amg-10-hydraulic-fluid",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "699f09de81a6c812900a77b7-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AMG-10_hydraulic_fluid",
+        "tasks": [
+            {
+                "id": "69ce1de03e15cd80bd06f6c9",
+                "name": "油料交换",
+                "trader": "Prapor",
+                "traderImageLink": "54cb50c76803fa8b248b4571.webp",
+                "kappaRequired": false,
+                "count": 5,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "69bb435ff609db77390b0e25",
+        "name": "Aceso Xpress 半自动生化分析仪",
+        "normalizedName": "aceso-xpress-semi-automatic-biochemical-analyzer",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "69bb435ff609db77390b0e25-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Aceso_Xpress_semi-automatic_biochemical_analyzer",
+        "tasks": [
+            {
+                "id": "69ce213a298a6529b30d7134",
+                "name": "生化分析",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": false,
+                "count": 3,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
         "id": "619cc01e0a7c3a1a2731940c",
         "name": "医疗工具",
         "normalizedName": "medical-tools",
