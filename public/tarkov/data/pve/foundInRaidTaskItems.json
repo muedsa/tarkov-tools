@@ -90,7 +90,6 @@
         "normalizedName": "tokarev-tt-33-762x25-tt-pistol-golden",
         "types": [
             "gun",
-            "noFlea",
             "wearable"
         ],
         "iconLink": "5b3b713c5acfc4330140bd8d-icon.webp",
@@ -272,8 +271,7 @@
         "name": "Shturman 的储物箱钥匙",
         "normalizedName": "shturmans-stash-key",
         "types": [
-            "keys",
-            "noFlea"
+            "keys"
         ],
         "iconLink": "5d08d21286f774736e7c94c3-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shturman%27s_stash_key",
@@ -285,48 +283,6 @@
                 "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
                 "kappaRequired": true,
                 "count": 1,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
-        "id": "5c10c8fd86f7743d7d706df3",
-        "name": "肾上腺素注射器",
-        "normalizedName": "adrenaline-injector",
-        "types": [
-            "injectors",
-            "meds",
-            "provisions"
-        ],
-        "iconLink": "5c10c8fd86f7743d7d706df3-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Adrenaline_injector",
-        "tasks": [
-            {
-                "id": "665eeca92f7aedcc900b0437",
-                "name": "口干舌燥 - 秘密配方",
-                "trader": "Therapist",
-                "traderImageLink": "54cb57776803fa99248b456e.webp",
-                "kappaRequired": false,
-                "count": 2,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
-        "id": "679b992329acd1f2f60985a5",
-        "name": "Labrys 研发记录",
-        "normalizedName": "labrys-research-notes",
-        "types": [],
-        "iconLink": "679b992329acd1f2f60985a5-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Labrys_research_notes",
-        "tasks": [
-            {
-                "id": "67a0970f05d1611ed90be75d",
-                "name": "检验假说",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 5,
                 "mixedItemsTask": false
             }
         ]
@@ -369,6 +325,48 @@
                 "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
                 "kappaRequired": true,
                 "count": 2,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5c10c8fd86f7743d7d706df3",
+        "name": "肾上腺素注射器",
+        "normalizedName": "adrenaline-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5c10c8fd86f7743d7d706df3-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Adrenaline_injector",
+        "tasks": [
+            {
+                "id": "665eeca92f7aedcc900b0437",
+                "name": "口干舌燥 - 秘密配方",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": false,
+                "count": 2,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "679b992329acd1f2f60985a5",
+        "name": "Labrys 研发记录",
+        "normalizedName": "labrys-research-notes",
+        "types": [],
+        "iconLink": "679b992329acd1f2f60985a5-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Labrys_research_notes",
+        "tasks": [
+            {
+                "id": "67a0970f05d1611ed90be75d",
+                "name": "检验假说",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 5,
                 "mixedItemsTask": false
             }
         ]
@@ -746,7 +744,6 @@
         "name": "PR-Taran警棍",
         "normalizedName": "pr-taran-police-baton",
         "types": [
-            "noFlea",
             "wearable"
         ],
         "iconLink": "6540d2162ae6d96b540afcaf-icon.webp",
@@ -902,7 +899,6 @@
         "normalizedName": "sanitars-bag",
         "types": [
             "backpack",
-            "noFlea",
             "wearable"
         ],
         "iconLink": "5e997f0b86f7741ac73993e2-icon.webp",
@@ -925,7 +921,6 @@
         "normalizedName": "crye-precision-avs-plate-carrier-tagilla-edition",
         "types": [
             "armor",
-            "noFlea",
             "rig",
             "wearable"
         ],
@@ -948,7 +943,6 @@
         "name": "LBT-1961A 承重胸挂（Goons特别版）",
         "normalizedName": "lbt-1961a-load-bearing-chest-rig-goons-edition",
         "types": [
-            "noFlea",
             "rig",
             "wearable"
         ],
