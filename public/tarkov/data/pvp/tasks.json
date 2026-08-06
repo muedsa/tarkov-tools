@@ -45,7 +45,7 @@
                         {
                             "id": "Sandbox_1_MedicalArea_exploration",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
+                                "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
                                 "x": 156.2,
@@ -80,7 +80,7 @@
                         {
                             "id": "Sandbox_1_MedicalArea_exploration",
                             "map": {
-                                "id": "65b8d6f5cdde2479cb2a3125"
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": 156.2,
@@ -1020,7 +1020,7 @@
                         {
                             "id": "Sandbox_2_Kord_exploration",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
+                                "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
                                 "x": 56.603,
@@ -1055,7 +1055,7 @@
                         {
                             "id": "Sandbox_2_Kord_exploration",
                             "map": {
-                                "id": "65b8d6f5cdde2479cb2a3125"
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": 56.603,
@@ -1112,7 +1112,7 @@
                         {
                             "id": "Sandbox_2_AGS_exploration",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
+                                "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
                                 "x": 101.043,
@@ -1147,7 +1147,7 @@
                         {
                             "id": "Sandbox_2_AGS_exploration",
                             "map": {
-                                "id": "65b8d6f5cdde2479cb2a3125"
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": 101.043,
@@ -1521,7 +1521,7 @@
                         {
                             "id": "Sandbox_5_Office_exploration",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
+                                "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
                                 "x": -13.48,
@@ -1556,7 +1556,7 @@
                         {
                             "id": "Sandbox_5_Office_exploration",
                             "map": {
-                                "id": "65b8d6f5cdde2479cb2a3125"
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": -13.48,
@@ -1613,7 +1613,7 @@
                         {
                             "id": "Sandbox_5_DeadGroup_exploration",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
+                                "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
                                 "x": -21.01,
@@ -1648,7 +1648,7 @@
                         {
                             "id": "Sandbox_5_DeadGroup_exploration",
                             "map": {
-                                "id": "65b8d6f5cdde2479cb2a3125"
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": -21.01,
@@ -1705,7 +1705,7 @@
                         {
                             "id": "Sandbox_5_Laborant_exploration",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
+                                "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
                                 "x": -60.45,
@@ -1740,7 +1740,7 @@
                         {
                             "id": "Sandbox_5_Laborant_exploration",
                             "map": {
-                                "id": "65b8d6f5cdde2479cb2a3125"
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": -60.45,
@@ -2499,76 +2499,6 @@
                         {
                             "id": "Sandbox_3_Vino_exploration",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
-                            },
-                            "position": {
-                                "x": 117.06,
-                                "y": 24.228,
-                                "z": 26.86
-                            },
-                            "outline": [
-                                {
-                                    "x": 105.56,
-                                    "y": 24.228,
-                                    "z": 20.210001
-                                },
-                                {
-                                    "x": 128.56,
-                                    "y": 24.228,
-                                    "z": 20.210001
-                                },
-                                {
-                                    "x": 128.56,
-                                    "y": 24.228,
-                                    "z": 33.5100021
-                                },
-                                {
-                                    "x": 105.56,
-                                    "y": 24.228,
-                                    "z": 33.5100021
-                                }
-                            ],
-                            "top": 25.728,
-                            "bottom": 22.728
-                        },
-                        {
-                            "id": "Sandbox_3_Vino_exploration",
-                            "map": {
-                                "id": "653e6760052c01c1c805532f"
-                            },
-                            "position": {
-                                "x": 117.06,
-                                "y": 24.228,
-                                "z": 26.86
-                            },
-                            "outline": [
-                                {
-                                    "x": 105.56,
-                                    "y": 24.228,
-                                    "z": 20.210001
-                                },
-                                {
-                                    "x": 128.56,
-                                    "y": 24.228,
-                                    "z": 20.210001
-                                },
-                                {
-                                    "x": 128.56,
-                                    "y": 24.228,
-                                    "z": 33.5100021
-                                },
-                                {
-                                    "x": 105.56,
-                                    "y": 24.228,
-                                    "z": 33.5100021
-                                }
-                            ],
-                            "top": 25.728,
-                            "bottom": 22.728
-                        },
-                        {
-                            "id": "Sandbox_3_Vino_exploration",
-                            "map": {
                                 "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
@@ -2605,6 +2535,76 @@
                             "id": "Sandbox_3_Vino_exploration",
                             "map": {
                                 "id": "65b8d6f5cdde2479cb2a3125"
+                            },
+                            "position": {
+                                "x": 117.06,
+                                "y": 24.228,
+                                "z": 26.86
+                            },
+                            "outline": [
+                                {
+                                    "x": 105.56,
+                                    "y": 24.228,
+                                    "z": 20.210001
+                                },
+                                {
+                                    "x": 128.56,
+                                    "y": 24.228,
+                                    "z": 20.210001
+                                },
+                                {
+                                    "x": 128.56,
+                                    "y": 24.228,
+                                    "z": 33.5100021
+                                },
+                                {
+                                    "x": 105.56,
+                                    "y": 24.228,
+                                    "z": 33.5100021
+                                }
+                            ],
+                            "top": 25.728,
+                            "bottom": 22.728
+                        },
+                        {
+                            "id": "Sandbox_3_Vino_exploration",
+                            "map": {
+                                "id": "653e6760052c01c1c805532f"
+                            },
+                            "position": {
+                                "x": 117.06,
+                                "y": 24.228,
+                                "z": 26.86
+                            },
+                            "outline": [
+                                {
+                                    "x": 105.56,
+                                    "y": 24.228,
+                                    "z": 20.210001
+                                },
+                                {
+                                    "x": 128.56,
+                                    "y": 24.228,
+                                    "z": 20.210001
+                                },
+                                {
+                                    "x": 128.56,
+                                    "y": 24.228,
+                                    "z": 33.5100021
+                                },
+                                {
+                                    "x": 105.56,
+                                    "y": 24.228,
+                                    "z": 33.5100021
+                                }
+                            ],
+                            "top": 25.728,
+                            "bottom": 22.728
+                        },
+                        {
+                            "id": "Sandbox_3_Vino_exploration",
+                            "map": {
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": 117.06,
@@ -13179,14 +13179,14 @@
                     "description": "在中心区找到阔剑地雷",
                     "maps": [
                         {
-                            "id": "653e6760052c01c1c805532f",
-                            "name": "中心区",
-                            "normalizedName": "ground-zero"
-                        },
-                        {
                             "id": "65b8d6f5cdde2479cb2a3125",
                             "name": "中心区 21+",
                             "normalizedName": "ground-zero-21"
+                        },
+                        {
+                            "id": "653e6760052c01c1c805532f",
+                            "name": "中心区",
+                            "normalizedName": "ground-zero"
                         }
                     ],
                     "optional": false,
@@ -13194,7 +13194,7 @@
                         {
                             "id": "Sandbox_mine_quest",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
+                                "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
                                 "x": 60.3543625,
@@ -13229,7 +13229,7 @@
                         {
                             "id": "Sandbox_mine_quest",
                             "map": {
-                                "id": "65b8d6f5cdde2479cb2a3125"
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": 60.3543625,
@@ -28487,7 +28487,7 @@
                         {
                             "id": "nt2024_5_throtil_epicentr",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
+                                "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
                                 "x": 107.46,
@@ -28522,7 +28522,7 @@
                         {
                             "id": "nt2024_5_throtil_epicentr",
                             "map": {
-                                "id": "65b8d6f5cdde2479cb2a3125"
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": 107.46,
@@ -54974,7 +54974,7 @@
                         {
                             "id": "event_labyrinth_01_mech_place_01",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
+                                "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
                                 "x": 55.26,
@@ -55009,7 +55009,7 @@
                         {
                             "id": "event_labyrinth_01_mech_place_01",
                             "map": {
-                                "id": "65b8d6f5cdde2479cb2a3125"
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": 55.26,
@@ -63681,14 +63681,14 @@
                     "description": "在中心区调查调查 TerraGroup 总部门前的公园",
                     "maps": [
                         {
-                            "id": "653e6760052c01c1c805532f",
-                            "name": "中心区",
-                            "normalizedName": "ground-zero"
-                        },
-                        {
                             "id": "65b8d6f5cdde2479cb2a3125",
                             "name": "中心区 21+",
                             "normalizedName": "ground-zero-21"
+                        },
+                        {
+                            "id": "653e6760052c01c1c805532f",
+                            "name": "中心区",
+                            "normalizedName": "ground-zero"
                         }
                     ],
                     "optional": false,
@@ -63696,7 +63696,7 @@
                         {
                             "id": "event_labyrinth_02_mech_place_01",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
+                                "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
                                 "x": -15.4,
@@ -63731,7 +63731,7 @@
                         {
                             "id": "event_labyrinth_02_mech_place_01",
                             "map": {
-                                "id": "65b8d6f5cdde2479cb2a3125"
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": -15.4,
@@ -71431,14 +71431,14 @@
                     "description": "在同场战局中侦察中心区 Mira 大道和高架路的交汇路口",
                     "maps": [
                         {
-                            "id": "653e6760052c01c1c805532f",
-                            "name": "中心区",
-                            "normalizedName": "ground-zero"
-                        },
-                        {
                             "id": "65b8d6f5cdde2479cb2a3125",
                             "name": "中心区 21+",
                             "normalizedName": "ground-zero-21"
+                        },
+                        {
+                            "id": "653e6760052c01c1c805532f",
+                            "name": "中心区",
+                            "normalizedName": "ground-zero"
                         }
                     ],
                     "optional": false,
@@ -71446,7 +71446,7 @@
                         {
                             "id": "Prospect_mira",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
+                                "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
                                 "x": 172.43,
@@ -71481,7 +71481,7 @@
                         {
                             "id": "Prospect_mira",
                             "map": {
-                                "id": "65b8d6f5cdde2479cb2a3125"
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": 172.43,
@@ -71523,14 +71523,14 @@
                     "description": "在同场战局中找到中心区通往塔科夫街区的道路",
                     "maps": [
                         {
-                            "id": "653e6760052c01c1c805532f",
-                            "name": "中心区",
-                            "normalizedName": "ground-zero"
-                        },
-                        {
                             "id": "65b8d6f5cdde2479cb2a3125",
                             "name": "中心区 21+",
                             "normalizedName": "ground-zero-21"
+                        },
+                        {
+                            "id": "653e6760052c01c1c805532f",
+                            "name": "中心区",
+                            "normalizedName": "ground-zero"
                         }
                     ],
                     "optional": false,
@@ -71538,7 +71538,7 @@
                         {
                             "id": "Transits_to_streets",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
+                                "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
                                 "x": 222.829117,
@@ -71573,7 +71573,7 @@
                         {
                             "id": "Transits_to_streets",
                             "map": {
-                                "id": "65b8d6f5cdde2479cb2a3125"
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": 222.829117,
@@ -97858,6 +97858,11 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
@@ -97866,11 +97871,6 @@
                             "id": "5b0fc42d86f7744a585f9105",
                             "name": "实验室",
                             "normalizedName": "the-lab"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -98066,6 +98066,11 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
@@ -98074,11 +98079,6 @@
                             "id": "5b0fc42d86f7744a585f9105",
                             "name": "实验室",
                             "normalizedName": "the-lab"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -98791,14 +98791,14 @@
                     "description": "在中心区虎胆龙威一展身手处安装 WI-FI 摄像头",
                     "maps": [
                         {
-                            "id": "653e6760052c01c1c805532f",
-                            "name": "中心区",
-                            "normalizedName": "ground-zero"
-                        },
-                        {
                             "id": "65b8d6f5cdde2479cb2a3125",
                             "name": "中心区 21+",
                             "normalizedName": "ground-zero-21"
+                        },
+                        {
+                            "id": "653e6760052c01c1c805532f",
+                            "name": "中心区",
+                            "normalizedName": "ground-zero"
                         }
                     ],
                     "optional": false,
@@ -98827,7 +98827,7 @@
                         {
                             "id": "zone_nakatoimi",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
+                                "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
                                 "x": 4.628006,
@@ -98862,7 +98862,7 @@
                         {
                             "id": "zone_nakatoimi",
                             "map": {
-                                "id": "65b8d6f5cdde2479cb2a3125"
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": 4.628006,
@@ -98904,14 +98904,14 @@
                     "description": "在中心区只有程序员才懂的笑话处安装 WI-FI 摄像头",
                     "maps": [
                         {
-                            "id": "653e6760052c01c1c805532f",
-                            "name": "中心区",
-                            "normalizedName": "ground-zero"
-                        },
-                        {
                             "id": "65b8d6f5cdde2479cb2a3125",
                             "name": "中心区 21+",
                             "normalizedName": "ground-zero-21"
+                        },
+                        {
+                            "id": "653e6760052c01c1c805532f",
+                            "name": "中心区",
+                            "normalizedName": "ground-zero"
                         }
                     ],
                     "optional": false,
@@ -98940,7 +98940,7 @@
                         {
                             "id": "zone_computer",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
+                                "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
                                 "x": 118.714516,
@@ -98975,7 +98975,7 @@
                         {
                             "id": "zone_computer",
                             "map": {
-                                "id": "65b8d6f5cdde2479cb2a3125"
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": 118.714516,
@@ -99017,14 +99017,14 @@
                     "description": "在中心区五黑一白椅子处安装 WI-FI 摄像头",
                     "maps": [
                         {
-                            "id": "653e6760052c01c1c805532f",
-                            "name": "中心区",
-                            "normalizedName": "ground-zero"
-                        },
-                        {
                             "id": "65b8d6f5cdde2479cb2a3125",
                             "name": "中心区 21+",
                             "normalizedName": "ground-zero-21"
+                        },
+                        {
+                            "id": "653e6760052c01c1c805532f",
+                            "name": "中心区",
+                            "normalizedName": "ground-zero"
                         }
                     ],
                     "optional": false,
@@ -99053,7 +99053,7 @@
                         {
                             "id": "zone_six_chair",
                             "map": {
-                                "id": "653e6760052c01c1c805532f"
+                                "id": "65b8d6f5cdde2479cb2a3125"
                             },
                             "position": {
                                 "x": 41.1,
@@ -99088,7 +99088,7 @@
                         {
                             "id": "zone_six_chair",
                             "map": {
-                                "id": "65b8d6f5cdde2479cb2a3125"
+                                "id": "653e6760052c01c1c805532f"
                             },
                             "position": {
                                 "x": 41.1,
@@ -109273,16 +109273,6 @@
                     "description": "找到并消灭邪教徒祭司",
                     "maps": [
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "65b8d6f5cdde2479cb2a3125",
                             "name": "中心区 21+",
                             "normalizedName": "ground-zero-21"
@@ -109296,6 +109286,16 @@
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
                         }
                     ],
                     "optional": false,
@@ -109867,16 +109867,6 @@
                     "description": "使用双管霰弹枪消灭邪教徒",
                     "maps": [
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "65b8d6f5cdde2479cb2a3125",
                             "name": "中心区 21+",
                             "normalizedName": "ground-zero-21"
@@ -109890,6 +109880,16 @@
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
                         }
                     ],
                     "optional": false,
@@ -118547,6 +118547,11 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
@@ -118555,11 +118560,6 @@
                             "id": "5b0fc42d86f7744a585f9105",
                             "name": "实验室",
                             "normalizedName": "the-lab"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -125908,14 +125908,14 @@
                     "description": "击杀游荡者",
                     "maps": [
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -126151,14 +126151,14 @@
                     "description": "击杀游荡者",
                     "maps": [
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -132582,6 +132582,21 @@
                     "description": "找到并击杀Knight",
                     "maps": [
                         {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
@@ -132590,21 +132605,6 @@
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -132636,16 +132636,6 @@
                     "description": "找到并击杀Big Pipe",
                     "maps": [
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -132654,6 +132644,16 @@
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         }
                     ],
                     "optional": false,
@@ -132685,16 +132685,6 @@
                     "description": "找到并击杀Birdeye",
                     "maps": [
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -132703,6 +132693,16 @@
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         }
                     ],
                     "optional": false,
@@ -162019,6 +162019,11 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
@@ -162027,11 +162032,6 @@
                             "id": "5b0fc42d86f7744a585f9105",
                             "name": "实验室",
                             "normalizedName": "the-lab"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -164769,6 +164769,16 @@
                             "normalizedName": "interchange"
                         },
                         {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
@@ -164777,16 +164787,6 @@
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -354434,16 +354434,6 @@
                     "description": "消灭游荡者",
                     "maps": [
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -354452,6 +354442,16 @@
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         },
                         {
                             "id": "69af492a4819ea4ba10a69c5",
