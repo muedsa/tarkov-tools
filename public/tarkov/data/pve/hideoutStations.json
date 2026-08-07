@@ -1541,7 +1541,7 @@
                             "id": "5d494a175b56502f18c98a04-1-7",
                             "item": {
                                 "id": "5bc9bc53d4351e00367fbcee",
-                                "name": "金公鸡",
+                                "name": "金公鸡塑像",
                                 "normalizedName": "golden-rooster-figurine",
                                 "shortName": "金鸡",
                                 "width": 2,
@@ -21076,7 +21076,7 @@
                         {
                             "item": {
                                 "id": "5e85a9f4add9fe03027d9bf1",
-                                "name": "23x75 毫米“红星”闪光弹",
+                                "name": "23x75毫米“红星”闪光弹",
                                 "normalizedName": "23x75mm-zvezda-flashbang-round",
                                 "shortName": "红星",
                                 "width": 1,
@@ -24798,7 +24798,7 @@
                         {
                             "item": {
                                 "id": "6a3d38063357ef2b260d1891",
-                                "name": "Icebreaker model kit",
+                                "name": "破冰船模型套件",
                                 "normalizedName": "icebreaker-model-kit",
                                 "shortName": "Boreas",
                                 "width": 3,
@@ -24819,7 +24819,7 @@
                         {
                             "item": {
                                 "id": "6a4ff1e23e95f68a650fcb13",
-                                "name": "Icebreaker model",
+                                "name": "破冰船模型套件",
                                 "normalizedName": "icebreaker-model",
                                 "shortName": "Boreas",
                                 "width": 3,
@@ -27395,7 +27395,7 @@
                         {
                             "item": {
                                 "id": "6a55f339fe4be93a04090acc",
-                                "name": "Data from Fence's laptop",
+                                "name": "从 Fence 笔记本提取的数据",
                                 "normalizedName": "data-from-fences-laptop",
                                 "shortName": "NODE-3",
                                 "width": 1,
@@ -30230,7 +30230,7 @@
                             "id": "5d494a295b56502f18c98a08-2-3",
                             "item": {
                                 "id": "5bc9bc53d4351e00367fbcee",
-                                "name": "金公鸡",
+                                "name": "金公鸡塑像",
                                 "normalizedName": "golden-rooster-figurine",
                                 "shortName": "金鸡",
                                 "width": 2,
