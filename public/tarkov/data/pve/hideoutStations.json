@@ -4822,18 +4822,7 @@
                         "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
                     },
                     "level": 3,
-                    "taskUnlock": {
-                        "id": "5c1141f386f77430ff393792",
-                        "name": "奢侈无罪 - 2",
-                        "normalizedName": "living-high-is-not-a-crime-part-2",
-                        "taskImageLink": "https://assets.tarkov.dev/5c1141f386f77430ff393792.webp",
-                        "trader": {
-                            "id": "5ac3b934156ae10c4430e83c",
-                            "name": "Ragman",
-                            "normalizedName": "ragman",
-                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
-                        }
-                    },
+                    "taskUnlock": null,
                     "duration": 8000,
                     "requiredQuestItems": [],
                     "requiredItems": [
@@ -5293,10 +5282,10 @@
                     },
                     "level": 2,
                     "taskUnlock": {
-                        "id": "5b478d0f86f7744d190d91b5",
-                        "name": "微型客车",
-                        "normalizedName": "minibus",
-                        "taskImageLink": "https://assets.tarkov.dev/5b478d0f86f7744d190d91b5.webp",
+                        "id": "66151401efb0539ae10875ae",
+                        "name": "人靠衣装 - 1",
+                        "normalizedName": "drip-out-part-1-usec",
+                        "taskImageLink": "https://assets.tarkov.dev/66151401efb0539ae10875ae.webp",
                         "trader": {
                             "id": "5ac3b934156ae10c4430e83c",
                             "name": "Ragman",
@@ -5653,7 +5642,18 @@
                         "imageLink": "https://assets.tarkov.dev/station-lavatory.png"
                     },
                     "level": 1,
-                    "taskUnlock": null,
+                    "taskUnlock": {
+                        "id": "59675d6c86f7740a842fc482",
+                        "name": "蛋卷冰淇淋",
+                        "normalizedName": "ice-cream-cones",
+                        "taskImageLink": "https://assets.tarkov.dev/59675d6c86f7740a842fc482.webp",
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        }
+                    },
                     "duration": 5000,
                     "requiredQuestItems": [],
                     "requiredItems": [
@@ -5838,10 +5838,10 @@
                     },
                     "level": 3,
                     "taskUnlock": {
-                        "id": "5ae4497b86f7744cf402ed00",
+                        "id": "5ae4496986f774459e77beb6",
                         "name": "临行密密缝 - 4",
                         "normalizedName": "sew-it-good-part-4",
-                        "taskImageLink": "https://assets.tarkov.dev/5ae4497b86f7744cf402ed00.webp",
+                        "taskImageLink": "https://assets.tarkov.dev/5ae4496986f774459e77beb6.webp",
                         "trader": {
                             "id": "5ac3b934156ae10c4430e83c",
                             "name": "Ragman",
@@ -8865,10 +8865,10 @@
                     },
                     "level": 1,
                     "taskUnlock": {
-                        "id": "5ae4495086f77443c122bc40",
-                        "name": "临行密密缝 - 1",
-                        "normalizedName": "sew-it-good-part-1",
-                        "taskImageLink": "https://assets.tarkov.dev/5ae4495086f77443c122bc40.webp",
+                        "id": "5ae4497b86f7744cf402ed00",
+                        "name": "临行密密缝 - 2",
+                        "normalizedName": "sew-it-good-part-2",
+                        "taskImageLink": "https://assets.tarkov.dev/5ae4497b86f7744cf402ed00.webp",
                         "trader": {
                             "id": "5ac3b934156ae10c4430e83c",
                             "name": "Ragman",
@@ -10872,7 +10872,18 @@
                         "imageLink": "https://assets.tarkov.dev/station-medstation.png"
                     },
                     "level": 1,
-                    "taskUnlock": null,
+                    "taskUnlock": {
+                        "id": "5967733e86f774602332fc84",
+                        "name": "短缺",
+                        "normalizedName": "shortage",
+                        "taskImageLink": "https://assets.tarkov.dev/5967733e86f774602332fc84.webp",
+                        "trader": {
+                            "id": "54cb57776803fa99248b456e",
+                            "name": "Therapist",
+                            "normalizedName": "therapist",
+                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+                        }
+                    },
                     "duration": 2350,
                     "requiredQuestItems": [],
                     "requiredItems": [
@@ -11241,10 +11252,10 @@
                     },
                     "level": 2,
                     "taskUnlock": {
-                        "id": "60e71c48c1bfa3050473b8e5",
-                        "name": "急单",
-                        "normalizedName": "crisis",
-                        "taskImageLink": "https://assets.tarkov.dev/60e71c48c1bfa3050473b8e5.webp",
+                        "id": "5c0d1c4cd0928202a02a6f5c",
+                        "name": "灭虫服务",
+                        "normalizedName": "decontamination-service",
+                        "taskImageLink": "https://assets.tarkov.dev/5c0d1c4cd0928202a02a6f5c.webp",
                         "trader": {
                             "id": "54cb57776803fa99248b456e",
                             "name": "Therapist",
@@ -12048,10 +12059,10 @@
                     },
                     "level": 2,
                     "taskUnlock": {
-                        "id": "60e71c48c1bfa3050473b8e5",
-                        "name": "急单",
-                        "normalizedName": "crisis",
-                        "taskImageLink": "https://assets.tarkov.dev/60e71c48c1bfa3050473b8e5.webp",
+                        "id": "66aba85403e0ee3101042877",
+                        "name": "街区之下",
+                        "normalizedName": "beneath-the-streets",
+                        "taskImageLink": "https://assets.tarkov.dev/66aba85403e0ee3101042877.webp",
                         "trader": {
                             "id": "54cb57776803fa99248b456e",
                             "name": "Therapist",
@@ -12263,10 +12274,10 @@
                     },
                     "level": 2,
                     "taskUnlock": {
-                        "id": "60e71c11d54b755a3b53eb65",
-                        "name": "夜间扫荡",
-                        "normalizedName": "night-sweep",
-                        "taskImageLink": "https://assets.tarkov.dev/60e71c11d54b755a3b53eb65.webp",
+                        "id": "597a0b2986f77426d66c0633",
+                        "name": "化学品 - 2",
+                        "normalizedName": "chemical-part-2",
+                        "taskImageLink": "https://assets.tarkov.dev/597a0b2986f77426d66c0633.webp",
                         "trader": {
                             "id": "58330581ace78e27b8b10cee",
                             "name": "Skier",
@@ -13437,18 +13448,7 @@
                         "imageLink": "https://assets.tarkov.dev/station-medstation.png"
                     },
                     "level": 2,
-                    "taskUnlock": {
-                        "id": "665eeca92f7aedcc900b0437",
-                        "name": "口干舌燥 - 秘密配方",
-                        "normalizedName": "thirsty-secrets",
-                        "taskImageLink": "https://assets.tarkov.dev/665eeca92f7aedcc900b0437.webp",
-                        "trader": {
-                            "id": "54cb57776803fa99248b456e",
-                            "name": "Therapist",
-                            "normalizedName": "therapist",
-                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
-                        }
-                    },
+                    "taskUnlock": null,
                     "duration": 4800,
                     "requiredQuestItems": [],
                     "requiredItems": [
@@ -15071,7 +15071,18 @@
                         "imageLink": "https://assets.tarkov.dev/station-nutrition-unit.png"
                     },
                     "level": 1,
-                    "taskUnlock": null,
+                    "taskUnlock": {
+                        "id": "5ac3475486f7741d6224abd3",
+                        "name": "不良嗜好",
+                        "normalizedName": "bad-habit",
+                        "taskImageLink": "https://assets.tarkov.dev/5ac3475486f7741d6224abd3.webp",
+                        "trader": {
+                            "id": "5a7c2eca46aef81a7ca2145d",
+                            "name": "Mechanic",
+                            "normalizedName": "mechanic",
+                            "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
+                        }
+                    },
                     "duration": 6100,
                     "requiredQuestItems": [],
                     "requiredItems": [
@@ -15397,7 +15408,18 @@
                         "imageLink": "https://assets.tarkov.dev/station-nutrition-unit.png"
                     },
                     "level": 1,
-                    "taskUnlock": null,
+                    "taskUnlock": {
+                        "id": "596a1e6c86f7741ddc2d3206",
+                        "name": "一般储备",
+                        "normalizedName": "general-wares",
+                        "taskImageLink": "https://assets.tarkov.dev/596a1e6c86f7741ddc2d3206.webp",
+                        "trader": {
+                            "id": "54cb57776803fa99248b456e",
+                            "name": "Therapist",
+                            "normalizedName": "therapist",
+                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+                        }
+                    },
                     "duration": 4710,
                     "requiredQuestItems": [],
                     "requiredItems": [
@@ -17268,8 +17290,8 @@
                     "level": 2,
                     "taskUnlock": {
                         "id": "59c512ad86f7741f0d09de9b",
-                        "name": "惩罚者 - 3",
-                        "normalizedName": "the-punisher-part-3",
+                        "name": "惩罚者 - 1",
+                        "normalizedName": "the-punisher-part-1",
                         "taskImageLink": "https://assets.tarkov.dev/59c512ad86f7741f0d09de9b.webp",
                         "trader": {
                             "id": "54cb50c76803fa8b248b4571",
@@ -17903,7 +17925,18 @@
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
                     "level": 1,
-                    "taskUnlock": null,
+                    "taskUnlock": {
+                        "id": "596a218586f77420d232807c",
+                        "name": "汽车修理",
+                        "normalizedName": "car-repair",
+                        "taskImageLink": "https://assets.tarkov.dev/596a218586f77420d232807c.webp",
+                        "trader": {
+                            "id": "54cb57776803fa99248b456e",
+                            "name": "Therapist",
+                            "normalizedName": "therapist",
+                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+                        }
+                    },
                     "duration": 10000,
                     "requiredQuestItems": [],
                     "requiredItems": [
@@ -18138,10 +18171,10 @@
                     },
                     "level": 3,
                     "taskUnlock": {
-                        "id": "6179ad0a6e9dd54ac275e3f2",
-                        "name": "猎人之路 - 流浪汉",
-                        "normalizedName": "the-huntsman-path-outcasts",
-                        "taskImageLink": "https://assets.tarkov.dev/6179ad0a6e9dd54ac275e3f2.webp",
+                        "id": "5d25d2c186f77443e35162e5",
+                        "name": "生存者之路 - 冷血",
+                        "normalizedName": "the-survivalist-path-cold-blooded",
+                        "taskImageLink": "https://assets.tarkov.dev/5d25d2c186f77443e35162e5.webp",
                         "trader": {
                             "id": "5c0647fdd443bc2504c2d371",
                             "name": "Jaeger",
@@ -18264,10 +18297,10 @@
                     },
                     "level": 3,
                     "taskUnlock": {
-                        "id": "5a27bc8586f7741b543d8ea4",
-                        "name": "湿活 - 6",
-                        "normalizedName": "wet-job-part-6",
-                        "taskImageLink": "https://assets.tarkov.dev/5a27bc8586f7741b543d8ea4.webp",
+                        "id": "5a27bc3686f7741c73584026",
+                        "name": "湿活 - 4",
+                        "normalizedName": "wet-job-part-4",
+                        "taskImageLink": "https://assets.tarkov.dev/5a27bc3686f7741c73584026.webp",
                         "trader": {
                             "id": "5935c25fb3acc3127c3d8cd9",
                             "name": "Peacekeeper",
@@ -22004,8 +22037,8 @@
                     "level": 2,
                     "taskUnlock": {
                         "id": "5c0bd94186f7747a727f09b2",
-                        "name": "试驾 - 1",
-                        "normalizedName": "test-drive-part-1",
+                        "name": "塔市进口货",
+                        "normalizedName": "the-tarkov-import",
                         "taskImageLink": "https://assets.tarkov.dev/5c0bd94186f7747a727f09b2.webp",
                         "trader": {
                             "id": "54cb50c76803fa8b248b4571",
@@ -22146,10 +22179,10 @@
                     },
                     "level": 3,
                     "taskUnlock": {
-                        "id": "5b47825886f77468074618d3",
-                        "name": "枪匠 - 22",
-                        "normalizedName": "gunsmith-part-22",
-                        "taskImageLink": "https://assets.tarkov.dev/5b47825886f77468074618d3.webp",
+                        "id": "64f83bcdde58fc437700d8fa",
+                        "name": "枪匠大师 - 11",
+                        "normalizedName": "gunsmith-master-part-11",
+                        "taskImageLink": "https://assets.tarkov.dev/64f83bcdde58fc437700d8fa.webp",
                         "trader": {
                             "id": "5a7c2eca46aef81a7ca2145d",
                             "name": "Mechanic",
@@ -22715,10 +22748,10 @@
                     },
                     "level": 2,
                     "taskUnlock": {
-                        "id": "5a27bb8386f7741c770d2d0a",
-                        "name": "湿活 - 1",
-                        "normalizedName": "wet-job-part-1",
-                        "taskImageLink": "https://assets.tarkov.dev/5a27bb8386f7741c770d2d0a.webp",
+                        "id": "5a27bc1586f7741f6d40fa2f",
+                        "name": "湿活 - 3",
+                        "normalizedName": "wet-job-part-3",
+                        "taskImageLink": "https://assets.tarkov.dev/5a27bc1586f7741f6d40fa2f.webp",
                         "trader": {
                             "id": "5935c25fb3acc3127c3d8cd9",
                             "name": "Peacekeeper",
@@ -23069,10 +23102,10 @@
                     },
                     "level": 3,
                     "taskUnlock": {
-                        "id": "5bc4856986f77454c317bea7",
-                        "name": "塔科夫神射手 - 7",
-                        "normalizedName": "the-tarkov-shooter-part-7",
-                        "taskImageLink": "https://assets.tarkov.dev/5bc4856986f77454c317bea7.webp",
+                        "id": "5bc480a686f7741af0342e29",
+                        "name": "塔科夫神射手 - 4",
+                        "normalizedName": "the-tarkov-shooter-part-4",
+                        "taskImageLink": "https://assets.tarkov.dev/5bc480a686f7741af0342e29.webp",
                         "trader": {
                             "id": "5c0647fdd443bc2504c2d371",
                             "name": "Jaeger",
@@ -23532,10 +23565,10 @@
                     },
                     "level": 2,
                     "taskUnlock": {
-                        "id": "5c0d190cd09282029f5390d8",
-                        "name": "掷弹兵",
-                        "normalizedName": "grenadier",
-                        "taskImageLink": "https://assets.tarkov.dev/5c0d190cd09282029f5390d8.webp",
+                        "id": "64f5deac39e45b527a7c4232",
+                        "name": "爱国者的使命",
+                        "normalizedName": "job-for-a-patriot",
+                        "taskImageLink": "https://assets.tarkov.dev/64f5deac39e45b527a7c4232.webp",
                         "trader": {
                             "id": "54cb50c76803fa8b248b4571",
                             "name": "Prapor",
@@ -23923,10 +23956,10 @@
                     },
                     "level": 3,
                     "taskUnlock": {
-                        "id": "60e71c9ad54b755a3b53eb66",
-                        "name": "清洁工",
-                        "normalizedName": "the-cleaner",
-                        "taskImageLink": "https://assets.tarkov.dev/60e71c9ad54b755a3b53eb66.webp",
+                        "id": "63a9b229813bba58a50c9ee5",
+                        "name": "最烂的差事",
+                        "normalizedName": "worst-job-in-the-world",
+                        "taskImageLink": "https://assets.tarkov.dev/63a9b229813bba58a50c9ee5.webp",
                         "trader": {
                             "id": "5935c25fb3acc3127c3d8cd9",
                             "name": "Peacekeeper",
@@ -24151,18 +24184,7 @@
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
                     "level": 3,
-                    "taskUnlock": {
-                        "id": "639135534b15ca31f76bc317",
-                        "name": "你的车该洗了",
-                        "normalizedName": "your-car-needs-a-service",
-                        "taskImageLink": "https://assets.tarkov.dev/639135534b15ca31f76bc317.webp",
-                        "trader": {
-                            "id": "5935c25fb3acc3127c3d8cd9",
-                            "name": "Peacekeeper",
-                            "normalizedName": "peacekeeper",
-                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                        }
-                    },
+                    "taskUnlock": null,
                     "duration": 8400,
                     "requiredQuestItems": [],
                     "requiredItems": [
@@ -24278,7 +24300,18 @@
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
                     "level": 1,
-                    "taskUnlock": null,
+                    "taskUnlock": {
+                        "id": "5d4bec3486f7743cac246665",
+                        "name": "管制材料",
+                        "normalizedName": "regulated-materials",
+                        "taskImageLink": "https://assets.tarkov.dev/5d4bec3486f7743cac246665.webp",
+                        "trader": {
+                            "id": "54cb50c76803fa8b248b4571",
+                            "name": "Prapor",
+                            "normalizedName": "prapor",
+                            "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
+                        }
+                    },
                     "duration": 79200,
                     "requiredQuestItems": [],
                     "requiredItems": [
@@ -24965,10 +24998,10 @@
                     },
                     "level": 3,
                     "taskUnlock": {
-                        "id": "64e7b9bffd30422ed03dad38",
-                        "name": "出警 - 巡逻",
-                        "normalizedName": "gendarmerie-district-patrol",
-                        "taskImageLink": "https://assets.tarkov.dev/64e7b9bffd30422ed03dad38.webp",
+                        "id": "675c1ff1a757ddd00404f0aa",
+                        "name": "体验独一份",
+                        "normalizedName": "unique-experience",
+                        "taskImageLink": "https://assets.tarkov.dev/675c1ff1a757ddd00404f0aa.webp",
                         "trader": {
                             "id": "54cb50c76803fa8b248b4571",
                             "name": "Prapor",
@@ -25312,18 +25345,7 @@
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
                     "level": 1,
-                    "taskUnlock": {
-                        "id": "5c1234c286f77406fa13baeb",
-                        "name": "借刀杀人",
-                        "normalizedName": "setup",
-                        "taskImageLink": "https://assets.tarkov.dev/5c1234c286f77406fa13baeb.webp",
-                        "trader": {
-                            "id": "58330581ace78e27b8b10cee",
-                            "name": "Skier",
-                            "normalizedName": "skier",
-                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
-                        }
-                    },
+                    "taskUnlock": null,
                     "duration": 3000,
                     "requiredQuestItems": [],
                     "requiredItems": [
