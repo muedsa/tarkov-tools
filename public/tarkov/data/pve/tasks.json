@@ -7767,14 +7767,14 @@
                     "description": "在工厂需要破门的位置找到合适的绊线布设点位",
                     "maps": [
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
                         }
                     ],
                     "optional": false,
@@ -7782,7 +7782,7 @@
                         {
                             "id": "Check_mine_zone_factory",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 25.35,
@@ -7817,7 +7817,7 @@
                         {
                             "id": "Check_mine_zone_factory",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 25.35,
@@ -11165,6 +11165,11 @@
                     "description": "在疼痛状态下消灭 Scav",
                     "maps": [
                         {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
+                        },
+                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -11203,11 +11208,6 @@
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
                         },
                         {
                             "id": "5704e554d2720bac5b8b456e",
@@ -14058,6 +14058,11 @@
                     "description": "在任意地图使用 Steyr AUG 消灭 Scav",
                     "maps": [
                         {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
+                        },
+                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -14096,11 +14101,6 @@
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
                         },
                         {
                             "id": "5704e554d2720bac5b8b456e",
@@ -24605,7 +24605,7 @@
                         {
                             "id": "nf2024_2_1",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 62.68,
@@ -24640,7 +24640,7 @@
                         {
                             "id": "nf2024_2_1",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 62.68,
@@ -24697,7 +24697,7 @@
                         {
                             "id": "nf2024_2_2",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 71.02,
@@ -24732,7 +24732,7 @@
                         {
                             "id": "nf2024_2_2",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 71.02,
@@ -24789,7 +24789,7 @@
                         {
                             "id": "nf2024_2_3",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 64.97,
@@ -24824,7 +24824,7 @@
                         {
                             "id": "nf2024_2_3",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 64.97,
@@ -24881,7 +24881,7 @@
                         {
                             "id": "nf2024_2_4",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": -31.57,
@@ -24916,7 +24916,7 @@
                         {
                             "id": "nf2024_2_4",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": -31.57,
@@ -24973,7 +24973,7 @@
                         {
                             "id": "nf2024_2_5",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 22.58,
@@ -25008,7 +25008,7 @@
                         {
                             "id": "nf2024_2_5",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 22.58,
@@ -25065,7 +25065,7 @@
                         {
                             "id": "nf2024_2_6",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 21.868,
@@ -25100,7 +25100,7 @@
                         {
                             "id": "nf2024_2_6",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 21.868,
@@ -25157,7 +25157,7 @@
                         {
                             "id": "nf2024_2_7",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 12.37,
@@ -25192,7 +25192,7 @@
                         {
                             "id": "nf2024_2_7",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 12.37,
@@ -25249,7 +25249,7 @@
                         {
                             "id": "nf2024_2_8",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": -15.77,
@@ -25284,7 +25284,7 @@
                         {
                             "id": "nf2024_2_8",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": -15.77,
@@ -25341,7 +25341,7 @@
                         {
                             "id": "nf2024_2_9",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 13.63,
@@ -25376,7 +25376,7 @@
                         {
                             "id": "nf2024_2_9",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 13.63,
@@ -25433,7 +25433,7 @@
                         {
                             "id": "nf2024_2_10",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 53.37,
@@ -25468,7 +25468,7 @@
                         {
                             "id": "nf2024_2_10",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 53.37,
@@ -25525,7 +25525,7 @@
                         {
                             "id": "nf2024_2_11",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 18.3,
@@ -25560,7 +25560,7 @@
                         {
                             "id": "nf2024_2_11",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 18.3,
@@ -25617,7 +25617,7 @@
                         {
                             "id": "nf2024_2_12",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 58.323,
@@ -25652,7 +25652,7 @@
                         {
                             "id": "nf2024_2_12",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 58.323,
@@ -25889,7 +25889,7 @@
                         {
                             "id": "nf2024_10_1",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 17.81,
@@ -25924,7 +25924,7 @@
                         {
                             "id": "nf2024_10_1",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 17.81,
@@ -26001,7 +26001,7 @@
                         {
                             "id": "nf2024_10_2",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 6.756,
@@ -26036,7 +26036,7 @@
                         {
                             "id": "nf2024_10_2",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 6.756,
@@ -26113,7 +26113,7 @@
                         {
                             "id": "nf2024_10_3",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": -4.36,
@@ -26148,7 +26148,7 @@
                         {
                             "id": "nf2024_10_3",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": -4.36,
@@ -42361,14 +42361,14 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         },
                         {
                             "id": "5b0fc42d86f7744a585f9105",
@@ -51943,6 +51943,11 @@
                     "description": "使用轻机枪消灭 Scav",
                     "maps": [
                         {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
+                        },
+                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -51981,11 +51986,6 @@
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
                         },
                         {
                             "id": "5704e554d2720bac5b8b456e",
@@ -52787,14 +52787,14 @@
                             "normalizedName": "shoreline"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
                         },
                         {
                             "id": "6a294a5b5eb5f9a1700417b7",
@@ -72706,14 +72706,14 @@
                             "normalizedName": "shoreline"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
                         },
                         {
                             "id": "5704e4dad2720bb55b8b4567",
@@ -76052,6 +76052,11 @@
                     "description": "找到并消灭Tagilla",
                     "maps": [
                         {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
+                        },
+                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -76060,11 +76065,6 @@
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
-                        },
-                        {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
                         }
                     ],
                     "optional": false,
@@ -77195,14 +77195,14 @@
                     "description": "设法进入工厂办公区三楼的上锁房间",
                     "maps": [
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
                         }
                     ],
                     "optional": true,
@@ -77210,7 +77210,7 @@
                         {
                             "id": "locked_office",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 30.131813,
@@ -77245,7 +77245,7 @@
                         {
                             "id": "locked_office",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 30.131813,
@@ -88458,7 +88458,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_01",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 66.665,
@@ -88493,7 +88493,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_01",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 66.665,
@@ -88550,7 +88550,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_02",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": -53.107,
@@ -88585,7 +88585,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_02",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": -53.107,
@@ -88642,7 +88642,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_03",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 59.698,
@@ -88677,7 +88677,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_03",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 59.698,
@@ -88734,7 +88734,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_04",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": -18.4,
@@ -88769,7 +88769,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_04",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": -18.4,
@@ -95891,6 +95891,11 @@
                             "normalizedName": "streets-of-tarkov"
                         },
                         {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
+                        },
+                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -95929,11 +95934,6 @@
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
                         },
                         {
                             "id": "5704e554d2720bac5b8b456e",
@@ -107474,14 +107474,14 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         },
                         {
                             "id": "5b0fc42d86f7744a585f9105",
@@ -113002,6 +113002,11 @@
                     "description": "命中头部击杀Scav",
                     "maps": [
                         {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
+                        },
+                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -113040,11 +113045,6 @@
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
                         },
                         {
                             "id": "5704e554d2720bac5b8b456e",
@@ -127308,14 +127308,14 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         },
                         {
                             "id": "5b0fc42d86f7744a585f9105",
@@ -135982,14 +135982,14 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         },
                         {
                             "id": "5b0fc42d86f7744a585f9105",
@@ -136219,6 +136219,11 @@
                     "description": "6667196a74bbc3a671ef49f8",
                     "maps": [
                         {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
+                        },
+                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -136257,11 +136262,6 @@
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
                         },
                         {
                             "id": "5704e554d2720bac5b8b456e",
@@ -137359,14 +137359,14 @@
                             "normalizedName": "shoreline"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
                         }
                     ],
                     "optional": false,
@@ -138305,7 +138305,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 19.81,
@@ -138340,7 +138340,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": -51.08,
@@ -138375,7 +138375,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 19.81,
@@ -138410,7 +138410,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 64.99,
@@ -138445,7 +138445,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 19.81,
@@ -138480,7 +138480,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": -51.08,
@@ -138515,7 +138515,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 19.81,
@@ -138550,7 +138550,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 64.99,
@@ -330390,146 +330390,6 @@
                         {
                             "id": "exit777",
                             "map": {
-                                "id": "56f40101d2720b2a4d8b45d6"
-                            },
-                            "position": {
-                                "x": -41.5100021,
-                                "y": -12.633,
-                                "z": 122.67
-                            },
-                            "outline": [
-                                {
-                                    "x": -47.15104,
-                                    "y": -12.633,
-                                    "z": 113.687866
-                                },
-                                {
-                                    "x": -32.52787,
-                                    "y": -12.633,
-                                    "z": 117.028961
-                                },
-                                {
-                                    "x": -35.86896,
-                                    "y": -12.633,
-                                    "z": 131.65213
-                                },
-                                {
-                                    "x": -50.4921341,
-                                    "y": -12.633,
-                                    "z": 128.311035
-                                }
-                            ],
-                            "top": -11.133,
-                            "bottom": -14.133
-                        },
-                        {
-                            "id": "exit777",
-                            "map": {
-                                "id": "56f40101d2720b2a4d8b45d6"
-                            },
-                            "position": {
-                                "x": 463.18,
-                                "y": -1.46,
-                                "z": -112.36
-                            },
-                            "outline": [
-                                {
-                                    "x": 457.8446,
-                                    "y": -1.46,
-                                    "z": -114.028442
-                                },
-                                {
-                                    "x": 467.715973,
-                                    "y": -1.46,
-                                    "z": -115.627243
-                                },
-                                {
-                                    "x": 468.515381,
-                                    "y": -1.46,
-                                    "z": -110.691559
-                                },
-                                {
-                                    "x": 458.644,
-                                    "y": -1.46,
-                                    "z": -109.092758
-                                }
-                            ],
-                            "top": 0.03999996,
-                            "bottom": -2.96
-                        },
-                        {
-                            "id": "exit777",
-                            "map": {
-                                "id": "56f40101d2720b2a4d8b45d6"
-                            },
-                            "position": {
-                                "x": -41.5100021,
-                                "y": -12.633,
-                                "z": 122.67
-                            },
-                            "outline": [
-                                {
-                                    "x": -47.15104,
-                                    "y": -12.633,
-                                    "z": 113.687866
-                                },
-                                {
-                                    "x": -32.52787,
-                                    "y": -12.633,
-                                    "z": 117.028961
-                                },
-                                {
-                                    "x": -35.86896,
-                                    "y": -12.633,
-                                    "z": 131.65213
-                                },
-                                {
-                                    "x": -50.4921341,
-                                    "y": -12.633,
-                                    "z": 128.311035
-                                }
-                            ],
-                            "top": -11.133,
-                            "bottom": -14.133
-                        },
-                        {
-                            "id": "exit777",
-                            "map": {
-                                "id": "56f40101d2720b2a4d8b45d6"
-                            },
-                            "position": {
-                                "x": 463.18,
-                                "y": -1.46,
-                                "z": -112.36
-                            },
-                            "outline": [
-                                {
-                                    "x": 457.8446,
-                                    "y": -1.46,
-                                    "z": -114.028442
-                                },
-                                {
-                                    "x": 467.715973,
-                                    "y": -1.46,
-                                    "z": -115.627243
-                                },
-                                {
-                                    "x": 468.515381,
-                                    "y": -1.46,
-                                    "z": -110.691559
-                                },
-                                {
-                                    "x": 458.644,
-                                    "y": -1.46,
-                                    "z": -109.092758
-                                }
-                            ],
-                            "top": 0.03999996,
-                            "bottom": -2.96
-                        },
-                        {
-                            "id": "exit777",
-                            "map": {
                                 "id": "6733700029c367a3d40b02af"
                             },
                             "position": {
@@ -330561,6 +330421,146 @@
                             ],
                             "top": 2.57000017,
                             "bottom": -0.429999948
+                        },
+                        {
+                            "id": "exit777",
+                            "map": {
+                                "id": "56f40101d2720b2a4d8b45d6"
+                            },
+                            "position": {
+                                "x": -41.5100021,
+                                "y": -12.633,
+                                "z": 122.67
+                            },
+                            "outline": [
+                                {
+                                    "x": -47.15104,
+                                    "y": -12.633,
+                                    "z": 113.687866
+                                },
+                                {
+                                    "x": -32.52787,
+                                    "y": -12.633,
+                                    "z": 117.028961
+                                },
+                                {
+                                    "x": -35.86896,
+                                    "y": -12.633,
+                                    "z": 131.65213
+                                },
+                                {
+                                    "x": -50.4921341,
+                                    "y": -12.633,
+                                    "z": 128.311035
+                                }
+                            ],
+                            "top": -11.133,
+                            "bottom": -14.133
+                        },
+                        {
+                            "id": "exit777",
+                            "map": {
+                                "id": "56f40101d2720b2a4d8b45d6"
+                            },
+                            "position": {
+                                "x": 463.18,
+                                "y": -1.46,
+                                "z": -112.36
+                            },
+                            "outline": [
+                                {
+                                    "x": 457.8446,
+                                    "y": -1.46,
+                                    "z": -114.028442
+                                },
+                                {
+                                    "x": 467.715973,
+                                    "y": -1.46,
+                                    "z": -115.627243
+                                },
+                                {
+                                    "x": 468.515381,
+                                    "y": -1.46,
+                                    "z": -110.691559
+                                },
+                                {
+                                    "x": 458.644,
+                                    "y": -1.46,
+                                    "z": -109.092758
+                                }
+                            ],
+                            "top": 0.03999996,
+                            "bottom": -2.96
+                        },
+                        {
+                            "id": "exit777",
+                            "map": {
+                                "id": "56f40101d2720b2a4d8b45d6"
+                            },
+                            "position": {
+                                "x": -41.5100021,
+                                "y": -12.633,
+                                "z": 122.67
+                            },
+                            "outline": [
+                                {
+                                    "x": -47.15104,
+                                    "y": -12.633,
+                                    "z": 113.687866
+                                },
+                                {
+                                    "x": -32.52787,
+                                    "y": -12.633,
+                                    "z": 117.028961
+                                },
+                                {
+                                    "x": -35.86896,
+                                    "y": -12.633,
+                                    "z": 131.65213
+                                },
+                                {
+                                    "x": -50.4921341,
+                                    "y": -12.633,
+                                    "z": 128.311035
+                                }
+                            ],
+                            "top": -11.133,
+                            "bottom": -14.133
+                        },
+                        {
+                            "id": "exit777",
+                            "map": {
+                                "id": "56f40101d2720b2a4d8b45d6"
+                            },
+                            "position": {
+                                "x": 463.18,
+                                "y": -1.46,
+                                "z": -112.36
+                            },
+                            "outline": [
+                                {
+                                    "x": 457.8446,
+                                    "y": -1.46,
+                                    "z": -114.028442
+                                },
+                                {
+                                    "x": 467.715973,
+                                    "y": -1.46,
+                                    "z": -115.627243
+                                },
+                                {
+                                    "x": 468.515381,
+                                    "y": -1.46,
+                                    "z": -110.691559
+                                },
+                                {
+                                    "x": 458.644,
+                                    "y": -1.46,
+                                    "z": -109.092758
+                                }
+                            ],
+                            "top": 0.03999996,
+                            "bottom": -2.96
                         }
                     ],
                     "requiredKeys": null
