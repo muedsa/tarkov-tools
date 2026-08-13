@@ -7767,14 +7767,14 @@
                     "description": "在工厂需要破门的位置找到合适的绊线布设点位",
                     "maps": [
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         }
                     ],
                     "optional": false,
@@ -7782,7 +7782,7 @@
                         {
                             "id": "Check_mine_zone_factory",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 25.35,
@@ -7817,7 +7817,7 @@
                         {
                             "id": "Check_mine_zone_factory",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 25.35,
@@ -11165,6 +11165,41 @@
                     "description": "在疼痛状态下消灭 Scav",
                     "maps": [
                         {
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "68236e8153654e8c1200798a",
+                            "name": "Ground Zero 教程",
+                            "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
@@ -11183,41 +11218,6 @@
                             "id": "5714dc692459777137212e12",
                             "name": "塔科夫街区",
                             "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
-                            "id": "68236e8153654e8c1200798a",
-                            "name": "Ground Zero 教程",
-                            "normalizedName": "ground-zero-tutorial"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
                         }
                     ],
                     "optional": false,
@@ -22367,14 +22367,14 @@
                     "description": "击杀游荡者",
                     "maps": [
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -24086,7 +24086,7 @@
                     {
                         "item": {
                             "id": "57235b6f24597759bf5a30f1",
-                            "name": "AN/PVS-14单筒夜视仪",
+                            "name": "L3Harris AN/PVS-14 单筒夜视仪",
                             "normalizedName": "l3harris-anpvs-14-night-vision-monocular",
                             "shortName": "PVS-14",
                             "width": 1,
@@ -25144,7 +25144,7 @@
                         {
                             "id": "nf2024_2_1",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 62.68,
@@ -25179,7 +25179,7 @@
                         {
                             "id": "nf2024_2_1",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 62.68,
@@ -25236,7 +25236,7 @@
                         {
                             "id": "nf2024_2_2",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 71.02,
@@ -25271,7 +25271,7 @@
                         {
                             "id": "nf2024_2_2",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 71.02,
@@ -25328,7 +25328,7 @@
                         {
                             "id": "nf2024_2_3",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 64.97,
@@ -25363,7 +25363,7 @@
                         {
                             "id": "nf2024_2_3",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 64.97,
@@ -25420,7 +25420,7 @@
                         {
                             "id": "nf2024_2_4",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": -31.57,
@@ -25455,7 +25455,7 @@
                         {
                             "id": "nf2024_2_4",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": -31.57,
@@ -25512,7 +25512,7 @@
                         {
                             "id": "nf2024_2_5",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 22.58,
@@ -25547,7 +25547,7 @@
                         {
                             "id": "nf2024_2_5",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 22.58,
@@ -25604,7 +25604,7 @@
                         {
                             "id": "nf2024_2_6",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 21.868,
@@ -25639,7 +25639,7 @@
                         {
                             "id": "nf2024_2_6",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 21.868,
@@ -25696,7 +25696,7 @@
                         {
                             "id": "nf2024_2_7",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 12.37,
@@ -25731,7 +25731,7 @@
                         {
                             "id": "nf2024_2_7",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 12.37,
@@ -25788,7 +25788,7 @@
                         {
                             "id": "nf2024_2_8",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": -15.77,
@@ -25823,7 +25823,7 @@
                         {
                             "id": "nf2024_2_8",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": -15.77,
@@ -25880,7 +25880,7 @@
                         {
                             "id": "nf2024_2_9",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 13.63,
@@ -25915,7 +25915,7 @@
                         {
                             "id": "nf2024_2_9",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 13.63,
@@ -25972,7 +25972,7 @@
                         {
                             "id": "nf2024_2_10",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 53.37,
@@ -26007,7 +26007,7 @@
                         {
                             "id": "nf2024_2_10",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 53.37,
@@ -26064,7 +26064,7 @@
                         {
                             "id": "nf2024_2_11",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 18.3,
@@ -26099,7 +26099,7 @@
                         {
                             "id": "nf2024_2_11",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 18.3,
@@ -26156,7 +26156,7 @@
                         {
                             "id": "nf2024_2_12",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 58.323,
@@ -26191,7 +26191,7 @@
                         {
                             "id": "nf2024_2_12",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 58.323,
@@ -26428,7 +26428,7 @@
                         {
                             "id": "nf2024_10_1",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 17.81,
@@ -26463,7 +26463,7 @@
                         {
                             "id": "nf2024_10_1",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 17.81,
@@ -26540,7 +26540,7 @@
                         {
                             "id": "nf2024_10_2",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 6.756,
@@ -26575,7 +26575,7 @@
                         {
                             "id": "nf2024_10_2",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 6.756,
@@ -26652,7 +26652,7 @@
                         {
                             "id": "nf2024_10_3",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": -4.36,
@@ -26687,7 +26687,7 @@
                         {
                             "id": "nf2024_10_3",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": -4.36,
@@ -30611,7 +30611,7 @@
                         },
                         {
                             "id": "5c0558060db834001b735271",
-                            "name": "GPNVG-18夜视仪",
+                            "name": "L3Harris GPNVG-18 夜视仪",
                             "normalizedName": "l3harris-gpnvg-18-night-vision-goggles",
                             "shortName": "GPNVG-18",
                             "width": 2,
@@ -30626,7 +30626,7 @@
                         },
                         {
                             "id": "57235b6f24597759bf5a30f1",
-                            "name": "AN/PVS-14单筒夜视仪",
+                            "name": "L3Harris AN/PVS-14 单筒夜视仪",
                             "normalizedName": "l3harris-anpvs-14-night-vision-monocular",
                             "shortName": "PVS-14",
                             "width": 1,
@@ -35956,14 +35956,9 @@
                     "description": "使用双管霰弹枪消灭邪教徒",
                     "maps": [
                         {
-                            "id": "65b8d6f5cdde2479cb2a3125",
-                            "name": "中心区 21+",
-                            "normalizedName": "ground-zero-21"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         },
                         {
                             "id": "5704e3c2d2720bac5b8b4567",
@@ -35976,9 +35971,14 @@
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "65b8d6f5cdde2479cb2a3125",
+                            "name": "中心区 21+",
+                            "normalizedName": "ground-zero-21"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         }
                     ],
                     "optional": false,
@@ -43485,6 +43485,11 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
@@ -43493,11 +43498,6 @@
                             "id": "5b0fc42d86f7744a585f9105",
                             "name": "实验室",
                             "normalizedName": "the-lab"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -44198,14 +44198,9 @@
                     "description": "找到并消灭邪教徒祭司",
                     "maps": [
                         {
-                            "id": "65b8d6f5cdde2479cb2a3125",
-                            "name": "中心区 21+",
-                            "normalizedName": "ground-zero-21"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         },
                         {
                             "id": "5704e3c2d2720bac5b8b4567",
@@ -44218,9 +44213,14 @@
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "65b8d6f5cdde2479cb2a3125",
+                            "name": "中心区 21+",
+                            "normalizedName": "ground-zero-21"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         }
                     ],
                     "optional": false,
@@ -46066,14 +46066,9 @@
                     "description": "在同场战局中找到并消灭 Knight",
                     "maps": [
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         },
                         {
                             "id": "69af492a4819ea4ba10a69c5",
@@ -46086,9 +46081,14 @@
                             "normalizedName": "woods"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         }
                     ],
                     "optional": false,
@@ -46120,6 +46120,16 @@
                     "description": "在同场战局中找到并消灭 Big Pipe",
                     "maps": [
                         {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
@@ -46128,16 +46138,6 @@
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -46169,6 +46169,16 @@
                     "description": "在同场战局中找到并消灭 Birdeye",
                     "maps": [
                         {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
@@ -46177,16 +46187,6 @@
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -46529,7 +46529,7 @@
                     {
                         "item": {
                             "id": "5fd251c90d9c95034825edb5",
-                            "name": "TDI Kriss Vector Gen.2 9x19 冲锋枪 默认",
+                            "name": "TDI KRISS Vector Gen.2 9x19 冲锋枪 默认",
                             "normalizedName": "tdi-kriss-vector-gen2-9x19-submachine-gun-default",
                             "shortName": "Vector 9x19 默认",
                             "width": 3,
@@ -54301,6 +54301,41 @@
                     "description": "使用轻机枪消灭 Scav",
                     "maps": [
                         {
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "68236e8153654e8c1200798a",
+                            "name": "Ground Zero 教程",
+                            "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
@@ -54319,41 +54354,6 @@
                             "id": "5714dc692459777137212e12",
                             "name": "塔科夫街区",
                             "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
-                            "id": "68236e8153654e8c1200798a",
-                            "name": "Ground Zero 教程",
-                            "normalizedName": "ground-zero-tutorial"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
                         }
                     ],
                     "optional": false,
@@ -55130,6 +55130,11 @@
                             "normalizedName": "interchange"
                         },
                         {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
@@ -55140,19 +55145,14 @@
                             "normalizedName": "shoreline"
                         },
                         {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
                         },
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
                         },
                         {
                             "id": "6a294a5b5eb5f9a1700417b7",
@@ -57167,7 +57167,7 @@
                         },
                         {
                             "id": "5fc3f2d5900b1d5091531e57",
-                            "name": "TDI Kriss Vector Gen.2 9x19 冲锋枪",
+                            "name": "TDI KRISS Vector Gen.2 9x19 冲锋枪",
                             "normalizedName": "tdi-kriss-vector-gen2-9x19-submachine-gun",
                             "shortName": "Vector 9x19",
                             "width": 2,
@@ -70914,14 +70914,14 @@
                     "description": "击杀游荡者",
                     "maps": [
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -75736,14 +75736,14 @@
                             "normalizedName": "shoreline"
                         },
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         },
                         {
                             "id": "5704e4dad2720bb55b8b4567",
@@ -79082,9 +79082,9 @@
                     "description": "找到并消灭Tagilla",
                     "maps": [
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -79092,9 +79092,9 @@
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         }
                     ],
                     "optional": false,
@@ -80225,14 +80225,14 @@
                     "description": "设法进入工厂办公区三楼的上锁房间",
                     "maps": [
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         }
                     ],
                     "optional": true,
@@ -80240,7 +80240,7 @@
                         {
                             "id": "locked_office",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 30.131813,
@@ -80275,7 +80275,7 @@
                         {
                             "id": "locked_office",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 30.131813,
@@ -91488,7 +91488,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_01",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 66.665,
@@ -91523,7 +91523,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_01",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 66.665,
@@ -91580,7 +91580,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_02",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": -53.107,
@@ -91615,7 +91615,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_02",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": -53.107,
@@ -91672,7 +91672,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_03",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 59.698,
@@ -91707,7 +91707,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_03",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 59.698,
@@ -91764,7 +91764,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_04",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": -18.4,
@@ -91799,7 +91799,7 @@
                         {
                             "id": "place_pacemaker_SCOUT_04",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": -18.4,
@@ -98921,29 +98921,24 @@
                             "normalizedName": "streets-of-tarkov"
                         },
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
                         },
                         {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
                         },
                         {
                             "id": "5704e3c2d2720bac5b8b4567",
@@ -98961,14 +98956,19 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
                         },
                         {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         }
                     ],
                     "optional": false,
@@ -100845,7 +100845,7 @@
                     {
                         "item": {
                             "id": "5fd251c90d9c95034825edb5",
-                            "name": "TDI Kriss Vector Gen.2 9x19 冲锋枪 默认",
+                            "name": "TDI KRISS Vector Gen.2 9x19 冲锋枪 默认",
                             "normalizedName": "tdi-kriss-vector-gen2-9x19-submachine-gun-default",
                             "shortName": "Vector 9x19 默认",
                             "width": 3,
@@ -100909,7 +100909,7 @@
                         "level": 3,
                         "item": {
                             "id": "5fd251c90d9c95034825edb5",
-                            "name": "TDI Kriss Vector Gen.2 9x19 冲锋枪 默认",
+                            "name": "TDI KRISS Vector Gen.2 9x19 冲锋枪 默认",
                             "normalizedName": "tdi-kriss-vector-gen2-9x19-submachine-gun-default",
                             "shortName": "Vector 9x19 默认",
                             "width": 3,
@@ -110504,6 +110504,11 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
@@ -110512,11 +110517,6 @@
                             "id": "5b0fc42d86f7744a585f9105",
                             "name": "实验室",
                             "normalizedName": "the-lab"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -116032,6 +116032,41 @@
                     "description": "命中头部击杀Scav",
                     "maps": [
                         {
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "68236e8153654e8c1200798a",
+                            "name": "Ground Zero 教程",
+                            "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
@@ -116050,41 +116085,6 @@
                             "id": "5714dc692459777137212e12",
                             "name": "塔科夫街区",
                             "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
-                            "id": "68236e8153654e8c1200798a",
-                            "name": "Ground Zero 教程",
-                            "normalizedName": "ground-zero-tutorial"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
                         }
                     ],
                     "optional": false,
@@ -116325,14 +116325,9 @@
                     "description": "找到并消灭消灭邪教徒",
                     "maps": [
                         {
-                            "id": "65b8d6f5cdde2479cb2a3125",
-                            "name": "中心区 21+",
-                            "normalizedName": "ground-zero-21"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         },
                         {
                             "id": "5704e3c2d2720bac5b8b4567",
@@ -116345,9 +116340,14 @@
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "65b8d6f5cdde2479cb2a3125",
+                            "name": "中心区 21+",
+                            "normalizedName": "ground-zero-21"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         }
                     ],
                     "optional": false,
@@ -130338,6 +130338,11 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
@@ -130346,11 +130351,6 @@
                             "id": "5b0fc42d86f7744a585f9105",
                             "name": "实验室",
                             "normalizedName": "the-lab"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -132430,7 +132430,7 @@
                     "optional": false,
                     "item": {
                         "id": "5fc3f2d5900b1d5091531e57",
-                        "name": "TDI Kriss Vector Gen.2 9x19 冲锋枪",
+                        "name": "TDI KRISS Vector Gen.2 9x19 冲锋枪",
                         "normalizedName": "tdi-kriss-vector-gen2-9x19-submachine-gun",
                         "shortName": "Vector 9x19",
                         "width": 2,
@@ -139012,6 +139012,11 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
@@ -139020,11 +139025,6 @@
                             "id": "5b0fc42d86f7744a585f9105",
                             "name": "实验室",
                             "normalizedName": "the-lab"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -139249,6 +139249,41 @@
                     "description": "6667196a74bbc3a671ef49f8",
                     "maps": [
                         {
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "68236e8153654e8c1200798a",
+                            "name": "Ground Zero 教程",
+                            "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
@@ -139267,41 +139302,6 @@
                             "id": "5714dc692459777137212e12",
                             "name": "塔科夫街区",
                             "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
-                            "id": "68236e8153654e8c1200798a",
-                            "name": "Ground Zero 教程",
-                            "normalizedName": "ground-zero-tutorial"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
                         }
                     ],
                     "optional": false,
@@ -140369,16 +140369,6 @@
                             "normalizedName": "interchange"
                         },
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
@@ -140389,14 +140379,24 @@
                             "normalizedName": "woods"
                         },
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         }
                     ],
                     "optional": false,
@@ -141335,7 +141335,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 19.81,
@@ -141370,7 +141370,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": -51.08,
@@ -141405,7 +141405,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 19.81,
@@ -141440,7 +141440,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "55f2d3fd4bdc2d5f408b4567"
+                                "id": "59fc81d786f774390775787e"
                             },
                             "position": {
                                 "x": 64.99,
@@ -141475,7 +141475,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 19.81,
@@ -141510,7 +141510,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": -51.08,
@@ -141545,7 +141545,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 19.81,
@@ -141580,7 +141580,7 @@
                         {
                             "id": "nf2024_4_zone_kill1",
                             "map": {
-                                "id": "59fc81d786f774390775787e"
+                                "id": "55f2d3fd4bdc2d5f408b4567"
                             },
                             "position": {
                                 "x": 64.99,
@@ -160818,7 +160818,7 @@
                         },
                         {
                             "id": "5fc3f2d5900b1d5091531e57",
-                            "name": "TDI Kriss Vector Gen.2 9x19 冲锋枪",
+                            "name": "TDI KRISS Vector Gen.2 9x19 冲锋枪",
                             "normalizedName": "tdi-kriss-vector-gen2-9x19-submachine-gun",
                             "shortName": "Vector 9x19",
                             "width": 2,
@@ -188744,7 +188744,7 @@
                         },
                         {
                             "id": "5c0558060db834001b735271",
-                            "name": "GPNVG-18夜视仪",
+                            "name": "L3Harris GPNVG-18 夜视仪",
                             "normalizedName": "l3harris-gpnvg-18-night-vision-goggles",
                             "shortName": "GPNVG-18",
                             "width": 2,
@@ -188759,7 +188759,7 @@
                         },
                         {
                             "id": "57235b6f24597759bf5a30f1",
-                            "name": "AN/PVS-14单筒夜视仪",
+                            "name": "L3Harris AN/PVS-14 单筒夜视仪",
                             "normalizedName": "l3harris-anpvs-14-night-vision-monocular",
                             "shortName": "PVS-14",
                             "width": 1,
@@ -205376,7 +205376,7 @@
                         },
                         {
                             "id": "5fc3f2d5900b1d5091531e57",
-                            "name": "TDI Kriss Vector Gen.2 9x19 冲锋枪",
+                            "name": "TDI KRISS Vector Gen.2 9x19 冲锋枪",
                             "normalizedName": "tdi-kriss-vector-gen2-9x19-submachine-gun",
                             "shortName": "Vector 9x19",
                             "width": 2,
@@ -233302,7 +233302,7 @@
                         },
                         {
                             "id": "5c0558060db834001b735271",
-                            "name": "GPNVG-18夜视仪",
+                            "name": "L3Harris GPNVG-18 夜视仪",
                             "normalizedName": "l3harris-gpnvg-18-night-vision-goggles",
                             "shortName": "GPNVG-18",
                             "width": 2,
@@ -233317,7 +233317,7 @@
                         },
                         {
                             "id": "57235b6f24597759bf5a30f1",
-                            "name": "AN/PVS-14单筒夜视仪",
+                            "name": "L3Harris AN/PVS-14 单筒夜视仪",
                             "normalizedName": "l3harris-anpvs-14-night-vision-monocular",
                             "shortName": "PVS-14",
                             "width": 1,
@@ -251827,7 +251827,7 @@
                         },
                         {
                             "id": "5fc3f2d5900b1d5091531e57",
-                            "name": "TDI Kriss Vector Gen.2 9x19 冲锋枪",
+                            "name": "TDI KRISS Vector Gen.2 9x19 冲锋枪",
                             "normalizedName": "tdi-kriss-vector-gen2-9x19-submachine-gun",
                             "shortName": "Vector 9x19",
                             "width": 2,
@@ -279753,7 +279753,7 @@
                         },
                         {
                             "id": "5c0558060db834001b735271",
-                            "name": "GPNVG-18夜视仪",
+                            "name": "L3Harris GPNVG-18 夜视仪",
                             "normalizedName": "l3harris-gpnvg-18-night-vision-goggles",
                             "shortName": "GPNVG-18",
                             "width": 2,
@@ -279768,7 +279768,7 @@
                         },
                         {
                             "id": "57235b6f24597759bf5a30f1",
-                            "name": "AN/PVS-14单筒夜视仪",
+                            "name": "L3Harris AN/PVS-14 单筒夜视仪",
                             "normalizedName": "l3harris-anpvs-14-night-vision-monocular",
                             "shortName": "PVS-14",
                             "width": 1,
@@ -303265,7 +303265,7 @@
                         },
                         {
                             "id": "5fc3f2d5900b1d5091531e57",
-                            "name": "TDI Kriss Vector Gen.2 9x19 冲锋枪",
+                            "name": "TDI KRISS Vector Gen.2 9x19 冲锋枪",
                             "normalizedName": "tdi-kriss-vector-gen2-9x19-submachine-gun",
                             "shortName": "Vector 9x19",
                             "width": 2,
@@ -331191,7 +331191,7 @@
                         },
                         {
                             "id": "5c0558060db834001b735271",
-                            "name": "GPNVG-18夜视仪",
+                            "name": "L3Harris GPNVG-18 夜视仪",
                             "normalizedName": "l3harris-gpnvg-18-night-vision-goggles",
                             "shortName": "GPNVG-18",
                             "width": 2,
@@ -331206,7 +331206,7 @@
                         },
                         {
                             "id": "57235b6f24597759bf5a30f1",
-                            "name": "AN/PVS-14单筒夜视仪",
+                            "name": "L3Harris AN/PVS-14 单筒夜视仪",
                             "normalizedName": "l3harris-anpvs-14-night-vision-monocular",
                             "shortName": "PVS-14",
                             "width": 1,
@@ -333038,6 +333038,146 @@
                         {
                             "id": "exit777",
                             "map": {
+                                "id": "56f40101d2720b2a4d8b45d6"
+                            },
+                            "position": {
+                                "x": -41.5100021,
+                                "y": -12.633,
+                                "z": 122.67
+                            },
+                            "outline": [
+                                {
+                                    "x": -47.15104,
+                                    "y": -12.633,
+                                    "z": 113.687866
+                                },
+                                {
+                                    "x": -32.52787,
+                                    "y": -12.633,
+                                    "z": 117.028961
+                                },
+                                {
+                                    "x": -35.86896,
+                                    "y": -12.633,
+                                    "z": 131.65213
+                                },
+                                {
+                                    "x": -50.4921341,
+                                    "y": -12.633,
+                                    "z": 128.311035
+                                }
+                            ],
+                            "top": -11.133,
+                            "bottom": -14.133
+                        },
+                        {
+                            "id": "exit777",
+                            "map": {
+                                "id": "56f40101d2720b2a4d8b45d6"
+                            },
+                            "position": {
+                                "x": 463.18,
+                                "y": -1.46,
+                                "z": -112.36
+                            },
+                            "outline": [
+                                {
+                                    "x": 457.8446,
+                                    "y": -1.46,
+                                    "z": -114.028442
+                                },
+                                {
+                                    "x": 467.715973,
+                                    "y": -1.46,
+                                    "z": -115.627243
+                                },
+                                {
+                                    "x": 468.515381,
+                                    "y": -1.46,
+                                    "z": -110.691559
+                                },
+                                {
+                                    "x": 458.644,
+                                    "y": -1.46,
+                                    "z": -109.092758
+                                }
+                            ],
+                            "top": 0.03999996,
+                            "bottom": -2.96
+                        },
+                        {
+                            "id": "exit777",
+                            "map": {
+                                "id": "56f40101d2720b2a4d8b45d6"
+                            },
+                            "position": {
+                                "x": -41.5100021,
+                                "y": -12.633,
+                                "z": 122.67
+                            },
+                            "outline": [
+                                {
+                                    "x": -47.15104,
+                                    "y": -12.633,
+                                    "z": 113.687866
+                                },
+                                {
+                                    "x": -32.52787,
+                                    "y": -12.633,
+                                    "z": 117.028961
+                                },
+                                {
+                                    "x": -35.86896,
+                                    "y": -12.633,
+                                    "z": 131.65213
+                                },
+                                {
+                                    "x": -50.4921341,
+                                    "y": -12.633,
+                                    "z": 128.311035
+                                }
+                            ],
+                            "top": -11.133,
+                            "bottom": -14.133
+                        },
+                        {
+                            "id": "exit777",
+                            "map": {
+                                "id": "56f40101d2720b2a4d8b45d6"
+                            },
+                            "position": {
+                                "x": 463.18,
+                                "y": -1.46,
+                                "z": -112.36
+                            },
+                            "outline": [
+                                {
+                                    "x": 457.8446,
+                                    "y": -1.46,
+                                    "z": -114.028442
+                                },
+                                {
+                                    "x": 467.715973,
+                                    "y": -1.46,
+                                    "z": -115.627243
+                                },
+                                {
+                                    "x": 468.515381,
+                                    "y": -1.46,
+                                    "z": -110.691559
+                                },
+                                {
+                                    "x": 458.644,
+                                    "y": -1.46,
+                                    "z": -109.092758
+                                }
+                            ],
+                            "top": 0.03999996,
+                            "bottom": -2.96
+                        },
+                        {
+                            "id": "exit777",
+                            "map": {
                                 "id": "6733700029c367a3d40b02af"
                             },
                             "position": {
@@ -333069,146 +333209,6 @@
                             ],
                             "top": 2.57000017,
                             "bottom": -0.429999948
-                        },
-                        {
-                            "id": "exit777",
-                            "map": {
-                                "id": "56f40101d2720b2a4d8b45d6"
-                            },
-                            "position": {
-                                "x": -41.5100021,
-                                "y": -12.633,
-                                "z": 122.67
-                            },
-                            "outline": [
-                                {
-                                    "x": -47.15104,
-                                    "y": -12.633,
-                                    "z": 113.687866
-                                },
-                                {
-                                    "x": -32.52787,
-                                    "y": -12.633,
-                                    "z": 117.028961
-                                },
-                                {
-                                    "x": -35.86896,
-                                    "y": -12.633,
-                                    "z": 131.65213
-                                },
-                                {
-                                    "x": -50.4921341,
-                                    "y": -12.633,
-                                    "z": 128.311035
-                                }
-                            ],
-                            "top": -11.133,
-                            "bottom": -14.133
-                        },
-                        {
-                            "id": "exit777",
-                            "map": {
-                                "id": "56f40101d2720b2a4d8b45d6"
-                            },
-                            "position": {
-                                "x": 463.18,
-                                "y": -1.46,
-                                "z": -112.36
-                            },
-                            "outline": [
-                                {
-                                    "x": 457.8446,
-                                    "y": -1.46,
-                                    "z": -114.028442
-                                },
-                                {
-                                    "x": 467.715973,
-                                    "y": -1.46,
-                                    "z": -115.627243
-                                },
-                                {
-                                    "x": 468.515381,
-                                    "y": -1.46,
-                                    "z": -110.691559
-                                },
-                                {
-                                    "x": 458.644,
-                                    "y": -1.46,
-                                    "z": -109.092758
-                                }
-                            ],
-                            "top": 0.03999996,
-                            "bottom": -2.96
-                        },
-                        {
-                            "id": "exit777",
-                            "map": {
-                                "id": "56f40101d2720b2a4d8b45d6"
-                            },
-                            "position": {
-                                "x": -41.5100021,
-                                "y": -12.633,
-                                "z": 122.67
-                            },
-                            "outline": [
-                                {
-                                    "x": -47.15104,
-                                    "y": -12.633,
-                                    "z": 113.687866
-                                },
-                                {
-                                    "x": -32.52787,
-                                    "y": -12.633,
-                                    "z": 117.028961
-                                },
-                                {
-                                    "x": -35.86896,
-                                    "y": -12.633,
-                                    "z": 131.65213
-                                },
-                                {
-                                    "x": -50.4921341,
-                                    "y": -12.633,
-                                    "z": 128.311035
-                                }
-                            ],
-                            "top": -11.133,
-                            "bottom": -14.133
-                        },
-                        {
-                            "id": "exit777",
-                            "map": {
-                                "id": "56f40101d2720b2a4d8b45d6"
-                            },
-                            "position": {
-                                "x": 463.18,
-                                "y": -1.46,
-                                "z": -112.36
-                            },
-                            "outline": [
-                                {
-                                    "x": 457.8446,
-                                    "y": -1.46,
-                                    "z": -114.028442
-                                },
-                                {
-                                    "x": 467.715973,
-                                    "y": -1.46,
-                                    "z": -115.627243
-                                },
-                                {
-                                    "x": 468.515381,
-                                    "y": -1.46,
-                                    "z": -110.691559
-                                },
-                                {
-                                    "x": 458.644,
-                                    "y": -1.46,
-                                    "z": -109.092758
-                                }
-                            ],
-                            "top": 0.03999996,
-                            "bottom": -2.96
                         }
                     ],
                     "requiredKeys": null
@@ -336318,6 +336318,16 @@
                     "description": "消灭游荡者",
                     "maps": [
                         {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
@@ -336326,16 +336336,6 @@
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         },
                         {
                             "id": "69af492a4819ea4ba10a69c5",
