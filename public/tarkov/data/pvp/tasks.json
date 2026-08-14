@@ -335588,6 +335588,215 @@
             "taskImageLink": "https://assets.tarkov.dev/67a096577e86e067eb045733.webp"
         },
         {
+            "id": "67a09673972c11a3f507731d",
+            "tarkovDataId": "67a09673972c11a3f507731d",
+            "name": "塔科夫屠夫",
+            "normalizedName": "the-tarkov-butcher",
+            "trader": {
+                "id": "54cb57776803fa99248b456e",
+                "name": "Therapist",
+                "normalizedName": "therapist",
+                "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+            },
+            "map": null,
+            "experience": 10000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/The_Tarkov_Butcher",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveQuestItem",
+                    "id": "67a0d92a6cf4a5745d0bc94f",
+                    "type": "findQuestItem",
+                    "description": "在中心区找到并获取化学品容器",
+                    "maps": [
+                        {
+                            "id": "653e6760052c01c1c805532f",
+                            "name": "中心区",
+                            "normalizedName": "ground-zero"
+                        },
+                        {
+                            "id": "65b8d6f5cdde2479cb2a3125",
+                            "name": "中心区 21+",
+                            "normalizedName": "ground-zero-21"
+                        }
+                    ],
+                    "optional": false,
+                    "questItem": {
+                        "id": "679b98e429acd1f2f60985a3",
+                        "name": "装有可疑物质的容器",
+                        "normalizedName": "679b98e429acd1f2f60985a3",
+                        "shortName": "神秘物质",
+                        "description": "装有某种粘稠、浑浊液体的化学容器。估计只有疯到 Sanitar 那个地步才会对这玩意产生兴趣，更别说研究它了。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
+                    "count": 1,
+                    "possibleLocations": [
+                        {
+                            "map": {
+                                "id": "653e6760052c01c1c805532f"
+                            },
+                            "positions": [
+                                {
+                                    "x": 78.571,
+                                    "y": 16.3689,
+                                    "z": 100.85899
+                                },
+                                {
+                                    "x": 80.1339,
+                                    "y": 15.839001,
+                                    "z": 96.27539
+                                },
+                                {
+                                    "x": 78.8748,
+                                    "y": 15.758503,
+                                    "z": 96.33389
+                                }
+                            ]
+                        },
+                        {
+                            "map": {
+                                "id": "65b8d6f5cdde2479cb2a3125"
+                            },
+                            "positions": [
+                                {
+                                    "x": 78.8748,
+                                    "y": 15.758503,
+                                    "z": 96.33389
+                                },
+                                {
+                                    "x": 78.571,
+                                    "y": 16.3689,
+                                    "z": 100.85899
+                                },
+                                {
+                                    "x": 80.1339,
+                                    "y": 15.839001,
+                                    "z": 96.27539
+                                }
+                            ]
+                        }
+                    ],
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveQuestItem",
+                    "id": "6a57565d0c4e021f681b32f0",
+                    "type": "plantQuestItem",
+                    "description": "在塔科夫街区将化学容器放置藏匿在警察局",
+                    "maps": [],
+                    "optional": false,
+                    "questItem": {
+                        "id": "679b98e429acd1f2f60985a3",
+                        "name": "装有可疑物质的容器",
+                        "normalizedName": "679b98e429acd1f2f60985a3",
+                        "shortName": "神秘物质",
+                        "description": "装有某种粘稠、浑浊液体的化学容器。估计只有疯到 Sanitar 那个地步才会对这玩意产生兴趣，更别说研究它了。",
+                        "width": 1,
+                        "height": 1,
+                        "types": [],
+                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                        "wikiLink": null
+                    },
+                    "count": 1,
+                    "possibleLocations": [],
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [
+                    {
+                        "trader": {
+                            "id": "54cb57776803fa99248b456e",
+                            "name": "Therapist",
+                            "normalizedName": "therapist",
+                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+                        },
+                        "standing": 0.25
+                    }
+                ],
+                "items": [
+                    {
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        },
+                        "count": 165000,
+                        "quantity": 165000,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "5d02797c86f774203f38e30a",
+                            "name": "Surv12野战手术包",
+                            "normalizedName": "surv12-field-surgical-kit",
+                            "shortName": "Surv12",
+                            "width": 3,
+                            "height": 1,
+                            "types": [
+                                "meds",
+                                "provisions",
+                                "specialSlot"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d02797c86f774203f38e30a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Surv12_field_surgical_kit"
+                        },
+                        "count": 2,
+                        "quantity": 2,
+                        "attributes": []
+                    }
+                ],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/67a09673972c11a3f507731d.webp"
+        },
+        {
             "id": "67a0967c003a9986cb0f5ac1",
             "tarkovDataId": "67a0967c003a9986cb0f5ac1",
             "name": "感官分析 - 1",
