@@ -554,27 +554,6 @@
         ]
     },
     {
-        "id": "60b0f988c4449e4cb624c1da",
-        "name": "Evasion臂带",
-        "normalizedName": "armband-evasion",
-        "types": [
-            "wearable"
-        ],
-        "iconLink": "60b0f988c4449e4cb624c1da-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Armband_(Evasion)",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
         "id": "69f9d60b5de6674f08060f2a",
         "name": "Dunduk 软盘",
         "normalizedName": "dunduk-floppy-disk",

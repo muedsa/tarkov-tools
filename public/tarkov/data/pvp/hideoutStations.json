@@ -8063,10 +8063,10 @@
                     },
                     "level": 2,
                     "taskUnlock": {
-                        "id": "66151401efb0539ae10875ae",
+                        "id": "6613f3007f6666d56807c929",
                         "name": "人靠衣装 - 1",
-                        "normalizedName": "drip-out-part-1-usec",
-                        "taskImageLink": "https://assets.tarkov.dev/66151401efb0539ae10875ae.webp",
+                        "normalizedName": "drip-out-part-1-bear",
+                        "taskImageLink": "https://assets.tarkov.dev/6613f3007f6666d56807c929.webp",
                         "trader": {
                             "id": "5ac3b934156ae10c4430e83c",
                             "name": "Ragman",
@@ -17136,7 +17136,18 @@
                         "imageLink": "https://assets.tarkov.dev/station-workbench.png"
                     },
                     "level": 3,
-                    "taskUnlock": null,
+                    "taskUnlock": {
+                        "id": "60e71ce009d7c801eb0c0ec6",
+                        "name": "特殊装备",
+                        "normalizedName": "special-equipment",
+                        "taskImageLink": "https://assets.tarkov.dev/60e71ce009d7c801eb0c0ec6.webp",
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        }
+                    },
                     "duration": 8400,
                     "requiredQuestItems": [],
                     "requiredItems": [
