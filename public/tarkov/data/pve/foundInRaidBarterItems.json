@@ -2484,6 +2484,28 @@
         "hideoutStations": []
     },
     {
+        "id": "5d1b3f2d86f774253763b735",
+        "name": "一次性注射器",
+        "normalizedName": "disposable-syringe",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "5d1b3f2d86f774253763b735-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Disposable_syringe",
+        "tasks": [
+            {
+                "id": "6a5424ae135497b9df0c68be",
+                "name": "秋季综合征",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": false,
+                "count": 5,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
         "id": "69bb43df99f3fda8f1072483",
         "name": "Nooby Shield 碘化钾片",
         "normalizedName": "nooby-shield-potassium-iodide-tablets",
@@ -2520,28 +2542,6 @@
                 "name": "油料交换",
                 "trader": "Prapor",
                 "traderImageLink": "54cb50c76803fa8b248b4571.webp",
-                "kappaRequired": false,
-                "count": 5,
-                "mixedItemsTask": false
-            }
-        ],
-        "hideoutStations": []
-    },
-    {
-        "id": "5d1b3f2d86f774253763b735",
-        "name": "一次性注射器",
-        "normalizedName": "disposable-syringe",
-        "types": [
-            "barter"
-        ],
-        "iconLink": "5d1b3f2d86f774253763b735-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Disposable_syringe",
-        "tasks": [
-            {
-                "id": "6a5424ae135497b9df0c68be",
-                "name": "秋季综合征",
-                "trader": "Therapist",
-                "traderImageLink": "54cb57776803fa99248b456e.webp",
                 "kappaRequired": false,
                 "count": 5,
                 "mixedItemsTask": false

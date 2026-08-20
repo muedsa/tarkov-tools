@@ -11819,6 +11819,16 @@
                     "description": "在疼痛状态下消灭 Scav",
                     "maps": [
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -11862,16 +11872,6 @@
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -14011,31 +14011,23 @@
                 "name": "海关",
                 "normalizedName": "customs"
             },
-            "experience": 4500,
+            "experience": 3000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Easy_Money_-_Part_1",
             "minPlayerLevel": 10,
-            "taskRequirements": [
+            "taskRequirements": [],
+            "traderRequirements": [
                 {
-                    "task": {
-                        "id": "657315e270bb0b8dba00cc48",
-                        "name": "快车初体验",
-                        "normalizedName": "burning-rubber",
-                        "taskImageLink": "https://assets.tarkov.dev/657315e270bb0b8dba00cc48.webp",
-                        "trader": {
-                            "id": "58330581ace78e27b8b10cee",
-                            "name": "Skier",
-                            "normalizedName": "skier",
-                            "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
-                        }
+                    "trader": {
+                        "id": "58330581ace78e27b8b10cee",
+                        "name": "Skier",
+                        "normalizedName": "skier",
+                        "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
                     },
-                    "status": [
-                        "complete",
-                        "failed",
-                        "active"
-                    ]
+                    "requirementType": "level",
+                    "compareMethod": ">=",
+                    "value": 2
                 }
             ],
-            "traderRequirements": [],
             "restartable": false,
             "objectives": [
                 {
@@ -14286,20 +14278,20 @@
                 "items": [
                     {
                         "item": {
-                            "id": "5449016a4bdc2d6f028b456f",
-                            "name": "卢布",
-                            "normalizedName": "roubles",
-                            "shortName": "卢布",
+                            "id": "569668774bdc2da2298b4568",
+                            "name": "欧元",
+                            "normalizedName": "euros",
+                            "shortName": "欧元",
                             "width": 1,
                             "height": 1,
                             "types": [
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                            "iconLink": "https://assets.tarkov.dev/569668774bdc2da2298b4568-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Euros"
                         },
-                        "count": 35000,
-                        "quantity": 35000,
+                        "count": 450,
+                        "quantity": 450,
                         "attributes": []
                     }
                 ],
@@ -14355,7 +14347,7 @@
                 {
                     "task": {
                         "id": "66058cb5ae4719735349b9e8",
-                        "name": "赚点快钱 - 2 [PVP ZONE]",
+                        "name": "赚点快钱 - 2（PVP）",
                         "normalizedName": "easy-money-part-2-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058cb5ae4719735349b9e8.webp",
                         "trader": {
@@ -14880,7 +14872,7 @@
         {
             "id": "66058cb7c7f3584787181476",
             "tarkovDataId": "66058cb7c7f3584787181476",
-            "name": "平衡之力 - 1 [PVP ZONE]",
+            "name": "平衡之力 - 1（PVP）",
             "normalizedName": "balancing-part-1-pvp-zone",
             "trader": {
                 "id": "6617beeaa9cfa777ca915b7c",
@@ -14896,7 +14888,7 @@
                 {
                     "task": {
                         "id": "66058cb5ae4719735349b9e8",
-                        "name": "赚点快钱 - 2 [PVP ZONE]",
+                        "name": "赚点快钱 - 2（PVP）",
                         "normalizedName": "easy-money-part-2-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058cb5ae4719735349b9e8.webp",
                         "trader": {
@@ -14919,10 +14911,68 @@
                     "id": "6606d133fcb99b9004aa2d1d",
                     "type": "shoot",
                     "description": "在任意地图使用 Steyr AUG 消灭 Scav",
-                    "maps": [],
+                    "maps": [
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
+                            "id": "68236e8153654e8c1200798a",
+                            "name": "Ground Zero 教程",
+                            "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
+                        }
+                    ],
                     "optional": false,
                     "targetNames": [
-                        "Scav："
+                        "Scav",
+                        "Scav：",
+                        "狙击手"
                     ],
                     "count": 5,
                     "shotType": "kill",
@@ -15000,6 +15050,42 @@
                             ],
                             "iconLink": "https://assets.tarkov.dev/6398636bb483a550805be5e5-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Steyr_AUG_A1_5.56x45_assault_rifle"
+                        },
+                        "count": 2,
+                        "quantity": 2,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "62e7c98b550c8218d602cbb4",
+                            "name": "Steyr AUG 5.56x45 30发容量弹匣",
+                            "normalizedName": "steyr-aug-556x45-30-round-magazine",
+                            "shortName": "AUG",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "mods"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/62e7c98b550c8218d602cbb4-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Steyr_AUG_5.56x45_30-round_magazine"
+                        },
+                        "count": 4,
+                        "quantity": 4,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "65702656c5d7d4cb4d078591",
+                            "name": "5.56x45mm M856 弹药包（100发装）",
+                            "normalizedName": "556x45mm-m856-ammo-pack-100-pcs",
+                            "shortName": "M856",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "ammoBox"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/65702656c5d7d4cb4d078591-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M856_ammo_pack_(100_pcs)"
                         },
                         "count": 2,
                         "quantity": 2,
@@ -15144,7 +15230,7 @@
         {
             "id": "66058cbd9f59e625462acc8e",
             "tarkovDataId": "66058cbd9f59e625462acc8e",
-            "name": "制造干扰 - 1 [PVP ZONE]",
+            "name": "声东击西 - 1（PVP）",
             "normalizedName": "create-a-distraction-part-1-pvp-zone",
             "trader": {
                 "id": "6617beeaa9cfa777ca915b7c",
@@ -15153,9 +15239,9 @@
                 "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
             },
             "map": {
-                "id": "65b8d6f5cdde2479cb2a3125",
-                "name": "中心区 21+",
-                "normalizedName": "ground-zero-21"
+                "id": "653e6760052c01c1c805532f",
+                "name": "中心区",
+                "normalizedName": "ground-zero"
             },
             "experience": 5000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Create_a_Distraction_-_Part_1",
@@ -15164,7 +15250,7 @@
                 {
                     "task": {
                         "id": "66058cbb06ef1d50a60c1f46",
-                        "name": "惊喜 [PVP ZONE]",
+                        "name": "惊喜（PVP）",
                         "normalizedName": "surprise-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058cbb06ef1d50a60c1f46.webp",
                         "trader": {
@@ -15189,14 +15275,14 @@
                     "description": "在中心区区域的咖啡馆二楼安放TP-200 砖型TNT",
                     "maps": [
                         {
-                            "id": "65b8d6f5cdde2479cb2a3125",
-                            "name": "中心区 21+",
-                            "normalizedName": "ground-zero-21"
-                        },
-                        {
                             "id": "653e6760052c01c1c805532f",
                             "name": "中心区",
                             "normalizedName": "ground-zero"
+                        },
+                        {
+                            "id": "65b8d6f5cdde2479cb2a3125",
+                            "name": "中心区 21+",
+                            "normalizedName": "ground-zero-21"
                         }
                     ],
                     "optional": false,
@@ -15340,16 +15426,16 @@
                     },
                     {
                         "item": {
-                            "id": "707265736574000000000037",
-                            "name": "沙漠科技 MDR 5.56x45 突击步枪 Gemtech ONE",
-                            "normalizedName": "desert-tech-mdr-556x45-assault-rifle-one",
-                            "shortName": "MDR Gemtech ONE",
-                            "width": 5,
+                            "id": "707265736574000000000026",
+                            "name": "沙漠科技 MDR 5.56x45 突击步枪 EXPS3-0",
+                            "normalizedName": "desert-tech-mdr-556x45-assault-rifle-exps3-0",
+                            "shortName": "MDR EXPS3-0",
+                            "width": 4,
                             "height": 2,
                             "types": [
                                 "preset"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/707265736574000000000037-icon.webp",
+                            "iconLink": "https://assets.tarkov.dev/707265736574000000000026-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Desert_Tech_MDR_5.56x45_assault_rifle"
                         },
                         "count": 1,
@@ -15418,7 +15504,7 @@
         {
             "id": "66058cb9e8e4f17985230805",
             "tarkovDataId": "66058cb9e8e4f17985230805",
-            "name": "平衡之力 - 2 [PVP ZONE]",
+            "name": "平衡之力 - 2（PVP）",
             "normalizedName": "balancing-part-2-pvp-zone",
             "trader": {
                 "id": "6617beeaa9cfa777ca915b7c",
@@ -15434,7 +15520,7 @@
                 {
                     "task": {
                         "id": "66058cb7c7f3584787181476",
-                        "name": "平衡之力 - 1 [PVP ZONE]",
+                        "name": "平衡之力 - 1（PVP）",
                         "normalizedName": "balancing-part-1-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058cb7c7f3584787181476.webp",
                         "trader": {
@@ -15638,7 +15724,7 @@
         {
             "id": "66058cb5ae4719735349b9e8",
             "tarkovDataId": "66058cb5ae4719735349b9e8",
-            "name": "赚点快钱 - 2 [PVP ZONE]",
+            "name": "赚点快钱 - 2（PVP）",
             "normalizedName": "easy-money-part-2-pvp-zone",
             "trader": {
                 "id": "6617beeaa9cfa777ca915b7c",
@@ -15647,7 +15733,7 @@
                 "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
             },
             "map": null,
-            "experience": 4200,
+            "experience": 2900,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Easy_Money_-_Part_2",
             "minPlayerLevel": 10,
             "taskRequirements": [
@@ -16262,7 +16348,7 @@
                             "normalizedName": "ref",
                             "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
                         },
-                        "standing": 0.03
+                        "standing": 0.02
                     }
                 ],
                 "items": [
@@ -16281,8 +16367,8 @@
                             "iconLink": "https://assets.tarkov.dev/5d235b4d86f7742e017bc88a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GP_coin"
                         },
-                        "count": 52,
-                        "quantity": 52,
+                        "count": 22,
+                        "quantity": 22,
                         "attributes": []
                     }
                 ],
@@ -16311,7 +16397,7 @@
         {
             "id": "66058cc72cee99303f1ba069",
             "tarkovDataId": "66058cc72cee99303f1ba069",
-            "name": "再创新高！- 4 [PVP ZONE]",
+            "name": "再创新高！- 4（PVP）",
             "normalizedName": "to-great-heights-part-4-pvp-zone",
             "trader": {
                 "id": "6617beeaa9cfa777ca915b7c",
@@ -16327,7 +16413,7 @@
                 {
                     "task": {
                         "id": "66058cc5bb83da7ba474aba9",
-                        "name": "再创新高！- 3 [PVP ZONE]",
+                        "name": "再创新高！- 3（PVP）",
                         "normalizedName": "to-great-heights-part-3-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058cc5bb83da7ba474aba9.webp",
                         "trader": {
@@ -16512,7 +16598,7 @@
         {
             "id": "66058cbf2f19c31a5a1337ec",
             "tarkovDataId": "66058cbf2f19c31a5a1337ec",
-            "name": "制造干扰 - 2 [PVP ZONE]",
+            "name": "声东击西 - 2（PVP）",
             "normalizedName": "create-a-distraction-part-2-pvp-zone",
             "trader": {
                 "id": "6617beeaa9cfa777ca915b7c",
@@ -16532,7 +16618,7 @@
                 {
                     "task": {
                         "id": "66058cbd9f59e625462acc8e",
-                        "name": "制造干扰 - 1 [PVP ZONE]",
+                        "name": "声东击西 - 1（PVP）",
                         "normalizedName": "create-a-distraction-part-1-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058cbd9f59e625462acc8e.webp",
                         "trader": {
@@ -16750,7 +16836,7 @@
         {
             "id": "66058ccf06ef1d50a60c1f48",
             "tarkovDataId": "66058ccf06ef1d50a60c1f48",
-            "name": "两害相权 [PVP ZONE]",
+            "name": "两害相权（PVP）",
             "normalizedName": "between-two-fires-pvp-zone",
             "trader": {
                 "id": "579dc571d53a0658a154fbec",
@@ -16770,7 +16856,7 @@
                 {
                     "task": {
                         "id": "66058ccde8e4f17985230807",
-                        "name": "良心作祟 - 2 [PVP ZONE]",
+                        "name": "良心作祟 - 2（PVP）",
                         "normalizedName": "against-the-conscience-part-2-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058ccde8e4f17985230807.webp",
                         "trader": {
@@ -16953,7 +17039,7 @@
                     "optional": false,
                     "task": {
                         "id": "66058cd19f59e625462acc90",
-                        "name": "两难抉择 [PVP ZONE]",
+                        "name": "两难抉择（PVP）",
                         "normalizedName": "decisions-decisions-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058cd19f59e625462acc90.webp",
                         "trader": {
@@ -17056,7 +17142,15 @@
                 "traderUnlock": [],
                 "craftUnlock": [],
                 "achievement": [],
-                "customization": []
+                "customization": [
+                    {
+                        "id": "675466ea8b3797a0e8038bd2",
+                        "name": "拼花地板",
+                        "customizationType": "Floor",
+                        "customizationTypeName": "Hideout/Customization/Floor/TabName",
+                        "imageLink": "https://assets.tarkov.dev/customization-675466ea8b3797a0e8038bd2.webp"
+                    }
+                ]
             },
             "failureOutcome": {
                 "traderStanding": [],
@@ -17076,7 +17170,7 @@
         {
             "id": "66058ccde8e4f17985230807",
             "tarkovDataId": "66058ccde8e4f17985230807",
-            "name": "良心作祟 - 2 [PVP ZONE]",
+            "name": "良心作祟 - 2（PVP）",
             "normalizedName": "against-the-conscience-part-2-pvp-zone",
             "trader": {
                 "id": "6617beeaa9cfa777ca915b7c",
@@ -17092,7 +17186,7 @@
                 {
                     "task": {
                         "id": "66058ccbc7f3584787181478",
-                        "name": "良心作祟 - 1 [PVP ZONE]",
+                        "name": "良心作祟 - 1（PVP）",
                         "normalizedName": "against-the-conscience-part-1-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058ccbc7f3584787181478.webp",
                         "trader": {
@@ -17159,7 +17253,7 @@
                             "normalizedName": "ref",
                             "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
                         },
-                        "standing": 0.06
+                        "standing": 0.04
                     }
                 ],
                 "items": [
@@ -17178,64 +17272,8 @@
                             "iconLink": "https://assets.tarkov.dev/5d235b4d86f7742e017bc88a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GP_coin"
                         },
-                        "count": 88,
-                        "quantity": 88,
-                        "attributes": []
-                    },
-                    {
-                        "item": {
-                            "id": "657eb3773271d8578610fe28",
-                            "name": "SIG MCX SPEAR 6.8x51突击步枪 默认",
-                            "normalizedName": "sig-mcx-spear-68x51-assault-rifle-default",
-                            "shortName": "SPEAR 6.8 默认",
-                            "width": 6,
-                            "height": 2,
-                            "types": [
-                                "noFlea",
-                                "preset"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/657eb3773271d8578610fe28-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SIG_MCX-SPEAR_6.8x51_assault_rifle"
-                        },
-                        "count": 1,
-                        "quantity": 1,
-                        "attributes": []
-                    },
-                    {
-                        "item": {
-                            "id": "65293c38fc460e50a509cb25",
-                            "name": "Lancer L7AWM 7.62x51 AR-10 20发弹匣",
-                            "normalizedName": "ar-10-762x51-lancer-l7awm-20-round-magazine",
-                            "shortName": "L7AWM",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "mods"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/65293c38fc460e50a509cb25-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AR-10_7.62x51_Lancer_L7AWM_20-round_magazine"
-                        },
-                        "count": 3,
-                        "quantity": 3,
-                        "attributes": []
-                    },
-                    {
-                        "item": {
-                            "id": "6529302b8c26af6326029fb7",
-                            "name": "6.8x51毫米 SIG FMJ",
-                            "normalizedName": "68x51mm-sig-fmj",
-                            "shortName": "FMJ",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "ammo",
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/6529302b8c26af6326029fb7-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/6.8x51mm_SIG_FMJ"
-                        },
-                        "count": 41,
-                        "quantity": 41,
+                        "count": 100,
+                        "quantity": 100,
                         "attributes": []
                     }
                 ],
@@ -17264,7 +17302,7 @@
         {
             "id": "66058cbb06ef1d50a60c1f46",
             "tarkovDataId": "66058cbb06ef1d50a60c1f46",
-            "name": "惊喜 [PVP ZONE]",
+            "name": "惊喜（PVP）",
             "normalizedName": "surprise-pvp-zone",
             "trader": {
                 "id": "6617beeaa9cfa777ca915b7c",
@@ -17280,7 +17318,7 @@
                 {
                     "task": {
                         "id": "66058cb9e8e4f17985230805",
-                        "name": "平衡之力 - 2 [PVP ZONE]",
+                        "name": "平衡之力 - 2（PVP）",
                         "normalizedName": "balancing-part-2-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058cb9e8e4f17985230805.webp",
                         "trader": {
@@ -17869,7 +17907,7 @@
         {
             "id": "66058cc9ae4719735349b9ea",
             "tarkovDataId": "66058cc9ae4719735349b9ea",
-            "name": "再创新高！- 5 [PVP ZONE]",
+            "name": "再创新高！- 5（PVP）",
             "normalizedName": "to-great-heights-part-5-pvp-zone",
             "trader": {
                 "id": "6617beeaa9cfa777ca915b7c",
@@ -17885,7 +17923,7 @@
                 {
                     "task": {
                         "id": "66058cc72cee99303f1ba069",
-                        "name": "再创新高！- 4 [PVP ZONE]",
+                        "name": "再创新高！- 4（PVP）",
                         "normalizedName": "to-great-heights-part-4-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058cc72cee99303f1ba069.webp",
                         "trader": {
@@ -17905,9 +17943,9 @@
             "objectives": [
                 {
                     "__typename": "TaskObjectiveBasic",
-                    "id": "662ba87106e44407b79e9ab2",
+                    "id": "6978a38c3df6fd9e18d5ed3b",
                     "type": "visit",
-                    "description": "在竞技场连续赢得两场 TeamFight 或 BlastGang 或 CheckPoint 模式的战斗",
+                    "description": "在竞技场赢得一场 TeamFight 或 BlastGang 或 CheckPoint 模式的战斗，至少排名前两名",
                     "maps": [],
                     "optional": false,
                     "zones": [],
@@ -17983,7 +18021,7 @@
         {
             "id": "66058cd19f59e625462acc90",
             "tarkovDataId": "66058cd19f59e625462acc90",
-            "name": "两难抉择 [PVP ZONE]",
+            "name": "两难抉择（PVP）",
             "normalizedName": "decisions-decisions-pvp-zone",
             "trader": {
                 "id": "6617beeaa9cfa777ca915b7c",
@@ -17999,7 +18037,7 @@
                 {
                     "task": {
                         "id": "66058ccf06ef1d50a60c1f48",
-                        "name": "两害相权 [PVP ZONE]",
+                        "name": "两害相权（PVP）",
                         "normalizedName": "between-two-fires-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058ccf06ef1d50a60c1f48.webp",
                         "trader": {
@@ -18111,7 +18149,7 @@
                     "optional": false,
                     "task": {
                         "id": "66058ccf06ef1d50a60c1f48",
-                        "name": "两害相权 [PVP ZONE]",
+                        "name": "两害相权（PVP）",
                         "normalizedName": "between-two-fires-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058ccf06ef1d50a60c1f48.webp",
                         "trader": {
@@ -18157,7 +18195,15 @@
                 "traderUnlock": [],
                 "craftUnlock": [],
                 "achievement": [],
-                "customization": []
+                "customization": [
+                    {
+                        "id": "675466ea8b3797a0e8038bd2",
+                        "name": "拼花地板",
+                        "customizationType": "Floor",
+                        "customizationTypeName": "Hideout/Customization/Floor/TabName",
+                        "imageLink": "https://assets.tarkov.dev/customization-675466ea8b3797a0e8038bd2.webp"
+                    }
+                ]
             },
             "finishRewards": {
                 "traderStanding": [
@@ -18244,7 +18290,7 @@
         {
             "id": "66058cc1da30b620a34e6e86",
             "tarkovDataId": "66058cc1da30b620a34e6e86",
-            "name": "再创新高！- 1 [PVP ZONE]",
+            "name": "再创新高！- 1（PVP）",
             "normalizedName": "to-great-heights-part-1-pvp-zone",
             "trader": {
                 "id": "6617beeaa9cfa777ca915b7c",
@@ -18358,7 +18404,7 @@
         {
             "id": "66058cc208308761cf390993",
             "tarkovDataId": "66058cc208308761cf390993",
-            "name": "再创新高！- 2 [PVP ZONE]",
+            "name": "再创新高！- 2（PVP）",
             "normalizedName": "to-great-heights-part-2-pvp-zone",
             "trader": {
                 "id": "6617beeaa9cfa777ca915b7c",
@@ -18374,7 +18420,7 @@
                 {
                     "task": {
                         "id": "66058cc1da30b620a34e6e86",
-                        "name": "再创新高！- 1 [PVP ZONE]",
+                        "name": "再创新高！- 1（PVP）",
                         "normalizedName": "to-great-heights-part-1-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058cc1da30b620a34e6e86.webp",
                         "trader": {
@@ -18491,7 +18537,7 @@
         {
             "id": "66058cc5bb83da7ba474aba9",
             "tarkovDataId": "66058cc5bb83da7ba474aba9",
-            "name": "再创新高！- 3 [PVP ZONE]",
+            "name": "再创新高！- 3（PVP）",
             "normalizedName": "to-great-heights-part-3-pvp-zone",
             "trader": {
                 "id": "6617beeaa9cfa777ca915b7c",
@@ -18507,7 +18553,7 @@
                 {
                     "task": {
                         "id": "66058cc208308761cf390993",
-                        "name": "再创新高！- 2 [PVP ZONE]",
+                        "name": "再创新高！- 2（PVP）",
                         "normalizedName": "to-great-heights-part-2-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058cc208308761cf390993.webp",
                         "trader": {
@@ -18622,6 +18668,128 @@
             "taskImageLink": "https://assets.tarkov.dev/66058cc5bb83da7ba474aba9.webp"
         },
         {
+            "id": "697895b6c639962b2e0cf268",
+            "tarkovDataId": "697895b6c639962b2e0cf268",
+            "name": "保持领先（PVP）",
+            "normalizedName": "hold-the-lead-pvp-zone",
+            "trader": {
+                "id": "6617beeaa9cfa777ca915b7c",
+                "name": "竞技场裁判",
+                "normalizedName": "ref",
+                "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+            },
+            "map": null,
+            "experience": 9100,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hold_the_Lead",
+            "minPlayerLevel": 10,
+            "taskRequirements": [
+                {
+                    "task": {
+                        "id": "69789418b2187365e70bb947",
+                        "name": "再创新高！- 6（PVP）",
+                        "normalizedName": "to-great-heights-part-6-pvp-zone",
+                        "taskImageLink": "https://assets.tarkov.dev/69789418b2187365e70bb947.webp",
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        }
+                    },
+                    "status": [
+                        "complete"
+                    ]
+                }
+            ],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveShoot",
+                    "id": "697895e700201d158bb28f22",
+                    "type": "shoot",
+                    "description": "在竞技场消灭敌人",
+                    "maps": [],
+                    "optional": false,
+                    "targetNames": [
+                        "任意PMC干员："
+                    ],
+                    "count": 75,
+                    "shotType": "kill",
+                    "zoneNames": [],
+                    "bodyParts": [],
+                    "timeFromHour": 0,
+                    "timeUntilHour": 0,
+                    "usingWeapon": [],
+                    "usingWeaponMods": [],
+                    "wearing": [],
+                    "notWearing": [],
+                    "distance": {
+                        "value": 0,
+                        "compareMethod": ">="
+                    },
+                    "playerHealthEffect": null,
+                    "enemyHealthEffect": null,
+                    "zones": []
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [
+                    {
+                        "item": {
+                            "id": "5d235b4d86f7742e017bc88a",
+                            "name": "GP币",
+                            "normalizedName": "gp-coin",
+                            "shortName": "GP",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d235b4d86f7742e017bc88a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GP_coin"
+                        },
+                        "count": 75,
+                        "quantity": 75,
+                        "attributes": []
+                    }
+                ],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/697895b6c639962b2e0cf268.webp"
+        },
+        {
             "id": "697877e0c639962b2e0cf24f",
             "tarkovDataId": "697877e0c639962b2e0cf24f",
             "name": "竞技场差事（PVP）",
@@ -18634,13 +18802,13 @@
             },
             "map": null,
             "experience": 19500,
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Arena_Business",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Arena_Business_%5BPVP_ZONE%5D%0A",
             "minPlayerLevel": 10,
             "taskRequirements": [
                 {
                     "task": {
                         "id": "66058cb7c7f3584787181476",
-                        "name": "平衡之力 - 1 [PVP ZONE]",
+                        "name": "平衡之力 - 1（PVP）",
                         "normalizedName": "balancing-part-1-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058cb7c7f3584787181476.webp",
                         "trader": {
@@ -18740,17 +18908,7 @@
                 "customization": []
             },
             "finishRewards": {
-                "traderStanding": [
-                    {
-                        "trader": {
-                            "id": "6617beeaa9cfa777ca915b7c",
-                            "name": "竞技场裁判",
-                            "normalizedName": "ref",
-                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
-                        },
-                        "standing": 0.04
-                    }
-                ],
+                "traderStanding": [],
                 "items": [
                     {
                         "item": {
@@ -18767,8 +18925,8 @@
                             "iconLink": "https://assets.tarkov.dev/5d235b4d86f7742e017bc88a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GP_coin"
                         },
-                        "count": 250,
-                        "quantity": 250,
+                        "count": 102,
+                        "quantity": 102,
                         "attributes": []
                     },
                     {
@@ -18888,10 +19046,10 @@
             "taskRequirements": [
                 {
                     "task": {
-                        "id": "66058cb7c7f3584787181476",
-                        "name": "平衡之力 - 1 [PVP ZONE]",
-                        "normalizedName": "balancing-part-1-pvp-zone",
-                        "taskImageLink": "https://assets.tarkov.dev/66058cb7c7f3584787181476.webp",
+                        "id": "697877e0c639962b2e0cf24f",
+                        "name": "竞技场差事（PVP）",
+                        "normalizedName": "arena-business-pvp-zone",
+                        "taskImageLink": "https://assets.tarkov.dev/697877e0c639962b2e0cf24f.webp",
                         "trader": {
                             "id": "6617beeaa9cfa777ca915b7c",
                             "name": "竞技场裁判",
@@ -18900,7 +19058,7 @@
                         }
                     },
                     "status": [
-                        "complete"
+                        "active"
                     ]
                 }
             ],
@@ -18911,7 +19069,7 @@
                     "__typename": "TaskObjectiveBasic",
                     "id": "69788c6d403c43a13a7ba7c2",
                     "type": "visit",
-                    "description": "在竞技场 LastHero 或 CheckPoint 模式进行一场游戏",
+                    "description": "在 CheckPoint 或 LastHero 模式下完成一场战斗",
                     "maps": [],
                     "optional": false,
                     "zones": [],
@@ -19022,14 +19180,32 @@
             "restartable": false,
             "objectives": [
                 {
-                    "__typename": "TaskObjectiveBasic",
+                    "__typename": "TaskObjectiveShoot",
                     "id": "69788fc3dc3074ce1c851e20",
-                    "type": "visit",
-                    "description": "在竞技场任意模式击杀 20 名敌人",
+                    "type": "shoot",
+                    "description": "在竞技场消灭敌人",
                     "maps": [],
                     "optional": false,
-                    "zones": [],
-                    "requiredKeys": null
+                    "targetNames": [
+                        "任意PMC干员："
+                    ],
+                    "count": 20,
+                    "shotType": "kill",
+                    "zoneNames": [],
+                    "bodyParts": [],
+                    "timeFromHour": 0,
+                    "timeUntilHour": 0,
+                    "usingWeapon": [],
+                    "usingWeaponMods": [],
+                    "wearing": [],
+                    "notWearing": [],
+                    "distance": {
+                        "value": 0,
+                        "compareMethod": ">="
+                    },
+                    "playerHealthEffect": null,
+                    "enemyHealthEffect": null,
+                    "zones": []
                 }
             ],
             "failConditions": [],
@@ -19136,7 +19312,7 @@
                 {
                     "task": {
                         "id": "66058cc9ae4719735349b9ea",
-                        "name": "再创新高！- 5 [PVP ZONE]",
+                        "name": "再创新高！- 5（PVP）",
                         "normalizedName": "to-great-heights-part-5-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058cc9ae4719735349b9ea.webp",
                         "trader": {
@@ -19177,7 +19353,17 @@
                 "customization": []
             },
             "finishRewards": {
-                "traderStanding": [],
+                "traderStanding": [
+                    {
+                        "trader": {
+                            "id": "6617beeaa9cfa777ca915b7c",
+                            "name": "竞技场裁判",
+                            "normalizedName": "ref",
+                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
+                        },
+                        "standing": 0.04
+                    }
+                ],
                 "items": [
                     {
                         "item": {
@@ -19201,7 +19387,7 @@
                 ],
                 "offerUnlock": [
                     {
-                        "id": "697877e0c639962b2e0cf24f-664a5428d5e33a713b622379",
+                        "id": "697895005221e008e140be5c",
                         "trader": {
                             "id": "6617beeaa9cfa777ca915b7c",
                             "name": "竞技场裁判",
@@ -19247,123 +19433,9 @@
             "taskImageLink": "https://assets.tarkov.dev/69789418b2187365e70bb947.webp"
         },
         {
-            "id": "697895b6c639962b2e0cf268",
-            "tarkovDataId": "697895b6c639962b2e0cf268",
-            "name": "保持领先（PVP）",
-            "normalizedName": "hold-the-lead-pvp-zone",
-            "trader": {
-                "id": "6617beeaa9cfa777ca915b7c",
-                "name": "竞技场裁判",
-                "normalizedName": "ref",
-                "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
-            },
-            "map": null,
-            "experience": 9100,
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hold_the_Lead",
-            "minPlayerLevel": 10,
-            "taskRequirements": [
-                {
-                    "task": {
-                        "id": "69789418b2187365e70bb947",
-                        "name": "再创新高！- 6（PVP）",
-                        "normalizedName": "to-great-heights-part-6-pvp-zone",
-                        "taskImageLink": "https://assets.tarkov.dev/69789418b2187365e70bb947.webp",
-                        "trader": {
-                            "id": "6617beeaa9cfa777ca915b7c",
-                            "name": "竞技场裁判",
-                            "normalizedName": "ref",
-                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
-                        }
-                    },
-                    "status": [
-                        "complete"
-                    ]
-                }
-            ],
-            "traderRequirements": [],
-            "restartable": false,
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveBasic",
-                    "id": "697895e700201d158bb28f22",
-                    "type": "visit",
-                    "description": "在竞技场任意模式击杀 75 名敌人",
-                    "maps": [],
-                    "optional": false,
-                    "zones": [],
-                    "requiredKeys": null
-                }
-            ],
-            "failConditions": [],
-            "startRewards": {
-                "traderStanding": [],
-                "items": [],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "finishRewards": {
-                "traderStanding": [
-                    {
-                        "trader": {
-                            "id": "6617beeaa9cfa777ca915b7c",
-                            "name": "竞技场裁判",
-                            "normalizedName": "ref",
-                            "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
-                        },
-                        "standing": 0.05
-                    }
-                ],
-                "items": [
-                    {
-                        "item": {
-                            "id": "5d235b4d86f7742e017bc88a",
-                            "name": "GP币",
-                            "normalizedName": "gp-coin",
-                            "shortName": "GP",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter",
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5d235b4d86f7742e017bc88a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GP_coin"
-                        },
-                        "count": 75,
-                        "quantity": 75,
-                        "attributes": []
-                    }
-                ],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "failureOutcome": {
-                "traderStanding": [],
-                "items": [],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "taskImageLink": "https://assets.tarkov.dev/697895b6c639962b2e0cf268.webp"
-        },
-        {
             "id": "66058ccbc7f3584787181478",
             "tarkovDataId": "66058ccbc7f3584787181478",
-            "name": "良心作祟 - 1 [PVP ZONE]",
+            "name": "良心作祟 - 1（PVP）",
             "normalizedName": "against-the-conscience-part-1-pvp-zone",
             "trader": {
                 "id": "579dc571d53a0658a154fbec",
@@ -19383,7 +19455,7 @@
                 {
                     "task": {
                         "id": "66058cbd9f59e625462acc8e",
-                        "name": "制造干扰 - 1 [PVP ZONE]",
+                        "name": "声东击西 - 1（PVP）",
                         "normalizedName": "create-a-distraction-part-1-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058cbd9f59e625462acc8e.webp",
                         "trader": {
@@ -19779,6 +19851,25 @@
                         },
                         "count": 3,
                         "quantity": 3,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "664a5480bfcc521bad3192ca",
+                            "name": "竞技场臂带",
+                            "normalizedName": "armband-arena",
+                            "shortName": "竞技场",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/664a5480bfcc521bad3192ca-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Armband_(ARENA)"
+                        },
+                        "count": 1,
+                        "quantity": 1,
                         "attributes": []
                     },
                     {
@@ -32306,7 +32397,31 @@
                         "attributes": []
                     }
                 ],
-                "offerUnlock": [],
+                "offerUnlock": [
+                    {
+                        "id": "6a8590c6d5bf028241ad0f26",
+                        "trader": {
+                            "id": "5c0647fdd443bc2504c2d371",
+                            "name": "Jaeger",
+                            "normalizedName": "jaeger",
+                            "imageLink": "https://assets.tarkov.dev/5c0647fdd443bc2504c2d371.webp"
+                        },
+                        "level": 3,
+                        "item": {
+                            "id": "59eb7ebe86f7740b373438ce",
+                            "name": "VSS/VAL TOZ 6P29M 基座",
+                            "normalizedName": "vssval-toz-6p29m-mount",
+                            "shortName": "6P29M",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "mods"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/59eb7ebe86f7740b373438ce-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/VSS/VAL_TOZ_6P29M_mount"
+                        }
+                    }
+                ],
                 "skillLevelReward": [],
                 "traderUnlock": [],
                 "craftUnlock": [],
@@ -42580,13 +42695,9 @@
                 "normalizedName": "ragman",
                 "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
             },
-            "map": {
-                "id": "5b0fc42d86f7744a585f9105",
-                "name": "实验室",
-                "normalizedName": "the-lab"
-            },
+            "map": null,
             "experience": 10000,
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Neuanfang",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/New_Beginning_(Prestige_1)",
             "minPlayerLevel": 25,
             "taskRequirements": [],
             "traderRequirements": [],
@@ -42597,10 +42708,68 @@
                     "id": "6761f93bc757eb8c228fa754",
                     "type": "shoot",
                     "description": "消灭 Scav",
-                    "maps": [],
+                    "maps": [
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
+                            "id": "68236e8153654e8c1200798a",
+                            "name": "Ground Zero 教程",
+                            "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
+                        }
+                    ],
                     "optional": false,
                     "targetNames": [
-                        "Scav："
+                        "Scav",
+                        "Scav：",
+                        "狙击手"
                     ],
                     "count": 50,
                     "shotType": "kill",
@@ -42613,8 +42782,8 @@
                     "wearing": [],
                     "notWearing": [],
                     "distance": {
-                        "compareMethod": ">=",
-                        "value": 0
+                        "value": 0,
+                        "compareMethod": ">="
                     },
                     "playerHealthEffect": null,
                     "enemyHealthEffect": null,
@@ -42630,6 +42799,11 @@
                             "id": "5b0fc42d86f7744a585f9105",
                             "name": "实验室",
                             "normalizedName": "the-lab"
+                        },
+                        {
+                            "id": "6a294a5b5eb5f9a1700417b7",
+                            "name": "实验室 (Dark)",
+                            "normalizedName": "the-lab-dark"
                         }
                     ],
                     "optional": false,
@@ -42662,45 +42836,6 @@
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BEAR_operative_figurine"
                         },
                         {
-                            "id": "655c663a6689c676ce57af85",
-                            "name": "USEC 干员玩偶",
-                            "normalizedName": "usec-operative-figurine",
-                            "shortName": "USEC",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/655c663a6689c676ce57af85-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/USEC_operative_figurine"
-                        },
-                        {
-                            "id": "66572b8d80b1cd4b6a67847f",
-                            "name": "Den 玩偶",
-                            "normalizedName": "den-figurine",
-                            "shortName": "Den",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/66572b8d80b1cd4b6a67847f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Den_figurine"
-                        },
-                        {
-                            "id": "68f26124b84c6e1f8a09cfff",
-                            "name": "无赖战士玩偶",
-                            "normalizedName": "walking-tank-figurine",
-                            "shortName": "无赖战士",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/68f26124b84c6e1f8a09cfff-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Walking_Tank_figurine"
-                        },
-                        {
                             "id": "6841b6b674a3c16f5e03d653",
                             "name": "PMC 起源玩偶",
                             "normalizedName": "pmc-origins-figurine",
@@ -42727,6 +42862,58 @@
                             ],
                             "iconLink": "https://assets.tarkov.dev/68f11224197b61ffe703b16f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hardened_PMC_figurine"
+                        },
+                        {
+                            "id": "68f26161b84c6e1f8a09d001",
+                            "name": "“逃离”玩偶",
+                            "normalizedName": "escape-figurine",
+                            "shortName": "逃离",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68f26161b84c6e1f8a09d001-icon.webp",
+                            "wikiLink": null
+                        },
+                        {
+                            "id": "68f26124b84c6e1f8a09cfff",
+                            "name": "无赖战士玩偶",
+                            "normalizedName": "walking-tank-figurine",
+                            "shortName": "无赖战士",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68f26124b84c6e1f8a09cfff-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Walking_Tank_figurine"
+                        },
+                        {
+                            "id": "655c663a6689c676ce57af85",
+                            "name": "USEC 干员玩偶",
+                            "normalizedName": "usec-operative-figurine",
+                            "shortName": "USEC",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/655c663a6689c676ce57af85-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/USEC_operative_figurine"
+                        },
+                        {
+                            "id": "66572b8d80b1cd4b6a67847f",
+                            "name": "Den 玩偶",
+                            "normalizedName": "den-figurine",
+                            "shortName": "Den",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/66572b8d80b1cd4b6a67847f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Den_figurine"
                         },
                         {
                             "id": "697cddb414e932098005748d",
@@ -42760,32 +42947,6 @@
                     "optional": false,
                     "items": [
                         {
-                            "id": "655c673673a43e23e857aebd",
-                            "name": "Scav 玩偶",
-                            "normalizedName": "scav-figurine",
-                            "shortName": "Scav",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/655c673673a43e23e857aebd-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Scav_figurine"
-                        },
-                        {
-                            "id": "655c67782a1356436041c9c5",
-                            "name": "Ryzhy 玩偶",
-                            "normalizedName": "ryzhy-figurine",
-                            "shortName": "Ryzhy",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/655c67782a1356436041c9c5-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ryzhy_figurine"
-                        },
-                        {
                             "id": "655c66e40b2de553b618d4b8",
                             "name": "Mutkevich 政客玩偶",
                             "normalizedName": "politician-mutkevich-figurine",
@@ -42799,17 +42960,17 @@
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Politician_Mutkevich_figurine"
                         },
                         {
-                            "id": "68f261f6928cd23ddf0471fd",
-                            "name": "Mastichin 玩偶",
-                            "normalizedName": "mastichin-figurine",
-                            "shortName": "Mastichin",
+                            "id": "655c673673a43e23e857aebd",
+                            "name": "Scav 玩偶",
+                            "normalizedName": "scav-figurine",
+                            "shortName": "Scav",
                             "width": 1,
                             "height": 2,
                             "types": [
                                 "barter"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/68f261f6928cd23ddf0471fd-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mastichin_figurine"
+                            "iconLink": "https://assets.tarkov.dev/655c673673a43e23e857aebd-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Scav_figurine"
                         },
                         {
                             "id": "690c70a2a1461a01d605a1bd",
@@ -42836,6 +42997,32 @@
                             ],
                             "iconLink": "https://assets.tarkov.dev/68f260d7b84c6e1f8a09cffd-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hideout_Cat_figurine"
+                        },
+                        {
+                            "id": "68f261f6928cd23ddf0471fd",
+                            "name": "Mastichin 玩偶",
+                            "normalizedName": "mastichin-figurine",
+                            "shortName": "Mastichin",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68f261f6928cd23ddf0471fd-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mastichin_figurine"
+                        },
+                        {
+                            "id": "655c67782a1356436041c9c5",
+                            "name": "Ryzhy 玩偶",
+                            "normalizedName": "ryzhy-figurine",
+                            "shortName": "Ryzhy",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/655c67782a1356436041c9c5-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ryzhy_figurine"
                         }
                     ],
                     "count": 1,
@@ -42868,32 +43055,6 @@
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Killa_figurine"
                         },
                         {
-                            "id": "66572cbdad599021091c611a",
-                            "name": "Tagilla 玩偶",
-                            "normalizedName": "tagilla-figurine",
-                            "shortName": "Tagilla",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/66572cbdad599021091c611a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tagilla_figurine"
-                        },
-                        {
-                            "id": "66572be36a723f7f005a066e",
-                            "name": "Reshala 玩偶",
-                            "normalizedName": "reshala-figurine",
-                            "shortName": "Reshala",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/66572be36a723f7f005a066e-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reshala_figurine"
-                        },
-                        {
                             "id": "655c67ab0d37ca5135388f4b",
                             "name": "圣诞老人玩偶",
                             "normalizedName": "ded-moroz-figurine",
@@ -42918,6 +43079,32 @@
                             ],
                             "iconLink": "https://assets.tarkov.dev/655c669103999d3c810c025b-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Cultist_figurine"
+                        },
+                        {
+                            "id": "66572be36a723f7f005a066e",
+                            "name": "Reshala 玩偶",
+                            "normalizedName": "reshala-figurine",
+                            "shortName": "Reshala",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/66572be36a723f7f005a066e-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reshala_figurine"
+                        },
+                        {
+                            "id": "66572cbdad599021091c611a",
+                            "name": "Tagilla 玩偶",
+                            "normalizedName": "tagilla-figurine",
+                            "shortName": "Tagilla",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/66572cbdad599021091c611a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Tagilla_figurine"
                         }
                     ],
                     "count": 1,
@@ -42932,35 +43119,22 @@
                     "__typename": "TaskObjectiveItem",
                     "id": "6761f87227aeff895cef62c5",
                     "type": "giveItem",
-                    "description": "上交任意 商人 玩偶",
+                    "description": "上交任意商人玩偶",
                     "maps": [],
                     "optional": false,
                     "items": [
                         {
-                            "id": "68f25c64b2b53abd200b954f",
-                            "name": "Prapor 玩偶",
-                            "normalizedName": "prapor-figurine",
-                            "shortName": "Prapor",
+                            "id": "68f2608301fb9de974058be6",
+                            "name": "BTR 模型",
+                            "normalizedName": "btr-figurine",
+                            "shortName": "BTR",
                             "width": 1,
                             "height": 2,
                             "types": [
                                 "barter"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/68f25c64b2b53abd200b954f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Prapor_figurine"
-                        },
-                        {
-                            "id": "68f25ce9b2b53abd200b9551",
-                            "name": "Therapist 玩偶",
-                            "normalizedName": "therapist-figurine",
-                            "shortName": "Therapist",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/68f25ce9b2b53abd200b9551-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Therapist_figurine"
+                            "iconLink": "https://assets.tarkov.dev/68f2608301fb9de974058be6-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BTR_figurine"
                         },
                         {
                             "id": "68f25da3b84c6e1f8a09cffb",
@@ -42974,58 +43148,6 @@
                             ],
                             "iconLink": "https://assets.tarkov.dev/68f25da3b84c6e1f8a09cffb-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fence_figurine"
-                        },
-                        {
-                            "id": "68f25eba19a2b503d70dc28f",
-                            "name": "Skier 玩偶",
-                            "normalizedName": "skier-figurine",
-                            "shortName": "Skier",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/68f25eba19a2b503d70dc28f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Skier_figurine"
-                        },
-                        {
-                            "id": "68f25eef19a2b503d70dc291",
-                            "name": "Peacekeeper 玩偶",
-                            "normalizedName": "peacekeeper-figurine",
-                            "shortName": "Peacekeeper",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/68f25eef19a2b503d70dc291-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Peacekeeper_figurine"
-                        },
-                        {
-                            "id": "68f25f1201fb9de974058be4",
-                            "name": "Mechanic 玩偶",
-                            "normalizedName": "mechanic-figurine",
-                            "shortName": "Mechanic",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/68f25f1201fb9de974058be4-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mechanic_figurine"
-                        },
-                        {
-                            "id": "68f25f3a5d977110860c3350",
-                            "name": "Ragman 玩偶",
-                            "normalizedName": "ragman-figurine",
-                            "shortName": "Ragman",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/68f25f3a5d977110860c3350-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ragman_figurine"
                         },
                         {
                             "id": "68f25faa22c8979ee308f4da",
@@ -43054,6 +43176,58 @@
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Lightkeeper_figurine"
                         },
                         {
+                            "id": "68f25f1201fb9de974058be4",
+                            "name": "Mechanic 玩偶",
+                            "normalizedName": "mechanic-figurine",
+                            "shortName": "Mechanic",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68f25f1201fb9de974058be4-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mechanic_figurine"
+                        },
+                        {
+                            "id": "68f25eef19a2b503d70dc291",
+                            "name": "Peacekeeper 玩偶",
+                            "normalizedName": "peacekeeper-figurine",
+                            "shortName": "Peacekeeper",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68f25eef19a2b503d70dc291-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Peacekeeper_figurine"
+                        },
+                        {
+                            "id": "68f25c64b2b53abd200b954f",
+                            "name": "Prapor 玩偶",
+                            "normalizedName": "prapor-figurine",
+                            "shortName": "Prapor",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68f25c64b2b53abd200b954f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Prapor_figurine"
+                        },
+                        {
+                            "id": "68f25f3a5d977110860c3350",
+                            "name": "Ragman 玩偶",
+                            "normalizedName": "ragman-figurine",
+                            "shortName": "Ragman",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68f25f3a5d977110860c3350-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ragman_figurine"
+                        },
+                        {
                             "id": "68f26063b2b53abd200b9553",
                             "name": "竞技场裁判玩偶",
                             "normalizedName": "ref-figurine",
@@ -43067,17 +43241,30 @@
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Ref_figurine"
                         },
                         {
-                            "id": "68f2608301fb9de974058be6",
-                            "name": "BTR 模型",
-                            "normalizedName": "btr-figurine",
-                            "shortName": "BTR",
+                            "id": "68f25eba19a2b503d70dc28f",
+                            "name": "Skier 玩偶",
+                            "normalizedName": "skier-figurine",
+                            "shortName": "Skier",
                             "width": 1,
                             "height": 2,
                             "types": [
                                 "barter"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/68f2608301fb9de974058be6-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/BTR_figurine"
+                            "iconLink": "https://assets.tarkov.dev/68f25eba19a2b503d70dc28f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Skier_figurine"
+                        },
+                        {
+                            "id": "68f25ce9b2b53abd200b9551",
+                            "name": "Therapist 玩偶",
+                            "normalizedName": "therapist-figurine",
+                            "shortName": "Therapist",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/68f25ce9b2b53abd200b9551-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Therapist_figurine"
                         }
                     ],
                     "count": 1,
@@ -43101,17 +43288,7 @@
                 "customization": []
             },
             "finishRewards": {
-                "traderStanding": [
-                    {
-                        "trader": {
-                            "id": "5ac3b934156ae10c4430e83c",
-                            "name": "Ragman",
-                            "normalizedName": "ragman",
-                            "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
-                        },
-                        "standing": 0.01
-                    }
-                ],
+                "traderStanding": [],
                 "items": [
                     {
                         "item": {
@@ -46921,14 +47098,14 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
-                            "id": "6a294a5b5eb5f9a1700417b7",
-                            "name": "实验室 (Dark)",
-                            "normalizedName": "the-lab-dark"
-                        },
-                        {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "6a294a5b5eb5f9a1700417b7",
+                            "name": "实验室 (Dark)",
+                            "normalizedName": "the-lab-dark"
                         },
                         {
                             "id": "5b0fc42d86f7744a585f9105",
@@ -47204,14 +47381,14 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
-                            "id": "6a294a5b5eb5f9a1700417b7",
-                            "name": "实验室 (Dark)",
-                            "normalizedName": "the-lab-dark"
-                        },
-                        {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "6a294a5b5eb5f9a1700417b7",
+                            "name": "实验室 (Dark)",
+                            "normalizedName": "the-lab-dark"
                         },
                         {
                             "id": "5b0fc42d86f7744a585f9105",
@@ -49171,6 +49348,11 @@
                     "description": "在同场战局中找到并消灭 Knight",
                     "maps": [
                         {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
@@ -49189,11 +49371,6 @@
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -49225,6 +49402,11 @@
                     "description": "在同场战局中找到并消灭 Big Pipe",
                     "maps": [
                         {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
@@ -49238,11 +49420,6 @@
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -49274,6 +49451,11 @@
                     "description": "在同场战局中找到并消灭 Birdeye",
                     "maps": [
                         {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
@@ -49287,11 +49469,6 @@
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -54829,7 +55006,7 @@
                 {
                     "task": {
                         "id": "66058ccf06ef1d50a60c1f48",
-                        "name": "两害相权 [PVP ZONE]",
+                        "name": "两害相权（PVP）",
                         "normalizedName": "between-two-fires-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058ccf06ef1d50a60c1f48.webp",
                         "trader": {
@@ -55050,7 +55227,7 @@
                     "optional": false,
                     "task": {
                         "id": "66058cd19f59e625462acc90",
-                        "name": "两难抉择 [PVP ZONE]",
+                        "name": "两难抉择（PVP）",
                         "normalizedName": "decisions-decisions-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058cd19f59e625462acc90.webp",
                         "trader": {
@@ -55073,7 +55250,7 @@
                     "optional": false,
                     "task": {
                         "id": "66058ccf06ef1d50a60c1f48",
-                        "name": "两害相权 [PVP ZONE]",
+                        "name": "两害相权（PVP）",
                         "normalizedName": "between-two-fires-pvp-zone",
                         "taskImageLink": "https://assets.tarkov.dev/66058ccf06ef1d50a60c1f48.webp",
                         "trader": {
@@ -57406,6 +57583,16 @@
                     "description": "使用轻机枪消灭 Scav",
                     "maps": [
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -57449,16 +57636,6 @@
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -58235,6 +58412,11 @@
                             "normalizedName": "interchange"
                         },
                         {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -58243,11 +58425,6 @@
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -63001,6 +63178,15 @@
                     "requiredKeys": null
                 },
                 {
+                    "__typename": "TaskObjectiveBasic",
+                    "id": "6a82cd4e1b6419afe449763a",
+                    "type": "globalVariable",
+                    "description": "You must not kill Rogues or The Goons on Lighthouse while the task is active",
+                    "maps": [],
+                    "optional": true,
+                    "zones": []
+                },
+                {
                     "__typename": "TaskObjectiveItem",
                     "id": "5c0bc43e86f7744794440ba5",
                     "type": "plantItem",
@@ -63037,6 +63223,15 @@
                     "requiredKeys": null
                 },
                 {
+                    "__typename": "TaskObjectiveBasic",
+                    "id": "6a8467a29862ad5aa577d78a",
+                    "type": "globalVariable",
+                    "description": "You must not kill Rogues or The Goons on Lighthouse while the task is active",
+                    "maps": [],
+                    "optional": true,
+                    "zones": []
+                },
+                {
                     "__typename": "TaskObjectiveItem",
                     "id": "5c12320586f77437e44bcb15",
                     "type": "plantItem",
@@ -63071,6 +63266,15 @@
                     "minDurability": 0,
                     "zones": [],
                     "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveBasic",
+                    "id": "6a8467953e97ee5e84f9d7fe",
+                    "type": "globalVariable",
+                    "description": "You must not kill Rogues or The Goons on Lighthouse while the task is active",
+                    "maps": [],
+                    "optional": true,
+                    "zones": []
                 }
             ],
             "failConditions": [
@@ -73746,14 +73950,14 @@
                     "description": "击杀游荡者",
                     "maps": [
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
                         }
                     ],
                     "optional": false,
@@ -74086,14 +74290,14 @@
                     "description": "击杀游荡者",
                     "maps": [
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
                             "id": "5704e4dad2720bb55b8b4567",
                             "name": "灯塔",
                             "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
                         }
                     ],
                     "optional": false,
@@ -104205,6 +104409,16 @@
                             "normalizedName": "streets-of-tarkov"
                         },
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -104243,16 +104457,6 @@
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -106058,7 +106262,11 @@
                 "normalizedName": "skier",
                 "imageLink": "https://assets.tarkov.dev/58330581ace78e27b8b10cee.webp"
             },
-            "map": null,
+            "map": {
+                "id": "5704e4dad2720bb55b8b4567",
+                "name": "灯塔",
+                "normalizedName": "lighthouse"
+            },
             "experience": 28000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/From_Hand_to_Hand",
             "minPlayerLevel": 0,
@@ -116043,14 +116251,14 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
-                            "id": "6a294a5b5eb5f9a1700417b7",
-                            "name": "实验室 (Dark)",
-                            "normalizedName": "the-lab-dark"
-                        },
-                        {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "6a294a5b5eb5f9a1700417b7",
+                            "name": "实验室 (Dark)",
+                            "normalizedName": "the-lab-dark"
                         },
                         {
                             "id": "5b0fc42d86f7744a585f9105",
@@ -121847,6 +122055,16 @@
                     "description": "命中头部击杀Scav",
                     "maps": [
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -121890,16 +122108,6 @@
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -127951,6 +128159,25 @@
                         "count": 4,
                         "quantity": 4,
                         "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "69413241b1ce1e5fbb09ed0a",
+                            "name": "CENS ProFlex DX5 战术耳塞",
+                            "normalizedName": "cens-proflex-dx5-tactical-earplug",
+                            "shortName": "ProFlex",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "headphones",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/69413241b1ce1e5fbb09ed0a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CENS_ProFlex_DX5_tactical_earplug"
+                        },
+                        "count": 1,
+                        "quantity": 1,
+                        "attributes": []
                     }
                 ],
                 "offerUnlock": [
@@ -127976,6 +128203,55 @@
                             ],
                             "iconLink": "https://assets.tarkov.dev/60098ad7c2240c0fe85c570a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/AFAK_tactical_individual_first_aid_kit"
+                        }
+                    },
+                    {
+                        "id": "6a7f3a941fd298df7caca9b7",
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        },
+                        "level": 4,
+                        "item": {
+                            "id": "655746010177119f4a097ff7",
+                            "name": "SAPI III+ 级防弹插板",
+                            "normalizedName": "sapi-level-iii-ballistic-plate",
+                            "shortName": "SAPI III+",
+                            "width": 2,
+                            "height": 2,
+                            "types": [
+                                "armorPlate",
+                                "noFlea",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/655746010177119f4a097ff7-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SAPI_level_III%2B_ballistic_plate"
+                        }
+                    },
+                    {
+                        "id": "6a7f3ab93ef7a57a99ee974e",
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        },
+                        "level": 4,
+                        "item": {
+                            "id": "69413241b1ce1e5fbb09ed0a",
+                            "name": "CENS ProFlex DX5 战术耳塞",
+                            "normalizedName": "cens-proflex-dx5-tactical-earplug",
+                            "shortName": "ProFlex",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "headphones",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/69413241b1ce1e5fbb09ed0a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CENS_ProFlex_DX5_tactical_earplug"
                         }
                     }
                 ],
@@ -137429,14 +137705,14 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
-                            "id": "6a294a5b5eb5f9a1700417b7",
-                            "name": "实验室 (Dark)",
-                            "normalizedName": "the-lab-dark"
-                        },
-                        {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "6a294a5b5eb5f9a1700417b7",
+                            "name": "实验室 (Dark)",
+                            "normalizedName": "the-lab-dark"
                         },
                         {
                             "id": "5b0fc42d86f7744a585f9105",
@@ -146604,6 +146880,16 @@
                     "description": "6667196a74bbc3a671ef49f8",
                     "maps": [
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -146647,16 +146933,6 @@
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -147724,6 +148000,11 @@
                             "normalizedName": "interchange"
                         },
                         {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
@@ -147737,11 +148018,6 @@
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -293461,6 +293737,16 @@
                     "description": "在完成其他目标的同时消灭 Scav",
                     "maps": [
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -293504,16 +293790,6 @@
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -294164,6 +294440,16 @@
                     "description": "在完成其他目标的同时消灭 Scav",
                     "maps": [
                         {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
@@ -294207,16 +294493,6 @@
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -346639,6 +346915,489 @@
             "taskImageLink": "https://assets.tarkov.dev/67af4c1d8c9482eca103e477.webp"
         },
         {
+            "id": "6a5ccda873f06065630d61b0",
+            "tarkovDataId": "6a5ccda873f06065630d61b0",
+            "name": "秘密消息",
+            "normalizedName": "secret-message",
+            "trader": {
+                "id": "5935c25fb3acc3127c3d8cd9",
+                "name": "Peacekeeper",
+                "normalizedName": "peacekeeper",
+                "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+            },
+            "map": {
+                "id": "5714dc692459777137212e12",
+                "name": "塔科夫街区",
+                "normalizedName": "streets-of-tarkov"
+            },
+            "experience": 10000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Secret_Message",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveShoot",
+                    "id": "6a5ccda873f06065630d61b2",
+                    "type": "shoot",
+                    "description": "在塔科夫街区使用 12 号霰弹枪爆头击杀任意敌对目标",
+                    "maps": [
+                        {
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
+                        }
+                    ],
+                    "optional": false,
+                    "targetNames": [
+                        "任意目标："
+                    ],
+                    "count": 15,
+                    "shotType": "kill",
+                    "zoneNames": [],
+                    "bodyParts": [
+                        "QuestCondition/Elimination/Kill/BodyPart/Head"
+                    ],
+                    "timeFromHour": 0,
+                    "timeUntilHour": 0,
+                    "usingWeapon": [
+                        {
+                            "id": "60db29ce99594040e04c4a27",
+                            "name": "MTs-255-12 12铅径转轮霰弹枪",
+                            "normalizedName": "mts-255-12-12ga-shotgun",
+                            "shortName": "MTs-255-12",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "gun"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/60db29ce99594040e04c4a27-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MTs-255-12_12ga_shotgun"
+                        },
+                        {
+                            "id": "6259b864ebedf17603599e88",
+                            "name": "Benelli M3 Super 90 12铅径双模式霰弹枪",
+                            "normalizedName": "benelli-m3-super-90-12ga-dual-mode-shotgun",
+                            "shortName": "M3 Super 90",
+                            "width": 3,
+                            "height": 1,
+                            "types": [
+                                "gun"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6259b864ebedf17603599e88-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Benelli_M3_Super_90_12ga_dual-mode_shotgun"
+                        },
+                        {
+                            "id": "54491c4f4bdc2db1078b4568",
+                            "name": "MP-133 12 铅径泵动式霰弹枪",
+                            "normalizedName": "mp-133-12ga-pump-action-shotgun",
+                            "shortName": "MP-133",
+                            "width": 3,
+                            "height": 1,
+                            "types": [
+                                "gun",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/54491c4f4bdc2db1078b4568-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-133_12ga_pump-action_shotgun"
+                        },
+                        {
+                            "id": "56dee2bdd2720bc8328b4567",
+                            "name": "MP-153 12铅径半自动霰弹枪",
+                            "normalizedName": "mp-153-12ga-semi-automatic-shotgun",
+                            "shortName": "MP-153",
+                            "width": 3,
+                            "height": 1,
+                            "types": [
+                                "gun",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/56dee2bdd2720bc8328b4567-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-153_12ga_semi-automatic_shotgun"
+                        },
+                        {
+                            "id": "64748cb8de82c85eaf0a273a",
+                            "name": "MP-43 12铅径截短双管霰弹枪",
+                            "normalizedName": "mp-43-12ga-sawed-off-double-barrel-shotgun",
+                            "shortName": "截短霰弹枪",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "gun"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/64748cb8de82c85eaf0a273a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-43_12ga_sawed-off_double-barrel_shotgun"
+                        },
+                        {
+                            "id": "5580223e4bdc2d1c128b457f",
+                            "name": "MP-43-1C 12 铅径双管霰弹枪",
+                            "normalizedName": "mp-43-1c-12ga-double-barrel-shotgun",
+                            "shortName": "MP-43-1C",
+                            "width": 2,
+                            "height": 1,
+                            "types": [
+                                "gun"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5580223e4bdc2d1c128b457f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-43-1C_12ga_double-barrel_shotgun"
+                        },
+                        {
+                            "id": "606dae0ab0e443224b421bb7",
+                            "name": "MP-155 12铅径半自动霰弹枪",
+                            "normalizedName": "mp-155-12ga-semi-automatic-shotgun",
+                            "shortName": "MP-155",
+                            "width": 3,
+                            "height": 1,
+                            "types": [
+                                "gun"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/606dae0ab0e443224b421bb7-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-155_12ga_semi-automatic_shotgun"
+                        },
+                        {
+                            "id": "6981d72ed009ad83920da43a",
+                            "name": "Saiga-12K 12 铅径自动霰弹枪（红线）",
+                            "normalizedName": "saiga-12k-12ga-automatic-shotgun-redline",
+                            "shortName": "Saiga-12K FA红",
+                            "width": 4,
+                            "height": 1,
+                            "types": [
+                                "gun",
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/6981d72ed009ad83920da43a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Saiga-12K_12ga_automatic_shotgun_(Redline)"
+                        },
+                        {
+                            "id": "5e870397991fd70db46995c8",
+                            "name": "Mossberg 590A1 12铅径泵动式霰弹枪",
+                            "normalizedName": "mossberg-590a1-12ga-pump-action-shotgun",
+                            "shortName": "590A1",
+                            "width": 4,
+                            "height": 1,
+                            "types": [
+                                "gun",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5e870397991fd70db46995c8-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mossberg_590A1_12ga_pump-action_shotgun"
+                        },
+                        {
+                            "id": "5a7828548dc32e5a9c28b516",
+                            "name": "雷明顿 Model 870 12铅径泵动式霰弹枪",
+                            "normalizedName": "remington-model-870-12ga-pump-action-shotgun",
+                            "shortName": "M870",
+                            "width": 3,
+                            "height": 1,
+                            "types": [
+                                "gun",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5a7828548dc32e5a9c28b516-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Remington_Model_870_12ga_pump-action_shotgun"
+                        },
+                        {
+                            "id": "576165642459773c7a400233",
+                            "name": "Saiga-12K ver.10 12铅径半自动霰弹枪",
+                            "normalizedName": "saiga-12k-ver10-12ga-semi-automatic-shotgun",
+                            "shortName": "Saiga-12K",
+                            "width": 4,
+                            "height": 1,
+                            "types": [
+                                "gun",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/576165642459773c7a400233-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Saiga-12K_ver.10_12ga_semi-automatic_shotgun"
+                        },
+                        {
+                            "id": "674fe9a75e51f1c47c04ec23",
+                            "name": "Saiga-12K 12 铅径自动霰弹枪",
+                            "normalizedName": "saiga-12k-12ga-automatic-shotgun",
+                            "shortName": "Saiga-12K FA",
+                            "width": 4,
+                            "height": 1,
+                            "types": [
+                                "gun"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/674fe9a75e51f1c47c04ec23-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Saiga-12K_12ga_automatic_shotgun"
+                        },
+                        {
+                            "id": "66ffa9b66e19cc902401c5e8",
+                            "name": "MPS Auto Assault-12 Gen 1 12铅径自动霰弹枪",
+                            "normalizedName": "mps-auto-assault-12-gen-1-12ga-automatic-shotgun",
+                            "shortName": "AA-12 Gen 1",
+                            "width": 4,
+                            "height": 2,
+                            "types": [
+                                "gun"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/66ffa9b66e19cc902401c5e8-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MPS_Auto_Assault-12_Gen_1_12ga_automatic_shotgun"
+                        },
+                        {
+                            "id": "67124dcfa3541f2a1f0e788b",
+                            "name": "MPS Auto Assault-12 Gen 2 12铅径自动霰弹枪",
+                            "normalizedName": "mps-auto-assault-12-gen-2-12ga-automatic-shotgun",
+                            "shortName": "AA-12 Gen 2",
+                            "width": 4,
+                            "height": 2,
+                            "types": [
+                                "gun"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/67124dcfa3541f2a1f0e788b-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MPS_Auto_Assault-12_Gen_2_12ga_automatic_shotgun"
+                        }
+                    ],
+                    "usingWeaponMods": [],
+                    "wearing": [],
+                    "notWearing": [],
+                    "distance": {
+                        "value": 0,
+                        "compareMethod": ">="
+                    },
+                    "playerHealthEffect": null,
+                    "enemyHealthEffect": null,
+                    "zones": []
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [
+                    {
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        },
+                        "standing": 0.25
+                    }
+                ],
+                "items": [
+                    {
+                        "item": {
+                            "id": "5696686a4bdc2da3298b456a",
+                            "name": "美元",
+                            "normalizedName": "dollars",
+                            "shortName": "美元",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
+                        },
+                        "count": 1100,
+                        "quantity": 1100,
+                        "attributes": []
+                    }
+                ],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/6a5ccda873f06065630d61b0.webp"
+        },
+        {
+            "id": "6a5c1578f2689567c30eb0f3",
+            "tarkovDataId": "6a5c1578f2689567c30eb0f3",
+            "name": "徒步旅行",
+            "normalizedName": "hiking",
+            "trader": {
+                "id": "5935c25fb3acc3127c3d8cd9",
+                "name": "Peacekeeper",
+                "normalizedName": "peacekeeper",
+                "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+            },
+            "map": {
+                "id": "5704e3c2d2720bac5b8b4567",
+                "name": "森林",
+                "normalizedName": "woods"
+            },
+            "experience": 3000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hiking",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveShoot",
+                    "id": "6a667849c90044ddde3e7c26",
+                    "type": "shoot",
+                    "description": "在森林 USEC 营地、Scav 营地、旧锯木厂或废弃村庄消灭 Scav",
+                    "maps": [
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        }
+                    ],
+                    "optional": false,
+                    "targetNames": [
+                        "Scav",
+                        "Scav：",
+                        "狙击手"
+                    ],
+                    "count": 10,
+                    "shotType": "kill",
+                    "zoneNames": [],
+                    "bodyParts": [],
+                    "timeFromHour": 0,
+                    "timeUntilHour": 0,
+                    "usingWeapon": [],
+                    "usingWeaponMods": [],
+                    "wearing": [],
+                    "notWearing": [],
+                    "distance": {
+                        "value": 0,
+                        "compareMethod": ">="
+                    },
+                    "playerHealthEffect": null,
+                    "enemyHealthEffect": null,
+                    "zones": []
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [
+                    {
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        },
+                        "standing": 0.1
+                    }
+                ],
+                "items": [
+                    {
+                        "item": {
+                            "id": "5696686a4bdc2da3298b456a",
+                            "name": "美元",
+                            "normalizedName": "dollars",
+                            "shortName": "美元",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
+                        },
+                        "count": 550,
+                        "quantity": 550,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "5734779624597737e04bf329",
+                            "name": "CPU风扇",
+                            "normalizedName": "cpu-fan",
+                            "shortName": "CPU风扇",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5734779624597737e04bf329-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CPU_fan"
+                        },
+                        "count": 3,
+                        "quantity": 3,
+                        "attributes": []
+                    }
+                ],
+                "offerUnlock": [
+                    {
+                        "id": "6a70630505b7cf1b2f6b0fbe",
+                        "trader": {
+                            "id": "5935c25fb3acc3127c3d8cd9",
+                            "name": "Peacekeeper",
+                            "normalizedName": "peacekeeper",
+                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
+                        },
+                        "level": 2,
+                        "item": {
+                            "id": "5f60b34a41e30a4ab12a6947",
+                            "name": "Galvion 凯门鳄 复合防弹头盔（灰色）",
+                            "normalizedName": "galvion-caiman-hybrid-helmet-grey",
+                            "shortName": "凯门鳄",
+                            "width": 2,
+                            "height": 2,
+                            "types": [
+                                "helmet",
+                                "noFlea",
+                                "wearable"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5f60b34a41e30a4ab12a6947-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Headwear"
+                        }
+                    }
+                ],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/6a5c1578f2689567c30eb0f3.webp"
+        },
+        {
             "id": "68ee1c18b4e5bc9a68018cd7",
             "tarkovDataId": "68ee1c18b4e5bc9a68018cd7",
             "name": "特殊订单",
@@ -346845,6 +347604,319 @@
             "taskImageLink": "https://assets.tarkov.dev/68ee1c18b4e5bc9a68018cd7.webp"
         },
         {
+            "id": "6a5424ae135497b9df0c68be",
+            "tarkovDataId": "6a5424ae135497b9df0c68be",
+            "name": "秋季综合征",
+            "normalizedName": "fall-ailment",
+            "trader": {
+                "id": "54cb57776803fa99248b456e",
+                "name": "Therapist",
+                "normalizedName": "therapist",
+                "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+            },
+            "map": null,
+            "experience": 3000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fall_Ailment",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "6a5424ae135497b9df0c68c1",
+                    "type": "findItem",
+                    "description": "在战局中找到物品：一次性注射器",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "5d1b3f2d86f774253763b735",
+                            "name": "一次性注射器",
+                            "normalizedName": "disposable-syringe",
+                            "shortName": "注射器",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d1b3f2d86f774253763b735-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Disposable_syringe"
+                        }
+                    ],
+                    "count": 5,
+                    "foundInRaid": true,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                },
+                {
+                    "__typename": "TaskObjectiveItem",
+                    "id": "6a5424ae135497b9df0c68c2",
+                    "type": "giveItem",
+                    "description": "上交物品",
+                    "maps": [],
+                    "optional": false,
+                    "items": [
+                        {
+                            "id": "5d1b3f2d86f774253763b735",
+                            "name": "一次性注射器",
+                            "normalizedName": "disposable-syringe",
+                            "shortName": "注射器",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d1b3f2d86f774253763b735-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Disposable_syringe"
+                        }
+                    ],
+                    "count": 5,
+                    "foundInRaid": true,
+                    "dogTagLevel": 0,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "zones": [],
+                    "requiredKeys": null
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [
+                    {
+                        "trader": {
+                            "id": "54cb57776803fa99248b456e",
+                            "name": "Therapist",
+                            "normalizedName": "therapist",
+                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
+                        },
+                        "standing": 0.1
+                    }
+                ],
+                "items": [
+                    {
+                        "item": {
+                            "id": "5d1b3a5d86f774252167ba22",
+                            "name": "一堆药",
+                            "normalizedName": "pile-of-meds",
+                            "shortName": "药",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d1b3a5d86f774252167ba22-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pile_of_meds"
+                        },
+                        "count": 2,
+                        "quantity": 2,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        },
+                        "count": 80000,
+                        "quantity": 80000,
+                        "attributes": []
+                    }
+                ],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/6a5424ae135497b9df0c68be.webp"
+        },
+        {
+            "id": "69c26c07683c9831020018c7",
+            "tarkovDataId": "69c26c07683c9831020018c7",
+            "name": "坚持到底",
+            "normalizedName": "stick-to-it",
+            "trader": {
+                "id": "656f0f98d80a697f855d34b1",
+                "name": "BTR司机",
+                "normalizedName": "btr-driver",
+                "imageLink": "https://assets.tarkov.dev/656f0f98d80a697f855d34b1.webp"
+            },
+            "map": null,
+            "experience": 25000,
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Stick_to_It",
+            "minPlayerLevel": 0,
+            "taskRequirements": [],
+            "traderRequirements": [],
+            "restartable": false,
+            "objectives": [
+                {
+                    "__typename": "TaskObjectiveShoot",
+                    "id": "69c26dfeaa4283497aab0d36",
+                    "type": "shoot",
+                    "description": "消灭游荡者",
+                    "maps": [
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        }
+                    ],
+                    "optional": false,
+                    "targetNames": [
+                        "Big Pipe",
+                        "Birdeye",
+                        "游荡者",
+                        "Knight"
+                    ],
+                    "count": 30,
+                    "shotType": "kill",
+                    "zoneNames": [],
+                    "bodyParts": [],
+                    "timeFromHour": 0,
+                    "timeUntilHour": 0,
+                    "usingWeapon": [],
+                    "usingWeaponMods": [],
+                    "wearing": [],
+                    "notWearing": [],
+                    "distance": {
+                        "value": 0,
+                        "compareMethod": ">="
+                    },
+                    "playerHealthEffect": null,
+                    "enemyHealthEffect": null,
+                    "zones": []
+                }
+            ],
+            "failConditions": [],
+            "startRewards": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "finishRewards": {
+                "traderStanding": [],
+                "items": [
+                    {
+                        "item": {
+                            "id": "5449016a4bdc2d6f028b456f",
+                            "name": "卢布",
+                            "normalizedName": "roubles",
+                            "shortName": "卢布",
+                            "width": 1,
+                            "height": 1,
+                            "types": [
+                                "noFlea"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
+                        },
+                        "count": 100000,
+                        "quantity": 100000,
+                        "attributes": []
+                    },
+                    {
+                        "item": {
+                            "id": "5d1b385e86f774252167b98a",
+                            "name": "滤水器",
+                            "normalizedName": "water-filter",
+                            "shortName": "过滤器",
+                            "width": 1,
+                            "height": 2,
+                            "types": [
+                                "barter"
+                            ],
+                            "iconLink": "https://assets.tarkov.dev/5d1b385e86f774252167b98a-icon.webp",
+                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Water_filter"
+                        },
+                        "count": 3,
+                        "quantity": 3,
+                        "attributes": []
+                    }
+                ],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "failureOutcome": {
+                "traderStanding": [],
+                "items": [],
+                "offerUnlock": [],
+                "skillLevelReward": [],
+                "traderUnlock": [],
+                "craftUnlock": [],
+                "achievement": [],
+                "customization": []
+            },
+            "factionName": "Any",
+            "kappaRequired": false,
+            "lightkeeperRequired": false,
+            "taskImageLink": "https://assets.tarkov.dev/69c26c07683c9831020018c7.webp"
+        },
+        {
             "id": "69c27158e350f01390049e77",
             "tarkovDataId": "69c27158e350f01390049e77",
             "name": "拯救大兵罗曼",
@@ -346985,156 +348057,6 @@
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/69c27158e350f01390049e77.webp"
-        },
-        {
-            "id": "69c26c07683c9831020018c7",
-            "tarkovDataId": "69c26c07683c9831020018c7",
-            "name": "坚持到底",
-            "normalizedName": "stick-to-it",
-            "trader": {
-                "id": "656f0f98d80a697f855d34b1",
-                "name": "BTR司机",
-                "normalizedName": "btr-driver",
-                "imageLink": "https://assets.tarkov.dev/656f0f98d80a697f855d34b1.webp"
-            },
-            "map": null,
-            "experience": 25000,
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Stick_to_It",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "traderRequirements": [],
-            "restartable": false,
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveShoot",
-                    "id": "69c26dfeaa4283497aab0d36",
-                    "type": "shoot",
-                    "description": "消灭游荡者",
-                    "maps": [
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        }
-                    ],
-                    "optional": false,
-                    "targetNames": [
-                        "Big Pipe",
-                        "Birdeye",
-                        "游荡者",
-                        "Knight"
-                    ],
-                    "count": 30,
-                    "shotType": "kill",
-                    "zoneNames": [],
-                    "bodyParts": [],
-                    "timeFromHour": 0,
-                    "timeUntilHour": 0,
-                    "usingWeapon": [],
-                    "usingWeaponMods": [],
-                    "wearing": [],
-                    "notWearing": [],
-                    "distance": {
-                        "value": 0,
-                        "compareMethod": ">="
-                    },
-                    "playerHealthEffect": null,
-                    "enemyHealthEffect": null,
-                    "zones": []
-                }
-            ],
-            "failConditions": [],
-            "startRewards": {
-                "traderStanding": [],
-                "items": [],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "finishRewards": {
-                "traderStanding": [],
-                "items": [
-                    {
-                        "item": {
-                            "id": "5449016a4bdc2d6f028b456f",
-                            "name": "卢布",
-                            "normalizedName": "roubles",
-                            "shortName": "卢布",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
-                        },
-                        "count": 100000,
-                        "quantity": 100000,
-                        "attributes": []
-                    },
-                    {
-                        "item": {
-                            "id": "5d1b385e86f774252167b98a",
-                            "name": "滤水器",
-                            "normalizedName": "water-filter",
-                            "shortName": "过滤器",
-                            "width": 1,
-                            "height": 2,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5d1b385e86f774252167b98a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Water_filter"
-                        },
-                        "count": 3,
-                        "quantity": 3,
-                        "attributes": []
-                    }
-                ],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "failureOutcome": {
-                "traderStanding": [],
-                "items": [],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "taskImageLink": "https://assets.tarkov.dev/69c26c07683c9831020018c7.webp"
         },
         {
             "id": "68db9c7557bc51a8c804c14b",
@@ -348665,652 +349587,6 @@
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/69c277f3ea6da9c23e07f8d2.webp"
-        },
-        {
-            "id": "6a5ccda873f06065630d61b0",
-            "tarkovDataId": "6a5ccda873f06065630d61b0",
-            "name": "秘密消息",
-            "normalizedName": "secret-message",
-            "trader": {
-                "id": "5935c25fb3acc3127c3d8cd9",
-                "name": "Peacekeeper",
-                "normalizedName": "peacekeeper",
-                "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-            },
-            "map": {
-                "id": "5714dc692459777137212e12",
-                "name": "塔科夫街区",
-                "normalizedName": "streets-of-tarkov"
-            },
-            "experience": 10000,
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Secret_Message",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "traderRequirements": [],
-            "restartable": false,
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveShoot",
-                    "id": "6a5ccda873f06065630d61b2",
-                    "type": "shoot",
-                    "description": "在塔科夫街区使用 12 号霰弹枪爆头击杀任意敌对目标",
-                    "maps": [
-                        {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        }
-                    ],
-                    "optional": false,
-                    "targetNames": [
-                        "任意目标："
-                    ],
-                    "count": 15,
-                    "shotType": "kill",
-                    "zoneNames": [],
-                    "bodyParts": [
-                        "QuestCondition/Elimination/Kill/BodyPart/Head"
-                    ],
-                    "timeFromHour": 0,
-                    "timeUntilHour": 0,
-                    "usingWeapon": [
-                        {
-                            "id": "60db29ce99594040e04c4a27",
-                            "name": "MTs-255-12 12铅径转轮霰弹枪",
-                            "normalizedName": "mts-255-12-12ga-shotgun",
-                            "shortName": "MTs-255-12",
-                            "width": 2,
-                            "height": 1,
-                            "types": [
-                                "gun"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/60db29ce99594040e04c4a27-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MTs-255-12_12ga_shotgun"
-                        },
-                        {
-                            "id": "6259b864ebedf17603599e88",
-                            "name": "Benelli M3 Super 90 12铅径双模式霰弹枪",
-                            "normalizedName": "benelli-m3-super-90-12ga-dual-mode-shotgun",
-                            "shortName": "M3 Super 90",
-                            "width": 3,
-                            "height": 1,
-                            "types": [
-                                "gun"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/6259b864ebedf17603599e88-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Benelli_M3_Super_90_12ga_dual-mode_shotgun"
-                        },
-                        {
-                            "id": "54491c4f4bdc2db1078b4568",
-                            "name": "MP-133 12 铅径泵动式霰弹枪",
-                            "normalizedName": "mp-133-12ga-pump-action-shotgun",
-                            "shortName": "MP-133",
-                            "width": 3,
-                            "height": 1,
-                            "types": [
-                                "gun",
-                                "wearable"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/54491c4f4bdc2db1078b4568-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-133_12ga_pump-action_shotgun"
-                        },
-                        {
-                            "id": "56dee2bdd2720bc8328b4567",
-                            "name": "MP-153 12铅径半自动霰弹枪",
-                            "normalizedName": "mp-153-12ga-semi-automatic-shotgun",
-                            "shortName": "MP-153",
-                            "width": 3,
-                            "height": 1,
-                            "types": [
-                                "gun",
-                                "wearable"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/56dee2bdd2720bc8328b4567-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-153_12ga_semi-automatic_shotgun"
-                        },
-                        {
-                            "id": "64748cb8de82c85eaf0a273a",
-                            "name": "MP-43 12铅径截短双管霰弹枪",
-                            "normalizedName": "mp-43-12ga-sawed-off-double-barrel-shotgun",
-                            "shortName": "截短霰弹枪",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "gun"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/64748cb8de82c85eaf0a273a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-43_12ga_sawed-off_double-barrel_shotgun"
-                        },
-                        {
-                            "id": "5580223e4bdc2d1c128b457f",
-                            "name": "MP-43-1C 12 铅径双管霰弹枪",
-                            "normalizedName": "mp-43-1c-12ga-double-barrel-shotgun",
-                            "shortName": "MP-43-1C",
-                            "width": 2,
-                            "height": 1,
-                            "types": [
-                                "gun"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5580223e4bdc2d1c128b457f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-43-1C_12ga_double-barrel_shotgun"
-                        },
-                        {
-                            "id": "606dae0ab0e443224b421bb7",
-                            "name": "MP-155 12铅径半自动霰弹枪",
-                            "normalizedName": "mp-155-12ga-semi-automatic-shotgun",
-                            "shortName": "MP-155",
-                            "width": 3,
-                            "height": 1,
-                            "types": [
-                                "gun"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/606dae0ab0e443224b421bb7-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MP-155_12ga_semi-automatic_shotgun"
-                        },
-                        {
-                            "id": "6981d72ed009ad83920da43a",
-                            "name": "Saiga-12K 12 铅径自动霰弹枪（红线）",
-                            "normalizedName": "saiga-12k-12ga-automatic-shotgun-redline",
-                            "shortName": "Saiga-12K FA红",
-                            "width": 4,
-                            "height": 1,
-                            "types": [
-                                "gun",
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/6981d72ed009ad83920da43a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Saiga-12K_12ga_automatic_shotgun_(Redline)"
-                        },
-                        {
-                            "id": "5e870397991fd70db46995c8",
-                            "name": "Mossberg 590A1 12铅径泵动式霰弹枪",
-                            "normalizedName": "mossberg-590a1-12ga-pump-action-shotgun",
-                            "shortName": "590A1",
-                            "width": 4,
-                            "height": 1,
-                            "types": [
-                                "gun",
-                                "wearable"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5e870397991fd70db46995c8-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Mossberg_590A1_12ga_pump-action_shotgun"
-                        },
-                        {
-                            "id": "5a7828548dc32e5a9c28b516",
-                            "name": "雷明顿 Model 870 12铅径泵动式霰弹枪",
-                            "normalizedName": "remington-model-870-12ga-pump-action-shotgun",
-                            "shortName": "M870",
-                            "width": 3,
-                            "height": 1,
-                            "types": [
-                                "gun",
-                                "wearable"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5a7828548dc32e5a9c28b516-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Remington_Model_870_12ga_pump-action_shotgun"
-                        },
-                        {
-                            "id": "576165642459773c7a400233",
-                            "name": "Saiga-12K ver.10 12铅径半自动霰弹枪",
-                            "normalizedName": "saiga-12k-ver10-12ga-semi-automatic-shotgun",
-                            "shortName": "Saiga-12K",
-                            "width": 4,
-                            "height": 1,
-                            "types": [
-                                "gun",
-                                "wearable"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/576165642459773c7a400233-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Saiga-12K_ver.10_12ga_semi-automatic_shotgun"
-                        },
-                        {
-                            "id": "674fe9a75e51f1c47c04ec23",
-                            "name": "Saiga-12K 12 铅径自动霰弹枪",
-                            "normalizedName": "saiga-12k-12ga-automatic-shotgun",
-                            "shortName": "Saiga-12K FA",
-                            "width": 4,
-                            "height": 1,
-                            "types": [
-                                "gun"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/674fe9a75e51f1c47c04ec23-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Saiga-12K_12ga_automatic_shotgun"
-                        },
-                        {
-                            "id": "66ffa9b66e19cc902401c5e8",
-                            "name": "MPS Auto Assault-12 Gen 1 12铅径自动霰弹枪",
-                            "normalizedName": "mps-auto-assault-12-gen-1-12ga-automatic-shotgun",
-                            "shortName": "AA-12 Gen 1",
-                            "width": 4,
-                            "height": 2,
-                            "types": [
-                                "gun"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/66ffa9b66e19cc902401c5e8-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MPS_Auto_Assault-12_Gen_1_12ga_automatic_shotgun"
-                        },
-                        {
-                            "id": "67124dcfa3541f2a1f0e788b",
-                            "name": "MPS Auto Assault-12 Gen 2 12铅径自动霰弹枪",
-                            "normalizedName": "mps-auto-assault-12-gen-2-12ga-automatic-shotgun",
-                            "shortName": "AA-12 Gen 2",
-                            "width": 4,
-                            "height": 2,
-                            "types": [
-                                "gun"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/67124dcfa3541f2a1f0e788b-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MPS_Auto_Assault-12_Gen_2_12ga_automatic_shotgun"
-                        }
-                    ],
-                    "usingWeaponMods": [],
-                    "wearing": [],
-                    "notWearing": [],
-                    "distance": {
-                        "value": 0,
-                        "compareMethod": ">="
-                    },
-                    "playerHealthEffect": null,
-                    "enemyHealthEffect": null,
-                    "zones": []
-                }
-            ],
-            "failConditions": [],
-            "startRewards": {
-                "traderStanding": [],
-                "items": [],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "finishRewards": {
-                "traderStanding": [
-                    {
-                        "trader": {
-                            "id": "5935c25fb3acc3127c3d8cd9",
-                            "name": "Peacekeeper",
-                            "normalizedName": "peacekeeper",
-                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                        },
-                        "standing": 0.25
-                    }
-                ],
-                "items": [
-                    {
-                        "item": {
-                            "id": "5696686a4bdc2da3298b456a",
-                            "name": "美元",
-                            "normalizedName": "dollars",
-                            "shortName": "美元",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
-                        },
-                        "count": 1100,
-                        "quantity": 1100,
-                        "attributes": []
-                    }
-                ],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "failureOutcome": {
-                "traderStanding": [],
-                "items": [],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "taskImageLink": "https://assets.tarkov.dev/6a5ccda873f06065630d61b0.webp"
-        },
-        {
-            "id": "6a5c1578f2689567c30eb0f3",
-            "tarkovDataId": "6a5c1578f2689567c30eb0f3",
-            "name": "徒步旅行",
-            "normalizedName": "hiking",
-            "trader": {
-                "id": "5935c25fb3acc3127c3d8cd9",
-                "name": "Peacekeeper",
-                "normalizedName": "peacekeeper",
-                "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-            },
-            "map": {
-                "id": "5704e3c2d2720bac5b8b4567",
-                "name": "森林",
-                "normalizedName": "woods"
-            },
-            "experience": 3000,
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hiking",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "traderRequirements": [],
-            "restartable": false,
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveShoot",
-                    "id": "6a667849c90044ddde3e7c26",
-                    "type": "shoot",
-                    "description": "在森林 USEC 营地、Scav 营地、旧锯木厂或废弃村庄消灭 Scav",
-                    "maps": [
-                        {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        }
-                    ],
-                    "optional": false,
-                    "targetNames": [
-                        "Scav",
-                        "Scav：",
-                        "狙击手"
-                    ],
-                    "count": 10,
-                    "shotType": "kill",
-                    "zoneNames": [],
-                    "bodyParts": [],
-                    "timeFromHour": 0,
-                    "timeUntilHour": 0,
-                    "usingWeapon": [],
-                    "usingWeaponMods": [],
-                    "wearing": [],
-                    "notWearing": [],
-                    "distance": {
-                        "value": 0,
-                        "compareMethod": ">="
-                    },
-                    "playerHealthEffect": null,
-                    "enemyHealthEffect": null,
-                    "zones": []
-                }
-            ],
-            "failConditions": [],
-            "startRewards": {
-                "traderStanding": [],
-                "items": [],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "finishRewards": {
-                "traderStanding": [
-                    {
-                        "trader": {
-                            "id": "5935c25fb3acc3127c3d8cd9",
-                            "name": "Peacekeeper",
-                            "normalizedName": "peacekeeper",
-                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                        },
-                        "standing": 0.1
-                    }
-                ],
-                "items": [
-                    {
-                        "item": {
-                            "id": "5696686a4bdc2da3298b456a",
-                            "name": "美元",
-                            "normalizedName": "dollars",
-                            "shortName": "美元",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5696686a4bdc2da3298b456a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dollars"
-                        },
-                        "count": 550,
-                        "quantity": 550,
-                        "attributes": []
-                    },
-                    {
-                        "item": {
-                            "id": "5734779624597737e04bf329",
-                            "name": "CPU风扇",
-                            "normalizedName": "cpu-fan",
-                            "shortName": "CPU风扇",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5734779624597737e04bf329-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CPU_fan"
-                        },
-                        "count": 3,
-                        "quantity": 3,
-                        "attributes": []
-                    }
-                ],
-                "offerUnlock": [
-                    {
-                        "id": "6a70630505b7cf1b2f6b0fbe",
-                        "trader": {
-                            "id": "5935c25fb3acc3127c3d8cd9",
-                            "name": "Peacekeeper",
-                            "normalizedName": "peacekeeper",
-                            "imageLink": "https://assets.tarkov.dev/5935c25fb3acc3127c3d8cd9.webp"
-                        },
-                        "level": 2,
-                        "item": {
-                            "id": "5f60b34a41e30a4ab12a6947",
-                            "name": "Galvion 凯门鳄 复合防弹头盔（灰色）",
-                            "normalizedName": "galvion-caiman-hybrid-helmet-grey",
-                            "shortName": "凯门鳄",
-                            "width": 2,
-                            "height": 2,
-                            "types": [
-                                "helmet",
-                                "noFlea",
-                                "wearable"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5f60b34a41e30a4ab12a6947-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Headwear"
-                        }
-                    }
-                ],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "failureOutcome": {
-                "traderStanding": [],
-                "items": [],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "taskImageLink": "https://assets.tarkov.dev/6a5c1578f2689567c30eb0f3.webp"
-        },
-        {
-            "id": "6a5424ae135497b9df0c68be",
-            "tarkovDataId": "6a5424ae135497b9df0c68be",
-            "name": "秋季综合征",
-            "normalizedName": "fall-ailment",
-            "trader": {
-                "id": "54cb57776803fa99248b456e",
-                "name": "Therapist",
-                "normalizedName": "therapist",
-                "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
-            },
-            "map": null,
-            "experience": 3000,
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fall_Ailment",
-            "minPlayerLevel": 0,
-            "taskRequirements": [],
-            "traderRequirements": [],
-            "restartable": false,
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveItem",
-                    "id": "6a5424ae135497b9df0c68c1",
-                    "type": "findItem",
-                    "description": "在战局中找到物品：一次性注射器",
-                    "maps": [],
-                    "optional": false,
-                    "items": [
-                        {
-                            "id": "5d1b3f2d86f774253763b735",
-                            "name": "一次性注射器",
-                            "normalizedName": "disposable-syringe",
-                            "shortName": "注射器",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5d1b3f2d86f774253763b735-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Disposable_syringe"
-                        }
-                    ],
-                    "count": 5,
-                    "foundInRaid": true,
-                    "dogTagLevel": 0,
-                    "maxDurability": 100,
-                    "minDurability": 0,
-                    "zones": [],
-                    "requiredKeys": null
-                },
-                {
-                    "__typename": "TaskObjectiveItem",
-                    "id": "6a5424ae135497b9df0c68c2",
-                    "type": "giveItem",
-                    "description": "上交物品",
-                    "maps": [],
-                    "optional": false,
-                    "items": [
-                        {
-                            "id": "5d1b3f2d86f774253763b735",
-                            "name": "一次性注射器",
-                            "normalizedName": "disposable-syringe",
-                            "shortName": "注射器",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5d1b3f2d86f774253763b735-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Disposable_syringe"
-                        }
-                    ],
-                    "count": 5,
-                    "foundInRaid": true,
-                    "dogTagLevel": 0,
-                    "maxDurability": 100,
-                    "minDurability": 0,
-                    "zones": [],
-                    "requiredKeys": null
-                }
-            ],
-            "failConditions": [],
-            "startRewards": {
-                "traderStanding": [],
-                "items": [],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "finishRewards": {
-                "traderStanding": [
-                    {
-                        "trader": {
-                            "id": "54cb57776803fa99248b456e",
-                            "name": "Therapist",
-                            "normalizedName": "therapist",
-                            "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
-                        },
-                        "standing": 0.1
-                    }
-                ],
-                "items": [
-                    {
-                        "item": {
-                            "id": "5d1b3a5d86f774252167ba22",
-                            "name": "一堆药",
-                            "normalizedName": "pile-of-meds",
-                            "shortName": "药",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5d1b3a5d86f774252167ba22-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pile_of_meds"
-                        },
-                        "count": 2,
-                        "quantity": 2,
-                        "attributes": []
-                    },
-                    {
-                        "item": {
-                            "id": "5449016a4bdc2d6f028b456f",
-                            "name": "卢布",
-                            "normalizedName": "roubles",
-                            "shortName": "卢布",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5449016a4bdc2d6f028b456f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Roubles"
-                        },
-                        "count": 80000,
-                        "quantity": 80000,
-                        "attributes": []
-                    }
-                ],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "failureOutcome": {
-                "traderStanding": [],
-                "items": [],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "taskImageLink": "https://assets.tarkov.dev/6a5424ae135497b9df0c68be.webp"
         },
         {
             "id": "61e6e60c5ca3b3783662be27",
