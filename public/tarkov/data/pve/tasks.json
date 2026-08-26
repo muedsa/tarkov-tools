@@ -78365,40 +78365,6 @@
                     "playerHealthEffect": null,
                     "enemyHealthEffect": null,
                     "zones": []
-                },
-                {
-                    "__typename": "TaskObjectiveShoot",
-                    "id": "65e09b343458a36a766837c7",
-                    "type": "shoot",
-                    "description": "在中心区消灭 PMC 行动人员",
-                    "maps": [
-                        {
-                            "id": "65b8d6f5cdde2479cb2a3125",
-                            "name": "中心区 21+",
-                            "normalizedName": "ground-zero-21"
-                        }
-                    ],
-                    "optional": false,
-                    "targetNames": [
-                        "任意PMC干员："
-                    ],
-                    "count": 4,
-                    "shotType": "kill",
-                    "zoneNames": [],
-                    "bodyParts": [],
-                    "timeFromHour": 0,
-                    "timeUntilHour": 0,
-                    "usingWeapon": [],
-                    "usingWeaponMods": [],
-                    "wearing": [],
-                    "notWearing": [],
-                    "distance": {
-                        "compareMethod": ">=",
-                        "value": 0
-                    },
-                    "playerHealthEffect": null,
-                    "enemyHealthEffect": null,
-                    "zones": []
                 }
             ],
             "failConditions": [
