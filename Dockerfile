@@ -17,6 +17,12 @@ RUN npm run build
 # ---------- 运行阶段：nginx 托管静态文件 ----------
 FROM nginx:alpine AS runner
 
+# 安装 tzdata 并设置系统时区为 Asia/Shanghai
+ENV TZ=Asia/Shanghai
+RUN apk add --no-cache tzdata && \
+    cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
+    echo "Asia/Shanghai" > /etc/timezone
+
 # 静态导出产物 → nginx 默认站点根目录
 COPY --from=builder /app/out /usr/share/nginx/html
 COPY nginx.conf /etc/nginx/conf.d/default.conf
