@@ -4664,7 +4664,7 @@
                     {
                         "id": "62a09e08de7ac81993580532",
                         "name": "Glorious E轻型防弹面具",
-                        "normalizedName": "glorious-e-lightweight-armored-mask",
+                        "normalizedName": "glorious-e-mask",
                         "types": [
                             "wearable"
                         ],
@@ -4810,7 +4810,7 @@
                     {
                         "id": "5b432b2f5acfc4771e1c6622",
                         "name": "轻型加固破碎面具",
-                        "normalizedName": "shattered-lightweight-armored-mask",
+                        "normalizedName": "shattered-mask",
                         "types": [
                             "helmet",
                             "wearable"
@@ -4917,7 +4917,7 @@
                     {
                         "id": "6570aead4d84f81fd002a033",
                         "name": "Death Shadow (死亡阴影) 轻量化防弹面具",
-                        "normalizedName": "death-shadow-lightweight-armored-mask",
+                        "normalizedName": "death-shadow-mask",
                         "types": [
                             "noFlea",
                             "wearable"
@@ -4950,7 +4950,7 @@
                     {
                         "id": "68a9b852cdf661cc5a0626c9",
                         "name": "Death Shadow (死亡阴影) 轻量化防弹面具 (灰色)",
-                        "normalizedName": "death-shadow-lightweight-armored-mask-gray",
+                        "normalizedName": "death-shadow-mask-gray",
                         "types": [
                             "noFlea",
                             "wearable"

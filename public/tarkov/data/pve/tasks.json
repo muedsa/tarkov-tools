@@ -11824,6 +11824,11 @@
                             "normalizedName": "lighthouse"
                         },
                         {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -11834,9 +11839,9 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -11844,9 +11849,9 @@
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
                         },
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
@@ -11854,24 +11859,19 @@
                             "normalizedName": "factory"
                         },
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -15046,6 +15046,11 @@
                             "normalizedName": "lighthouse"
                         },
                         {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -15056,9 +15061,9 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -15066,9 +15071,9 @@
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
                         },
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
@@ -15076,24 +15081,19 @@
                             "normalizedName": "factory"
                         },
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -15317,7 +15317,7 @@
                         "item": {
                             "id": "6570aead4d84f81fd002a033",
                             "name": "Death Shadow (死亡阴影) 轻量化防弹面具",
-                            "normalizedName": "death-shadow-lightweight-armored-mask",
+                            "normalizedName": "death-shadow-mask",
                             "shortName": "Death Shadow",
                             "width": 2,
                             "height": 2,
@@ -15537,7 +15537,7 @@
                         "item": {
                             "id": "6570aead4d84f81fd002a033",
                             "name": "Death Shadow (死亡阴影) 轻量化防弹面具",
-                            "normalizedName": "death-shadow-lightweight-armored-mask",
+                            "normalizedName": "death-shadow-mask",
                             "shortName": "Death Shadow",
                             "width": 2,
                             "height": 2,
@@ -30607,14 +30607,14 @@
                             "normalizedName": "woods"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         },
                         {
                             "id": "65b8d6f5cdde2479cb2a3125",
@@ -30622,9 +30622,9 @@
                             "normalizedName": "ground-zero-21"
                         },
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -36121,14 +36121,14 @@
                             "normalizedName": "woods"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         },
                         {
                             "id": "65b8d6f5cdde2479cb2a3125",
@@ -36136,9 +36136,9 @@
                             "normalizedName": "ground-zero-21"
                         },
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -40652,6 +40652,11 @@
                             "normalizedName": "lighthouse"
                         },
                         {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -40662,9 +40667,9 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -40672,9 +40677,9 @@
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
                         },
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
@@ -40682,24 +40687,19 @@
                             "normalizedName": "factory"
                         },
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -46741,24 +46741,24 @@
                             "normalizedName": "lighthouse"
                         },
                         {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
                         },
                         {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
+                        },
+                        {
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -46800,14 +46800,14 @@
                             "normalizedName": "woods"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -46849,14 +46849,14 @@
                             "normalizedName": "woods"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -54327,6 +54327,11 @@
                             "normalizedName": "lighthouse"
                         },
                         {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -54337,9 +54342,9 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -54347,9 +54352,9 @@
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
                         },
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
@@ -54357,24 +54362,19 @@
                             "normalizedName": "factory"
                         },
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -55141,19 +55141,14 @@
                             "normalizedName": "icebreaker"
                         },
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
                         },
                         {
                             "id": "5704e3c2d2720bac5b8b4567",
@@ -64999,7 +64994,7 @@
                         {
                             "id": "68a9b852cdf661cc5a0626c9",
                             "name": "Death Shadow (死亡阴影) 轻量化防弹面具 (灰色)",
-                            "normalizedName": "death-shadow-lightweight-armored-mask-gray",
+                            "normalizedName": "death-shadow-mask-gray",
                             "shortName": "Death Shadow",
                             "width": 2,
                             "height": 2,
@@ -65027,7 +65022,7 @@
                         {
                             "id": "6570aead4d84f81fd002a033",
                             "name": "Death Shadow (死亡阴影) 轻量化防弹面具",
-                            "normalizedName": "death-shadow-lightweight-armored-mask",
+                            "normalizedName": "death-shadow-mask",
                             "shortName": "Death Shadow",
                             "width": 2,
                             "height": 2,
@@ -65041,7 +65036,7 @@
                         {
                             "id": "62a09e08de7ac81993580532",
                             "name": "Glorious E轻型防弹面具",
-                            "normalizedName": "glorious-e-lightweight-armored-mask",
+                            "normalizedName": "glorious-e-mask",
                             "shortName": "Glorious",
                             "width": 2,
                             "height": 2,
@@ -65054,7 +65049,7 @@
                         {
                             "id": "5b432b2f5acfc4771e1c6622",
                             "name": "轻型加固破碎面具",
-                            "normalizedName": "shattered-lightweight-armored-mask",
+                            "normalizedName": "shattered-mask",
                             "shortName": "破碎面具",
                             "width": 2,
                             "height": 2,
@@ -70202,11 +70197,6 @@
                     "description": "击杀游荡者",
                     "maps": [
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
@@ -70541,11 +70531,6 @@
                     "type": "shoot",
                     "description": "击杀游荡者",
                     "maps": [
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
                         {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
@@ -72384,7 +72369,7 @@
                         {
                             "id": "62a09e08de7ac81993580532",
                             "name": "Glorious E轻型防弹面具",
-                            "normalizedName": "glorious-e-lightweight-armored-mask",
+                            "normalizedName": "glorious-e-mask",
                             "shortName": "Glorious",
                             "width": 2,
                             "height": 2,
@@ -75340,9 +75325,9 @@
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
@@ -75368,11 +75353,6 @@
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -78706,14 +78686,14 @@
                     "description": "找到并消灭Tagilla",
                     "maps": [
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
                         },
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
@@ -78853,9 +78833,9 @@
                     "description": "找到并消灭Glukhar",
                     "maps": [
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -85308,41 +85288,6 @@
                         {
                             "id": "fuel4",
                             "map": {
-                                "id": "56f40101d2720b2a4d8b45d6"
-                            },
-                            "position": {
-                                "x": -334.93,
-                                "y": 2.22,
-                                "z": -163.46
-                            },
-                            "outline": [
-                                {
-                                    "x": -339.32,
-                                    "y": 0.3,
-                                    "z": -167.46
-                                },
-                                {
-                                    "x": -333.16,
-                                    "y": 0.3,
-                                    "z": -157.8
-                                },
-                                {
-                                    "x": -330.54,
-                                    "y": 0.3,
-                                    "z": -159.46
-                                },
-                                {
-                                    "x": -336.71,
-                                    "y": 0.3,
-                                    "z": -169.12
-                                }
-                            ],
-                            "top": 4.14,
-                            "bottom": 0.3
-                        },
-                        {
-                            "id": "fuel4",
-                            "map": {
                                 "id": "5704e5fad2720bc05b8b4567"
                             },
                             "position": {
@@ -85374,6 +85319,41 @@
                             ],
                             "top": -99.53,
                             "bottom": -103.38
+                        },
+                        {
+                            "id": "fuel4",
+                            "map": {
+                                "id": "56f40101d2720b2a4d8b45d6"
+                            },
+                            "position": {
+                                "x": -334.93,
+                                "y": 2.22,
+                                "z": -163.46
+                            },
+                            "outline": [
+                                {
+                                    "x": -339.32,
+                                    "y": 0.3,
+                                    "z": -167.46
+                                },
+                                {
+                                    "x": -333.16,
+                                    "y": 0.3,
+                                    "z": -157.8
+                                },
+                                {
+                                    "x": -330.54,
+                                    "y": 0.3,
+                                    "z": -159.46
+                                },
+                                {
+                                    "x": -336.71,
+                                    "y": 0.3,
+                                    "z": -169.12
+                                }
+                            ],
+                            "top": 4.14,
+                            "bottom": 0.3
                         }
                     ],
                     "requiredKeys": null
@@ -101080,6 +101060,11 @@
                             "normalizedName": "lighthouse"
                         },
                         {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -101090,9 +101075,9 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -101100,14 +101085,14 @@
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
-                        },
-                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         },
                         {
                             "id": "5704e5fad2720bc05b8b4567",
@@ -101115,14 +101100,9 @@
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -105946,7 +105926,7 @@
                         {
                             "id": "62a09e08de7ac81993580532",
                             "name": "Glorious E轻型防弹面具",
-                            "normalizedName": "glorious-e-lightweight-armored-mask",
+                            "normalizedName": "glorious-e-mask",
                             "shortName": "Glorious",
                             "width": 2,
                             "height": 2,
@@ -106134,7 +106114,7 @@
                         {
                             "id": "5b432b2f5acfc4771e1c6622",
                             "name": "轻型加固破碎面具",
-                            "normalizedName": "shattered-lightweight-armored-mask",
+                            "normalizedName": "shattered-mask",
                             "shortName": "破碎面具",
                             "width": 2,
                             "height": 2,
@@ -106271,7 +106251,7 @@
                         {
                             "id": "6570aead4d84f81fd002a033",
                             "name": "Death Shadow (死亡阴影) 轻量化防弹面具",
-                            "normalizedName": "death-shadow-lightweight-armored-mask",
+                            "normalizedName": "death-shadow-mask",
                             "shortName": "Death Shadow",
                             "width": 2,
                             "height": 2,
@@ -106313,7 +106293,7 @@
                         {
                             "id": "68a9b852cdf661cc5a0626c9",
                             "name": "Death Shadow (死亡阴影) 轻量化防弹面具 (灰色)",
-                            "normalizedName": "death-shadow-lightweight-armored-mask-gray",
+                            "normalizedName": "death-shadow-mask-gray",
                             "shortName": "Death Shadow",
                             "width": 2,
                             "height": 2,
@@ -118534,14 +118514,14 @@
                             "normalizedName": "woods"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -118603,76 +118583,6 @@
                         {
                             "id": "prapor_outposts",
                             "map": {
-                                "id": "56f40101d2720b2a4d8b45d6"
-                            },
-                            "position": {
-                                "x": 202.68,
-                                "y": 7.91,
-                                "z": -126.77
-                            },
-                            "outline": [
-                                {
-                                    "x": 172.38,
-                                    "y": -4.24,
-                                    "z": -199.07
-                                },
-                                {
-                                    "x": 148.17,
-                                    "y": -4.24,
-                                    "z": -70.43
-                                },
-                                {
-                                    "x": 232.98,
-                                    "y": -4.24,
-                                    "z": -54.47
-                                },
-                                {
-                                    "x": 257.19,
-                                    "y": -4.24,
-                                    "z": -183.11
-                                }
-                            ],
-                            "top": 20.06,
-                            "bottom": -4.24
-                        },
-                        {
-                            "id": "prapor_outposts",
-                            "map": {
-                                "id": "56f40101d2720b2a4d8b45d6"
-                            },
-                            "position": {
-                                "x": 202.68,
-                                "y": 7.91,
-                                "z": -126.77
-                            },
-                            "outline": [
-                                {
-                                    "x": 172.38,
-                                    "y": -4.24,
-                                    "z": -199.07
-                                },
-                                {
-                                    "x": 148.17,
-                                    "y": -4.24,
-                                    "z": -70.43
-                                },
-                                {
-                                    "x": 232.98,
-                                    "y": -4.24,
-                                    "z": -54.47
-                                },
-                                {
-                                    "x": 257.19,
-                                    "y": -4.24,
-                                    "z": -183.11
-                                }
-                            ],
-                            "top": 20.06,
-                            "bottom": -4.24
-                        },
-                        {
-                            "id": "prapor_outposts",
-                            "map": {
                                 "id": "5704e554d2720bac5b8b456e"
                             },
                             "position": {
@@ -118704,6 +118614,76 @@
                             ],
                             "top": 29.3,
                             "bottom": -40.7
+                        },
+                        {
+                            "id": "prapor_outposts",
+                            "map": {
+                                "id": "56f40101d2720b2a4d8b45d6"
+                            },
+                            "position": {
+                                "x": 202.68,
+                                "y": 7.91,
+                                "z": -126.77
+                            },
+                            "outline": [
+                                {
+                                    "x": 172.38,
+                                    "y": -4.24,
+                                    "z": -199.07
+                                },
+                                {
+                                    "x": 148.17,
+                                    "y": -4.24,
+                                    "z": -70.43
+                                },
+                                {
+                                    "x": 232.98,
+                                    "y": -4.24,
+                                    "z": -54.47
+                                },
+                                {
+                                    "x": 257.19,
+                                    "y": -4.24,
+                                    "z": -183.11
+                                }
+                            ],
+                            "top": 20.06,
+                            "bottom": -4.24
+                        },
+                        {
+                            "id": "prapor_outposts",
+                            "map": {
+                                "id": "56f40101d2720b2a4d8b45d6"
+                            },
+                            "position": {
+                                "x": 202.68,
+                                "y": 7.91,
+                                "z": -126.77
+                            },
+                            "outline": [
+                                {
+                                    "x": 172.38,
+                                    "y": -4.24,
+                                    "z": -199.07
+                                },
+                                {
+                                    "x": 148.17,
+                                    "y": -4.24,
+                                    "z": -70.43
+                                },
+                                {
+                                    "x": 232.98,
+                                    "y": -4.24,
+                                    "z": -54.47
+                                },
+                                {
+                                    "x": 257.19,
+                                    "y": -4.24,
+                                    "z": -183.11
+                                }
+                            ],
+                            "top": 20.06,
+                            "bottom": -4.24
                         }
                     ]
                 }
@@ -118804,6 +118784,11 @@
                             "normalizedName": "lighthouse"
                         },
                         {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -118814,9 +118799,9 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -118824,9 +118809,9 @@
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
                         },
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
@@ -118834,24 +118819,19 @@
                             "normalizedName": "factory"
                         },
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -119097,14 +119077,14 @@
                             "normalizedName": "woods"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         },
                         {
                             "id": "65b8d6f5cdde2479cb2a3125",
@@ -119112,9 +119092,9 @@
                             "normalizedName": "ground-zero-21"
                         },
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -121883,7 +121863,7 @@
                         {
                             "id": "62a09e08de7ac81993580532",
                             "name": "Glorious E轻型防弹面具",
-                            "normalizedName": "glorious-e-lightweight-armored-mask",
+                            "normalizedName": "glorious-e-mask",
                             "shortName": "Glorious",
                             "width": 2,
                             "height": 2,
@@ -121909,7 +121889,7 @@
                         {
                             "id": "5b432b2f5acfc4771e1c6622",
                             "name": "轻型加固破碎面具",
-                            "normalizedName": "shattered-lightweight-armored-mask",
+                            "normalizedName": "shattered-mask",
                             "shortName": "破碎面具",
                             "width": 2,
                             "height": 2,
@@ -122081,7 +122061,7 @@
                         {
                             "id": "6570aead4d84f81fd002a033",
                             "name": "Death Shadow (死亡阴影) 轻量化防弹面具",
-                            "normalizedName": "death-shadow-lightweight-armored-mask",
+                            "normalizedName": "death-shadow-mask",
                             "shortName": "Death Shadow",
                             "width": 2,
                             "height": 2,
@@ -143799,6 +143779,11 @@
                             "normalizedName": "lighthouse"
                         },
                         {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -143809,9 +143794,9 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -143819,9 +143804,9 @@
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
                         },
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
@@ -143829,24 +143814,19 @@
                             "normalizedName": "factory"
                         },
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -144831,9 +144811,9 @@
                             "normalizedName": "streets-of-tarkov"
                         },
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
                         },
                         {
                             "id": "56f40101d2720b2a4d8b45d6",
@@ -144904,9 +144884,9 @@
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
@@ -144914,19 +144894,14 @@
                             "normalizedName": "interchange"
                         },
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
                         },
                         {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
                         },
                         {
                             "id": "5704e554d2720bac5b8b456e",
@@ -157227,9 +157202,9 @@
                         },
                         {
                             "id": "62987dfc402c7f69bf010923",
-                            "name": "套间符号钥匙",
-                            "normalizedName": "shared-bedroom-marked-key",
-                            "shortName": "套间",
+                            "name": "Substation marked key",
+                            "normalizedName": "substation-marked-key",
+                            "shortName": "Substation",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -168983,7 +168958,7 @@
                         {
                             "id": "62a09e08de7ac81993580532",
                             "name": "Glorious E轻型防弹面具",
-                            "normalizedName": "glorious-e-lightweight-armored-mask",
+                            "normalizedName": "glorious-e-mask",
                             "shortName": "Glorious",
                             "width": 2,
                             "height": 2,
@@ -169113,7 +169088,7 @@
                         {
                             "id": "5b432b2f5acfc4771e1c6622",
                             "name": "轻型加固破碎面具",
-                            "normalizedName": "shattered-lightweight-armored-mask",
+                            "normalizedName": "shattered-mask",
                             "shortName": "破碎面具",
                             "width": 2,
                             "height": 2,
@@ -169192,7 +169167,7 @@
                         {
                             "id": "6570aead4d84f81fd002a033",
                             "name": "Death Shadow (死亡阴影) 轻量化防弹面具",
-                            "normalizedName": "death-shadow-lightweight-armored-mask",
+                            "normalizedName": "death-shadow-mask",
                             "shortName": "Death Shadow",
                             "width": 2,
                             "height": 2,
@@ -201785,9 +201760,9 @@
                         },
                         {
                             "id": "62987dfc402c7f69bf010923",
-                            "name": "套间符号钥匙",
-                            "normalizedName": "shared-bedroom-marked-key",
-                            "shortName": "套间",
+                            "name": "Substation marked key",
+                            "normalizedName": "substation-marked-key",
+                            "shortName": "Substation",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -213541,7 +213516,7 @@
                         {
                             "id": "62a09e08de7ac81993580532",
                             "name": "Glorious E轻型防弹面具",
-                            "normalizedName": "glorious-e-lightweight-armored-mask",
+                            "normalizedName": "glorious-e-mask",
                             "shortName": "Glorious",
                             "width": 2,
                             "height": 2,
@@ -213671,7 +213646,7 @@
                         {
                             "id": "5b432b2f5acfc4771e1c6622",
                             "name": "轻型加固破碎面具",
-                            "normalizedName": "shattered-lightweight-armored-mask",
+                            "normalizedName": "shattered-mask",
                             "shortName": "破碎面具",
                             "width": 2,
                             "height": 2,
@@ -213750,7 +213725,7 @@
                         {
                             "id": "6570aead4d84f81fd002a033",
                             "name": "Death Shadow (死亡阴影) 轻量化防弹面具",
-                            "normalizedName": "death-shadow-lightweight-armored-mask",
+                            "normalizedName": "death-shadow-mask",
                             "shortName": "Death Shadow",
                             "width": 2,
                             "height": 2,
@@ -245743,9 +245718,9 @@
                         },
                         {
                             "id": "62987dfc402c7f69bf010923",
-                            "name": "套间符号钥匙",
-                            "normalizedName": "shared-bedroom-marked-key",
-                            "shortName": "套间",
+                            "name": "Substation marked key",
+                            "normalizedName": "substation-marked-key",
+                            "shortName": "Substation",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -259992,7 +259967,7 @@
                         {
                             "id": "62a09e08de7ac81993580532",
                             "name": "Glorious E轻型防弹面具",
-                            "normalizedName": "glorious-e-lightweight-armored-mask",
+                            "normalizedName": "glorious-e-mask",
                             "shortName": "Glorious",
                             "width": 2,
                             "height": 2,
@@ -260122,7 +260097,7 @@
                         {
                             "id": "5b432b2f5acfc4771e1c6622",
                             "name": "轻型加固破碎面具",
-                            "normalizedName": "shattered-lightweight-armored-mask",
+                            "normalizedName": "shattered-mask",
                             "shortName": "破碎面具",
                             "width": 2,
                             "height": 2,
@@ -260201,7 +260176,7 @@
                         {
                             "id": "6570aead4d84f81fd002a033",
                             "name": "Death Shadow (死亡阴影) 轻量化防弹面具",
-                            "normalizedName": "death-shadow-lightweight-armored-mask",
+                            "normalizedName": "death-shadow-mask",
                             "shortName": "Death Shadow",
                             "width": 2,
                             "height": 2,
@@ -290651,6 +290626,11 @@
                             "normalizedName": "lighthouse"
                         },
                         {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -290661,9 +290641,9 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -290671,9 +290651,9 @@
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
                         },
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
@@ -290681,24 +290661,19 @@
                             "normalizedName": "factory"
                         },
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -291354,6 +291329,11 @@
                             "normalizedName": "lighthouse"
                         },
                         {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
@@ -291364,9 +291344,9 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
+                            "id": "5714dbc024597771384a510d",
+                            "name": "立交桥",
+                            "normalizedName": "interchange"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -291374,9 +291354,9 @@
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dbc024597771384a510d",
-                            "name": "立交桥",
-                            "normalizedName": "interchange"
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
                         },
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
@@ -291384,24 +291364,19 @@
                             "normalizedName": "factory"
                         },
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -300120,9 +300095,9 @@
                         },
                         {
                             "id": "62987dfc402c7f69bf010923",
-                            "name": "套间符号钥匙",
-                            "normalizedName": "shared-bedroom-marked-key",
-                            "shortName": "套间",
+                            "name": "Substation marked key",
+                            "normalizedName": "substation-marked-key",
+                            "shortName": "Substation",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -311876,7 +311851,7 @@
                         {
                             "id": "62a09e08de7ac81993580532",
                             "name": "Glorious E轻型防弹面具",
-                            "normalizedName": "glorious-e-lightweight-armored-mask",
+                            "normalizedName": "glorious-e-mask",
                             "shortName": "Glorious",
                             "width": 2,
                             "height": 2,
@@ -312006,7 +311981,7 @@
                         {
                             "id": "5b432b2f5acfc4771e1c6622",
                             "name": "轻型加固破碎面具",
-                            "normalizedName": "shattered-lightweight-armored-mask",
+                            "normalizedName": "shattered-mask",
                             "shortName": "破碎面具",
                             "width": 2,
                             "height": 2,
@@ -312085,7 +312060,7 @@
                         {
                             "id": "6570aead4d84f81fd002a033",
                             "name": "Death Shadow (死亡阴影) 轻量化防弹面具",
-                            "normalizedName": "death-shadow-lightweight-armored-mask",
+                            "normalizedName": "death-shadow-mask",
                             "shortName": "Death Shadow",
                             "width": 2,
                             "height": 2,
@@ -345477,14 +345452,14 @@
                             "normalizedName": "woods"
                         },
                         {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
-                        },
-                        {
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
                         },
                         {
                             "id": "69af492a4819ea4ba10a69c5",
