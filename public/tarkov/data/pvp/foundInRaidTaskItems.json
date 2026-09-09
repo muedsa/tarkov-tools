@@ -292,7 +292,7 @@
     },
     {
         "id": "5ed51652f6c34d2cc26336a1",
-        "name": "M.U.L.E. 兴奋剂",
+        "name": "M.U.L.E. 兴奋剂注射器",
         "normalizedName": "mule-stimulant-injector",
         "types": [
             "injectors",
@@ -416,7 +416,7 @@
     },
     {
         "id": "5ed515e03a40a50460332579",
-        "name": "L1（去甲肾上腺素）",
+        "name": "L1（去甲肾上腺素）注射器",
         "normalizedName": "l1-norepinephrine-injector",
         "types": [
             "injectors",
@@ -638,7 +638,7 @@
     },
     {
         "id": "6a3532423ec9d7082a05d430",
-        "name": "GigaBeef牛肉罐头",
+        "name": "GigaBeef 咸牛肉罐头",
         "normalizedName": "can-of-gigabeef-meat",
         "types": [
             "provisions"
@@ -871,7 +871,7 @@
     },
     {
         "id": "62a09e08de7ac81993580532",
-        "name": "Glorious E轻型防弹面具",
+        "name": "Glorious E 面具",
         "normalizedName": "glorious-e-mask",
         "types": [
             "wearable"
@@ -1302,7 +1302,7 @@
     },
     {
         "id": "5c0e531286f7747fa54205c2",
-        "name": "SJ1 TGLabs战斗兴奋剂注射器",
+        "name": "SJ1 TGLabs 战斗兴奋剂注射器",
         "normalizedName": "sj1-tglabs-combat-stimulant-injector",
         "types": [
             "injectors",
@@ -1325,7 +1325,7 @@
     },
     {
         "id": "5c0e531d86f7747fa23f4d42",
-        "name": "SJ6 TGLabs战斗兴奋剂注射器",
+        "name": "SJ6 TGLabs 战斗兴奋剂注射器",
         "normalizedName": "sj6-tglabs-combat-stimulant-injector",
         "types": [
             "injectors",
@@ -1348,7 +1348,7 @@
     },
     {
         "id": "5fca13ca637ee0341a484f46",
-        "name": "SJ9 TGLabs战斗兴奋剂注射器",
+        "name": "SJ9 TGLabs 战斗兴奋剂注射器",
         "normalizedName": "sj9-tglabs-combat-stimulant-injector",
         "types": [
             "injectors",

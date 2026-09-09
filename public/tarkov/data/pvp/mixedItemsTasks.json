@@ -285,7 +285,7 @@
                     },
                     {
                         "id": "5ed515e03a40a50460332579",
-                        "name": "L1（去甲肾上腺素）",
+                        "name": "L1（去甲肾上腺素）注射器",
                         "normalizedName": "l1-norepinephrine-injector",
                         "types": [
                             "injectors",
@@ -297,7 +297,7 @@
                     },
                     {
                         "id": "5ed51652f6c34d2cc26336a1",
-                        "name": "M.U.L.E. 兴奋剂",
+                        "name": "M.U.L.E. 兴奋剂注射器",
                         "normalizedName": "mule-stimulant-injector",
                         "types": [
                             "injectors",
@@ -381,7 +381,7 @@
                     },
                     {
                         "id": "5c0e530286f7747fa1419862",
-                        "name": "Propital",
+                        "name": "Propital 再生兴奋剂注射器",
                         "normalizedName": "propital-regenerative-stimulant-injector",
                         "types": [
                             "injectors",
@@ -393,7 +393,7 @@
                     },
                     {
                         "id": "637b612fb7afa97bfc3d7005",
-                        "name": "SJ12 TGLabs战斗兴奋剂注射器",
+                        "name": "SJ12 TGLabs 战斗兴奋剂注射器",
                         "normalizedName": "sj12-tglabs-combat-stimulant-injector",
                         "types": [
                             "injectors",
@@ -405,7 +405,7 @@
                     },
                     {
                         "id": "5c0e531286f7747fa54205c2",
-                        "name": "SJ1 TGLabs战斗兴奋剂注射器",
+                        "name": "SJ1 TGLabs 战斗兴奋剂注射器",
                         "normalizedName": "sj1-tglabs-combat-stimulant-injector",
                         "types": [
                             "injectors",
@@ -417,7 +417,7 @@
                     },
                     {
                         "id": "5c0e531d86f7747fa23f4d42",
-                        "name": "SJ6 TGLabs战斗兴奋剂注射器",
+                        "name": "SJ6 TGLabs 战斗兴奋剂注射器",
                         "normalizedName": "sj6-tglabs-combat-stimulant-injector",
                         "types": [
                             "injectors",
@@ -429,7 +429,7 @@
                     },
                     {
                         "id": "5fca13ca637ee0341a484f46",
-                        "name": "SJ9 TGLabs战斗兴奋剂注射器",
+                        "name": "SJ9 TGLabs 战斗兴奋剂注射器",
                         "normalizedName": "sj9-tglabs-combat-stimulant-injector",
                         "types": [
                             "injectors",
@@ -453,7 +453,7 @@
                     },
                     {
                         "id": "5c0e533786f7747fa23f4d47",
-                        "name": "Zagustin止血剂",
+                        "name": "Zagustin 止血剂注射器",
                         "normalizedName": "zagustin-hemostatic-drug-injector",
                         "types": [
                             "injectors",
@@ -465,7 +465,7 @@
                     },
                     {
                         "id": "5c0e534186f7747fa1419867",
-                        "name": "eTG-change再生兴奋剂注射器",
+                        "name": "eTG-change 再生兴奋剂注射器",
                         "normalizedName": "etg-change-regenerative-stimulant-injector",
                         "types": [
                             "injectors",
@@ -477,7 +477,7 @@
                     },
                     {
                         "id": "5fca138c2a7b221b2852a5c6",
-                        "name": "xTG-12解毒剂",
+                        "name": "xTG-12 解毒剂注射器",
                         "normalizedName": "xtg-12-antidote-injector",
                         "types": [
                             "injectors",
@@ -4663,7 +4663,7 @@
                     },
                     {
                         "id": "62a09e08de7ac81993580532",
-                        "name": "Glorious E轻型防弹面具",
+                        "name": "Glorious E 面具",
                         "normalizedName": "glorious-e-mask",
                         "types": [
                             "wearable"
@@ -4809,7 +4809,7 @@
                     },
                     {
                         "id": "5b432b2f5acfc4771e1c6622",
-                        "name": "轻型加固破碎面具",
+                        "name": "破碎面具",
                         "normalizedName": "shattered-mask",
                         "types": [
                             "helmet",
@@ -4916,7 +4916,7 @@
                     },
                     {
                         "id": "6570aead4d84f81fd002a033",
-                        "name": "Death Shadow (死亡阴影) 轻量化防弹面具",
+                        "name": "Death Shadow（死亡阴影）面具",
                         "normalizedName": "death-shadow-mask",
                         "types": [
                             "noFlea",
@@ -4949,7 +4949,7 @@
                     },
                     {
                         "id": "68a9b852cdf661cc5a0626c9",
-                        "name": "Death Shadow (死亡阴影) 轻量化防弹面具 (灰色)",
+                        "name": "Death Shadow（死亡阴影）面具（灰色）",
                         "normalizedName": "death-shadow-mask-gray",
                         "types": [
                             "noFlea",
@@ -8551,7 +8551,7 @@
                     },
                     {
                         "id": "66507eabf5ddb0818b085b68",
-                        "name": "2A2-(b-TG)兴奋剂注射器",
+                        "name": "2A2-(b-TG) 兴奋剂注射器",
                         "normalizedName": "2a2-b-tg-stimulant-injector",
                         "types": [
                             "injectors",
@@ -8623,7 +8623,7 @@
                     },
                     {
                         "id": "5ed515e03a40a50460332579",
-                        "name": "L1（去甲肾上腺素）",
+                        "name": "L1（去甲肾上腺素）注射器",
                         "normalizedName": "l1-norepinephrine-injector",
                         "types": [
                             "injectors",
@@ -8635,7 +8635,7 @@
                     },
                     {
                         "id": "5ed51652f6c34d2cc26336a1",
-                        "name": "M.U.L.E. 兴奋剂",
+                        "name": "M.U.L.E. 兴奋剂注射器",
                         "normalizedName": "mule-stimulant-injector",
                         "types": [
                             "injectors",
@@ -8695,7 +8695,7 @@
                     },
                     {
                         "id": "5c0e530286f7747fa1419862",
-                        "name": "Propital",
+                        "name": "Propital 再生兴奋剂注射器",
                         "normalizedName": "propital-regenerative-stimulant-injector",
                         "types": [
                             "injectors",
@@ -8707,7 +8707,7 @@
                     },
                     {
                         "id": "637b612fb7afa97bfc3d7005",
-                        "name": "SJ12 TGLabs战斗兴奋剂注射器",
+                        "name": "SJ12 TGLabs 战斗兴奋剂注射器",
                         "normalizedName": "sj12-tglabs-combat-stimulant-injector",
                         "types": [
                             "injectors",
@@ -8719,7 +8719,7 @@
                     },
                     {
                         "id": "5c0e531286f7747fa54205c2",
-                        "name": "SJ1 TGLabs战斗兴奋剂注射器",
+                        "name": "SJ1 TGLabs 战斗兴奋剂注射器",
                         "normalizedName": "sj1-tglabs-combat-stimulant-injector",
                         "types": [
                             "injectors",
@@ -8731,7 +8731,7 @@
                     },
                     {
                         "id": "5c0e531d86f7747fa23f4d42",
-                        "name": "SJ6 TGLabs战斗兴奋剂注射器",
+                        "name": "SJ6 TGLabs 战斗兴奋剂注射器",
                         "normalizedName": "sj6-tglabs-combat-stimulant-injector",
                         "types": [
                             "injectors",
@@ -8743,7 +8743,7 @@
                     },
                     {
                         "id": "5fca13ca637ee0341a484f46",
-                        "name": "SJ9 TGLabs战斗兴奋剂注射器",
+                        "name": "SJ9 TGLabs 战斗兴奋剂注射器",
                         "normalizedName": "sj9-tglabs-combat-stimulant-injector",
                         "types": [
                             "injectors",
@@ -8767,7 +8767,7 @@
                     },
                     {
                         "id": "5c0e533786f7747fa23f4d47",
-                        "name": "Zagustin止血剂",
+                        "name": "Zagustin 止血剂注射器",
                         "normalizedName": "zagustin-hemostatic-drug-injector",
                         "types": [
                             "injectors",
@@ -8779,7 +8779,7 @@
                     },
                     {
                         "id": "5c0e534186f7747fa1419867",
-                        "name": "eTG-change再生兴奋剂注射器",
+                        "name": "eTG-change 再生兴奋剂注射器",
                         "normalizedName": "etg-change-regenerative-stimulant-injector",
                         "types": [
                             "injectors",
@@ -8791,7 +8791,7 @@
                     },
                     {
                         "id": "5fca138c2a7b221b2852a5c6",
-                        "name": "xTG-12解毒剂",
+                        "name": "xTG-12 解毒剂注射器",
                         "normalizedName": "xtg-12-antidote-injector",
                         "types": [
                             "injectors",
