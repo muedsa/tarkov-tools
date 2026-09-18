@@ -5018,7 +5018,7 @@
                     {
                         "id": "5aa7e276e5b5b000171d0647",
                         "name": "Altyn 防弹头盔（橄榄绿）",
-                        "normalizedName": "altyn-bulletproof-helmet-olive-drab",
+                        "normalizedName": "altyn-assault-helmet-olive-drab",
                         "types": [
                             "helmet",
                             "noFlea",
@@ -5206,8 +5206,8 @@
                     },
                     {
                         "id": "66bdc28a0b603c26902b2011",
-                        "name": "Devtac 浪人防弹头盔",
-                        "normalizedName": "devtac-ronin-ballistic-helmet",
+                        "name": "DevTac Ronin helmet",
+                        "normalizedName": "devtac-ronin-helmet",
                         "types": [
                             "wearable"
                         ],
@@ -5372,7 +5372,7 @@
                     {
                         "id": "5f60c74e3b85f6263c145586",
                         "name": "Rys-T 防弹头盔（黑色）",
-                        "normalizedName": "rys-t-bulletproof-helmet-black",
+                        "normalizedName": "rys-t-assault-helmet-black",
                         "types": [
                             "helmet",
                             "noFlea",
@@ -7224,7 +7224,7 @@
                     {
                         "id": "5aa7e276e5b5b000171d0647",
                         "name": "Altyn 防弹头盔（橄榄绿）",
-                        "normalizedName": "altyn-bulletproof-helmet-olive-drab",
+                        "normalizedName": "altyn-assault-helmet-olive-drab",
                         "types": [
                             "helmet",
                             "noFlea",
