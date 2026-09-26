@@ -11799,6 +11799,41 @@
                     "description": "在疼痛状态下消灭 Scav",
                     "maps": [
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "68236e8153654e8c1200798a",
+                            "name": "Ground Zero 教程",
+                            "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
@@ -11809,49 +11844,14 @@
                             "normalizedName": "interchange"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "68236e8153654e8c1200798a",
-                            "name": "Ground Zero 教程",
-                            "normalizedName": "ground-zero-tutorial"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -14893,6 +14893,41 @@
                     "description": "在任意地图使用 Steyr AUG 消灭 Scav",
                     "maps": [
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "68236e8153654e8c1200798a",
+                            "name": "Ground Zero 教程",
+                            "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
@@ -14903,49 +14938,14 @@
                             "normalizedName": "interchange"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "68236e8153654e8c1200798a",
-                            "name": "Ground Zero 教程",
-                            "normalizedName": "ground-zero-tutorial"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -31121,14 +31121,19 @@
                     "description": "找到并消灭邪教徒祭司",
                     "maps": [
                         {
-                            "id": "65b8d6f5cdde2479cb2a3125",
-                            "name": "中心区 21+",
-                            "normalizedName": "ground-zero-21"
-                        },
-                        {
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "65b8d6f5cdde2479cb2a3125",
+                            "name": "中心区 21+",
+                            "normalizedName": "ground-zero-21"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -31139,11 +31144,6 @@
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -36635,14 +36635,19 @@
                     "description": "使用双管霰弹枪消灭邪教徒",
                     "maps": [
                         {
-                            "id": "65b8d6f5cdde2479cb2a3125",
-                            "name": "中心区 21+",
-                            "normalizedName": "ground-zero-21"
-                        },
-                        {
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "65b8d6f5cdde2479cb2a3125",
+                            "name": "中心区 21+",
+                            "normalizedName": "ground-zero-21"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -36653,11 +36658,6 @@
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -41166,6 +41166,41 @@
                     "description": "消灭 Scav",
                     "maps": [
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "68236e8153654e8c1200798a",
+                            "name": "Ground Zero 教程",
+                            "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
@@ -41176,49 +41211,14 @@
                             "normalizedName": "interchange"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "68236e8153654e8c1200798a",
-                            "name": "Ground Zero 教程",
-                            "normalizedName": "ground-zero-tutorial"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -45590,9 +45590,9 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
-                            "id": "5b0fc42d86f7744a585f9105",
-                            "name": "实验室",
-                            "normalizedName": "the-lab"
+                            "id": "6a294a5b5eb5f9a1700417b7",
+                            "name": "实验室 (Dark)",
+                            "normalizedName": "the-lab-dark"
                         },
                         {
                             "id": "5704e5fad2720bc05b8b4567",
@@ -45600,9 +45600,9 @@
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "6a294a5b5eb5f9a1700417b7",
-                            "name": "实验室 (Dark)",
-                            "normalizedName": "the-lab-dark"
+                            "id": "5b0fc42d86f7744a585f9105",
+                            "name": "实验室",
+                            "normalizedName": "the-lab"
                         }
                     ],
                     "optional": false,
@@ -45873,9 +45873,9 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
-                            "id": "5b0fc42d86f7744a585f9105",
-                            "name": "实验室",
-                            "normalizedName": "the-lab"
+                            "id": "6a294a5b5eb5f9a1700417b7",
+                            "name": "实验室 (Dark)",
+                            "normalizedName": "the-lab-dark"
                         },
                         {
                             "id": "5704e5fad2720bc05b8b4567",
@@ -45883,9 +45883,9 @@
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "6a294a5b5eb5f9a1700417b7",
-                            "name": "实验室 (Dark)",
-                            "normalizedName": "the-lab-dark"
+                            "id": "5b0fc42d86f7744a585f9105",
+                            "name": "实验室",
+                            "normalizedName": "the-lab"
                         }
                     ],
                     "optional": false,
@@ -47840,11 +47840,6 @@
                     "description": "在同场战局中找到并消灭 Knight",
                     "maps": [
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
@@ -47855,14 +47850,19 @@
                             "normalizedName": "lighthouse"
                         },
                         {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
                         }
                     ],
                     "optional": false,
@@ -47904,14 +47904,14 @@
                             "normalizedName": "lighthouse"
                         },
                         {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
                         }
                     ],
                     "optional": false,
@@ -47953,14 +47953,14 @@
                             "normalizedName": "lighthouse"
                         },
                         {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
                         }
                     ],
                     "optional": false,
@@ -56075,6 +56075,41 @@
                     "description": "使用轻机枪消灭 Scav",
                     "maps": [
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "68236e8153654e8c1200798a",
+                            "name": "Ground Zero 教程",
+                            "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
@@ -56085,49 +56120,14 @@
                             "normalizedName": "interchange"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "68236e8153654e8c1200798a",
-                            "name": "Ground Zero 教程",
-                            "normalizedName": "ground-zero-tutorial"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -87698,41 +87698,6 @@
                         {
                             "id": "fuel4",
                             "map": {
-                                "id": "5704e5fad2720bc05b8b4567"
-                            },
-                            "position": {
-                                "x": -334.93,
-                                "y": -101.46,
-                                "z": -163.46
-                            },
-                            "outline": [
-                                {
-                                    "x": -339.32,
-                                    "y": -103.38,
-                                    "z": -167.46
-                                },
-                                {
-                                    "x": -333.16,
-                                    "y": -103.38,
-                                    "z": -157.8
-                                },
-                                {
-                                    "x": -330.54,
-                                    "y": -103.38,
-                                    "z": -159.46
-                                },
-                                {
-                                    "x": -336.71,
-                                    "y": -103.38,
-                                    "z": -169.12
-                                }
-                            ],
-                            "top": -99.53,
-                            "bottom": -103.38
-                        },
-                        {
-                            "id": "fuel4",
-                            "map": {
                                 "id": "56f40101d2720b2a4d8b45d6"
                             },
                             "position": {
@@ -87764,6 +87729,41 @@
                             ],
                             "top": 4.14,
                             "bottom": 0.3
+                        },
+                        {
+                            "id": "fuel4",
+                            "map": {
+                                "id": "5704e5fad2720bc05b8b4567"
+                            },
+                            "position": {
+                                "x": -334.93,
+                                "y": -101.46,
+                                "z": -163.46
+                            },
+                            "outline": [
+                                {
+                                    "x": -339.32,
+                                    "y": -103.38,
+                                    "z": -167.46
+                                },
+                                {
+                                    "x": -333.16,
+                                    "y": -103.38,
+                                    "z": -157.8
+                                },
+                                {
+                                    "x": -330.54,
+                                    "y": -103.38,
+                                    "z": -159.46
+                                },
+                                {
+                                    "x": -336.71,
+                                    "y": -103.38,
+                                    "z": -169.12
+                                }
+                            ],
+                            "top": -99.53,
+                            "bottom": -103.38
                         }
                     ],
                     "requiredKeys": null
@@ -103214,6 +103214,36 @@
                             "normalizedName": "streets-of-tarkov"
                         },
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "68236e8153654e8c1200798a",
+                            "name": "Ground Zero 教程",
+                            "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
@@ -103224,44 +103254,14 @@
                             "normalizedName": "interchange"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "68236e8153654e8c1200798a",
-                            "name": "Ground Zero 教程",
-                            "normalizedName": "ground-zero-tutorial"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -115001,9 +115001,9 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
-                            "id": "5b0fc42d86f7744a585f9105",
-                            "name": "实验室",
-                            "normalizedName": "the-lab"
+                            "id": "6a294a5b5eb5f9a1700417b7",
+                            "name": "实验室 (Dark)",
+                            "normalizedName": "the-lab-dark"
                         },
                         {
                             "id": "5704e5fad2720bc05b8b4567",
@@ -115011,9 +115011,9 @@
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "6a294a5b5eb5f9a1700417b7",
-                            "name": "实验室 (Dark)",
-                            "normalizedName": "the-lab-dark"
+                            "id": "5b0fc42d86f7744a585f9105",
+                            "name": "实验室",
+                            "normalizedName": "the-lab"
                         }
                     ],
                     "optional": false,
@@ -120690,14 +120690,14 @@
                             "normalizedName": "shoreline"
                         },
                         {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
                         }
                     ],
                     "optional": false,
@@ -120759,6 +120759,76 @@
                         {
                             "id": "prapor_outposts",
                             "map": {
+                                "id": "56f40101d2720b2a4d8b45d6"
+                            },
+                            "position": {
+                                "x": 202.68,
+                                "y": 7.91,
+                                "z": -126.77
+                            },
+                            "outline": [
+                                {
+                                    "x": 172.38,
+                                    "y": -4.24,
+                                    "z": -199.07
+                                },
+                                {
+                                    "x": 148.17,
+                                    "y": -4.24,
+                                    "z": -70.43
+                                },
+                                {
+                                    "x": 232.98,
+                                    "y": -4.24,
+                                    "z": -54.47
+                                },
+                                {
+                                    "x": 257.19,
+                                    "y": -4.24,
+                                    "z": -183.11
+                                }
+                            ],
+                            "top": 20.06,
+                            "bottom": -4.24
+                        },
+                        {
+                            "id": "prapor_outposts",
+                            "map": {
+                                "id": "56f40101d2720b2a4d8b45d6"
+                            },
+                            "position": {
+                                "x": 202.68,
+                                "y": 7.91,
+                                "z": -126.77
+                            },
+                            "outline": [
+                                {
+                                    "x": 172.38,
+                                    "y": -4.24,
+                                    "z": -199.07
+                                },
+                                {
+                                    "x": 148.17,
+                                    "y": -4.24,
+                                    "z": -70.43
+                                },
+                                {
+                                    "x": 232.98,
+                                    "y": -4.24,
+                                    "z": -54.47
+                                },
+                                {
+                                    "x": 257.19,
+                                    "y": -4.24,
+                                    "z": -183.11
+                                }
+                            ],
+                            "top": 20.06,
+                            "bottom": -4.24
+                        },
+                        {
+                            "id": "prapor_outposts",
+                            "map": {
                                 "id": "5704e3c2d2720bac5b8b4567"
                             },
                             "position": {
@@ -120790,76 +120860,6 @@
                             ],
                             "top": 30.1,
                             "bottom": -19.9
-                        },
-                        {
-                            "id": "prapor_outposts",
-                            "map": {
-                                "id": "56f40101d2720b2a4d8b45d6"
-                            },
-                            "position": {
-                                "x": 202.68,
-                                "y": 7.91,
-                                "z": -126.77
-                            },
-                            "outline": [
-                                {
-                                    "x": 172.38,
-                                    "y": -4.24,
-                                    "z": -199.07
-                                },
-                                {
-                                    "x": 148.17,
-                                    "y": -4.24,
-                                    "z": -70.43
-                                },
-                                {
-                                    "x": 232.98,
-                                    "y": -4.24,
-                                    "z": -54.47
-                                },
-                                {
-                                    "x": 257.19,
-                                    "y": -4.24,
-                                    "z": -183.11
-                                }
-                            ],
-                            "top": 20.06,
-                            "bottom": -4.24
-                        },
-                        {
-                            "id": "prapor_outposts",
-                            "map": {
-                                "id": "56f40101d2720b2a4d8b45d6"
-                            },
-                            "position": {
-                                "x": 202.68,
-                                "y": 7.91,
-                                "z": -126.77
-                            },
-                            "outline": [
-                                {
-                                    "x": 172.38,
-                                    "y": -4.24,
-                                    "z": -199.07
-                                },
-                                {
-                                    "x": 148.17,
-                                    "y": -4.24,
-                                    "z": -70.43
-                                },
-                                {
-                                    "x": 232.98,
-                                    "y": -4.24,
-                                    "z": -54.47
-                                },
-                                {
-                                    "x": 257.19,
-                                    "y": -4.24,
-                                    "z": -183.11
-                                }
-                            ],
-                            "top": 20.06,
-                            "bottom": -4.24
                         }
                     ]
                 }
@@ -120955,6 +120955,41 @@
                     "description": "命中头部击杀Scav",
                     "maps": [
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "68236e8153654e8c1200798a",
+                            "name": "Ground Zero 教程",
+                            "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
@@ -120965,49 +121000,14 @@
                             "normalizedName": "interchange"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "68236e8153654e8c1200798a",
-                            "name": "Ground Zero 教程",
-                            "normalizedName": "ground-zero-tutorial"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -121248,14 +121248,19 @@
                     "description": "找到并消灭消灭邪教徒",
                     "maps": [
                         {
-                            "id": "65b8d6f5cdde2479cb2a3125",
-                            "name": "中心区 21+",
-                            "normalizedName": "ground-zero-21"
-                        },
-                        {
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "65b8d6f5cdde2479cb2a3125",
+                            "name": "中心区 21+",
+                            "normalizedName": "ground-zero-21"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -121266,11 +121271,6 @@
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -136398,9 +136398,9 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
-                            "id": "5b0fc42d86f7744a585f9105",
-                            "name": "实验室",
-                            "normalizedName": "the-lab"
+                            "id": "6a294a5b5eb5f9a1700417b7",
+                            "name": "实验室 (Dark)",
+                            "normalizedName": "the-lab-dark"
                         },
                         {
                             "id": "5704e5fad2720bc05b8b4567",
@@ -136408,9 +136408,9 @@
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "6a294a5b5eb5f9a1700417b7",
-                            "name": "实验室 (Dark)",
-                            "normalizedName": "the-lab-dark"
+                            "id": "5b0fc42d86f7744a585f9105",
+                            "name": "实验室",
+                            "normalizedName": "the-lab"
                         }
                     ],
                     "optional": false,
@@ -145430,41 +145430,6 @@
                         {
                             "id": "q14_10_kill_ice",
                             "map": {
-                                "id": "5714dbc024597771384a510d"
-                            },
-                            "position": {
-                                "x": 438.79,
-                                "y": 32.4,
-                                "z": 145.6
-                            },
-                            "outline": [
-                                {
-                                    "x": 293.29,
-                                    "y": 17.4,
-                                    "z": -12.15
-                                },
-                                {
-                                    "x": 293.29,
-                                    "y": 17.4,
-                                    "z": 303.35
-                                },
-                                {
-                                    "x": 584.29,
-                                    "y": 17.4,
-                                    "z": 303.35
-                                },
-                                {
-                                    "x": 584.29,
-                                    "y": 17.4,
-                                    "z": -12.15
-                                }
-                            ],
-                            "top": 47.4,
-                            "bottom": 17.4
-                        },
-                        {
-                            "id": "q14_10_kill_ice",
-                            "map": {
                                 "id": "5704e554d2720bac5b8b456e"
                             },
                             "position": {
@@ -145496,6 +145461,41 @@
                             ],
                             "top": 4.7,
                             "bottom": -45.3
+                        },
+                        {
+                            "id": "q14_10_kill_ice",
+                            "map": {
+                                "id": "5714dbc024597771384a510d"
+                            },
+                            "position": {
+                                "x": 438.79,
+                                "y": 32.4,
+                                "z": 145.6
+                            },
+                            "outline": [
+                                {
+                                    "x": 293.29,
+                                    "y": 17.4,
+                                    "z": -12.15
+                                },
+                                {
+                                    "x": 293.29,
+                                    "y": 17.4,
+                                    "z": 303.35
+                                },
+                                {
+                                    "x": 584.29,
+                                    "y": 17.4,
+                                    "z": 303.35
+                                },
+                                {
+                                    "x": 584.29,
+                                    "y": 17.4,
+                                    "z": -12.15
+                                }
+                            ],
+                            "top": 47.4,
+                            "bottom": 17.4
                         }
                     ]
                 }
@@ -145657,6 +145657,41 @@
                     "description": "6667196a74bbc3a671ef49f8",
                     "maps": [
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "68236e8153654e8c1200798a",
+                            "name": "Ground Zero 教程",
+                            "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
@@ -145667,49 +145702,14 @@
                             "normalizedName": "interchange"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "68236e8153654e8c1200798a",
-                            "name": "Ground Zero 教程",
-                            "normalizedName": "ground-zero-tutorial"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -146777,14 +146777,14 @@
                             "normalizedName": "interchange"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
                             "id": "5704e554d2720bac5b8b456e",
                             "name": "海岸线",
                             "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
                         },
                         {
                             "id": "5704e3c2d2720bac5b8b4567",
@@ -292504,6 +292504,41 @@
                     "description": "在完成其他目标的同时消灭 Scav",
                     "maps": [
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "68236e8153654e8c1200798a",
+                            "name": "Ground Zero 教程",
+                            "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
@@ -292514,49 +292549,14 @@
                             "normalizedName": "interchange"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "68236e8153654e8c1200798a",
-                            "name": "Ground Zero 教程",
-                            "normalizedName": "ground-zero-tutorial"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -293207,6 +293207,41 @@
                     "description": "在完成其他目标的同时消灭 Scav",
                     "maps": [
                         {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
+                            "id": "5714dc692459777137212e12",
+                            "name": "塔科夫街区",
+                            "normalizedName": "streets-of-tarkov"
+                        },
+                        {
+                            "id": "56f40101d2720b2a4d8b45d6",
+                            "name": "海关",
+                            "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "68236e8153654e8c1200798a",
+                            "name": "Ground Zero 教程",
+                            "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
@@ -293217,49 +293252,14 @@
                             "normalizedName": "interchange"
                         },
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
                         },
                         {
-                            "id": "5714dc692459777137212e12",
-                            "name": "塔科夫街区",
-                            "normalizedName": "streets-of-tarkov"
-                        },
-                        {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "68236e8153654e8c1200798a",
-                            "name": "Ground Zero 教程",
-                            "normalizedName": "ground-zero-tutorial"
-                        },
-                        {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
-                        },
-                        {
-                            "id": "56f40101d2720b2a4d8b45d6",
-                            "name": "海关",
-                            "normalizedName": "customs"
                         }
                     ],
                     "optional": false,
@@ -342612,41 +342612,6 @@
                         {
                             "id": "exit777",
                             "map": {
-                                "id": "6733700029c367a3d40b02af"
-                            },
-                            "position": {
-                                "x": 19.44,
-                                "y": 1.07,
-                                "z": 0.5
-                            },
-                            "outline": [
-                                {
-                                    "x": 18,
-                                    "y": -0.43,
-                                    "z": -1.06
-                                },
-                                {
-                                    "x": 17.89,
-                                    "y": -0.43,
-                                    "z": 1.94
-                                },
-                                {
-                                    "x": 20.89,
-                                    "y": -0.43,
-                                    "z": 2.05
-                                },
-                                {
-                                    "x": 21,
-                                    "y": -0.43,
-                                    "z": -0.95
-                                }
-                            ],
-                            "top": 2.57,
-                            "bottom": -0.43
-                        },
-                        {
-                            "id": "exit777",
-                            "map": {
                                 "id": "56f40101d2720b2a4d8b45d6"
                             },
                             "position": {
@@ -342713,6 +342678,41 @@
                             ],
                             "top": 0.04,
                             "bottom": -2.96
+                        },
+                        {
+                            "id": "exit777",
+                            "map": {
+                                "id": "6733700029c367a3d40b02af"
+                            },
+                            "position": {
+                                "x": 19.44,
+                                "y": 1.07,
+                                "z": 0.5
+                            },
+                            "outline": [
+                                {
+                                    "x": 18,
+                                    "y": -0.43,
+                                    "z": -1.06
+                                },
+                                {
+                                    "x": 17.89,
+                                    "y": -0.43,
+                                    "z": 1.94
+                                },
+                                {
+                                    "x": 20.89,
+                                    "y": -0.43,
+                                    "z": 2.05
+                                },
+                                {
+                                    "x": 21,
+                                    "y": -0.43,
+                                    "z": -0.95
+                                }
+                            ],
+                            "top": 2.57,
+                            "bottom": -0.43
                         }
                     ],
                     "requiredKeys": null
@@ -346809,14 +346809,14 @@
                             "normalizedName": "lighthouse"
                         },
                         {
-                            "id": "5704e3c2d2720bac5b8b4567",
-                            "name": "森林",
-                            "normalizedName": "woods"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
+                        },
+                        {
+                            "id": "5704e3c2d2720bac5b8b4567",
+                            "name": "森林",
+                            "normalizedName": "woods"
                         },
                         {
                             "id": "69af492a4819ea4ba10a69c5",
