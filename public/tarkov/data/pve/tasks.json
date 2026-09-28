@@ -16493,8 +16493,8 @@
                         "Basmach",
                         "Gus",
                         "Kaban Guard",
-                        " 保镖 (Assault)",
-                        " 保镖 (Security)"
+                        "保镖 (Assault)",
+                        "保镖 (Security)"
                     ],
                     "count": 2,
                     "shotType": "kill",
@@ -18262,7 +18262,7 @@
             },
             "map": null,
             "experience": 19500,
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Arena_Business_%5BPVE_ZONE%5D%0A",
+            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Arena_Business",
             "minPlayerLevel": 10,
             "taskRequirements": [
                 {
@@ -19587,7 +19587,7 @@
                     "__typename": "TaskObjectiveItem",
                     "id": "5ac505c386f7740be0424d19",
                     "type": "findItem",
-                    "description": "在战局中找到T形插座 ",
+                    "description": "在战局中找到T形插座",
                     "maps": [],
                     "optional": false,
                     "items": [
@@ -24403,7 +24403,7 @@
                     "__typename": "TaskObjectiveItem",
                     "id": "66d07fa69d373d977f437fe0",
                     "type": "plantItem",
-                    "description": " 在工厂的办公区走廊处安装WI-FI摄像头",
+                    "description": "在工厂的办公区走廊处安装WI-FI摄像头",
                     "maps": [
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
@@ -24950,7 +24950,7 @@
                     {
                         "item": {
                             "id": "5a16b8a9fcdbcb00165aa6ca",
-                            "name": "Norotos钛合金高级战术支架 ",
+                            "name": "Norotos钛合金高级战术支架",
                             "normalizedName": "norotos-titanium-advanced-tactical-mount",
                             "shortName": "TATM",
                             "width": 1,
@@ -26117,7 +26117,7 @@
                             "id": "5b44c8ea86f7742d1627baf1",
                             "name": "Blackhawk! Commando胸挂（Desert Tan）",
                             "normalizedName": "blackhawk-commando-chest-harness-desert-tan",
-                            "shortName": "Commando ",
+                            "shortName": "Commando",
                             "width": 4,
                             "height": 3,
                             "types": [
@@ -34928,7 +34928,7 @@
                         },
                         {
                             "id": "57838ad32459774a17445cd2",
-                            "name": "VSS “绞丝机” 特种狙击步枪 ",
+                            "name": "VSS “绞丝机” 特种狙击步枪",
                             "normalizedName": "vss-vintorez-9x39-special-sniper-rifle",
                             "shortName": "VSS",
                             "width": 2,
@@ -47383,7 +47383,7 @@
                         },
                         {
                             "id": "5bffdd7e0db834001b734a1a",
-                            "name": "Miller Bros. Blades M-2 战术剑 ",
+                            "name": "Miller Bros. Blades M-2 战术剑",
                             "normalizedName": "miller-bros-blades-m-2-tactical-sword",
                             "shortName": "M-2",
                             "width": 1,
@@ -47725,7 +47725,7 @@
                         },
                         {
                             "id": "5bffdd7e0db834001b734a1a",
-                            "name": "Miller Bros. Blades M-2 战术剑 ",
+                            "name": "Miller Bros. Blades M-2 战术剑",
                             "normalizedName": "miller-bros-blades-m-2-tactical-sword",
                             "shortName": "M-2",
                             "width": 1,
@@ -48067,7 +48067,7 @@
                         },
                         {
                             "id": "5bffdd7e0db834001b734a1a",
-                            "name": "Miller Bros. Blades M-2 战术剑 ",
+                            "name": "Miller Bros. Blades M-2 战术剑",
                             "normalizedName": "miller-bros-blades-m-2-tactical-sword",
                             "shortName": "M-2",
                             "width": 1,
@@ -48409,7 +48409,7 @@
                         },
                         {
                             "id": "5bffdd7e0db834001b734a1a",
-                            "name": "Miller Bros. Blades M-2 战术剑 ",
+                            "name": "Miller Bros. Blades M-2 战术剑",
                             "normalizedName": "miller-bros-blades-m-2-tactical-sword",
                             "shortName": "M-2",
                             "width": 1,
@@ -48751,7 +48751,7 @@
                         },
                         {
                             "id": "5bffdd7e0db834001b734a1a",
-                            "name": "Miller Bros. Blades M-2 战术剑 ",
+                            "name": "Miller Bros. Blades M-2 战术剑",
                             "normalizedName": "miller-bros-blades-m-2-tactical-sword",
                             "shortName": "M-2",
                             "width": 1,
@@ -49098,7 +49098,7 @@
                         },
                         {
                             "id": "5bffdd7e0db834001b734a1a",
-                            "name": "Miller Bros. Blades M-2 战术剑 ",
+                            "name": "Miller Bros. Blades M-2 战术剑",
                             "normalizedName": "miller-bros-blades-m-2-tactical-sword",
                             "shortName": "M-2",
                             "width": 1,
@@ -49891,7 +49891,7 @@
                         [
                             {
                                 "id": "5a34fe59c4a282000b1521a2",
-                                "name": "AAC 762 SDN-6 7.62x51声音抑制器 ",
+                                "name": "AAC 762 SDN-6 7.62x51声音抑制器",
                                 "normalizedName": "aac-762-sdn-6-multi-caliber-sound-suppressor",
                                 "shortName": "SDN-6",
                                 "width": 2,
@@ -49907,7 +49907,7 @@
                         [
                             {
                                 "id": "5c7955c22e221644f31bfd5e",
-                                "name": "Gemtech ONE 7.62x51声音抑制器 ",
+                                "name": "Gemtech ONE 7.62x51声音抑制器",
                                 "normalizedName": "gemtech-one-multi-caliber-sound-suppressor",
                                 "shortName": "Gemtech ONE",
                                 "width": 2,
@@ -49939,7 +49939,7 @@
                         [
                             {
                                 "id": "5d44064fa4b9361e4f6eb8b5",
-                                "name": "Thunder Beast Ultra 5声音抑制器 ",
+                                "name": "Thunder Beast Ultra 5声音抑制器",
                                 "normalizedName": "thunder-beast-arms-ultra-5-sound-suppressor",
                                 "shortName": "Ultra 5",
                                 "width": 2,
@@ -51689,7 +51689,7 @@
                         "level": 4,
                         "item": {
                             "id": "5bffdd7e0db834001b734a1a",
-                            "name": "Miller Bros. Blades M-2 战术剑 ",
+                            "name": "Miller Bros. Blades M-2 战术剑",
                             "normalizedName": "miller-bros-blades-m-2-tactical-sword",
                             "shortName": "M-2",
                             "width": 1,
@@ -52563,7 +52563,7 @@
                             "id": "5d0379a886f77420407aa271",
                             "name": "OFZ 30x165毫米炮弹",
                             "normalizedName": "ofz-30x165mm-shell",
-                            "shortName": "OFZ ",
+                            "shortName": "OFZ",
                             "width": 1,
                             "height": 2,
                             "types": [
@@ -52593,7 +52593,7 @@
                             "id": "5d0379a886f77420407aa271",
                             "name": "OFZ 30x165毫米炮弹",
                             "normalizedName": "ofz-30x165mm-shell",
-                            "shortName": "OFZ ",
+                            "shortName": "OFZ",
                             "width": 1,
                             "height": 2,
                             "types": [
@@ -54817,7 +54817,7 @@
                         },
                         {
                             "id": "57838ad32459774a17445cd2",
-                            "name": "VSS “绞丝机” 特种狙击步枪 ",
+                            "name": "VSS “绞丝机” 特种狙击步枪",
                             "normalizedName": "vss-vintorez-9x39-special-sniper-rifle",
                             "shortName": "VSS",
                             "width": 2,
@@ -55193,7 +55193,7 @@
                         "Big Pipe",
                         "Birdeye",
                         "黑色军团 保镖",
-                        " 保镖",
+                        "保镖",
                         "感染者"
                     ],
                     "count": 5,
@@ -60608,7 +60608,7 @@
                                 "id": "5b363dd25acfc4001a598fd2",
                                 "name": "SilencerCo Osprey 12声音抑制器",
                                 "normalizedName": "silencerco-salvo-12-12ga-sound-suppressor",
-                                "shortName": " Salvo12",
+                                "shortName": "Salvo12",
                                 "width": 2,
                                 "height": 1,
                                 "types": [
@@ -60768,7 +60768,7 @@
                         "level": 4,
                         "item": {
                             "id": "5bffdd7e0db834001b734a1a",
-                            "name": "Miller Bros. Blades M-2 战术剑 ",
+                            "name": "Miller Bros. Blades M-2 战术剑",
                             "normalizedName": "miller-bros-blades-m-2-tactical-sword",
                             "shortName": "M-2",
                             "width": 1,
@@ -62636,7 +62636,7 @@
                         [
                             {
                                 "id": "5f60cd6cf2bcbb675b00dac6",
-                                "name": " Walker's XCEL 500BT 数字耳机",
+                                "name": "Walker's XCEL 500BT 数字耳机",
                                 "normalizedName": "walkers-xcel-500bt-digital-headset",
                                 "shortName": "XCEL",
                                 "width": 2,
@@ -74114,7 +74114,7 @@
                             "id": "5b44c8ea86f7742d1627baf1",
                             "name": "Blackhawk! Commando胸挂（Desert Tan）",
                             "normalizedName": "blackhawk-commando-chest-harness-desert-tan",
-                            "shortName": "Commando ",
+                            "shortName": "Commando",
                             "width": 4,
                             "height": 3,
                             "types": [
@@ -75210,7 +75210,7 @@
                     {
                         "item": {
                             "id": "5f60cd6cf2bcbb675b00dac6",
-                            "name": " Walker's XCEL 500BT 数字耳机",
+                            "name": "Walker's XCEL 500BT 数字耳机",
                             "normalizedName": "walkers-xcel-500bt-digital-headset",
                             "shortName": "XCEL",
                             "width": 2,
@@ -97068,7 +97068,7 @@
                     {
                         "item": {
                             "id": "5f60cd6cf2bcbb675b00dac6",
-                            "name": " Walker's XCEL 500BT 数字耳机",
+                            "name": "Walker's XCEL 500BT 数字耳机",
                             "normalizedName": "walkers-xcel-500bt-digital-headset",
                             "shortName": "XCEL",
                             "width": 2,
@@ -98433,7 +98433,7 @@
                     {
                         "item": {
                             "id": "5f60cd6cf2bcbb675b00dac6",
-                            "name": " Walker's XCEL 500BT 数字耳机",
+                            "name": "Walker's XCEL 500BT 数字耳机",
                             "normalizedName": "walkers-xcel-500bt-digital-headset",
                             "shortName": "XCEL",
                             "width": 2,
@@ -99638,7 +99638,7 @@
                     {
                         "item": {
                             "id": "5f60cd6cf2bcbb675b00dac6",
-                            "name": " Walker's XCEL 500BT 数字耳机",
+                            "name": "Walker's XCEL 500BT 数字耳机",
                             "normalizedName": "walkers-xcel-500bt-digital-headset",
                             "shortName": "XCEL",
                             "width": 2,
@@ -105831,7 +105831,7 @@
                         },
                         {
                             "id": "5e71f6be86f77429f2683c44",
-                            "name": " Twitch Rivals 2020 面罩",
+                            "name": "Twitch Rivals 2020 面罩",
                             "normalizedName": "twitch-rivals-2020-mask",
                             "shortName": "Rivals",
                             "width": 1,
@@ -107433,7 +107433,7 @@
                         },
                         {
                             "id": "5f60cd6cf2bcbb675b00dac6",
-                            "name": " Walker's XCEL 500BT 数字耳机",
+                            "name": "Walker's XCEL 500BT 数字耳机",
                             "normalizedName": "walkers-xcel-500bt-digital-headset",
                             "shortName": "XCEL",
                             "width": 2,
@@ -109849,7 +109849,7 @@
                     "items": [
                         {
                             "id": "5c052fb986f7746b2101e909",
-                            "name": "UHF RFID固定式读取器 ",
+                            "name": "UHF RFID固定式读取器",
                             "normalizedName": "uhf-rfid-reader",
                             "shortName": "RFIDR",
                             "width": 1,
@@ -109879,7 +109879,7 @@
                     "items": [
                         {
                             "id": "5c052fb986f7746b2101e909",
-                            "name": "UHF RFID固定式读取器 ",
+                            "name": "UHF RFID固定式读取器",
                             "normalizedName": "uhf-rfid-reader",
                             "shortName": "RFIDR",
                             "width": 1,
@@ -111247,7 +111247,7 @@
                     "__typename": "TaskObjectiveItem",
                     "id": "5d271a3486f774483c7bdb12",
                     "type": "giveItem",
-                    "description": "上交Killa的头盔 ",
+                    "description": "上交Killa的头盔",
                     "maps": [],
                     "optional": false,
                     "items": [
@@ -119607,7 +119607,7 @@
                     "items": [
                         {
                             "id": "5c052fb986f7746b2101e909",
-                            "name": "UHF RFID固定式读取器 ",
+                            "name": "UHF RFID固定式读取器",
                             "normalizedName": "uhf-rfid-reader",
                             "shortName": "RFIDR",
                             "width": 1,
@@ -119757,7 +119757,7 @@
                     "items": [
                         {
                             "id": "5c052fb986f7746b2101e909",
-                            "name": "UHF RFID固定式读取器 ",
+                            "name": "UHF RFID固定式读取器",
                             "normalizedName": "uhf-rfid-reader",
                             "shortName": "RFIDR",
                             "width": 1,
@@ -132667,7 +132667,7 @@
                             {
                                 "item": {
                                     "id": "5c052fb986f7746b2101e909",
-                                    "name": "UHF RFID固定式读取器 ",
+                                    "name": "UHF RFID固定式读取器",
                                     "normalizedName": "uhf-rfid-reader",
                                     "shortName": "RFIDR",
                                     "width": 1,
@@ -144297,8 +144297,8 @@
                         "Glukhar Guard (Security)",
                         "Glukhar 保镖 (Snipe)",
                         "Shturman Guard",
-                        " 保镖 (Assault)",
-                        " 保镖 (Security)",
+                        "保镖 (Assault)",
+                        "保镖 (Security)",
                         "Sanitar Guard",
                         "Kaban Guard (Sniper)"
                     ],
@@ -150982,7 +150982,7 @@
                     {
                         "item": {
                             "id": "5c052fb986f7746b2101e909",
-                            "name": "UHF RFID固定式读取器 ",
+                            "name": "UHF RFID固定式读取器",
                             "normalizedName": "uhf-rfid-reader",
                             "shortName": "RFIDR",
                             "width": 1,
@@ -151435,7 +151435,7 @@
                         },
                         {
                             "id": "5bffdd7e0db834001b734a1a",
-                            "name": "Miller Bros. Blades M-2 战术剑 ",
+                            "name": "Miller Bros. Blades M-2 战术剑",
                             "normalizedName": "miller-bros-blades-m-2-tactical-sword",
                             "shortName": "M-2",
                             "width": 1,
@@ -151927,7 +151927,7 @@
                             "id": "5e2aee0a86f774755a234b62",
                             "name": "Cyclon 蓄电池组",
                             "normalizedName": "cyclon-rechargeable-battery",
-                            "shortName": "Cyclon ",
+                            "shortName": "Cyclon",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -151940,7 +151940,7 @@
                             "id": "5e2aedd986f7746d404f3aa4",
                             "name": "GreenBat锂电池",
                             "normalizedName": "greenbat-lithium-battery",
-                            "shortName": "GreenBat ",
+                            "shortName": "GreenBat",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -152319,7 +152319,7 @@
                         },
                         {
                             "id": "5c052fb986f7746b2101e909",
-                            "name": "UHF RFID固定式读取器 ",
+                            "name": "UHF RFID固定式读取器",
                             "normalizedName": "uhf-rfid-reader",
                             "shortName": "RFIDR",
                             "width": 1,
@@ -154257,7 +154257,7 @@
                             "id": "5d0379a886f77420407aa271",
                             "name": "OFZ 30x165毫米炮弹",
                             "normalizedName": "ofz-30x165mm-shell",
-                            "shortName": "OFZ ",
+                            "shortName": "OFZ",
                             "width": 1,
                             "height": 2,
                             "types": [
@@ -158051,7 +158051,7 @@
                             "id": "5a0f045e86f7745b0f0d0e42",
                             "name": "加油站保险箱钥匙",
                             "normalizedName": "gas-station-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -158064,7 +158064,7 @@
                             "id": "5a0f068686f7745b0d4ea242",
                             "name": "别墅保险箱钥匙",
                             "normalizedName": "cottage-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -158090,7 +158090,7 @@
                             "id": "5a0f08bc86f77478f33b84c2",
                             "name": "疗养院经理办公室保险箱钥匙",
                             "normalizedName": "health-resort-management-office-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -158103,7 +158103,7 @@
                             "id": "5a0f075686f7745bcc42ee12",
                             "name": "商店保险箱钥匙",
                             "normalizedName": "store-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -158244,7 +158244,7 @@
                         },
                         {
                             "id": "5c1d0dc586f7744baf2e7b79",
-                            "name": "实验室钥匙卡·绿 ",
+                            "name": "实验室钥匙卡·绿",
                             "normalizedName": "terragroup-labs-keycard-green",
                             "shortName": "绿卡",
                             "width": 1,
@@ -158283,7 +158283,7 @@
                         },
                         {
                             "id": "5c1d0d6d86f7744bb2683e1f",
-                            "name": "实验室钥匙卡·黄 ",
+                            "name": "实验室钥匙卡·黄",
                             "normalizedName": "terragroup-labs-keycard-yellow",
                             "shortName": "黄卡",
                             "width": 1,
@@ -158296,7 +158296,7 @@
                         },
                         {
                             "id": "6711039f9e648049e50b3307",
-                            "name": "TerraGroup 实验室生活区钥匙卡 ",
+                            "name": "TerraGroup 实验室生活区钥匙卡",
                             "normalizedName": "terragroup-labs-residential-unit-keycard",
                             "shortName": "生活区",
                             "width": 1,
@@ -161873,7 +161873,7 @@
                             "id": "5b3f3ade86f7746b6b790d8e",
                             "name": "臂带（红）",
                             "normalizedName": "armband-red",
-                            "shortName": "臂带 ",
+                            "shortName": "臂带",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -161899,7 +161899,7 @@
                             "id": "5b3f16c486f7747c327f55f7",
                             "name": "臂带（白）",
                             "normalizedName": "armband-white",
-                            "shortName": "臂带 ",
+                            "shortName": "臂带",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -161912,7 +161912,7 @@
                             "id": "5b3f3b0e86f7746752107cda",
                             "name": "臂带（黄）",
                             "normalizedName": "armband-yellow",
-                            "shortName": "臂带 ",
+                            "shortName": "臂带",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -162682,7 +162682,7 @@
                         },
                         {
                             "id": "5f60cd6cf2bcbb675b00dac6",
-                            "name": " Walker's XCEL 500BT 数字耳机",
+                            "name": "Walker's XCEL 500BT 数字耳机",
                             "normalizedName": "walkers-xcel-500bt-digital-headset",
                             "shortName": "XCEL",
                             "width": 2,
@@ -164692,7 +164692,7 @@
                             "id": "5b44c8ea86f7742d1627baf1",
                             "name": "Blackhawk! Commando胸挂（Desert Tan）",
                             "normalizedName": "blackhawk-commando-chest-harness-desert-tan",
-                            "shortName": "Commando ",
+                            "shortName": "Commando",
                             "width": 4,
                             "height": 3,
                             "types": [
@@ -166172,7 +166172,7 @@
                         },
                         {
                             "id": "57838ad32459774a17445cd2",
-                            "name": "VSS “绞丝机” 特种狙击步枪 ",
+                            "name": "VSS “绞丝机” 特种狙击步枪",
                             "normalizedName": "vss-vintorez-9x39-special-sniper-rifle",
                             "shortName": "VSS",
                             "width": 2,
@@ -168529,7 +168529,7 @@
                         },
                         {
                             "id": "5e71f6be86f77429f2683c44",
-                            "name": " Twitch Rivals 2020 面罩",
+                            "name": "Twitch Rivals 2020 面罩",
                             "normalizedName": "twitch-rivals-2020-mask",
                             "shortName": "Rivals",
                             "width": 1,
@@ -169333,7 +169333,7 @@
                         },
                         {
                             "id": "6040de02647ad86262233012",
-                            "name": "CADPAT军帽 ",
+                            "name": "CADPAT军帽",
                             "normalizedName": "army-cap-cadpat",
                             "shortName": "帽子",
                             "width": 1,
@@ -172238,7 +172238,7 @@
                         },
                         {
                             "id": "55d44fd14bdc2d962f8b456e",
-                            "name": " 柯尔特AR-15拉机柄",
+                            "name": "柯尔特AR-15拉机柄",
                             "normalizedName": "ar-15-colt-charging-handle",
                             "shortName": "AR-15",
                             "width": 1,
@@ -175405,7 +175405,7 @@
                             "id": "5b2389515acfc4771e1be0c0",
                             "name": "Burris AR- P.E.P.R. 30毫米环形基座",
                             "normalizedName": "burris-ar-pepr-30mm-ring-scope-mount",
-                            "shortName": "AR- P.E.P.R. ",
+                            "shortName": "AR- P.E.P.R.",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -176029,7 +176029,7 @@
                             "id": "5e569a2e56edd02abe09f280",
                             "name": "CAA XD RGL SVD机匣基座",
                             "normalizedName": "svd-caa-xd-rgl-receiver-mount",
-                            "shortName": " XD RGL",
+                            "shortName": "XD RGL",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -176339,7 +176339,7 @@
                         },
                         {
                             "id": "5a7ad55551dfba0015068f42",
-                            "name": "Aimtech Tiger Shark基座 ",
+                            "name": "Aimtech Tiger Shark基座",
                             "normalizedName": "glock-aimtech-tiger-shark-sight-mount",
                             "shortName": "G Ti Sh",
                             "width": 1,
@@ -176625,7 +176625,7 @@
                         },
                         {
                             "id": "628120c21d5df4475f46a337",
-                            "name": "AI AXMC AT X顶部导轨 ",
+                            "name": "AI AXMC AT X顶部导轨",
                             "normalizedName": "ai-axmc-at-x-top-rail",
                             "shortName": "AXMC顶轨",
                             "width": 3,
@@ -176718,7 +176718,7 @@
                             "id": "5addbfef5acfc400185c2857",
                             "name": "M14 UTG 4点锁定式高级基座",
                             "normalizedName": "m14-leapers-utg-4-point-locking-deluxe-mount",
-                            "shortName": "UTG4 ",
+                            "shortName": "UTG4",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -178159,7 +178159,7 @@
                         },
                         {
                             "id": "5a16b8a9fcdbcb00165aa6ca",
-                            "name": "Norotos钛合金高级战术支架 ",
+                            "name": "Norotos钛合金高级战术支架",
                             "normalizedName": "norotos-titanium-advanced-tactical-mount",
                             "shortName": "TATM",
                             "width": 1,
@@ -179566,7 +179566,7 @@
                         },
                         {
                             "id": "6410745d5dd49d77bd078485",
-                            "name": "AVT-40木制枪托 ",
+                            "name": "AVT-40木制枪托",
                             "normalizedName": "avt-40-wooden-stock",
                             "shortName": "AVT木托",
                             "width": 4,
@@ -179997,7 +179997,7 @@
                             "id": "5cdeac42d7f00c000d36ba73",
                             "name": "M700 Magpul Pro 700折叠枪托",
                             "normalizedName": "m700-magpul-pro-700-folding-stock",
-                            "shortName": "Pro700枪托 ",
+                            "shortName": "Pro700枪托",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -184234,7 +184234,7 @@
                         },
                         {
                             "id": "5f6336bbda967c74a42e9932",
-                            "name": "Lancer LCH-7 12.5英寸 AR-10 M-LOK护木 ",
+                            "name": "Lancer LCH-7 12.5英寸 AR-10 M-LOK护木",
                             "normalizedName": "ar-10-lancer-lch7-125-inch-m-lok-handguard",
                             "shortName": "LCH-7 12.5",
                             "width": 3,
@@ -188332,7 +188332,7 @@
                         },
                         {
                             "id": "5894a5b586f77426d2590767",
-                            "name": "SIG MPX一代上机匣 ",
+                            "name": "SIG MPX一代上机匣",
                             "normalizedName": "mpx-gen1-9x19-upper-receiver",
                             "shortName": "MPX GEN1",
                             "width": 2,
@@ -188540,7 +188540,7 @@
                         },
                         {
                             "id": "57616c112459773cce774d66",
-                            "name": "SOK-12 防尘盖 ",
+                            "name": "SOK-12 防尘盖",
                             "normalizedName": "sok-12-dust-cover",
                             "shortName": "Sb.0-2",
                             "width": 2,
@@ -189086,7 +189086,7 @@
                         },
                         {
                             "id": "62812081d23f207deb0ab216",
-                            "name": "AI .338 LM战术型枪口制退器 ",
+                            "name": "AI .338 LM战术型枪口制退器",
                             "normalizedName": "ai-338-lm-tactical-muzzle-brake",
                             "shortName": "TMB 338LM",
                             "width": 1,
@@ -190635,7 +190635,7 @@
                             "id": "5c0111ab0db834001966914d",
                             "name": "ME Cylinder 12铅径膛口转接器",
                             "normalizedName": "me-cylinder-12ga-muzzle-adapter",
-                            "shortName": "Cylinder ",
+                            "shortName": "Cylinder",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -191631,7 +191631,7 @@
                         },
                         {
                             "id": "5a34fe59c4a282000b1521a2",
-                            "name": "AAC 762 SDN-6 7.62x51声音抑制器 ",
+                            "name": "AAC 762 SDN-6 7.62x51声音抑制器",
                             "normalizedName": "aac-762-sdn-6-multi-caliber-sound-suppressor",
                             "shortName": "SDN-6",
                             "width": 2,
@@ -191715,7 +191715,7 @@
                         },
                         {
                             "id": "5c7955c22e221644f31bfd5e",
-                            "name": "Gemtech ONE 7.62x51声音抑制器 ",
+                            "name": "Gemtech ONE 7.62x51声音抑制器",
                             "normalizedName": "gemtech-one-multi-caliber-sound-suppressor",
                             "shortName": "Gemtech ONE",
                             "width": 2,
@@ -191773,7 +191773,7 @@
                             "id": "5b363dd25acfc4001a598fd2",
                             "name": "SilencerCo Osprey 12声音抑制器",
                             "normalizedName": "silencerco-salvo-12-12ga-sound-suppressor",
-                            "shortName": " Salvo12",
+                            "shortName": "Salvo12",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -192163,7 +192163,7 @@
                         },
                         {
                             "id": "5d44064fa4b9361e4f6eb8b5",
-                            "name": "Thunder Beast Ultra 5声音抑制器 ",
+                            "name": "Thunder Beast Ultra 5声音抑制器",
                             "normalizedName": "thunder-beast-arms-ultra-5-sound-suppressor",
                             "shortName": "Ultra 5",
                             "width": 2,
@@ -193302,7 +193302,7 @@
                         },
                         {
                             "id": "5addba3e5acfc4001669f0ab",
-                            "name": " SA National Match .062 M1A刃形准星",
+                            "name": "SA National Match .062 M1A刃形准星",
                             "normalizedName": "m1a-sa-national-match-062-blade-front-sight",
                             "shortName": ".062刃形",
                             "width": 1,
@@ -193315,9 +193315,9 @@
                         },
                         {
                             "id": "5aafa49ae5b5b00015042a58",
-                            "name": " SA XS Post .125 blade M1A准星",
+                            "name": "SA XS Post .125 blade M1A准星",
                             "normalizedName": "m1a-sa-xs-post-125-blade-front-sight",
-                            "shortName": " .125 blade",
+                            "shortName": ".125 blade",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -193718,7 +193718,7 @@
                         },
                         {
                             "id": "5caf1691ae92152ac412efb9",
-                            "name": " ASh-12提把式照门",
+                            "name": "ASh-12提把式照门",
                             "normalizedName": "ash-12-rear-sight-carry-handle",
                             "shortName": "ASh-12提把",
                             "width": 1,
@@ -193926,7 +193926,7 @@
                         },
                         {
                             "id": "5ae30bad5acfc400185c2dc4",
-                            "name": " AR-15提把式照门",
+                            "name": "AR-15提把式照门",
                             "normalizedName": "ar-15-rear-sight-carry-handle",
                             "shortName": "提把",
                             "width": 1,
@@ -194043,7 +194043,7 @@
                         },
                         {
                             "id": "5abcbb20d8ce87001773e258",
-                            "name": "M14军用觇孔式照门 ",
+                            "name": "M14军用觇孔式照门",
                             "normalizedName": "m14-sa-enlarged-military-aperture-rear-sight",
                             "shortName": "M14 135",
                             "width": 1,
@@ -195993,7 +195993,7 @@
                         },
                         {
                             "id": "5bffdd7e0db834001b734a1a",
-                            "name": "Miller Bros. Blades M-2 战术剑 ",
+                            "name": "Miller Bros. Blades M-2 战术剑",
                             "normalizedName": "miller-bros-blades-m-2-tactical-sword",
                             "shortName": "M-2",
                             "width": 1,
@@ -196485,7 +196485,7 @@
                             "id": "5e2aee0a86f774755a234b62",
                             "name": "Cyclon 蓄电池组",
                             "normalizedName": "cyclon-rechargeable-battery",
-                            "shortName": "Cyclon ",
+                            "shortName": "Cyclon",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -196498,7 +196498,7 @@
                             "id": "5e2aedd986f7746d404f3aa4",
                             "name": "GreenBat锂电池",
                             "normalizedName": "greenbat-lithium-battery",
-                            "shortName": "GreenBat ",
+                            "shortName": "GreenBat",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -196877,7 +196877,7 @@
                         },
                         {
                             "id": "5c052fb986f7746b2101e909",
-                            "name": "UHF RFID固定式读取器 ",
+                            "name": "UHF RFID固定式读取器",
                             "normalizedName": "uhf-rfid-reader",
                             "shortName": "RFIDR",
                             "width": 1,
@@ -198815,7 +198815,7 @@
                             "id": "5d0379a886f77420407aa271",
                             "name": "OFZ 30x165毫米炮弹",
                             "normalizedName": "ofz-30x165mm-shell",
-                            "shortName": "OFZ ",
+                            "shortName": "OFZ",
                             "width": 1,
                             "height": 2,
                             "types": [
@@ -202609,7 +202609,7 @@
                             "id": "5a0f045e86f7745b0f0d0e42",
                             "name": "加油站保险箱钥匙",
                             "normalizedName": "gas-station-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -202622,7 +202622,7 @@
                             "id": "5a0f068686f7745b0d4ea242",
                             "name": "别墅保险箱钥匙",
                             "normalizedName": "cottage-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -202648,7 +202648,7 @@
                             "id": "5a0f08bc86f77478f33b84c2",
                             "name": "疗养院经理办公室保险箱钥匙",
                             "normalizedName": "health-resort-management-office-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -202661,7 +202661,7 @@
                             "id": "5a0f075686f7745bcc42ee12",
                             "name": "商店保险箱钥匙",
                             "normalizedName": "store-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -202802,7 +202802,7 @@
                         },
                         {
                             "id": "5c1d0dc586f7744baf2e7b79",
-                            "name": "实验室钥匙卡·绿 ",
+                            "name": "实验室钥匙卡·绿",
                             "normalizedName": "terragroup-labs-keycard-green",
                             "shortName": "绿卡",
                             "width": 1,
@@ -202841,7 +202841,7 @@
                         },
                         {
                             "id": "5c1d0d6d86f7744bb2683e1f",
-                            "name": "实验室钥匙卡·黄 ",
+                            "name": "实验室钥匙卡·黄",
                             "normalizedName": "terragroup-labs-keycard-yellow",
                             "shortName": "黄卡",
                             "width": 1,
@@ -202854,7 +202854,7 @@
                         },
                         {
                             "id": "6711039f9e648049e50b3307",
-                            "name": "TerraGroup 实验室生活区钥匙卡 ",
+                            "name": "TerraGroup 实验室生活区钥匙卡",
                             "normalizedName": "terragroup-labs-residential-unit-keycard",
                             "shortName": "生活区",
                             "width": 1,
@@ -206431,7 +206431,7 @@
                             "id": "5b3f3ade86f7746b6b790d8e",
                             "name": "臂带（红）",
                             "normalizedName": "armband-red",
-                            "shortName": "臂带 ",
+                            "shortName": "臂带",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -206457,7 +206457,7 @@
                             "id": "5b3f16c486f7747c327f55f7",
                             "name": "臂带（白）",
                             "normalizedName": "armband-white",
-                            "shortName": "臂带 ",
+                            "shortName": "臂带",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -206470,7 +206470,7 @@
                             "id": "5b3f3b0e86f7746752107cda",
                             "name": "臂带（黄）",
                             "normalizedName": "armband-yellow",
-                            "shortName": "臂带 ",
+                            "shortName": "臂带",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -207240,7 +207240,7 @@
                         },
                         {
                             "id": "5f60cd6cf2bcbb675b00dac6",
-                            "name": " Walker's XCEL 500BT 数字耳机",
+                            "name": "Walker's XCEL 500BT 数字耳机",
                             "normalizedName": "walkers-xcel-500bt-digital-headset",
                             "shortName": "XCEL",
                             "width": 2,
@@ -209250,7 +209250,7 @@
                             "id": "5b44c8ea86f7742d1627baf1",
                             "name": "Blackhawk! Commando胸挂（Desert Tan）",
                             "normalizedName": "blackhawk-commando-chest-harness-desert-tan",
-                            "shortName": "Commando ",
+                            "shortName": "Commando",
                             "width": 4,
                             "height": 3,
                             "types": [
@@ -210730,7 +210730,7 @@
                         },
                         {
                             "id": "57838ad32459774a17445cd2",
-                            "name": "VSS “绞丝机” 特种狙击步枪 ",
+                            "name": "VSS “绞丝机” 特种狙击步枪",
                             "normalizedName": "vss-vintorez-9x39-special-sniper-rifle",
                             "shortName": "VSS",
                             "width": 2,
@@ -213087,7 +213087,7 @@
                         },
                         {
                             "id": "5e71f6be86f77429f2683c44",
-                            "name": " Twitch Rivals 2020 面罩",
+                            "name": "Twitch Rivals 2020 面罩",
                             "normalizedName": "twitch-rivals-2020-mask",
                             "shortName": "Rivals",
                             "width": 1,
@@ -213891,7 +213891,7 @@
                         },
                         {
                             "id": "6040de02647ad86262233012",
-                            "name": "CADPAT军帽 ",
+                            "name": "CADPAT军帽",
                             "normalizedName": "army-cap-cadpat",
                             "shortName": "帽子",
                             "width": 1,
@@ -216796,7 +216796,7 @@
                         },
                         {
                             "id": "55d44fd14bdc2d962f8b456e",
-                            "name": " 柯尔特AR-15拉机柄",
+                            "name": "柯尔特AR-15拉机柄",
                             "normalizedName": "ar-15-colt-charging-handle",
                             "shortName": "AR-15",
                             "width": 1,
@@ -219963,7 +219963,7 @@
                             "id": "5b2389515acfc4771e1be0c0",
                             "name": "Burris AR- P.E.P.R. 30毫米环形基座",
                             "normalizedName": "burris-ar-pepr-30mm-ring-scope-mount",
-                            "shortName": "AR- P.E.P.R. ",
+                            "shortName": "AR- P.E.P.R.",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -220587,7 +220587,7 @@
                             "id": "5e569a2e56edd02abe09f280",
                             "name": "CAA XD RGL SVD机匣基座",
                             "normalizedName": "svd-caa-xd-rgl-receiver-mount",
-                            "shortName": " XD RGL",
+                            "shortName": "XD RGL",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -220897,7 +220897,7 @@
                         },
                         {
                             "id": "5a7ad55551dfba0015068f42",
-                            "name": "Aimtech Tiger Shark基座 ",
+                            "name": "Aimtech Tiger Shark基座",
                             "normalizedName": "glock-aimtech-tiger-shark-sight-mount",
                             "shortName": "G Ti Sh",
                             "width": 1,
@@ -221183,7 +221183,7 @@
                         },
                         {
                             "id": "628120c21d5df4475f46a337",
-                            "name": "AI AXMC AT X顶部导轨 ",
+                            "name": "AI AXMC AT X顶部导轨",
                             "normalizedName": "ai-axmc-at-x-top-rail",
                             "shortName": "AXMC顶轨",
                             "width": 3,
@@ -221276,7 +221276,7 @@
                             "id": "5addbfef5acfc400185c2857",
                             "name": "M14 UTG 4点锁定式高级基座",
                             "normalizedName": "m14-leapers-utg-4-point-locking-deluxe-mount",
-                            "shortName": "UTG4 ",
+                            "shortName": "UTG4",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -222717,7 +222717,7 @@
                         },
                         {
                             "id": "5a16b8a9fcdbcb00165aa6ca",
-                            "name": "Norotos钛合金高级战术支架 ",
+                            "name": "Norotos钛合金高级战术支架",
                             "normalizedName": "norotos-titanium-advanced-tactical-mount",
                             "shortName": "TATM",
                             "width": 1,
@@ -224124,7 +224124,7 @@
                         },
                         {
                             "id": "6410745d5dd49d77bd078485",
-                            "name": "AVT-40木制枪托 ",
+                            "name": "AVT-40木制枪托",
                             "normalizedName": "avt-40-wooden-stock",
                             "shortName": "AVT木托",
                             "width": 4,
@@ -224555,7 +224555,7 @@
                             "id": "5cdeac42d7f00c000d36ba73",
                             "name": "M700 Magpul Pro 700折叠枪托",
                             "normalizedName": "m700-magpul-pro-700-folding-stock",
-                            "shortName": "Pro700枪托 ",
+                            "shortName": "Pro700枪托",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -228792,7 +228792,7 @@
                         },
                         {
                             "id": "5f6336bbda967c74a42e9932",
-                            "name": "Lancer LCH-7 12.5英寸 AR-10 M-LOK护木 ",
+                            "name": "Lancer LCH-7 12.5英寸 AR-10 M-LOK护木",
                             "normalizedName": "ar-10-lancer-lch7-125-inch-m-lok-handguard",
                             "shortName": "LCH-7 12.5",
                             "width": 3,
@@ -232890,7 +232890,7 @@
                         },
                         {
                             "id": "5894a5b586f77426d2590767",
-                            "name": "SIG MPX一代上机匣 ",
+                            "name": "SIG MPX一代上机匣",
                             "normalizedName": "mpx-gen1-9x19-upper-receiver",
                             "shortName": "MPX GEN1",
                             "width": 2,
@@ -233098,7 +233098,7 @@
                         },
                         {
                             "id": "57616c112459773cce774d66",
-                            "name": "SOK-12 防尘盖 ",
+                            "name": "SOK-12 防尘盖",
                             "normalizedName": "sok-12-dust-cover",
                             "shortName": "Sb.0-2",
                             "width": 2,
@@ -233644,7 +233644,7 @@
                         },
                         {
                             "id": "62812081d23f207deb0ab216",
-                            "name": "AI .338 LM战术型枪口制退器 ",
+                            "name": "AI .338 LM战术型枪口制退器",
                             "normalizedName": "ai-338-lm-tactical-muzzle-brake",
                             "shortName": "TMB 338LM",
                             "width": 1,
@@ -235193,7 +235193,7 @@
                             "id": "5c0111ab0db834001966914d",
                             "name": "ME Cylinder 12铅径膛口转接器",
                             "normalizedName": "me-cylinder-12ga-muzzle-adapter",
-                            "shortName": "Cylinder ",
+                            "shortName": "Cylinder",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -236189,7 +236189,7 @@
                         },
                         {
                             "id": "5a34fe59c4a282000b1521a2",
-                            "name": "AAC 762 SDN-6 7.62x51声音抑制器 ",
+                            "name": "AAC 762 SDN-6 7.62x51声音抑制器",
                             "normalizedName": "aac-762-sdn-6-multi-caliber-sound-suppressor",
                             "shortName": "SDN-6",
                             "width": 2,
@@ -236273,7 +236273,7 @@
                         },
                         {
                             "id": "5c7955c22e221644f31bfd5e",
-                            "name": "Gemtech ONE 7.62x51声音抑制器 ",
+                            "name": "Gemtech ONE 7.62x51声音抑制器",
                             "normalizedName": "gemtech-one-multi-caliber-sound-suppressor",
                             "shortName": "Gemtech ONE",
                             "width": 2,
@@ -236331,7 +236331,7 @@
                             "id": "5b363dd25acfc4001a598fd2",
                             "name": "SilencerCo Osprey 12声音抑制器",
                             "normalizedName": "silencerco-salvo-12-12ga-sound-suppressor",
-                            "shortName": " Salvo12",
+                            "shortName": "Salvo12",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -236721,7 +236721,7 @@
                         },
                         {
                             "id": "5d44064fa4b9361e4f6eb8b5",
-                            "name": "Thunder Beast Ultra 5声音抑制器 ",
+                            "name": "Thunder Beast Ultra 5声音抑制器",
                             "normalizedName": "thunder-beast-arms-ultra-5-sound-suppressor",
                             "shortName": "Ultra 5",
                             "width": 2,
@@ -237860,7 +237860,7 @@
                         },
                         {
                             "id": "5addba3e5acfc4001669f0ab",
-                            "name": " SA National Match .062 M1A刃形准星",
+                            "name": "SA National Match .062 M1A刃形准星",
                             "normalizedName": "m1a-sa-national-match-062-blade-front-sight",
                             "shortName": ".062刃形",
                             "width": 1,
@@ -237873,9 +237873,9 @@
                         },
                         {
                             "id": "5aafa49ae5b5b00015042a58",
-                            "name": " SA XS Post .125 blade M1A准星",
+                            "name": "SA XS Post .125 blade M1A准星",
                             "normalizedName": "m1a-sa-xs-post-125-blade-front-sight",
-                            "shortName": " .125 blade",
+                            "shortName": ".125 blade",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -238276,7 +238276,7 @@
                         },
                         {
                             "id": "5caf1691ae92152ac412efb9",
-                            "name": " ASh-12提把式照门",
+                            "name": "ASh-12提把式照门",
                             "normalizedName": "ash-12-rear-sight-carry-handle",
                             "shortName": "ASh-12提把",
                             "width": 1,
@@ -238484,7 +238484,7 @@
                         },
                         {
                             "id": "5ae30bad5acfc400185c2dc4",
-                            "name": " AR-15提把式照门",
+                            "name": "AR-15提把式照门",
                             "normalizedName": "ar-15-rear-sight-carry-handle",
                             "shortName": "提把",
                             "width": 1,
@@ -238601,7 +238601,7 @@
                         },
                         {
                             "id": "5abcbb20d8ce87001773e258",
-                            "name": "M14军用觇孔式照门 ",
+                            "name": "M14军用觇孔式照门",
                             "normalizedName": "m14-sa-enlarged-military-aperture-rear-sight",
                             "shortName": "M14 135",
                             "width": 1,
@@ -239951,7 +239951,7 @@
                         },
                         {
                             "id": "5bffdd7e0db834001b734a1a",
-                            "name": "Miller Bros. Blades M-2 战术剑 ",
+                            "name": "Miller Bros. Blades M-2 战术剑",
                             "normalizedName": "miller-bros-blades-m-2-tactical-sword",
                             "shortName": "M-2",
                             "width": 1,
@@ -240443,7 +240443,7 @@
                             "id": "5e2aee0a86f774755a234b62",
                             "name": "Cyclon 蓄电池组",
                             "normalizedName": "cyclon-rechargeable-battery",
-                            "shortName": "Cyclon ",
+                            "shortName": "Cyclon",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -240456,7 +240456,7 @@
                             "id": "5e2aedd986f7746d404f3aa4",
                             "name": "GreenBat锂电池",
                             "normalizedName": "greenbat-lithium-battery",
-                            "shortName": "GreenBat ",
+                            "shortName": "GreenBat",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -240835,7 +240835,7 @@
                         },
                         {
                             "id": "5c052fb986f7746b2101e909",
-                            "name": "UHF RFID固定式读取器 ",
+                            "name": "UHF RFID固定式读取器",
                             "normalizedName": "uhf-rfid-reader",
                             "shortName": "RFIDR",
                             "width": 1,
@@ -242773,7 +242773,7 @@
                             "id": "5d0379a886f77420407aa271",
                             "name": "OFZ 30x165毫米炮弹",
                             "normalizedName": "ofz-30x165mm-shell",
-                            "shortName": "OFZ ",
+                            "shortName": "OFZ",
                             "width": 1,
                             "height": 2,
                             "types": [
@@ -246567,7 +246567,7 @@
                             "id": "5a0f045e86f7745b0f0d0e42",
                             "name": "加油站保险箱钥匙",
                             "normalizedName": "gas-station-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -246580,7 +246580,7 @@
                             "id": "5a0f068686f7745b0d4ea242",
                             "name": "别墅保险箱钥匙",
                             "normalizedName": "cottage-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -246606,7 +246606,7 @@
                             "id": "5a0f08bc86f77478f33b84c2",
                             "name": "疗养院经理办公室保险箱钥匙",
                             "normalizedName": "health-resort-management-office-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -246619,7 +246619,7 @@
                             "id": "5a0f075686f7745bcc42ee12",
                             "name": "商店保险箱钥匙",
                             "normalizedName": "store-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -246760,7 +246760,7 @@
                         },
                         {
                             "id": "5c1d0dc586f7744baf2e7b79",
-                            "name": "实验室钥匙卡·绿 ",
+                            "name": "实验室钥匙卡·绿",
                             "normalizedName": "terragroup-labs-keycard-green",
                             "shortName": "绿卡",
                             "width": 1,
@@ -246799,7 +246799,7 @@
                         },
                         {
                             "id": "5c1d0d6d86f7744bb2683e1f",
-                            "name": "实验室钥匙卡·黄 ",
+                            "name": "实验室钥匙卡·黄",
                             "normalizedName": "terragroup-labs-keycard-yellow",
                             "shortName": "黄卡",
                             "width": 1,
@@ -246812,7 +246812,7 @@
                         },
                         {
                             "id": "6711039f9e648049e50b3307",
-                            "name": "TerraGroup 实验室生活区钥匙卡 ",
+                            "name": "TerraGroup 实验室生活区钥匙卡",
                             "normalizedName": "terragroup-labs-residential-unit-keycard",
                             "shortName": "生活区",
                             "width": 1,
@@ -247959,7 +247959,7 @@
                         },
                         {
                             "id": "5d6e6869a4b9361c140bcfde",
-                            "name": "12/70 Grizzly 40独头弹 ",
+                            "name": "12/70 Grizzly 40独头弹",
                             "normalizedName": "1270-grizzly-40-slug",
                             "shortName": "Grizzly",
                             "width": 1,
@@ -248339,7 +248339,7 @@
                             "id": "5ede474b0c226a66f5402622",
                             "name": "40x46毫米 M381(HE)",
                             "normalizedName": "40x46mm-m381-he-grenade",
-                            "shortName": " M381",
+                            "shortName": "M381",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -252882,7 +252882,7 @@
                             "id": "5b3f3ade86f7746b6b790d8e",
                             "name": "臂带（红）",
                             "normalizedName": "armband-red",
-                            "shortName": "臂带 ",
+                            "shortName": "臂带",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -252908,7 +252908,7 @@
                             "id": "5b3f16c486f7747c327f55f7",
                             "name": "臂带（白）",
                             "normalizedName": "armband-white",
-                            "shortName": "臂带 ",
+                            "shortName": "臂带",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -252921,7 +252921,7 @@
                             "id": "5b3f3b0e86f7746752107cda",
                             "name": "臂带（黄）",
                             "normalizedName": "armband-yellow",
-                            "shortName": "臂带 ",
+                            "shortName": "臂带",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -253691,7 +253691,7 @@
                         },
                         {
                             "id": "5f60cd6cf2bcbb675b00dac6",
-                            "name": " Walker's XCEL 500BT 数字耳机",
+                            "name": "Walker's XCEL 500BT 数字耳机",
                             "normalizedName": "walkers-xcel-500bt-digital-headset",
                             "shortName": "XCEL",
                             "width": 2,
@@ -255701,7 +255701,7 @@
                             "id": "5b44c8ea86f7742d1627baf1",
                             "name": "Blackhawk! Commando胸挂（Desert Tan）",
                             "normalizedName": "blackhawk-commando-chest-harness-desert-tan",
-                            "shortName": "Commando ",
+                            "shortName": "Commando",
                             "width": 4,
                             "height": 3,
                             "types": [
@@ -257181,7 +257181,7 @@
                         },
                         {
                             "id": "57838ad32459774a17445cd2",
-                            "name": "VSS “绞丝机” 特种狙击步枪 ",
+                            "name": "VSS “绞丝机” 特种狙击步枪",
                             "normalizedName": "vss-vintorez-9x39-special-sniper-rifle",
                             "shortName": "VSS",
                             "width": 2,
@@ -259538,7 +259538,7 @@
                         },
                         {
                             "id": "5e71f6be86f77429f2683c44",
-                            "name": " Twitch Rivals 2020 面罩",
+                            "name": "Twitch Rivals 2020 面罩",
                             "normalizedName": "twitch-rivals-2020-mask",
                             "shortName": "Rivals",
                             "width": 1,
@@ -260342,7 +260342,7 @@
                         },
                         {
                             "id": "6040de02647ad86262233012",
-                            "name": "CADPAT军帽 ",
+                            "name": "CADPAT军帽",
                             "normalizedName": "army-cap-cadpat",
                             "shortName": "帽子",
                             "width": 1,
@@ -263247,7 +263247,7 @@
                         },
                         {
                             "id": "55d44fd14bdc2d962f8b456e",
-                            "name": " 柯尔特AR-15拉机柄",
+                            "name": "柯尔特AR-15拉机柄",
                             "normalizedName": "ar-15-colt-charging-handle",
                             "shortName": "AR-15",
                             "width": 1,
@@ -266414,7 +266414,7 @@
                             "id": "5b2389515acfc4771e1be0c0",
                             "name": "Burris AR- P.E.P.R. 30毫米环形基座",
                             "normalizedName": "burris-ar-pepr-30mm-ring-scope-mount",
-                            "shortName": "AR- P.E.P.R. ",
+                            "shortName": "AR- P.E.P.R.",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -267038,7 +267038,7 @@
                             "id": "5e569a2e56edd02abe09f280",
                             "name": "CAA XD RGL SVD机匣基座",
                             "normalizedName": "svd-caa-xd-rgl-receiver-mount",
-                            "shortName": " XD RGL",
+                            "shortName": "XD RGL",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -267348,7 +267348,7 @@
                         },
                         {
                             "id": "5a7ad55551dfba0015068f42",
-                            "name": "Aimtech Tiger Shark基座 ",
+                            "name": "Aimtech Tiger Shark基座",
                             "normalizedName": "glock-aimtech-tiger-shark-sight-mount",
                             "shortName": "G Ti Sh",
                             "width": 1,
@@ -267634,7 +267634,7 @@
                         },
                         {
                             "id": "628120c21d5df4475f46a337",
-                            "name": "AI AXMC AT X顶部导轨 ",
+                            "name": "AI AXMC AT X顶部导轨",
                             "normalizedName": "ai-axmc-at-x-top-rail",
                             "shortName": "AXMC顶轨",
                             "width": 3,
@@ -267727,7 +267727,7 @@
                             "id": "5addbfef5acfc400185c2857",
                             "name": "M14 UTG 4点锁定式高级基座",
                             "normalizedName": "m14-leapers-utg-4-point-locking-deluxe-mount",
-                            "shortName": "UTG4 ",
+                            "shortName": "UTG4",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -269168,7 +269168,7 @@
                         },
                         {
                             "id": "5a16b8a9fcdbcb00165aa6ca",
-                            "name": "Norotos钛合金高级战术支架 ",
+                            "name": "Norotos钛合金高级战术支架",
                             "normalizedName": "norotos-titanium-advanced-tactical-mount",
                             "shortName": "TATM",
                             "width": 1,
@@ -270575,7 +270575,7 @@
                         },
                         {
                             "id": "6410745d5dd49d77bd078485",
-                            "name": "AVT-40木制枪托 ",
+                            "name": "AVT-40木制枪托",
                             "normalizedName": "avt-40-wooden-stock",
                             "shortName": "AVT木托",
                             "width": 4,
@@ -271006,7 +271006,7 @@
                             "id": "5cdeac42d7f00c000d36ba73",
                             "name": "M700 Magpul Pro 700折叠枪托",
                             "normalizedName": "m700-magpul-pro-700-folding-stock",
-                            "shortName": "Pro700枪托 ",
+                            "shortName": "Pro700枪托",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -275243,7 +275243,7 @@
                         },
                         {
                             "id": "5f6336bbda967c74a42e9932",
-                            "name": "Lancer LCH-7 12.5英寸 AR-10 M-LOK护木 ",
+                            "name": "Lancer LCH-7 12.5英寸 AR-10 M-LOK护木",
                             "normalizedName": "ar-10-lancer-lch7-125-inch-m-lok-handguard",
                             "shortName": "LCH-7 12.5",
                             "width": 3,
@@ -279341,7 +279341,7 @@
                         },
                         {
                             "id": "5894a5b586f77426d2590767",
-                            "name": "SIG MPX一代上机匣 ",
+                            "name": "SIG MPX一代上机匣",
                             "normalizedName": "mpx-gen1-9x19-upper-receiver",
                             "shortName": "MPX GEN1",
                             "width": 2,
@@ -279549,7 +279549,7 @@
                         },
                         {
                             "id": "57616c112459773cce774d66",
-                            "name": "SOK-12 防尘盖 ",
+                            "name": "SOK-12 防尘盖",
                             "normalizedName": "sok-12-dust-cover",
                             "shortName": "Sb.0-2",
                             "width": 2,
@@ -280095,7 +280095,7 @@
                         },
                         {
                             "id": "62812081d23f207deb0ab216",
-                            "name": "AI .338 LM战术型枪口制退器 ",
+                            "name": "AI .338 LM战术型枪口制退器",
                             "normalizedName": "ai-338-lm-tactical-muzzle-brake",
                             "shortName": "TMB 338LM",
                             "width": 1,
@@ -281644,7 +281644,7 @@
                             "id": "5c0111ab0db834001966914d",
                             "name": "ME Cylinder 12铅径膛口转接器",
                             "normalizedName": "me-cylinder-12ga-muzzle-adapter",
-                            "shortName": "Cylinder ",
+                            "shortName": "Cylinder",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -282640,7 +282640,7 @@
                         },
                         {
                             "id": "5a34fe59c4a282000b1521a2",
-                            "name": "AAC 762 SDN-6 7.62x51声音抑制器 ",
+                            "name": "AAC 762 SDN-6 7.62x51声音抑制器",
                             "normalizedName": "aac-762-sdn-6-multi-caliber-sound-suppressor",
                             "shortName": "SDN-6",
                             "width": 2,
@@ -282724,7 +282724,7 @@
                         },
                         {
                             "id": "5c7955c22e221644f31bfd5e",
-                            "name": "Gemtech ONE 7.62x51声音抑制器 ",
+                            "name": "Gemtech ONE 7.62x51声音抑制器",
                             "normalizedName": "gemtech-one-multi-caliber-sound-suppressor",
                             "shortName": "Gemtech ONE",
                             "width": 2,
@@ -282782,7 +282782,7 @@
                             "id": "5b363dd25acfc4001a598fd2",
                             "name": "SilencerCo Osprey 12声音抑制器",
                             "normalizedName": "silencerco-salvo-12-12ga-sound-suppressor",
-                            "shortName": " Salvo12",
+                            "shortName": "Salvo12",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -283172,7 +283172,7 @@
                         },
                         {
                             "id": "5d44064fa4b9361e4f6eb8b5",
-                            "name": "Thunder Beast Ultra 5声音抑制器 ",
+                            "name": "Thunder Beast Ultra 5声音抑制器",
                             "normalizedName": "thunder-beast-arms-ultra-5-sound-suppressor",
                             "shortName": "Ultra 5",
                             "width": 2,
@@ -284311,7 +284311,7 @@
                         },
                         {
                             "id": "5addba3e5acfc4001669f0ab",
-                            "name": " SA National Match .062 M1A刃形准星",
+                            "name": "SA National Match .062 M1A刃形准星",
                             "normalizedName": "m1a-sa-national-match-062-blade-front-sight",
                             "shortName": ".062刃形",
                             "width": 1,
@@ -284324,9 +284324,9 @@
                         },
                         {
                             "id": "5aafa49ae5b5b00015042a58",
-                            "name": " SA XS Post .125 blade M1A准星",
+                            "name": "SA XS Post .125 blade M1A准星",
                             "normalizedName": "m1a-sa-xs-post-125-blade-front-sight",
-                            "shortName": " .125 blade",
+                            "shortName": ".125 blade",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -284727,7 +284727,7 @@
                         },
                         {
                             "id": "5caf1691ae92152ac412efb9",
-                            "name": " ASh-12提把式照门",
+                            "name": "ASh-12提把式照门",
                             "normalizedName": "ash-12-rear-sight-carry-handle",
                             "shortName": "ASh-12提把",
                             "width": 1,
@@ -284935,7 +284935,7 @@
                         },
                         {
                             "id": "5ae30bad5acfc400185c2dc4",
-                            "name": " AR-15提把式照门",
+                            "name": "AR-15提把式照门",
                             "normalizedName": "ar-15-rear-sight-carry-handle",
                             "shortName": "提把",
                             "width": 1,
@@ -285052,7 +285052,7 @@
                         },
                         {
                             "id": "5abcbb20d8ce87001773e258",
-                            "name": "M14军用觇孔式照门 ",
+                            "name": "M14军用觇孔式照门",
                             "normalizedName": "m14-sa-enlarged-military-aperture-rear-sight",
                             "shortName": "M14 135",
                             "width": 1,
@@ -288379,7 +288379,7 @@
                             "id": "5e2aedd986f7746d404f3aa4",
                             "name": "GreenBat锂电池",
                             "normalizedName": "greenbat-lithium-battery",
-                            "shortName": "GreenBat ",
+                            "shortName": "GreenBat",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -288397,7 +288397,7 @@
                             "id": "5e2aedd986f7746d404f3aa4",
                             "name": "GreenBat锂电池",
                             "normalizedName": "greenbat-lithium-battery",
-                            "shortName": "GreenBat ",
+                            "shortName": "GreenBat",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -291682,7 +291682,7 @@
                     {
                         "item": {
                             "id": "5c052fb986f7746b2101e909",
-                            "name": "UHF RFID固定式读取器 ",
+                            "name": "UHF RFID固定式读取器",
                             "normalizedName": "uhf-rfid-reader",
                             "shortName": "RFIDR",
                             "width": 1,
@@ -294328,7 +294328,7 @@
                         },
                         {
                             "id": "5bffdd7e0db834001b734a1a",
-                            "name": "Miller Bros. Blades M-2 战术剑 ",
+                            "name": "Miller Bros. Blades M-2 战术剑",
                             "normalizedName": "miller-bros-blades-m-2-tactical-sword",
                             "shortName": "M-2",
                             "width": 1,
@@ -294820,7 +294820,7 @@
                             "id": "5e2aee0a86f774755a234b62",
                             "name": "Cyclon 蓄电池组",
                             "normalizedName": "cyclon-rechargeable-battery",
-                            "shortName": "Cyclon ",
+                            "shortName": "Cyclon",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -294833,7 +294833,7 @@
                             "id": "5e2aedd986f7746d404f3aa4",
                             "name": "GreenBat锂电池",
                             "normalizedName": "greenbat-lithium-battery",
-                            "shortName": "GreenBat ",
+                            "shortName": "GreenBat",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -295212,7 +295212,7 @@
                         },
                         {
                             "id": "5c052fb986f7746b2101e909",
-                            "name": "UHF RFID固定式读取器 ",
+                            "name": "UHF RFID固定式读取器",
                             "normalizedName": "uhf-rfid-reader",
                             "shortName": "RFIDR",
                             "width": 1,
@@ -297150,7 +297150,7 @@
                             "id": "5d0379a886f77420407aa271",
                             "name": "OFZ 30x165毫米炮弹",
                             "normalizedName": "ofz-30x165mm-shell",
-                            "shortName": "OFZ ",
+                            "shortName": "OFZ",
                             "width": 1,
                             "height": 2,
                             "types": [
@@ -300944,7 +300944,7 @@
                             "id": "5a0f045e86f7745b0f0d0e42",
                             "name": "加油站保险箱钥匙",
                             "normalizedName": "gas-station-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -300957,7 +300957,7 @@
                             "id": "5a0f068686f7745b0d4ea242",
                             "name": "别墅保险箱钥匙",
                             "normalizedName": "cottage-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -300983,7 +300983,7 @@
                             "id": "5a0f08bc86f77478f33b84c2",
                             "name": "疗养院经理办公室保险箱钥匙",
                             "normalizedName": "health-resort-management-office-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -300996,7 +300996,7 @@
                             "id": "5a0f075686f7745bcc42ee12",
                             "name": "商店保险箱钥匙",
                             "normalizedName": "store-safe-key",
-                            "shortName": "保险箱 ",
+                            "shortName": "保险箱",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -301137,7 +301137,7 @@
                         },
                         {
                             "id": "5c1d0dc586f7744baf2e7b79",
-                            "name": "实验室钥匙卡·绿 ",
+                            "name": "实验室钥匙卡·绿",
                             "normalizedName": "terragroup-labs-keycard-green",
                             "shortName": "绿卡",
                             "width": 1,
@@ -301176,7 +301176,7 @@
                         },
                         {
                             "id": "5c1d0d6d86f7744bb2683e1f",
-                            "name": "实验室钥匙卡·黄 ",
+                            "name": "实验室钥匙卡·黄",
                             "normalizedName": "terragroup-labs-keycard-yellow",
                             "shortName": "黄卡",
                             "width": 1,
@@ -301189,7 +301189,7 @@
                         },
                         {
                             "id": "6711039f9e648049e50b3307",
-                            "name": "TerraGroup 实验室生活区钥匙卡 ",
+                            "name": "TerraGroup 实验室生活区钥匙卡",
                             "normalizedName": "terragroup-labs-residential-unit-keycard",
                             "shortName": "生活区",
                             "width": 1,
@@ -304766,7 +304766,7 @@
                             "id": "5b3f3ade86f7746b6b790d8e",
                             "name": "臂带（红）",
                             "normalizedName": "armband-red",
-                            "shortName": "臂带 ",
+                            "shortName": "臂带",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -304792,7 +304792,7 @@
                             "id": "5b3f16c486f7747c327f55f7",
                             "name": "臂带（白）",
                             "normalizedName": "armband-white",
-                            "shortName": "臂带 ",
+                            "shortName": "臂带",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -304805,7 +304805,7 @@
                             "id": "5b3f3b0e86f7746752107cda",
                             "name": "臂带（黄）",
                             "normalizedName": "armband-yellow",
-                            "shortName": "臂带 ",
+                            "shortName": "臂带",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -305575,7 +305575,7 @@
                         },
                         {
                             "id": "5f60cd6cf2bcbb675b00dac6",
-                            "name": " Walker's XCEL 500BT 数字耳机",
+                            "name": "Walker's XCEL 500BT 数字耳机",
                             "normalizedName": "walkers-xcel-500bt-digital-headset",
                             "shortName": "XCEL",
                             "width": 2,
@@ -307585,7 +307585,7 @@
                             "id": "5b44c8ea86f7742d1627baf1",
                             "name": "Blackhawk! Commando胸挂（Desert Tan）",
                             "normalizedName": "blackhawk-commando-chest-harness-desert-tan",
-                            "shortName": "Commando ",
+                            "shortName": "Commando",
                             "width": 4,
                             "height": 3,
                             "types": [
@@ -309065,7 +309065,7 @@
                         },
                         {
                             "id": "57838ad32459774a17445cd2",
-                            "name": "VSS “绞丝机” 特种狙击步枪 ",
+                            "name": "VSS “绞丝机” 特种狙击步枪",
                             "normalizedName": "vss-vintorez-9x39-special-sniper-rifle",
                             "shortName": "VSS",
                             "width": 2,
@@ -311422,7 +311422,7 @@
                         },
                         {
                             "id": "5e71f6be86f77429f2683c44",
-                            "name": " Twitch Rivals 2020 面罩",
+                            "name": "Twitch Rivals 2020 面罩",
                             "normalizedName": "twitch-rivals-2020-mask",
                             "shortName": "Rivals",
                             "width": 1,
@@ -312226,7 +312226,7 @@
                         },
                         {
                             "id": "6040de02647ad86262233012",
-                            "name": "CADPAT军帽 ",
+                            "name": "CADPAT军帽",
                             "normalizedName": "army-cap-cadpat",
                             "shortName": "帽子",
                             "width": 1,
@@ -315131,7 +315131,7 @@
                         },
                         {
                             "id": "55d44fd14bdc2d962f8b456e",
-                            "name": " 柯尔特AR-15拉机柄",
+                            "name": "柯尔特AR-15拉机柄",
                             "normalizedName": "ar-15-colt-charging-handle",
                             "shortName": "AR-15",
                             "width": 1,
@@ -318298,7 +318298,7 @@
                             "id": "5b2389515acfc4771e1be0c0",
                             "name": "Burris AR- P.E.P.R. 30毫米环形基座",
                             "normalizedName": "burris-ar-pepr-30mm-ring-scope-mount",
-                            "shortName": "AR- P.E.P.R. ",
+                            "shortName": "AR- P.E.P.R.",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -318922,7 +318922,7 @@
                             "id": "5e569a2e56edd02abe09f280",
                             "name": "CAA XD RGL SVD机匣基座",
                             "normalizedName": "svd-caa-xd-rgl-receiver-mount",
-                            "shortName": " XD RGL",
+                            "shortName": "XD RGL",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -319232,7 +319232,7 @@
                         },
                         {
                             "id": "5a7ad55551dfba0015068f42",
-                            "name": "Aimtech Tiger Shark基座 ",
+                            "name": "Aimtech Tiger Shark基座",
                             "normalizedName": "glock-aimtech-tiger-shark-sight-mount",
                             "shortName": "G Ti Sh",
                             "width": 1,
@@ -319518,7 +319518,7 @@
                         },
                         {
                             "id": "628120c21d5df4475f46a337",
-                            "name": "AI AXMC AT X顶部导轨 ",
+                            "name": "AI AXMC AT X顶部导轨",
                             "normalizedName": "ai-axmc-at-x-top-rail",
                             "shortName": "AXMC顶轨",
                             "width": 3,
@@ -319611,7 +319611,7 @@
                             "id": "5addbfef5acfc400185c2857",
                             "name": "M14 UTG 4点锁定式高级基座",
                             "normalizedName": "m14-leapers-utg-4-point-locking-deluxe-mount",
-                            "shortName": "UTG4 ",
+                            "shortName": "UTG4",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -321052,7 +321052,7 @@
                         },
                         {
                             "id": "5a16b8a9fcdbcb00165aa6ca",
-                            "name": "Norotos钛合金高级战术支架 ",
+                            "name": "Norotos钛合金高级战术支架",
                             "normalizedName": "norotos-titanium-advanced-tactical-mount",
                             "shortName": "TATM",
                             "width": 1,
@@ -322459,7 +322459,7 @@
                         },
                         {
                             "id": "6410745d5dd49d77bd078485",
-                            "name": "AVT-40木制枪托 ",
+                            "name": "AVT-40木制枪托",
                             "normalizedName": "avt-40-wooden-stock",
                             "shortName": "AVT木托",
                             "width": 4,
@@ -322890,7 +322890,7 @@
                             "id": "5cdeac42d7f00c000d36ba73",
                             "name": "M700 Magpul Pro 700折叠枪托",
                             "normalizedName": "m700-magpul-pro-700-folding-stock",
-                            "shortName": "Pro700枪托 ",
+                            "shortName": "Pro700枪托",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -327127,7 +327127,7 @@
                         },
                         {
                             "id": "5f6336bbda967c74a42e9932",
-                            "name": "Lancer LCH-7 12.5英寸 AR-10 M-LOK护木 ",
+                            "name": "Lancer LCH-7 12.5英寸 AR-10 M-LOK护木",
                             "normalizedName": "ar-10-lancer-lch7-125-inch-m-lok-handguard",
                             "shortName": "LCH-7 12.5",
                             "width": 3,
@@ -331225,7 +331225,7 @@
                         },
                         {
                             "id": "5894a5b586f77426d2590767",
-                            "name": "SIG MPX一代上机匣 ",
+                            "name": "SIG MPX一代上机匣",
                             "normalizedName": "mpx-gen1-9x19-upper-receiver",
                             "shortName": "MPX GEN1",
                             "width": 2,
@@ -331433,7 +331433,7 @@
                         },
                         {
                             "id": "57616c112459773cce774d66",
-                            "name": "SOK-12 防尘盖 ",
+                            "name": "SOK-12 防尘盖",
                             "normalizedName": "sok-12-dust-cover",
                             "shortName": "Sb.0-2",
                             "width": 2,
@@ -331979,7 +331979,7 @@
                         },
                         {
                             "id": "62812081d23f207deb0ab216",
-                            "name": "AI .338 LM战术型枪口制退器 ",
+                            "name": "AI .338 LM战术型枪口制退器",
                             "normalizedName": "ai-338-lm-tactical-muzzle-brake",
                             "shortName": "TMB 338LM",
                             "width": 1,
@@ -333528,7 +333528,7 @@
                             "id": "5c0111ab0db834001966914d",
                             "name": "ME Cylinder 12铅径膛口转接器",
                             "normalizedName": "me-cylinder-12ga-muzzle-adapter",
-                            "shortName": "Cylinder ",
+                            "shortName": "Cylinder",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -334524,7 +334524,7 @@
                         },
                         {
                             "id": "5a34fe59c4a282000b1521a2",
-                            "name": "AAC 762 SDN-6 7.62x51声音抑制器 ",
+                            "name": "AAC 762 SDN-6 7.62x51声音抑制器",
                             "normalizedName": "aac-762-sdn-6-multi-caliber-sound-suppressor",
                             "shortName": "SDN-6",
                             "width": 2,
@@ -334608,7 +334608,7 @@
                         },
                         {
                             "id": "5c7955c22e221644f31bfd5e",
-                            "name": "Gemtech ONE 7.62x51声音抑制器 ",
+                            "name": "Gemtech ONE 7.62x51声音抑制器",
                             "normalizedName": "gemtech-one-multi-caliber-sound-suppressor",
                             "shortName": "Gemtech ONE",
                             "width": 2,
@@ -334666,7 +334666,7 @@
                             "id": "5b363dd25acfc4001a598fd2",
                             "name": "SilencerCo Osprey 12声音抑制器",
                             "normalizedName": "silencerco-salvo-12-12ga-sound-suppressor",
-                            "shortName": " Salvo12",
+                            "shortName": "Salvo12",
                             "width": 2,
                             "height": 1,
                             "types": [
@@ -335056,7 +335056,7 @@
                         },
                         {
                             "id": "5d44064fa4b9361e4f6eb8b5",
-                            "name": "Thunder Beast Ultra 5声音抑制器 ",
+                            "name": "Thunder Beast Ultra 5声音抑制器",
                             "normalizedName": "thunder-beast-arms-ultra-5-sound-suppressor",
                             "shortName": "Ultra 5",
                             "width": 2,
@@ -336195,7 +336195,7 @@
                         },
                         {
                             "id": "5addba3e5acfc4001669f0ab",
-                            "name": " SA National Match .062 M1A刃形准星",
+                            "name": "SA National Match .062 M1A刃形准星",
                             "normalizedName": "m1a-sa-national-match-062-blade-front-sight",
                             "shortName": ".062刃形",
                             "width": 1,
@@ -336208,9 +336208,9 @@
                         },
                         {
                             "id": "5aafa49ae5b5b00015042a58",
-                            "name": " SA XS Post .125 blade M1A准星",
+                            "name": "SA XS Post .125 blade M1A准星",
                             "normalizedName": "m1a-sa-xs-post-125-blade-front-sight",
-                            "shortName": " .125 blade",
+                            "shortName": ".125 blade",
                             "width": 1,
                             "height": 1,
                             "types": [
@@ -336611,7 +336611,7 @@
                         },
                         {
                             "id": "5caf1691ae92152ac412efb9",
-                            "name": " ASh-12提把式照门",
+                            "name": "ASh-12提把式照门",
                             "normalizedName": "ash-12-rear-sight-carry-handle",
                             "shortName": "ASh-12提把",
                             "width": 1,
@@ -336819,7 +336819,7 @@
                         },
                         {
                             "id": "5ae30bad5acfc400185c2dc4",
-                            "name": " AR-15提把式照门",
+                            "name": "AR-15提把式照门",
                             "normalizedName": "ar-15-rear-sight-carry-handle",
                             "shortName": "提把",
                             "width": 1,
@@ -336936,7 +336936,7 @@
                         },
                         {
                             "id": "5abcbb20d8ce87001773e258",
-                            "name": "M14军用觇孔式照门 ",
+                            "name": "M14军用觇孔式照门",
                             "normalizedName": "m14-sa-enlarged-military-aperture-rear-sight",
                             "shortName": "M14 135",
                             "width": 1,
@@ -345353,7 +345353,7 @@
                         },
                         {
                             "id": "57838ad32459774a17445cd2",
-                            "name": "VSS “绞丝机” 特种狙击步枪 ",
+                            "name": "VSS “绞丝机” 特种狙击步枪",
                             "normalizedName": "vss-vintorez-9x39-special-sniper-rifle",
                             "shortName": "VSS",
                             "width": 2,

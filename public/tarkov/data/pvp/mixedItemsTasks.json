@@ -4571,7 +4571,7 @@
                     },
                     {
                         "id": "5e71f6be86f77429f2683c44",
-                        "name": " Twitch Rivals 2020 面罩",
+                        "name": "Twitch Rivals 2020 面罩",
                         "normalizedName": "twitch-rivals-2020-mask",
                         "types": [
                             "wearable"
@@ -5814,7 +5814,7 @@
                     },
                     {
                         "id": "5f60cd6cf2bcbb675b00dac6",
-                        "name": " Walker's XCEL 500BT 数字耳机",
+                        "name": "Walker's XCEL 500BT 数字耳机",
                         "normalizedName": "walkers-xcel-500bt-digital-headset",
                         "types": [
                             "headphones",
@@ -7083,7 +7083,7 @@
         "objectives": [
             {
                 "id": "5d271a3486f774483c7bdb12",
-                "description": "上交Killa的头盔 ",
+                "description": "上交Killa的头盔",
                 "count": 1,
                 "items": [
                     {

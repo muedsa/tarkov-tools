@@ -1952,7 +1952,7 @@
     },
     {
         "id": "5c052fb986f7746b2101e909",
-        "name": "UHF RFID固定式读取器 ",
+        "name": "UHF RFID固定式读取器",
         "normalizedName": "uhf-rfid-reader",
         "types": [
             "barter"
