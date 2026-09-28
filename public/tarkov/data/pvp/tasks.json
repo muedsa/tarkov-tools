@@ -56933,7 +56933,7 @@
                     "targetNames": [
                         "Kaban",
                         "Reshala",
-                        "Black Div. Boss",
+                        "黑色军团",
                         "Glukhar",
                         "Killa",
                         "Vengeful Killa",
@@ -56948,7 +56948,7 @@
                         "The Wedge (Labs)",
                         "Big Pipe",
                         "Birdeye",
-                        "Black Div. Boss 保镖",
+                        "黑色军团 保镖",
                         " 保镖",
                         "感染者"
                     ],
@@ -116257,7 +116257,7 @@
                     "optional": false,
                     "targetNames": [
                         "Shturman",
-                        "Black Div. Boss",
+                        "黑色军团",
                         "Glukhar",
                         "Killa",
                         "Vengeful Killa",
@@ -121503,8 +121503,8 @@
                     "targetNames": [
                         "掠夺者",
                         "黑色军团",
-                        "Black Div. Boss 保镖",
-                        "Black Div. Boss",
+                        "黑色军团 保镖",
+                        "黑色军团",
                         "黑色军团"
                     ],
                     "count": 10,
