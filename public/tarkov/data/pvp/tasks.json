@@ -11819,11 +11819,6 @@
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
@@ -11834,14 +11829,19 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -14913,11 +14913,6 @@
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
@@ -14928,14 +14923,19 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -41186,11 +41186,6 @@
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
@@ -41201,14 +41196,19 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -45590,6 +45590,11 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
+                            "id": "5b0fc42d86f7744a585f9105",
+                            "name": "实验室",
+                            "normalizedName": "the-lab"
+                        },
+                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
@@ -45598,11 +45603,6 @@
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5b0fc42d86f7744a585f9105",
-                            "name": "实验室",
-                            "normalizedName": "the-lab"
                         }
                     ],
                     "optional": false,
@@ -45873,6 +45873,11 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
+                            "id": "5b0fc42d86f7744a585f9105",
+                            "name": "实验室",
+                            "normalizedName": "the-lab"
+                        },
+                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
@@ -45881,11 +45886,6 @@
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5b0fc42d86f7744a585f9105",
-                            "name": "实验室",
-                            "normalizedName": "the-lab"
                         }
                     ],
                     "optional": false,
@@ -56095,11 +56095,6 @@
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
@@ -56110,14 +56105,19 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -81096,14 +81096,14 @@
                     "description": "找到并消灭Tagilla",
                     "maps": [
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -103229,11 +103229,6 @@
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
@@ -103244,14 +103239,19 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -115001,6 +115001,11 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
+                            "id": "5b0fc42d86f7744a585f9105",
+                            "name": "实验室",
+                            "normalizedName": "the-lab"
+                        },
+                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
@@ -115009,11 +115014,6 @@
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5b0fc42d86f7744a585f9105",
-                            "name": "实验室",
-                            "normalizedName": "the-lab"
                         }
                     ],
                     "optional": false,
@@ -120975,11 +120975,6 @@
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
@@ -120990,14 +120985,19 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -136398,6 +136398,11 @@
                     "description": "击杀掠夺者",
                     "maps": [
                         {
+                            "id": "5b0fc42d86f7744a585f9105",
+                            "name": "实验室",
+                            "normalizedName": "the-lab"
+                        },
+                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
@@ -136406,11 +136411,6 @@
                             "id": "5704e5fad2720bc05b8b4567",
                             "name": "储备站",
                             "normalizedName": "reserve"
-                        },
-                        {
-                            "id": "5b0fc42d86f7744a585f9105",
-                            "name": "实验室",
-                            "normalizedName": "the-lab"
                         }
                     ],
                     "optional": false,
@@ -145677,11 +145677,6 @@
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
@@ -145692,14 +145687,19 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -292524,11 +292524,6 @@
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
@@ -292539,14 +292534,19 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -293227,11 +293227,6 @@
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e5fad2720bc05b8b4567",
-                            "name": "储备站",
-                            "normalizedName": "reserve"
-                        },
-                        {
                             "id": "69af492a4819ea4ba10a69c5",
                             "name": "破冰船",
                             "normalizedName": "icebreaker"
@@ -293242,14 +293237,19 @@
                             "normalizedName": "ground-zero-tutorial"
                         },
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
+                        },
+                        {
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
