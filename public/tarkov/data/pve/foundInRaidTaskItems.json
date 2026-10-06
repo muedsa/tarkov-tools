@@ -104,6 +104,36 @@
         ]
     },
     {
+        "id": "60b0f6c058e0b0481a09ad11",
+        "name": "WZ钱包",
+        "normalizedName": "wz-wallet",
+        "types": [
+            "container"
+        ],
+        "iconLink": "60b0f6c058e0b0481a09ad11-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WZ_Wallet",
+        "tasks": [
+            {
+                "id": "6a959d33b9b22567ed0d0a4e",
+                "name": "本事不是喝出来的",
+                "trader": "Ragman",
+                "traderImageLink": "5ac3b934156ae10c4430e83c.webp",
+                "kappaRequired": false,
+                "count": 5,
+                "mixedItemsTask": false
+            },
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
         "id": "679b992329acd1f2f60985a5",
         "name": "Labrys 研发记录",
         "normalizedName": "labrys-research-notes",
@@ -410,6 +440,15 @@
                 "traderImageLink": "5935c25fb3acc3127c3d8cd9.webp",
                 "kappaRequired": false,
                 "count": 1,
+                "mixedItemsTask": false
+            },
+            {
+                "id": "6a7ae35b2dbf91eb050af95a",
+                "name": "侵入性疗法",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": false,
+                "count": 5,
                 "mixedItemsTask": false
             }
         ]
@@ -729,27 +768,6 @@
         ],
         "iconLink": "6a3557f841667bc4bb00fea4-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_YMXC_water",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
-        "id": "60b0f6c058e0b0481a09ad11",
-        "name": "WZ钱包",
-        "normalizedName": "wz-wallet",
-        "types": [
-            "container"
-        ],
-        "iconLink": "60b0f6c058e0b0481a09ad11-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/WZ_Wallet",
         "tasks": [
             {
                 "id": "5c51aac186f77432ea65c552",
@@ -1301,97 +1319,6 @@
         ]
     },
     {
-        "id": "5c0e531286f7747fa54205c2",
-        "name": "SJ1 TGLabs 战斗兴奋剂注射器",
-        "normalizedName": "sj1-tglabs-combat-stimulant-injector",
-        "types": [
-            "injectors",
-            "meds",
-            "provisions"
-        ],
-        "iconLink": "5c0e531286f7747fa54205c2-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ1_TGLabs_combat_stimulant_injector",
-        "tasks": [
-            {
-                "id": "625d7001c4874104f230c0c5",
-                "name": "试探 - 3",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 15,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
-        "id": "5c0e531d86f7747fa23f4d42",
-        "name": "SJ6 TGLabs 战斗兴奋剂注射器",
-        "normalizedName": "sj6-tglabs-combat-stimulant-injector",
-        "types": [
-            "injectors",
-            "meds",
-            "provisions"
-        ],
-        "iconLink": "5c0e531d86f7747fa23f4d42-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ6_TGLabs_combat_stimulant_injector",
-        "tasks": [
-            {
-                "id": "625d7001c4874104f230c0c5",
-                "name": "试探 - 3",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 5,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
-        "id": "5fca13ca637ee0341a484f46",
-        "name": "SJ9 TGLabs 战斗兴奋剂注射器",
-        "normalizedName": "sj9-tglabs-combat-stimulant-injector",
-        "types": [
-            "injectors",
-            "meds",
-            "provisions"
-        ],
-        "iconLink": "5fca13ca637ee0341a484f46-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SJ9_TGLabs_combat_stimulant_injector",
-        "tasks": [
-            {
-                "id": "625d7001c4874104f230c0c5",
-                "name": "试探 - 3",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
-        "id": "5c46fbd72e2216398b5a8c9c",
-        "name": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
-        "normalizedName": "svds-762x54r-sniper-rifle",
-        "types": [
-            "gun",
-            "wearable"
-        ],
-        "iconLink": "5c46fbd72e2216398b5a8c9c-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SVDS_7.62x54R_sniper_rifle",
-        "tasks": [
-            {
-                "id": "6261482fa4eb80027c4f2e11",
-                "name": "破镜重圆 - 装备",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 4,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
         "id": "635a758bfefc88a93f021b8a",
         "name": "咸狗牛肉肠",
         "normalizedName": "salty-dog-beef-sausage",
@@ -1473,6 +1400,29 @@
                 "traderImageLink": "5c0647fdd443bc2504c2d371.webp",
                 "kappaRequired": false,
                 "count": 1,
+                "mixedItemsTask": false
+            }
+        ]
+    },
+    {
+        "id": "5fca138c2a7b221b2852a5c6",
+        "name": "xTG-12 解毒剂注射器",
+        "normalizedName": "xtg-12-antidote-injector",
+        "types": [
+            "injectors",
+            "meds",
+            "provisions"
+        ],
+        "iconLink": "5fca138c2a7b221b2852a5c6-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/XTG-12_antidote_injector",
+        "tasks": [
+            {
+                "id": "6a7ae35b2dbf91eb050af95a",
+                "name": "侵入性疗法",
+                "trader": "Therapist",
+                "traderImageLink": "54cb57776803fa99248b456e.webp",
+                "kappaRequired": false,
+                "count": 5,
                 "mixedItemsTask": false
             }
         ]

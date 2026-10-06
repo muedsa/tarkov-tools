@@ -799,7 +799,7 @@
                     },
                     {
                         "id": "5448fee04bdc2dbc018b4567",
-                        "name": "0.6升瓶装水",
+                        "name": "600 毫升瓶装水",
                         "normalizedName": "bottle-of-water-06l",
                         "types": [
                             "provisions"
@@ -1183,7 +1183,7 @@
                     },
                     {
                         "id": "656fad8c498d1b7e3e071da0",
-                        "name": "Monoclete三级PE防弹插板",
+                        "name": "Monoclete III 级 PE 防弹插板",
                         "normalizedName": "monoclete-level-iii-pe-ballistic-plate",
                         "types": [
                             "armorPlate",
@@ -1216,7 +1216,7 @@
                     },
                     {
                         "id": "656fb21fa0dce000a2020f7c",
-                        "name": "NewSphereTech三级防弹插板",
+                        "name": "NewSphereTech III 级防弹插板",
                         "normalizedName": "newspheretech-level-iii-ballistic-plate",
                         "types": [
                             "armorPlate",
@@ -1796,7 +1796,7 @@
                 "items": [
                     {
                         "id": "5448fee04bdc2dbc018b4567",
-                        "name": "0.6升瓶装水",
+                        "name": "600 毫升瓶装水",
                         "normalizedName": "bottle-of-water-06l",
                         "types": [
                             "provisions"
@@ -4021,7 +4021,7 @@
                     },
                     {
                         "id": "5aa7e276e5b5b000171d0647",
-                        "name": "Altyn 防弹头盔（橄榄绿）",
+                        "name": "Altyn 突击头盔（橄榄绿）",
                         "normalizedName": "altyn-assault-helmet-olive-drab",
                         "types": [
                             "helmet",
@@ -4210,7 +4210,7 @@
                     },
                     {
                         "id": "66bdc28a0b603c26902b2011",
-                        "name": "DevTac Ronin helmet",
+                        "name": "Devtac 浪人头盔",
                         "normalizedName": "devtac-ronin-helmet",
                         "types": [
                             "wearable"
@@ -4796,6 +4796,148 @@
                         ],
                         "iconLink": "68a9b3ca0a9c4f9398032c46-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Galvion_Caiman_Hybrid_helmet_(MultiCam)"
+                    },
+                    {
+                        "id": "6a84620eb9a884488e00094c",
+                        "name": "Devtac 浪人防弹头盔（猛禽）",
+                        "normalizedName": "devtac-ronin-ballistic-helmet-raptor",
+                        "types": [
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a84620eb9a884488e00094c-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/DevTac_Ronin_ballistic_helmet_(Raptor)"
+                    },
+                    {
+                        "id": "6a8462325494d3719f000824",
+                        "name": "Devtac 浪人防弹头盔（橄榄色）",
+                        "normalizedName": "devtac-ronin-ballistic-helmet-olive",
+                        "types": [
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a8462325494d3719f000824-icon.webp",
+                        "wikiLink": null
+                    },
+                    {
+                        "id": "6a846223460e01329005b720",
+                        "name": "Devtac 浪人防弹头盔（试作机）",
+                        "normalizedName": "devtac-ronin-ballistic-helmet-prototype",
+                        "types": [
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a846223460e01329005b720-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/DevTac_Ronin_ballistic_helmet_(Prototype)"
+                    },
+                    {
+                        "id": "6a84624507f6c3032e00c65d",
+                        "name": "Devtac 浪人防弹头盔（橄榄绿）",
+                        "normalizedName": "devtac-ronin-ballistic-helmet-olive-drab",
+                        "types": [
+                            "wearable"
+                        ],
+                        "iconLink": "6a84624507f6c3032e00c65d-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/DevTac_Ronin_ballistic_helmet_(Olive_Drab)"
+                    },
+                    {
+                        "id": "6a670ae11ab6ac490a0b9a99",
+                        "name": "DevTac 浪人面罩（实验室安保）",
+                        "normalizedName": "devtac-ronin-respirator-labs-security",
+                        "types": [
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a670ae11ab6ac490a0b9a99-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/DevTac_Ronin_Respirator_(LABS_Security)"
+                    },
+                    {
+                        "id": "6a82d9800e3db08b8b0af0eb",
+                        "name": "Altyn 突击头盔（防弹验证）",
+                        "normalizedName": "altyn-assault-helmet-impact-tested",
+                        "types": [
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a82d9800e3db08b8b0af0eb-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Altyn_assault_helmet_(Impact_Tested)"
+                    },
+                    {
+                        "id": "6a568340263768e2ae0c9696",
+                        "name": "Atlant Armour Titan（泰坦）芳纶头盔（数码丛林迷彩）",
+                        "normalizedName": "atlant-armour-titan-aramid-helmet-emr",
+                        "types": [
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a568340263768e2ae0c9696-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Atlant_Armour_Titan_Aramid_helmet_(EMR)"
+                    },
+                    {
+                        "id": "6a567ae55cbe811cbe0136a8",
+                        "name": "Crye Precision AirFrame 头盔（慢工出烂活）",
+                        "normalizedName": "crye-precision-airframe-helmet-botched",
+                        "types": [
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a567ae55cbe811cbe0136a8-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Crye_Precision_AirFrame_helmet_(Botched)"
+                    },
+                    {
+                        "id": "69cbfe44897389c1870b2337",
+                        "name": "Crye Precision AirFrame 头盔（瘟疫侵袭）",
+                        "normalizedName": "crye-precision-airframe-helmet-morbus-incorsio",
+                        "types": [
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "69cbfe44897389c1870b2337-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Crye_Precision_AirFrame_helmet_(Tan)"
+                    },
+                    {
+                        "id": "6a83392e992762b7bf08ffb8",
+                        "name": "Diamond Age NovaSteel 防弹头盔（橄榄绿）",
+                        "normalizedName": "diamond-age-novasteel-helmet-olive-drab",
+                        "types": [
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a83392e992762b7bf08ffb8-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Diamond_Age_NovaSteel_helmet_(Olive_Drab)"
+                    },
+                    {
+                        "id": "6a8339d551cfbe231b091a24",
+                        "name": "Diamond Age NovaSteel 防弹头盔（毒素）",
+                        "normalizedName": "diamond-age-novasteel-helmet-toxin",
+                        "types": [
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a8339d551cfbe231b091a24-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Diamond_Age_NovaSteel_helmet_(Toxin)"
+                    },
+                    {
+                        "id": "6a8339b9512ae66ef40af89b",
+                        "name": "Diamond Age NovaSteel 防弹头盔（死亡守护者）",
+                        "normalizedName": "diamond-age-novasteel-helmet-custos-mortis",
+                        "types": [
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a8339b9512ae66ef40af89b-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Diamond_Age_NovaSteel_helmet_(Custos_Mortis)"
+                    },
+                    {
+                        "id": "6a568dda1d89fcfb35010389",
+                        "name": "MTEK STRIKE 防弹头盔（碳纤维）",
+                        "normalizedName": "mtek-strike-ballistic-helmet-carbon-fiber",
+                        "types": [
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a568dda1d89fcfb35010389-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MTEK_STRIKE_Ballistic_helmet_(Carbon_Fiber)"
                     }
                 ]
             },
@@ -4976,7 +5118,7 @@
                     },
                     {
                         "id": "66b5f68de98be930d701c00e",
-                        "name": "Safariland Liberator HP 2.0听力保护耳机（泥土色）",
+                        "name": "Safariland Liberator HP 2.0听力保护耳机 (FDE)",
                         "normalizedName": "safariland-liberator-hp-20-hearing-protection-headset-fde",
                         "types": [
                             "headphones",
@@ -5065,6 +5207,64 @@
                         ],
                         "iconLink": "5e4d34ca86f774264f758330-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Walker%27s_Razor_Digital_headset"
+                    },
+                    {
+                        "id": "6a56665a3b664c6b2c0d784a",
+                        "name": "Walker's Razor Slim 耳机（林地迷彩）",
+                        "normalizedName": "walkers-razor-slim-headset-woodland",
+                        "types": [
+                            "headphones",
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a56665a3b664c6b2c0d784a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Walker%27s_Razor_Slim_headset_(Woodland)"
+                    },
+                    {
+                        "id": "6a5615d8a166c11ce900e1a6",
+                        "name": "Safariland Liberator HP 2.0听力保护耳机（沙漠虎纹迷彩）",
+                        "normalizedName": "safariland-liberator-hp-20-hearing-protection-headset-desert-tiger-stripe",
+                        "types": [
+                            "headphones",
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a5615d8a166c11ce900e1a6-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Safariland_Liberator_HP_2.0_Hearing_Protection_Headset_(Desert_Tiger_Stripe)"
+                    },
+                    {
+                        "id": "6a566628d1d0c640e6034ebb",
+                        "name": "Walker's Razor Slim 耳机（碳纤维）",
+                        "normalizedName": "walkers-razor-slim-headset-carbon-fiber",
+                        "types": [
+                            "headphones",
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a566628d1d0c640e6034ebb-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Walker%27s_Razor_Slim_headset_(Carbon_Fiber)"
+                    },
+                    {
+                        "id": "69413241b1ce1e5fbb09ed0a",
+                        "name": "CENS ProFlex DX5 战术耳塞",
+                        "normalizedName": "cens-proflex-dx5-tactical-earplug",
+                        "types": [
+                            "headphones",
+                            "wearable"
+                        ],
+                        "iconLink": "69413241b1ce1e5fbb09ed0a-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/CENS_ProFlex_DX5_tactical_earplug"
+                    },
+                    {
+                        "id": "68bf405779c8186398099017",
+                        "name": "Peltor TEP-300 战术耳塞（狼棕色）",
+                        "normalizedName": "peltor-tep-300-tactical-earplug-coyote-brown",
+                        "types": [
+                            "headphones",
+                            "wearable"
+                        ],
+                        "iconLink": "68bf405779c8186398099017-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Peltor_TEP-300_tactical_earplug_(Coyote_Brown)"
                     }
                 ]
             },
@@ -5533,6 +5733,42 @@
                         ],
                         "iconLink": "5ac4c50d5acfc40019262e87-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Kolpak-1S_face_shield"
+                    },
+                    {
+                        "id": "6a8317166a6ba231700536ce",
+                        "name": "Fit Viper 防护眼镜 (Actualbush)",
+                        "normalizedName": "fit-viper-glasses-actualbush",
+                        "types": [
+                            "glasses",
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a8317166a6ba231700536ce-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fit_Viper_glasses_(Actualbush)"
+                    },
+                    {
+                        "id": "6a83172b6a6ba231700536d1",
+                        "name": "Fit Viper 防护眼镜 (Exec)",
+                        "normalizedName": "fit-viper-glasses-exec",
+                        "types": [
+                            "glasses",
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a83172b6a6ba231700536d1-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fit_Viper_glasses_(Exec)"
+                    },
+                    {
+                        "id": "6a83173e350dd848e70feeec",
+                        "name": "Fit Viper 防护眼镜 (Straya)",
+                        "normalizedName": "fit-viper-glasses-straya",
+                        "types": [
+                            "glasses",
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a83173e350dd848e70feeec-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Fit_Viper_glasses_(Straya)"
                     }
                 ]
             },
@@ -5797,7 +6033,7 @@
                     },
                     {
                         "id": "68948a95d8f2b85fb705e2a6",
-                        "name": "6B45 防弹衣",
+                        "name": "6B45 防弹衣（数码丛林迷彩）",
                         "normalizedName": "6b45-body-armor-emr",
                         "types": [
                             "armor",
@@ -6071,6 +6307,30 @@
                         ],
                         "iconLink": "67ab2f94dafe3b22670c912c-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/HighCom_Trooper_TFO_body_armor_(Coyote)"
+                    },
+                    {
+                        "id": "6a7d896ea38adecfcb0c6cbd",
+                        "name": "Blue Force Gear PLATEminus V2 防弹衣（狼棕色）",
+                        "normalizedName": "blue-force-gear-plateminus-v2-body-armor-coyote-brown",
+                        "types": [
+                            "armor",
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a7d896ea38adecfcb0c6cbd-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Blue_Force_Gear_PLATEminus_V2_body_armor_(Coyote_Brown)"
+                    },
+                    {
+                        "id": "6a7d8987b8903961a50d4f70",
+                        "name": "Blue Force Gear PLATEminus V2 防弹衣（狼灰色）",
+                        "normalizedName": "blue-force-gear-plateminus-v2-body-armor-wolf-gray",
+                        "types": [
+                            "armor",
+                            "noFlea",
+                            "wearable"
+                        ],
+                        "iconLink": "6a7d8987b8903961a50d4f70-icon.webp",
+                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Blue_Force_Gear_PLATEminus_V2_body_armor_(Wolf_Gray)"
                     }
                 ]
             }
@@ -6227,7 +6487,7 @@
                 "items": [
                     {
                         "id": "5aa7e276e5b5b000171d0647",
-                        "name": "Altyn 防弹头盔（橄榄绿）",
+                        "name": "Altyn 突击头盔（橄榄绿）",
                         "normalizedName": "altyn-assault-helmet-olive-drab",
                         "types": [
                             "helmet",
@@ -6325,17 +6585,6 @@
                         ],
                         "iconLink": "5d5e9c74a4b9364855191c40-icon.webp",
                         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/MSA_ACH_TC-2002_MICH_Series_helmet_(Olive_Drab)"
-                    },
-                    {
-                        "id": "5c06c6a80db834001b735491",
-                        "name": "SSh-68钢盔（橄榄绿）",
-                        "normalizedName": "ssh-68-steel-helmet-olive-drab",
-                        "types": [
-                            "helmet",
-                            "wearable"
-                        ],
-                        "iconLink": "5c06c6a80db834001b735491-icon.webp",
-                        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/SSh-68_steel_helmet_(Olive_Drab)"
                     },
                     {
                         "id": "5aa7cfc0e5b5b00015693143",
