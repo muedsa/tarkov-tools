@@ -1192,15 +1192,6 @@
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Respirator",
         "tasks": [
             {
-                "id": "5b478eca86f7744642012254",
-                "name": "维他命",
-                "trader": "Skier",
-                "traderImageLink": "58330581ace78e27b8b10cee.webp",
-                "kappaRequired": false,
-                "count": 4,
-                "mixedItemsTask": false
-            },
-            {
                 "id": "5b478ff486f7744d184ecbbf",
                 "name": "供货",
                 "trader": "Skier",

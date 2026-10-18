@@ -2782,177 +2782,6 @@
             "taskImageLink": "https://assets.tarkov.dev/669fa39ee749756c920d02c8.webp"
         },
         {
-            "id": "6a91840a740be0cff50e0310",
-            "tarkovDataId": "6a91840a740be0cff50e0310",
-            "name": "Preliminary Survey",
-            "normalizedName": "preliminary-survey",
-            "trader": {
-                "id": "6617beeaa9cfa777ca915b7c",
-                "name": "竞技场裁判",
-                "normalizedName": "ref",
-                "imageLink": "https://assets.tarkov.dev/6617beeaa9cfa777ca915b7c.webp"
-            },
-            "map": {
-                "id": "5b0fc42d86f7744a585f9105",
-                "name": "实验室",
-                "normalizedName": "the-lab"
-            },
-            "experience": 14500,
-            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Preliminary_Survey",
-            "minPlayerLevel": 5,
-            "taskRequirements": [],
-            "traderRequirements": [],
-            "restartable": false,
-            "objectives": [
-                {
-                    "__typename": "TaskObjectiveQuestItem",
-                    "id": "6a91bfe6964adc01452f2a42",
-                    "type": "findQuestItem",
-                    "description": "Locate the testing area blueprint flash drive in The Lab",
-                    "maps": [
-                        {
-                            "id": "5b0fc42d86f7744a585f9105",
-                            "name": "实验室",
-                            "normalizedName": "the-lab"
-                        }
-                    ],
-                    "optional": false,
-                    "questItem": {
-                        "id": "6a919148d1f99fb50b0f3113",
-                        "name": "测试区域蓝图 U 盘",
-                        "normalizedName": "6a919148d1f99fb50b0f3113",
-                        "shortName": "测试区域",
-                        "description": "这枚 Sliderkey U 盘里也许装有实验室测试区域的平面布局以及区域规划——许多不为人知的秘密实验就是在这些地方展开的。真正的问题是，裁判需要这种情报干什么用……",
-                        "width": 1,
-                        "height": 1,
-                        "types": [],
-                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
-                        "wikiLink": null
-                    },
-                    "count": 1,
-                    "possibleLocations": [
-                        {
-                            "map": {
-                                "id": "5b0fc42d86f7744a585f9105"
-                            },
-                            "positions": [
-                                {
-                                    "x": -167.97823,
-                                    "y": 1.01725,
-                                    "z": -359.4274
-                                }
-                            ]
-                        }
-                    ],
-                    "zones": [],
-                    "requiredKeys": null
-                },
-                {
-                    "__typename": "TaskObjectiveQuestItem",
-                    "id": "6a91c02d74fa5c3dba8025fe",
-                    "type": "giveQuestItem",
-                    "description": "Obtain the testing area blueprint flash drive in The Lab",
-                    "maps": [],
-                    "optional": false,
-                    "questItem": {
-                        "id": "6a919148d1f99fb50b0f3113",
-                        "name": "测试区域蓝图 U 盘",
-                        "normalizedName": "6a919148d1f99fb50b0f3113",
-                        "shortName": "测试区域",
-                        "description": "这枚 Sliderkey U 盘里也许装有实验室测试区域的平面布局以及区域规划——许多不为人知的秘密实验就是在这些地方展开的。真正的问题是，裁判需要这种情报干什么用……",
-                        "width": 1,
-                        "height": 1,
-                        "types": [],
-                        "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
-                        "wikiLink": null
-                    },
-                    "count": 1,
-                    "possibleLocations": [],
-                    "zones": [],
-                    "requiredKeys": null
-                }
-            ],
-            "failConditions": [],
-            "startRewards": {
-                "traderStanding": [],
-                "items": [
-                    {
-                        "item": {
-                            "id": "5c94bbff86f7747ee735c08f",
-                            "name": "TerraGroup实验室访问钥匙卡",
-                            "normalizedName": "terragroup-labs-access-keycard",
-                            "shortName": "钥匙卡",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "keys"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5c94bbff86f7747ee735c08f-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/TerraGroup_Labs_access_keycard"
-                        },
-                        "count": 1,
-                        "quantity": 1,
-                        "attributes": []
-                    }
-                ],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "finishRewards": {
-                "traderStanding": [],
-                "items": [
-                    {
-                        "item": {
-                            "id": "5d235b4d86f7742e017bc88a",
-                            "name": "GP币",
-                            "normalizedName": "gp-coin",
-                            "shortName": "GP",
-                            "width": 1,
-                            "height": 1,
-                            "types": [
-                                "barter",
-                                "noFlea"
-                            ],
-                            "iconLink": "https://assets.tarkov.dev/5d235b4d86f7742e017bc88a-icon.webp",
-                            "wikiLink": "https://escapefromtarkov.fandom.com/wiki/GP_coin"
-                        },
-                        "count": 101,
-                        "quantity": 101,
-                        "attributes": []
-                    }
-                ],
-                "offerUnlock": [],
-                "skillLevelReward": [
-                    {
-                        "name": "Search",
-                        "level": 1
-                    }
-                ],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "failureOutcome": {
-                "traderStanding": [],
-                "items": [],
-                "offerUnlock": [],
-                "skillLevelReward": [],
-                "traderUnlock": [],
-                "craftUnlock": [],
-                "achievement": [],
-                "customization": []
-            },
-            "factionName": "Any",
-            "kappaRequired": false,
-            "lightkeeperRequired": false,
-            "taskImageLink": "https://assets.tarkov.dev/6a91840a740be0cff50e0310.webp"
-        },
-        {
             "id": "5a68665c86f774255929b4c7",
             "tarkovDataId": "5a68665c86f774255929b4c7",
             "name": "医疗隐私 - 3",
@@ -27772,7 +27601,7 @@
             "id": "639136df4b15ca31f76bc31f",
             "tarkovDataId": "639136df4b15ca31f76bc31f",
             "name": "猎人之路 - 管理者",
-            "normalizedName": "the-huntsman-path-administrator",
+            "normalizedName": "the-huntsman-path-administrator-bear",
             "trader": {
                 "id": "5c0647fdd443bc2504c2d371",
                 "name": "Jaeger",
@@ -28018,7 +27847,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "BEAR",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/639136df4b15ca31f76bc31f.webp"
@@ -28027,7 +27856,7 @@
             "id": "6a45208043b8d7604d00b8d5",
             "tarkovDataId": "6a45208043b8d7604d00b8d5",
             "name": "猎人之路 - 管理者",
-            "normalizedName": "the-huntsman-path-administrator-2",
+            "normalizedName": "the-huntsman-path-administrator-usec",
             "trader": {
                 "id": "5c0647fdd443bc2504c2d371",
                 "name": "Jaeger",
@@ -28273,7 +28102,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "USEC",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/6a45208043b8d7604d00b8d5.webp"
@@ -41180,7 +41009,7 @@
             "id": "5ac244eb86f7741356335af1",
             "tarkovDataId": "5ac244eb86f7741356335af1",
             "name": "枪匠 - M4A1",
-            "normalizedName": "gunsmith-m4a1",
+            "normalizedName": "gunsmith-m4a1-usec",
             "trader": {
                 "id": "5a7c2eca46aef81a7ca2145d",
                 "name": "Mechanic",
@@ -41371,7 +41200,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "USEC",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/5ac244eb86f7741356335af1.webp"
@@ -41380,7 +41209,7 @@
             "id": "5ae3270f86f77445ba41d4dd",
             "tarkovDataId": "5ae3270f86f77445ba41d4dd",
             "name": "枪匠 - AKM",
-            "normalizedName": "gunsmith-akm",
+            "normalizedName": "gunsmith-akm-bear",
             "trader": {
                 "id": "5a7c2eca46aef81a7ca2145d",
                 "name": "Mechanic",
@@ -41598,7 +41427,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "BEAR",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/5ae3270f86f77445ba41d4dd.webp"
@@ -45696,7 +45525,7 @@
             "id": "5ae3280386f7742a41359364",
             "tarkovDataId": "5ae3280386f7742a41359364",
             "name": "枪匠 - AS VAL",
-            "normalizedName": "gunsmith-as-val",
+            "normalizedName": "gunsmith-as-val-bear",
             "trader": {
                 "id": "5a7c2eca46aef81a7ca2145d",
                 "name": "Mechanic",
@@ -45975,7 +45804,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "BEAR",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/5ae3280386f7742a41359364.webp"
@@ -46926,7 +46755,7 @@
                     "task": {
                         "id": "639135c3744e452011470807",
                         "name": "软禁",
-                        "normalizedName": "house-arrest",
+                        "normalizedName": "house-arrest-usec",
                         "taskImageLink": "https://assets.tarkov.dev/639135c3744e452011470807.webp",
                         "trader": {
                             "id": "58330581ace78e27b8b10cee",
@@ -50963,7 +50792,7 @@
                     "task": {
                         "id": "5967725e86f774601a446662",
                         "name": "探囊取物",
-                        "normalizedName": "shaking-up-the-teller",
+                        "normalizedName": "shaking-up-the-teller-usec",
                         "taskImageLink": "https://assets.tarkov.dev/5967725e86f774601a446662.webp",
                         "trader": {
                             "id": "54cb50c76803fa8b248b4571",
@@ -80874,7 +80703,7 @@
             "id": "5967725e86f774601a446662",
             "tarkovDataId": "5967725e86f774601a446662",
             "name": "探囊取物",
-            "normalizedName": "shaking-up-the-teller",
+            "normalizedName": "shaking-up-the-teller-usec",
             "trader": {
                 "id": "54cb50c76803fa8b248b4571",
                 "name": "Prapor",
@@ -81202,7 +81031,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "USEC",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/5967725e86f774601a446662.webp"
@@ -85500,7 +85329,7 @@
             "id": "59c124d686f774189b3c843f",
             "tarkovDataId": "59c124d686f774189b3c843f",
             "name": "油料快车",
-            "normalizedName": "oil-run",
+            "normalizedName": "oil-run-bear",
             "trader": {
                 "id": "54cb50c76803fa8b248b4571",
                 "name": "Prapor",
@@ -85814,7 +85643,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "BEAR",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/59c124d686f774189b3c843f.webp"
@@ -93869,7 +93698,7 @@
             "id": "5ae3277186f7745973054106",
             "tarkovDataId": "5ae3277186f7745973054106",
             "name": "枪匠 - AKS-74N",
-            "normalizedName": "gunsmith-aks-74n",
+            "normalizedName": "gunsmith-aks-74n-bear",
             "trader": {
                 "id": "5a7c2eca46aef81a7ca2145d",
                 "name": "Mechanic",
@@ -94148,7 +93977,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "BEAR",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/5ae3277186f7745973054106.webp"
@@ -94157,7 +93986,7 @@
             "id": "5ae327c886f7745c7b3f2f3f",
             "tarkovDataId": "5ae327c886f7745c7b3f2f3f",
             "name": "枪匠 - AK-105",
-            "normalizedName": "gunsmith-ak-105",
+            "normalizedName": "gunsmith-ak-105-bear",
             "trader": {
                 "id": "5a7c2eca46aef81a7ca2145d",
                 "name": "Mechanic",
@@ -94336,7 +94165,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "BEAR",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/5ae327c886f7745c7b3f2f3f.webp"
@@ -95387,7 +95216,7 @@
             "id": "5ae4493486f7744efa289417",
             "tarkovDataId": "5ae4493486f7744efa289417",
             "name": "库存清单",
-            "normalizedName": "inventory-files",
+            "normalizedName": "inventory-files-bear",
             "trader": {
                 "id": "5ac3b934156ae10c4430e83c",
                 "name": "Ragman",
@@ -95668,7 +95497,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "BEAR",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/5ae4493486f7744efa289417.webp"
@@ -95677,7 +95506,7 @@
             "id": "5ae4493d86f7744b8e15aa8f",
             "tarkovDataId": "5ae4493d86f7744b8e15aa8f",
             "name": "损失惨重",
-            "normalizedName": "a-big-loss",
+            "normalizedName": "a-big-loss-usec",
             "trader": {
                 "id": "5ac3b934156ae10c4430e83c",
                 "name": "Ragman",
@@ -95840,7 +95669,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "USEC",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/5ae4493d86f7744b8e15aa8f.webp"
@@ -98826,7 +98655,7 @@
             "id": "5b47799d86f7746c5d6a5fd8",
             "tarkovDataId": "5b47799d86f7746c5d6a5fd8",
             "name": "枪匠 - MPX",
-            "normalizedName": "gunsmith-mpx",
+            "normalizedName": "gunsmith-mpx-usec",
             "trader": {
                 "id": "5a7c2eca46aef81a7ca2145d",
                 "name": "Mechanic",
@@ -99106,7 +98935,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "USEC",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/5b47799d86f7746c5d6a5fd8.webp"
@@ -100031,7 +99860,7 @@
             "id": "5b478eca86f7744642012254",
             "tarkovDataId": "5b478eca86f7744642012254",
             "name": "维他命",
-            "normalizedName": "vitamins",
+            "normalizedName": "vitamins-bear",
             "trader": {
                 "id": "58330581ace78e27b8b10cee",
                 "name": "Skier",
@@ -100344,7 +100173,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "BEAR",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/5b478eca86f7744642012254.webp"
@@ -100353,7 +100182,7 @@
             "id": "5b478ff486f7744d184ecbbf",
             "tarkovDataId": "5b478ff486f7744d184ecbbf",
             "name": "供货",
-            "normalizedName": "supplements",
+            "normalizedName": "supplements-usec",
             "trader": {
                 "id": "58330581ace78e27b8b10cee",
                 "name": "Skier",
@@ -100621,7 +100450,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "USEC",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/5b478ff486f7744d184ecbbf.webp"
@@ -111518,7 +111347,7 @@
             "id": "5d25e2c386f77443e7549029",
             "tarkovDataId": "5d25e2c386f77443e7549029",
             "name": "猎人之路 - 战利品",
-            "normalizedName": "the-huntsman-path-trophy",
+            "normalizedName": "the-huntsman-path-trophy-usec",
             "trader": {
                 "id": "5c0647fdd443bc2504c2d371",
                 "name": "Jaeger",
@@ -111681,7 +111510,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "USEC",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/5d25e2c386f77443e7549029.webp"
@@ -112238,7 +112067,7 @@
             "id": "5d25e43786f7740a212217fa",
             "tarkovDataId": "5d25e43786f7740a212217fa",
             "name": "猎人之路 - 正义",
-            "normalizedName": "the-huntsman-path-justice",
+            "normalizedName": "the-huntsman-path-justice-bear",
             "trader": {
                 "id": "5c0647fdd443bc2504c2d371",
                 "name": "Jaeger",
@@ -112482,7 +112311,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "BEAR",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/5d25e43786f7740a212217fa.webp"
@@ -128646,7 +128475,7 @@
             "id": "639135c3744e452011470807",
             "tarkovDataId": "639135c3744e452011470807",
             "name": "软禁",
-            "normalizedName": "house-arrest",
+            "normalizedName": "house-arrest-usec",
             "trader": {
                 "id": "58330581ace78e27b8b10cee",
                 "name": "Skier",
@@ -128895,7 +128724,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "USEC",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/639135c3744e452011470807.webp"
@@ -134602,7 +134431,7 @@
             "id": "639872fa9b4fb827b200d8e5",
             "tarkovDataId": "639872fa9b4fb827b200d8e5",
             "name": "枪匠 - P226R",
-            "normalizedName": "gunsmith-p226r",
+            "normalizedName": "gunsmith-p226r-usec",
             "trader": {
                 "id": "5a7c2eca46aef81a7ca2145d",
                 "name": "Mechanic",
@@ -134809,7 +134638,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "USEC",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/639872fa9b4fb827b200d8e5.webp"
@@ -134818,7 +134647,7 @@
             "id": "639872fc93ae507d5858c3a6",
             "tarkovDataId": "639872fc93ae507d5858c3a6",
             "name": "枪匠 - Vector 9x19",
-            "normalizedName": "gunsmith-vector-9x19",
+            "normalizedName": "gunsmith-vector-9x19-usec",
             "trader": {
                 "id": "5a7c2eca46aef81a7ca2145d",
                 "name": "Mechanic",
@@ -135024,7 +134853,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "USEC",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/639872fc93ae507d5858c3a6.webp"
@@ -135033,7 +134862,7 @@
             "id": "639dbaf17c898a131e1cffff",
             "tarkovDataId": "639dbaf17c898a131e1cffff",
             "name": "老赖",
-            "normalizedName": "debtor",
+            "normalizedName": "debtor-bear",
             "trader": {
                 "id": "58330581ace78e27b8b10cee",
                 "name": "Skier",
@@ -135266,7 +135095,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "BEAR",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/639dbaf17c898a131e1cffff.webp"
@@ -140243,7 +140072,7 @@
             "id": "65733403eefc2c312a759ddb",
             "tarkovDataId": "65733403eefc2c312a759ddb",
             "name": "公司福报",
-            "normalizedName": "corporate-perks",
+            "normalizedName": "corporate-perks-bear",
             "trader": {
                 "id": "5a7c2eca46aef81a7ca2145d",
                 "name": "Mechanic",
@@ -140458,7 +140287,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "BEAR",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/65733403eefc2c312a759ddb.webp"
@@ -140467,7 +140296,7 @@
             "id": "6573382e557ff128bf3da536",
             "tarkovDataId": "6573382e557ff128bf3da536",
             "name": "高效秘诀",
-            "normalizedName": "the-secret-to-productivity",
+            "normalizedName": "the-secret-to-productivity-usec",
             "trader": {
                 "id": "5a7c2eca46aef81a7ca2145d",
                 "name": "Mechanic",
@@ -140630,7 +140459,7 @@
                 "achievement": [],
                 "customization": []
             },
-            "factionName": "Any",
+            "factionName": "USEC",
             "kappaRequired": false,
             "lightkeeperRequired": false,
             "taskImageLink": "https://assets.tarkov.dev/6573382e557ff128bf3da536.webp"
