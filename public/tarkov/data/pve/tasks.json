@@ -1164,7 +1164,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 5,
                     "shotType": "kill",
@@ -3354,7 +3354,7 @@
                     "maps": [],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 5,
                     "shotType": "kill",
@@ -4783,7 +4783,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 15,
                     "shotType": "kill",
@@ -6654,7 +6654,7 @@
                     "maps": [],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 3,
                     "shotType": "hit",
@@ -6837,7 +6837,7 @@
                     "maps": [],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 2,
                     "shotType": "hit",
@@ -11777,14 +11777,14 @@
                     "description": "在疼痛状态下消灭 Scav",
                     "maps": [
                         {
+                            "id": "6a8dd1325e15a5ea2e010820",
+                            "name": "工厂疫区",
+                            "normalizedName": "infected-factory"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
@@ -11797,24 +11797,29 @@
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "68236e8153654e8c1200798a",
                             "name": "Ground Zero 教程",
                             "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         },
                         {
                             "id": "5704e4dad2720bb55b8b4567",
@@ -14999,14 +15004,14 @@
                     "description": "在任意地图使用 Steyr AUG 消灭 Scav",
                     "maps": [
                         {
+                            "id": "6a8dd1325e15a5ea2e010820",
+                            "name": "工厂疫区",
+                            "normalizedName": "infected-factory"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
@@ -15019,24 +15024,29 @@
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "68236e8153654e8c1200798a",
                             "name": "Ground Zero 教程",
                             "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         },
                         {
                             "id": "5704e4dad2720bb55b8b4567",
@@ -17391,7 +17401,7 @@
                     "maps": [],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 100,
                     "shotType": "kill",
@@ -20933,7 +20943,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 15,
                     "shotType": "kill",
@@ -23467,14 +23477,14 @@
                             "normalizedName": "ground-zero-21"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
                         },
                         {
                             "id": "5704e554d2720bac5b8b456e",
@@ -24193,7 +24203,7 @@
                     "maps": [],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 10,
                     "shotType": "kill",
@@ -27730,7 +27740,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 6,
                     "shotType": "kill",
@@ -27985,7 +27995,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 6,
                     "shotType": "kill",
@@ -28164,7 +28174,7 @@
                     "maps": [],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 15,
                     "shotType": "kill",
@@ -30833,14 +30843,14 @@
                             "normalizedName": "ground-zero-21"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
                         },
                         {
                             "id": "5704e554d2720bac5b8b456e",
@@ -33817,7 +33827,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 15,
                     "shotType": "kill",
@@ -36171,7 +36181,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 10,
                     "shotType": "kill",
@@ -36810,7 +36820,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 10,
                     "shotType": "kill",
@@ -43254,7 +43264,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 36,
                     "shotType": "kill",
@@ -45381,7 +45391,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 5,
                     "shotType": "kill",
@@ -45435,7 +45445,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 5,
                     "shotType": "kill",
@@ -46150,7 +46160,7 @@
                     "maps": [],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 15,
                     "shotType": "kill",
@@ -46496,14 +46506,14 @@
                     "description": "在同场战局中找到并消灭 Knight",
                     "maps": [
                         {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
                         },
                         {
                             "id": "5704e554d2720bac5b8b456e",
@@ -49233,7 +49243,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 10,
                     "shotType": "kill",
@@ -51063,7 +51073,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 30,
                     "shotType": "kill",
@@ -52531,7 +52541,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 40,
                     "shotType": "kill",
@@ -54082,14 +54092,14 @@
                     "description": "使用轻机枪消灭 Scav",
                     "maps": [
                         {
+                            "id": "6a8dd1325e15a5ea2e010820",
+                            "name": "工厂疫区",
+                            "normalizedName": "infected-factory"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
@@ -54102,24 +54112,29 @@
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "68236e8153654e8c1200798a",
                             "name": "Ground Zero 教程",
                             "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         },
                         {
                             "id": "5704e4dad2720bb55b8b4567",
@@ -54901,9 +54916,9 @@
                             "normalizedName": "icebreaker"
                         },
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
@@ -54916,24 +54931,29 @@
                             "normalizedName": "shoreline"
                         },
                         {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
                         },
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "6a294a5b5eb5f9a1700417b7",
                             "name": "实验室 (Dark)",
                             "normalizedName": "the-lab-dark"
+                        },
+                        {
+                            "id": "6a8dd1325e15a5ea2e010820",
+                            "name": "工厂疫区",
+                            "normalizedName": "infected-factory"
+                        },
+                        {
+                            "id": "6a8dd0941fc6ba7a9505908f",
+                            "name": "实验室疫区",
+                            "normalizedName": "infected-lab"
                         }
                     ],
                     "optional": false,
@@ -54957,7 +54977,7 @@
                         "Birdeye",
                         "黑色军团 保镖",
                         "保镖",
-                        "感染者"
+                        "Infected Tagilla"
                     ],
                     "count": 5,
                     "shotType": "kill",
@@ -55952,7 +55972,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 15,
                     "shotType": "kill",
@@ -56603,7 +56623,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 25,
                     "shotType": "kill",
@@ -57157,7 +57177,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 40,
                     "shotType": "kill",
@@ -58062,7 +58082,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 30,
                     "shotType": "kill",
@@ -59499,7 +59519,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 15,
                     "shotType": "kill",
@@ -60370,7 +60390,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 30,
                     "shotType": "kill",
@@ -61210,7 +61230,7 @@
                     "maps": [],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 20,
                     "shotType": "kill",
@@ -61431,7 +61451,7 @@
                     "maps": [],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 15,
                     "shotType": "kill",
@@ -70898,7 +70918,7 @@
                     "maps": [],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 15,
                     "shotType": "kill",
@@ -75355,9 +75375,9 @@
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
@@ -75375,14 +75395,19 @@
                             "normalizedName": "shoreline"
                         },
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
+                            "id": "6a8dd1325e15a5ea2e010820",
+                            "name": "工厂疫区",
+                            "normalizedName": "infected-factory"
+                        },
+                        {
+                            "id": "6a8dd0941fc6ba7a9505908f",
+                            "name": "实验室疫区",
+                            "normalizedName": "infected-lab"
                         }
                     ],
                     "optional": false,
@@ -75398,7 +75423,7 @@
                         "Zryachiy",
                         "Vengeful Killa",
                         "Shadow of Tagilla",
-                        "感染者",
+                        "Infected Tagilla",
                         "Labyrinth Guard"
                     ],
                     "count": 5,
@@ -77320,7 +77345,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 100,
                     "shotType": "kill",
@@ -78887,9 +78912,9 @@
                     "description": "找到并消灭Tagilla",
                     "maps": [
                         {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
+                            "id": "6a8dd1325e15a5ea2e010820",
+                            "name": "工厂疫区",
+                            "normalizedName": "infected-factory"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
@@ -78897,15 +78922,15 @@
                             "normalizedName": "interchange"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
+                            "id": "6a8dd0941fc6ba7a9505908f",
+                            "name": "实验室疫区",
+                            "normalizedName": "infected-lab"
                         }
                     ],
                     "optional": false,
                     "targetNames": [
                         "Tagilla",
-                        "感染者"
+                        "Infected Tagilla"
                     ],
                     "count": 1,
                     "shotType": "kill",
@@ -79034,9 +79059,9 @@
                     "description": "找到并消灭Glukhar",
                     "maps": [
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -79665,7 +79690,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 15,
                     "shotType": "kill",
@@ -83504,7 +83529,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 10,
                     "shotType": "kill",
@@ -86337,7 +86362,7 @@
                     "maps": [],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 10,
                     "shotType": "kill",
@@ -94207,7 +94232,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 10,
                     "shotType": "kill",
@@ -100965,14 +100990,14 @@
                             "normalizedName": "streets-of-tarkov"
                         },
                         {
+                            "id": "6a8dd1325e15a5ea2e010820",
+                            "name": "工厂疫区",
+                            "normalizedName": "infected-factory"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
@@ -100985,24 +101010,29 @@
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "68236e8153654e8c1200798a",
                             "name": "Ground Zero 教程",
                             "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         },
                         {
                             "id": "5704e4dad2720bb55b8b4567",
@@ -101425,7 +101455,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 40,
                     "shotType": "kill",
@@ -117614,7 +117644,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 5,
                     "shotType": "kill",
@@ -119004,14 +119034,14 @@
                     "description": "命中头部击杀Scav",
                     "maps": [
                         {
+                            "id": "6a8dd1325e15a5ea2e010820",
+                            "name": "工厂疫区",
+                            "normalizedName": "infected-factory"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
@@ -119024,24 +119054,29 @@
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "68236e8153654e8c1200798a",
                             "name": "Ground Zero 教程",
                             "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         },
                         {
                             "id": "5704e4dad2720bb55b8b4567",
@@ -119302,14 +119337,14 @@
                             "normalizedName": "ground-zero-21"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
                         },
                         {
                             "id": "5704e554d2720bac5b8b456e",
@@ -121511,7 +121546,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 10,
                     "shotType": "kill",
@@ -124253,7 +124288,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 10,
                     "shotType": "kill",
@@ -125838,7 +125873,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 4,
                     "shotType": "kill",
@@ -126127,7 +126162,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 10,
                     "shotType": "kill",
@@ -131801,7 +131836,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 20,
                     "shotType": "kill",
@@ -132410,7 +132445,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 20,
                     "shotType": "kill",
@@ -133507,9 +133542,9 @@
                             "normalizedName": "woods"
                         },
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         }
                     ],
                     "optional": false,
@@ -135705,7 +135740,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 30,
                     "shotType": "kill",
@@ -136105,7 +136140,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 20,
                     "shotType": "kill",
@@ -141562,7 +141597,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 10,
                     "shotType": "kill",
@@ -141811,14 +141846,14 @@
                     "description": "6667196a74bbc3a671ef49f8",
                     "maps": [
                         {
+                            "id": "6a8dd1325e15a5ea2e010820",
+                            "name": "工厂疫区",
+                            "normalizedName": "infected-factory"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
@@ -141831,24 +141866,29 @@
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "68236e8153654e8c1200798a",
                             "name": "Ground Zero 教程",
                             "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         },
                         {
                             "id": "5704e4dad2720bb55b8b4567",
@@ -142848,9 +142888,9 @@
                             "normalizedName": "streets-of-tarkov"
                         },
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         },
                         {
                             "id": "56f40101d2720b2a4d8b45d6",
@@ -142921,9 +142961,9 @@
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
+                            "id": "5704e5fad2720bc05b8b4567",
+                            "name": "储备站",
+                            "normalizedName": "reserve"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
@@ -142941,19 +142981,14 @@
                             "normalizedName": "shoreline"
                         },
                         {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
+                        },
+                        {
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
-                        },
-                        {
-                            "id": "55f2d3fd4bdc2d5f408b4567",
-                            "name": "工厂",
-                            "normalizedName": "factory"
-                        },
-                        {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
                         }
                     ],
                     "optional": false,
@@ -144204,7 +144239,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 5,
                     "shotType": "kill",
@@ -145325,7 +145360,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 30,
                     "shotType": "kill",
@@ -162879,7 +162914,9 @@
                             "shortName": "南瓜",
                             "width": 2,
                             "height": 2,
-                            "types": [],
+                            "types": [
+                                "noFlea"
+                            ],
                             "iconLink": "https://assets.tarkov.dev/634959225289190e5e773b3b-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pumpkin_with_sweets"
                         },
@@ -207591,7 +207628,9 @@
                             "shortName": "南瓜",
                             "width": 2,
                             "height": 2,
-                            "types": [],
+                            "types": [
+                                "noFlea"
+                            ],
                             "iconLink": "https://assets.tarkov.dev/634959225289190e5e773b3b-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pumpkin_with_sweets"
                         },
@@ -254042,7 +254081,9 @@
                             "shortName": "南瓜",
                             "width": 2,
                             "height": 2,
-                            "types": [],
+                            "types": [
+                                "noFlea"
+                            ],
                             "iconLink": "https://assets.tarkov.dev/634959225289190e5e773b3b-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pumpkin_with_sweets"
                         },
@@ -286597,7 +286638,7 @@
                     "maps": [],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 30,
                     "shotType": "kill",
@@ -288751,7 +288792,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 3,
                     "shotType": "kill",
@@ -288966,14 +289007,14 @@
                     "description": "在完成其他目标的同时消灭 Scav",
                     "maps": [
                         {
+                            "id": "6a8dd1325e15a5ea2e010820",
+                            "name": "工厂疫区",
+                            "normalizedName": "infected-factory"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
@@ -288986,24 +289027,29 @@
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "68236e8153654e8c1200798a",
                             "name": "Ground Zero 教程",
                             "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         },
                         {
                             "id": "5704e4dad2720bb55b8b4567",
@@ -289454,7 +289500,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 3,
                     "shotType": "kill",
@@ -289669,14 +289715,14 @@
                     "description": "在完成其他目标的同时消灭 Scav",
                     "maps": [
                         {
+                            "id": "6a8dd1325e15a5ea2e010820",
+                            "name": "工厂疫区",
+                            "normalizedName": "infected-factory"
+                        },
+                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
-                        },
-                        {
-                            "id": "69af492a4819ea4ba10a69c5",
-                            "name": "破冰船",
-                            "normalizedName": "icebreaker"
                         },
                         {
                             "id": "5714dbc024597771384a510d",
@@ -289689,24 +289735,29 @@
                             "normalizedName": "reserve"
                         },
                         {
-                            "id": "59fc81d786f774390775787e",
-                            "name": "夜间工厂",
-                            "normalizedName": "night-factory"
-                        },
-                        {
                             "id": "56f40101d2720b2a4d8b45d6",
                             "name": "海关",
                             "normalizedName": "customs"
                         },
                         {
-                            "id": "5704e554d2720bac5b8b456e",
-                            "name": "海岸线",
-                            "normalizedName": "shoreline"
-                        },
-                        {
                             "id": "68236e8153654e8c1200798a",
                             "name": "Ground Zero 教程",
                             "normalizedName": "ground-zero-tutorial"
+                        },
+                        {
+                            "id": "69af492a4819ea4ba10a69c5",
+                            "name": "破冰船",
+                            "normalizedName": "icebreaker"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "5704e554d2720bac5b8b456e",
+                            "name": "海岸线",
+                            "normalizedName": "shoreline"
                         },
                         {
                             "id": "5704e4dad2720bb55b8b4567",
@@ -306080,7 +306131,9 @@
                             "shortName": "南瓜",
                             "width": 2,
                             "height": 2,
-                            "types": [],
+                            "types": [
+                                "noFlea"
+                            ],
                             "iconLink": "https://assets.tarkov.dev/634959225289190e5e773b3b-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pumpkin_with_sweets"
                         },
@@ -339358,7 +339411,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 15,
                     "shotType": "kill",
@@ -344871,7 +344924,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 15,
                     "shotType": "kill",
@@ -346055,7 +346108,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 3,
                     "shotType": "kill",
@@ -346273,7 +346326,7 @@
                     ],
                     "optional": false,
                     "targetNames": [
-                        "任意目标："
+                        "任意地点"
                     ],
                     "count": 3,
                     "shotType": "kill",
