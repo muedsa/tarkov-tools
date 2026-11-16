@@ -10027,7 +10027,7 @@
                 "customization": [
                     {
                         "id": "67585d2cd7a2703986067e99",
-                        "name": "彩色靶纸",
+                        "name": "67585d2cd7a2703986067e99 Name",
                         "customizationType": "ShootingRangeMark",
                         "customizationTypeName": "Hideout/Customization/ShootingRangeMark/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-67585d2cd7a2703986067e99.webp"
@@ -11962,7 +11962,7 @@
                 "customization": [
                     {
                         "id": "67585bf5428877c04c038ee3",
-                        "name": "熊靶纸",
+                        "name": "67585bf5428877c04c038ee3 Name",
                         "customizationType": "ShootingRangeMark",
                         "customizationTypeName": "Hideout/Customization/ShootingRangeMark/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-67585bf5428877c04c038ee3.webp"
@@ -17735,7 +17735,7 @@
                 "customization": [
                     {
                         "id": "675466ea8b3797a0e8038bd2",
-                        "name": "拼花地板",
+                        "name": "675466ea8b3797a0e8038bd2 Name",
                         "customizationType": "Floor",
                         "customizationTypeName": "Hideout/Customization/Floor/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-675466ea8b3797a0e8038bd2.webp"
@@ -18101,7 +18101,7 @@
                 "customization": [
                     {
                         "id": "675466ea8b3797a0e8038bd2",
-                        "name": "拼花地板",
+                        "name": "675466ea8b3797a0e8038bd2 Name",
                         "customizationType": "Floor",
                         "customizationTypeName": "Hideout/Customization/Floor/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-675466ea8b3797a0e8038bd2.webp"
@@ -24579,7 +24579,7 @@
                 "customization": [
                     {
                         "id": "675468d8c6e063d76309c60f",
-                        "name": "脏天花板",
+                        "name": "675468d8c6e063d76309c60f Name",
                         "customizationType": "Ceiling",
                         "customizationTypeName": "Hideout/Customization/Ceiling/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-675468d8c6e063d76309c60f.webp"
@@ -36952,7 +36952,7 @@
                 "customization": [
                     {
                         "id": "675468d8c6e063d76309c60f",
-                        "name": "脏天花板",
+                        "name": "675468d8c6e063d76309c60f Name",
                         "customizationType": "Ceiling",
                         "customizationTypeName": "Hideout/Customization/Ceiling/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-675468d8c6e063d76309c60f.webp"
@@ -55656,7 +55656,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab60a62d60e0dec3e04ff2c-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -55670,7 +55670,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab60a57615ae75bdd0e39ce-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -55684,7 +55684,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab60a252bc101093f05029f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -55698,7 +55698,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab2d68819b981e6870f35d3-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -55712,7 +55712,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab2d6031c7d617b290dd2b0-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -55726,7 +55726,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d5ee11d6c6361804dd57-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -55740,7 +55740,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d5d3667ebebca605d8f6-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -55754,7 +55754,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d5af0b4e81daf20cd215-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -55768,7 +55768,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d585cfc9b36b300da06a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -55782,7 +55782,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d55e0b4e81daf20cd212-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -55796,7 +55796,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d537cfc9b36b300da067-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         }
                     ],
@@ -61161,7 +61161,7 @@
                 "customization": [
                     {
                         "id": "675467d8b784110b2702fe11",
-                        "name": "红漆",
+                        "name": "675467d8b784110b2702fe11 Name",
                         "customizationType": "Wall",
                         "customizationTypeName": "Hideout/Customization/Wall/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-675467d8b784110b2702fe11.webp"
@@ -69486,14 +69486,14 @@
                 "customization": [
                     {
                         "id": "675467aa81067119a10938cb",
-                        "name": "砖墙",
+                        "name": "675467aa81067119a10938cb Name",
                         "customizationType": "Wall",
                         "customizationTypeName": "Hideout/Customization/Wall/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-675467aa81067119a10938cb.webp"
                     },
                     {
                         "id": "675468937dadca6836092b2a",
-                        "name": "白色天花板",
+                        "name": "675468937dadca6836092b2a Name",
                         "customizationType": "Ceiling",
                         "customizationTypeName": "Hideout/Customization/Ceiling/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-675468937dadca6836092b2a.webp"
@@ -75596,7 +75596,7 @@
                 "customization": [
                     {
                         "id": "6754666c76e1f2b24c0cc956",
-                        "name": "层压地板",
+                        "name": "6754666c76e1f2b24c0cc956 Name",
                         "customizationType": "Floor",
                         "customizationTypeName": "Hideout/Customization/Floor/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-6754666c76e1f2b24c0cc956.webp"
@@ -79291,7 +79291,7 @@
                 "customization": [
                     {
                         "id": "67585cf55ec257bf740a446f",
-                        "name": "野猪靶纸",
+                        "name": "67585cf55ec257bf740a446f Name",
                         "customizationType": "ShootingRangeMark",
                         "customizationTypeName": "Hideout/Customization/ShootingRangeMark/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-67585cf55ec257bf740a446f.webp"
@@ -80060,7 +80060,7 @@
                 "customization": [
                     {
                         "id": "675466d57dadca6836092b26",
-                        "name": "英式人字纹",
+                        "name": "675466d57dadca6836092b26 Name",
                         "customizationType": "Floor",
                         "customizationTypeName": "Hideout/Customization/Floor/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-675466d57dadca6836092b26.webp"
@@ -120038,7 +120038,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d537cfc9b36b300da067-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -120052,7 +120052,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d55e0b4e81daf20cd212-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -120066,7 +120066,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d585cfc9b36b300da06a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -120080,7 +120080,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d5af0b4e81daf20cd215-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -120094,7 +120094,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d5d3667ebebca605d8f6-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -120108,7 +120108,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d5ee11d6c6361804dd57-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -120447,7 +120447,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab2d6031c7d617b290dd2b0-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -120461,7 +120461,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab2d68819b981e6870f35d3-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -120475,7 +120475,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab60a252bc101093f05029f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -120489,7 +120489,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab60a57615ae75bdd0e39ce-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -120503,7 +120503,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab60a62d60e0dec3e04ff2c-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -135369,7 +135369,7 @@
                 "customization": [
                     {
                         "id": "67585d6ab032beb9b5097e96",
-                        "name": "鸭子靶纸",
+                        "name": "67585d6ab032beb9b5097e96 Name",
                         "customizationType": "ShootingRangeMark",
                         "customizationTypeName": "Hideout/Customization/ShootingRangeMark/TabName",
                         "imageLink": "https://assets.tarkov.dev/customization-67585d6ab032beb9b5097e96.webp"
@@ -194271,7 +194271,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d585cfc9b36b300da06a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -194285,7 +194285,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d5af0b4e81daf20cd215-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -194299,7 +194299,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab60a252bc101093f05029f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -194313,7 +194313,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d537cfc9b36b300da067-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -194327,7 +194327,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d55e0b4e81daf20cd212-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -194341,7 +194341,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d5d3667ebebca605d8f6-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -194355,7 +194355,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab2d6031c7d617b290dd2b0-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -194369,7 +194369,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab2d68819b981e6870f35d3-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -194383,7 +194383,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d5ee11d6c6361804dd57-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -194397,7 +194397,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab60a57615ae75bdd0e39ce-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -194411,7 +194411,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab60a62d60e0dec3e04ff2c-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         }
                     ],
@@ -285426,7 +285426,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d585cfc9b36b300da06a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -285440,7 +285440,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d5af0b4e81daf20cd215-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -285454,7 +285454,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab60a252bc101093f05029f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -285468,7 +285468,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d537cfc9b36b300da067-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -285482,7 +285482,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d55e0b4e81daf20cd212-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -285496,7 +285496,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d5d3667ebebca605d8f6-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -285510,7 +285510,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab2d6031c7d617b290dd2b0-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -285524,7 +285524,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab2d68819b981e6870f35d3-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -285538,7 +285538,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6aa2d5ee11d6c6361804dd57-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -285552,7 +285552,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab60a57615ae75bdd0e39ce-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         },
                         {
@@ -285566,7 +285566,7 @@
                                 "barter",
                                 "noFlea"
                             ],
-                            "iconLink": "https://assets.tarkov.dev/unknown-item-icon.jpg",
+                            "iconLink": "https://assets.tarkov.dev/6ab60a62d60e0dec3e04ff2c-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dogtag"
                         }
                     ],
