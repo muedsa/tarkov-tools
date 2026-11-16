@@ -114377,7 +114377,7 @@
                     "__typename": "TaskObjectiveShoot",
                     "id": "5fd8aa3206fb3a6b8154a2c3",
                     "type": "shoot",
-                    "description": "使用装有指定瞄具的M700狙击步枪从40米开外爆头击杀Shturman",
+                    "description": "使用栓动式步枪消灭任意 Boss",
                     "maps": [
                         {
                             "id": "5704e3c2d2720bac5b8b4567",
@@ -114551,27 +114551,13 @@
                         }
                     ],
                     "usingWeaponMods": [
-                        [
-                            {
-                                "id": "5b2388675acfc4771e1be0be",
-                                "name": "Burris FullField TAC30 1-4x24 30 毫米 步枪瞄准镜",
-                                "normalizedName": "burris-fullfield-tac30-1-4x24-30mm-riflescope",
-                                "shortName": "TAC 30",
-                                "width": 2,
-                                "height": 1,
-                                "types": [
-                                    "mods"
-                                ],
-                                "iconLink": "https://assets.tarkov.dev/5b2388675acfc4771e1be0be-icon.webp",
-                                "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Burris_FullField_TAC30_1-4x24_30mm_riflescope"
-                            }
-                        ]
+                        []
                     ],
                     "wearing": [],
                     "notWearing": [],
                     "distance": {
-                        "compareMethod": ">=",
-                        "value": 40
+                        "value": 0,
+                        "compareMethod": ">="
                     },
                     "playerHealthEffect": null,
                     "enemyHealthEffect": null,
