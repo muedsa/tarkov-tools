@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
-# ---------- 构建阶段：生成静态导出产物 out/ ----------
-FROM node:22-alpine AS builder
+# ---------- 构建阶段：使用构建机原生架构生成静态产物 out/ ----------
+FROM --platform=$BUILDPLATFORM node:22-alpine AS builder
 WORKDIR /app
 ENV PNPM_HOME=/pnpm
 RUN corepack enable pnpm
