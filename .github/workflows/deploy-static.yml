@@ -1,0 +1,128 @@
+name: Deploy static site via SSH
+
+on:
+  workflow_call:
+    secrets:
+      DEPLOY_HOST:
+        required: true
+      DEPLOY_USER:
+        required: true
+      DEPLOY_PORT:
+        required: false
+      DEPLOY_PATH:
+        required: true
+      DEPLOY_SSH_KEY:
+        required: true
+      DEPLOY_SSH_PASSPHRASE:
+        required: false
+      DEPLOY_KNOWN_HOSTS:
+        required: true
+
+jobs:
+  sync:
+    name: Sync out to the server
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    environment: production
+    permissions: {}
+
+    steps:
+      - name: Check whether SSH deployment is enabled
+        id: config
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+        shell: bash
+        run: |
+          if [[ -n "$DEPLOY_HOST" ]]; then
+            echo 'enabled=true' >> "$GITHUB_OUTPUT"
+          else
+            echo 'SSH deployment skipped. Set the DEPLOY_HOST secret in the production environment to enable it.'
+          fi
+
+      - name: Download the validated static site
+        if: steps.config.outputs.enabled == 'true'
+        uses: actions/download-artifact@v8
+        with:
+          name: tarkov-tools-site
+          path: out/
+
+      - name: Sync over SSH
+        if: steps.config.outputs.enabled == 'true'
+        env:
+          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT || '22' }}
+          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+          DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+          DEPLOY_SSH_PASSPHRASE: ${{ secrets.DEPLOY_SSH_PASSPHRASE }}
+          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        shell: bash
+        run: |
+          : "${DEPLOY_USER:?Set DEPLOY_USER in the production environment}"
+          : "${DEPLOY_PATH:?Set DEPLOY_PATH in the production environment}"
+          : "${DEPLOY_SSH_KEY:?Set DEPLOY_SSH_KEY in the production environment}"
+          : "${DEPLOY_KNOWN_HOSTS:?Set DEPLOY_KNOWN_HOSTS in the production environment}"
+          if [[ ! "$DEPLOY_HOST" =~ ^[A-Za-z0-9][A-Za-z0-9.-]*$ || ! "$DEPLOY_USER" =~ ^[A-Za-z0-9_][A-Za-z0-9_.-]*$ ]]; then
+            echo 'Set DEPLOY_HOST to a hostname or IPv4 address and DEPLOY_USER to an SSH username.' >&2
+            exit 1
+          fi
+          if [[ ! "$DEPLOY_PORT" =~ ^[1-9][0-9]{0,4}$ ]] || (( DEPLOY_PORT > 65535 )); then
+            echo 'DEPLOY_PORT must be an integer from 1 to 65535.' >&2
+            exit 1
+          fi
+          case "$DEPLOY_PATH/" in
+            /|//*|*/../*|*/./*) echo 'DEPLOY_PATH must name a dedicated absolute directory below /.' >&2; exit 1 ;;
+            /*) ;;
+            *) echo 'DEPLOY_PATH must be an absolute path.' >&2; exit 1 ;;
+          esac
+          test -s out/index.html
+
+          umask 077
+          ssh_dir=$(mktemp -d)
+          deploy_agent_started=false
+          cleanup() {
+            unset DEPLOY_SSH_PASSPHRASE
+            if [[ "$deploy_agent_started" == true ]]; then
+              ssh-agent -k >/dev/null 2>&1 || true
+            fi
+            rm -f -- "$ssh_dir/key" "$ssh_dir/known_hosts" "$ssh_dir/config" \
+              "$ssh_dir/askpass" "$ssh_dir/askpass.used" "$ssh_dir/agent"
+            rmdir -- "$ssh_dir"
+          }
+          trap cleanup EXIT
+          printf '%s\n' "$DEPLOY_SSH_KEY" > "$ssh_dir/key"
+          printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > "$ssh_dir/known_hosts"
+          unset DEPLOY_SSH_KEY DEPLOY_KNOWN_HOSTS
+
+          if [[ -n "$DEPLOY_SSH_PASSPHRASE" ]]; then
+            cat > "$ssh_dir/askpass" <<'EOF'
+          #!/bin/sh
+          (set -C; : > "$0.used") 2>/dev/null || exit 1
+          printf '%s\n' "$DEPLOY_SSH_PASSPHRASE"
+          EOF
+            chmod 700 "$ssh_dir/askpass"
+            agent_environment=$(env -u DEPLOY_SSH_PASSPHRASE ssh-agent -s -a "$ssh_dir/agent")
+            eval "$agent_environment" >/dev/null
+            deploy_agent_started=true
+            if ! SSH_ASKPASS="$ssh_dir/askpass" SSH_ASKPASS_REQUIRE=force ssh-add -q "$ssh_dir/key" </dev/null; then
+              echo 'Unable to unlock DEPLOY_SSH_KEY. Check DEPLOY_SSH_PASSPHRASE.' >&2
+              exit 1
+            fi
+          fi
+          unset DEPLOY_SSH_PASSPHRASE
+
+          cat > "$ssh_dir/config" <<EOF
+          Host *
+            Port $DEPLOY_PORT
+            BatchMode yes
+            IdentitiesOnly yes
+            StrictHostKeyChecking yes
+            UserKnownHostsFile "$ssh_dir/known_hosts"
+            GlobalKnownHostsFile /dev/null
+            IdentityFile "$ssh_dir/key"
+            ConnectTimeout 15
+          EOF
+
+          rsync --recursive --times --omit-dir-times --delay-updates --secluded-args \
+            --rsh="ssh -F '$ssh_dir/config'" \
+            -- out/ "$DEPLOY_USER@$DEPLOY_HOST:${DEPLOY_PATH%/}/"

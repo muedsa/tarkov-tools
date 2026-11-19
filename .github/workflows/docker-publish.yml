@@ -5,11 +5,73 @@ on:
     branches: ["main"]
   workflow_dispatch: {}
 
+concurrency:
+  group: docker-publish-${{ github.ref }}
+  cancel-in-progress: false
+
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
+  build-static:
+    name: Build static site
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v6
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build and check the static export
+        env:
+          NEXT_TELEMETRY_DISABLED: "1"
+        run: |
+          pnpm run build
+          test -s out/index.html
+          test -s out/404.html
+
+      - name: Upload static site for SSH deployment
+        uses: actions/upload-artifact@v7
+        with:
+          name: tarkov-tools-site
+          path: out/
+          include-hidden-files: true
+          if-no-files-found: error
+          overwrite: true
+          retention-days: 7
+
+  deploy:
+    name: Deploy static site via SSH
+    needs: build-static
+    if: github.ref == 'refs/heads/main'
+    permissions: {}
+    uses: ./.github/workflows/deploy-static.yml
+    secrets:
+      DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+      DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+      DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
+      DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
+      DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+      DEPLOY_SSH_PASSPHRASE: ${{ secrets.DEPLOY_SSH_PASSPHRASE }}
+      DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+
   build-and-push:
     runs-on: ubuntu-latest
     permissions:
