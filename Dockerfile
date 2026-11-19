@@ -3,16 +3,18 @@
 # ---------- 构建阶段：生成静态导出产物 out/ ----------
 FROM node:22-alpine AS builder
 WORKDIR /app
+ENV PNPM_HOME=/pnpm
+RUN corepack enable pnpm
 
-# 先复制依赖清单，最大化利用 Docker 层缓存（依赖未变时跳过 npm ci）
-COPY package.json package-lock.json ./
-RUN --mount=type=cache,target=/root/.npm \
-    npm ci --no-audit --no-fund
+# 先复制依赖清单和锁文件，让源码变动不影响依赖安装缓存
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+RUN --mount=type=cache,target=/pnpm/store,sharing=locked \
+    pnpm install --frozen-lockfile
 
 # 复制其余源码并构建。next.config.ts 里 output: "export" 会将结果输出到 out/
 COPY . .
 ENV NEXT_TELEMETRY_DISABLED=1
-RUN npm run build
+RUN pnpm run build
 
 # ---------- 运行阶段：nginx 托管静态文件 ----------
 FROM nginx:alpine AS runner
