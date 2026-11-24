@@ -11777,11 +11777,6 @@
                     "description": "在疼痛状态下消灭 Scav",
                     "maps": [
                         {
-                            "id": "6a8dd1325e15a5ea2e010820",
-                            "name": "工厂疫区",
-                            "normalizedName": "infected-factory"
-                        },
-                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
@@ -15003,11 +14998,6 @@
                     "type": "shoot",
                     "description": "在任意地图使用 Steyr AUG 消灭 Scav",
                     "maps": [
-                        {
-                            "id": "6a8dd1325e15a5ea2e010820",
-                            "name": "工厂疫区",
-                            "normalizedName": "infected-factory"
-                        },
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
@@ -20910,7 +20900,7 @@
                 "name": "塔科夫街区",
                 "normalizedName": "streets-of-tarkov"
             },
-            "experience": 11000,
+            "experience": 10000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dandies",
             "minPlayerLevel": 12,
             "taskRequirements": [],
@@ -23250,7 +23240,7 @@
                 "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
             },
             "map": null,
-            "experience": 2300,
+            "experience": 3000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hell_on_Earth_-_Part_1",
             "minPlayerLevel": 12,
             "taskRequirements": [
@@ -23440,7 +23430,7 @@
                 "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
             },
             "map": null,
-            "experience": 16000,
+            "experience": 28000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Hell_on_Earth_-_Part_2",
             "minPlayerLevel": 12,
             "taskRequirements": [
@@ -37859,7 +37849,7 @@
                 "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
             },
             "map": null,
-            "experience": 18000,
+            "experience": 10000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Job_for_a_Patriot",
             "minPlayerLevel": 25,
             "taskRequirements": [],
@@ -42148,7 +42138,9 @@
                             "shortName": "Labrys",
                             "width": 1,
                             "height": 2,
-                            "types": [],
+                            "types": [
+                                "barter"
+                            ],
                             "iconLink": "https://assets.tarkov.dev/679b992329acd1f2f60985a5-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Labrys_research_notes"
                         }
@@ -51047,7 +51039,7 @@
                 "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
             },
             "map": null,
-            "experience": 32000,
+            "experience": 65000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Unique_Experience",
             "minPlayerLevel": 35,
             "taskRequirements": [],
@@ -54092,11 +54084,6 @@
                     "description": "使用轻机枪消灭 Scav",
                     "maps": [
                         {
-                            "id": "6a8dd1325e15a5ea2e010820",
-                            "name": "工厂疫区",
-                            "normalizedName": "infected-factory"
-                        },
-                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
@@ -54941,29 +54928,19 @@
                             "normalizedName": "woods"
                         },
                         {
-                            "id": "6a294a5b5eb5f9a1700417b7",
-                            "name": "实验室 (Dark)",
-                            "normalizedName": "the-lab-dark"
-                        },
-                        {
-                            "id": "6a8dd1325e15a5ea2e010820",
-                            "name": "工厂疫区",
-                            "normalizedName": "infected-factory"
-                        },
-                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
                         },
                         {
-                            "id": "6a8dd0941fc6ba7a9505908f",
-                            "name": "实验室疫区",
-                            "normalizedName": "infected-lab"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "6a294a5b5eb5f9a1700417b7",
+                            "name": "实验室 (Dark)",
+                            "normalizedName": "the-lab-dark"
                         }
                     ],
                     "optional": false,
@@ -57154,7 +57131,7 @@
                 "name": "实验室",
                 "normalizedName": "the-lab"
             },
-            "experience": 12500,
+            "experience": 65000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Decontamination_Service",
             "minPlayerLevel": 37,
             "taskRequirements": [],
@@ -58428,7 +58405,7 @@
                 "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
             },
             "map": null,
-            "experience": 24000,
+            "experience": 65000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Beneath_The_Streets",
             "minPlayerLevel": 37,
             "taskRequirements": [],
@@ -60793,7 +60770,7 @@
                 "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
             },
             "map": null,
-            "experience": 34000,
+            "experience": 65000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Crisis",
             "minPlayerLevel": 38,
             "taskRequirements": [],
@@ -71621,7 +71598,9 @@
                             "shortName": "Dunduk",
                             "width": 1,
                             "height": 1,
-                            "types": [],
+                            "types": [
+                                "barter"
+                            ],
                             "iconLink": "https://assets.tarkov.dev/69f9d60b5de6674f08060f2a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dunduk_floppy_disk"
                         }
@@ -72102,6 +72081,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
+                                "barter",
                                 "keys"
                             ],
                             "iconLink": "https://assets.tarkov.dev/62a09ec84f842e1bd12da3f2-icon.webp",
@@ -75405,29 +75385,19 @@
                             "normalizedName": "shoreline"
                         },
                         {
-                            "id": "5704e4dad2720bb55b8b4567",
-                            "name": "灯塔",
-                            "normalizedName": "lighthouse"
-                        },
-                        {
-                            "id": "6a8dd1325e15a5ea2e010820",
-                            "name": "工厂疫区",
-                            "normalizedName": "infected-factory"
-                        },
-                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
                         },
                         {
-                            "id": "6a8dd0941fc6ba7a9505908f",
-                            "name": "实验室疫区",
-                            "normalizedName": "infected-lab"
-                        },
-                        {
                             "id": "59fc81d786f774390775787e",
                             "name": "夜间工厂",
                             "normalizedName": "night-factory"
+                        },
+                        {
+                            "id": "5704e4dad2720bb55b8b4567",
+                            "name": "灯塔",
+                            "normalizedName": "lighthouse"
                         }
                     ],
                     "optional": false,
@@ -76802,7 +76772,7 @@
                 "imageLink": "https://assets.tarkov.dev/54cb50c76803fa8b248b4571.webp"
             },
             "map": null,
-            "experience": 155000,
+            "experience": 65000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Escort",
             "minPlayerLevel": 46,
             "taskRequirements": [],
@@ -78932,11 +78902,6 @@
                     "description": "找到并消灭Tagilla",
                     "maps": [
                         {
-                            "id": "6a8dd1325e15a5ea2e010820",
-                            "name": "工厂疫区",
-                            "normalizedName": "infected-factory"
-                        },
-                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
@@ -78945,11 +78910,6 @@
                             "id": "5714dbc024597771384a510d",
                             "name": "立交桥",
                             "normalizedName": "interchange"
-                        },
-                        {
-                            "id": "6a8dd0941fc6ba7a9505908f",
-                            "name": "实验室疫区",
-                            "normalizedName": "infected-lab"
                         },
                         {
                             "id": "59fc81d786f774390775787e",
@@ -101020,11 +100980,6 @@
                             "normalizedName": "streets-of-tarkov"
                         },
                         {
-                            "id": "6a8dd1325e15a5ea2e010820",
-                            "name": "工厂疫区",
-                            "normalizedName": "infected-factory"
-                        },
-                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
@@ -101963,7 +101918,7 @@
                 "imageLink": "https://assets.tarkov.dev/5a7c2eca46aef81a7ca2145d.webp"
             },
             "map": null,
-            "experience": 55000,
+            "experience": 65000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Shooter_Born_in_Heaven",
             "minPlayerLevel": 0,
             "taskRequirements": [],
@@ -105070,7 +105025,7 @@
                 "imageLink": "https://assets.tarkov.dev/5ac3b934156ae10c4430e83c.webp"
             },
             "map": null,
-            "experience": 10000,
+            "experience": 28000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Scavenger",
             "minPlayerLevel": 0,
             "taskRequirements": [],
@@ -115802,7 +115757,7 @@
                 "imageLink": "https://assets.tarkov.dev/54cb57776803fa99248b456e.webp"
             },
             "map": null,
-            "experience": 27500,
+            "experience": 65000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/A_Difficult_Choice",
             "minPlayerLevel": 0,
             "taskRequirements": [
@@ -119049,11 +119004,6 @@
                     "type": "shoot",
                     "description": "命中头部击杀Scav",
                     "maps": [
-                        {
-                            "id": "6a8dd1325e15a5ea2e010820",
-                            "name": "工厂疫区",
-                            "normalizedName": "infected-factory"
-                        },
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
@@ -127395,7 +127345,7 @@
                 "name": "灯塔",
                 "normalizedName": "lighthouse"
             },
-            "experience": 7500,
+            "experience": 28000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Reconnaissance",
             "minPlayerLevel": 0,
             "taskRequirements": [],
@@ -129045,7 +128995,7 @@
                 "name": "塔科夫街区",
                 "normalizedName": "streets-of-tarkov"
             },
-            "experience": 12000,
+            "experience": 10000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Surveillance",
             "minPlayerLevel": 0,
             "taskRequirements": [],
@@ -130308,6 +130258,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "barter",
                                 "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6389c92d52123d5dd17f8876-icon.webp",
@@ -131746,6 +131697,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "barter",
                                 "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6389c8fb46b54c634724d847-icon.webp",
@@ -134925,7 +134877,7 @@
                 "name": "塔科夫街区",
                 "normalizedName": "streets-of-tarkov"
             },
-            "experience": 13200,
+            "experience": 10000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Debtor",
             "minPlayerLevel": 0,
             "taskRequirements": [],
@@ -136135,7 +136087,7 @@
                 "name": "塔科夫街区",
                 "normalizedName": "streets-of-tarkov"
             },
-            "experience": 8300,
+            "experience": 10000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/District_Patrol",
             "minPlayerLevel": 0,
             "taskRequirements": [],
@@ -139012,7 +138964,7 @@
                 "name": "塔科夫街区",
                 "normalizedName": "streets-of-tarkov"
             },
-            "experience": 12400,
+            "experience": 28000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Pyramid_Scheme",
             "minPlayerLevel": 0,
             "taskRequirements": [],
@@ -140885,7 +140837,7 @@
                 "name": "塔科夫街区",
                 "normalizedName": "streets-of-tarkov"
             },
-            "experience": 6600,
+            "experience": 10000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Properties_All_Around",
             "minPlayerLevel": 0,
             "taskRequirements": [],
@@ -141587,7 +141539,7 @@
                 "name": "海岸线",
                 "normalizedName": "shoreline"
             },
-            "experience": 12000,
+            "experience": 3000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/No_Swiping",
             "minPlayerLevel": 0,
             "taskRequirements": [],
@@ -141861,11 +141813,6 @@
                     "type": "shoot",
                     "description": "6667196a74bbc3a671ef49f8",
                     "maps": [
-                        {
-                            "id": "6a8dd1325e15a5ea2e010820",
-                            "name": "工厂疫区",
-                            "normalizedName": "infected-factory"
-                        },
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
@@ -143005,6 +142952,16 @@
                             "id": "5704e3c2d2720bac5b8b4567",
                             "name": "森林",
                             "normalizedName": "woods"
+                        },
+                        {
+                            "id": "55f2d3fd4bdc2d5f408b4567",
+                            "name": "工厂",
+                            "normalizedName": "factory"
+                        },
+                        {
+                            "id": "59fc81d786f774390775787e",
+                            "name": "夜间工厂",
+                            "normalizedName": "night-factory"
                         }
                     ],
                     "optional": false,
@@ -149725,6 +149682,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "barter",
                                 "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6389c8fb46b54c634724d847-icon.webp",
@@ -149738,6 +149696,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "barter",
                                 "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6389c92d52123d5dd17f8876-icon.webp",
@@ -149816,6 +149775,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
+                                "barter",
                                 "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/660bc341c38b837877075e4c-icon.webp",
@@ -155113,6 +155073,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
+                                "barter",
                                 "keys"
                             ],
                             "iconLink": "https://assets.tarkov.dev/62a09ec84f842e1bd12da3f2-icon.webp",
@@ -194439,6 +194400,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "barter",
                                 "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6389c8fb46b54c634724d847-icon.webp",
@@ -194452,6 +194414,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "barter",
                                 "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6389c92d52123d5dd17f8876-icon.webp",
@@ -194530,6 +194493,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
+                                "barter",
                                 "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/660bc341c38b837877075e4c-icon.webp",
@@ -199827,6 +199791,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
+                                "barter",
                                 "keys"
                             ],
                             "iconLink": "https://assets.tarkov.dev/62a09ec84f842e1bd12da3f2-icon.webp",
@@ -238399,6 +238364,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "barter",
                                 "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6389c8fb46b54c634724d847-icon.webp",
@@ -238412,6 +238378,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "barter",
                                 "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6389c92d52123d5dd17f8876-icon.webp",
@@ -238490,6 +238457,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
+                                "barter",
                                 "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/660bc341c38b837877075e4c-icon.webp",
@@ -243787,6 +243755,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
+                                "barter",
                                 "keys"
                             ],
                             "iconLink": "https://assets.tarkov.dev/62a09ec84f842e1bd12da3f2-icon.webp",
@@ -289023,11 +288992,6 @@
                     "description": "在完成其他目标的同时消灭 Scav",
                     "maps": [
                         {
-                            "id": "6a8dd1325e15a5ea2e010820",
-                            "name": "工厂疫区",
-                            "normalizedName": "infected-factory"
-                        },
-                        {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
                             "normalizedName": "factory"
@@ -289730,11 +289694,6 @@
                     "type": "shoot",
                     "description": "在完成其他目标的同时消灭 Scav",
                     "maps": [
-                        {
-                            "id": "6a8dd1325e15a5ea2e010820",
-                            "name": "工厂疫区",
-                            "normalizedName": "infected-factory"
-                        },
                         {
                             "id": "55f2d3fd4bdc2d5f408b4567",
                             "name": "工厂",
@@ -292942,6 +292901,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "barter",
                                 "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6389c8fb46b54c634724d847-icon.webp",
@@ -292955,6 +292915,7 @@
                             "width": 1,
                             "height": 2,
                             "types": [
+                                "barter",
                                 "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6389c92d52123d5dd17f8876-icon.webp",
@@ -293033,6 +292994,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
+                                "barter",
                                 "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/660bc341c38b837877075e4c-icon.webp",
@@ -298330,6 +298292,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
+                                "barter",
                                 "keys"
                             ],
                             "iconLink": "https://assets.tarkov.dev/62a09ec84f842e1bd12da3f2-icon.webp",
@@ -340527,7 +340490,7 @@
                 "name": "海关",
                 "normalizedName": "customs"
             },
-            "experience": 11000,
+            "experience": 3000,
             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Private_Club",
             "minPlayerLevel": 0,
             "taskRequirements": [],

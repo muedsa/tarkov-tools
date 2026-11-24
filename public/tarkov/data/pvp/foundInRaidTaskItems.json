@@ -134,25 +134,6 @@
         ]
     },
     {
-        "id": "679b992329acd1f2f60985a5",
-        "name": "Labrys 研发记录",
-        "normalizedName": "labrys-research-notes",
-        "types": [],
-        "iconLink": "679b992329acd1f2f60985a5-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Labrys_research_notes",
-        "tasks": [
-            {
-                "id": "67a0970f05d1611ed90be75d",
-                "name": "检验假说",
-                "trader": "Mechanic",
-                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
-                "kappaRequired": false,
-                "count": 5,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
         "id": "5d40407c86f774318526545a",
         "name": "Tarkovskaya瓶装伏特加",
         "normalizedName": "bottle-of-tarkovskaya-vodka",
@@ -593,25 +574,6 @@
         ]
     },
     {
-        "id": "69f9d60b5de6674f08060f2a",
-        "name": "Dunduk 软盘",
-        "normalizedName": "dunduk-floppy-disk",
-        "types": [],
-        "iconLink": "69f9d60b5de6674f08060f2a-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dunduk_floppy_disk",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
         "id": "69398e94ca94fd2877039504",
         "name": "Nut Sack 巴拉克拉瓦头套",
         "normalizedName": "nut-sack-balaclava",
@@ -768,27 +730,6 @@
         ],
         "iconLink": "6a3557f841667bc4bb00fea4-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Bottle_of_YMXC_water",
-        "tasks": [
-            {
-                "id": "5c51aac186f77432ea65c552",
-                "name": "收藏家",
-                "trader": "Fence",
-                "traderImageLink": "579dc571d53a0658a154fbec.webp",
-                "kappaRequired": true,
-                "count": 1,
-                "mixedItemsTask": false
-            }
-        ]
-    },
-    {
-        "id": "62a09ec84f842e1bd12da3f2",
-        "name": "Missam叉车钥匙",
-        "normalizedName": "missam-forklift-key",
-        "types": [
-            "keys"
-        ],
-        "iconLink": "62a09ec84f842e1bd12da3f2-icon.webp",
-        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Missam_forklift_key",
         "tasks": [
             {
                 "id": "5c51aac186f77432ea65c552",

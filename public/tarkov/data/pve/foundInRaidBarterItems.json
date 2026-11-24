@@ -729,6 +729,28 @@
         "hideoutStations": []
     },
     {
+        "id": "679b992329acd1f2f60985a5",
+        "name": "Labrys 研发记录",
+        "normalizedName": "labrys-research-notes",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "679b992329acd1f2f60985a5-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Labrys_research_notes",
+        "tasks": [
+            {
+                "id": "67a0970f05d1611ed90be75d",
+                "name": "检验假说",
+                "trader": "Mechanic",
+                "traderImageLink": "5a7c2eca46aef81a7ca2145d.webp",
+                "kappaRequired": false,
+                "count": 5,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
         "id": "5d1b33a686f7742523398398",
         "name": "纯净水",
         "normalizedName": "canister-with-purified-water",
@@ -1299,6 +1321,28 @@
         "hideoutStations": []
     },
     {
+        "id": "69f9d60b5de6674f08060f2a",
+        "name": "Dunduk 软盘",
+        "normalizedName": "dunduk-floppy-disk",
+        "types": [
+            "barter"
+        ],
+        "iconLink": "69f9d60b5de6674f08060f2a-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Dunduk_floppy_disk",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
         "id": "60b0f93284c20f0feb453da7",
         "name": "罐装六可乐",
         "normalizedName": "can-of-ratcola-soda",
@@ -1418,6 +1462,29 @@
         ],
         "iconLink": "60b0f561c4449e4cb624c1d7-icon.webp",
         "wikiLink": "https://escapefromtarkov.fandom.com/wiki/LVNDMARK%27s_rat_poison",
+        "tasks": [
+            {
+                "id": "5c51aac186f77432ea65c552",
+                "name": "收藏家",
+                "trader": "Fence",
+                "traderImageLink": "579dc571d53a0658a154fbec.webp",
+                "kappaRequired": true,
+                "count": 1,
+                "mixedItemsTask": false
+            }
+        ],
+        "hideoutStations": []
+    },
+    {
+        "id": "62a09ec84f842e1bd12da3f2",
+        "name": "Missam叉车钥匙",
+        "normalizedName": "missam-forklift-key",
+        "types": [
+            "barter",
+            "keys"
+        ],
+        "iconLink": "62a09ec84f842e1bd12da3f2-icon.webp",
+        "wikiLink": "https://escapefromtarkov.fandom.com/wiki/Missam_forklift_key",
         "tasks": [
             {
                 "id": "5c51aac186f77432ea65c552",
