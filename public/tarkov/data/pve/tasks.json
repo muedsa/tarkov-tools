@@ -6403,7 +6403,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702558cfc010a0f5006a25-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80_ammo_pack_(20_pcs)"
@@ -16344,6 +16345,7 @@
                             "width": 4,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "preset"
                             ],
                             "iconLink": "https://assets.tarkov.dev/707265736574000000000026-icon.webp",
@@ -22424,7 +22426,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702558cfc010a0f5006a25-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80_ammo_pack_(20_pcs)"
@@ -23196,7 +23199,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702652cfc010a0f5006a53-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1_ammo_pack_(100_pcs)"
@@ -28599,7 +28603,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702558cfc010a0f5006a25-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80_ammo_pack_(20_pcs)"
@@ -51143,7 +51148,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657023a9126cc4a57d0e17a6-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Blackout_CBJ_ammo_pack_(50_pcs)"
@@ -53478,7 +53484,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6570257cc5d7d4cb4d078579-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_PS_gzh_ammo_pack_(20_pcs)"
@@ -57059,7 +57066,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64ace9f9c4eda9354b0226aa-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_PP_gzh_ammo_pack_(20_pcs)"
@@ -61661,7 +61669,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024cecfc010a0f5006a0a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/4.6x30mm_FMJ_SX_ammo_pack_(40_pcs)"
@@ -61838,7 +61847,8 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6570900858b315e8b70a8a98-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(120_pcs)"
@@ -68494,7 +68504,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6570257cc5d7d4cb4d078579-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_PS_gzh_ammo_pack_(20_pcs)"
@@ -101785,6 +101796,7 @@
                             "width": 6,
                             "height": 2,
                             "types": [
+                                "noFlea",
                                 "preset"
                             ],
                             "iconLink": "https://assets.tarkov.dev/707265736574000000000022-icon.webp",
@@ -119416,7 +119428,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64ace9f9c4eda9354b0226aa-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_PP_gzh_ammo_pack_(20_pcs)"
@@ -135869,7 +135882,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/648983d6b5a2df1c815a04ec-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/12.7x55mm_PS12B_(10_pcs)"
@@ -147247,7 +147261,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6570257cc5d7d4cb4d078579-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_PS_gzh_ammo_pack_(20_pcs)"
@@ -147265,7 +147280,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64898602f09d032aa9399d56-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(30_pcs)"
@@ -157797,7 +157813,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/648983d6b5a2df1c815a04ec-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/12.7x55mm_PS12B_(10_pcs)"
@@ -158174,8 +158191,7 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox",
-                                "noFlea"
+                                "ammoBox"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024aebfc87b3a3409322f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/23x75mm_Shrapnel-10_buckshot_ammo_pack_(5_pcs)"
@@ -158188,8 +158204,7 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox",
-                                "noFlea"
+                                "ammoBox"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024b31419851aef03e70f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/23x75mm_Shrapnel-25_buckshot_ammo_pack_(5_pcs)"
@@ -158321,7 +158336,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657023f81419851aef03e6f1-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.366_TKM_AP-M_ammo_pack_(20_pcs)"
@@ -158413,7 +158429,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024cecfc010a0f5006a0a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/4.6x30mm_FMJ_SX_ammo_pack_(40_pcs)"
@@ -158439,7 +158456,8 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6570900858b315e8b70a8a98-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(120_pcs)"
@@ -158683,7 +158701,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64898602f09d032aa9399d56-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(30_pcs)"
@@ -158868,7 +158887,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702652cfc010a0f5006a53-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1_ammo_pack_(100_pcs)"
@@ -158987,7 +159007,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024e3c5d7d4cb4d07856a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1_ammo_pack_(50_pcs)"
@@ -159341,7 +159362,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64ace9f9c4eda9354b0226aa-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_PP_gzh_ammo_pack_(20_pcs)"
@@ -159448,7 +159470,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702558cfc010a0f5006a25-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80_ammo_pack_(20_pcs)"
@@ -159568,7 +159591,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702577cfc010a0f5006a2c-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_LPS_gzh_ammo_pack_(20_pcs)"
@@ -159581,7 +159605,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6570257cc5d7d4cb4d078579-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_PS_gzh_ammo_pack_(20_pcs)"
@@ -159594,7 +159619,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702584cfc010a0f5006a2f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_T-46M_gzh_ammo_pack_(20_pcs)"
@@ -160206,7 +160232,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657025cfbfc87b3a34093253-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9x39mm_PAB-9_gs_ammo_pack_(20_pcs)"
@@ -160300,7 +160327,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657023a9126cc4a57d0e17a6-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Blackout_CBJ_ammo_pack_(50_pcs)"
@@ -160352,8 +160380,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox",
-                                "noFlea"
+                                "ammoBox"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657023c61419851aef03e6eb-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Whisper_ammo_pack_(50_pcs)"
@@ -202515,7 +202542,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/648983d6b5a2df1c815a04ec-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/12.7x55mm_PS12B_(10_pcs)"
@@ -202892,8 +202920,7 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox",
-                                "noFlea"
+                                "ammoBox"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024aebfc87b3a3409322f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/23x75mm_Shrapnel-10_buckshot_ammo_pack_(5_pcs)"
@@ -202906,8 +202933,7 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox",
-                                "noFlea"
+                                "ammoBox"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024b31419851aef03e70f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/23x75mm_Shrapnel-25_buckshot_ammo_pack_(5_pcs)"
@@ -203039,7 +203065,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657023f81419851aef03e6f1-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.366_TKM_AP-M_ammo_pack_(20_pcs)"
@@ -203131,7 +203158,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024cecfc010a0f5006a0a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/4.6x30mm_FMJ_SX_ammo_pack_(40_pcs)"
@@ -203157,7 +203185,8 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6570900858b315e8b70a8a98-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(120_pcs)"
@@ -203401,7 +203430,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64898602f09d032aa9399d56-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(30_pcs)"
@@ -203586,7 +203616,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702652cfc010a0f5006a53-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1_ammo_pack_(100_pcs)"
@@ -203705,7 +203736,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024e3c5d7d4cb4d07856a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1_ammo_pack_(50_pcs)"
@@ -204059,7 +204091,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64ace9f9c4eda9354b0226aa-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_PP_gzh_ammo_pack_(20_pcs)"
@@ -204166,7 +204199,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702558cfc010a0f5006a25-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80_ammo_pack_(20_pcs)"
@@ -204286,7 +204320,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702577cfc010a0f5006a2c-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_LPS_gzh_ammo_pack_(20_pcs)"
@@ -204299,7 +204334,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6570257cc5d7d4cb4d078579-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_PS_gzh_ammo_pack_(20_pcs)"
@@ -204312,7 +204348,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702584cfc010a0f5006a2f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_T-46M_gzh_ammo_pack_(20_pcs)"
@@ -204924,7 +204961,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657025cfbfc87b3a34093253-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9x39mm_PAB-9_gs_ammo_pack_(20_pcs)"
@@ -205018,7 +205056,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657023a9126cc4a57d0e17a6-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Blackout_CBJ_ammo_pack_(50_pcs)"
@@ -205070,8 +205109,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox",
-                                "noFlea"
+                                "ammoBox"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657023c61419851aef03e6eb-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Whisper_ammo_pack_(50_pcs)"
@@ -248972,7 +249010,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/648983d6b5a2df1c815a04ec-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/12.7x55mm_PS12B_(10_pcs)"
@@ -249349,8 +249388,7 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox",
-                                "noFlea"
+                                "ammoBox"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024aebfc87b3a3409322f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/23x75mm_Shrapnel-10_buckshot_ammo_pack_(5_pcs)"
@@ -249363,8 +249401,7 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox",
-                                "noFlea"
+                                "ammoBox"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024b31419851aef03e70f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/23x75mm_Shrapnel-25_buckshot_ammo_pack_(5_pcs)"
@@ -249496,7 +249533,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657023f81419851aef03e6f1-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.366_TKM_AP-M_ammo_pack_(20_pcs)"
@@ -249588,7 +249626,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024cecfc010a0f5006a0a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/4.6x30mm_FMJ_SX_ammo_pack_(40_pcs)"
@@ -249614,7 +249653,8 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6570900858b315e8b70a8a98-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(120_pcs)"
@@ -249858,7 +249898,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64898602f09d032aa9399d56-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(30_pcs)"
@@ -250043,7 +250084,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702652cfc010a0f5006a53-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1_ammo_pack_(100_pcs)"
@@ -250162,7 +250204,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024e3c5d7d4cb4d07856a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1_ammo_pack_(50_pcs)"
@@ -250516,7 +250559,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64ace9f9c4eda9354b0226aa-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_PP_gzh_ammo_pack_(20_pcs)"
@@ -250623,7 +250667,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702558cfc010a0f5006a25-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80_ammo_pack_(20_pcs)"
@@ -250743,7 +250788,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702577cfc010a0f5006a2c-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_LPS_gzh_ammo_pack_(20_pcs)"
@@ -250756,7 +250802,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6570257cc5d7d4cb4d078579-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_PS_gzh_ammo_pack_(20_pcs)"
@@ -250769,7 +250816,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702584cfc010a0f5006a2f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_T-46M_gzh_ammo_pack_(20_pcs)"
@@ -251381,7 +251429,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657025cfbfc87b3a34093253-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9x39mm_PAB-9_gs_ammo_pack_(20_pcs)"
@@ -251475,7 +251524,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657023a9126cc4a57d0e17a6-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Blackout_CBJ_ammo_pack_(50_pcs)"
@@ -251527,8 +251577,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox",
-                                "noFlea"
+                                "ammoBox"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657023c61419851aef03e6eb-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Whisper_ammo_pack_(50_pcs)"
@@ -286703,7 +286752,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657025cfbfc87b3a34093253-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9x39mm_PAB-9_gs_ammo_pack_(20_pcs)"
@@ -288104,7 +288154,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657023a9126cc4a57d0e17a6-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Blackout_CBJ_ammo_pack_(50_pcs)"
@@ -291236,7 +291287,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024e3c5d7d4cb4d07856a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1_ammo_pack_(50_pcs)"
@@ -291331,7 +291383,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/648983d6b5a2df1c815a04ec-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/12.7x55mm_PS12B_(10_pcs)"
@@ -291372,7 +291425,8 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6570900858b315e8b70a8a98-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(120_pcs)"
@@ -291385,7 +291439,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64898602f09d032aa9399d56-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(30_pcs)"
@@ -291522,7 +291577,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64ace9f9c4eda9354b0226aa-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_PP_gzh_ammo_pack_(20_pcs)"
@@ -291629,7 +291685,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657025cfbfc87b3a34093253-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9x39mm_PAB-9_gs_ammo_pack_(20_pcs)"
@@ -291786,7 +291843,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/648983d6b5a2df1c815a04ec-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/12.7x55mm_PS12B_(10_pcs)"
@@ -291827,7 +291885,8 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6570900858b315e8b70a8a98-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(120_pcs)"
@@ -291840,7 +291899,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64898602f09d032aa9399d56-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(30_pcs)"
@@ -291977,7 +292037,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64ace9f9c4eda9354b0226aa-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_PP_gzh_ammo_pack_(20_pcs)"
@@ -292084,7 +292145,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657025cfbfc87b3a34093253-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9x39mm_PAB-9_gs_ammo_pack_(20_pcs)"
@@ -292293,7 +292355,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/648983d6b5a2df1c815a04ec-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/12.7x55mm_PS12B_(10_pcs)"
@@ -292334,7 +292397,8 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6570900858b315e8b70a8a98-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(120_pcs)"
@@ -292347,7 +292411,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64898602f09d032aa9399d56-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(30_pcs)"
@@ -292484,7 +292549,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64ace9f9c4eda9354b0226aa-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_PP_gzh_ammo_pack_(20_pcs)"
@@ -292591,7 +292657,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657025cfbfc87b3a34093253-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9x39mm_PAB-9_gs_ammo_pack_(20_pcs)"
@@ -301016,7 +301083,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/648983d6b5a2df1c815a04ec-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/12.7x55mm_PS12B_(10_pcs)"
@@ -301393,8 +301461,7 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox",
-                                "noFlea"
+                                "ammoBox"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024aebfc87b3a3409322f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/23x75mm_Shrapnel-10_buckshot_ammo_pack_(5_pcs)"
@@ -301407,8 +301474,7 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox",
-                                "noFlea"
+                                "ammoBox"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024b31419851aef03e70f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/23x75mm_Shrapnel-25_buckshot_ammo_pack_(5_pcs)"
@@ -301540,7 +301606,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657023f81419851aef03e6f1-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.366_TKM_AP-M_ammo_pack_(20_pcs)"
@@ -301632,7 +301699,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024cecfc010a0f5006a0a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/4.6x30mm_FMJ_SX_ammo_pack_(40_pcs)"
@@ -301658,7 +301726,8 @@
                             "width": 2,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6570900858b315e8b70a8a98-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(120_pcs)"
@@ -301902,7 +301971,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64898602f09d032aa9399d56-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.45x39mm_7N40_ammo_pack_(30_pcs)"
@@ -302087,7 +302157,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702652cfc010a0f5006a53-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1_ammo_pack_(100_pcs)"
@@ -302206,7 +302277,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024e3c5d7d4cb4d07856a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1_ammo_pack_(50_pcs)"
@@ -302560,7 +302632,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/64ace9f9c4eda9354b0226aa-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x39mm_PP_gzh_ammo_pack_(20_pcs)"
@@ -302667,7 +302740,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702558cfc010a0f5006a25-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80_ammo_pack_(20_pcs)"
@@ -302787,7 +302861,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702577cfc010a0f5006a2c-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_LPS_gzh_ammo_pack_(20_pcs)"
@@ -302800,7 +302875,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/6570257cc5d7d4cb4d078579-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_PS_gzh_ammo_pack_(20_pcs)"
@@ -302813,7 +302889,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702584cfc010a0f5006a2f-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x54mm_R_T-46M_gzh_ammo_pack_(20_pcs)"
@@ -303425,7 +303502,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657025cfbfc87b3a34093253-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9x39mm_PAB-9_gs_ammo_pack_(20_pcs)"
@@ -303519,7 +303597,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657023a9126cc4a57d0e17a6-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Blackout_CBJ_ammo_pack_(50_pcs)"
@@ -303571,8 +303650,7 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox",
-                                "noFlea"
+                                "ammoBox"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657023c61419851aef03e6eb-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/.300_Whisper_ammo_pack_(50_pcs)"
@@ -339555,7 +339633,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/657024e3c5d7d4cb4d07856a-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/5.56x45mm_M855A1_ammo_pack_(50_pcs)"
@@ -340312,7 +340391,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702558cfc010a0f5006a25-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80_ammo_pack_(20_pcs)"
@@ -342114,7 +342194,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/65702558cfc010a0f5006a25-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/7.62x51mm_M80_ammo_pack_(20_pcs)"
@@ -342856,7 +342937,8 @@
                             "width": 1,
                             "height": 1,
                             "types": [
-                                "ammoBox"
+                                "ammoBox",
+                                "noFlea"
                             ],
                             "iconLink": "https://assets.tarkov.dev/68ee0114024fb2df16004f1c-icon.webp",
                             "wikiLink": "https://escapefromtarkov.fandom.com/wiki/9.3x64mm_FMJ_ammo_pack_(20_pcs)"
